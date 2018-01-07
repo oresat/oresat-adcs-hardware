@@ -1,5 +1,5 @@
 # oresat-acs-board
 Controller PCB for OreSat reaction wheels and magnetorquers
 
- - [ ]
- - [x]
+ - [ ] check one
+ - [x] check two
