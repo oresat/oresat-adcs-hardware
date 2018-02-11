@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -24825,60 +24825,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TSV991ILT">
-<packages>
-<package name="SOT23-5">
-<smd name="VCC-" x="0" y="1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="IN+" x="0.95" y="1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="OUT" x="-0.95" y="1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="IN-" x="0.95" y="-1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="VCC+" x="-0.95" y="-1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<wire x1="-1.45" y1="-0.8" x2="1.45" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="1.45" y1="-0.8" x2="1.45" y2="0.8" width="0.127" layer="21"/>
-<wire x1="1.45" y1="0.8" x2="-1.45" y2="0.8" width="0.127" layer="21"/>
-<wire x1="-1.45" y1="0.8" x2="-1.45" y2="-0.8" width="0.127" layer="21"/>
-<text x="-1.778" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
-<circle x="-1.905" y="1.016" radius="0.127" width="0.127" layer="21"/>
-<text x="-1.778" y="-2.032" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TSV991ILT">
-<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="-10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
-<wire x1="15.24" y1="10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
-<pin name="IN+" x="-20.32" y="5.08" length="middle"/>
-<pin name="IN-" x="-20.32" y="-5.08" length="middle"/>
-<pin name="VCC" x="0" y="15.24" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
-<pin name="OUT" x="20.32" y="0" length="middle" rot="R180"/>
-<text x="-15.24" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-15.24" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TSV991ILT" prefix="J">
-<gates>
-<gate name="G$1" symbol="TSV991ILT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="GND" pad="VCC-"/>
-<connect gate="G$1" pin="IN+" pad="IN+"/>
-<connect gate="G$1" pin="IN-" pad="IN-"/>
-<connect gate="G$1" pin="OUT" pad="OUT"/>
-<connect gate="G$1" pin="VCC" pad="VCC+"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="STSPIN250">
 <packages>
 <package name="VFQFPN">
@@ -24958,6 +24904,68 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="G$1" pin="TEST1" pad="TEST1"/>
 <connect gate="G$1" pin="TOFF" pad="TOFF"/>
 <connect gate="G$1" pin="VS" pad="VS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="TSV991ILT">
+<packages>
+<package name="SOT23-5">
+<smd name="VCC-" x="0" y="1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="IN+" x="0.95" y="1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="OUT" x="-0.95" y="1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="IN-" x="0.95" y="-1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="VCC+" x="-0.95" y="-1.1" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<wire x1="-1.45" y1="-0.8" x2="1.45" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.45" y1="-0.8" x2="1.45" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.8" x2="-1.45" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.45" y1="0.8" x2="-1.45" y2="-0.8" width="0.127" layer="21"/>
+<text x="-1.778" y="1.524" size="0.4064" layer="25">&gt;NAME</text>
+<circle x="-1.905" y="1.016" radius="0.127" width="0.127" layer="21"/>
+<text x="-1.778" y="-2.032" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TSV991ILT">
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<pin name="IN+" x="-20.32" y="5.08" length="middle"/>
+<pin name="IN-" x="-20.32" y="-5.08" length="middle"/>
+<pin name="VCC" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
+<pin name="OUT" x="20.32" y="0" length="middle" rot="R180"/>
+<text x="-15.24" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TSV991ILT" prefix="J">
+<gates>
+<gate name="G$1" symbol="TSV991ILT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="VCC-"/>
+<connect gate="G$1" pin="IN+" pad="IN+"/>
+<connect gate="G$1" pin="IN-" pad="IN-"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+<connect gate="G$1" pin="VCC" pad="VCC+"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -25199,11 +25207,10 @@ Source: http://www.osram.convergy.de/</description>
 <part name="LED2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603"/>
 <part name="LED3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="68"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="68"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="0.68"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="0.68"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="680"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="2.2k"/>
-<part name="J6" library="TSV991ILT" deviceset="TSV991ILT" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="NP"/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="0"/>
@@ -25256,6 +25263,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330"/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="330"/>
+<part name="J6" library="TSV991ILT" deviceset="TSV991ILT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26770,7 +26778,6 @@ Do we need to amplify it?</text>
 <instance part="R8" gate="G$1" x="223.52" y="177.8" rot="R90"/>
 <instance part="R9" gate="G$1" x="261.62" y="177.8" rot="R180"/>
 <instance part="R10" gate="G$1" x="261.62" y="167.64" rot="R180"/>
-<instance part="J6" gate="G$1" x="297.18" y="172.72"/>
 <instance part="SUPPLY14" gate="G$1" x="226.06" y="264.16"/>
 <instance part="R11" gate="G$1" x="226.06" y="256.54" rot="R90"/>
 <instance part="R12" gate="G$1" x="205.74" y="256.54" rot="R90"/>
@@ -26823,6 +26830,7 @@ Do we need to amplify it?</text>
 <instance part="GND51" gate="1" x="45.72" y="45.72"/>
 <instance part="R25" gate="G$1" x="76.2" y="86.36" rot="R180"/>
 <instance part="R26" gate="G$1" x="68.58" y="91.44" rot="R180"/>
+<instance part="J6" gate="G$1" x="297.18" y="172.72"/>
 </instances>
 <busses>
 </busses>
@@ -26927,10 +26935,6 @@ Do we need to amplify it?</text>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="GND"/>
-<pinref part="GND40" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND41" gate="1" pin="GND"/>
 <wire x1="309.88" y1="190.5" x2="304.8" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -27004,6 +27008,10 @@ Do we need to amplify it?</text>
 <wire x1="182.88" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
 <junction x="182.88" y="71.12"/>
 </segment>
+<segment>
+<pinref part="GND40" gate="1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -27021,7 +27029,6 @@ Do we need to amplify it?</text>
 <pinref part="SUPPLY15" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
 <wire x1="297.18" y1="187.96" x2="297.18" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -27032,6 +27039,7 @@ Do we need to amplify it?</text>
 <wire x1="304.8" y1="203.2" x2="297.18" y2="203.2" width="0.1524" layer="91"/>
 <junction x="304.8" y="203.2"/>
 <junction x="297.18" y="203.2"/>
+<pinref part="J6" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="R_STBY1" gate="G$1" pin="2"/>
@@ -27177,14 +27185,13 @@ Do we need to amplify it?</text>
 <net name="N$14" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="J6" gate="G$1" pin="IN+"/>
 <wire x1="266.7" y1="177.8" x2="276.86" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="IN+"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="J6" gate="G$1" pin="IN-"/>
 <wire x1="266.7" y1="167.64" x2="274.32" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="167.64" x2="276.86" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="167.64" x2="274.32" y2="144.78" width="0.1524" layer="91"/>
@@ -27195,6 +27202,7 @@ Do we need to amplify it?</text>
 <wire x1="294.64" y1="132.08" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="132.08" x2="274.32" y2="144.78" width="0.1524" layer="91"/>
 <junction x="274.32" y="144.78"/>
+<pinref part="J6" gate="G$1" pin="IN-"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -27202,7 +27210,6 @@ Do we need to amplify it?</text>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="144.78" x2="322.58" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="144.78" x2="322.58" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="J6" gate="G$1" pin="OUT"/>
 <wire x1="322.58" y1="172.72" x2="317.5" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="132.08" x2="322.58" y2="132.08" width="0.1524" layer="91"/>
@@ -27210,6 +27217,7 @@ Do we need to amplify it?</text>
 <junction x="322.58" y="144.78"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <junction x="322.58" y="172.72"/>
+<pinref part="J6" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="CURR_FDB" class="0">
@@ -27233,7 +27241,7 @@ Do we need to amplify it?</text>
 <label x="86.36" y="251.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="STBY_DC" class="0">
+<net name="STBY_MAG" class="0">
 <segment>
 <pinref part="R_STBY1" gate="G$1" pin="1"/>
 <pinref part="C_STBY1" gate="G$1" pin="1"/>
@@ -27246,7 +27254,7 @@ Do we need to amplify it?</text>
 <label x="38.1" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="FAULT_DC" class="0">
+<net name="FAULT_MAG" class="0">
 <segment>
 <pinref part="R_EN1" gate="G$1" pin="1"/>
 <pinref part="C_EN1" gate="G$1" pin="1"/>
@@ -27261,7 +27269,7 @@ Do we need to amplify it?</text>
 <wire x1="53.34" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EN_DC" class="0">
+<net name="EN_MAG" class="0">
 <segment>
 <pinref part="R_EN1" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="106.68" x2="17.78" y2="106.68" width="0.1524" layer="91"/>
@@ -27275,7 +27283,7 @@ Do we need to amplify it?</text>
 <pinref part="R26" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="PWM_DC" class="0">
+<net name="PWM_MAG" class="0">
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
@@ -27399,7 +27407,7 @@ Do we need to amplify it?</text>
 <label x="15.24" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PH_DC" class="0">
+<net name="PH_MAG" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
