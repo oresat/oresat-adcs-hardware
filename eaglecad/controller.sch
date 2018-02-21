@@ -26023,13 +26023,6 @@ mode. Leave CAN_SHDN
 <pinref part="U6" gate="G$1" pin="PA11"/>
 </segment>
 </net>
-<net name="PA15/EN_BLDC" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="PA15"/>
-<wire x1="248.92" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
-<label x="228.6" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PA5/SPI1_SCK" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PA5"/>
@@ -26608,7 +26601,7 @@ mode. Leave CAN_SHDN
 <label x="294.64" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PB6" class="0">
+<net name="PB6/EN_BLDC" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PB6"/>
 <wire x1="289.56" y1="116.84" x2="294.64" y2="116.84" width="0.1524" layer="91"/>
@@ -26680,6 +26673,13 @@ mode. Leave CAN_SHDN
 <pinref part="U6" gate="G$1" pin="PA9"/>
 <label x="223.52" y="129.54" size="1.778" layer="95"/>
 <wire x1="248.92" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PA15/SPI1_NSS" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="PA15"/>
+<wire x1="248.92" y1="114.3" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
+<label x="228.6" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -27070,7 +27070,7 @@ Output</text>
 <label x="60.96" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PA15/EN_BLDC" class="0">
+<net name="PB6/EN_BLDC" class="0">
 <segment>
 <pinref part="R_EN" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="195.58" x2="66.04" y2="195.58" width="0.1524" layer="91"/>
@@ -27604,10 +27604,11 @@ SPI chip select.</text>
 <label x="172.72" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="PA15/SPI1_NSS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CSN"/>
 <wire x1="195.58" y1="165.1" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
+<label x="172.72" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -27622,9 +27623,7 @@ SPI chip select.</text>
 <approved hash="104,1,261.62,157.48,U6,VDDIO2,3.3V,,,"/>
 <approved hash="209,1,187.96,127,CAN_SHDN,,,,,"/>
 <approved hash="106,1,187.96,127,CAN_SHDN,,,,,"/>
-<approved hash="106,4,195.58,165.1,N$9,,,,,"/>
 <approved hash="106,1,289.56,119.38,PB5,,,,,"/>
-<approved hash="106,1,289.56,116.84,PB6,,,,,"/>
 <approved hash="106,1,289.56,114.3,PB7,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,1,78.6977,160.246,JP1,,,,,"/>
