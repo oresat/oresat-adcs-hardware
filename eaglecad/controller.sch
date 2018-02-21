@@ -26601,7 +26601,7 @@ mode. Leave CAN_SHDN
 <label x="294.64" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PB5/SPI1_MOSI" class="0">
+<net name="PB5" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="PB5"/>
 <wire x1="289.56" y1="119.38" x2="294.64" y2="119.38" width="0.1524" layer="91"/>
@@ -27035,11 +27035,11 @@ Output</text>
 <label x="116.84" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PA9/INVH" class="0">
+<net name="PA9/INVH/PH_MAG" class="0">
 <segment>
 <pinref part="DRIVER1" gate="G$1" pin="INVH"/>
 <wire x1="134.62" y1="180.34" x2="116.84" y2="180.34" width="0.1524" layer="91"/>
-<label x="116.84" y="180.34" size="1.778" layer="95"/>
+<label x="106.68" y="180.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA10/INWH" class="0">
@@ -27065,15 +27065,6 @@ Output</text>
 </net>
 <net name="PA4/FAULT" class="0">
 <segment>
-<pinref part="R_EN" gate="G$1" pin="1"/>
-<pinref part="C_EN" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="195.58" x2="96.52" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="DRIVER1" gate="G$1" pin="EN/FAULT"/>
-<wire x1="96.52" y1="195.58" x2="134.62" y2="195.58" width="0.1524" layer="91"/>
-<junction x="96.52" y="195.58"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-</segment>
-<segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="200.66" x2="63.5" y2="200.66" width="0.1524" layer="91"/>
 <label x="60.96" y="200.66" size="1.778" layer="95"/>
@@ -27084,6 +27075,17 @@ Output</text>
 <pinref part="R_EN" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="195.58" x2="66.04" y2="195.58" width="0.1524" layer="91"/>
 <label x="60.96" y="195.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EN/FAULT" class="0">
+<segment>
+<pinref part="R_EN" gate="G$1" pin="1"/>
+<pinref part="C_EN" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="195.58" x2="96.52" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="DRIVER1" gate="G$1" pin="EN/FAULT"/>
+<wire x1="96.52" y1="195.58" x2="134.62" y2="195.58" width="0.1524" layer="91"/>
+<junction x="96.52" y="195.58"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 </net>
 </nets>
@@ -27618,15 +27620,32 @@ SPI chip select.</text>
 <approved hash="104,1,269.24,157.48,U6,VDDA,3.3V,,,"/>
 <approved hash="104,1,269.24,106.68,U6,VSS,GND,,,"/>
 <approved hash="104,1,261.62,157.48,U6,VDDIO2,3.3V,,,"/>
+<approved hash="209,1,187.96,127,CAN_SHDN,,,,,"/>
+<approved hash="106,1,187.96,127,CAN_SHDN,,,,,"/>
+<approved hash="106,4,195.58,165.1,N$9,,,,,"/>
+<approved hash="106,1,289.56,119.38,PB5,,,,,"/>
+<approved hash="106,1,289.56,116.84,PB6,,,,,"/>
+<approved hash="106,1,289.56,114.3,PB7,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,1,78.6977,160.246,JP1,,,,,"/>
 <approved hash="113,1,101.837,150.086,JP2,,,,,"/>
 <approved hash="113,1,141.207,160.246,JP3,,,,,"/>
-<approved hash="113,1,270.468,51.0261,JP4,,,,,"/>
 <approved hash="113,1,179.307,67.5361,JP5,,,,,"/>
 <approved hash="113,1,179.307,87.8561,JP7,,,,,"/>
 <approved hash="113,1,179.307,49.7561,JP6,,,,,"/>
 <approved hash="113,1,183.473,25.4677,J5,,,,,"/>
+<approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
+<approved hash="113,2,226.297,194.536,JP8,,,,,"/>
+<approved hash="113,2,200.982,171.45,LED1,,,,,"/>
+<approved hash="113,2,208.602,171.45,LED2,,,,,"/>
+<approved hash="113,2,216.222,171.45,LED3,,,,,"/>
+<approved hash="113,3,211.142,176.53,LED4,,,,,"/>
+<approved hash="113,3,218.762,176.53,LED5,,,,,"/>
+<approved hash="113,3,226.297,199.616,JP9,,,,,"/>
+<approved hash="113,3,215.796,139.596,FRAME3,,,,,"/>
+<approved hash="113,2,95.2754,198.12,D4,,,,,"/>
+<approved hash="113,3,74.9554,210.82,D5,,,,,"/>
+<approved hash="113,4,215.796,139.596,FRAME4,,,,,"/>
 </errors>
 </schematic>
 </drawing>
