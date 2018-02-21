@@ -25317,10 +25317,6 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <part name="J7" library="TSV991ILT" deviceset="TSV991ILT" device=""/>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
-<part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
-<part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SMA"/>
 <part name="D5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SMA"/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -25350,8 +25346,8 @@ resistors. If CAN_SHDN is
 pulled high it shuts the IC off.
 If CAN_LSTN is pulled high
 it puts the IC intro receive-only
-mode. Just leave these 
-disconnected.</text>
+mode. Leave CAN_SHDN
+ disconnected.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -26695,14 +26691,7 @@ Output</text>
 <text x="289.56" y="106.68" size="1.778" layer="97">Current feedback loop.
  Non-inverting amplfier
  provides a voltage output.</text>
-<text x="302.26" y="83.82" size="1.778" layer="97">CURR_FDB will need to go
-back to a GPIO pin on the
-F0 MCU.</text>
 <text x="116.84" y="241.3" size="5.08" layer="97">Motor Driver for BLDC</text>
-<text x="43.18" y="177.8" size="1.778" layer="97">Pulldown EN voltage
-to shut IC off when
-the HEX switch 
-changes direction.</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -26751,8 +26740,6 @@ changes direction.</text>
 <instance part="J6" gate="G$1" x="266.7" y="93.98"/>
 <instance part="GND38" gate="1" x="208.28" y="53.34"/>
 <instance part="GND54" gate="1" x="223.52" y="93.98"/>
-<instance part="R34" gate="G$1" x="71.12" y="187.96" rot="R270"/>
-<instance part="GND59" gate="1" x="71.12" y="177.8"/>
 <instance part="D4" gate="G$1" x="96.52" y="198.12" rot="R90"/>
 </instances>
 <busses>
@@ -26831,11 +26818,6 @@ changes direction.</text>
 <pinref part="J6" gate="G$1" pin="GND"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 <wire x1="261.62" y1="81.28" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND59" gate="1" pin="GND"/>
-<pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="180.34" x2="71.12" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -27100,12 +27082,8 @@ changes direction.</text>
 <net name="PA15/EN_BLDC" class="0">
 <segment>
 <pinref part="R_EN" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="195.58" x2="71.12" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="195.58" x2="66.04" y2="195.58" width="0.1524" layer="91"/>
 <label x="60.96" y="195.58" size="1.778" layer="95"/>
-<pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="195.58" x2="66.04" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="193.04" x2="71.12" y2="195.58" width="0.1524" layer="91"/>
-<junction x="71.12" y="195.58"/>
 </segment>
 </net>
 </nets>
@@ -27114,22 +27092,10 @@ changes direction.</text>
 <plain>
 <text x="231.14" y="198.12" size="1.778" layer="97">Magnetorquer
 Output</text>
-<text x="40.64" y="228.6" size="1.778" layer="97">Find pins on F0 MCU
- to connect STBY_DC,
-FAULT_DC, EN_DC,
-PH_DC, PWM_DC,
-and REF.</text>
 <text x="83.82" y="256.54" size="5.08" layer="97">Motor Driver for Magnetorquer</text>
 <text x="289.56" y="104.14" size="1.778" layer="97">Current feedback loop.
  Non-inverting amplfier
  provides a voltage output.</text>
-<text x="302.26" y="81.28" size="1.778" layer="97">CURR_FDB will need to go
-back to a GPIO pin on the
-F0 MCU.</text>
-<text x="22.86" y="187.96" size="1.778" layer="97">Pulldown EN voltage
-to shut IC off when
-the HEX switch 
-changes direction.</text>
 <text x="48.26" y="157.48" size="1.778" layer="97">Voltage divider
 biases the REF
 pin to 0.50V.</text>
@@ -27190,8 +27156,6 @@ pin to 0.50V.</text>
 <instance part="J7" gate="G$1" x="266.7" y="91.44"/>
 <instance part="GND55" gate="1" x="208.28" y="50.8"/>
 <instance part="GND56" gate="1" x="223.52" y="91.44"/>
-<instance part="R35" gate="G$1" x="50.8" y="198.12" rot="R270"/>
-<instance part="GND60" gate="1" x="50.8" y="187.96"/>
 <instance part="D5" gate="G$1" x="76.2" y="210.82" rot="R90"/>
 <instance part="SUPPLY23" gate="G$1" x="50.8" y="172.72"/>
 </instances>
@@ -27292,11 +27256,6 @@ pin to 0.50V.</text>
 <pinref part="J7" gate="G$1" pin="GND"/>
 <pinref part="GND52" gate="1" pin="GND"/>
 <wire x1="261.62" y1="78.74" x2="261.62" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND60" gate="1" pin="GND"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="190.5" x2="50.8" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -27569,12 +27528,6 @@ pin to 0.50V.</text>
 <junction x="284.48" y="91.44"/>
 </segment>
 </net>
-<net name="EN_BLDC1" class="0">
-<segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="203.2" x2="50.8" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PA1/CURR_FDB_MAG" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
@@ -27594,6 +27547,9 @@ pin to 0.50V.</text>
 <sheet>
 <plain>
 <text x="200.66" y="185.42" size="5.08" layer="97">Encoder</text>
+<text x="167.64" y="172.72" size="1.778" layer="97">What do we connect the
+CSn pin to? This is for
+SPI chip select.</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="213.36" y="149.86"/>
