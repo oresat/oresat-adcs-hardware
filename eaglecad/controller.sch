@@ -23342,6 +23342,7 @@ Source: Analog Devices .. 780914713ADD8704_0.pdf</description>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U4" library="U-ST-STSPIN230-BLDC-controller" deviceset="STSPIN230" device=""/>
+<part name="TP1" library="Tova" deviceset="TEST-POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23547,6 +23548,9 @@ mode. Leave CAN_SHDN
 <instance part="JP1" gate="A" x="58.42" y="175.26" rot="MR0"/>
 <instance part="SUPPLY2" gate="G$1" x="68.58" y="187.96"/>
 <instance part="GND3" gate="1" x="68.58" y="167.64" rot="MR0"/>
+<instance part="TP1" gate="G$1" x="129.54" y="124.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="127" y="121.92" size="1.778" layer="95" font="vector" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -24010,7 +24014,8 @@ mode. Leave CAN_SHDN
 <segment>
 <pinref part="U2" gate="G$1" pin="SHDN"/>
 <label x="129.54" y="124.46" size="1.778" layer="95" xref="yes"/>
-<wire x1="116.84" y1="124.46" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA10/INWH" class="0">
