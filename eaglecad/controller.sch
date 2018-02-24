@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17407,106 +17407,6 @@ Source: http://www.osram.convergy.de/</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="U-ST-STSPIN250-Brushed-DC-controller">
-<packages>
-<package name="VFQFPN">
-<wire x1="-1.5" y1="1.1" x2="-1.1" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-1.1" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.1" width="0.127" layer="51"/>
-<smd name="EPAD" x="0" y="0" dx="1.8" dy="1.8" layer="1" cream="no"/>
-<smd name="6" x="-0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="7" x="0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="8" x="0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="5" x="-0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="16" x="-0.75" y="1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="15" x="-0.25" y="1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="14" x="0.25" y="1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="13" x="0.75" y="1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="12" x="1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="11" x="1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="10" x="1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="9" x="1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="-1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="-1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="2" x="-1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="1" x="-1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<circle x="-1.75" y="1.75" radius="0.25" width="0.127" layer="21"/>
-<text x="1.2" y="-2.7" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<rectangle x1="-0.8" y1="0.2" x2="-0.2" y2="0.8" layer="31"/>
-<rectangle x1="0.2" y1="0.2" x2="0.8" y2="0.8" layer="31"/>
-<rectangle x1="0.2" y1="-0.8" x2="0.8" y2="-0.2" layer="31"/>
-<rectangle x1="-0.8" y1="-0.8" x2="-0.2" y2="-0.2" layer="31"/>
-<wire x1="-1.5" y1="-1.2" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.2" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.2" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="1.2" x2="-1.2" y2="1.4" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="STSPIN250">
-<wire x1="-17.78" y1="20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
-<wire x1="17.78" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
-<pin name="STBY/RESET" x="-20.32" y="12.7" length="short"/>
-<pin name="EN/FAULT" x="-20.32" y="7.62" length="short"/>
-<pin name="PH" x="-20.32" y="2.54" length="short" direction="in"/>
-<pin name="PWM" x="-20.32" y="-2.54" length="short" direction="in"/>
-<pin name="REF" x="-20.32" y="-7.62" length="short" direction="pas"/>
-<pin name="TOFF" x="-20.32" y="-12.7" length="short" direction="pas"/>
-<pin name="OUTA1" x="20.32" y="12.7" length="short" direction="out" rot="R180"/>
-<pin name="OUTA2" x="20.32" y="7.62" length="short" direction="out" rot="R180"/>
-<pin name="SENSEA" x="20.32" y="2.54" length="short" direction="out" rot="R180"/>
-<pin name="OUTB1" x="20.32" y="-2.54" length="short" direction="out" rot="R180"/>
-<pin name="OUTB2" x="20.32" y="-7.62" length="short" direction="out" rot="R180"/>
-<pin name="SENSEB" x="20.32" y="-12.7" length="short" direction="out" rot="R180"/>
-<pin name="TEST0" x="-7.62" y="-22.86" length="short" rot="R90"/>
-<pin name="TEST1" x="-5.08" y="-22.86" length="short" rot="R90"/>
-<pin name="GND" x="0" y="-22.86" length="short" direction="pwr" rot="R90"/>
-<pin name="VS" x="0" y="22.86" length="short" direction="pwr" rot="R270"/>
-<text x="10.16" y="-22.86" size="1.778" layer="95">&gt;NAME</text>
-<text x="10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.35" y="-1.27" size="1.778" layer="94">STSPIN250</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="STSPIN250" prefix="U">
-<gates>
-<gate name="G$1" symbol="STSPIN250" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="VFQFPN">
-<connects>
-<connect gate="G$1" pin="EN/FAULT" pad="13"/>
-<connect gate="G$1" pin="GND" pad="7 EPAD"/>
-<connect gate="G$1" pin="OUTA1" pad="3"/>
-<connect gate="G$1" pin="OUTA2" pad="5"/>
-<connect gate="G$1" pin="OUTB1" pad="10"/>
-<connect gate="G$1" pin="OUTB2" pad="8"/>
-<connect gate="G$1" pin="PH" pad="1"/>
-<connect gate="G$1" pin="PWM" pad="2"/>
-<connect gate="G$1" pin="REF" pad="11"/>
-<connect gate="G$1" pin="SENSEA" pad="4"/>
-<connect gate="G$1" pin="SENSEB" pad="9"/>
-<connect gate="G$1" pin="STBY/RESET" pad="14"/>
-<connect gate="G$1" pin="TEST0" pad="15"/>
-<connect gate="G$1" pin="TEST1" pad="16"/>
-<connect gate="G$1" pin="TOFF" pad="12"/>
-<connect gate="G$1" pin="VS" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -17733,105 +17633,6 @@ Source: http://www.osram.convergy.de/</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
 </package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="U-ST-STSPIN230-BLDC-controller">
-<packages>
-<package name="STSPIN230">
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<smd name="EPAD" x="0" y="0" dx="1.8" dy="1.8" layer="1" cream="no"/>
-<smd name="2" x="-1.3" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="1" x="-1.3" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="-1.3" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="-1.3" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="15" x="-0.25" y="1.3" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<smd name="16" x="-0.75" y="1.3" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<smd name="14" x="0.25" y="1.3" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<smd name="13" x="0.75" y="1.3" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<smd name="12" x="1.3" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R270"/>
-<smd name="11" x="1.3" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R270"/>
-<smd name="10" x="1.3" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R270"/>
-<smd name="9" x="1.3" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R270"/>
-<smd name="8" x="0.75" y="-1.3" dx="0.25" dy="0.5" layer="1"/>
-<smd name="7" x="0.25" y="-1.3" dx="0.25" dy="0.5" layer="1"/>
-<smd name="6" x="-0.25" y="-1.3" dx="0.25" dy="0.5" layer="1"/>
-<smd name="5" x="-0.75" y="-1.3" dx="0.25" dy="0.5" layer="1"/>
-<circle x="-1.905" y="1.905" radius="0.127" width="0.127" layer="21"/>
-<text x="-1.397" y="1.778" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.032" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.5" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.1" width="0.127" layer="21"/>
-<wire x1="1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1.2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.3" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.3" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.3" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.3" width="0.127" layer="21"/>
-<rectangle x1="-0.8" y1="0.2" x2="-0.2" y2="0.8" layer="31"/>
-<rectangle x1="0.2" y1="0.2" x2="0.8" y2="0.8" layer="31"/>
-<rectangle x1="0.2" y1="-0.8" x2="0.8" y2="-0.2" layer="31"/>
-<rectangle x1="-0.8" y1="-0.8" x2="-0.2" y2="-0.2" layer="31"/>
-</package>
-</packages>
-<symbols>
-<symbol name="STSPIN230">
-<pin name="STBY/RESET" x="-22.86" y="20.32" length="middle" direction="in"/>
-<pin name="EN/FAULT" x="-22.86" y="15.24" length="middle"/>
-<pin name="INUH" x="-22.86" y="10.16" length="middle" direction="in"/>
-<pin name="INUL" x="-22.86" y="5.08" length="middle" direction="in"/>
-<pin name="INVH" x="-22.86" y="0" length="middle" direction="in"/>
-<pin name="INVL" x="-22.86" y="-5.08" length="middle" direction="in"/>
-<pin name="INWH" x="-22.86" y="-10.16" length="middle" direction="in"/>
-<pin name="INWL" x="-22.86" y="-15.24" length="middle" direction="in"/>
-<pin name="GND" x="22.86" y="-15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="VS" x="22.86" y="20.32" length="middle" direction="pwr" rot="R180"/>
-<pin name="OUTU" x="22.86" y="15.24" length="middle" direction="out" rot="R180"/>
-<pin name="SENSEU" x="22.86" y="10.16" length="middle" direction="out" rot="R180"/>
-<pin name="OUTV" x="22.86" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="SENSEVW" x="22.86" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="OUTW" x="22.86" y="0" length="middle" direction="out" rot="R180"/>
-<wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="17.78" y1="-17.78" x2="17.78" y2="22.86" width="0.254" layer="94"/>
-<text x="-17.78" y="25.4" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="5.08" size="1.778" layer="97">STSPIN230</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="STSPIN230" prefix="U">
-<gates>
-<gate name="G$1" symbol="STSPIN230" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="STSPIN230">
-<connects>
-<connect gate="G$1" pin="EN/FAULT" pad="13"/>
-<connect gate="G$1" pin="GND" pad="7 EPAD"/>
-<connect gate="G$1" pin="INUH" pad="2"/>
-<connect gate="G$1" pin="INUL" pad="1"/>
-<connect gate="G$1" pin="INVH" pad="16"/>
-<connect gate="G$1" pin="INVL" pad="15"/>
-<connect gate="G$1" pin="INWH" pad="12"/>
-<connect gate="G$1" pin="INWL" pad="11"/>
-<connect gate="G$1" pin="OUTU" pad="3"/>
-<connect gate="G$1" pin="OUTV" pad="8"/>
-<connect gate="G$1" pin="OUTW" pad="10"/>
-<connect gate="G$1" pin="SENSEU" pad="4"/>
-<connect gate="G$1" pin="SENSEVW" pad="9"/>
-<connect gate="G$1" pin="STBY/RESET" pad="14"/>
-<connect gate="G$1" pin="VS" pad="6"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -22660,6 +22461,195 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 </deviceset>
 </devicesets>
 </library>
+<library name="U-ST-STSPIN230-BLDC-controller (no EPAD)">
+<packages>
+<package name="STSPIN230">
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<smd name="2" x="-1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="-1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="-1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="-1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="15" x="-0.25" y="1.25" dx="0.25" dy="0.5" layer="1" rot="R180"/>
+<smd name="16" x="-0.75" y="1.25" dx="0.25" dy="0.5" layer="1" rot="R180"/>
+<smd name="14" x="0.25" y="1.25" dx="0.25" dy="0.5" layer="1" rot="R180"/>
+<smd name="13" x="0.75" y="1.25" dx="0.25" dy="0.5" layer="1" rot="R180"/>
+<smd name="12" x="1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R270"/>
+<smd name="11" x="1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R270"/>
+<smd name="10" x="1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R270"/>
+<smd name="9" x="1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R270"/>
+<smd name="8" x="0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="7" x="0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="6" x="-0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="5" x="-0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
+<circle x="-1.905" y="1.905" radius="0.127" width="0.127" layer="21"/>
+<text x="-1.397" y="1.778" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.032" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.5" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.1" width="0.127" layer="21"/>
+<wire x1="1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.3" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.3" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.3" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STSPIN230">
+<pin name="STBY/RESET" x="-22.86" y="20.32" length="middle" direction="in"/>
+<pin name="EN/FAULT" x="-22.86" y="15.24" length="middle"/>
+<pin name="INUH" x="-22.86" y="10.16" length="middle" direction="in"/>
+<pin name="INUL" x="-22.86" y="5.08" length="middle" direction="in"/>
+<pin name="INVH" x="-22.86" y="0" length="middle" direction="in"/>
+<pin name="INVL" x="-22.86" y="-5.08" length="middle" direction="in"/>
+<pin name="INWH" x="-22.86" y="-10.16" length="middle" direction="in"/>
+<pin name="INWL" x="-22.86" y="-15.24" length="middle" direction="in"/>
+<pin name="GND" x="22.86" y="-15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="VS" x="22.86" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUTU" x="22.86" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="SENSEU" x="22.86" y="10.16" length="middle" direction="out" rot="R180"/>
+<pin name="OUTV" x="22.86" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="SENSEVW" x="22.86" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="OUTW" x="22.86" y="0" length="middle" direction="out" rot="R180"/>
+<wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<text x="-17.78" y="25.4" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="5.08" size="1.778" layer="97">STSPIN230</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STSPIN230" prefix="U">
+<gates>
+<gate name="G$1" symbol="STSPIN230" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STSPIN230">
+<connects>
+<connect gate="G$1" pin="EN/FAULT" pad="13"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="INUH" pad="2"/>
+<connect gate="G$1" pin="INUL" pad="1"/>
+<connect gate="G$1" pin="INVH" pad="16"/>
+<connect gate="G$1" pin="INVL" pad="15"/>
+<connect gate="G$1" pin="INWH" pad="12"/>
+<connect gate="G$1" pin="INWL" pad="11"/>
+<connect gate="G$1" pin="OUTU" pad="3"/>
+<connect gate="G$1" pin="OUTV" pad="8"/>
+<connect gate="G$1" pin="OUTW" pad="10"/>
+<connect gate="G$1" pin="SENSEU" pad="4"/>
+<connect gate="G$1" pin="SENSEVW" pad="9"/>
+<connect gate="G$1" pin="STBY/RESET" pad="14"/>
+<connect gate="G$1" pin="VS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="U-ST-STSPIN250-Brushed-DC-controller (no EPAD)">
+<packages>
+<package name="VFQFPN">
+<wire x1="-1.5" y1="1.1" x2="-1.1" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.1" width="0.127" layer="51"/>
+<smd name="6" x="-0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="7" x="0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="8" x="0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="5" x="-0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="16" x="-0.75" y="1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="15" x="-0.25" y="1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="14" x="0.25" y="1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="13" x="0.75" y="1.25" dx="0.25" dy="0.5" layer="1"/>
+<smd name="12" x="1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="11" x="1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="10" x="1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="9" x="1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="-1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="-1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="-1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="-1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
+<circle x="-1.75" y="1.75" radius="0.25" width="0.127" layer="21"/>
+<text x="1.2" y="-2.7" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<wire x1="-1.5" y1="-1.2" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="1.2" x2="-1.2" y2="1.4" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="STSPIN250">
+<wire x1="-17.78" y1="20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-20.32" x2="17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<pin name="STBY/RESET" x="-20.32" y="12.7" length="short"/>
+<pin name="EN/FAULT" x="-20.32" y="7.62" length="short"/>
+<pin name="PH" x="-20.32" y="2.54" length="short" direction="in"/>
+<pin name="PWM" x="-20.32" y="-2.54" length="short" direction="in"/>
+<pin name="REF" x="-20.32" y="-7.62" length="short" direction="pas"/>
+<pin name="TOFF" x="-20.32" y="-12.7" length="short" direction="pas"/>
+<pin name="OUTA1" x="20.32" y="12.7" length="short" direction="out" rot="R180"/>
+<pin name="OUTA2" x="20.32" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="SENSEA" x="20.32" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="OUTB1" x="20.32" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="OUTB2" x="20.32" y="-7.62" length="short" direction="out" rot="R180"/>
+<pin name="SENSEB" x="20.32" y="-12.7" length="short" direction="out" rot="R180"/>
+<pin name="TEST0" x="-7.62" y="-22.86" length="short" rot="R90"/>
+<pin name="TEST1" x="-5.08" y="-22.86" length="short" rot="R90"/>
+<pin name="GND" x="0" y="-22.86" length="short" direction="pwr" rot="R90"/>
+<pin name="VS" x="0" y="22.86" length="short" direction="pwr" rot="R270"/>
+<text x="10.16" y="-22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-6.35" y="-1.27" size="1.778" layer="94">STSPIN250</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="STSPIN250" prefix="U">
+<gates>
+<gate name="G$1" symbol="STSPIN250" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VFQFPN">
+<connects>
+<connect gate="G$1" pin="EN/FAULT" pad="13"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="OUTA1" pad="3"/>
+<connect gate="G$1" pin="OUTA2" pad="5"/>
+<connect gate="G$1" pin="OUTB1" pad="10"/>
+<connect gate="G$1" pin="OUTB2" pad="8"/>
+<connect gate="G$1" pin="PH" pad="1"/>
+<connect gate="G$1" pin="PWM" pad="2"/>
+<connect gate="G$1" pin="REF" pad="11"/>
+<connect gate="G$1" pin="SENSEA" pad="4"/>
+<connect gate="G$1" pin="SENSEB" pad="9"/>
+<connect gate="G$1" pin="STBY/RESET" pad="14"/>
+<connect gate="G$1" pin="TEST0" pad="15"/>
+<connect gate="G$1" pin="TEST1" pad="16"/>
+<connect gate="G$1" pin="TOFF" pad="12"/>
+<connect gate="G$1" pin="VS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22812,7 +22802,7 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="0"/>
-<part name="DRIVER2" library="U-ST-STSPIN250-Brushed-DC-controller" deviceset="STSPIN250" device=""/>
+<part name="DRIVER2" library="U-ST-STSPIN250-Brushed-DC-controller (no EPAD)" deviceset="STSPIN250" device=""/>
 <part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="18k"/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="1n"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22877,7 +22867,7 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U4" library="U-ST-STSPIN230-BLDC-controller" deviceset="STSPIN230" device=""/>
+<part name="U4" library="U-ST-STSPIN230-BLDC-controller (no EPAD)" deviceset="STSPIN230" device=""/>
 <part name="TP1" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U1" library="U-AMS-AS5047P-encoder" deviceset="AS5047P" device=""/>
