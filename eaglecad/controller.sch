@@ -23891,7 +23891,7 @@ ORESAT ACS CARD</text>
 <wire x1="55.88" y1="187.96" x2="58.42" y2="187.96" width="0.1524" layer="97"/>
 <text x="30.48" y="204.47" size="2.54" layer="97">STM32 Control</text>
 <text x="214.63" y="218.44" size="1.778" layer="97">In case we need to switch 
-motor to a regulated supply</text>
+motor to a regulated supply.</text>
 <wire x1="64.77" y1="67.31" x2="62.23" y2="67.31" width="0.1524" layer="97"/>
 <wire x1="62.23" y1="67.31" x2="62.23" y2="59.69" width="0.1524" layer="97"/>
 <wire x1="62.23" y1="59.69" x2="64.77" y2="59.69" width="0.1524" layer="97"/>
@@ -24154,7 +24154,7 @@ motor to a regulated supply</text>
 <wire x1="228.6" y1="162.56" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="SENSE_BLDC" class="0">
 <segment>
 <wire x1="187.96" y1="175.26" x2="198.12" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="190.5" x2="198.12" y2="190.5" width="0.1524" layer="91"/>
@@ -24407,7 +24407,7 @@ pin to 0.50V.</text>
 <wire x1="111.76" y1="198.12" x2="114.3" y2="198.12" width="0.1524" layer="97"/>
 <text x="86.36" y="214.63" size="2.54" layer="97">STM32 Control</text>
 <text x="250.19" y="246.38" size="1.778" layer="97">In case we need to switch 
-mag to a regulated supply</text>
+mag to a regulated supply.</text>
 <wire x1="107.95" y1="68.58" x2="105.41" y2="68.58" width="0.1524" layer="97"/>
 <wire x1="105.41" y1="68.58" x2="105.41" y2="58.42" width="0.1524" layer="97"/>
 <wire x1="105.41" y1="58.42" x2="107.95" y2="58.42" width="0.1524" layer="97"/>
@@ -24705,7 +24705,7 @@ mag to a regulated supply</text>
 <wire x1="302.26" y1="177.8" x2="304.8" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="OUT1" class="0">
 <segment>
 <pinref part="DRIVER2" gate="G$1" pin="OUTA1"/>
 <wire x1="254" y1="210.82" x2="281.94" y2="210.82" width="0.1524" layer="91"/>
@@ -24724,7 +24724,7 @@ mag to a regulated supply</text>
 <junction x="294.64" y="187.96"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="OUT2" class="0">
 <segment>
 <pinref part="DRIVER2" gate="G$1" pin="OUTA2"/>
 <wire x1="254" y1="205.74" x2="284.48" y2="205.74" width="0.1524" layer="91"/>
@@ -24772,7 +24772,7 @@ mag to a regulated supply</text>
 <wire x1="213.36" y1="195.58" x2="194.31" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="SENSE_MAG" class="0">
 <segment>
 <pinref part="DRIVER2" gate="G$1" pin="SENSEB"/>
 <wire x1="276.86" y1="185.42" x2="254" y2="185.42" width="0.1524" layer="91"/>
@@ -24851,35 +24851,41 @@ mag to a regulated supply</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,332.74,139.7,X1,SHIELD,GND,,,"/>
-<approved hash="104,1,175.26,144.78,U2,VCC,3.3V,,,"/>
-<approved hash="104,1,276.86,157.48,U6,VDD,3.3V,,,"/>
-<approved hash="104,1,269.24,157.48,U6,VDDA,3.3V,,,"/>
-<approved hash="104,1,269.24,106.68,U6,VSS,GND,,,"/>
-<approved hash="104,1,261.62,157.48,U6,VDDIO2,3.3V,,,"/>
-<approved hash="209,1,187.96,127,CAN_SHDN,,,,,"/>
-<approved hash="106,1,187.96,127,CAN_SHDN,,,,,"/>
-<approved hash="106,1,289.56,119.38,PB5,,,,,"/>
-<approved hash="106,1,289.56,114.3,PB7,,,,,"/>
+<approved hash="104,1,299.72,119.38,X1,SHIELD,GND,,,"/>
+<approved hash="104,1,116.84,124.46,U2,VCC,3.3V,,,"/>
+<approved hash="104,1,243.84,137.16,U6,VDD,3.3V,,,"/>
+<approved hash="104,1,236.22,137.16,U6,VDDA,3.3V,,,"/>
+<approved hash="104,1,236.22,86.36,U6,VSS,GND,,,"/>
+<approved hash="104,1,228.6,137.16,U6,VDDIO2,3.3V,,,"/>
+<approved hash="104,3,233.68,220.98,DRIVER2,VS,N$20,,,"/>
+<approved hash="104,2,187.96,200.66,U4,VS,N$12,,,"/>
+<approved hash="104,2,345.44,114.3,U1,VDD3V,3.3V,,,"/>
+<approved hash="104,2,340.36,114.3,U1,VDD,3.3V,,,"/>
+<approved hash="104,2,345.44,76.2,U1,TEST,GND,,,"/>
+<approved hash="104,1,191.77,227.33,U10,VIN,TPS-VIN,,,"/>
+<approved hash="104,1,217.17,227.33,U10,VOUT,3.3V,,,"/>
+<approved hash="104,1,207.01,191.77,U10,PGND,GND,,,"/>
+<approved hash="206,3,254,210.82,OUT1,,,,,"/>
+<approved hash="206,3,254,195.58,OUT1,,,,,"/>
+<approved hash="206,3,254,205.74,OUT2,,,,,"/>
+<approved hash="206,3,254,190.5,OUT2,,,,,"/>
+<approved hash="106,1,256.54,99.06,PB5,,,,,"/>
+<approved hash="206,2,187.96,190.5,SENSE_BLDC,,,,,"/>
+<approved hash="206,2,187.96,175.26,SENSE_BLDC,,,,,"/>
+<approved hash="206,3,254,185.42,SENSE_MAG,,,,,"/>
+<approved hash="206,3,254,200.66,SENSE_MAG,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,78.6977,160.246,JP1,,,,,"/>
-<approved hash="113,1,101.837,150.086,JP2,,,,,"/>
-<approved hash="113,1,141.207,160.246,JP3,,,,,"/>
-<approved hash="113,1,179.307,67.5361,JP5,,,,,"/>
-<approved hash="113,1,179.307,87.8561,JP7,,,,,"/>
-<approved hash="113,1,179.307,49.7561,JP6,,,,,"/>
-<approved hash="113,1,183.473,25.4677,J5,,,,,"/>
+<approved hash="113,1,150.453,66.1077,J5,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
-<approved hash="113,2,226.297,194.536,JP8,,,,,"/>
-<approved hash="113,2,200.982,171.45,LED1,,,,,"/>
-<approved hash="113,2,208.602,171.45,LED2,,,,,"/>
-<approved hash="113,2,216.222,171.45,LED3,,,,,"/>
-<approved hash="113,3,211.142,176.53,LED4,,,,,"/>
-<approved hash="113,3,218.762,176.53,LED5,,,,,"/>
-<approved hash="113,3,226.297,199.616,JP9,,,,,"/>
+<approved hash="113,2,238.997,194.536,JP8,,,,,"/>
+<approved hash="113,2,213.682,158.75,LED1,,,,,"/>
+<approved hash="113,2,221.302,158.75,LED2,,,,,"/>
+<approved hash="113,2,228.922,158.75,LED3,,,,,"/>
+<approved hash="113,3,311.15,188.282,LED4,,,,,"/>
+<approved hash="113,3,298.45,177.478,LED5,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,2,95.2754,198.12,D4,,,,,"/>
-<approved hash="113,3,74.9554,210.82,D5,,,,,"/>
+<approved hash="113,1,83.5829,110.716,JP1,,,,,"/>
+<approved hash="113,3,326.627,211.046,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
