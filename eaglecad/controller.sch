@@ -22461,40 +22461,45 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 </deviceset>
 </devicesets>
 </library>
-<library name="U-ST-STSPIN230-BLDC-controller (no EPAD)">
+<library name="U-ST-STSPIN230-BLDC-controller">
 <packages>
-<package name="STSPIN230">
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
-<smd name="2" x="-1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="1" x="-1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="-1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="-1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="15" x="-0.25" y="1.25" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<smd name="16" x="-0.75" y="1.25" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<smd name="14" x="0.25" y="1.25" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<smd name="13" x="0.75" y="1.25" dx="0.25" dy="0.5" layer="1" rot="R180"/>
-<smd name="12" x="1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R270"/>
-<smd name="11" x="1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R270"/>
-<smd name="10" x="1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R270"/>
-<smd name="9" x="1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R270"/>
-<smd name="8" x="0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="7" x="0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="6" x="-0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="5" x="-0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<circle x="-1.905" y="1.905" radius="0.127" width="0.127" layer="21"/>
-<text x="-1.397" y="1.778" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.032" y="-2.921" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-1.5" y1="1.5" x2="-1" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.5" x2="-1.5" y2="1.1" width="0.127" layer="21"/>
-<wire x1="1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1.2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.3" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.3" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.3" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="-1.3" width="0.127" layer="21"/>
+<package name="VFQFPN">
+<smd name="EPAD" x="0" y="0" dx="1.85" dy="1.85" layer="1" cream="no"/>
+<smd name="2" x="-1.39" y="0.25" dx="0.3" dy="0.63" layer="1" rot="R90"/>
+<smd name="1" x="-1.39" y="0.75" dx="0.3" dy="0.63" layer="1" rot="R90"/>
+<smd name="3" x="-1.39" y="-0.25" dx="0.3" dy="0.63" layer="1" rot="R90"/>
+<smd name="4" x="-1.39" y="-0.75" dx="0.3" dy="0.63" layer="1" rot="R90"/>
+<smd name="15" x="-0.25" y="1.39" dx="0.3" dy="0.63" layer="1" rot="R180"/>
+<smd name="16" x="-0.75" y="1.39" dx="0.3" dy="0.63" layer="1" rot="R180"/>
+<smd name="14" x="0.25" y="1.39" dx="0.3" dy="0.63" layer="1" rot="R180"/>
+<smd name="13" x="0.75" y="1.39" dx="0.3" dy="0.63" layer="1" rot="R180"/>
+<smd name="12" x="1.39" y="0.75" dx="0.3" dy="0.63" layer="1" rot="R270"/>
+<smd name="11" x="1.39" y="0.25" dx="0.3" dy="0.63" layer="1" rot="R270"/>
+<smd name="10" x="1.39" y="-0.25" dx="0.3" dy="0.63" layer="1" rot="R270"/>
+<smd name="9" x="1.39" y="-0.75" dx="0.3" dy="0.63" layer="1" rot="R270"/>
+<smd name="8" x="0.75" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
+<smd name="7" x="0.25" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
+<smd name="6" x="-0.25" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
+<smd name="5" x="-0.75" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
+<circle x="-1.805" y="1.805" radius="0.127" width="0.127" layer="21"/>
+<text x="-1.397" y="2.078" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.772" y="-3.331" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="0.2" x2="-0.2" y2="0.8" layer="31"/>
+<rectangle x1="0.2" y1="0.2" x2="0.8" y2="0.8" layer="31"/>
+<rectangle x1="0.2" y1="-0.8" x2="0.8" y2="-0.2" layer="31"/>
+<rectangle x1="-0.8" y1="-0.8" x2="-0.2" y2="-0.2" layer="31"/>
+<wire x1="-1.3" y1="1.7" x2="1.7" y2="1.7" width="0.127" layer="51"/>
+<wire x1="1.7" y1="1.7" x2="1.7" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="1.7" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="1.3" x2="-1.3" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="1.3" x2="-1.3" y2="1.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="1.7" x2="1.7" y2="1.7" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.7" x2="1.7" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.7" x2="1.7" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.7" x2="1.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.7" x2="-1.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.7" x2="-1.7" y2="-1.4" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -22529,10 +22534,10 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <gate name="G$1" symbol="STSPIN230" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="STSPIN230">
+<device name="" package="VFQFPN">
 <connects>
 <connect gate="G$1" pin="EN/FAULT" pad="13"/>
-<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="GND" pad="7 EPAD"/>
 <connect gate="G$1" pin="INUH" pad="2"/>
 <connect gate="G$1" pin="INUL" pad="1"/>
 <connect gate="G$1" pin="INVH" pad="16"/>
@@ -22555,39 +22560,45 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 </deviceset>
 </devicesets>
 </library>
-<library name="U-ST-STSPIN250-Brushed-DC-controller (no EPAD)">
+<library name="U-ST-STSPIN250-Brushed-DC-controller">
 <packages>
-<package name="VFQFPN">
-<wire x1="-1.5" y1="1.1" x2="-1.1" y2="1.5" width="0.127" layer="51"/>
-<wire x1="-1.1" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.1" width="0.127" layer="51"/>
-<smd name="6" x="-0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="7" x="0.25" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="8" x="0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="5" x="-0.75" y="-1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="16" x="-0.75" y="1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="15" x="-0.25" y="1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="14" x="0.25" y="1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="13" x="0.75" y="1.25" dx="0.25" dy="0.5" layer="1"/>
-<smd name="12" x="1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="11" x="1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="10" x="1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="9" x="1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="-1.25" y="-0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="-1.25" y="-0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="2" x="-1.25" y="0.25" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<smd name="1" x="-1.25" y="0.75" dx="0.25" dy="0.5" layer="1" rot="R90"/>
-<circle x="-1.75" y="1.75" radius="0.25" width="0.127" layer="21"/>
-<text x="1.2" y="-2.7" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<wire x1="-1.5" y1="-1.2" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.2" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.2" y1="-1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="1.5" y2="-1.2" width="0.127" layer="21"/>
-<wire x1="1.2" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="1.2" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="1.2" x2="-1.2" y2="1.4" width="0.127" layer="21"/>
+<package name="VFQPN">
+<smd name="EPAD" x="0" y="0" dx="1.85" dy="1.85" layer="1" cream="no"/>
+<smd name="2" x="-1.39" y="0.25" dx="0.3" dy="0.63" layer="1" rot="R90"/>
+<smd name="1" x="-1.39" y="0.75" dx="0.3" dy="0.63" layer="1" rot="R90"/>
+<smd name="3" x="-1.39" y="-0.25" dx="0.3" dy="0.63" layer="1" rot="R90"/>
+<smd name="4" x="-1.39" y="-0.75" dx="0.3" dy="0.63" layer="1" rot="R90"/>
+<smd name="15" x="-0.25" y="1.39" dx="0.3" dy="0.63" layer="1" rot="R180"/>
+<smd name="16" x="-0.75" y="1.39" dx="0.3" dy="0.63" layer="1" rot="R180"/>
+<smd name="14" x="0.25" y="1.39" dx="0.3" dy="0.63" layer="1" rot="R180"/>
+<smd name="13" x="0.75" y="1.39" dx="0.3" dy="0.63" layer="1" rot="R180"/>
+<smd name="12" x="1.39" y="0.75" dx="0.3" dy="0.63" layer="1" rot="R270"/>
+<smd name="11" x="1.39" y="0.25" dx="0.3" dy="0.63" layer="1" rot="R270"/>
+<smd name="10" x="1.39" y="-0.25" dx="0.3" dy="0.63" layer="1" rot="R270"/>
+<smd name="9" x="1.39" y="-0.75" dx="0.3" dy="0.63" layer="1" rot="R270"/>
+<smd name="8" x="0.75" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
+<smd name="7" x="0.25" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
+<smd name="6" x="-0.25" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
+<smd name="5" x="-0.75" y="-1.39" dx="0.3" dy="0.63" layer="1"/>
+<circle x="-1.805" y="1.805" radius="0.127" width="0.127" layer="21"/>
+<text x="-1.397" y="2.078" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.772" y="-3.331" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8" y1="0.2" x2="-0.2" y2="0.8" layer="31"/>
+<rectangle x1="0.2" y1="0.2" x2="0.8" y2="0.8" layer="31"/>
+<rectangle x1="0.2" y1="-0.8" x2="0.8" y2="-0.2" layer="31"/>
+<rectangle x1="-0.8" y1="-0.8" x2="-0.2" y2="-0.2" layer="31"/>
+<wire x1="-1.3" y1="1.7" x2="1.7" y2="1.7" width="0.127" layer="51"/>
+<wire x1="1.7" y1="1.7" x2="1.7" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="1.7" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="1.3" x2="-1.3" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-1.7" y1="1.3" x2="-1.3" y2="1.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="1.7" x2="1.7" y2="1.7" width="0.127" layer="21"/>
+<wire x1="1.7" y1="1.7" x2="1.7" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.7" x2="1.7" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-1.7" x2="1.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.7" x2="-1.4" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-1.7" x2="-1.7" y2="-1.4" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -22623,10 +22634,10 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <gate name="G$1" symbol="STSPIN250" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="VFQFPN">
+<device name="" package="VFQPN">
 <connects>
 <connect gate="G$1" pin="EN/FAULT" pad="13"/>
-<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="GND" pad="7 EPAD"/>
 <connect gate="G$1" pin="OUTA1" pad="3"/>
 <connect gate="G$1" pin="OUTA2" pad="5"/>
 <connect gate="G$1" pin="OUTB1" pad="10"/>
@@ -22802,7 +22813,7 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="0"/>
-<part name="DRIVER2" library="U-ST-STSPIN250-Brushed-DC-controller (no EPAD)" deviceset="STSPIN250" device=""/>
+<part name="DRIVER2" library="U-ST-STSPIN250-Brushed-DC-controller" deviceset="STSPIN250" device=""/>
 <part name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="18k"/>
 <part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="1n"/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22867,7 +22878,7 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="10k"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/1" value="100n"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U4" library="U-ST-STSPIN230-BLDC-controller (no EPAD)" deviceset="STSPIN230" device=""/>
+<part name="U4" library="U-ST-STSPIN230-BLDC-controller" deviceset="STSPIN230" device=""/>
 <part name="TP1" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U1" library="U-AMS-AS5047P-encoder" deviceset="AS5047P" device=""/>
