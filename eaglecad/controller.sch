@@ -18297,6 +18297,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
+<part name="JP302" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -19238,14 +19239,22 @@ motor to a regulated supply.</text>
 <wire x1="271.78" y1="93.98" x2="274.32" y2="93.98" width="0.1524" layer="97"/>
 <text x="251.46" y="101.6" size="2.54" layer="97">STM32 SPI</text>
 <wire x1="246.38" y1="142.24" x2="246.38" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="246.38" y1="60.96" x2="378.46" y2="60.96" width="0.1524" layer="97"/>
-<wire x1="378.46" y1="60.96" x2="378.46" y2="142.24" width="0.1524" layer="97"/>
-<wire x1="378.46" y1="142.24" x2="246.38" y2="142.24" width="0.1524" layer="97"/>
+<wire x1="246.38" y1="60.96" x2="405.13" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="405.13" y1="60.96" x2="405.13" y2="142.24" width="0.1524" layer="97"/>
+<wire x1="405.13" y1="142.24" x2="246.38" y2="142.24" width="0.1524" layer="97"/>
 <text x="298.45" y="137.16" size="2.54" layer="97">BLDC ENCODER</text>
 <wire x1="276.86" y1="193.04" x2="342.9" y2="193.04" width="0.1524" layer="97" style="longdash"/>
 <wire x1="342.9" y1="193.04" x2="342.9" y2="144.78" width="0.1524" layer="97" style="longdash"/>
 <wire x1="342.9" y1="144.78" x2="341.63" y2="147.32" width="0.1524" layer="97" style="longdash"/>
 <wire x1="342.9" y1="144.78" x2="344.17" y2="147.32" width="0.1524" layer="97" style="longdash"/>
+<text x="375.92" y="104.14" size="1.778" layer="97">Quadrature output
+leads for motor spec
+test case</text>
+<wire x1="373.38" y1="114.3" x2="373.38" y2="86.36" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="373.38" y1="86.36" x2="400.05" y2="86.36" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="400.05" y1="86.36" x2="400.05" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="400.05" y1="114.3" x2="373.38" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
+<text x="377.952" y="88.265" size="1.778" layer="97">NP FOR FLIGHT</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -19420,6 +19429,7 @@ motor to a regulated supply.</text>
 <attribute name="NAME" x="189.0014" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="193.802" y="46.99" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="JP302" gate="G$1" x="388.62" y="95.25"/>
 </instances>
 <busses>
 </busses>
@@ -19844,6 +19854,22 @@ motor to a regulated supply.</text>
 <wire x1="314.96" y1="93.98" x2="314.96" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U302" gate="G$1" pin="MOSI"/>
 <pinref part="R315" gate="R" pin="2"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="U302" gate="G$1" pin="A"/>
+<pinref part="JP302" gate="G$1" pin="1"/>
+<wire x1="363.22" y1="99.06" x2="363.22" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="97.79" x2="386.08" y2="97.79" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U302" gate="G$1" pin="B"/>
+<pinref part="JP302" gate="G$1" pin="2"/>
+<wire x1="363.22" y1="93.98" x2="363.22" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="95.25" x2="386.08" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
