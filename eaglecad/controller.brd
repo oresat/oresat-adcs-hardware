@@ -3406,11 +3406,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Samsung" x="35.052" y="84.201" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="35.052" y="84.201" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C408" library="rcl_custom" package=".0402-B-NOSILK" value="680p" x="11.43" y="10.16">
-<attribute name="DIS" value="Digi-Key" x="11.43" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="11.43" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="11.43" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="11.43" y="10.16" size="1.778" layer="27" display="off"/>
+<element name="C408" library="rcl_custom" package=".0402-B-NOSILK" value="680p" x="41.402" y="28.321">
+<attribute name="DIS" value="Digi-Key" x="41.402" y="28.321" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="41.402" y="28.321" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="41.402" y="28.321" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="41.402" y="28.321" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C104" library="rcl_custom" package=".0402-B-NOSILK" value="20p" x="116.078" y="72.263" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="116.078" y="72.263" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3498,11 +3498,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Samsung" x="11.43" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="11.43" y="21.59" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C407" library="rcl_custom" package=".0402-B-NOSILK" value="2.2n" x="11.43" y="13.97">
-<attribute name="DIS" value="Digi-Key" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<element name="C407" library="rcl_custom" package=".0402-B-NOSILK" value="2.2n" x="30.48" y="34.29" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="30.48" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C406" library="rcl_custom" package=".0402-B-NOSILK" value="22n" x="11.43" y="17.78">
 <attribute name="DIS" value="Digi-Key" x="11.43" y="17.78" size="1.778" layer="27" display="off"/>
@@ -3510,11 +3510,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Samsung" x="11.43" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="11.43" y="17.78" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C411" library="rcl_custom" package=".0402-B-NOSILK" value="680p" x="15.24" y="36.83">
-<attribute name="DIS" value="Digi-Key" x="15.24" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="15.24" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="15.24" y="36.83" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="15.24" y="36.83" size="1.778" layer="27" display="off"/>
+<element name="C411" library="rcl_custom" package=".0402-B-NOSILK" value="680p" x="39.37" y="36.83" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="39.37" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="39.37" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="39.37" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="39.37" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C103" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="127.508" y="68.199" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="127.508" y="68.199" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3590,7 +3590,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="D202" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="120.396" y="36.322" rot="R270">
 <attribute name="PROD_ID" value="DIO-00821" x="120.396" y="36.322" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U400" library="U-ST-STSPIN250-Brushed-DC-controller" package="VFQPN" value="STSPIN250" x="35.56" y="34.29"/>
+<element name="U400" library="U-ST-STSPIN250-Brushed-DC-controller" package="VFQPN" value="STSPIN250" x="26.67" y="34.29"/>
 <element name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="85.09" y="40.64"/>
 <element name="H2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="83.82" y="33.02"/>
 <element name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="82.55" y="25.4"/>
@@ -3661,17 +3661,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R412" library="oresat-rcl" package=".0805-B-NOSILK" value="2.2k" x="6.35" y="33.02"/>
 <element name="R416" library="oresat-rcl" package=".0805-B-NOSILK" value="0.68" x="6.35" y="17.78"/>
 <element name="R415" library="oresat-rcl" package=".0805-B-NOSILK" value="0.68" x="6.35" y="21.59"/>
-<element name="R418" library="rcl_custom" package=".0402-B-NOSILK" value="2.2k" x="6.35" y="10.16">
-<attribute name="DIS" value="Digi-Key" x="6.35" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="6.35" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="6.35" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="6.35" y="10.16" size="1.778" layer="27" display="off"/>
+<element name="R418" library="rcl_custom" package=".0402-B-NOSILK" value="2.2k" x="38.1" y="36.83" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="38.1" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="38.1" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="38.1" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="38.1" y="36.83" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R409" library="rcl_custom" package=".0402-B-NOSILK" value="100k" x="2.54" y="6.35">
-<attribute name="DIS" value="Digi-Key" x="2.54" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="2.54" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="2.54" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="2.54" y="6.35" size="1.778" layer="27" display="off"/>
+<element name="R409" library="rcl_custom" package=".0402-B-NOSILK" value="100k" x="31.75" y="34.29" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="31.75" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="31.75" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="31.75" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="31.75" y="34.29" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R405" library="rcl_custom" package=".0402-B-NOSILK" value="330" x="2.54" y="21.59">
 <attribute name="DIS" value="Digi-Key" x="2.54" y="21.59" size="1.778" layer="27" display="off"/>
@@ -3697,11 +3697,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Samsung" x="24.13" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="24.13" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R414" library="rcl_custom" package=".0402-B-NOSILK" value="680" x="6.35" y="25.4">
-<attribute name="DIS" value="Digi-Key" x="6.35" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="6.35" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="6.35" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="6.35" y="25.4" size="1.778" layer="27" display="off"/>
+<element name="R414" library="rcl_custom" package=".0402-B-NOSILK" value="680" x="41.402" y="29.972" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="41.402" y="29.972" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="41.402" y="29.972" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="41.402" y="29.972" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="41.402" y="29.972" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R314" library="rcl_custom" package=".0402-B-NOSILK" value="0" x="43.18" y="84.328" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="43.18" y="84.328" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3709,23 +3709,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Samsung" x="43.18" y="84.328" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="43.18" y="84.328" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R417" library="rcl_custom" package=".0402-B-NOSILK" value="2.2k" x="6.35" y="13.97">
-<attribute name="DIS" value="Digi-Key" x="6.35" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="6.35" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="6.35" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="6.35" y="13.97" size="1.778" layer="27" display="off"/>
+<element name="R417" library="rcl_custom" package=".0402-B-NOSILK" value="2.2k" x="36.068" y="36.83" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="36.068" y="36.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="36.068" y="36.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="36.068" y="36.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="36.068" y="36.83" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R413" library="rcl_custom" package=".0402-B-NOSILK" value="2.2k" x="6.35" y="29.21">
-<attribute name="DIS" value="Digi-Key" x="6.35" y="29.21" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="6.35" y="29.21" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="6.35" y="29.21" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="6.35" y="29.21" size="1.778" layer="27" display="off"/>
+<element name="R413" library="rcl_custom" package=".0402-B-NOSILK" value="2.2k" x="41.402" y="31.369">
+<attribute name="DIS" value="Digi-Key" x="41.402" y="31.369" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="41.402" y="31.369" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="41.402" y="31.369" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="41.402" y="31.369" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R419" library="rcl_custom" package=".0402-B-NOSILK" value="0" x="6.35" y="6.35">
-<attribute name="DIS" value="Digi-Key" x="6.35" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="6.35" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="6.35" y="6.35" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="6.35" y="6.35" size="1.778" layer="27" display="off"/>
+<element name="R419" library="rcl_custom" package=".0402-B-NOSILK" value="0" x="44.069" y="33.401" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="44.069" y="33.401" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="44.069" y="33.401" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="44.069" y="33.401" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="44.069" y="33.401" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R202" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="128.016" y="35.306" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="128.016" y="35.306" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4001,18 +4001,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.25" y1="21.59" x2="10.93" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="10.93" y1="17.78" x2="10.93" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="7.25" y1="17.78" x2="10.93" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="10.93" y1="13.97" x2="10.93" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="6.85" y1="13.97" x2="7.25" y2="17.78" width="0" layer="19" extent="1-1"/>
-<wire x1="11.93" y1="10.16" x2="10.93" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="11.93" y1="6.35" x2="11.93" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="33.79" x2="10.93" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="36.068" y1="36.33" x2="7.25" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="41.902" y1="28.321" x2="30.48" y2="33.79" width="0" layer="19" extent="1-1"/>
+<wire x1="11.93" y1="6.35" x2="41.902" y2="28.321" width="0" layer="19" extent="1-1"/>
 <wire x1="12.23" y1="2.54" x2="11.93" y2="6.35" width="0" layer="19" extent="1-1"/>
-<wire x1="3.04" y1="10.16" x2="6.85" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="3.04" y1="10.16" x2="36.068" y2="36.33" width="0" layer="19" extent="1-1"/>
 <wire x1="3.04" y1="2.54" x2="3.04" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="34.81" y1="35.68" x2="12.23" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="35.31" y1="35.68" x2="34.81" y2="35.68" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="34.29" x2="35.31" y2="35.68" width="0" layer="19" extent="1-1"/>
-<wire x1="35.81" y1="32.9" x2="35.56" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="41.91" y1="33.19" x2="35.81" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="25.92" y1="35.68" x2="12.23" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="26.42" y1="35.68" x2="25.92" y2="35.68" width="0" layer="19" extent="1-1"/>
+<wire x1="26.67" y1="34.29" x2="26.42" y2="35.68" width="0" layer="19" extent="1-1"/>
+<wire x1="26.92" y1="32.9" x2="26.67" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="41.91" y1="33.19" x2="26.92" y2="32.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CRYSTALIN">
 <contactref element="C105" pad="1"/>
@@ -4146,11 +4146,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="21.59" y1="78.24" x2="49.16" y2="86.36" width="0" layer="19" extent="1-1"/>
 <wire x1="44.13" y1="83.65" x2="16.51" y2="69.35" width="0" layer="19" extent="1-1"/>
 <wire x1="3.04" y1="36.83" x2="47.76" y2="82.55" width="0" layer="19" extent="1-1"/>
-<wire x1="6.85" y1="29.21" x2="3.04" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="3.44" y1="25.4" x2="6.85" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="42.86" y1="35.39" x2="6.85" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="2.04" y1="6.35" x2="3.44" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="10.93" y1="6.35" x2="2.04" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="41.902" y1="31.369" x2="3.04" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="3.44" y1="25.4" x2="41.902" y2="31.369" width="0" layer="19" extent="1-1"/>
+<wire x1="42.86" y1="35.39" x2="41.902" y2="31.369" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="33.79" x2="3.44" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="10.93" y1="6.35" x2="31.75" y2="33.79" width="0" layer="19" extent="1-1"/>
 <wire x1="10.63" y1="2.54" x2="10.93" y2="6.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_H">
@@ -4255,7 +4255,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="PA1/CURR_FDB_MAG">
 <contactref element="U100" pad="7"/>
 <contactref element="R419" pad="1"/>
-<wire x1="5.85" y1="6.35" x2="118.94" y2="70.39" width="0" layer="19" extent="1-1"/>
+<wire x1="44.069" y1="33.901" x2="118.94" y2="70.39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$270">
 <contactref element="D201" pad="A"/>
@@ -4288,8 +4288,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U400" pad="13"/>
 <contactref element="R402" pad="1"/>
 <contactref element="C405" pad="2"/>
-<wire x1="36.31" y1="35.68" x2="121.99" y2="76.64" width="0" layer="19" extent="1-1"/>
-<wire x1="11.93" y1="21.59" x2="36.31" y2="35.68" width="0" layer="19" extent="1-1"/>
+<wire x1="27.42" y1="35.68" x2="121.99" y2="76.64" width="0" layer="19" extent="1-1"/>
+<wire x1="11.93" y1="21.59" x2="27.42" y2="35.68" width="0" layer="19" extent="1-1"/>
 <wire x1="2.04" y1="33.02" x2="11.93" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_SHDN">
@@ -4647,19 +4647,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U400" pad="14"/>
 <contactref element="C404" pad="2"/>
 <contactref element="R401" pad="1"/>
-<wire x1="11.93" y1="25.4" x2="35.81" y2="35.68" width="0" layer="19" extent="1-1"/>
+<wire x1="11.93" y1="25.4" x2="26.92" y2="35.68" width="0" layer="19" extent="1-1"/>
 <wire x1="2.04" y1="36.83" x2="11.93" y2="25.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U400" pad="1"/>
 <contactref element="R405" pad="1"/>
-<wire x1="2.04" y1="21.59" x2="34.17" y2="35.04" width="0" layer="19" extent="1-1"/>
+<wire x1="2.04" y1="21.59" x2="25.28" y2="35.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="U400" pad="12"/>
 <contactref element="R408" pad="1"/>
 <contactref element="R407" pad="1"/>
-<wire x1="2.04" y1="13.97" x2="36.95" y2="35.04" width="0" layer="19" extent="1-1"/>
+<wire x1="2.04" y1="13.97" x2="28.06" y2="35.04" width="0" layer="19" extent="1-1"/>
 <wire x1="2.04" y1="10.16" x2="2.04" y2="13.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
@@ -4671,7 +4671,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R404" pad="1"/>
 <wire x1="10.63" y1="33.02" x2="10.63" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="10.63" y1="29.21" x2="10.63" y2="33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="35.31" y1="32.9" x2="10.63" y2="29.21" width="0" layer="19" extent="1-1"/>
+<wire x1="26.42" y1="32.9" x2="10.63" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="1.64" y1="29.21" x2="10.63" y2="29.21" width="0" layer="19" extent="1-1"/>
 <wire x1="1.64" y1="25.4" x2="1.64" y2="29.21" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -4691,10 +4691,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="JP401" pad="1"/>
 <contactref element="LED-" pad="C"/>
 <contactref element="R411" pad="2"/>
-<wire x1="34.17" y1="34.04" x2="36.95" y2="34.04" width="0" layer="19" extent="1-1"/>
-<wire x1="16.51" y1="20.32" x2="34.17" y2="34.04" width="0" layer="19" extent="1-1"/>
+<wire x1="25.28" y1="34.04" x2="28.06" y2="34.04" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="20.32" x2="25.28" y2="34.04" width="0" layer="19" extent="1-1"/>
 <wire x1="16.51" y1="15.99" x2="16.51" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="7.25" y1="36.83" x2="34.17" y2="34.04" width="0" layer="19" extent="1-1"/>
+<wire x1="7.25" y1="36.83" x2="25.28" y2="34.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OUT2">
 <contactref element="U400" pad="5"/>
@@ -4702,24 +4702,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="JP401" pad="2"/>
 <contactref element="LED+" pad="C"/>
 <contactref element="R412" pad="1"/>
-<wire x1="34.81" y1="32.9" x2="36.31" y2="32.9" width="0" layer="19" extent="1-1"/>
-<wire x1="19.05" y1="20.32" x2="36.31" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="25.92" y1="32.9" x2="27.42" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="20.32" x2="27.42" y2="32.9" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="15.99" x2="19.05" y2="20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="5.45" y1="33.02" x2="34.81" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="5.45" y1="33.02" x2="25.92" y2="32.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="U400" pad="11"/>
 <contactref element="C407" pad="2"/>
 <contactref element="R409" pad="2"/>
 <contactref element="R410" pad="1"/>
-<wire x1="11.93" y1="13.97" x2="36.95" y2="34.54" width="0" layer="19" extent="1-1"/>
-<wire x1="3.04" y1="6.35" x2="11.93" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="2.04" y1="2.54" x2="3.04" y2="6.35" width="0" layer="19" extent="1-1"/>
+<wire x1="30.48" y1="34.79" x2="28.06" y2="34.54" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="34.79" x2="30.48" y2="34.79" width="0" layer="19" extent="1-1"/>
+<wire x1="2.04" y1="2.54" x2="31.75" y2="34.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="U400" pad="2"/>
 <contactref element="R406" pad="1"/>
-<wire x1="2.04" y1="17.78" x2="34.17" y2="34.54" width="0" layer="19" extent="1-1"/>
+<wire x1="2.04" y1="17.78" x2="25.28" y2="34.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SENSE_MAG">
 <contactref element="U400" pad="9"/>
@@ -4727,9 +4727,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R416" pad="1"/>
 <contactref element="R415" pad="1"/>
 <contactref element="R414" pad="1"/>
-<wire x1="34.17" y1="33.54" x2="36.95" y2="33.54" width="0" layer="19" extent="1-1"/>
-<wire x1="5.85" y1="25.4" x2="34.17" y2="33.54" width="0" layer="19" extent="1-1"/>
-<wire x1="5.45" y1="21.59" x2="5.85" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="25.28" y1="33.54" x2="28.06" y2="33.54" width="0" layer="19" extent="1-1"/>
+<wire x1="41.902" y1="29.972" x2="25.28" y2="33.54" width="0" layer="19" extent="1-1"/>
+<wire x1="5.45" y1="21.59" x2="41.902" y2="29.972" width="0" layer="19" extent="1-1"/>
 <wire x1="5.45" y1="17.78" x2="5.45" y2="21.59" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
@@ -4737,27 +4737,27 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C408" pad="1"/>
 <contactref element="R413" pad="1"/>
 <contactref element="R414" pad="2"/>
-<wire x1="5.85" y1="29.21" x2="40.96" y2="33.19" width="0" layer="19" extent="1-1"/>
-<wire x1="6.85" y1="25.4" x2="5.85" y2="29.21" width="0" layer="19" extent="1-1"/>
-<wire x1="10.93" y1="10.16" x2="6.85" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="40.902" y1="31.369" x2="40.96" y2="33.19" width="0" layer="19" extent="1-1"/>
+<wire x1="40.902" y1="29.972" x2="40.902" y2="31.369" width="0" layer="19" extent="1-1"/>
+<wire x1="40.902" y1="28.321" x2="40.902" y2="29.972" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="U401" pad="IN-"/>
 <contactref element="C411" pad="1"/>
 <contactref element="R418" pad="2"/>
 <contactref element="R417" pad="1"/>
-<wire x1="14.74" y1="36.83" x2="40.96" y2="35.39" width="0" layer="19" extent="1-1"/>
-<wire x1="5.85" y1="13.97" x2="40.96" y2="35.39" width="0" layer="19" extent="1-1"/>
-<wire x1="6.85" y1="10.16" x2="5.85" y2="13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="39.37" y1="36.33" x2="40.96" y2="35.39" width="0" layer="19" extent="1-1"/>
+<wire x1="36.068" y1="37.33" x2="40.96" y2="35.39" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="37.33" x2="36.068" y2="37.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="U401" pad="OUT"/>
 <contactref element="C411" pad="2"/>
 <contactref element="R418" pad="1"/>
 <contactref element="R419" pad="2"/>
-<wire x1="42.86" y1="33.19" x2="15.74" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="5.85" y1="10.16" x2="42.86" y2="33.19" width="0" layer="19" extent="1-1"/>
-<wire x1="6.85" y1="6.35" x2="5.85" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="42.86" y1="33.19" x2="39.37" y2="37.33" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="36.33" x2="42.86" y2="33.19" width="0" layer="19" extent="1-1"/>
+<wire x1="44.069" y1="32.901" x2="38.1" y2="36.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R407" pad="2"/>
