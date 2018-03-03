@@ -20328,7 +20328,6 @@ mag to a regulated supply.</text>
 <net name="N$20" class="0">
 <segment>
 <wire x1="245.11" y1="243.84" x2="245.11" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="243.84" x2="233.68" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="U400" gate="G$1" pin="VS"/>
 <wire x1="233.68" y1="220.98" x2="233.68" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="236.22" x2="233.68" y2="241.3" width="0.1524" layer="91"/>
@@ -20336,15 +20335,16 @@ mag to a regulated supply.</text>
 <wire x1="233.68" y1="236.22" x2="240.03" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="240.03" y1="236.22" x2="250.19" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="245.11" y1="241.3" x2="233.68" y2="241.3" width="0.1524" layer="91"/>
-<junction x="233.68" y="241.3"/>
 <pinref part="C401" gate="CE" pin="1"/>
 <junction x="240.03" y="236.22"/>
 <pinref part="C402" gate="CE" pin="1"/>
 <pinref part="C403" gate="CE" pin="1"/>
 <wire x1="250.19" y1="236.22" x2="261.62" y2="236.22" width="0.1524" layer="91"/>
 <junction x="250.19" y="236.22"/>
-<pinref part="R403" gate="R" pin="1"/>
 <pinref part="R404" gate="R" pin="1"/>
+<pinref part="R403" gate="R" pin="1"/>
+<wire x1="233.68" y1="241.3" x2="233.68" y2="243.84" width="0.1524" layer="91"/>
+<junction x="233.68" y="241.3"/>
 </segment>
 </net>
 <net name="N$22" class="0">
