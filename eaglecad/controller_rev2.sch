@@ -7421,46 +7421,6 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Tova">
-<packages>
-<package name="2MM-TEST-POINT">
-<wire x1="-0.85" y1="-0.9" x2="0.85" y2="-0.9" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="-0.9" x2="0.85" y2="0.9" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="0.9" x2="-0.85" y2="0.9" width="0.2032" layer="21"/>
-<wire x1="-0.85" y1="0.9" x2="-0.85" y2="-0.9" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="0.7366"/>
-<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
-<text x="-1.6" y="1.5" size="0.8" layer="25" font="vector" ratio="20">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TEST-POINT">
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<text x="-5.08" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<pin name="1" x="0" y="0" visible="off" length="point" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TEST-POINT" prefix="TP">
-<gates>
-<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2MM-TEST-POINT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
 <description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
 This library contains power, ground, and voltage-supply symbols.
@@ -20293,7 +20253,6 @@ Source: www.kingbright.com</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U300" library="U-ST-STSPIN230-BLDC-controller" deviceset="STSPIN230" device=""/>
-<part name="TP102" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="JP401" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U302" library="U-AMS-AS5047P-encoder" deviceset="AS5047P" device=""/>
 <part name="C203" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10u">
@@ -20652,6 +20611,7 @@ Source: www.kingbright.com</description>
 <part name="LED_3.3V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="LED_V_BATT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
+<part name="BOOT1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -20790,9 +20750,6 @@ ORESAT ACS CARD</text>
 <instance part="JP101" gate="A" x="81.28" y="107.95" rot="MR0"/>
 <instance part="SUPPLY2" gate="G$1" x="91.44" y="116.84"/>
 <instance part="GND3" gate="1" x="91.44" y="100.33" rot="MR0"/>
-<instance part="TP102" gate="G$1" x="142.24" y="106.68" smashed="yes" rot="MR0">
-<attribute name="NAME" x="139.7" y="104.14" size="1.778" layer="95" font="vector" rot="MR0"/>
-</instance>
 <instance part="C203" gate="CE" x="186.69" y="219.71" smashed="yes">
 <attribute name="DIS" x="186.69" y="219.71" size="1.778" layer="96" display="off"/>
 <attribute name="DPN" x="186.69" y="219.71" size="1.778" layer="96" display="off"/>
@@ -20959,6 +20916,9 @@ ORESAT ACS CARD</text>
 <instance part="LED_V_BATT" gate="G$1" x="137.16" y="218.44" smashed="yes">
 <attribute name="NAME" x="140.716" y="208.788" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="142.875" y="213.868" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="BOOT1" gate="G$1" x="142.24" y="109.22" smashed="yes">
+<attribute name="TP_SIGNAL_NAME" x="143.51" y="107.95" size="1.778" layer="97"/>
 </instance>
 </instances>
 <busses>
@@ -21385,8 +21345,8 @@ ORESAT ACS CARD</text>
 <segment>
 <pinref part="U101" gate="G$1" pin="SHDN"/>
 <label x="142.24" y="106.68" size="1.778" layer="95" xref="yes"/>
-<pinref part="TP102" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="BOOT1" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="PA10/INWH" class="0">
@@ -21532,7 +21492,7 @@ ORESAT ACS CARD</text>
 <wire x1="245.11" y1="232.41" x2="237.49" y2="232.41" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="TSP-VSEL" class="0">
 <segment>
 <pinref part="VSEL" gate="G$1" pin="TP"/>
 <pinref part="R204" gate="R" pin="2"/>
@@ -21544,7 +21504,7 @@ ORESAT ACS CARD</text>
 <junction x="214.63" y="200.66"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="TSP-FB2" class="0">
 <segment>
 <pinref part="U200" gate="G$1" pin="FB2"/>
 <pinref part="FB2" gate="G$1" pin="TP"/>
