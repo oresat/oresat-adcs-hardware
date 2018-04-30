@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8409,1230 +8409,6 @@ STAND-OFF</description>
 </gates>
 <devices>
 <device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="adafruit" urn="urn:adsk.eagle:library:420">
-<packages>
-<package name="1206" library_version="1">
-<description>&lt;b&gt;CHICAGO MINIATURE LAMP, INC.&lt;/b&gt;&lt;p&gt;
-7022X Series SMT LEDs 1206 Package Size</description>
-<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-0.55" y1="-0.5" x2="0.55" y2="-0.5" width="0.1016" layer="21" curve="95.452622" cap="flat"/>
-<wire x1="-0.55" y1="-0.5" x2="-0.55" y2="0.5" width="0.1016" layer="51" curve="-84.547378" cap="flat"/>
-<wire x1="-0.55" y1="0.5" x2="0.55" y2="0.5" width="0.1016" layer="21" curve="-95.452622" cap="flat"/>
-<wire x1="0.55" y1="0.5" x2="0.55" y2="-0.5" width="0.1016" layer="51" curve="-84.547378" cap="flat"/>
-<smd name="A" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
-<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
-<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
-<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
-<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
-<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
-<rectangle x1="0.45" y1="-0.7" x2="0.6" y2="-0.45" layer="21"/>
-</package>
-<package name="LD260" library_version="1">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-5 mm, square, Siemens</description>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.889" x2="1.27" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.889" x2="-1.27" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="0" y1="1.27" x2="0.9917" y2="0.7934" width="0.1524" layer="21" curve="-51.33923" cap="flat"/>
-<wire x1="-0.9917" y1="0.7934" x2="0" y2="1.27" width="0.1524" layer="21" curve="-51.33923" cap="flat"/>
-<wire x1="0" y1="-1.27" x2="0.9917" y2="-0.7934" width="0.1524" layer="21" curve="51.33923" cap="flat"/>
-<wire x1="-0.9917" y1="-0.7934" x2="0" y2="-1.27" width="0.1524" layer="21" curve="51.33923" cap="flat"/>
-<wire x1="0.9558" y1="-0.8363" x2="1.27" y2="0" width="0.1524" layer="51" curve="41.185419" cap="flat"/>
-<wire x1="0.9756" y1="0.813" x2="1.2699" y2="0" width="0.1524" layer="51" curve="-39.806332" cap="flat"/>
-<wire x1="-1.27" y1="0" x2="-0.9643" y2="-0.8265" width="0.1524" layer="51" curve="40.600331" cap="flat"/>
-<wire x1="-1.27" y1="0" x2="-0.9643" y2="0.8265" width="0.1524" layer="51" curve="-40.600331" cap="flat"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0.889" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="0.508" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-0.508" x2="0.508" y2="0" width="0.1524" layer="21" curve="90" cap="flat"/>
-<wire x1="0" y1="-0.889" x2="0.889" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="-1.2954" y="1.4732" size="1.016" layer="25" ratio="14">&gt;NAME</text>
-<text x="-1.27" y="-2.4892" size="1.016" layer="27" ratio="14">&gt;VALUE</text>
-<rectangle x1="1.27" y1="-0.635" x2="2.032" y2="0.635" layer="51"/>
-<rectangle x1="1.905" y1="-0.635" x2="2.032" y2="0.635" layer="21"/>
-</package>
-<package name="LED2X5" library_version="1">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-2 x 5 mm, rectangle</description>
-<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="0" x2="0.508" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="0.381" x2="-0.508" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-0.508" y1="0.381" x2="0.508" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="0" x2="1.778" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="0" x2="-0.508" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="0.381" x2="0.508" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="-0.254" x2="1.143" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.143" y1="-0.762" x2="1.143" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="1.143" y1="-0.762" x2="0.9398" y2="-0.6096" width="0.1524" layer="51"/>
-<wire x1="0.9398" y1="-0.6096" x2="1.143" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="-0.254" x2="1.651" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="1.651" y1="-0.762" x2="1.4478" y2="-0.6096" width="0.1524" layer="51"/>
-<wire x1="1.4478" y1="-0.6096" x2="1.651" y2="-0.508" width="0.1524" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="-2.54" y="1.397" size="1.016" layer="25" ratio="14">&gt;NAME</text>
-<text x="-2.54" y="-2.413" size="1.016" layer="27" ratio="14">&gt;VALUE</text>
-<rectangle x1="2.159" y1="-1.27" x2="2.413" y2="1.27" layer="21"/>
-</package>
-<package name="LED3MM" library_version="1">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-3 mm, round</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361" cap="flat"/>
-<wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208" cap="flat"/>
-<wire x1="1.1571" y1="0.9918" x2="1.524" y2="0" width="0.1524" layer="51" curve="-40.601165" cap="flat"/>
-<wire x1="1.1708" y1="-0.9756" x2="1.524" y2="0" width="0.1524" layer="51" curve="39.80361" cap="flat"/>
-<wire x1="0" y1="1.524" x2="1.2401" y2="0.8858" width="0.1524" layer="21" curve="-54.461337" cap="flat"/>
-<wire x1="-1.2192" y1="0.9144" x2="0" y2="1.524" width="0.1524" layer="21" curve="-53.130102" cap="flat"/>
-<wire x1="0" y1="-1.524" x2="1.203" y2="-0.9356" width="0.1524" layer="21" curve="52.126876" cap="flat"/>
-<wire x1="-1.203" y1="-0.9356" x2="0" y2="-1.524" width="0.1524" layer="21" curve="52.126876" cap="flat"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="-2.5908" y1="1.7272" x2="-1.8542" y2="1.7272" width="0.127" layer="21"/>
-<wire x1="-2.2352" y1="1.3208" x2="-2.2352" y2="2.1082" width="0.127" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="LED5MM" library_version="1">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-5 mm, round</description>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
-<text x="3.175" y="0.5334" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.2004" y="-1.8034" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="LSU260" library_version="1">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-1 mm, round, Siemens</description>
-<wire x1="0" y1="-0.508" x2="-1.143" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-1.143" y1="-0.508" x2="-1.143" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-1.143" y1="0.508" x2="0" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="-1.143" y1="-0.254" x2="-1.397" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="-1.143" y1="-0.254" x2="-1.143" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="-0.254" x2="-1.397" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="0.254" x2="-1.143" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="-1.143" y1="0.254" x2="-1.143" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="0.508" y1="-0.254" x2="1.397" y2="-0.254" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="-0.254" x2="1.397" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="0.254" x2="0.508" y2="0.254" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="-0.381" x2="0.254" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="0.254" y1="-0.508" x2="-0.254" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="-0.381" x2="-0.254" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="0.381" x2="0.254" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="0.254" y1="0.508" x2="-0.254" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0.381" x2="-0.254" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="0" y1="-0.254" x2="0.254" y2="0" width="0.1524" layer="21" curve="90" cap="flat"/>
-<wire x1="-0.254" y1="0" x2="0" y2="0.254" width="0.1524" layer="21" curve="-90" cap="flat"/>
-<wire x1="0.381" y1="-0.381" x2="0.381" y2="0.381" width="0.1524" layer="21" curve="90"/>
-<circle x="0" y="0" radius="0.508" width="0.1524" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="-1.2954" y="0.8382" size="1.016" layer="25" ratio="14">&gt;NAME</text>
-<text x="-1.27" y="-1.8542" size="1.016" layer="27" ratio="14">&gt;VALUE</text>
-<rectangle x1="-1.397" y1="-0.254" x2="-1.143" y2="0.254" layer="51"/>
-<rectangle x1="0.508" y1="-0.254" x2="1.397" y2="0.254" layer="51"/>
-</package>
-<package name="LZR181" library_version="1">
-<description>&lt;B&gt;LED BLOCK&lt;/B&gt;&lt;p&gt;
-1 LED, Siemens</description>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.889" x2="1.27" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.889" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.889" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.889" x2="-1.27" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0.889" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="-0.508" y1="0" x2="0" y2="0.508" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-0.508" x2="0.508" y2="0" width="0.1524" layer="21" curve="90" cap="flat"/>
-<wire x1="0" y1="-0.889" x2="0.889" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-0.8678" y1="0.7439" x2="0" y2="1.143" width="0.1524" layer="21" curve="-49.396139" cap="flat"/>
-<wire x1="0" y1="1.143" x2="0.8678" y2="0.7439" width="0.1524" layer="21" curve="-49.396139" cap="flat"/>
-<wire x1="-0.8678" y1="-0.7439" x2="0" y2="-1.143" width="0.1524" layer="21" curve="49.396139" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="0.8678" y2="-0.7439" width="0.1524" layer="21" curve="49.396139" cap="flat"/>
-<wire x1="0.8678" y1="0.7439" x2="1.143" y2="0" width="0.1524" layer="51" curve="-40.604135" cap="flat"/>
-<wire x1="0.8678" y1="-0.7439" x2="1.143" y2="0" width="0.1524" layer="51" curve="40.604135" cap="flat"/>
-<wire x1="-1.143" y1="0" x2="-0.8678" y2="0.7439" width="0.1524" layer="51" curve="-40.604135" cap="flat"/>
-<wire x1="-1.143" y1="0" x2="-0.8678" y2="-0.7439" width="0.1524" layer="51" curve="40.604135" cap="flat"/>
-<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="-1.2954" y="1.4732" size="1.016" layer="25" ratio="14">&gt;NAME</text>
-<text x="-1.27" y="-2.4892" size="1.016" layer="27" ratio="14">&gt;VALUE</text>
-<rectangle x1="1.27" y1="-0.889" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.27" y2="0.254" layer="51"/>
-</package>
-<package name="Q62902-B152" library_version="1">
-<description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-Siemens</description>
-<wire x1="2.9718" y1="-1.8542" x2="-2.1082" y2="-1.8542" width="0.1524" layer="21"/>
-<wire x1="-2.1082" y1="1.8542" x2="2.9718" y2="1.8542" width="0.1524" layer="21"/>
-<wire x1="-2.9718" y1="-1.8542" x2="-2.9718" y2="1.8542" width="0.1524" layer="21"/>
-<wire x1="-2.1082" y1="-1.8542" x2="-2.54" y2="-1.8542" width="0.1524" layer="21"/>
-<wire x1="-2.1082" y1="1.8542" x2="-2.54" y2="1.8542" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.8542" x2="-2.54" y2="1.8542" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.8542" x2="-2.9718" y2="-1.8542" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.8542" x2="-2.9718" y2="1.8542" width="0.1524" layer="21"/>
-<wire x1="-2.9718" y1="0.254" x2="-2.9718" y2="-0.254" width="0.1524" layer="21" curve="180"/>
-<wire x1="-1.1486" y1="0.8814" x2="0" y2="1.4478" width="0.1524" layer="21" curve="-52.498642" cap="flat"/>
-<wire x1="0" y1="1.4478" x2="1.1476" y2="0.8827" width="0.1524" layer="21" curve="-52.433716" cap="flat"/>
-<wire x1="-1.1351" y1="-0.8987" x2="0" y2="-1.4478" width="0.1524" layer="21" curve="51.629985" cap="flat"/>
-<wire x1="0" y1="-1.4478" x2="1.1305" y2="-0.9044" width="0.1524" layer="21" curve="51.339172" cap="flat"/>
-<wire x1="1.1281" y1="-0.9074" x2="1.4478" y2="0" width="0.1524" layer="51" curve="38.811177" cap="flat"/>
-<wire x1="1.1401" y1="0.8923" x2="1.4478" y2="0" width="0.1524" layer="51" curve="-38.048073" cap="flat"/>
-<wire x1="-1.4478" y1="0" x2="-1.1305" y2="-0.9044" width="0.1524" layer="51" curve="38.659064" cap="flat"/>
-<wire x1="-1.4478" y1="0" x2="-1.1456" y2="0.8853" width="0.1524" layer="51" curve="-37.696376" cap="flat"/>
-<wire x1="0" y1="1.7018" x2="1.4674" y2="0.8618" width="0.1524" layer="21" curve="-59.573488" cap="flat"/>
-<wire x1="-1.4618" y1="0.8714" x2="0" y2="1.7018" width="0.1524" layer="21" curve="-59.200638" cap="flat"/>
-<wire x1="0" y1="-1.7018" x2="1.4571" y2="-0.8793" width="0.1524" layer="21" curve="58.891781" cap="flat"/>
-<wire x1="-1.4571" y1="-0.8793" x2="0" y2="-1.7018" width="0.1524" layer="21" curve="58.891781" cap="flat"/>
-<wire x1="-1.7018" y1="0" x2="-1.4447" y2="0.8995" width="0.1524" layer="51" curve="-31.907626" cap="flat"/>
-<wire x1="-1.7018" y1="0" x2="-1.4502" y2="-0.8905" width="0.1524" layer="51" curve="31.551992" cap="flat"/>
-<wire x1="1.4521" y1="0.8874" x2="1.7018" y2="0" width="0.1524" layer="51" curve="-31.429586" cap="flat"/>
-<wire x1="1.4459" y1="-0.8975" x2="1.7018" y2="0" width="0.1524" layer="51" curve="31.828757" cap="flat"/>
-<wire x1="-2.1082" y1="1.8542" x2="-2.1082" y2="0.4826" width="0.1524" layer="21"/>
-<wire x1="-2.1082" y1="0.4826" x2="-2.1082" y2="-0.4826" width="0.1524" layer="21"/>
-<wire x1="-2.1082" y1="-0.4826" x2="-2.1082" y2="-1.8542" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="21" curve="-90" cap="flat"/>
-<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="2.9718" y1="1.8542" x2="2.9718" y2="0.4826" width="0.1524" layer="21"/>
-<wire x1="2.9718" y1="0.4826" x2="2.9718" y2="-0.4826" width="0.1524" layer="21"/>
-<wire x1="2.9718" y1="-0.4826" x2="2.9718" y2="-1.8542" width="0.1524" layer="21"/>
-<pad name="K" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.905" y="-3.556" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="Q62902-B153" library_version="1">
-<description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-Siemens</description>
-<wire x1="5.5118" y1="-3.5052" x2="-4.6482" y2="-3.5052" width="0.1524" layer="21"/>
-<wire x1="-4.6482" y1="3.5052" x2="5.5118" y2="3.5052" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="-3.5052" x2="-5.5118" y2="3.5052" width="0.1524" layer="21"/>
-<wire x1="-4.6482" y1="-3.5052" x2="-5.08" y2="-3.5052" width="0.1524" layer="21"/>
-<wire x1="-4.6482" y1="3.5052" x2="-5.08" y2="3.5052" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-3.5052" x2="-5.08" y2="3.5052" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-3.5052" x2="-5.5118" y2="-3.5052" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="3.5052" x2="-5.5118" y2="3.5052" width="0.1524" layer="21"/>
-<wire x1="-5.5118" y1="0.254" x2="-5.5118" y2="-0.254" width="0.1524" layer="21" curve="180"/>
-<wire x1="-4.6482" y1="3.5052" x2="-4.6482" y2="-3.5052" width="0.1524" layer="21"/>
-<wire x1="5.5118" y1="3.5052" x2="5.5118" y2="-3.5052" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-1.905" width="0.254" layer="21"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="3.175" width="0.254" layer="21"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="K" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-4.191" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.318" y="-5.08" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="Q62902-B155" library_version="1">
-<description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-Siemens</description>
-<wire x1="-1.27" y1="-3.048" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="10.033" y1="3.048" x2="2.921" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="10.033" y1="3.048" x2="10.033" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-3.048" x2="2.921" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="-3.048" x2="2.921" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="-3.048" x2="10.033" y2="-3.048" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="3.048" x2="-1.27" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-5.207" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="2.54" x2="-5.207" y2="-2.54" width="0.1524" layer="21" curve="180"/>
-<wire x1="-6.985" y1="0.635" x2="-6.985" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-6.096" y1="1.397" x2="-6.096" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="-5.207" y1="1.905" x2="-5.207" y2="-1.905" width="0.1524" layer="21"/>
-<pad name="K" x="7.62" y="1.27" drill="0.8128" shape="long"/>
-<pad name="A" x="7.62" y="-1.27" drill="0.8128" shape="long"/>
-<text x="3.302" y="-2.794" size="1.016" layer="21" ratio="14">A+</text>
-<text x="3.302" y="1.778" size="1.016" layer="21" ratio="14">K-</text>
-<text x="11.684" y="-2.794" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="0.635" y="-4.445" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="2.921" y1="1.016" x2="6.731" y2="1.524" layer="21"/>
-<rectangle x1="2.921" y1="-1.524" x2="6.731" y2="-1.016" layer="21"/>
-<hole x="0" y="0" drill="0.8128"/>
-</package>
-<package name="Q62902-B156" library_version="1">
-<description>&lt;b&gt;LED HOLDER&lt;/b&gt;&lt;p&gt;
-Siemens</description>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="2.54" y1="3.81" x2="3.81" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="3.81" x2="-3.81" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-3.81" x2="-2.54" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-3.302" x2="-2.54" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-3.81" x2="2.54" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-3.302" x2="2.54" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-3.302" x2="-2.54" y2="-3.302" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="3.175" width="0.254" layer="21"/>
-<pad name="A" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="K" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.81" y="4.0894" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.7846" y="-5.3594" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-3.556" y="-3.302" size="1.016" layer="21" ratio="14">+</text>
-<text x="2.794" y="-3.302" size="1.016" layer="21" ratio="14">-</text>
-</package>
-<package name="SFH480" library_version="1">
-<description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
-infrared emitting diode, Infineon
-TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
-Inifineon</description>
-<wire x1="-2.159" y1="1.524" x2="-2.794" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="2.159" x2="-2.159" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="2.159" x2="-2.159" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.778" x2="1.5358" y2="0.8959" width="0.1524" layer="21" curve="-59.743278" cap="flat"/>
-<wire x1="-1.5358" y1="0.8959" x2="0" y2="1.778" width="0.1524" layer="21" curve="-59.743278" cap="flat"/>
-<wire x1="-1.5358" y1="-0.8959" x2="0" y2="-1.778" width="0.1524" layer="21" curve="59.743278" cap="flat"/>
-<wire x1="0" y1="-1.778" x2="1.5358" y2="-0.8959" width="0.1524" layer="21" curve="59.743278" cap="flat"/>
-<wire x1="1.5142" y1="0.9318" x2="1.778" y2="0" width="0.1524" layer="51" curve="-31.606487" cap="flat"/>
-<wire x1="1.5" y1="-0.9546" x2="1.778" y2="0" width="0.1524" layer="51" curve="32.472615" cap="flat"/>
-<wire x1="-1.778" y1="0" x2="-1.5142" y2="-0.9318" width="0.1524" layer="51" curve="31.606487" cap="flat"/>
-<wire x1="-1.778" y1="0" x2="-1.5" y2="0.9546" width="0.1524" layer="51" curve="-32.472615" cap="flat"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<circle x="0" y="0" radius="2.667" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.413" width="0.254" layer="21"/>
-<pad name="K" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="A" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="SFH482" library_version="1">
-<description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
-infrared emitting diode, Infineon
-TO-18, lead spacing 2.54 mm, cathode marking&lt;p&gt;
-Inifineon</description>
-<wire x1="-2.159" y1="1.524" x2="-2.794" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-2.794" y1="2.159" x2="-2.159" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="2.159" x2="-2.159" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="0" y1="1.778" x2="1.5358" y2="0.8959" width="0.1524" layer="21" curve="-59.743278" cap="flat"/>
-<wire x1="-1.5358" y1="0.8959" x2="0" y2="1.778" width="0.1524" layer="21" curve="-59.743278" cap="flat"/>
-<wire x1="-1.5358" y1="-0.8959" x2="0" y2="-1.778" width="0.1524" layer="21" curve="59.743278" cap="flat"/>
-<wire x1="0" y1="-1.778" x2="1.5358" y2="-0.8959" width="0.1524" layer="21" curve="59.743278" cap="flat"/>
-<wire x1="1.5142" y1="0.9318" x2="1.778" y2="0" width="0.1524" layer="51" curve="-31.606487" cap="flat"/>
-<wire x1="1.5" y1="-0.9546" x2="1.778" y2="0" width="0.1524" layer="51" curve="32.472615" cap="flat"/>
-<wire x1="-1.778" y1="0" x2="-1.5142" y2="-0.9318" width="0.1524" layer="51" curve="31.606487" cap="flat"/>
-<wire x1="-1.778" y1="0" x2="-1.5" y2="0.9546" width="0.1524" layer="51" curve="-32.472615" cap="flat"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<circle x="0" y="0" radius="2.667" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="2.413" width="0.254" layer="21"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="-1.27" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="U57X32" library_version="1">
-<description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
-rectangle, 5.7 x 3.2 mm</description>
-<wire x1="-3.175" y1="1.905" x2="3.175" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.905" x2="3.175" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.905" x2="-3.175" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.905" x2="-3.175" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="-2.667" y1="1.397" x2="2.667" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="2.667" y1="-1.397" x2="2.667" y2="1.397" width="0.1524" layer="21"/>
-<wire x1="2.667" y1="-1.397" x2="-2.667" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="-2.667" y1="1.397" x2="-2.667" y2="-1.397" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="1.27" x2="2.286" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="0.508" x2="2.54" y2="0.508" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-0.508" x2="2.54" y2="-0.508" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-1.016" x2="2.54" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="1.27" x2="-2.286" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-1.778" y1="1.27" x2="-1.778" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="0.254" y1="1.27" x2="0.254" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="1.27" x2="0.762" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="1.778" y1="1.27" x2="1.778" y2="-1.27" width="0.1524" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" shape="long" rot="R90"/>
-<text x="3.683" y="0.254" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.683" y="-1.524" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="IRL80A" library_version="1">
-<description>&lt;B&gt;IR LED&lt;/B&gt;&lt;p&gt;
-IR transmitter Siemens</description>
-<wire x1="0.889" y1="2.286" x2="0.889" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="1.778" x2="0.889" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="0.762" x2="0.889" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-0.635" x2="0.889" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="0.889" y1="-1.778" x2="0.889" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="0.889" y1="-2.286" x2="-0.889" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="2.286" x2="-0.889" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="1.778" x2="-0.889" y2="0.762" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="0.762" x2="-0.889" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-0.762" x2="-0.889" y2="-1.778" width="0.1524" layer="51"/>
-<wire x1="-0.889" y1="-1.778" x2="-0.889" y2="-2.286" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="2.286" x2="0.889" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="-0.889" y1="-0.762" x2="-0.889" y2="0.762" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.397" y1="0.254" x2="-1.397" y2="-0.254" width="0.0508" layer="21"/>
-<wire x1="-1.143" y1="0.508" x2="-1.143" y2="-0.508" width="0.0508" layer="21"/>
-<pad name="K" x="0" y="1.27" drill="0.8128" shape="octagon"/>
-<pad name="A" x="0" y="-1.27" drill="0.8128" shape="octagon"/>
-<text x="1.27" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1.27" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="P-LCC-2" library_version="1">
-<description>&lt;b&gt;TOPLED® High-optical Power LED (HOP)&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... ls_t675.pdf</description>
-<wire x1="-1.4" y1="1.6" x2="-1.4" y2="-0.65" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="-1.05" x2="-1.4" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="-1.6" x2="-1.1" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-1.1" y1="-1.6" x2="-0.85" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-0.85" y1="-1.6" x2="1.1" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="1.1" y1="-1.6" x2="1.4" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="-1.6" x2="1.4" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="1.6" x2="-1.4" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="-1.1" y1="1.6" x2="-1.1" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="-1.1" y1="1.8" x2="1.1" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="1.1" y1="1.8" x2="1.1" y2="1.6" width="0.1016" layer="51"/>
-<wire x1="-1.1" y1="-1.6" x2="-1.1" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="-1.1" y1="-1.8" x2="1.1" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="1.1" y1="-1.8" x2="1.1" y2="-1.6" width="0.1016" layer="51"/>
-<wire x1="-0.85" y1="-1.6" x2="-1.4" y2="-1.05" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="-1.05" x2="-1.4" y2="-0.65" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
-<smd name="C" x="0" y="-2.75" dx="4" dy="4" layer="1" stop="no" cream="no"/>
-<smd name="A" x="0" y="2.75" dx="4" dy="4" layer="1" stop="no" cream="no"/>
-<text x="-2.54" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-0.635" y="2.54" size="1.27" layer="21">A</text>
-<text x="-0.635" y="-3.81" size="1.27" layer="21">C</text>
-<rectangle x1="-1.3" y1="-2.25" x2="1.3" y2="-0.75" layer="31"/>
-<rectangle x1="-1.3" y1="0.75" x2="1.3" y2="2.25" layer="31"/>
-<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="21"/>
-<rectangle x1="-1.4" y1="0.65" x2="1.4" y2="2.35" layer="29"/>
-<rectangle x1="-1.4" y1="-2.35" x2="1.4" y2="-0.65" layer="29"/>
-</package>
-<package name="OSRAM-MINI-TOP-LED" library_version="1">
-<description>&lt;b&gt;BLUE LINETM Hyper Mini TOPLED® Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LB M676.pdf</description>
-<wire x1="-0.6" y1="0.9" x2="-0.6" y2="-0.7" width="0.1016" layer="51"/>
-<wire x1="-0.45" y1="-0.9" x2="-0.4" y2="-0.9" width="0.1016" layer="51"/>
-<wire x1="-0.4" y1="-0.9" x2="0.6" y2="-0.9" width="0.1016" layer="51"/>
-<wire x1="0.6" y1="-0.9" x2="0.6" y2="0.9" width="0.1016" layer="51"/>
-<wire x1="0.6" y1="0.9" x2="-0.6" y2="0.9" width="0.1016" layer="51"/>
-<wire x1="-0.45" y1="0.95" x2="-0.45" y2="1.1" width="0.1016" layer="51"/>
-<wire x1="-0.45" y1="1.1" x2="0.45" y2="1.1" width="0.1016" layer="51"/>
-<wire x1="0.45" y1="1.1" x2="0.45" y2="0.95" width="0.1016" layer="51"/>
-<wire x1="-0.6" y1="-0.7" x2="-0.4" y2="-0.9" width="0.1016" layer="51"/>
-<wire x1="-0.45" y1="-0.9" x2="-0.45" y2="-1.1" width="0.1016" layer="51"/>
-<wire x1="-0.45" y1="-1.1" x2="0.45" y2="-1.1" width="0.1016" layer="51"/>
-<wire x1="0.45" y1="-1.1" x2="0.45" y2="-0.95" width="0.1016" layer="51"/>
-<smd name="A" x="0" y="2.6" dx="4" dy="4" layer="1" stop="no" cream="no"/>
-<smd name="C" x="0" y="-2.6" dx="4" dy="4" layer="1" stop="no" cream="no"/>
-<text x="-0.635" y="1.905" size="1.27" layer="21">A</text>
-<text x="-0.635" y="-3.175" size="1.27" layer="21">C</text>
-<text x="-2.54" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.5" y1="0.6" x2="0.5" y2="1.4" layer="31"/>
-<rectangle x1="-0.5" y1="-1.4" x2="0.5" y2="-0.6" layer="31"/>
-<rectangle x1="-0.15" y1="-0.6" x2="0.15" y2="-0.3" layer="51"/>
-<rectangle x1="-0.45" y1="0.65" x2="0.45" y2="1.35" layer="31"/>
-<rectangle x1="-0.45" y1="-1.35" x2="0.45" y2="-0.65" layer="31"/>
-</package>
-<package name="OSRAM-SIDELED" library_version="1">
-<description>&lt;b&gt;Super SIDELED® High-Current LED&lt;/b&gt;&lt;p&gt;
-LG A672, LP A672 &lt;br&gt;
-Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)</description>
-<wire x1="-1.85" y1="-2.05" x2="-1.85" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.85" y1="-0.75" x2="-1.7" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.7" y1="-0.75" x2="-1.7" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-1.7" y1="0.75" x2="-1.85" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-1.85" y1="0.75" x2="-1.85" y2="2.05" width="0.1016" layer="51"/>
-<wire x1="-1.85" y1="2.05" x2="0.9" y2="2.05" width="0.1016" layer="51"/>
-<wire x1="0.9" y1="2.05" x2="0.9" y2="-2.05" width="0.1016" layer="51"/>
-<wire x1="0.9" y1="-2.05" x2="-1.85" y2="-2.05" width="0.1016" layer="51"/>
-<wire x1="0.9" y1="-2.05" x2="1.05" y2="-2.05" width="0.1016" layer="51"/>
-<wire x1="1.05" y1="-2.05" x2="1.85" y2="-1.85" width="0.1016" layer="51"/>
-<wire x1="1.85" y1="-1.85" x2="1.85" y2="1.85" width="0.1016" layer="51"/>
-<wire x1="1.85" y1="1.85" x2="1.05" y2="2.05" width="0.1016" layer="51"/>
-<wire x1="1.05" y1="2.05" x2="0.9" y2="2.05" width="0.1016" layer="51"/>
-<wire x1="1.05" y1="2.05" x2="1.05" y2="-2.05" width="0.1016" layer="51"/>
-<wire x1="-0.55" y1="-0.9" x2="-0.55" y2="0.9" width="0.1016" layer="51" curve="-167.319617"/>
-<wire x1="-0.55" y1="-0.9" x2="0.85" y2="-1.2" width="0.1016" layer="51" style="shortdash"/>
-<wire x1="-0.55" y1="0.9" x2="0.85" y2="1.2" width="0.1016" layer="51" style="shortdash"/>
-<smd name="C" x="0" y="-2.5" dx="4" dy="4" layer="1" stop="no" cream="no"/>
-<smd name="A" x="0" y="2.5" dx="4" dy="4" layer="1" stop="no" cream="no"/>
-<text x="0.635" y="-3.175" size="1.27" layer="21" rot="R90">C</text>
-<text x="0.635" y="2.54" size="1.27" layer="21" rot="R90">A</text>
-<text x="-2.54" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.1" y1="-2.2" x2="2.1" y2="-0.4" layer="29"/>
-<rectangle x1="-2.1" y1="0.4" x2="2.1" y2="2.2" layer="29"/>
-<rectangle x1="-1.9" y1="-2.1" x2="1.9" y2="-0.6" layer="31"/>
-<rectangle x1="-1.9" y1="0.6" x2="1.9" y2="2.1" layer="31"/>
-<rectangle x1="-1.85" y1="-2.05" x2="-0.7" y2="-1" layer="51"/>
-</package>
-<package name="SMART-LED" library_version="1">
-<description>&lt;b&gt;SmartLEDTM Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY L896.pdf</description>
-<wire x1="-0.35" y1="0.6" x2="0.35" y2="0.6" width="0.1016" layer="51" style="shortdash"/>
-<wire x1="0.35" y1="0.6" x2="0.35" y2="-0.6" width="0.1016" layer="21" style="shortdash"/>
-<wire x1="0.35" y1="-0.6" x2="-0.35" y2="-0.6" width="0.1016" layer="51" style="shortdash"/>
-<wire x1="-0.35" y1="-0.6" x2="-0.35" y2="0.6" width="0.1016" layer="21" style="shortdash"/>
-<wire x1="0.35" y1="-0.4" x2="0.15" y2="-0.6" width="0.1016" layer="51" style="shortdash"/>
-<smd name="A" x="0" y="0.725" dx="0.35" dy="0.35" layer="1"/>
-<smd name="B" x="0" y="-0.725" dx="0.35" dy="0.35" layer="1"/>
-<text x="-0.635" y="-0.635" size="1.016" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-0.635" size="1.016" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.15" y1="-0.35" x2="0.15" y2="-0.05" layer="21"/>
-<rectangle x1="-0.15" y1="0.6" x2="0.15" y2="0.85" layer="51"/>
-<rectangle x1="-0.15" y1="-0.85" x2="0.15" y2="-0.6" layer="51"/>
-</package>
-<package name="P-LCC-2-TOPLED-RG" library_version="1">
-<description>&lt;b&gt;Hyper TOPLED® RG Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf</description>
-<wire x1="-1.4" y1="-1.05" x2="-1.4" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="-1.6" x2="-1.1" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-1.1" y1="-1.6" x2="-0.85" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-0.85" y1="-1.6" x2="1.1" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="1.1" y1="-1.6" x2="1.4" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="-1.6" x2="1.4" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="1.6" x2="-1.4" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="-1.1" y1="1.6" x2="-1.1" y2="2.45" width="0.1016" layer="51"/>
-<wire x1="1.1" y1="2.45" x2="1.1" y2="1.6" width="0.1016" layer="51"/>
-<wire x1="-1.1" y1="-1.6" x2="-1.1" y2="-2.45" width="0.1016" layer="51"/>
-<wire x1="1.1" y1="-2.45" x2="1.1" y2="-1.6" width="0.1016" layer="51"/>
-<wire x1="-0.85" y1="-1.6" x2="-1.4" y2="-1.05" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="1.6" x2="-1.4" y2="-1.05" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.1" width="0.2032" layer="21"/>
-<smd name="C" x="0" y="-3.5" dx="4" dy="4" layer="1" stop="no" cream="no"/>
-<smd name="A" x="0" y="3.5" dx="4" dy="4" layer="1" stop="no" cream="no"/>
-<text x="-2.54" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-0.635" y="3.29" size="1.27" layer="21">A</text>
-<text x="-0.635" y="-4.56" size="1.27" layer="21">C</text>
-<rectangle x1="-1.3" y1="-3" x2="1.3" y2="-1.5" layer="31"/>
-<rectangle x1="-1.3" y1="1.5" x2="1.3" y2="3" layer="31"/>
-<rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="21"/>
-<rectangle x1="-1.15" y1="2.4" x2="1.15" y2="2.7" layer="51"/>
-<rectangle x1="-1.15" y1="-2.7" x2="1.15" y2="-2.4" layer="51"/>
-<rectangle x1="-1.5" y1="1.5" x2="1.5" y2="3.2" layer="29"/>
-<rectangle x1="-1.5" y1="-3.2" x2="1.5" y2="-1.5" layer="29"/>
-<hole x="0" y="0" drill="2.8"/>
-</package>
-<package name="MICRO-SIDELED" library_version="1">
-<description>&lt;b&gt;Hyper Micro SIDELED®&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf</description>
-<wire x1="0.65" y1="1.1" x2="-0.1" y2="1.1" width="0.1016" layer="51"/>
-<wire x1="-0.1" y1="1.1" x2="-0.35" y2="1" width="0.1016" layer="51"/>
-<wire x1="-0.35" y1="1" x2="-0.35" y2="-0.9" width="0.1016" layer="21"/>
-<wire x1="-0.35" y1="-0.9" x2="-0.1" y2="-1.1" width="0.1016" layer="51"/>
-<wire x1="-0.1" y1="-1.1" x2="0.65" y2="-1.1" width="0.1016" layer="51"/>
-<wire x1="0.65" y1="-1.1" x2="0.65" y2="1.1" width="0.1016" layer="21"/>
-<wire x1="0.6" y1="0.9" x2="0.25" y2="0.7" width="0.0508" layer="21"/>
-<wire x1="0.25" y1="0.7" x2="0.25" y2="-0.7" width="0.0508" layer="21"/>
-<wire x1="0.25" y1="-0.7" x2="0.6" y2="-0.9" width="0.0508" layer="21"/>
-<smd name="A" x="0" y="1.95" dx="1.6" dy="1.6" layer="1" stop="no" cream="no"/>
-<smd name="C" x="0" y="-1.95" dx="1.6" dy="1.6" layer="1" stop="no" cream="no"/>
-<text x="-1.27" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.4" y1="1.1" x2="0.4" y2="1.8" layer="29"/>
-<rectangle x1="-0.4" y1="-1.8" x2="0.4" y2="-1.1" layer="29"/>
-<rectangle x1="-0.35" y1="-1.75" x2="0.35" y2="-1.15" layer="31"/>
-<rectangle x1="-0.35" y1="1.15" x2="0.35" y2="1.75" layer="31"/>
-<rectangle x1="-0.125" y1="1.125" x2="0.125" y2="1.75" layer="51"/>
-<rectangle x1="-0.125" y1="-1.75" x2="0.125" y2="-1.125" layer="51"/>
-</package>
-<package name="P-LCC-4" library_version="1">
-<description>&lt;b&gt;Power TOPLED®&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LA_LO_LA_LY E67B.pdf</description>
-<wire x1="-1.4" y1="1.6" x2="-1.4" y2="-0.65" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="-1.05" x2="-1.4" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="-1.6" x2="-1" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-1" y1="-1.6" x2="-0.85" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="-0.85" y1="-1.6" x2="1" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="1" y1="-1.6" x2="1.4" y2="-1.6" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="-1.6" x2="1.4" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="1.4" y1="1.6" x2="-1" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="-1" y1="1.6" x2="-1.4" y2="1.6" width="0.2032" layer="51"/>
-<wire x1="-1" y1="1.6" x2="-1" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="-1" y1="1.8" x2="-0.5" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="-0.5" y1="1.8" x2="-0.5" y2="1.65" width="0.1016" layer="51"/>
-<wire x1="0.5" y1="1.65" x2="0.5" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="0.5" y1="1.8" x2="1.1" y2="1.8" width="0.1016" layer="51"/>
-<wire x1="1.1" y1="1.8" x2="1.1" y2="1.6" width="0.1016" layer="51"/>
-<wire x1="-1" y1="-1.6" x2="-1" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="-1" y1="-1.8" x2="-0.5" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="-0.5" y1="-1.8" x2="-0.5" y2="-1.65" width="0.1016" layer="51"/>
-<wire x1="0.5" y1="-1.65" x2="0.5" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="0.5" y1="-1.8" x2="1" y2="-1.8" width="0.1016" layer="51"/>
-<wire x1="1" y1="-1.8" x2="1" y2="-1.6" width="0.1016" layer="51"/>
-<wire x1="-0.85" y1="-1.6" x2="-1.4" y2="-1.05" width="0.2032" layer="51"/>
-<wire x1="-1.4" y1="-1.05" x2="-1.4" y2="-0.65" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
-<smd name="A" x="-2" y="3.15" dx="3.3" dy="4.8" layer="1" stop="no" cream="no"/>
-<smd name="C@3" x="2" y="3.15" dx="3.3" dy="4.8" layer="1" stop="no" cream="no"/>
-<smd name="C@4" x="2" y="-3.15" dx="3.3" dy="4.8" layer="1" stop="no" cream="no"/>
-<smd name="C@1" x="-2" y="-3.15" dx="3.3" dy="4.8" layer="1" stop="no" cream="no"/>
-<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-1.905" y="-3.81" size="1.27" layer="21">C</text>
-<text x="-1.905" y="2.54" size="1.27" layer="21">A</text>
-<text x="1.27" y="2.54" size="1.27" layer="21">C</text>
-<text x="1.27" y="-3.81" size="1.27" layer="21">C</text>
-<rectangle x1="-1.15" y1="0.75" x2="-0.35" y2="1.85" layer="29"/>
-<rectangle x1="0.35" y1="0.75" x2="1.15" y2="1.85" layer="29"/>
-<rectangle x1="0.35" y1="-1.85" x2="1.15" y2="-0.75" layer="29"/>
-<rectangle x1="-1.15" y1="-1.85" x2="-0.35" y2="-0.75" layer="29"/>
-<rectangle x1="-1.1" y1="-1.8" x2="-0.4" y2="-0.8" layer="31"/>
-<rectangle x1="0.4" y1="-1.8" x2="1.1" y2="-0.8" layer="31"/>
-<rectangle x1="0.4" y1="0.8" x2="1.1" y2="1.8" layer="31"/>
-<rectangle x1="-1.1" y1="0.8" x2="-0.4" y2="1.8" layer="31"/>
-<rectangle x1="-0.2" y1="-0.2" x2="0.2" y2="0.2" layer="21"/>
-</package>
-<package name="CHIP-LED0603" library_version="1">
-<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-LB Q993&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
-<wire x1="-0.4" y1="0.45" x2="-0.4" y2="-0.45" width="0.1016" layer="51"/>
-<wire x1="0.4" y1="0.45" x2="0.4" y2="-0.45" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
-<text x="-0.635" y="-0.635" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-0.635" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.45" y1="0.45" x2="0.45" y2="0.85" layer="51"/>
-<rectangle x1="-0.45" y1="-0.85" x2="0.45" y2="-0.45" layer="51"/>
-<rectangle x1="-0.45" y1="0" x2="-0.3" y2="0.3" layer="21"/>
-<rectangle x1="0.3" y1="0" x2="0.45" y2="0.3" layer="21"/>
-<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
-</package>
-<package name="CHIP-LED0805" library_version="1">
-<description>&lt;b&gt;Hyper CHIPLED Hyper-Bright LED&lt;/b&gt;&lt;p&gt;
-LB R99A&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
-<wire x1="-0.625" y1="0.45" x2="-0.625" y2="-0.45" width="0.1016" layer="51"/>
-<wire x1="0.625" y1="0.45" x2="0.625" y2="-0.475" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-1.27" y="-2.54" size="1.016" layer="21" font="vector">+</text>
-<rectangle x1="-0.675" y1="0" x2="-0.525" y2="0.3" layer="21"/>
-<rectangle x1="0.525" y1="0" x2="0.675" y2="0.3" layer="21"/>
-<rectangle x1="-0.15" y1="0" x2="0.15" y2="0.3" layer="21"/>
-<rectangle x1="-0.675" y1="0.45" x2="0.675" y2="1.05" layer="51"/>
-<rectangle x1="-0.675" y1="-1.05" x2="0.675" y2="-0.45" layer="51"/>
-</package>
-<package name="MINI-TOPLED-SANTANA" library_version="1">
-<description>&lt;b&gt;Mini TOPLED Santana®&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG M470.pdf</description>
-<wire x1="0.7" y1="-1" x2="0.35" y2="-1" width="0.1016" layer="21"/>
-<wire x1="0.35" y1="-1" x2="-0.45" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-0.45" y1="-1" x2="-0.7" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-0.7" y1="-1" x2="-0.7" y2="-0.75" width="0.1016" layer="21"/>
-<wire x1="-0.7" y1="-0.75" x2="-0.7" y2="1" width="0.1016" layer="21"/>
-<wire x1="-0.7" y1="1" x2="0.7" y2="1" width="0.1016" layer="21"/>
-<wire x1="0.7" y1="1" x2="0.7" y2="-0.65" width="0.1016" layer="21"/>
-<wire x1="0.7" y1="-0.65" x2="0.7" y2="-1" width="0.1016" layer="21"/>
-<wire x1="0.45" y1="-0.7" x2="-0.45" y2="-0.7" width="0.1016" layer="21"/>
-<wire x1="-0.45" y1="-0.7" x2="-0.45" y2="0.7" width="0.1016" layer="21"/>
-<wire x1="-0.45" y1="0.7" x2="0.45" y2="0.7" width="0.1016" layer="21"/>
-<wire x1="0.45" y1="0.7" x2="0.45" y2="-0.7" width="0.1016" layer="21"/>
-<wire x1="0.7" y1="-0.65" x2="0.35" y2="-1" width="0.1016" layer="21"/>
-<smd name="C" x="0" y="-2.2" dx="1.6" dy="1.6" layer="1" stop="no" cream="no"/>
-<smd name="A" x="0" y="2.2" dx="1.6" dy="1.6" layer="1" stop="no" cream="no"/>
-<text x="-1.27" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.55" y1="1.5" x2="0.55" y2="2.1" layer="29"/>
-<rectangle x1="-0.55" y1="-2.1" x2="0.55" y2="-1.5" layer="29"/>
-<rectangle x1="-0.5" y1="-2.05" x2="0.5" y2="-1.55" layer="31"/>
-<rectangle x1="-0.5" y1="1.55" x2="0.5" y2="2.05" layer="31"/>
-<rectangle x1="-0.2" y1="-0.4" x2="0.15" y2="-0.05" layer="21"/>
-<rectangle x1="-0.5" y1="-2.1" x2="0.5" y2="-1.4" layer="51"/>
-<rectangle x1="-0.5" y1="1.4" x2="0.5" y2="2.05" layer="51"/>
-<rectangle x1="-0.5" y1="1" x2="0.5" y2="1.4" layer="21"/>
-<rectangle x1="-0.5" y1="-1.4" x2="0.5" y2="-1.05" layer="21"/>
-<hole x="0" y="0" drill="2.7"/>
-</package>
-<package name="CHIPLED_0805" library_version="1">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
-<wire x1="-0.35" y1="1" x2="0.35" y2="1" width="0.1016" layer="51" curve="180" cap="flat"/>
-<wire x1="-0.35" y1="-1" x2="0.35" y2="-1" width="0.1016" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
-<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
-<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
-<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
-<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
-<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
-<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
-<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
-<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
-<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
-<rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
-<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
-<rectangle x1="-0.625" y1="0.925" x2="-0.4" y2="1" layer="51"/>
-</package>
-<package name="CHIPLED_1206" library_version="1">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
-<wire x1="-0.4" y1="1.625" x2="0.4" y2="1.625" width="0.1016" layer="51" curve="180" cap="flat"/>
-<wire x1="-0.8" y1="-0.95" x2="-0.8" y2="0.95" width="0.1016" layer="51"/>
-<wire x1="0.8" y1="0.95" x2="0.8" y2="-0.95" width="0.1016" layer="51"/>
-<circle x="-0.55" y="1.425" radius="0.1" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.75" dx="1.5" dy="1.5" layer="1"/>
-<smd name="A" x="0" y="-1.75" dx="1.5" dy="1.5" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.85" y1="1.525" x2="-0.35" y2="1.65" layer="51"/>
-<rectangle x1="-0.85" y1="1.225" x2="-0.625" y2="1.55" layer="51"/>
-<rectangle x1="-0.45" y1="1.225" x2="-0.325" y2="1.45" layer="51"/>
-<rectangle x1="-0.65" y1="1.225" x2="-0.225" y2="1.35" layer="51"/>
-<rectangle x1="0.35" y1="1.3" x2="0.85" y2="1.65" layer="51"/>
-<rectangle x1="0.25" y1="1.225" x2="0.85" y2="1.35" layer="51"/>
-<rectangle x1="-0.85" y1="0.95" x2="0.85" y2="1.25" layer="51"/>
-<rectangle x1="-0.85" y1="-1.65" x2="0.85" y2="-0.95" layer="51"/>
-<rectangle x1="-0.85" y1="0.35" x2="-0.525" y2="0.775" layer="21"/>
-<rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
-<rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
-</package>
-<package name="CHIPLED_0603" library_version="1">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
-<wire x1="-0.3" y1="0.825" x2="0.3" y2="0.825" width="0.1016" layer="51" curve="180" cap="flat"/>
-<wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="51" curve="-180" cap="flat"/>
-<wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="0.4" y1="0.35" x2="0.4" y2="-0.35" width="0.1016" layer="51"/>
-<circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
-<smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
-<smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
-<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
-<rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
-<rectangle x1="0.25" y1="0.55" x2="0.45" y2="0.85" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="0.45" y2="0.575" layer="51"/>
-<rectangle x1="-0.45" y1="-0.85" x2="-0.25" y2="-0.35" layer="51"/>
-<rectangle x1="0.25" y1="-0.85" x2="0.45" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
-<rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
-<rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
-</package>
-<package name="CHIPLED-0603-TTW" library_version="1">
-<description>&lt;b&gt;CHIPLED-0603&lt;/b&gt;&lt;p&gt;
-Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603&lt;br&gt;
-Package able to withstand TTW-soldering heat&lt;br&gt;
-Package suitable for TTW-soldering&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
-<wire x1="-0.3" y1="0.825" x2="0.3" y2="0.825" width="0.1016" layer="51" curve="180" cap="flat"/>
-<wire x1="-0.275" y1="-0.825" x2="0.275" y2="-0.825" width="0.0508" layer="51" curve="-180" cap="flat"/>
-<wire x1="-0.4" y1="0.375" x2="-0.4" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="0.4" y1="0.35" x2="0.4" y2="-0.35" width="0.1016" layer="51"/>
-<circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
-<smd name="C" x="0" y="0.875" dx="0.8" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="A" x="0" y="-0.875" dx="0.8" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="A@1" x="0" y="-0.5" dx="0.35" dy="0.35" layer="1"/>
-<smd name="C@1" x="0" y="0.5" dx="0.35" dy="0.35" layer="1"/>
-<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
-<rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
-<rectangle x1="0.25" y1="0.55" x2="0.45" y2="0.85" layer="51"/>
-<rectangle x1="-0.45" y1="0.35" x2="0.45" y2="0.575" layer="51"/>
-<rectangle x1="-0.45" y1="-0.85" x2="-0.25" y2="-0.35" layer="51"/>
-<rectangle x1="0.25" y1="-0.85" x2="0.45" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
-<rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
-<rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
-<rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
-<rectangle x1="-0.175" y1="0.325" x2="0.175" y2="0.7" layer="29"/>
-<rectangle x1="-0.4" y1="0.625" x2="0.4" y2="1.125" layer="29"/>
-<rectangle x1="-0.4" y1="-1.125" x2="0.4" y2="-0.625" layer="29"/>
-<rectangle x1="-0.175" y1="-0.675" x2="0.175" y2="-0.325" layer="29"/>
-</package>
-<package name="SMARTLED-TTW" library_version="1">
-<description>&lt;b&gt;SmartLED TTW&lt;/b&gt;&lt;p&gt;
-Recommended Solder Pad useable for SmartLEDTM and Chipled - Package 0603&lt;br&gt;
-Package able to withstand TTW-soldering heat&lt;br&gt;
-Package suitable for TTW-soldering&lt;br&gt;
-Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
-<wire x1="-0.35" y1="0.6" x2="0.35" y2="0.6" width="0.1016" layer="51" style="shortdash"/>
-<wire x1="0.35" y1="0.6" x2="0.35" y2="-0.6" width="0.1016" layer="21" style="shortdash"/>
-<wire x1="0.35" y1="-0.6" x2="-0.35" y2="-0.6" width="0.1016" layer="51" style="shortdash"/>
-<wire x1="-0.35" y1="-0.6" x2="-0.35" y2="0.6" width="0.1016" layer="21" style="shortdash"/>
-<wire x1="0.35" y1="-0.4" x2="0.15" y2="-0.6" width="0.1016" layer="51" style="shortdash"/>
-<smd name="C" x="0" y="0.875" dx="0.8" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="A" x="0" y="-0.875" dx="0.8" dy="0.5" layer="1" stop="no" cream="no"/>
-<smd name="A@1" x="0" y="-0.5" dx="0.35" dy="0.35" layer="1" stop="no" cream="no"/>
-<smd name="C@1" x="0" y="0.5" dx="0.35" dy="0.35" layer="1" stop="no" cream="no"/>
-<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.175" y1="0.325" x2="0.175" y2="0.7" layer="29"/>
-<rectangle x1="-0.15" y1="-0.35" x2="0.15" y2="-0.05" layer="21"/>
-<rectangle x1="-0.15" y1="0.6" x2="0.15" y2="0.85" layer="51"/>
-<rectangle x1="-0.15" y1="-0.85" x2="0.15" y2="-0.6" layer="51"/>
-<rectangle x1="-0.225" y1="0.3" x2="0.225" y2="0.975" layer="31"/>
-<rectangle x1="-0.175" y1="-0.7" x2="0.175" y2="-0.325" layer="29" rot="R180"/>
-<rectangle x1="-0.225" y1="-0.975" x2="0.225" y2="-0.3" layer="31" rot="R180"/>
-</package>
-<package name="SMLK34" library_version="1">
-<wire x1="-2" y1="1" x2="1.7" y2="1" width="0.127" layer="21"/>
-<wire x1="1.7" y1="1" x2="2" y2="0.7" width="0.127" layer="21"/>
-<wire x1="2" y1="0.7" x2="2" y2="-1" width="0.127" layer="21"/>
-<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1" x2="-2" y2="1" width="0.127" layer="21"/>
-<wire x1="-1.8" y1="0.8" x2="-1.8" y2="-0.8" width="0.127" layer="25"/>
-<wire x1="-1.8" y1="-0.8" x2="1.8" y2="-0.8" width="0.127" layer="25"/>
-<wire x1="1.8" y1="-0.8" x2="1.8" y2="0.6" width="0.127" layer="25"/>
-<wire x1="1.8" y1="0.6" x2="1.6" y2="0.8" width="0.127" layer="25"/>
-<wire x1="1.6" y1="0.8" x2="-1.8" y2="0.8" width="0.127" layer="25"/>
-<smd name="A" x="0.9" y="0" dx="3.65" dy="1.74" layer="1" rot="R180"/>
-<smd name="K" x="-2.1" y="0" dx="1.35" dy="1.74" layer="1" rot="R180"/>
-<text x="-2.8" y="-3.97" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="-2.8" y="-5.37" size="1.27" layer="27" font="vector">&gt;VALUE</text>
-<text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
-<text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
-</package>
-</packages>
-<symbols>
-<symbol name="LED" library_version="1">
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LED" prefix="LED" uservalue="yes" library_version="1">
-<description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
-&lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
-
-- &lt;u&gt;CHIPLED&lt;/u&gt;&lt;br&gt;
-LG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971
-LH N974, LH R974&lt;br&gt;
-LS Q976, LO Q976, LY Q976&lt;br&gt;
-LO Q996&lt;br&gt;
-
-
-- &lt;u&gt;Hyper CHIPLED&lt;/u&gt;&lt;br&gt;
-LW Q18S&lt;br&gt;
-LB Q993, LB Q99A, LB R99A&lt;br&gt;
-
-- &lt;u&gt;SideLED&lt;/u&gt;&lt;br&gt;
-LS A670, LO A670, LY A670, LG A670, LP A670&lt;br&gt;
-LB A673, LV A673, LT A673, LW A673&lt;br&gt;
-LH A674&lt;br&gt;
-LY A675&lt;br&gt;
-LS A676, LA A676, LO A676, LY A676, LW A676&lt;br&gt;
-LS A679, LY A679, LG A679&lt;br&gt;
-
--  &lt;u&gt;Hyper Micro SIDELED®&lt;/u&gt;&lt;br&gt;
-LS Y876, LA Y876, LO Y876, LY Y876&lt;br&gt;
-LT Y87S&lt;br&gt;
-
-- &lt;u&gt;SmartLED&lt;/u&gt;&lt;br&gt;
-LW L88C, LW L88S&lt;br&gt;
-LB L89C, LB L89S, LG L890&lt;br&gt;
-LS L89K, LO L89K, LY L89K&lt;br&gt;
-LS L896, LA L896, LO L896, LY L896&lt;br&gt;
-
-- &lt;u&gt;TOPLED&lt;/u&gt;&lt;br&gt;
-LS T670, LO T670, LY T670, LG T670, LP T670&lt;br&gt;
-LSG T670, LSP T670, LSY T670, LOP T670, LYG T670&lt;br&gt;
-LG T671, LOG T671, LSG T671&lt;br&gt;
-LB T673, LV T673, LT T673, LW T673&lt;br&gt;
-LH T674&lt;br&gt;
-LS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676&lt;br&gt;
-LB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C&lt;br&gt;
-LS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C&lt;br&gt;
-LW T67C&lt;br&gt;
-LS T679, LY T679, LG T679&lt;br&gt;
-LS T770, LO T770, LY T770, LG T770, LP T770&lt;br&gt;
-LB T773, LV T773, LT T773, LW T773&lt;br&gt;
-LH T774&lt;br&gt;
-LS E675, LA E675, LY E675, LS T675&lt;br&gt;
-LS T776, LA T776, LO T776, LY T776, LB T776&lt;br&gt;
-LHGB T686&lt;br&gt;
-LT T68C, LB T68C&lt;br&gt;
-
-- &lt;u&gt;Hyper Mini TOPLED®&lt;/u&gt;&lt;br&gt;
-LB M676&lt;br&gt;
-
-- &lt;u&gt;Mini TOPLED Santana®&lt;/u&gt;&lt;br&gt;
-LG M470&lt;br&gt;
-LS M47K, LO M47K, LY M47K&lt;br&gt;
-
-&lt;p&gt;
-Source: http://www.osram.convergy.de/</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMT1206" package="1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LD260" package="LD260">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SQR2X5" package="LED2X5">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3MM" package="LED3MM">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5MM" package="LED5MM">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LSU260" package="LSU260">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="LZR181" package="LZR181">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="B152" package="Q62902-B152">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="B153" package="Q62902-B153">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="B155" package="Q62902-B155">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="B156" package="Q62902-B156">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SFH480" package="SFH480">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SFH482" package="SFH482">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SQR5.7X3.2" package="U57X32">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="IRL80A" package="IRL80A">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="P-LCC-2" package="P-LCC-2">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MINI-TOP" package="OSRAM-MINI-TOP-LED">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SIDELED" package="OSRAM-SIDELED">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMART-LED" package="SMART-LED">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="B"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="P-LCC-2-BACK" package="P-LCC-2-TOPLED-RG">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MICRO-SIDELED" package="MICRO-SIDELED">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="P-LCC-4" package="P-LCC-4">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C@4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CHIP-LED0603" package="CHIP-LED0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CHIP-LED0805" package="CHIP-LED0805">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TOPLED-SANTANA" package="MINI-TOPLED-SANTANA">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CHIPLED_0805" package="CHIPLED_0805">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CHIPLED_1206" package="CHIPLED_1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CHIPLED_0603" package="CHIPLED_0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CHIPLED-0603-TTW" package="CHIPLED-0603-TTW">
-<connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="SMARTLED-TTW">
-<connects>
-<connect gate="G$1" pin="A" pad="A@1"/>
-<connect gate="G$1" pin="C" pad="C@1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMLK34" package="SMLK34">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20212,10 +18988,6 @@ Source: www.kingbright.com</description>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LEDU" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LEDV" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LEDW" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603"/>
-<part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -20228,8 +19000,6 @@ Source: www.kingbright.com</description>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED+" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603"/>
-<part name="LED-" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="CHIP-LED0603"/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
@@ -20298,7 +19068,7 @@ Source: www.kingbright.com</description>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="R206" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="100k">
+<part name="R206" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="150k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -20455,13 +19225,8 @@ Source: www.kingbright.com</description>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="R305" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="2.2k"/>
-<part name="R306" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="2.2k"/>
-<part name="R307" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="2.2k"/>
 <part name="R310" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="0.68"/>
 <part name="R311" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="0.68"/>
-<part name="R411" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="2.2k"/>
-<part name="R412" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="2.2k"/>
 <part name="R416" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="0.68"/>
 <part name="R415" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="0.68"/>
 <part name="R302" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="18k">
@@ -20582,8 +19347,6 @@ Source: www.kingbright.com</description>
 <part name="J1" library="J-CNC-3220-10-0100-00-ARM-SWD-port" deviceset="1.27MM-SWD-CONNECTOR" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R303" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="0"/>
 <part name="R403" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="0"/>
 <part name="BOOT" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
@@ -20592,26 +19355,12 @@ Source: www.kingbright.com</description>
 <part name="FB2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
 <part name="VSEL" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
 <part name="EN" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
-<part name="R1" library="rcl_custom" deviceset="R-US_" device="0805-B-NOSILK" value="0">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="RHM0.0ARCT-ND"/>
-<attribute name="MFR" value="Rohm"/>
-<attribute name="MPN" value="MCR10EZPJ000"/>
-</part>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
-<part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="rcl_custom" deviceset="R-US_" device="0805-B-NOSILK" value="0">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="RHM0.0ARCT-ND"/>
-<attribute name="MFR" value="Rohm"/>
-<attribute name="MPN" value="MCR10EZPJ000"/>
-</part>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="LED_3.3V" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
-<part name="LED_V_BATT" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2"/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="BOOT1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
+<part name="R208" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="2.2k"/>
 </parts>
 <sheets>
 <sheet>
@@ -20654,11 +19403,6 @@ ORESAT ACS CARD</text>
 <wire x1="345.44" y1="38.1" x2="284.48" y2="38.1" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="284.48" y1="38.1" x2="284.48" y2="91.44" width="0.1524" layer="97" style="shortdash"/>
 <text x="287.02" y="40.64" size="1.778" layer="97">Place on breakoff</text>
-<wire x1="129.54" y1="243.84" x2="129.54" y2="193.04" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="129.54" y1="193.04" x2="154.94" y2="193.04" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="154.94" y1="193.04" x2="154.94" y2="243.84" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="154.94" y1="243.84" x2="129.54" y2="243.84" width="0.1524" layer="97" style="shortdash"/>
-<text x="132.08" y="198.12" size="1.778" layer="97">Place on breakoff</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -20889,37 +19633,16 @@ ORESAT ACS CARD</text>
 <attribute name="NAME" x="212.09" y="214.63" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="212.09" y="214.63" size="1.778" layer="97"/>
 </instance>
-<instance part="R1" gate="R" x="137.16" y="227.33" smashed="yes" rot="R90">
-<attribute name="NAME" x="135.6614" y="227.33" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="140.97" y="227.33" size="1.778" layer="96" rot="R90"/>
-<attribute name="DIS" x="137.16" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="137.16" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="137.16" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="137.16" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="SUPPLY4" gate="G$1" x="137.16" y="234.95"/>
-<instance part="GND22" gate="1" x="137.16" y="207.01"/>
-<instance part="R2" gate="R" x="147.32" y="227.33" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.8214" y="227.33" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="151.13" y="227.33" size="1.778" layer="96" rot="R90"/>
-<attribute name="DIS" x="147.32" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="147.32" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="147.32" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="147.32" y="227.33" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 <instance part="SUPPLY5" gate="G$1" x="147.32" y="234.95"/>
 <instance part="GND24" gate="1" x="147.32" y="207.01"/>
 <instance part="LED_3.3V" gate="G$1" x="147.32" y="218.44" smashed="yes">
 <attribute name="NAME" x="150.876" y="211.328" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="153.035" y="213.868" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED_V_BATT" gate="G$1" x="137.16" y="218.44" smashed="yes">
-<attribute name="NAME" x="140.716" y="208.788" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="142.875" y="213.868" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="BOOT1" gate="G$1" x="142.24" y="109.22" smashed="yes">
 <attribute name="TP_SIGNAL_NAME" x="143.51" y="107.95" size="1.778" layer="97"/>
 </instance>
+<instance part="R208" gate="R" x="147.32" y="228.6" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -21054,11 +19777,6 @@ ORESAT ACS CARD</text>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="LED_V_BATT" gate="G$1" pin="C"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="137.16" y1="213.36" x2="137.16" y2="209.55" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND24" gate="1" pin="GND"/>
 <pinref part="LED_3.3V" gate="G$1" pin="C"/>
 <wire x1="147.32" y1="209.55" x2="147.32" y2="213.36" width="0.1524" layer="91"/>
@@ -21169,9 +19887,9 @@ ORESAT ACS CARD</text>
 <wire x1="299.72" y1="76.2" x2="302.26" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="R" pin="2"/>
 <pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
-<wire x1="147.32" y1="232.41" x2="147.32" y2="234.95" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="233.68" x2="147.32" y2="234.95" width="0.1524" layer="91"/>
+<pinref part="R208" gate="R" pin="2"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -21299,11 +20017,6 @@ ORESAT ACS CARD</text>
 <pinref part="R201" gate="R" pin="2"/>
 <pinref part="SUPPLY10" gate="G$1" pin="V_BATT"/>
 <wire x1="165.1" y1="237.49" x2="165.1" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY4" gate="G$1" pin="V_BATT"/>
-<pinref part="R1" gate="R" pin="2"/>
-<wire x1="137.16" y1="234.95" x2="137.16" y2="232.41" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA4/FAULT_BLDC" class="0">
@@ -21512,18 +20225,11 @@ ORESAT ACS CARD</text>
 <wire x1="246.38" y1="201.93" x2="246.38" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="R1" gate="R" pin="1"/>
-<pinref part="LED_V_BATT" gate="G$1" pin="A"/>
-<wire x1="137.16" y1="222.25" x2="137.16" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="LED_3.3V" gate="G$1" pin="A"/>
-<pinref part="R2" gate="R" pin="1"/>
-<wire x1="147.32" y1="220.98" x2="147.32" y2="222.25" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="223.52" x2="147.32" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="R208" gate="R" pin="1"/>
 </segment>
 </net>
 <net name="PA1/CURR_FDB_BLDC" class="0">
@@ -21559,11 +20265,6 @@ ORESAT ACS CARD</text>
 <text x="245.11" y="191.77" size="2.54" layer="97">TO BLDC MOTOR</text>
 <text x="20.32" y="62.23" size="2.54" layer="97">STM32 Current Feedback</text>
 <text x="344.17" y="26.67" size="5.08" layer="97">BLDC Motor Driver</text>
-<wire x1="208.28" y1="177.8" x2="238.76" y2="177.8" width="0.1524" layer="97"/>
-<wire x1="238.76" y1="177.8" x2="238.76" y2="139.7" width="0.1524" layer="97"/>
-<wire x1="238.76" y1="139.7" x2="208.28" y2="139.7" width="0.1524" layer="97"/>
-<wire x1="208.28" y1="139.7" x2="208.28" y2="177.8" width="0.1524" layer="97"/>
-<text x="218.948" y="141.224" size="1.778" layer="97">NP FOR FLIGHT</text>
 <wire x1="66.04" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="97"/>
 <wire x1="63.5" y1="172.72" x2="63.5" y2="139.7" width="0.1524" layer="97"/>
 <wire x1="63.5" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="97"/>
@@ -21606,10 +20307,6 @@ test case</text>
 <instance part="GND34" gate="1" x="109.22" y="182.88"/>
 <instance part="GND35" gate="1" x="196.596" y="201.676"/>
 <instance part="GND36" gate="1" x="204.216" y="201.676"/>
-<instance part="LEDU" gate="G$1" x="213.36" y="160.02"/>
-<instance part="LEDV" gate="G$1" x="220.98" y="160.02"/>
-<instance part="LEDW" gate="G$1" x="228.6" y="160.02"/>
-<instance part="GND37" gate="1" x="220.98" y="149.86"/>
 <instance part="SUPPLY15" gate="G$1" x="190.5" y="71.12" rot="MR0"/>
 <instance part="GND39" gate="1" x="170.18" y="40.64" rot="MR0"/>
 <instance part="GND40" gate="1" x="147.32" y="40.64" rot="MR0"/>
@@ -21690,9 +20387,6 @@ test case</text>
 <attribute name="NAME" x="166.37" y="101.6" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.37" y="96.52" size="1.778" layer="96"/>
 </instance>
-<instance part="R305" gate="R" x="213.36" y="170.18" rot="R90"/>
-<instance part="R306" gate="R" x="220.98" y="170.18" rot="R90"/>
-<instance part="R307" gate="R" x="228.6" y="170.18" rot="R90"/>
 <instance part="R310" gate="R" x="185.42" y="35.56" rot="R90"/>
 <instance part="R311" gate="R" x="195.58" y="35.56" rot="R90"/>
 <instance part="R302" gate="R" x="99.06" y="195.58" smashed="yes" rot="R180">
@@ -21768,18 +20462,6 @@ test case</text>
 <pinref part="GND34" gate="1" pin="GND"/>
 <wire x1="109.22" y1="187.96" x2="109.22" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="C305" gate="CE" pin="1"/>
-</segment>
-<segment>
-<pinref part="GND37" gate="1" pin="GND"/>
-<wire x1="220.98" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="LEDU" gate="G$1" pin="C"/>
-<wire x1="213.36" y1="152.4" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="LEDV" gate="G$1" pin="C"/>
-<wire x1="220.98" y1="152.4" x2="220.98" y2="154.94" width="0.1524" layer="91"/>
-<junction x="220.98" y="152.4"/>
-<wire x1="220.98" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="LEDW" gate="G$1" pin="C"/>
-<wire x1="228.6" y1="152.4" x2="228.6" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND41" gate="1" pin="GND"/>
@@ -21891,12 +20573,8 @@ test case</text>
 </net>
 <net name="U" class="0">
 <segment>
-<wire x1="187.96" y1="195.58" x2="213.36" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="195.58" x2="238.76" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="175.26" x2="213.36" y2="195.58" width="0.1524" layer="91"/>
-<junction x="213.36" y="195.58"/>
+<wire x1="187.96" y1="195.58" x2="238.76" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="U300" gate="G$1" pin="OUTU"/>
-<pinref part="R305" gate="R" pin="2"/>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
 </net>
@@ -21904,34 +20582,9 @@ test case</text>
 <segment>
 <wire x1="187.96" y1="185.42" x2="200.66" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="185.42" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="193.04" x2="220.98" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="193.04" x2="238.76" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="175.26" x2="220.98" y2="193.04" width="0.1524" layer="91"/>
-<junction x="220.98" y="193.04"/>
+<wire x1="200.66" y1="193.04" x2="238.76" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="U300" gate="G$1" pin="OUTV"/>
-<pinref part="R306" gate="R" pin="2"/>
 <pinref part="JP1" gate="A" pin="2"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="LEDU" gate="G$1" pin="A"/>
-<wire x1="213.36" y1="162.56" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R305" gate="R" pin="1"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="LEDV" gate="G$1" pin="A"/>
-<wire x1="220.98" y1="162.56" x2="220.98" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R306" gate="R" pin="1"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="LEDW" gate="G$1" pin="A"/>
-<wire x1="228.6" y1="162.56" x2="228.6" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="R307" gate="R" pin="1"/>
 </segment>
 </net>
 <net name="SENSE_BLDC" class="0">
@@ -21980,12 +20633,8 @@ test case</text>
 <segment>
 <wire x1="187.96" y1="180.34" x2="205.74" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="180.34" x2="205.74" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="190.5" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="190.5" x2="238.76" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="175.26" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
-<junction x="228.6" y="190.5"/>
+<wire x1="205.74" y1="190.5" x2="238.76" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U300" gate="G$1" pin="OUTW"/>
-<pinref part="R307" gate="R" pin="2"/>
 <pinref part="JP1" gate="A" pin="3"/>
 </segment>
 </net>
@@ -22183,11 +20832,6 @@ test case</text>
 <text x="148.59" y="152.4" size="1.778" layer="97">Voltage divider
 biases the REF
 pin to 0.50V.</text>
-<wire x1="289.56" y1="198.12" x2="320.04" y2="198.12" width="0.1524" layer="97"/>
-<wire x1="320.04" y1="198.12" x2="320.04" y2="160.02" width="0.1524" layer="97"/>
-<wire x1="320.04" y1="160.02" x2="289.56" y2="160.02" width="0.1524" layer="97"/>
-<wire x1="289.56" y1="160.02" x2="289.56" y2="198.12" width="0.1524" layer="97"/>
-<text x="294.64" y="162.56" size="1.778" layer="97">NP FOR FLIGHT</text>
 <wire x1="114.3" y1="190.5" x2="111.76" y2="190.5" width="0.1524" layer="97"/>
 <wire x1="111.76" y1="190.5" x2="111.76" y2="180.34" width="0.1524" layer="97"/>
 <wire x1="111.76" y1="180.34" x2="114.3" y2="180.34" width="0.1524" layer="97"/>
@@ -22208,8 +20852,6 @@ pin to 0.50V.</text>
 <instance part="GND46" gate="1" x="250.19" y="224.79"/>
 <instance part="SUPPLY19" gate="G$1" x="233.68" y="254"/>
 <instance part="GND47" gate="1" x="240.03" y="224.79"/>
-<instance part="LED+" gate="G$1" x="294.64" y="180.34"/>
-<instance part="LED-" gate="G$1" x="309.88" y="180.34"/>
 <instance part="GND50" gate="1" x="184.15" y="139.7"/>
 <instance part="GND51" gate="1" x="171.45" y="139.7"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -22296,8 +20938,6 @@ pin to 0.50V.</text>
 <attribute name="NAME" x="207.01" y="104.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="205.74" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="R411" gate="R" x="294.64" y="190.5" rot="R90"/>
-<instance part="R412" gate="R" x="309.88" y="190.5" rot="R270"/>
 <instance part="R416" gate="R" x="232.41" y="35.56" rot="R270"/>
 <instance part="R415" gate="R" x="219.71" y="35.56" rot="R270"/>
 <instance part="R402" gate="R" x="153.67" y="215.9" smashed="yes" rot="R180">
@@ -22396,8 +21036,6 @@ pin to 0.50V.</text>
 <attribute name="NAME" x="224.5614" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="229.362" y="46.99" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND7" gate="1" x="294.64" y="172.72"/>
-<instance part="GND8" gate="1" x="309.88" y="172.72"/>
 <instance part="R403" gate="R" x="233.68" y="246.38" rot="R90"/>
 </instances>
 <busses>
@@ -22495,14 +21133,6 @@ pin to 0.50V.</text>
 <pinref part="C403" gate="CE" pin="2"/>
 <wire x1="261.62" y1="227.33" x2="261.62" y2="228.6" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="LED+" gate="G$1" pin="C"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="LED-" gate="G$1" pin="C"/>
-<pinref part="GND8" gate="1" pin="GND"/>
-</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -22590,34 +21220,16 @@ pin to 0.50V.</text>
 <pinref part="R407" gate="R" pin="1"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="LED+" gate="G$1" pin="A"/>
-<wire x1="294.64" y1="182.88" x2="294.64" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="R411" gate="R" pin="1"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="LED-" gate="G$1" pin="A"/>
-<wire x1="309.88" y1="182.88" x2="309.88" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="R412" gate="R" pin="2"/>
-</segment>
-</net>
 <net name="OUT1" class="0">
 <segment>
 <pinref part="U400" gate="G$1" pin="OUTA1"/>
 <wire x1="254" y1="210.82" x2="281.94" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="U400" gate="G$1" pin="OUTB1"/>
-<wire x1="281.94" y1="210.82" x2="294.64" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="210.82" x2="326.39" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="210.82" x2="326.39" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="254" y1="195.58" x2="281.94" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="195.58" x2="281.94" y2="210.82" width="0.1524" layer="91"/>
 <junction x="281.94" y="210.82"/>
-<junction x="294.64" y="210.82"/>
 <pinref part="JP401" gate="G$1" pin="1"/>
-<pinref part="R411" gate="R" pin="2"/>
-<wire x1="294.64" y1="195.58" x2="294.64" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OUT2" class="0">
@@ -22630,11 +21242,7 @@ pin to 0.50V.</text>
 <junction x="284.48" y="205.74"/>
 <wire x1="284.48" y1="205.74" x2="284.48" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="JP401" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="208.28" x2="309.88" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="R412" gate="R" pin="1"/>
-<wire x1="309.88" y1="208.28" x2="326.39" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="195.58" x2="309.88" y2="208.28" width="0.1524" layer="91"/>
-<junction x="309.88" y="208.28"/>
+<wire x1="284.48" y1="208.28" x2="326.39" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
