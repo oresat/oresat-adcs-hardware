@@ -19978,7 +19978,7 @@ ORESAT ACS CARD</text>
 <wire x1="215.9" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="127" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
 <label x="211.836" y="127" size="1.778" layer="95" rot="MR0"/>
-<label x="162.56" y="60.96" size="1.778" layer="95"/>
+<label x="162.56" y="63.5" size="1.778" layer="95"/>
 <pinref part="JP102" gate="G$1" pin="TXO"/>
 <wire x1="185.42" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -19989,7 +19989,7 @@ ORESAT ACS CARD</text>
 <pinref part="U100" gate="G$1" pin="PA3"/>
 <wire x1="215.9" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <label x="212.344" y="124.46" size="1.778" layer="95" rot="MR0"/>
-<label x="162.56" y="63.5" size="1.778" layer="95"/>
+<label x="162.56" y="60.96" size="1.778" layer="95"/>
 <pinref part="JP102" gate="G$1" pin="RXI"/>
 <wire x1="187.96" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
 </segment>
@@ -20246,7 +20246,7 @@ ORESAT ACS CARD</text>
 <label x="180.34" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PA15/CAN_LSTN" class="0">
+<net name="PA15/CAN_SILENT" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="S"/>
 <label x="142.24" y="101.6" size="1.778" layer="95" rot="MR180" xref="yes"/>
