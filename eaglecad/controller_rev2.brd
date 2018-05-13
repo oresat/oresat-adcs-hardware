@@ -4211,18 +4211,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="28.3" y1="19.6" x2="29.2" y2="18.7" width="0.254" layer="1" curve="-90"/>
 <wire x1="29.01" y1="18.89" x2="29.2" y2="18.7" width="0.254" layer="16" curve="-90"/>
 <wire x1="27.94" y1="18.89" x2="29.01" y2="18.89" width="0.254" layer="16"/>
-<wire x1="25.19" y1="24.225" x2="34.4450625" y2="33.452959375" width="0" layer="19" extent="1-1"/>
-<wire x1="25.21" y1="22.99" x2="25.19" y2="24.225" width="0" layer="19" extent="1-1"/>
-<wire x1="22.2" y1="18.72" x2="26.24" y2="19.49" width="0" layer="19" extent="16-16"/>
-<wire x1="18.78" y1="20.88" x2="20.54521875" y2="18.72470625" width="0" layer="19" extent="16-16"/>
-<wire x1="20.58" y1="14.98" x2="20.549925" y2="18.72" width="0" layer="19" extent="16-16"/>
-<wire x1="14.27" y1="20.56899375" x2="18.78" y2="20.88" width="0" layer="19" extent="16-16"/>
-<wire x1="13.85" y1="17.3" x2="14.2" y2="20.4" width="0" layer="19" extent="1-16"/>
-<wire x1="13.95" y1="14.2944" x2="13.69" y2="17.26" width="0" layer="19" extent="1-16"/>
-<wire x1="13" y1="24.02" x2="14.27" y2="21.12" width="0" layer="19" extent="16-16"/>
-<wire x1="13.91" y1="26.21" x2="13.7" y2="25.55" width="0" layer="19" extent="1-1"/>
-<wire x1="10.5" y1="24.63" x2="12.76" y2="24.68" width="0" layer="19" extent="1-1"/>
-<wire x1="9.95" y1="15.64" x2="12.89" y2="17.14" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="15" rank="6">
+<vertex x="0" y="42"/>
+<vertex x="40" y="42"/>
+<vertex x="40" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
 </signal>
 <signal name="CAN_H">
 <contactref element="U101" pad="7"/>
@@ -4264,14 +4258,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="22.9" y1="19.7" x2="23.28" y2="20.08" width="0.254" layer="1" curve="90"/>
 <wire x1="23.28" y1="20.08" x2="23.28" y2="25.29" width="0.254" layer="1"/>
 <wire x1="23.28" y1="25.29" x2="24" y2="26.01" width="0.254" layer="1" curve="-90"/>
-<wire x1="29.6" y1="26.95" x2="27.209928125" y2="26.01" width="0.254" layer="1" curve="-45"/>
+<wire x1="29.64" y1="26.94" x2="27.209928125" y2="26.01" width="0.254" layer="1" curve="-45"/>
 <wire x1="24" y1="26.01" x2="27.209928125" y2="26.01" width="0.254" layer="1"/>
 <wire x1="32.9" y1="31.9" x2="33.5470375" y2="32.554934375" width="0.254" layer="1" curve="6.339529"/>
-<wire x1="29.6" y1="26.95" x2="30.7" y2="29.605634375" width="0.254" layer="1" curve="45"/>
-<wire x1="30.7" y1="30.475734375" x2="31" y2="31.2" width="0.254" layer="1" curve="-45"/>
-<wire x1="31" y1="31.2" x2="32.68995" y2="31.9" width="0.254" layer="1" curve="-45"/>
+<wire x1="29.64" y1="26.94" x2="30.74" y2="29.595634375" width="0.254" layer="1" curve="45"/>
+<wire x1="30.73" y1="30.475734375" x2="31.03" y2="31.2" width="0.254" layer="1" curve="-45"/>
+<wire x1="31.03" y1="31.2" x2="32.68995" y2="31.9" width="0.254" layer="1" curve="-45"/>
 <wire x1="32.68995" y1="31.9" x2="32.9" y2="31.9" width="0.254" layer="1"/>
-<wire x1="30.7" y1="29.605634375" x2="30.7" y2="30.475734375" width="0.254" layer="1"/>
+<wire x1="30.74" y1="29.595634375" x2="30.73" y2="30.475734375" width="0.254" layer="1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="U100" pad="24"/>
@@ -4326,7 +4320,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.51" y1="12.67" x2="18.51" y2="12.49" width="0.254" layer="16"/>
 <via x="18.51" y="12.49" extent="1-16" drill="0.254"/>
 <wire x1="18.51" y1="12.49" x2="18.5" y2="12.5" width="0.254" layer="1" curve="-90"/>
-<wire x1="18.5" y1="12.5" x2="18.5" y2="13.45" width="0.254" layer="1"/>
+<wire x1="18.5" y1="12.5" x2="18.5" y2="12.8" width="0.254" layer="1"/>
+<wire x1="18.5" y1="12.8" x2="18.5" y2="13.45" width="0.254" layer="1"/>
 <wire x1="22.58" y1="11.44" x2="22.58" y2="11.73" width="0.254" layer="1"/>
 <wire x1="22.58" y1="11.73" x2="23.12" y2="12.27" width="0.254" layer="1" curve="-90"/>
 <wire x1="23.12" y1="12.27" x2="23.2174" y2="12.27" width="0.254" layer="1"/>
@@ -4432,9 +4427,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="22.2" y="29.2"/>
 <vertex x="22.2" y="28.2"/>
 </polygon>
-<wire x1="21.65" y1="28.58" x2="31.3" y2="23.9" width="0" layer="19" extent="16-16"/>
-<wire x1="31.39" y1="11.625" x2="31.3" y2="23.9" width="0" layer="19" extent="1-1"/>
-<wire x1="16.65" y1="9.8" x2="30.7" y2="9.4" width="0" layer="19" extent="1-1"/>
+<polygon width="0.1524" layer="15" rank="5">
+<vertex x="20.9" y="29.3" curve="90"/>
+<vertex x="23.5" y="27" curve="-90"/>
+<vertex x="29.1" y="20.7"/>
+<vertex x="29.1" y="14.4" curve="-90"/>
+<vertex x="24.4" y="9.7"/>
+<vertex x="14.4" y="9.7" curve="-90"/>
+<vertex x="8.7" y="15.4"/>
+<vertex x="8.7" y="18.234315625" curve="-45"/>
+<vertex x="9.1" y="19.2" curve="45"/>
+<vertex x="9.4" y="19.924265625"/>
+<vertex x="9.4" y="20.1" curve="90"/>
+<vertex x="8.2" y="21.3"/>
+<vertex x="8" y="21.3" curve="90"/>
+<vertex x="5.3" y="18.6"/>
+<vertex x="5.3" y="5.2"/>
+<vertex x="10.5" y="0"/>
+<vertex x="24.7" y="0"/>
+<vertex x="33.7" y="9"/>
+<vertex x="33.7" y="27.5"/>
+<vertex x="28.255634375" y="27.5" curve="-45"/>
+<vertex x="25.6" y="28.6"/>
+<vertex x="23.748528125" y="30.451471875" curve="45"/>
+<vertex x="21.4" y="31.1" curve="101.421221"/>
+</polygon>
 </signal>
 <signal name="PA4/FAULT_BLDC">
 <contactref element="U100" pad="10"/>

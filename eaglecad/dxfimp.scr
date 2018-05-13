@@ -1,7 +1,7 @@
 # dxfimport generated script file.
 Grid mic 1 off;
 Set Wire_Bend 2;
-CHANGE LAYER 30;
+CHANGE LAYER 123;
 Change Font Vector;
 Wire 1 (12000.00 0.00) (12000.00 12500.00);
 Arc CCW 1 (14500.00 15000.00) (14500.00 10000.00) (12000.00 12500.00);
