@@ -9,7 +9,7 @@
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="15" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -196,25 +196,23 @@
 <wire x1="0" y1="32" x2="0" y2="3" width="0.1524" layer="20"/>
 <polygon width="0.1524" layer="30">
 <vertex x="8" y="0"/>
-<vertex x="8" y="4.9"/>
-<vertex x="8.8" y="4.9"/>
-<vertex x="8.8" y="4.5"/>
-<vertex x="9.1" y="4.2"/>
-<vertex x="10.3" y="4.2"/>
-<vertex x="10.5" y="4.4"/>
-<vertex x="10.5" y="6"/>
-<vertex x="10.3" y="6.2"/>
-<vertex x="9.1" y="6.2"/>
-<vertex x="8.8" y="5.9"/>
-<vertex x="8.8" y="5.6"/>
-<vertex x="8.8" y="5.5"/>
-<vertex x="8" y="5.5"/>
 <vertex x="8" y="13.6"/>
 <vertex x="8.1" y="13.7"/>
 <vertex x="11.8" y="13.7"/>
 <vertex x="12.1" y="13.4"/>
 <vertex x="12" y="13.3"/>
-<vertex x="12" y="12.1"/>
+<vertex x="12" y="6.1"/>
+<vertex x="11.6" y="6.1"/>
+<vertex x="11.4" y="5.9"/>
+<vertex x="11.2" y="6.1"/>
+<vertex x="10.6" y="6.1"/>
+<vertex x="10.4" y="5.9"/>
+<vertex x="10.4" y="4.5"/>
+<vertex x="10.6" y="4.3"/>
+<vertex x="11.1" y="4.3"/>
+<vertex x="11.4" y="4.6"/>
+<vertex x="11.7" y="4.3"/>
+<vertex x="12" y="4.3"/>
 <vertex x="12" y="0"/>
 </polygon>
 <polygon width="0.1524" layer="30">
@@ -233,12 +231,7 @@
 <vertex x="8.7" y="27.9"/>
 <vertex x="8.1" y="27.9"/>
 <vertex x="8" y="27.8"/>
-<vertex x="8" y="26.5"/>
-<vertex x="8.1" y="26.4"/>
-<vertex x="8.4" y="26.4"/>
-<vertex x="8.7" y="26.1"/>
-<vertex x="8.7" y="25.7"/>
-<vertex x="8.4" y="25.4"/>
+<vertex x="8" y="25.8"/>
 <vertex x="9.1" y="24.7"/>
 <vertex x="9.1" y="24.3"/>
 <vertex x="9" y="24.2"/>
@@ -267,20 +260,16 @@
 <vertex x="15.4" y="15"/>
 <vertex x="15.5" y="15" curve="-90"/>
 <vertex x="18" y="12.5"/>
-<vertex x="18" y="10.1"/>
-<vertex x="18.4" y="9.7"/>
-<vertex x="18.5" y="9.7"/>
-<vertex x="18.5" y="9.9"/>
-<vertex x="18.8" y="10.2"/>
-<vertex x="19.2" y="10.2"/>
-<vertex x="19.5" y="9.9"/>
-<vertex x="19.5" y="9.7"/>
-<vertex x="19.65" y="9.55"/>
-<vertex x="21.15" y="9.55"/>
-<vertex x="21.33" y="9.73"/>
-<vertex x="21.33" y="9.93"/>
-<vertex x="21.6" y="10.2"/>
-<vertex x="22" y="10.2"/>
+<vertex x="18" y="9.4"/>
+<vertex x="18.4" y="9"/>
+<vertex x="18.5" y="9"/>
+<vertex x="18.5" y="9.4"/>
+<vertex x="18.8" y="9.7"/>
+<vertex x="19.2" y="9.7"/>
+<vertex x="19.35" y="9.55"/>
+<vertex x="21.45" y="9.55"/>
+<vertex x="21.63" y="9.73"/>
+<vertex x="22" y="9.73"/>
 <vertex x="22" y="16.5"/>
 <vertex x="19.7" y="16.5"/>
 <vertex x="18.5" y="17.7"/>
@@ -391,36 +380,23 @@
 </polygon>
 <polygon width="0.1524" layer="30">
 <vertex x="18" y="0"/>
-<vertex x="18" y="5.4"/>
-<vertex x="18.2" y="5.4"/>
-<vertex x="18.2" y="4.9"/>
-<vertex x="18.5" y="4.6"/>
+<vertex x="18" y="4.2"/>
+<vertex x="18.2" y="4.2"/>
+<vertex x="18.2" y="3.9"/>
+<vertex x="18.5" y="3.6"/>
+<vertex x="19" y="3.6"/>
+<vertex x="19.2" y="3.8"/>
+<vertex x="19.2" y="4.3"/>
 <vertex x="18.9" y="4.6"/>
-<vertex x="19.1" y="4.8"/>
-<vertex x="19.3" y="4.8"/>
-<vertex x="19.5" y="4.6"/>
-<vertex x="19.9" y="4.6"/>
-<vertex x="20.2" y="4.9"/>
-<vertex x="20.2" y="6.1"/>
-<vertex x="19.9" y="6.4"/>
-<vertex x="19.5" y="6.4"/>
-<vertex x="19.3" y="6.2"/>
-<vertex x="19.1" y="6.2"/>
-<vertex x="18.9" y="6.4"/>
-<vertex x="18.5" y="6.4"/>
-<vertex x="18.2" y="6.1"/>
-<vertex x="18.2" y="5.7"/>
-<vertex x="18" y="5.7"/>
-<vertex x="18" y="8.6" curve="90"/>
-<vertex x="18.2" y="8.4"/>
-<vertex x="18.5" y="8.4"/>
-<vertex x="18.5" y="8.1"/>
-<vertex x="18.8" y="7.8"/>
-<vertex x="19.2" y="7.8"/>
-<vertex x="19.3" y="7.9"/>
-<vertex x="21.5" y="7.9"/>
-<vertex x="21.6" y="7.8"/>
-<vertex x="22" y="7.8"/>
+<vertex x="18.6" y="4.6"/>
+<vertex x="18.6" y="4.9"/>
+<vertex x="18.4" y="5.1"/>
+<vertex x="18.6" y="5.3"/>
+<vertex x="18.6" y="5.7"/>
+<vertex x="18.3" y="6"/>
+<vertex x="18" y="6"/>
+<vertex x="18" y="7.4"/>
+<vertex x="22" y="7.4"/>
 <vertex x="22" y="0"/>
 </polygon>
 <wire x1="30.3" y1="6.9" x2="30" y2="7.2" width="0.1524" layer="20" curve="-90"/>
@@ -441,8 +417,8 @@
 <wire x1="30.6" y1="21.5" x2="30.6" y2="17.9" width="0.1524" layer="20"/>
 <wire x1="30" y1="13.2" x2="30" y2="7.2" width="0.1524" layer="20"/>
 <wire x1="30.6" y1="7.2" x2="30.6" y2="13.2" width="0.1524" layer="20"/>
-<dimension x1="3" y1="35" x2="3" y2="0" x3="-4.3" y3="17.5" textsize="1.778" layer="51"/>
-<dimension x1="15" y1="27" x2="15" y2="0" x3="-1.5" y3="13.5" textsize="1.778" layer="51"/>
+<dimension x1="3" y1="35" x2="3" y2="0" x3="-14.3" y3="17.5" textsize="1.778" layer="48"/>
+<dimension x1="15" y1="27" x2="15" y2="0" x3="-5.7" y3="13.5" textsize="1.778" layer="48"/>
 <dimension x1="30" y1="3" x2="0" y2="3" x3="15" y3="-3.4" textsize="1.778" layer="51"/>
 <dimension x1="15" y1="27" x2="0" y2="27" x3="7.5" y3="37.4" textsize="1.778" layer="51"/>
 </plain>
@@ -4261,11 +4237,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="20" y="29.9" extent="1-16" drill="0.254"/>
 <via x="18.6" y="30.2" extent="1-16" drill="0.254"/>
 <via x="21.6" y="30.7" extent="1-16" drill="0.254"/>
-<via x="21.6" y="33.3" extent="1-16" drill="0.254"/>
-<via x="21.6" y="34.1" extent="1-16" drill="0.254"/>
+<via x="21.8" y="33.1" extent="1-16" drill="0.254"/>
+<via x="21.8" y="34.1" extent="1-16" drill="0.254"/>
 <via x="20" y="34.1" extent="1-16" drill="0.254"/>
-<via x="18.4" y="34.1" extent="1-16" drill="0.254"/>
-<via x="18.4" y="33.3" extent="1-16" drill="0.254"/>
+<via x="18.2" y="34.1" extent="1-16" drill="0.254"/>
+<via x="18.2" y="33.1" extent="1-16" drill="0.254"/>
 <via x="11.6" y="29.9" extent="1-16" drill="0.254"/>
 <via x="10" y="29.9" extent="1-16" drill="0.254"/>
 <via x="11.6" y="30.7" extent="1-16" drill="0.254"/>
