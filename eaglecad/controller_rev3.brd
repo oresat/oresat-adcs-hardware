@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="14" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -4693,27 +4693,20 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="9.7" y1="5.2" x2="9.7" y2="5.4" width="0.254" layer="1"/>
 <wire x1="9.7" y1="5.4" x2="10.1" y2="5.8" width="0.254" layer="1"/>
 <wire x1="9.7" y1="5" x2="9.3" y2="4.6" width="0.254" layer="1"/>
-<via x="4.8" y="18.2" extent="1-16" drill="0.254"/>
-<via x="4.8" y="17.6" extent="1-16" drill="0.254"/>
 <polygon width="0.1524" layer="15" thermals="no" rank="5">
 <vertex x="38" y="27.6"/>
-<vertex x="35.9" y="27.6"/>
 <vertex x="35.8" y="27.6"/>
 <vertex x="35.2" y="27"/>
 <vertex x="35.2" y="5.8"/>
 <vertex x="34.6" y="5.2"/>
 <vertex x="31.4" y="5.2"/>
-<vertex x="31" y="5.6"/>
 <vertex x="30.9" y="5.7"/>
-<vertex x="29.8" y="5.7"/>
-<vertex x="29.3" y="5.2"/>
-<vertex x="21.2" y="5.2"/>
-<vertex x="7.3" y="19.1"/>
-<vertex x="5.4" y="19.1"/>
-<vertex x="4.9" y="18.6"/>
-<vertex x="4.8" y="18.6"/>
-<vertex x="4.8" y="17"/>
-<vertex x="8.5" y="13.3"/>
+<vertex x="18.4" y="5.7"/>
+<vertex x="7.3" y="16.8"/>
+<vertex x="6.3" y="16.8"/>
+<vertex x="6" y="16.5"/>
+<vertex x="6" y="15.4"/>
+<vertex x="8.5" y="12.9"/>
 <vertex x="8.5" y="0"/>
 <vertex x="38" y="0"/>
 </polygon>
@@ -4734,18 +4727,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="19.5" y="4.6"/>
 <vertex x="19.8" y="4.6"/>
 </polygon>
-<via x="5.6" y="16.9" extent="1-16" drill="0.254"/>
-<via x="6.4" y="16.9" extent="1-16" drill="0.254"/>
-<polygon width="0.1524" layer="1" thermals="no" rank="5">
-<vertex x="6.6" y="18.5"/>
-<vertex x="4.7" y="18.5"/>
-<vertex x="4.5" y="18.3"/>
-<vertex x="4.5" y="17.5"/>
-<vertex x="5.4" y="16.6"/>
-<vertex x="6.5" y="16.6"/>
-<vertex x="6.7" y="16.8"/>
-<vertex x="6.7" y="18.4"/>
-</polygon>
+<via x="6.4" y="16.3" extent="1-16" drill="0.254"/>
 <via x="10.9" y="5.6" extent="1-16" drill="0.254"/>
 <via x="10.9" y="4.8" extent="1-16" drill="0.254"/>
 <via x="11.4" y="5.2" extent="1-16" drill="0.254"/>
@@ -4764,6 +4746,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="10.7" y="4.4"/>
 <vertex x="10.5" y="4.6"/>
 <vertex x="9.3" y="4.6"/>
+</polygon>
+<via x="7.1" y="15.6" extent="1-16" drill="0.254"/>
+<via x="6.4" y="15.6" extent="1-16" drill="0.254"/>
+<via x="7.1" y="16.3" extent="1-16" drill="0.254"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="5.4" y="18.5"/>
+<vertex x="5.4" y="16.7"/>
+<vertex x="6" y="16.1"/>
+<vertex x="6" y="15.4"/>
+<vertex x="6.2" y="15.2"/>
+<vertex x="7.3" y="15.2"/>
+<vertex x="7.5" y="15.4"/>
+<vertex x="7.5" y="16.5"/>
+<vertex x="6.6" y="17.4"/>
+<vertex x="6.6" y="18.5"/>
 </polygon>
 </signal>
 <signal name="PA4/FAULT_BLDC">
