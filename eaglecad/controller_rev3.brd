@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="14" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -2732,45 +2732,6 @@ This package is identical to 0805-B, but has its tPlace silkscreen layer removed
 </package>
 </packages>
 </library>
-<library name="SparkFun-Hardware" urn="urn:adsk.eagle:library:519">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="STAND-OFF-TIGHT" urn="urn:adsk.eagle:footprint:38613/1" library_version="1">
-<description>&lt;h3&gt;Standoff (#4 Screw) - Tight fit around screw body&lt;/h3&gt;
-&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
-&lt;h4&gt;Devices Using&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.048"/>
-<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="STAND-OFF-TIGHT" urn="urn:adsk.eagle:package:38629/1" type="box" library_version="1">
-<description>Standoff (#4 Screw) - Tight fit around screw body
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
-Devices Using
-STAND-OFF</description>
-</package3d>
-</packages3d>
-</library>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -3716,10 +3677,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="CL05B104KO5NNNC" x="16.8" y="25.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U400" library="U-ST-STSPIN250-Brushed-DC-controller" package="VFQPN" value="STSPIN250" x="20.4" y="10.52"/>
-<element name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="48.9" y="5.9" rot="R270"/>
-<element name="H2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="111" y="16.4"/>
-<element name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="111" y="38.2" rot="R90"/>
-<element name="H4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="129.6" y="38.2" rot="R90"/>
 <element name="JP103" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="6_PIN_SERIAL_TARGET_SIDE_W_SILK" package3d_urn="urn:adsk.eagle:package:37995/1" value="" x="36.3" y="25.2" rot="R90"/>
 <element name="JP401" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="15" y="9.3" rot="R180"/>
 <element name="L201" library="L-Coilcraft-XFL4020" package="L-COILCRAFT-XFL4020" value="1.5 uH" x="4.8" y="6.4" rot="R180">
@@ -4118,7 +4075,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="17.52" y="8.8" extent="1-16" drill="0.254"/>
 <via x="28.2" y="21.7" extent="1-16" drill="0.254"/>
 <via x="28.9" y="20.9" extent="1-16" drill="0.254"/>
-<via x="29.2" y="19.6" extent="1-16" drill="0.254"/>
+<via x="29.23" y="19.6" extent="1-16" drill="0.254"/>
 <via x="26.5" y="17.2" extent="1-16" drill="0.254"/>
 <via x="26.5" y="16.6" extent="1-16" drill="0.254"/>
 <wire x1="24.7" y1="16.6" x2="24.05" y2="16.6" width="0.254" layer="1"/>
@@ -4328,6 +4285,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="35" y="27.5" extent="1-16" drill="0.254"/>
 <via x="35" y="30" extent="1-16" drill="0.254"/>
 <via x="35" y="32.5" extent="1-16" drill="0.254"/>
+<via x="35.4" y="12.5" extent="1-16" drill="0.254"/>
+<via x="26.1" y="25.5" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="CRYSTALIN">
 <contactref element="C105" pad="1"/>
