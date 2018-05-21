@@ -69,8 +69,8 @@
 <layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -82,59 +82,6 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
 <layer number="100" name="TODO" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="tdimensions" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -143,21 +90,8 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -16115,119 +16049,233 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </package>
 </packages>
 <packages3d>
+<package3d name="TP15SQ" urn="urn:adsk.eagle:package:27975/1" type="box" library_version="1">
+<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP15SQ"/>
+</packageinstances>
+</package3d>
 <package3d name="B1,27" urn="urn:adsk.eagle:package:27944/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="B1,27"/>
+</packageinstances>
 </package3d>
 <package3d name="B2,54" urn="urn:adsk.eagle:package:27948/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="B2,54"/>
+</packageinstances>
 </package3d>
 <package3d name="P1-13" urn="urn:adsk.eagle:package:27946/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="P1-13"/>
+</packageinstances>
 </package3d>
 <package3d name="P1-13Y" urn="urn:adsk.eagle:package:27947/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="P1-13Y"/>
+</packageinstances>
 </package3d>
 <package3d name="P1-17" urn="urn:adsk.eagle:package:27949/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="P1-17"/>
+</packageinstances>
 </package3d>
 <package3d name="P1-17Y" urn="urn:adsk.eagle:package:27953/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="P1-17Y"/>
+</packageinstances>
 </package3d>
 <package3d name="P1-20" urn="urn:adsk.eagle:package:27950/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="P1-20"/>
+</packageinstances>
 </package3d>
 <package3d name="P1-20Y" urn="urn:adsk.eagle:package:27951/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="P1-20Y"/>
+</packageinstances>
 </package3d>
 <package3d name="TP06R" urn="urn:adsk.eagle:package:27954/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP06R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP06SQ" urn="urn:adsk.eagle:package:27952/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP06SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP07R" urn="urn:adsk.eagle:package:27970/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP07R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP07SQ" urn="urn:adsk.eagle:package:27955/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP07SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP08R" urn="urn:adsk.eagle:package:27956/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP08R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP08SQ" urn="urn:adsk.eagle:package:27960/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP08SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP09R" urn="urn:adsk.eagle:package:27958/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP09R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP09SQ" urn="urn:adsk.eagle:package:27957/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP09SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP10R" urn="urn:adsk.eagle:package:27959/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP10R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP10SQ" urn="urn:adsk.eagle:package:27962/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP10SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP11R" urn="urn:adsk.eagle:package:27961/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP11R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP11SQ" urn="urn:adsk.eagle:package:27965/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP11SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP12SQ" urn="urn:adsk.eagle:package:27964/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP12SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP12R" urn="urn:adsk.eagle:package:27963/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP12R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP13R" urn="urn:adsk.eagle:package:27967/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP13R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP14R" urn="urn:adsk.eagle:package:27966/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP14R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP15R" urn="urn:adsk.eagle:package:27968/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP15R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP16R" urn="urn:adsk.eagle:package:27969/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP16R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP17R" urn="urn:adsk.eagle:package:27971/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP17R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP18R" urn="urn:adsk.eagle:package:27981/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP18R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP19R" urn="urn:adsk.eagle:package:27972/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP19R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP20R" urn="urn:adsk.eagle:package:27973/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP20R"/>
+</packageinstances>
 </package3d>
 <package3d name="TP13SQ" urn="urn:adsk.eagle:package:27974/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP13SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP14SQ" urn="urn:adsk.eagle:package:27984/1" type="box" library_version="1">
 <description>TEST PAD</description>
-</package3d>
-<package3d name="TP15SQ" urn="urn:adsk.eagle:package:27975/1" type="box" library_version="1">
-<description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP14SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP16SQ" urn="urn:adsk.eagle:package:27976/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP16SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP17SQ" urn="urn:adsk.eagle:package:27977/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP17SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP18SQ" urn="urn:adsk.eagle:package:27979/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP18SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP19SQ" urn="urn:adsk.eagle:package:27978/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP19SQ"/>
+</packageinstances>
 </package3d>
 <package3d name="TP20SQ" urn="urn:adsk.eagle:package:27980/1" type="box" library_version="1">
 <description>TEST PAD</description>
+<packageinstances>
+<packageinstance name="TP20SQ"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -17504,9 +17552,13 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP102" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1" value="TPTP06R"/>
+<part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
+<part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
 </parts>
 <sheets>
 <sheet>
+<description>Controller</description>
 <plain>
 <text x="271.78" y="130.81" size="1.778" layer="97" rot="MR0">NRST pull-up
 built in</text>
@@ -17514,7 +17566,7 @@ built in</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">1.1</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="2.54" size="1.778" layer="97">All caps are ceramic 10% X5R &gt;= 16V Vwv unless marked</text>
-<text x="132.08" y="81.28" size="1.4224" layer="97">CAN_SHDN and CAN_LSTN
+<text x="132.08" y="83.82" size="1.4224" layer="97">CAN_SHDN and CAN_LSTN
 pins have internal pull-down
 resistors. If CAN_SHDN is 
 pulled high it shuts the IC off.
@@ -17774,6 +17826,7 @@ ORESAT ACS CARD</text>
 <instance part="SUPPLY4" gate="G$1" x="157.48" y="73.66"/>
 <instance part="JP1" gate="G$1" x="81.28" y="121.92" rot="MR0"/>
 <instance part="JP102" gate="G$1" x="81.28" y="107.95" rot="MR0"/>
+<instance part="TP1" gate="G$1" x="152.4" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -17930,13 +17983,13 @@ ORESAT ACS CARD</text>
 </net>
 <net name="CAN_TX" class="0">
 <segment>
-<wire x1="215.9" y1="101.6" x2="179.07" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="179.07" y1="101.6" x2="179.07" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="101.6" x2="168.91" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="168.91" y1="101.6" x2="168.91" y2="116.84" width="0.1524" layer="91"/>
 <label x="213.36" y="101.6" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U101" gate="G$1" pin="TXD"/>
-<wire x1="129.54" y1="116.84" x2="179.07" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="116.84" x2="168.91" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PA12"/>
-<label x="139.7" y="116.84" size="1.778" layer="95"/>
+<label x="134.62" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -18064,18 +18117,18 @@ ORESAT ACS CARD</text>
 <segment>
 <label x="213.36" y="104.14" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U101" gate="G$1" pin="RXD"/>
-<wire x1="181.61" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="111.76" x2="181.61" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="181.61" y1="111.76" x2="181.61" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="111.76" x2="171.45" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="171.45" y1="111.76" x2="171.45" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PA11"/>
-<label x="139.7" y="111.76" size="1.778" layer="95"/>
+<label x="134.62" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PA5/SPI1_SCK" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PA5"/>
 <wire x1="215.9" y1="119.38" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
-<label x="212.598" y="119.634" size="1.778" layer="95" rot="MR0"/>
+<label x="213.36" y="119.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PA6/SPI1_NSS" class="0">
@@ -18088,7 +18141,7 @@ ORESAT ACS CARD</text>
 <net name="PA7/INUL" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PA7"/>
-<label x="206.502" y="114.554" size="1.778" layer="95" rot="MR0"/>
+<label x="214.122" y="114.554" size="1.778" layer="95" rot="MR0"/>
 <wire x1="215.9" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18097,7 +18150,7 @@ ORESAT ACS CARD</text>
 <pinref part="U100" gate="G$1" pin="PA2"/>
 <wire x1="215.9" y1="127" x2="185.42" y2="127" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="127" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
-<label x="211.836" y="127" size="1.778" layer="95" rot="MR0"/>
+<label x="213.36" y="127" size="1.778" layer="95" rot="MR0"/>
 <label x="162.56" y="63.5" size="1.778" layer="95"/>
 <pinref part="JP103" gate="G$1" pin="TXO"/>
 <wire x1="185.42" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
@@ -18108,7 +18161,7 @@ ORESAT ACS CARD</text>
 <wire x1="187.96" y1="124.46" x2="187.96" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PA3"/>
 <wire x1="215.9" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
-<label x="212.344" y="124.46" size="1.778" layer="95" rot="MR0"/>
+<label x="213.36" y="124.46" size="1.778" layer="95" rot="MR0"/>
 <label x="162.56" y="60.96" size="1.778" layer="95"/>
 <pinref part="JP103" gate="G$1" pin="RXI"/>
 <wire x1="187.96" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
@@ -18149,7 +18202,7 @@ ORESAT ACS CARD</text>
 <segment>
 <pinref part="U100" gate="G$1" pin="PA4"/>
 <wire x1="215.9" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
-<label x="208.28" y="122.174" size="1.778" layer="95" rot="MR0"/>
+<label x="213.36" y="121.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PB1/INWL" class="0">
@@ -18183,14 +18236,15 @@ ORESAT ACS CARD</text>
 <net name="CAN_SHDN" class="0">
 <segment>
 <pinref part="U101" gate="G$1" pin="SHDN"/>
-<label x="142.24" y="106.68" size="1.778" layer="95" xref="yes"/>
-<wire x1="142.24" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
+<label x="134.62" y="106.68" size="1.778" layer="95"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="152.4" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA10/INWH" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PA10"/>
-<label x="195.58" y="106.68" size="1.778" layer="95"/>
+<label x="213.36" y="106.68" size="1.778" layer="95" rot="MR0"/>
 <wire x1="215.9" y1="106.68" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18218,14 +18272,14 @@ ORESAT ACS CARD</text>
 <net name="PA8/INUH/PWM_MAG" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PA8"/>
-<label x="190.5" y="111.76" size="1.778" layer="95"/>
+<label x="213.36" y="111.76" size="1.778" layer="95" rot="MR0"/>
 <wire x1="215.9" y1="111.76" x2="205.74" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA9/INVH/DIR_MAG" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PA9"/>
-<label x="190.5" y="109.22" size="1.778" layer="95"/>
+<label x="213.36" y="109.22" size="1.778" layer="95" rot="MR0"/>
 <wire x1="215.9" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -18354,31 +18408,31 @@ ORESAT ACS CARD</text>
 <segment>
 <pinref part="U100" gate="G$1" pin="PA1"/>
 <wire x1="215.9" y1="129.54" x2="205.74" y2="129.54" width="0.1524" layer="91"/>
-<label x="180.34" y="129.54" size="1.778" layer="95"/>
+<label x="213.36" y="129.54" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PA0/CURR_FDB_MAG" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PA0"/>
 <wire x1="215.9" y1="132.08" x2="205.74" y2="132.08" width="0.1524" layer="91"/>
-<label x="180.34" y="132.08" size="1.778" layer="95"/>
+<label x="213.36" y="132.08" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PA15/CAN_SILENT" class="0">
 <segment>
-<pinref part="U101" gate="G$1" pin="S"/>
-<label x="142.24" y="101.6" size="1.778" layer="95" rot="MR180" xref="yes"/>
-<wire x1="129.54" y1="101.6" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U100" gate="G$1" pin="PA15"/>
-<wire x1="215.9" y1="93.98" x2="208.28" y2="93.98" width="0.1524" layer="91"/>
-<label x="195.58" y="93.98" size="1.778" layer="95"/>
+<wire x1="215.9" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="93.98" x2="165.1" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U101" gate="G$1" pin="S"/>
+<wire x1="165.1" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<label x="134.62" y="101.6" size="1.778" layer="95"/>
+<label x="213.36" y="93.98" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
 </sheet>
 <sheet>
+<description>Reaction Wheel</description>
 <plain>
 <text x="245.11" y="191.77" size="2.54" layer="97">TO BLDC MOTOR</text>
 <text x="20.32" y="62.23" size="2.54" layer="97">STM32 Current Feedback</text>
@@ -18566,6 +18620,7 @@ test case</text>
 <instance part="JP302" gate="G$1" x="388.62" y="95.25"/>
 <instance part="R303" gate="R" x="187.96" y="223.52" rot="R90"/>
 <instance part="JP301" gate="A" x="241.3" y="193.04"/>
+<instance part="TP2" gate="G$1" x="88.9" y="218.44"/>
 </instances>
 <busses>
 </busses>
@@ -18733,7 +18788,7 @@ test case</text>
 <pinref part="R314" gate="R" pin="1"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="BLDC-I-IN+" class="0">
 <segment>
 <pinref part="U301" gate="G$1" pin="IN+"/>
 <wire x1="190.5" y1="59.69" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
@@ -18756,7 +18811,7 @@ test case</text>
 <pinref part="JP301" gate="A" pin="3"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="BLDC-I-IN-" class="0">
 <segment>
 <wire x1="144.78" y1="83.82" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U301" gate="G$1" pin="IN-"/>
@@ -18772,7 +18827,7 @@ test case</text>
 <pinref part="R312" gate="R" pin="1"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="BLDC-I-OUT" class="0">
 <segment>
 <wire x1="132.08" y1="96.52" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
@@ -18792,9 +18847,12 @@ test case</text>
 <segment>
 <wire x1="132.08" y1="215.9" x2="132.08" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="215.9" x2="86.36" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="215.9" x2="88.9" y2="215.9" width="0.1524" layer="91"/>
 <label x="86.36" y="215.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U300" gate="G$1" pin="STBY/RESET"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<wire x1="88.9" y1="215.9" x2="86.36" y2="215.9" width="0.1524" layer="91"/>
+<junction x="88.9" y="215.9"/>
 </segment>
 </net>
 <net name="PA8/INUH/PWM_MAG" class="0">
@@ -18892,7 +18950,7 @@ test case</text>
 <pinref part="U302" gate="G$1" pin="CSN"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="AS5047_MOSI" class="0">
 <segment>
 <wire x1="322.58" y1="93.98" x2="314.96" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="93.98" x2="314.96" y2="111.76" width="0.1524" layer="91"/>
@@ -18900,7 +18958,7 @@ test case</text>
 <pinref part="R315" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="QUAD_A" class="0">
 <segment>
 <pinref part="U302" gate="G$1" pin="A"/>
 <pinref part="JP302" gate="G$1" pin="1"/>
@@ -18908,7 +18966,7 @@ test case</text>
 <wire x1="363.22" y1="97.79" x2="386.08" y2="97.79" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="QUAD_B" class="0">
 <segment>
 <pinref part="U302" gate="G$1" pin="B"/>
 <pinref part="JP302" gate="G$1" pin="2"/>
@@ -18943,6 +19001,7 @@ test case</text>
 </nets>
 </sheet>
 <sheet>
+<description>Magnetorquer</description>
 <plain>
 <text x="332.74" y="208.28" size="2.54" layer="97">TO MAGNETORQUER</text>
 <text x="335.28" y="26.67" size="5.08" layer="97">Magnetorquer Driver</text>
@@ -19155,6 +19214,7 @@ pin to 0.50V.</text>
 <attribute name="VALUE" x="229.362" y="46.99" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R403" gate="R" x="233.68" y="246.38" rot="R90"/>
+<instance part="TP3" gate="G$1" x="152.4" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -19280,11 +19340,14 @@ pin to 0.50V.</text>
 </net>
 <net name="STBY/RESET_MAG" class="0">
 <segment>
-<wire x1="189.23" y1="228.6" x2="146.05" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="228.6" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="228.6" x2="146.05" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="189.23" y1="228.6" x2="189.23" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="U400" gate="G$1" pin="STBY/RESET"/>
 <wire x1="189.23" y1="210.82" x2="213.36" y2="210.82" width="0.1524" layer="91"/>
 <label x="146.05" y="228.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP3" gate="G$1" pin="TP"/>
+<junction x="152.4" y="228.6"/>
 </segment>
 </net>
 <net name="PB7/FAULT_MAG" class="0">
@@ -19326,7 +19389,7 @@ pin to 0.50V.</text>
 <pinref part="R406" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="250_TOFF" class="0">
 <segment>
 <wire x1="207.01" y1="182.88" x2="207.01" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U400" gate="G$1" pin="TOFF"/>
@@ -19363,7 +19426,7 @@ pin to 0.50V.</text>
 <wire x1="284.48" y1="208.28" x2="326.39" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="250_REF" class="0">
 <segment>
 <wire x1="171.45" y1="157.48" x2="171.45" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="171.45" y1="154.94" x2="184.15" y2="154.94" width="0.1524" layer="91"/>
@@ -19414,7 +19477,7 @@ pin to 0.50V.</text>
 <junction x="226.06" y="43.18"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="MAG-I-IN+" class="0">
 <segment>
 <pinref part="U401" gate="G$1" pin="IN+"/>
 <wire x1="226.06" y1="58.42" x2="226.06" y2="55.88" width="0.1524" layer="91"/>
@@ -19429,7 +19492,7 @@ pin to 0.50V.</text>
 <junction x="226.06" y="55.88"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="MAG-I-IN-" class="0">
 <segment>
 <wire x1="180.34" y1="81.28" x2="180.34" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U401" gate="G$1" pin="IN-"/>
@@ -19446,7 +19509,7 @@ pin to 0.50V.</text>
 <pinref part="R417" gate="R" pin="1"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="MAG-I-OUT" class="0">
 <segment>
 <wire x1="167.64" y1="93.954" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
@@ -19506,20 +19569,22 @@ pin to 0.50V.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,299.72,119.38,X1,SHIELD,GND,,,"/>
-<approved hash="104,1,116.84,124.46,U2,VCC,3.3V,,,"/>
-<approved hash="104,1,243.84,137.16,U6,VDD,3.3V,,,"/>
-<approved hash="104,1,236.22,137.16,U6,VDDA,3.3V,,,"/>
-<approved hash="104,1,236.22,86.36,U6,VSS,GND,,,"/>
-<approved hash="104,1,228.6,137.16,U6,VDDIO2,3.3V,,,"/>
-<approved hash="104,3,233.68,220.98,DRIVER2,VS,N$20,,,"/>
-<approved hash="104,2,187.96,200.66,U4,VS,N$12,,,"/>
-<approved hash="104,2,345.44,114.3,U1,VDD3V,3.3V,,,"/>
-<approved hash="104,2,340.36,114.3,U1,VDD,3.3V,,,"/>
-<approved hash="104,2,345.44,76.2,U1,TEST,GND,,,"/>
-<approved hash="104,1,191.77,227.33,U10,VIN,TPS-VIN,,,"/>
-<approved hash="104,1,217.17,227.33,U10,VOUT,3.3V,,,"/>
-<approved hash="104,1,207.01,191.77,U10,PGND,GND,,,"/>
+<approved hash="104,1,299.72,119.38,X101,SHIELD,GND,,,"/>
+<approved hash="104,1,116.84,124.46,U101,VCC,3.3V,,,"/>
+<approved hash="104,1,243.84,137.16,U100,VDD,3.3V,,,"/>
+<approved hash="104,1,236.22,137.16,U100,VDDA,3.3V,,,"/>
+<approved hash="104,1,236.22,86.36,U100,VSS,GND,,,"/>
+<approved hash="104,1,228.6,137.16,U100,VDDIO2,3.3V,,,"/>
+<approved hash="104,3,233.68,220.98,U400,VS,N$8,,,"/>
+<approved hash="104,2,187.96,200.66,U300,VS,N$7,,,"/>
+<approved hash="104,2,345.44,114.3,U302,VDD3V,3.3V,,,"/>
+<approved hash="104,2,340.36,114.3,U302,VDD,3.3V,,,"/>
+<approved hash="104,2,345.44,76.2,U302,TEST,GND,,,"/>
+<approved hash="104,1,217.17,224.79,U200,VIN,TPS-VIN,,,"/>
+<approved hash="104,1,242.57,224.79,U200,VOUT,3.3V,,,"/>
+<approved hash="104,1,232.41,189.23,U200,PGND,GND,,,"/>
+<approved hash="209,1,129.54,106.68,CAN_SHDN,,,,,"/>
+<approved hash="209,1,152.4,106.68,CAN_SHDN,,,,,"/>
 <approved hash="206,3,254,210.82,OUT1,,,,,"/>
 <approved hash="206,3,254,195.58,OUT1,,,,,"/>
 <approved hash="206,3,254,205.74,OUT2,,,,,"/>
@@ -19529,18 +19594,17 @@ pin to 0.50V.</text>
 <approved hash="206,2,187.96,175.26,SENSE_BLDC,,,,,"/>
 <approved hash="206,3,254,185.42,SENSE_MAG,,,,,"/>
 <approved hash="206,3,254,200.66,SENSE_MAG,,,,,"/>
+<approved hash="209,2,142.24,200.66,STBY/RESET_BLDC,,,,,"/>
+<approved hash="209,2,88.9,215.9,STBY/RESET_BLDC,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,150.453,66.1077,J5,,,,,"/>
+<approved hash="113,1,150.453,66.1077,JP103,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
-<approved hash="113,2,238.997,194.536,JP8,,,,,"/>
-<approved hash="113,2,213.682,158.75,LED1,,,,,"/>
-<approved hash="113,2,221.302,158.75,LED2,,,,,"/>
-<approved hash="113,2,228.922,158.75,LED3,,,,,"/>
-<approved hash="113,3,311.15,188.282,LED4,,,,,"/>
-<approved hash="113,3,298.45,177.478,LED5,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,1,83.5829,110.716,JP1,,,,,"/>
-<approved hash="113,3,326.627,211.046,JP2,,,,,"/>
+<approved hash="113,3,326.627,211.046,JP401,,,,,"/>
+<approved hash="113,2,386.317,98.0161,JP302,,,,,"/>
+<approved hash="113,2,238.997,194.536,JP301,,,,,"/>
+<approved hash="113,1,83.5829,124.686,JP1,,,,,"/>
+<approved hash="113,1,83.5829,110.716,JP102,,,,,"/>
 </errors>
 </schematic>
 </drawing>
