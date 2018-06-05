@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16051,231 +16051,117 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <packages3d>
 <package3d name="TP15SQ" urn="urn:adsk.eagle:package:27975/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP15SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="B1,27" urn="urn:adsk.eagle:package:27944/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="B1,27"/>
-</packageinstances>
 </package3d>
 <package3d name="B2,54" urn="urn:adsk.eagle:package:27948/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="B2,54"/>
-</packageinstances>
 </package3d>
 <package3d name="P1-13" urn="urn:adsk.eagle:package:27946/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="P1-13"/>
-</packageinstances>
 </package3d>
 <package3d name="P1-13Y" urn="urn:adsk.eagle:package:27947/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="P1-13Y"/>
-</packageinstances>
 </package3d>
 <package3d name="P1-17" urn="urn:adsk.eagle:package:27949/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="P1-17"/>
-</packageinstances>
 </package3d>
 <package3d name="P1-17Y" urn="urn:adsk.eagle:package:27953/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="P1-17Y"/>
-</packageinstances>
 </package3d>
 <package3d name="P1-20" urn="urn:adsk.eagle:package:27950/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="P1-20"/>
-</packageinstances>
 </package3d>
 <package3d name="P1-20Y" urn="urn:adsk.eagle:package:27951/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="P1-20Y"/>
-</packageinstances>
 </package3d>
 <package3d name="TP06R" urn="urn:adsk.eagle:package:27954/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP06R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP06SQ" urn="urn:adsk.eagle:package:27952/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP06SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP07R" urn="urn:adsk.eagle:package:27970/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP07R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP07SQ" urn="urn:adsk.eagle:package:27955/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP07SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP08R" urn="urn:adsk.eagle:package:27956/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP08R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP08SQ" urn="urn:adsk.eagle:package:27960/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP08SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP09R" urn="urn:adsk.eagle:package:27958/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP09R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP09SQ" urn="urn:adsk.eagle:package:27957/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP09SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP10R" urn="urn:adsk.eagle:package:27959/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP10R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP10SQ" urn="urn:adsk.eagle:package:27962/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP10SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP11R" urn="urn:adsk.eagle:package:27961/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP11R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP11SQ" urn="urn:adsk.eagle:package:27965/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP11SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP12SQ" urn="urn:adsk.eagle:package:27964/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP12SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP12R" urn="urn:adsk.eagle:package:27963/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP12R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP13R" urn="urn:adsk.eagle:package:27967/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP13R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP14R" urn="urn:adsk.eagle:package:27966/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP14R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP15R" urn="urn:adsk.eagle:package:27968/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP15R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP16R" urn="urn:adsk.eagle:package:27969/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP16R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP17R" urn="urn:adsk.eagle:package:27971/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP17R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP18R" urn="urn:adsk.eagle:package:27981/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP18R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP19R" urn="urn:adsk.eagle:package:27972/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP19R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP20R" urn="urn:adsk.eagle:package:27973/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP20R"/>
-</packageinstances>
 </package3d>
 <package3d name="TP13SQ" urn="urn:adsk.eagle:package:27974/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP13SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP14SQ" urn="urn:adsk.eagle:package:27984/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP14SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP16SQ" urn="urn:adsk.eagle:package:27976/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP16SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP17SQ" urn="urn:adsk.eagle:package:27977/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP17SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP18SQ" urn="urn:adsk.eagle:package:27979/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP18SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP19SQ" urn="urn:adsk.eagle:package:27978/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP19SQ"/>
-</packageinstances>
 </package3d>
 <package3d name="TP20SQ" urn="urn:adsk.eagle:package:27980/1" type="box" library_version="1">
 <description>TEST PAD</description>
-<packageinstances>
-<packageinstance name="TP20SQ"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -17563,7 +17449,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="271.78" y="130.81" size="1.778" layer="97" rot="MR0">NRST pull-up
 built in</text>
 <text x="341.63" y="26.67" size="3.81" layer="94">ACS Controller</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">1.1</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">3</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="2.54" size="1.778" layer="97">All caps are ceramic 10% X5R &gt;= 16V Vwv unless marked</text>
 <text x="132.08" y="83.82" size="1.4224" layer="97">CAN_SHDN and CAN_LSTN
