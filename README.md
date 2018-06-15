@@ -24,9 +24,12 @@ Controller PCB for OreSat reaction wheels and magnetorquers
 | | Logic High | 1.6 - 5.5  | Volts |
 | | Logic Low | -0.3 - 0.6 | Volts |
 | | Output Max | 12 | Volts |
-| | Ouput RMS/Bridge | 1.3 | Amps |
+| | Ouput RMS/Bridge | 2.6   | Amps |
 | | Storage Temperature | -55 - 150 | °C |
 | | Operating Temperature | -40 - 150 | °C |
+| AS45047P |
+
+
 
 
 
