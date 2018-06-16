@@ -1,5 +1,11 @@
 # oresat-acs-board
-Controller PCB for OreSat reaction wheels and magnetorquers
+## Controller PCB for OreSat reaction wheels and magnetorquers
+
+The attitude control system (ACS) inside oresat needs to orientate the position of the cubesat in space. This will be acheived in two ways; With brushless DC motors (BLDC) and with Magnetorquers. We are designing a PCB that controls both systems.
+
+Find the project design contraints at,
+[Project Design Constraints](https://github.com/oresat/oresat-acs-board/blob/master/Project%20Design%20Constraints.md)
+
 
 ACS Level 2 Block Diagram Version 3.2
 ![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20level%202%20block%20diagram%203.2.png)
