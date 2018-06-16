@@ -2,8 +2,7 @@
 Controller PCB for OreSat reaction wheels and magnetorquers
 
 ACS Level 2 Block Diagram Version 3.2
-(/images/logo.png)
-Format: ![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20level%202%20block%20diagram%203.2.png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20level%202%20block%20diagram%203.2.png)
 
 ### Major Hardware Operating parameters
 | Part #  | Parameter | Range | Units |
