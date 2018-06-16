@@ -7,8 +7,7 @@ ACS Level 2 Block Diagram Version 3.2
 ### System Hardware Overview
 | System Block | Hardware chosen and reasons why |
 | :--- | :---: |
-| Buck Converter | TPS63070 
-We chose this part because of oresat heritage. This component is being used elsewhere in oresat and we were recommended to use it.
+| Buck Converter | We chose this part because of oresat heritage. This component is being used elsewhere in oresat and we were recommended to use it.
  It is a buck-boost converter that can take a wide range of input voltage. Overall, it is a robust component. |
 | BLDC Motor | Unfinished |
 | BLDC Motor Driver | STSPIN230 
