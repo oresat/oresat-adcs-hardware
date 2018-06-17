@@ -11,6 +11,8 @@ ACS Level 2 Block Diagram Version 3.2
 ![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20level%202%20block%20diagram%203.2.png)
 
 ### System Hardware Overview
+[Deatailed Hardware Reference Guide](https://github.com/oresat/oresat-acs-board/blob/master/Hardware%20Reference%20Guide.md)
+
 | **System Block** | **Hardware Chosen and Reasons Why** |
 | :---           | :---                          |
 | Buck Converter | TPS63070 <br/>We chose this part because of oresat heritage. This component is being used elsewhere in oresat and we were recommended to use it. It is a buck-boost converter that can take a wide range of input voltage. Overall, it is a robust component. |
@@ -80,6 +82,10 @@ Note: R206 must be changed from 100kΩ to 150kΩ.
 ### Capstone Poster:
 [Link to Capstone poster in Google Drive](https://docs.google.com/presentation/d/1KBfbX376Y7nvsIXe14JdyOgP9TMmgJlgeOiYP8BOekc/edit#slide=id.p1)
 ![Image of Capstone poster](https://github.com/oresat/oresat-acs-board/blob/master/ACS_Capstone.pptx.png)
+
+### Research and Tutorials:
+Brushless DC (BLDC) motor control is a challenging form of motor control. We found numerous helpful tutorials and references.
+[Link to research references and bibliography](https://github.com/oresat/oresat-acs-board/blob/master/Research%20references%20and%20bibliography.md)
 
 
 
