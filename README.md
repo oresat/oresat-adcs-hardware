@@ -74,7 +74,8 @@ Note: R206 must be changed from 100kΩ to 150kΩ.
 ### EagleCAD Files:
 [Link to the EagleCAD schematics and board layouts](https://github.com/oresat/oresat-acs-board/tree/master/eaglecad)
 
-### [Manufacturing phots of board layouts and CAD model of mounting strategy](https://github.com/oresat/oresat-acs-board/tree/master/Manufacturing%20photos)
+### Manufacturing Photos:
+[Manufacturing photos of board layouts and CAD model of mounting strategy](https://github.com/oresat/oresat-acs-board/tree/master/Manufacturing%20photos)
 
 
 
