@@ -86,3 +86,4 @@ Note: R206 must be changed from 100kΩ to 150kΩ.
 ### Research and Tutorials:
 Brushless DC (BLDC) motor control is a challenging form of motor control. We found numerous helpful tutorials and references.
 
+

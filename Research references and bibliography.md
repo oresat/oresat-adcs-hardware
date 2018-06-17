@@ -24,28 +24,38 @@
 
 # Bibliography in APA format:
 
-Electronic speed control. Retrieved from https://en.wikipedia.org/wiki/Electronic_speed_control 
+Electronic speed control. Retrieved from https://en.wikipedia.org/wiki/Electronic_speed_control
+ 
 Jim Hamblen, (05/13/2017). Using a Brushless DC motor with an RC ESC. Retrieved from     
     https://os.mbed.com/users/4180_1/notebook/using-a-dc-brushless-motor-with-an-rc-esc/
+	
 Benjamin Vedder, (01/07/2015). VESC - Open Source ESC. Retrieved from
     http://vedder.se/2015/01/vesc-open-source-esc/
+	
 Benjamin Vedder, (01/07/2015). VESC GitHub. Retrieved from
     https://github.com/vedderb/bldc
+	
 Texas Instruments, (06/11/2012). Brushless DC Motors & Control - How it Works (Part 1 of 2).
     Retrieved from https://www.youtube.com/watch?v=ZAY5JInyHXY 
+	
 Texas Instruments, (06/11/2012). Brushless DC Motors & Control - How it Works (Part 2 of 2).
     Retrieved from https://www.youtube.com/watch?v=WyQInXjpGwU 
+	
 Digikey editors, (01/17/2017). Why and How to Sinusoidally Control Three-Phase Brushless DC 
     Motors. Retrieved from 
 https://www.digikey.com/en/articles/techzone/2017/jan/why-and-how-to-sinusoidally-control-three-phase-brushless-dc-motors
+
 Texas Instruments, (02/13/2012). Introduction to InstaSPIN™-BLDC Motor Control Solution.
 Retrieved from https://www.youtube.com/watch?v=szgVUfyX8JM 
+
 Junquan Li, Mark Post, Thomas Wright, and Regina Lee, (12/18/2012). Design of Attitude
     Control Systems for CubeSat-Class Nanosatellite. Retrieved from
     https://www.hindawi.com/journals/jcse/2013/657182/ 
+	
 Joshua Vasquez, (02/23/2016). Anti-Cogging Algorithm Brings Out the Best in your Hobby 
     Brushless Motors. Retrieved from
 https://hackaday.com/2016/02/23/anti-cogging-algorithm-brings-out-the-best-in-your-hobby-brushless-motors/
+
 Yashvant Jani, (01/15/2017). Implementing Embedded Speed Control for Brushless DC Motors. Retrieved from 
 https://www.embedded.com/design/real-time-and-performance/4006783/Implementing-Embedded-Speed-Control-for-Brushless-DC-Motors-Part-4
 
