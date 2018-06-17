@@ -77,6 +77,9 @@ Note: R206 must be changed from 100kΩ to 150kΩ.
 ### Manufacturing Photos:
 [Manufacturing photos of board layouts and CAD model of mounting strategy](https://github.com/oresat/oresat-acs-board/tree/master/Manufacturing%20photos)
 
+### Capstone Poster:
+[Link to Capstone poser in Google Drive](https://docs.google.com/presentation/d/1KBfbX376Y7nvsIXe14JdyOgP9TMmgJlgeOiYP8BOekc/edit#slide=id.p1)
+![Image of Capstone poster]()
 
 
 
