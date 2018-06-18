@@ -1,16 +1,16 @@
 # Reference Links for Motor Control:
 
-[ESC on Wikipedia](https://en.wikipedia.org/wiki/Electronic_speed_control)
+[ESC on Wikipedia](https://en.wikipedia.org/wiki/Electronic_speed_control)<br/>
 This is a basic overview of electronic speed controlers
 
-[BLDC control with an ESC](https://os.mbed.com/users/4180_1/notebook/using-a-dc-brushless-motor-with-an-rc-esc/)
+[BLDC control with an ESC](https://os.mbed.com/users/4180_1/notebook/using-a-dc-brushless-motor-with-an-rc-esc/)<br/>
 The 'Hello World' of ESC demos
 
-[VESC – open source ESC](http://vedder.se/2015/01/vesc-open-source-esc/)
-Ha ha... This tells  Good Luck. 
+[VESC github](https://github.com/vedderb/bldc)<br/>
+Ha ha... Good luck.
 
-
-[VESC github](https://github.com/vedderb/bldc)
+[VESC – open source ESC](http://vedder.se/2015/01/vesc-open-source-esc/)<br/>
+Navigating 
 
 [BLDC motor control tutorial (part 1)](https://www.youtube.com/watch?v=ZAY5JInyHXY)
 
