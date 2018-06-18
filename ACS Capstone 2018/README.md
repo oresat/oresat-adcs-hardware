@@ -18,18 +18,18 @@ ACS Level 2 Block Diagram Version 3.2
 Rev1.1:
 * The “flatsat” version that we manufactured and tested.
 ![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%201).PNG)
-[[images/Schematic rev1.1 (page 2).PNG]]
-[[images/Schematic rev1.1 (page 3).PNG]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%202).PNG)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%203).PNG)
 
 Rev2:
 * Minor changes. Rev2 was never manufactured. Skip and go reference Rev3.
  
 Rev3:
 * Rev3 was manufactured and tested.
-[[images/Schematic rev3 (page 1).PNG]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%201).PNG)
 **Note:** R206 must be changed from 100kΩ to 150kΩ.
-[[images/Schematic rev3 (page 2).PNG]]
-[[images/Schematic rev3 (page 3).PNG]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%202).PNG)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%203).PNG)
 
 # Board Layout
 * The design of the board layout was a significant hardware challenge due to the physical space constraints in the cubesat. Our entire system needed to fit within a volume of 10x10x4 cm. Our system needs to drive four BLDC motors and three magnetorquers. Additionally, each motor needs an encoder positioned right next to it in line with the motor’s axle. 
