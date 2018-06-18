@@ -10,15 +10,17 @@ The 'Hello World' of ESC demos
 Ha ha... Good luck.
 
 [VESC – open source ESC](http://vedder.se/2015/01/vesc-open-source-esc/)<br/>
-Navigating 
+How to navigate the vedderb github page
 
 [BLDC motor control tutorial (part 1)](https://www.youtube.com/watch?v=ZAY5JInyHXY)
 
 [BLDC motor control tutorial (part 2)](https://www.youtube.com/watch?v=WyQInXjpGwU)
 
-[Sinusoidal control](https://www.digikey.com/en/articles/techzone/2017/jan/why-and-how-to-sinusoidally-control-three-phase-brushless-dc-motors)
+[Sinusoidal control](https://www.digikey.com/en/articles/techzone/2017/jan/why-and-how-to-sinusoidally-control-three-phase-brushless-dc-motors)<br/>
+This is an introduction to how sinusoidal wave forms are used for phase vector control
 
-[Intro to Instaspin](https://www.youtube.com/watch?v=szgVUfyX8JM)
+[Intro to Instaspin](https://www.youtube.com/watch?v=szgVUfyX8JM)<br/>
+This is a solid explination for how motor control signals move a motor as well as what back emf is and how it is implemented
 
 [ACS design for cubesats – research article](https://www.hindawi.com/journals/jcse/2013/657182/)
 
