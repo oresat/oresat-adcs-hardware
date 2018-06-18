@@ -11,7 +11,7 @@ ACS Level 2 Block Diagram Version 3.2
 ![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20level%202%20block%20diagram%203.2.png)
 
 ### System Hardware Overview
-[Deatailed Hardware Reference Guide](https://github.com/oresat/oresat-acs-board/blob/master/Hardware%20Reference%20Guide.md)
+[Deatailed Hardware Reference Guide](https://github.com/oresat/oresat-acs-board/blob/master/Component%20File/Hardware%20Reference%20Guide.md)
 
 ## Board Schematics
 ### Rev1.1
