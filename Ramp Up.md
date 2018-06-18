@@ -1,6 +1,7 @@
 # Reference Links for Motor Control:
 
 [ESC on Wikipedia](https://en.wikipedia.org/wiki/Electronic_speed_control)
+The 
 
 [BLDC control with an ESC](https://os.mbed.com/users/4180_1/notebook/using-a-dc-brushless-motor-with-an-rc-esc/)
 
