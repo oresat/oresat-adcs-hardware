@@ -39,9 +39,9 @@ ACS Level 2 Block Diagram Version 3.2
 ### System Firmware:
 [Check here for the firmware information](https://github.com/oresat/oresat-firmware/wiki/ACS-Firmware)
 
-### Research and Tutorials:
+### Research and Tutorials / Ramp Up Documents:
 Brushless DC (BLDC) motor control is a challenging form of motor control. We found numerous helpful tutorials and references.
-[Link to research references and bibliography](https://github.com/oresat/oresat-acs-board/blob/master/Research%20references%20and%20bibliography.md)
+[Link to research references and bibliography, start here for a ramp up on ACS](https://github.com/oresat/oresat-acs-board/blob/master/Ramp%20up.md)
 
 # Final Product:
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_1.jpg)
