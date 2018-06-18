@@ -1,7 +1,7 @@
 # Overview
 # Block Diagram
 ACS Level 2 Block Diagram Version 3.2
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20level%202%20block%20diagram%203.2.png
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20level%202%20block%20diagram%203.2.png)
 
 | **System Block** | **Hardware Chosen and Reasons Why** |
 | :---           | :---                          |
@@ -17,7 +17,7 @@ ACS Level 2 Block Diagram Version 3.2
 # Schematic
 Rev1.1:
 * The “flatsat” version that we manufactured and tested.
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%201).PNG
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%201).PNG)
 [[images/Schematic rev1.1 (page 2).PNG]]
 [[images/Schematic rev1.1 (page 3).PNG]]
 
