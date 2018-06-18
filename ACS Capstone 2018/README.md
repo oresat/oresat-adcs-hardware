@@ -38,42 +38,42 @@ Rev3:
 
 **REV1:** <br/>The goal of REV1 was to make a very compact board as a prototype so that we could get a good idea of how much area our board will take up. REV1 ended up with an area of 42x43mm. We passed this information onto the structure team so they could start prototyping how to fit everything into the cubesat frame.
 
-[[images/controller (rev1) (top).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller%20(rev1)%20(top).png)
 _Rev1: Top_
-[[images/controller (rev1) (bottom).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller%20(rev1)%20(bottom).png)
 _Rev1: Bottom_
 
 **Rev1.1:** <br/>The goal of REV1.1 was to test all the hardware components and prove that they would work when all integrated together. REV1 was manufactured and assembled. All the hardware worked as expected with only minor design errors discovered.
 
-[[images/controller_rev1.1(flat) (top).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev1.1(flat)%20(top).png)
 _Rev1.1: Top_
-[[images/controller_rev1.1(flat) (bottom).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev1.1(flat)%20(bottom).png)
 _Rev1.1: Bottom_
 
 **Rev2:** <br/>The goal of REV2 was to get a head start on developing better packing geometries that utilized both top and bottom layers for component placement. Upon reviewing the design for developing a mechanical mount, it was determined that with how effectivly the space was used, size should be deprioritized in favor of how it was to be mounted. This layout was then abandoned due to the amount of modification necisary for the mounting system that was developed shortly after.
 
-[[images/controller_rev2 (top).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev1.1(flat)%20(top).png)
 _Rev2: Top_
-[[images/controller_rev2 (bottom).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev1.1(flat)%20(bottom).png)
 _Rev2: Bottom_
 
 **Rev3:** <br/>We received input from the structural team which informed us that we need to redesign the shape of the board and change the locations where thermal contacts occurs. The total area of REV3 came out to be a very small 38x35mm. 
 
-[[images/controller_rev3 (top).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev3%20(top).png)
 _Rev3: Top_
-[[images/controller_rev3 (bottom).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev3%20(bottom).png)
 _Rev3: Bottom_ 
 
 CAD photos for satellite mounting: 
-[[images/CAD model of mounting in frame (3).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(3).png)
 
-[[images/CAD model of mounting in frame (4).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(4).png)
 
-[[images/CAD model of mounting in frame (2).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(2).png)
 
-[[images/CAD model of mounting in frame (8).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(8).png)
 
-[[images/CAD model of mounting in frame (9).png]]
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(9).png)
 
 # Board Stuffing SoP
 
