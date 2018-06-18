@@ -1,5 +1,4 @@
 # oresat-acs-board
-## Controller PCB for OreSat reaction wheels and magnetorquers
 
 # Introduction
 ## The OreSat Project
