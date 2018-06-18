@@ -41,3 +41,7 @@
 | | Storage Temperature | -55 - 150 | °C |
 | | Operating Temperature | -40 - 150 | °C |
 | AS45047P |
+| | Operating Voltage | 3.2 - 3.4 | Volts |
+| | Operation Current | 4 mA | Current |
+| | Operating Temperature | -40 - 125 | °C |
+| | Storage Temperature | -55 - 150 | °C |
