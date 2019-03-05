@@ -17543,6 +17543,12 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP06R" package3d_urn="urn:adsk.eagle:package:27954/1"/>
 <part name="U$1" library="oresat-misc" deviceset="STM32F446X" device=""/>
+<part name="C107" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="2.2u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -17901,6 +17907,14 @@ ORESAT ACS CARD</text>
 <attribute name="TP_SIGNAL_NAME" x="146.05" y="59.69" size="1.778" layer="97"/>
 </instance>
 <instance part="U$1" gate="G$1" x="243.84" y="83.82" smashed="yes"/>
+<instance part="C107" gate="CE" x="210.82" y="114.3" smashed="yes" rot="R90">
+<attribute name="DIS" x="210.82" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="210.82" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="210.82" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="210.82" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="210.566" y="115.189" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="213.614" y="115.189" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17939,6 +17953,10 @@ ORESAT ACS CARD</text>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="208.28" y1="104.14" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="104.14" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C107" gate="CE" pin="1"/>
+<wire x1="208.28" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="114.3" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
+<junction x="205.74" y="104.14"/>
 </segment>
 <segment>
 <pinref part="JP103" gate="G$1" pin="GND"/>
@@ -18489,6 +18507,13 @@ ORESAT ACS CARD</text>
 <pinref part="C105" gate="CE" pin="2"/>
 <wire x1="147.32" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
 <junction x="147.32" y="137.16"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCAP_1"/>
+<pinref part="C107" gate="CE" pin="2"/>
+<wire x1="215.9" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
