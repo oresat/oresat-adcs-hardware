@@ -17549,6 +17549,34 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
+<part name="R301" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="18k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="C304" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="1n">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="R401" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="18k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="C404" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="1n">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18779,6 +18807,28 @@ test case</text>
 <attribute name="NAME" x="87.63" y="219.71" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="90.17" y="217.17" size="1.778" layer="97"/>
 </instance>
+<instance part="R301" gate="R" x="119.38" y="220.98" smashed="yes" rot="R270">
+<attribute name="DIS" x="119.38" y="220.98" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="119.38" y="220.98" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="119.38" y="220.98" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="119.38" y="220.98" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="120.8786" y="224.79" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="116.078" y="224.79" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C304" gate="CE" x="119.38" y="210.82" smashed="yes" rot="R180">
+<attribute name="DIS" x="119.38" y="210.82" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="119.38" y="210.82" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="119.38" y="210.82" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="119.38" y="210.82" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="117.856" y="210.439" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="117.856" y="215.519" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND7" gate="1" x="119.38" y="205.74" smashed="yes">
+<attribute name="VALUE" x="116.84" y="203.2" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="119.38" y="226.06" smashed="yes">
+<attribute name="VALUE" x="119.38" y="228.854" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18860,6 +18910,10 @@ test case</text>
 <pinref part="C303" gate="CE" pin="2"/>
 <wire x1="214.376" y1="204.216" x2="214.376" y2="205.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C304" gate="CE" pin="1"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -18900,6 +18954,10 @@ test case</text>
 <pinref part="U302" gate="G$1" pin="VDD3V"/>
 <wire x1="345.44" y1="114.3" x2="345.44" y2="118.11" width="0.1524" layer="91"/>
 <pinref part="C310" gate="CE" pin="2"/>
+</segment>
+<segment>
+<pinref part="R301" gate="R" pin="1"/>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="U" class="0">
@@ -19005,12 +19063,16 @@ test case</text>
 <segment>
 <wire x1="132.08" y1="215.9" x2="132.08" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="215.9" x2="88.9" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="215.9" x2="119.38" y2="215.9" width="0.1524" layer="91"/>
 <label x="86.36" y="215.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U300" gate="G$1" pin="STBY/RESET"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
+<wire x1="119.38" y1="215.9" x2="88.9" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="215.9" x2="86.36" y2="215.9" width="0.1524" layer="91"/>
 <junction x="88.9" y="215.9"/>
+<pinref part="R301" gate="R" pin="2"/>
+<junction x="119.38" y="215.9"/>
+<pinref part="C304" gate="CE" pin="2"/>
 </segment>
 </net>
 <net name="PA8/INUH/PWM_MAG" class="0">
@@ -19441,6 +19503,28 @@ pin to 0.50V.</text>
 <attribute name="NAME" x="151.13" y="232.41" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="153.67" y="229.87" size="1.778" layer="97"/>
 </instance>
+<instance part="R401" gate="R" x="177.8" y="233.68" smashed="yes" rot="R270">
+<attribute name="DIS" x="177.8" y="233.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="177.8" y="233.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="177.8" y="233.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MPN" x="177.8" y="233.68" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="179.2986" y="237.49" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="174.498" y="237.49" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C404" gate="CE" x="177.8" y="223.52" smashed="yes" rot="R180">
+<attribute name="DIS" x="177.8" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="DPN" x="177.8" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MFR" x="177.8" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="177.8" y="223.52" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="NAME" x="176.276" y="223.139" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="176.276" y="228.219" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND8" gate="1" x="177.8" y="215.9" smashed="yes">
+<attribute name="VALUE" x="175.26" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="177.8" y="238.76" smashed="yes">
+<attribute name="VALUE" x="177.8" y="241.554" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19537,6 +19621,11 @@ pin to 0.50V.</text>
 <pinref part="C403" gate="CE" pin="2"/>
 <wire x1="261.62" y1="227.33" x2="261.62" y2="228.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C404" gate="CE" pin="1"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+<wire x1="177.8" y1="218.44" x2="177.8" y2="220.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -19563,10 +19652,15 @@ pin to 0.50V.</text>
 <pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
 <wire x1="171.45" y1="167.64" x2="171.45" y2="170.18" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R401" gate="R" pin="1"/>
+<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
+</segment>
 </net>
 <net name="STBY/RESET_MAG" class="0">
 <segment>
-<wire x1="189.23" y1="228.6" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="228.6" x2="177.8" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="228.6" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="228.6" x2="146.05" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="189.23" y1="228.6" x2="189.23" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="U400" gate="G$1" pin="STBY/RESET"/>
@@ -19574,6 +19668,10 @@ pin to 0.50V.</text>
 <label x="146.05" y="228.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
 <junction x="152.4" y="228.6"/>
+<pinref part="R401" gate="R" pin="2"/>
+<junction x="177.8" y="228.6"/>
+<pinref part="C404" gate="CE" pin="2"/>
+<junction x="177.8" y="228.6"/>
 </segment>
 </net>
 <net name="PB7/FAULT_MAG" class="0">
