@@ -18217,28 +18217,14 @@ ORESAT ACS CARD</text>
 <pinref part="U$1" gate="G$1" pin="PA11"/>
 </segment>
 </net>
-<net name="PA5/SPI1_SCK" class="0">
-<segment>
-<wire x1="220.98" y1="78.74" x2="218.44" y2="78.74" width="0.1524" layer="91"/>
-<label x="220.98" y="78.74" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$1" gate="G$1" pin="PA5"/>
-</segment>
-</net>
-<net name="PA6/SPI1_NSS" class="0">
-<segment>
-<label x="220.98" y="81.28" size="1.778" layer="95" rot="MR0"/>
-<wire x1="220.98" y1="81.28" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PA4"/>
-</segment>
-</net>
-<net name="PA7/INUL" class="0">
+<net name="BLDC_INUL" class="0">
 <segment>
 <label x="266.7" y="96.52" size="1.778" layer="95"/>
 <wire x1="269.24" y1="96.52" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PB13"/>
 </segment>
 </net>
-<net name="PA2/USART2_TX" class="0">
+<net name="USART2_TX" class="0">
 <segment>
 <wire x1="220.98" y1="91.44" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="91.44" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
@@ -18249,7 +18235,7 @@ ORESAT ACS CARD</text>
 <pinref part="U$1" gate="G$1" pin="PA0"/>
 </segment>
 </net>
-<net name="PA3/USART2_RX" class="0">
+<net name="USART2_RX" class="0">
 <segment>
 <wire x1="182.88" y1="88.9" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
@@ -18288,32 +18274,11 @@ ORESAT ACS CARD</text>
 <pinref part="SUPPLY4" gate="G$1" pin="V_BATT"/>
 </segment>
 </net>
-<net name="PA4/FAULT_BLDC" class="0">
-<segment>
-<wire x1="269.24" y1="66.04" x2="266.7" y2="66.04" width="0.1524" layer="91"/>
-<label x="266.7" y="66.04" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PC7"/>
-</segment>
-</net>
-<net name="PB1/INWL" class="0">
+<net name="BLDC_INWL" class="0">
 <segment>
 <wire x1="266.7" y1="91.44" x2="269.24" y2="91.44" width="0.1524" layer="91"/>
 <label x="266.7" y="91.44" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="PB15"/>
-</segment>
-</net>
-<net name="PB6/EN_BLDC" class="0">
-<segment>
-<wire x1="266.7" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
-<label x="266.7" y="68.58" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PC6"/>
-</segment>
-</net>
-<net name="PB7/FAULT_MAG" class="0">
-<segment>
-<wire x1="266.7" y1="109.22" x2="269.24" y2="109.22" width="0.1524" layer="91"/>
-<label x="266.7" y="109.22" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PB8"/>
 </segment>
 </net>
 <net name="CAN_SHDN" class="0">
@@ -18324,46 +18289,11 @@ ORESAT ACS CARD</text>
 <wire x1="144.78" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PA10/INWH" class="0">
-<segment>
-<label x="220.98" y="66.04" size="1.778" layer="95" rot="MR0"/>
-<wire x1="220.98" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PA10"/>
-</segment>
-</net>
-<net name="PB4/SPI1_MISO" class="0">
-<segment>
-<wire x1="218.44" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
-<label x="220.98" y="76.2" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$1" gate="G$1" pin="PA6"/>
-</segment>
-</net>
-<net name="PB3/EN_MAG" class="0">
-<segment>
-<wire x1="266.7" y1="106.68" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
-<label x="266.7" y="106.68" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="PB9"/>
-</segment>
-</net>
-<net name="PB0/INVL" class="0">
+<net name="BLDC_INVL" class="0">
 <segment>
 <wire x1="266.7" y1="93.98" x2="269.24" y2="93.98" width="0.1524" layer="91"/>
 <label x="266.7" y="93.98" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="PB14"/>
-</segment>
-</net>
-<net name="PA8/INUH/PWM_MAG" class="0">
-<segment>
-<label x="220.98" y="71.12" size="1.778" layer="95" rot="MR0"/>
-<wire x1="220.98" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PA8"/>
-</segment>
-</net>
-<net name="PA9/INVH/DIR_MAG" class="0">
-<segment>
-<label x="220.98" y="68.58" size="1.778" layer="95" rot="MR0"/>
-<wire x1="220.98" y1="68.58" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="PA9"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
@@ -18487,21 +18417,7 @@ ORESAT ACS CARD</text>
 <wire x1="246.38" y1="201.93" x2="246.38" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PA1/CURR_FDB_BLDC" class="0">
-<segment>
-<wire x1="220.98" y1="83.82" x2="218.44" y2="83.82" width="0.1524" layer="91"/>
-<label x="220.98" y="83.82" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$1" gate="G$1" pin="PA3"/>
-</segment>
-</net>
-<net name="PA0/CURR_FDB_MAG" class="0">
-<segment>
-<wire x1="220.98" y1="86.36" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
-<label x="220.98" y="86.36" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$1" gate="G$1" pin="PA2"/>
-</segment>
-</net>
-<net name="PA15/CAN_SILENT" class="0">
+<net name="CAN_SILENT" class="0">
 <segment>
 <wire x1="220.98" y1="53.34" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U101" gate="G$1" pin="S"/>
@@ -18542,6 +18458,118 @@ ORESAT ACS CARD</text>
 <pinref part="U$1" gate="G$1" pin="VCAP_1"/>
 <pinref part="C107" gate="CE" pin="2"/>
 <wire x1="215.9" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MAG_CURR_FDB" class="0">
+<segment>
+<wire x1="220.98" y1="86.36" x2="218.44" y2="86.36" width="0.1524" layer="91"/>
+<label x="220.98" y="86.36" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U$1" gate="G$1" pin="PA2"/>
+</segment>
+</net>
+<net name="BLDC_CURR_FDB" class="0">
+<segment>
+<wire x1="220.98" y1="83.82" x2="218.44" y2="83.82" width="0.1524" layer="91"/>
+<label x="220.98" y="83.82" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U$1" gate="G$1" pin="PA3"/>
+</segment>
+</net>
+<net name="SPI1_NSS" class="0">
+<segment>
+<label x="220.98" y="81.28" size="1.778" layer="95" rot="MR0"/>
+<wire x1="220.98" y1="81.28" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PA4"/>
+</segment>
+</net>
+<net name="SPI1_SCK" class="0">
+<segment>
+<wire x1="220.98" y1="78.74" x2="218.44" y2="78.74" width="0.1524" layer="91"/>
+<label x="220.98" y="78.74" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U$1" gate="G$1" pin="PA5"/>
+</segment>
+</net>
+<net name="SPI1_MISO" class="0">
+<segment>
+<wire x1="218.44" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<label x="220.98" y="76.2" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U$1" gate="G$1" pin="PA6"/>
+</segment>
+</net>
+<net name="MAG_FAULT" class="0">
+<segment>
+<wire x1="266.7" y1="109.22" x2="269.24" y2="109.22" width="0.1524" layer="91"/>
+<label x="266.7" y="109.22" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PB8"/>
+</segment>
+</net>
+<net name="MAG_EN" class="0">
+<segment>
+<wire x1="266.7" y1="106.68" x2="269.24" y2="106.68" width="0.1524" layer="91"/>
+<label x="266.7" y="106.68" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PB9"/>
+</segment>
+</net>
+<net name="MAG_STBY" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB6"/>
+<wire x1="266.7" y1="114.3" x2="269.24" y2="114.3" width="0.1524" layer="91"/>
+<label x="266.7" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MAG_DIR" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB5"/>
+<wire x1="266.7" y1="116.84" x2="269.24" y2="116.84" width="0.1524" layer="91"/>
+<label x="266.7" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MAG_PWM" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB4"/>
+<wire x1="266.7" y1="119.38" x2="269.24" y2="119.38" width="0.1524" layer="91"/>
+<label x="266.7" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BLDC_INUH" class="0">
+<segment>
+<label x="220.98" y="71.12" size="1.778" layer="95" rot="MR0"/>
+<wire x1="220.98" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PA8"/>
+</segment>
+</net>
+<net name="BLDC_INVH" class="0">
+<segment>
+<label x="220.98" y="68.58" size="1.778" layer="95" rot="MR0"/>
+<wire x1="220.98" y1="68.58" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PA9"/>
+</segment>
+</net>
+<net name="BLDC_INWH" class="0">
+<segment>
+<label x="220.98" y="66.04" size="1.778" layer="95" rot="MR0"/>
+<wire x1="220.98" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PA10"/>
+</segment>
+</net>
+<net name="BLDC_EN" class="0">
+<segment>
+<wire x1="266.7" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
+<label x="266.7" y="68.58" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PC6"/>
+</segment>
+</net>
+<net name="BLDC_FAULT" class="0">
+<segment>
+<wire x1="269.24" y1="66.04" x2="266.7" y2="66.04" width="0.1524" layer="91"/>
+<label x="266.7" y="66.04" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="PC7"/>
+</segment>
+</net>
+<net name="BLDC_STBY" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PC8"/>
+<wire x1="266.7" y1="63.5" x2="269.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="266.7" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -18997,7 +19025,7 @@ test case</text>
 <pinref part="R309" gate="R" pin="1"/>
 </segment>
 </net>
-<net name="PA1/CURR_FDB_BLDC" class="0">
+<net name="BLDC_CURR_FDB" class="0">
 <segment>
 <wire x1="111.76" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <label x="99.06" y="63.5" size="1.778" layer="95" rot="MR0" xref="yes"/>
@@ -19059,7 +19087,7 @@ test case</text>
 <pinref part="R314" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="STBY/RESET_BLDC" class="0">
+<net name="BLDC_STBY" class="0">
 <segment>
 <wire x1="132.08" y1="215.9" x2="132.08" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
@@ -19075,34 +19103,7 @@ test case</text>
 <pinref part="C304" gate="CE" pin="2"/>
 </segment>
 </net>
-<net name="PA8/INUH/PWM_MAG" class="0">
-<segment>
-<label x="99.06" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U300" gate="G$1" pin="INUH"/>
-<wire x1="142.24" y1="190.5" x2="121.92" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="190.5" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="167.64" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PA7/INUL" class="0">
-<segment>
-<label x="99.06" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U300" gate="G$1" pin="INUL"/>
-<wire x1="142.24" y1="185.42" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="185.42" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PA9/INVH/DIR_MAG" class="0">
-<segment>
-<label x="99.06" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U300" gate="G$1" pin="INVH"/>
-<wire x1="142.24" y1="180.34" x2="127" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="127" y1="180.34" x2="127" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="127" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PA10/INWH" class="0">
+<net name="BLDC_INWH" class="0">
 <segment>
 <label x="99.06" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U300" gate="G$1" pin="INWH"/>
@@ -19111,32 +19112,14 @@ test case</text>
 <wire x1="132.08" y1="147.32" x2="99.06" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PB1/INWL" class="0">
-<segment>
-<label x="99.06" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U300" gate="G$1" pin="INWL"/>
-<wire x1="142.24" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="165.1" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PB0/INVL" class="0">
-<segment>
-<label x="99.06" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U300" gate="G$1" pin="INVL"/>
-<wire x1="142.24" y1="175.26" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="175.26" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PB6/EN_BLDC" class="0">
+<net name="BLDC_EN" class="0">
 <segment>
 <wire x1="93.98" y1="195.58" x2="86.36" y2="195.58" width="0.1524" layer="91"/>
 <label x="86.36" y="195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R302" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="PA4/FAULT_BLDC" class="0">
+<net name="BLDC_FAULT" class="0">
 <segment>
 <wire x1="109.22" y1="200.66" x2="86.36" y2="200.66" width="0.1524" layer="91"/>
 <label x="86.36" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -19149,21 +19132,21 @@ test case</text>
 <pinref part="R302" gate="R" pin="1"/>
 </segment>
 </net>
-<net name="PA5/SPI1_SCK" class="0">
+<net name="SPI1_SCK" class="0">
 <segment>
 <wire x1="322.58" y1="104.14" x2="299.72" y2="104.14" width="0.1524" layer="91"/>
 <label x="299.72" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U302" gate="G$1" pin="SCLK"/>
 </segment>
 </net>
-<net name="PB4/SPI1_MISO" class="0">
+<net name="SPI1_MISO" class="0">
 <segment>
 <wire x1="322.58" y1="99.06" x2="299.72" y2="99.06" width="0.1524" layer="91"/>
 <label x="299.72" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U302" gate="G$1" pin="MISO"/>
 </segment>
 </net>
-<net name="PA6/SPI1_NSS" class="0">
+<net name="SPI1_NSS" class="0">
 <segment>
 <wire x1="322.58" y1="109.22" x2="299.72" y2="109.22" width="0.1524" layer="91"/>
 <label x="299.72" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -19216,6 +19199,51 @@ test case</text>
 <pinref part="R303" gate="R" pin="2"/>
 <pinref part="SUPPLY12" gate="G$1" pin="V_BATT"/>
 <wire x1="187.96" y1="228.6" x2="187.96" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BLDC_INUH" class="0">
+<segment>
+<label x="99.06" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U300" gate="G$1" pin="INUH"/>
+<wire x1="142.24" y1="190.5" x2="121.92" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="190.5" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="167.64" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BLDC_INUL" class="0">
+<segment>
+<label x="99.06" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U300" gate="G$1" pin="INUL"/>
+<wire x1="142.24" y1="185.42" x2="124.46" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="185.42" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BLDC_INVH" class="0">
+<segment>
+<label x="99.06" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U300" gate="G$1" pin="INVH"/>
+<wire x1="142.24" y1="180.34" x2="127" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="127" y1="180.34" x2="127" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="127" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BLDC_INVL" class="0">
+<segment>
+<label x="99.06" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U300" gate="G$1" pin="INVL"/>
+<wire x1="142.24" y1="175.26" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="175.26" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="152.4" x2="99.06" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BLDC_INWL" class="0">
+<segment>
+<label x="99.06" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U300" gate="G$1" pin="INWL"/>
+<wire x1="142.24" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="165.1" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -19657,7 +19685,7 @@ pin to 0.50V.</text>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
-<net name="STBY/RESET_MAG" class="0">
+<net name="MAG_STBY" class="0">
 <segment>
 <wire x1="189.23" y1="228.6" x2="177.8" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="228.6" x2="152.4" y2="228.6" width="0.1524" layer="91"/>
@@ -19674,7 +19702,7 @@ pin to 0.50V.</text>
 <junction x="177.8" y="228.6"/>
 </segment>
 </net>
-<net name="PB7/FAULT_MAG" class="0">
+<net name="MAG_FAULT" class="0">
 <segment>
 <wire x1="158.75" y1="215.9" x2="163.83" y2="215.9" width="0.1524" layer="91"/>
 <junction x="163.83" y="215.9"/>
@@ -19690,7 +19718,7 @@ pin to 0.50V.</text>
 <wire x1="163.83" y1="214.48" x2="163.83" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PB3/EN_MAG" class="0">
+<net name="MAG_EN" class="0">
 <segment>
 <wire x1="148.59" y1="215.9" x2="146.05" y2="215.9" width="0.1524" layer="91"/>
 <label x="146.05" y="215.9" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -19704,7 +19732,7 @@ pin to 0.50V.</text>
 <pinref part="R405" gate="R" pin="1"/>
 </segment>
 </net>
-<net name="PA8/INUH/PWM_MAG" class="0">
+<net name="MAG_PWM" class="0">
 <segment>
 <wire x1="184.15" y1="195.58" x2="157.48" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="195.58" x2="157.48" y2="185.42" width="0.1524" layer="91"/>
@@ -19766,7 +19794,7 @@ pin to 0.50V.</text>
 <junction x="171.45" y="154.94"/>
 </segment>
 </net>
-<net name="PA9/INVH/DIR_MAG" class="0">
+<net name="MAG_DIR" class="0">
 <segment>
 <wire x1="195.58" y1="200.66" x2="146.05" y2="200.66" width="0.1524" layer="91"/>
 <label x="146.05" y="200.66" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -19850,7 +19878,7 @@ pin to 0.50V.</text>
 <pinref part="R419" gate="R" pin="2"/>
 </segment>
 </net>
-<net name="PA0/CURR_FDB_MAG" class="0">
+<net name="MAG_CURR_FDB" class="0">
 <segment>
 <wire x1="147.32" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="142.24" y="63.5" size="1.778" layer="95" rot="MR0" xref="yes"/>
@@ -19893,12 +19921,6 @@ pin to 0.50V.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,299.72,119.38,X101,SHIELD,GND,,,"/>
-<approved hash="104,1,116.84,124.46,U101,VCC,3.3V,,,"/>
-<approved hash="104,1,243.84,137.16,U100,VDD,3.3V,,,"/>
-<approved hash="104,1,236.22,137.16,U100,VDDA,3.3V,,,"/>
-<approved hash="104,1,236.22,86.36,U100,VSS,GND,,,"/>
-<approved hash="104,1,228.6,137.16,U100,VDDIO2,3.3V,,,"/>
 <approved hash="104,3,233.68,220.98,U400,VS,N$8,,,"/>
 <approved hash="104,2,187.96,200.66,U300,VS,N$7,,,"/>
 <approved hash="104,2,345.44,114.3,U302,VDD3V,3.3V,,,"/>
@@ -19907,28 +19929,20 @@ pin to 0.50V.</text>
 <approved hash="104,1,217.17,224.79,U200,VIN,TPS-VIN,,,"/>
 <approved hash="104,1,242.57,224.79,U200,VOUT,3.3V,,,"/>
 <approved hash="104,1,232.41,189.23,U200,PGND,GND,,,"/>
-<approved hash="209,1,129.54,106.68,CAN_SHDN,,,,,"/>
-<approved hash="209,1,152.4,106.68,CAN_SHDN,,,,,"/>
 <approved hash="206,3,254,210.82,OUT1,,,,,"/>
 <approved hash="206,3,254,195.58,OUT1,,,,,"/>
 <approved hash="206,3,254,205.74,OUT2,,,,,"/>
 <approved hash="206,3,254,190.5,OUT2,,,,,"/>
-<approved hash="106,1,256.54,99.06,PB5,,,,,"/>
 <approved hash="206,2,187.96,190.5,SENSE_BLDC,,,,,"/>
 <approved hash="206,2,187.96,175.26,SENSE_BLDC,,,,,"/>
 <approved hash="206,3,254,185.42,SENSE_MAG,,,,,"/>
 <approved hash="206,3,254,200.66,SENSE_MAG,,,,,"/>
-<approved hash="209,2,142.24,200.66,STBY/RESET_BLDC,,,,,"/>
-<approved hash="209,2,88.9,215.9,STBY/RESET_BLDC,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,1,150.453,66.1077,JP103,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME3,,,,,"/>
 <approved hash="113,3,326.627,211.046,JP401,,,,,"/>
 <approved hash="113,2,386.317,98.0161,JP302,,,,,"/>
 <approved hash="113,2,238.997,194.536,JP301,,,,,"/>
-<approved hash="113,1,83.5829,124.686,JP1,,,,,"/>
-<approved hash="113,1,83.5829,110.716,JP102,,,,,"/>
 </errors>
 </schematic>
 </drawing>
