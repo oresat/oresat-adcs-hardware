@@ -82,6 +82,12 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="yes"/>
 <layer number="100" name="TODO" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="pDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="labels" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="hints" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="clearance1" color="18" fill="10" visible="yes" active="yes"/>
+<layer number="140" name="Testjig_Mill" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="FRAME" color="28" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -17084,6 +17090,34 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="oresat-supplies">
+<packages>
+</packages>
+<symbols>
+<symbol name="VBUS">
+<description>VBUS supply</description>
+<wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="0.254" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="VBUS" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VBUS" prefix="VBUS">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="VBUS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17205,90 +17239,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="U300" library="U-ST-STSPIN230-BLDC-controller" deviceset="STSPIN230" device=""/>
 <part name="JP401" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U302" library="U-AMS-AS5047P-encoder" deviceset="AS5047P" device=""/>
-<part name="C203" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10u">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
-</part>
-<part name="L201" library="L-Coilcraft-XFL4020" deviceset="L-COILCRAFT-XFL4020" device="" value="1.5 uH">
-<attribute name="DIS" value="Mouser"/>
-<attribute name="DPN" value="994-XFL4020-152MEB"/>
-<attribute name="MFR" value="Coilcraft"/>
-<attribute name="MPN" value="XFL4020-152ME"/>
-</part>
-<part name="R202" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
-</part>
-<part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="R201" library="rcl_custom" deviceset="R-US_" device="0805-B-NOSILK" value="0">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="RHM0.0ARCT-ND"/>
-<attribute name="MFR" value="Rohm"/>
-<attribute name="MPN" value="MCR10EZPJ000"/>
-</part>
-<part name="U200" library="ic-pwr-tps63070x" deviceset="TPS63070X" device="" value="TPS63070"/>
-<part name="C204" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
-</part>
-<part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="R205" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="470k">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
-</part>
-<part name="R206" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="150k">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
-</part>
-<part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="R204" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
-</part>
-<part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="R207" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="NP">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
-</part>
-<part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="C201" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u"/>
-<part name="C202" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u"/>
-<part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="C205" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="22u">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
-</part>
-<part name="C206" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u"/>
-<part name="C207" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u"/>
-<part name="GND49" library="supply1" deviceset="GND" device=""/>
-<part name="R203" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="NP">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
-</part>
-<part name="GND58" library="supply1" deviceset="GND" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="C305" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="10n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
@@ -17530,11 +17480,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="R303" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="0"/>
 <part name="R403" library="oresat-rcl" deviceset="R-US_" device="0805-B-NOSILK" value="0"/>
 <part name="BOOT" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
-<part name="3.3V" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
-<part name="PG" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
-<part name="FB2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
-<part name="VSEL" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
-<part name="EN" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="TP15SQ" package3d_urn="urn:adsk.eagle:package:27975/1"/>
 <part name="JP301" library="pinhead-2" deviceset="PINHD-1X03" device="_2.00"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device=""/>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
@@ -17577,6 +17522,83 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="C1" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="L1" library="L-Coilcraft-XFL4020" deviceset="L-COILCRAFT-XFL4020" device="" value="1.5 uH">
+<attribute name="DIS" value="Mouser"/>
+<attribute name="DPN" value="994-XFL4020-152MEB"/>
+<attribute name="MFR" value="Coilcraft"/>
+<attribute name="MPN" value="XFL4020-152ME"/>
+</part>
+<part name="R1" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="GND63" library="supply1" deviceset="GND" device=""/>
+<part name="GND64" library="supply1" deviceset="GND" device=""/>
+<part name="GND65" library="supply1" deviceset="GND" device=""/>
+<part name="GND66" library="supply1" deviceset="GND" device=""/>
+<part name="GND67" library="supply1" deviceset="GND" device=""/>
+<part name="U2" library="ic-pwr-tps63070x" deviceset="TPS63070X" device="" value="TPS63070">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="296-44874-1-ND"/>
+<attribute name="MFR" value="TI"/>
+<attribute name="MPN" value="TPS63070"/>
+</part>
+<part name="C2" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="GND68" library="supply1" deviceset="GND" device=""/>
+<part name="R2" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="470k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="R3" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="150k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="GND69" library="supply1" deviceset="GND" device=""/>
+<part name="R4" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="GND70" library="supply1" deviceset="GND" device=""/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="C3" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u"/>
+<part name="C7" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="10u"/>
+<part name="GND71" library="supply1" deviceset="GND" device=""/>
+<part name="C9" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="22u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="CL05B104KO5NNNC"/>
+</part>
+<part name="C10" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u"/>
+<part name="C11" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="22u"/>
+<part name="GND72" library="supply1" deviceset="GND" device=""/>
+<part name="R6" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="NP">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="GND73" library="supply1" deviceset="GND" device=""/>
+<part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17598,18 +17620,17 @@ mode. Leave CAN_SHDN
  disconnected.</text>
 <text x="22.86" y="156.21" size="1.778" layer="100">TBD: CONNECTOR TO 
 ORESAT ACS CARD</text>
-<text x="187.96" y="212.09" size="1.778" layer="97">0603</text>
-<text x="168.91" y="232.41" size="1.778" layer="97" rot="R90">0805</text>
-<text x="166.37" y="212.09" size="1.778" layer="97">0805</text>
-<text x="175.26" y="212.09" size="1.778" layer="97">0805</text>
-<text x="271.78" y="212.09" size="1.778" layer="97">0603</text>
-<text x="283.21" y="212.09" size="1.778" layer="97">0805</text>
-<text x="293.37" y="212.09" size="1.778" layer="97">0805</text>
 <wire x1="128.27" y1="254" x2="308.61" y2="254" width="0.1524" layer="97"/>
 <wire x1="308.61" y1="254" x2="308.61" y2="176.53" width="0.1524" layer="97"/>
 <wire x1="308.61" y1="176.53" x2="128.27" y2="176.53" width="0.1524" layer="97"/>
 <wire x1="128.27" y1="176.53" x2="128.27" y2="254" width="0.1524" layer="97"/>
 <text x="220.98" y="250.19" size="2.54" layer="97">3.3V SPS</text>
+<text x="177.8" y="218.44" size="1.778" layer="97">0603</text>
+<text x="156.21" y="218.44" size="1.778" layer="97">0805</text>
+<text x="165.1" y="218.44" size="1.778" layer="97">0805</text>
+<text x="264.16" y="218.44" size="1.778" layer="97">0603</text>
+<text x="275.59" y="218.44" size="1.778" layer="97">0805</text>
+<text x="285.75" y="218.44" size="1.778" layer="97">0805</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -17739,153 +17760,6 @@ ORESAT ACS CARD</text>
 <instance part="GND3" gate="1" x="63.5" y="167.64" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="66.04" y="165.1" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C203" gate="CE" x="186.69" y="219.71" smashed="yes">
-<attribute name="DIS" x="186.69" y="219.71" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="186.69" y="219.71" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="186.69" y="219.71" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="186.69" y="219.71" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="187.96" y="219.71" size="1.778" layer="95"/>
-<attribute name="VALUE" x="187.96" y="214.63" size="1.778" layer="96"/>
-</instance>
-<instance part="L201" gate="G$1" x="229.87" y="232.41" smashed="yes" rot="R90">
-<attribute name="DIS" x="229.87" y="232.41" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="229.87" y="232.41" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="229.87" y="232.41" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="229.87" y="232.41" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="224.79" y="234.95" size="1.778" layer="95"/>
-<attribute name="VALUE" x="231.14" y="234.95" size="1.778" layer="96"/>
-</instance>
-<instance part="R202" gate="R" x="198.12" y="218.44" smashed="yes" rot="R90">
-<attribute name="DIS" x="198.12" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="198.12" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="198.12" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="198.12" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="196.6214" y="214.63" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="201.422" y="214.63" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND9" gate="1" x="229.87" y="181.61" smashed="yes">
-<attribute name="VALUE" x="227.33" y="179.07" size="1.778" layer="96"/>
-</instance>
-<instance part="GND10" gate="1" x="186.69" y="209.55" smashed="yes">
-<attribute name="VALUE" x="184.15" y="207.01" size="1.778" layer="96"/>
-</instance>
-<instance part="GND11" gate="1" x="270.51" y="209.55" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="273.05" y="207.01" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="GND20" gate="1" x="281.94" y="209.55" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="284.48" y="207.01" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="GND23" gate="1" x="165.1" y="209.55" smashed="yes">
-<attribute name="VALUE" x="162.56" y="207.01" size="1.778" layer="96"/>
-</instance>
-<instance part="R201" gate="R" x="165.1" y="232.41" smashed="yes" rot="R90">
-<attribute name="NAME" x="163.6014" y="229.87" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="168.91" y="229.87" size="1.778" layer="96" rot="R90"/>
-<attribute name="DIS" x="165.1" y="232.41" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="165.1" y="232.41" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="165.1" y="232.41" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="165.1" y="232.41" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
-<instance part="U200" gate="G$1" x="229.87" y="212.09" smashed="yes">
-<attribute name="NAME" x="237.49" y="186.69" size="1.778" layer="95"/>
-<attribute name="VALUE" x="237.49" y="184.15" size="1.778" layer="96"/>
-</instance>
-<instance part="C204" gate="CE" x="208.28" y="196.85" smashed="yes" rot="MR0">
-<attribute name="DIS" x="208.28" y="196.85" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="DPN" x="208.28" y="196.85" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MFR" x="208.28" y="196.85" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="208.28" y="196.85" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="NAME" x="206.756" y="197.231" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="206.756" y="192.151" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="GND27" gate="1" x="208.28" y="186.69" smashed="yes">
-<attribute name="VALUE" x="205.74" y="184.15" size="1.778" layer="96"/>
-</instance>
-<instance part="R205" gate="R" x="261.62" y="218.44" smashed="yes" rot="R90">
-<attribute name="DIS" x="261.62" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="261.62" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="261.62" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="261.62" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="260.1214" y="217.17" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="264.922" y="217.17" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R206" gate="R" x="261.62" y="205.74" smashed="yes" rot="R90">
-<attribute name="DIS" x="261.62" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="261.62" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="261.62" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="261.62" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="260.1214" y="201.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="264.922" y="201.93" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND28" gate="1" x="261.62" y="198.12" smashed="yes">
-<attribute name="VALUE" x="259.08" y="195.58" size="1.778" layer="96"/>
-</instance>
-<instance part="R204" gate="R" x="214.63" y="194.31" smashed="yes" rot="R90">
-<attribute name="DIS" x="214.63" y="194.31" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="214.63" y="194.31" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="214.63" y="194.31" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="214.63" y="194.31" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="213.1314" y="190.5" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="217.932" y="190.5" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND30" gate="1" x="214.63" y="186.69" smashed="yes">
-<attribute name="VALUE" x="212.09" y="184.15" size="1.778" layer="96"/>
-</instance>
-<instance part="R207" gate="R" x="247.65" y="219.71" smashed="yes" rot="R90">
-<attribute name="DIS" x="247.65" y="219.71" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="247.65" y="219.71" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="247.65" y="219.71" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="247.65" y="219.71" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="246.1514" y="215.9" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="250.952" y="218.44" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY3" gate="G$1" x="292.1" y="227.33" smashed="yes">
-<attribute name="VALUE" x="292.1" y="230.124" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="C201" gate="CE" x="165.1" y="219.71" smashed="yes">
-<attribute name="NAME" x="166.37" y="219.71" size="1.778" layer="95"/>
-<attribute name="VALUE" x="166.37" y="214.63" size="1.778" layer="96"/>
-</instance>
-<instance part="C202" gate="CE" x="173.99" y="219.71" smashed="yes">
-<attribute name="NAME" x="175.26" y="219.71" size="1.778" layer="95"/>
-<attribute name="VALUE" x="175.26" y="214.63" size="1.778" layer="96"/>
-</instance>
-<instance part="GND48" gate="1" x="173.99" y="209.55" smashed="yes">
-<attribute name="VALUE" x="171.45" y="207.01" size="1.778" layer="96"/>
-</instance>
-<instance part="C205" gate="CE" x="270.51" y="219.71" smashed="yes">
-<attribute name="DIS" x="270.51" y="219.71" size="1.778" layer="96" display="off"/>
-<attribute name="DPN" x="270.51" y="219.71" size="1.778" layer="96" display="off"/>
-<attribute name="MFR" x="270.51" y="219.71" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="270.51" y="219.71" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="271.78" y="219.71" size="1.778" layer="95"/>
-<attribute name="VALUE" x="271.78" y="214.63" size="1.778" layer="96"/>
-</instance>
-<instance part="C206" gate="CE" x="281.94" y="219.71" smashed="yes">
-<attribute name="NAME" x="283.21" y="219.71" size="1.778" layer="95"/>
-<attribute name="VALUE" x="283.21" y="214.63" size="1.778" layer="96"/>
-</instance>
-<instance part="C207" gate="CE" x="292.1" y="219.71" smashed="yes">
-<attribute name="NAME" x="293.37" y="219.71" size="1.778" layer="95"/>
-<attribute name="VALUE" x="293.37" y="214.63" size="1.778" layer="96"/>
-</instance>
-<instance part="GND49" gate="1" x="292.1" y="209.55" smashed="yes">
-<attribute name="VALUE" x="289.56" y="207.01" size="1.778" layer="96"/>
-</instance>
-<instance part="R203" gate="R" x="198.12" y="205.74" smashed="yes" rot="R90">
-<attribute name="DIS" x="198.12" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="198.12" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="198.12" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="198.12" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="196.6214" y="201.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="201.422" y="201.93" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND58" gate="1" x="198.12" y="196.85" smashed="yes">
-<attribute name="VALUE" x="195.58" y="194.31" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY10" gate="G$1" x="165.1" y="238.76" smashed="yes">
-<attribute name="VALUE" x="165.1" y="241.554" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="J1" gate="J" x="149.86" y="83.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="156.21" y="102.235" size="1.778" layer="95" rot="MR0"/>
 </instance>
@@ -17898,26 +17772,6 @@ ORESAT ACS CARD</text>
 <instance part="BOOT" gate="G$1" x="218.44" y="106.68" smashed="yes">
 <attribute name="NAME" x="219.71" y="105.41" size="1.778" layer="95"/>
 <attribute name="TP_SIGNAL_NAME" x="219.71" y="105.41" size="1.778" layer="97"/>
-</instance>
-<instance part="3.3V" gate="G$1" x="297.18" y="228.6" smashed="yes">
-<attribute name="NAME" x="298.45" y="227.33" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="298.45" y="227.33" size="1.778" layer="97"/>
-</instance>
-<instance part="PG" gate="G$1" x="249.936" y="215.9" smashed="yes">
-<attribute name="NAME" x="251.206" y="214.63" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="251.206" y="214.63" size="1.778" layer="97"/>
-</instance>
-<instance part="FB2" gate="G$1" x="246.38" y="205.74" smashed="yes">
-<attribute name="NAME" x="247.65" y="204.47" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="247.65" y="204.47" size="1.778" layer="97"/>
-</instance>
-<instance part="VSEL" gate="G$1" x="213.36" y="203.2" smashed="yes">
-<attribute name="NAME" x="212.09" y="204.47" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="214.63" y="201.93" size="1.778" layer="97"/>
-</instance>
-<instance part="EN" gate="G$1" x="210.82" y="215.9" smashed="yes">
-<attribute name="NAME" x="212.09" y="214.63" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="212.09" y="214.63" size="1.778" layer="97"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="121.92" y="119.38" smashed="yes">
 <attribute name="VALUE" x="121.92" y="122.174" size="1.778" layer="96" align="bottom-center"/>
@@ -17942,6 +17796,141 @@ ORESAT ACS CARD</text>
 <attribute name="MPN" x="210.82" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="210.566" y="115.189" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="213.614" y="115.189" size="1.778" layer="96"/>
+</instance>
+<instance part="C1" gate="CE" x="176.53" y="226.06" smashed="yes">
+<attribute name="DIS" x="176.53" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="176.53" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="176.53" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="176.53" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="177.8" y="226.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.8" y="220.98" size="1.778" layer="96"/>
+</instance>
+<instance part="L1" gate="G$1" x="219.71" y="238.76" smashed="yes" rot="R90">
+<attribute name="DIS" x="219.71" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="219.71" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="219.71" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="219.71" y="238.76" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="214.63" y="241.3" size="1.778" layer="95"/>
+<attribute name="VALUE" x="220.98" y="241.3" size="1.778" layer="96"/>
+</instance>
+<instance part="R1" gate="R" x="187.96" y="224.79" smashed="yes" rot="R90">
+<attribute name="DIS" x="187.96" y="224.79" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="187.96" y="224.79" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="187.96" y="224.79" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="187.96" y="224.79" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="186.4614" y="220.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="220.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND63" gate="1" x="219.71" y="187.96" smashed="yes">
+<attribute name="VALUE" x="217.17" y="185.42" size="1.778" layer="96"/>
+</instance>
+<instance part="GND64" gate="1" x="176.53" y="215.9" smashed="yes">
+<attribute name="VALUE" x="173.99" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="GND65" gate="1" x="262.89" y="215.9" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="265.43" y="213.36" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND66" gate="1" x="274.32" y="215.9" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="276.86" y="213.36" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND67" gate="1" x="154.94" y="215.9" smashed="yes">
+<attribute name="VALUE" x="152.4" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="U2" gate="G$1" x="219.71" y="218.44" smashed="yes">
+<attribute name="DIS" x="219.71" y="218.44" size="2.54" layer="96" display="off"/>
+<attribute name="DPN" x="219.71" y="218.44" size="2.54" layer="96" display="off"/>
+<attribute name="MFR" x="219.71" y="218.44" size="2.54" layer="96" display="off"/>
+<attribute name="MPN" x="219.71" y="218.44" size="2.54" layer="96" display="off"/>
+<attribute name="NAME" x="227.33" y="193.04" size="1.778" layer="95"/>
+<attribute name="VALUE" x="227.33" y="190.5" size="1.778" layer="96"/>
+</instance>
+<instance part="C2" gate="CE" x="198.12" y="203.2" smashed="yes" rot="MR0">
+<attribute name="DIS" x="198.12" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="198.12" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="198.12" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="198.12" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="NAME" x="196.596" y="203.581" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="196.596" y="198.501" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND68" gate="1" x="198.12" y="193.04" smashed="yes">
+<attribute name="VALUE" x="195.58" y="190.5" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="R" x="246.38" y="224.79" smashed="yes" rot="R90">
+<attribute name="DIS" x="246.38" y="224.79" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="246.38" y="224.79" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="246.38" y="224.79" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="246.38" y="224.79" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="244.8814" y="220.98" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="249.682" y="220.98" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R3" gate="R" x="246.38" y="212.09" smashed="yes" rot="R90">
+<attribute name="DIS" x="246.38" y="212.09" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="246.38" y="212.09" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="246.38" y="212.09" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="246.38" y="212.09" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="244.8814" y="208.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="249.682" y="208.28" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND69" gate="1" x="246.38" y="204.47" smashed="yes">
+<attribute name="VALUE" x="243.84" y="201.93" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="R" x="204.47" y="200.66" smashed="yes" rot="R90">
+<attribute name="DIS" x="204.47" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="204.47" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="204.47" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="204.47" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="202.9714" y="196.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="207.772" y="196.85" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND70" gate="1" x="204.47" y="193.04" smashed="yes">
+<attribute name="VALUE" x="201.93" y="190.5" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="284.48" y="233.68" smashed="yes">
+<attribute name="VALUE" x="284.48" y="236.474" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="C3" gate="CE" x="154.94" y="226.06" smashed="yes">
+<attribute name="NAME" x="156.21" y="226.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.21" y="220.98" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="CE" x="163.83" y="226.06" smashed="yes">
+<attribute name="NAME" x="165.1" y="226.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="165.1" y="220.98" size="1.778" layer="96"/>
+</instance>
+<instance part="GND71" gate="1" x="163.83" y="215.9" smashed="yes">
+<attribute name="VALUE" x="161.29" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="C9" gate="CE" x="262.89" y="226.06" smashed="yes">
+<attribute name="DIS" x="262.89" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="262.89" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="262.89" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="262.89" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="264.16" y="226.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="264.16" y="220.98" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="CE" x="274.32" y="226.06" smashed="yes">
+<attribute name="NAME" x="275.59" y="226.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="275.59" y="220.98" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="CE" x="284.48" y="226.06" smashed="yes">
+<attribute name="NAME" x="285.75" y="226.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="285.75" y="220.98" size="1.778" layer="96"/>
+</instance>
+<instance part="GND72" gate="1" x="284.48" y="215.9" smashed="yes">
+<attribute name="VALUE" x="281.94" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="R6" gate="R" x="187.96" y="212.09" smashed="yes" rot="R90">
+<attribute name="DIS" x="187.96" y="212.09" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="187.96" y="212.09" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="187.96" y="212.09" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="187.96" y="212.09" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="186.4614" y="208.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="191.262" y="208.28" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND73" gate="1" x="187.96" y="203.2" smashed="yes">
+<attribute name="VALUE" x="185.42" y="200.66" size="1.778" layer="96"/>
+</instance>
+<instance part="VBUS1" gate="1" x="154.94" y="236.22" smashed="yes">
+<attribute name="VALUE" x="154.94" y="236.474" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -17997,65 +17986,6 @@ ORESAT ACS CARD</text>
 <pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C203" gate="CE" pin="2"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="186.69" y1="212.09" x2="186.69" y2="214.63" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="270.51" y1="214.63" x2="270.51" y2="212.09" width="0.1524" layer="91"/>
-<pinref part="C205" gate="CE" pin="2"/>
-</segment>
-<segment>
-<pinref part="U200" gate="G$1" pin="GND"/>
-<wire x1="227.33" y1="189.23" x2="227.33" y2="186.69" width="0.1524" layer="91"/>
-<pinref part="U200" gate="G$1" pin="PGND"/>
-<wire x1="227.33" y1="186.69" x2="229.87" y2="186.69" width="0.1524" layer="91"/>
-<wire x1="229.87" y1="186.69" x2="232.41" y2="186.69" width="0.1524" layer="91"/>
-<wire x1="232.41" y1="186.69" x2="232.41" y2="189.23" width="0.1524" layer="91"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="229.87" y1="184.15" x2="229.87" y2="186.69" width="0.1524" layer="91"/>
-<junction x="229.87" y="186.69"/>
-</segment>
-<segment>
-<pinref part="C204" gate="CE" pin="2"/>
-<pinref part="GND27" gate="1" pin="GND"/>
-<wire x1="208.28" y1="189.23" x2="208.28" y2="191.77" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R206" gate="R" pin="1"/>
-<pinref part="GND28" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="R204" gate="R" pin="1"/>
-<pinref part="GND30" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND23" gate="1" pin="GND"/>
-<pinref part="C201" gate="CE" pin="2"/>
-<wire x1="165.1" y1="214.63" x2="165.1" y2="212.09" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C202" gate="CE" pin="2"/>
-<wire x1="173.99" y1="214.63" x2="173.99" y2="212.09" width="0.1524" layer="91"/>
-<pinref part="GND48" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND49" gate="1" pin="GND"/>
-<pinref part="C207" gate="CE" pin="2"/>
-<wire x1="292.1" y1="212.09" x2="292.1" y2="214.63" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="C206" gate="CE" pin="2"/>
-<wire x1="281.94" y1="212.09" x2="281.94" y2="214.63" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R203" gate="R" pin="1"/>
-<pinref part="GND58" gate="1" pin="GND"/>
-<wire x1="198.12" y1="199.39" x2="198.12" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J1" gate="J" pin="GND"/>
 <wire x1="157.48" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="93.98" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
@@ -18078,6 +18008,65 @@ ORESAT ACS CARD</text>
 <pinref part="C104" gate="CE" pin="1"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C1" gate="CE" pin="2"/>
+<pinref part="GND64" gate="1" pin="GND"/>
+<wire x1="176.53" y1="218.44" x2="176.53" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND65" gate="1" pin="GND"/>
+<wire x1="262.89" y1="220.98" x2="262.89" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="C9" gate="CE" pin="2"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="217.17" y1="195.58" x2="217.17" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="PGND"/>
+<wire x1="217.17" y1="193.04" x2="219.71" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="219.71" y1="193.04" x2="222.25" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="222.25" y1="193.04" x2="222.25" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="GND63" gate="1" pin="GND"/>
+<wire x1="219.71" y1="190.5" x2="219.71" y2="193.04" width="0.1524" layer="91"/>
+<junction x="219.71" y="193.04"/>
+</segment>
+<segment>
+<pinref part="C2" gate="CE" pin="2"/>
+<pinref part="GND68" gate="1" pin="GND"/>
+<wire x1="198.12" y1="195.58" x2="198.12" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND67" gate="1" pin="GND"/>
+<pinref part="C3" gate="CE" pin="2"/>
+<wire x1="154.94" y1="220.98" x2="154.94" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="CE" pin="2"/>
+<wire x1="163.83" y1="220.98" x2="163.83" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="GND71" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND72" gate="1" pin="GND"/>
+<pinref part="C11" gate="CE" pin="2"/>
+<wire x1="284.48" y1="218.44" x2="284.48" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND66" gate="1" pin="GND"/>
+<pinref part="C10" gate="CE" pin="2"/>
+<wire x1="274.32" y1="218.44" x2="274.32" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R6" gate="R" pin="1"/>
+<pinref part="GND73" gate="1" pin="GND"/>
+<wire x1="187.96" y1="205.74" x2="187.96" y2="207.01" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND69" gate="1" pin="GND"/>
+<pinref part="R3" gate="R" pin="1"/>
+</segment>
+<segment>
+<pinref part="GND70" gate="1" pin="GND"/>
+<pinref part="R4" gate="R" pin="1"/>
+</segment>
 </net>
 <net name="CAN_TX" class="0">
 <segment>
@@ -18098,35 +18087,6 @@ ORESAT ACS CARD</text>
 <wire x1="109.22" y1="76.2" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
 <junction x="109.22" y="88.9"/>
 <wire x1="109.22" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="270.51" y1="224.79" x2="270.51" y2="222.25" width="0.1524" layer="91"/>
-<junction x="270.51" y="224.79"/>
-<label x="261.62" y="227.33" size="1.778" layer="95"/>
-<wire x1="292.1" y1="224.79" x2="281.94" y2="224.79" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="224.79" x2="270.51" y2="224.79" width="0.1524" layer="91"/>
-<pinref part="U200" gate="G$1" pin="VOUT"/>
-<wire x1="242.57" y1="224.79" x2="247.65" y2="224.79" width="0.1524" layer="91"/>
-<pinref part="R205" gate="R" pin="2"/>
-<wire x1="247.65" y1="224.79" x2="261.62" y2="224.79" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="224.79" x2="270.51" y2="224.79" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="223.52" x2="261.62" y2="224.79" width="0.1524" layer="91"/>
-<junction x="261.62" y="224.79"/>
-<pinref part="C205" gate="CE" pin="1"/>
-<pinref part="C206" gate="CE" pin="1"/>
-<wire x1="281.94" y1="222.25" x2="281.94" y2="224.79" width="0.1524" layer="91"/>
-<junction x="281.94" y="224.79"/>
-<pinref part="C207" gate="CE" pin="1"/>
-<wire x1="292.1" y1="222.25" x2="292.1" y2="224.79" width="0.1524" layer="91"/>
-<junction x="292.1" y="224.79"/>
-<pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
-<wire x1="292.1" y1="227.33" x2="292.1" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="R207" gate="R" pin="2"/>
-<junction x="247.65" y="224.79"/>
-<pinref part="3.3V" gate="G$1" pin="TP"/>
-<wire x1="292.1" y1="226.06" x2="292.1" y2="224.79" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="226.06" x2="292.1" y2="226.06" width="0.1524" layer="91"/>
-<junction x="292.1" y="226.06"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
@@ -18164,6 +18124,28 @@ ORESAT ACS CARD</text>
 <wire x1="185.42" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="144.78" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
 <junction x="185.42" y="144.78"/>
+</segment>
+<segment>
+<wire x1="262.89" y1="231.14" x2="262.89" y2="228.6" width="0.1524" layer="91"/>
+<junction x="262.89" y="231.14"/>
+<label x="246.38" y="233.68" size="1.778" layer="95"/>
+<wire x1="284.48" y1="231.14" x2="274.32" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="231.14" x2="262.89" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VOUT"/>
+<wire x1="232.41" y1="231.14" x2="246.38" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="R2" gate="R" pin="2"/>
+<wire x1="246.38" y1="231.14" x2="262.89" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="229.87" x2="246.38" y2="231.14" width="0.1524" layer="91"/>
+<junction x="246.38" y="231.14"/>
+<pinref part="C9" gate="CE" pin="1"/>
+<pinref part="C10" gate="CE" pin="1"/>
+<wire x1="274.32" y1="228.6" x2="274.32" y2="231.14" width="0.1524" layer="91"/>
+<junction x="274.32" y="231.14"/>
+<pinref part="C11" gate="CE" pin="1"/>
+<wire x1="284.48" y1="228.6" x2="284.48" y2="231.14" width="0.1524" layer="91"/>
+<junction x="284.48" y="231.14"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+<wire x1="284.48" y1="233.68" x2="284.48" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -18263,11 +18245,6 @@ ORESAT ACS CARD</text>
 <pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R201" gate="R" pin="2"/>
-<pinref part="SUPPLY10" gate="G$1" pin="V_BATT"/>
-<wire x1="165.1" y1="237.49" x2="165.1" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP103" gate="G$1" pin="VCC"/>
 <wire x1="119.38" y1="111.76" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="111.76" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
@@ -18304,117 +18281,6 @@ ORESAT ACS CARD</text>
 <wire x1="87.63" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <label x="86.36" y="54.61" size="1.778" layer="95"/>
 <pinref part="JP102" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="TPS-EN" class="0">
-<segment>
-<pinref part="U200" gate="G$1" pin="EN"/>
-<pinref part="U200" gate="G$1" pin="PS/SYNC"/>
-<wire x1="217.17" y1="214.63" x2="217.17" y2="212.09" width="0.1524" layer="91"/>
-<pinref part="EN" gate="G$1" pin="TP"/>
-<wire x1="217.17" y1="212.09" x2="210.82" y2="212.09" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="212.09" x2="210.82" y2="213.36" width="0.1524" layer="91"/>
-<junction x="217.17" y="212.09"/>
-<pinref part="R202" gate="R" pin="1"/>
-<pinref part="R203" gate="R" pin="2"/>
-<wire x1="198.12" y1="210.82" x2="198.12" y2="212.09" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="212.09" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="212.09" x2="198.12" y2="212.09" width="0.1524" layer="91"/>
-<junction x="210.82" y="212.09"/>
-<junction x="198.12" y="212.09"/>
-</segment>
-</net>
-<net name="TPS-VIN" class="0">
-<segment>
-<pinref part="R201" gate="R" pin="1"/>
-<junction x="165.1" y="224.79"/>
-<pinref part="C203" gate="CE" pin="1"/>
-<wire x1="186.69" y1="224.79" x2="186.69" y2="222.25" width="0.1524" layer="91"/>
-<junction x="186.69" y="224.79"/>
-<wire x1="186.69" y1="224.79" x2="173.99" y2="224.79" width="0.1524" layer="91"/>
-<wire x1="173.99" y1="224.79" x2="165.1" y2="224.79" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="224.79" x2="165.1" y2="222.25" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="227.33" x2="165.1" y2="224.79" width="0.1524" layer="91"/>
-<pinref part="C201" gate="CE" pin="1"/>
-<pinref part="C202" gate="CE" pin="1"/>
-<wire x1="173.99" y1="222.25" x2="173.99" y2="224.79" width="0.1524" layer="91"/>
-<junction x="173.99" y="224.79"/>
-<pinref part="R202" gate="R" pin="2"/>
-<wire x1="198.12" y1="224.79" x2="198.12" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="224.79" x2="217.17" y2="224.79" width="0.1524" layer="91"/>
-<pinref part="U200" gate="G$1" pin="VIN"/>
-<wire x1="186.69" y1="224.79" x2="198.12" y2="224.79" width="0.1524" layer="91"/>
-<junction x="198.12" y="224.79"/>
-</segment>
-</net>
-<net name="TPS-VAUX" class="0">
-<segment>
-<pinref part="U200" gate="G$1" pin="VAUX"/>
-<wire x1="217.17" y1="207.01" x2="208.28" y2="207.01" width="0.1524" layer="91"/>
-<pinref part="C204" gate="CE" pin="1"/>
-<wire x1="208.28" y1="207.01" x2="208.28" y2="199.39" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TPS-FB" class="0">
-<segment>
-<pinref part="R205" gate="R" pin="1"/>
-<pinref part="R206" gate="R" pin="2"/>
-<wire x1="261.62" y1="213.36" x2="261.62" y2="212.09" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="212.09" x2="261.62" y2="210.82" width="0.1524" layer="91"/>
-<junction x="261.62" y="212.09"/>
-<pinref part="U200" gate="G$1" pin="FB"/>
-<wire x1="261.62" y1="212.09" x2="242.57" y2="212.09" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="212.09" x2="242.57" y2="214.63" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TPS-PG" class="0">
-<segment>
-<pinref part="U200" gate="G$1" pin="PG"/>
-<pinref part="R207" gate="R" pin="1"/>
-<wire x1="247.65" y1="214.63" x2="247.65" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="247.65" y1="213.36" x2="247.65" y2="209.55" width="0.1524" layer="91"/>
-<wire x1="247.65" y1="209.55" x2="242.57" y2="209.55" width="0.1524" layer="91"/>
-<pinref part="PG" gate="G$1" pin="TP"/>
-<wire x1="249.936" y1="213.36" x2="247.65" y2="213.36" width="0.1524" layer="91"/>
-<junction x="247.65" y="213.36"/>
-</segment>
-</net>
-<net name="TPS-L1" class="0">
-<segment>
-<pinref part="U200" gate="G$1" pin="L1"/>
-<wire x1="217.17" y1="227.33" x2="215.9" y2="227.33" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="227.33" x2="215.9" y2="232.41" width="0.1524" layer="91"/>
-<pinref part="L201" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="232.41" x2="222.25" y2="232.41" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TPS-L2" class="0">
-<segment>
-<pinref part="U200" gate="G$1" pin="L2"/>
-<wire x1="242.57" y1="227.33" x2="245.11" y2="227.33" width="0.1524" layer="91"/>
-<wire x1="245.11" y1="227.33" x2="245.11" y2="232.41" width="0.1524" layer="91"/>
-<pinref part="L201" gate="G$1" pin="2"/>
-<wire x1="245.11" y1="232.41" x2="237.49" y2="232.41" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TSP-VSEL" class="0">
-<segment>
-<pinref part="VSEL" gate="G$1" pin="TP"/>
-<pinref part="R204" gate="R" pin="2"/>
-<wire x1="213.36" y1="200.66" x2="214.63" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="214.63" y1="200.66" x2="214.63" y2="199.39" width="0.1524" layer="91"/>
-<pinref part="U200" gate="G$1" pin="VSEL"/>
-<wire x1="214.63" y1="200.66" x2="214.63" y2="201.93" width="0.1524" layer="91"/>
-<wire x1="214.63" y1="201.93" x2="217.17" y2="201.93" width="0.1524" layer="91"/>
-<junction x="214.63" y="200.66"/>
-</segment>
-</net>
-<net name="TSP-FB2" class="0">
-<segment>
-<pinref part="U200" gate="G$1" pin="FB2"/>
-<pinref part="FB2" gate="G$1" pin="TP"/>
-<wire x1="242.57" y1="201.93" x2="246.38" y2="201.93" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="201.93" x2="246.38" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_SILENT" class="0">
@@ -18570,6 +18436,90 @@ ORESAT ACS CARD</text>
 <pinref part="U$1" gate="G$1" pin="PC8"/>
 <wire x1="266.7" y1="63.5" x2="269.24" y2="63.5" width="0.1524" layer="91"/>
 <label x="266.7" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<junction x="154.94" y="231.14"/>
+<pinref part="C1" gate="CE" pin="1"/>
+<wire x1="176.53" y1="231.14" x2="176.53" y2="228.6" width="0.1524" layer="91"/>
+<junction x="176.53" y="231.14"/>
+<wire x1="176.53" y1="231.14" x2="163.83" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="163.83" y1="231.14" x2="154.94" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="231.14" x2="154.94" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="233.68" x2="154.94" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="C3" gate="CE" pin="1"/>
+<pinref part="C7" gate="CE" pin="1"/>
+<wire x1="163.83" y1="228.6" x2="163.83" y2="231.14" width="0.1524" layer="91"/>
+<junction x="163.83" y="231.14"/>
+<pinref part="R1" gate="R" pin="2"/>
+<wire x1="187.96" y1="231.14" x2="187.96" y2="229.87" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="231.14" x2="207.01" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="176.53" y1="231.14" x2="187.96" y2="231.14" width="0.1524" layer="91"/>
+<junction x="187.96" y="231.14"/>
+<pinref part="VBUS1" gate="1" pin="VBUS"/>
+</segment>
+</net>
+<net name="TPS-EN2" class="0">
+<segment>
+<pinref part="R1" gate="R" pin="1"/>
+<wire x1="187.96" y1="219.71" x2="187.96" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="EN"/>
+<pinref part="U2" gate="G$1" pin="PS/SYNC"/>
+<wire x1="207.01" y1="220.98" x2="207.01" y2="218.44" width="0.1524" layer="91"/>
+<junction x="207.01" y="218.44"/>
+<wire x1="207.01" y1="218.44" x2="187.96" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="R6" gate="R" pin="2"/>
+<wire x1="187.96" y1="217.17" x2="187.96" y2="218.44" width="0.1524" layer="91"/>
+<junction x="187.96" y="218.44"/>
+</segment>
+</net>
+<net name="TPS-VAUX2" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VAUX"/>
+<wire x1="207.01" y1="213.36" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="C2" gate="CE" pin="1"/>
+<wire x1="198.12" y1="213.36" x2="198.12" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TPS-FB2" class="0">
+<segment>
+<pinref part="R2" gate="R" pin="1"/>
+<pinref part="R3" gate="R" pin="2"/>
+<wire x1="246.38" y1="219.71" x2="246.38" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="218.44" x2="246.38" y2="217.17" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="218.44" x2="240.03" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="240.03" y1="218.44" x2="240.03" y2="220.98" width="0.1524" layer="91"/>
+<junction x="246.38" y="218.44"/>
+<pinref part="U2" gate="G$1" pin="FB"/>
+<wire x1="240.03" y1="220.98" x2="232.41" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TPS-VSEL2" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VSEL"/>
+<wire x1="207.01" y1="208.28" x2="204.47" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="R4" gate="R" pin="2"/>
+<wire x1="204.47" y1="205.74" x2="204.47" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TPS-L5" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="L1"/>
+<wire x1="207.01" y1="233.68" x2="205.74" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="233.68" x2="205.74" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="238.76" x2="212.09" y2="238.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TPS-L6" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="L2"/>
+<wire x1="232.41" y1="233.68" x2="234.95" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="233.68" x2="234.95" y2="238.76" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<wire x1="234.95" y1="238.76" x2="227.33" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
