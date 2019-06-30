@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
@@ -32,31 +32,31 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -80,13 +80,13 @@
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
-<layer number="100" name="TODO" color="12" fill="1" visible="no" active="yes"/>
-<layer number="102" name="pDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="100" name="TODO" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="pDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="110" name="labels" color="7" fill="1" visible="no" active="no"/>
-<layer number="112" name="hints" color="4" fill="1" visible="no" active="yes"/>
-<layer number="128" name="clearance1" color="18" fill="10" visible="no" active="yes"/>
-<layer number="140" name="Testjig_Mill" color="26" fill="1" visible="no" active="yes"/>
-<layer number="204" name="FRAME" color="28" fill="1" visible="no" active="yes"/>
+<layer number="112" name="hints" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="clearance1" color="18" fill="10" visible="yes" active="yes"/>
+<layer number="140" name="Testjig_Mill" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="FRAME" color="28" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -3129,32 +3129,32 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="15.6" y="11.64" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="13.7" y="11.64" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C301" library="oresat-rcl" package=".0603-B-NOSILK" value="22u" x="12.06" y="20.28" smashed="yes" rot="MR180">
-<attribute name="DIS" value="Digi-Key" x="27.3" y="58.38" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="27.3" y="58.38" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MFR" value="Samsung" x="27.3" y="58.38" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="27.3" y="58.38" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="12.06" y="20.28" size="0.3" layer="34" ratio="15" rot="MR180" align="center"/>
-<attribute name="NAME" x="10.86" y="19.48" size="0.8" layer="26" font="vector" ratio="15" rot="MR180"/>
-<attribute name="VALUE" x="10.86" y="21.88" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
+<element name="C301" library="oresat-rcl" package=".0603-B-NOSILK" value="22u" x="13.39" y="18.2" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="51.49" y="2.96" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="51.49" y="2.96" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Samsung" x="51.49" y="2.96" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="51.49" y="2.96" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="13.39" y="18.2" size="0.3" layer="34" ratio="15" rot="MR270" align="center"/>
+<attribute name="NAME" x="12.59" y="19.4" size="0.8" layer="26" font="vector" ratio="15" rot="MR270"/>
+<attribute name="VALUE" x="14.99" y="19.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
-<element name="C302" library="oresat-rcl" package=".0603-B-NOSILK" value="22u" x="12.06" y="21.78" smashed="yes" rot="MR180">
-<attribute name="DIS" value="Digi-Key" x="31.11" y="59.88" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="31.11" y="59.88" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MFR" value="Samsung" x="31.11" y="59.88" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="31.11" y="59.88" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="12.06" y="21.78" size="0.3" layer="34" ratio="15" rot="MR180" align="center"/>
-<attribute name="NAME" x="10.86" y="20.98" size="0.8" layer="26" font="vector" ratio="15" rot="MR180"/>
-<attribute name="VALUE" x="10.86" y="23.38" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
+<element name="C302" library="oresat-rcl" package=".0603-B-NOSILK" value="22u" x="11.88" y="18.2" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="49.98" y="-0.85" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="49.98" y="-0.85" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Samsung" x="49.98" y="-0.85" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="49.98" y="-0.85" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="11.88" y="18.2" size="0.3" layer="34" ratio="15" rot="MR270" align="center"/>
+<attribute name="NAME" x="11.08" y="19.4" size="0.8" layer="26" font="vector" ratio="15" rot="MR270"/>
+<attribute name="VALUE" x="13.48" y="19.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
-<element name="C303" library="oresat-rcl" package=".0603-B-NOSILK" value="2.2u" x="12.06" y="23.28" smashed="yes" rot="MR180">
-<attribute name="DIS" value="Digi-Key" x="34.92" y="61.38" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="34.92" y="61.38" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MFR" value="Samsung" x="34.92" y="61.38" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="34.92" y="61.38" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="12.06" y="23.28" size="0.3" layer="34" ratio="15" rot="MR180" align="center"/>
-<attribute name="NAME" x="10.86" y="22.48" size="0.8" layer="26" font="vector" ratio="15" rot="MR180"/>
-<attribute name="VALUE" x="10.86" y="24.88" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
+<element name="C303" library="oresat-rcl" package=".0603-B-NOSILK" value="2.2u" x="10.37" y="18.2" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="48.47" y="-4.66" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="48.47" y="-4.66" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Samsung" x="48.47" y="-4.66" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="48.47" y="-4.66" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="10.37" y="18.2" size="0.3" layer="34" ratio="15" rot="MR270" align="center"/>
+<attribute name="NAME" x="9.57" y="19.4" size="0.8" layer="26" font="vector" ratio="15" rot="MR270"/>
+<attribute name="VALUE" x="11.97" y="19.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="C305" library="rcl_custom" package=".0402-B-NOSILK" value="10n" x="21.07" y="16.68" smashed="yes" rot="R270">
 <attribute name="DIS" value="Digi-Key" x="-33.54" y="-25.23" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3936,16 +3936,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="4" y="29.5"/>
 <vertex x="3" y="29.5" curve="90"/>
 </polygon>
-<polygon width="0.254" layer="2" rank="6">
-<vertex x="42" y="20"/>
-<vertex x="42" y="3" curve="90"/>
-<vertex x="45" y="0"/>
-<vertex x="54" y="0" curve="90"/>
-<vertex x="57" y="3"/>
-<vertex x="57" y="20" curve="90"/>
-<vertex x="54" y="23"/>
-<vertex x="45" y="23" curve="90"/>
-</polygon>
 <via x="34.91" y="18.75" extent="1-16" drill="0.254"/>
 <via x="13" y="24.54" extent="1-16" drill="0.254"/>
 <via x="12" y="24.54" extent="1-16" drill="0.254"/>
@@ -3984,7 +3974,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="18.72" y="16.25" extent="1-16" drill="0.254"/>
 <via x="17.94" y="13.85" extent="1-16" drill="0.254"/>
 <via x="15" y="15" extent="1-16" drill="0.254"/>
-<via x="11" y="18" extent="1-16" drill="0.254"/>
 <via x="6" y="21" extent="1-16" drill="0.254"/>
 <via x="6" y="23" extent="1-16" drill="0.254"/>
 <via x="6" y="25" extent="1-16" drill="0.254"/>
@@ -3994,8 +3983,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="10" y="27" extent="1-16" drill="0.254"/>
 <via x="30" y="2" extent="1-16" drill="0.254"/>
 <via x="26" y="2" extent="1-16" drill="0.254"/>
-<via x="12.6" y="19.15" extent="1-16" drill="0.254"/>
-<via x="13.3" y="19.15" extent="1-16" drill="0.254"/>
 <wire x1="24.625" y1="15.25" x2="23.64" y2="15.25" width="0.254" layer="1"/>
 <wire x1="23.64" y1="15.25" x2="23.62" y2="15.23" width="0.254" layer="1"/>
 <via x="23.62" y="15.23" extent="1-16" drill="0.254"/>
@@ -4017,6 +4004,33 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="21.61" y="0.8" extent="1-16" drill="0.254"/>
 <via x="19.37" y="4.52" extent="1-16" drill="0.254"/>
 <via x="16.91" y="21.54" extent="1-16" drill="0.254"/>
+<via x="11.25" y="21.29" extent="1-16" drill="0.254"/>
+<via x="12.25" y="21.29" extent="1-16" drill="0.254"/>
+<via x="12.26" y="22.3" extent="1-16" drill="0.254"/>
+<via x="11.24" y="22.29" extent="1-16" drill="0.254"/>
+<via x="21.86" y="7.8" extent="1-16" drill="0.254"/>
+<via x="21.85" y="6.8" extent="1-16" drill="0.254"/>
+<via x="25.89" y="20.13" extent="1-16" drill="0.254"/>
+<via x="27.3" y="20.13" extent="1-16" drill="0.254"/>
+<via x="28.72" y="20.11" extent="1-16" drill="0.254"/>
+<via x="30.11" y="20.11" extent="1-16" drill="0.254"/>
+<via x="30.15" y="18.69" extent="1-16" drill="0.254"/>
+<via x="28.69" y="18.67" extent="1-16" drill="0.254"/>
+<via x="27.33" y="18.66" extent="1-16" drill="0.254"/>
+<via x="25.84" y="18.65" extent="1-16" drill="0.254"/>
+<via x="25.86" y="17.33" extent="1-16" drill="0.254"/>
+<via x="27.32" y="17.33" extent="1-16" drill="0.254"/>
+<via x="28.66" y="17.35" extent="1-16" drill="0.254"/>
+<via x="30.15" y="17.34" extent="1-16" drill="0.254"/>
+<via x="30.13" y="15.96" extent="1-16" drill="0.254"/>
+<via x="28.65" y="16.37" extent="1-16" drill="0.254"/>
+<via x="27.32" y="16.38" extent="1-16" drill="0.254"/>
+<via x="25.84" y="16.38" extent="1-16" drill="0.254"/>
+<via x="10.08" y="16.4" extent="1-16" drill="0.254"/>
+<via x="10.95" y="16.36" extent="1-16" drill="0.254"/>
+<via x="11.89" y="16.36" extent="1-16" drill="0.254"/>
+<via x="12.83" y="16.36" extent="1-16" drill="0.254"/>
+<via x="13.73" y="16.36" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="CAN_TX">
 <contactref element="U101" pad="1"/>
@@ -4133,14 +4147,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.65" y1="25.97" x2="20.65" y2="25.17" width="0.254" layer="1"/>
 <via x="20.65" y="25.17" extent="1-16" drill="0.254"/>
 <polygon width="0.254" layer="15" rank="6">
-<vertex x="42" y="20"/>
-<vertex x="42" y="3" curve="90"/>
-<vertex x="45" y="0"/>
-<vertex x="49.77" y="0"/>
-<vertex x="49.77" y="23"/>
-<vertex x="45" y="23" curve="90"/>
-</polygon>
-<polygon width="0.254" layer="15" rank="6">
 <vertex x="40" y="22.84"/>
 <vertex x="29.53" y="22.84"/>
 <vertex x="26.79" y="25.58"/>
@@ -4173,10 +4179,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C100" pad="7"/>
 <wire x1="15.535" y1="6.61" x2="15.535" y2="5.31381875" width="0.254" layer="1"/>
 <wire x1="16.66" y1="4.18881875" x2="16.66" y2="1.42" width="0.254" layer="1"/>
-<wire x1="15.535" y1="5.31381875" x2="16.554" y2="4.29481875" width="0.254" layer="1"/>
-<wire x1="16.554" y1="4.29481875" x2="16.554" y2="4.296" width="0.254" layer="1"/>
+<wire x1="15.535" y1="5.31381875" x2="16.66" y2="4.18881875" width="0.254" layer="1"/>
 <wire x1="16.66" y1="1.42" x2="17.16" y2="1.42" width="0.254" layer="1"/>
-<wire x1="16.66" y1="4.18881875" x2="16.554" y2="4.29481875" width="0.254" layer="1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="U100" pad="34"/>
@@ -4763,14 +4767,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="18.61" y="7.29"/>
 <vertex x="18.5" y="7.4"/>
 </polygon>
-<polygon width="0.254" layer="15" rank="6">
-<vertex x="54" y="23"/>
-<vertex x="50.2" y="23"/>
-<vertex x="50.2" y="0"/>
-<vertex x="54" y="0" curve="90"/>
-<vertex x="57" y="3"/>
-<vertex x="57" y="20" curve="90"/>
-</polygon>
 <polygon width="0.254" layer="15">
 <vertex x="3" y="0" curve="-90"/>
 <vertex x="0" y="3"/>
@@ -4809,26 +4805,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="40" y="3" curve="-90"/>
 <vertex x="37" y="0"/>
 </polygon>
-<polygon width="0.254" layer="16" thermals="no">
-<vertex x="8.9" y="21.84"/>
-<vertex x="10.3" y="21.84"/>
-<vertex x="10.79" y="21.35"/>
-<vertex x="10.79" y="19.95"/>
-<vertex x="10.94" y="19.8"/>
-<vertex x="11.55" y="19.8"/>
-<vertex x="11.71" y="19.96"/>
-<vertex x="11.71" y="23.61"/>
-<vertex x="11.54" y="23.78"/>
-<vertex x="10.92" y="23.78"/>
-<vertex x="10.82" y="23.68"/>
-<vertex x="10.81" y="23.67"/>
-<vertex x="10.81" y="23.01"/>
-<vertex x="10.56" y="22.76"/>
-<vertex x="9.81" y="22.76"/>
-<vertex x="9.17" y="22.76"/>
-<vertex x="9.04" y="22.63"/>
-<vertex x="8.9" y="22.49"/>
-</polygon>
 <polygon width="0.254" layer="16">
 <vertex x="3.58" y="12.32"/>
 <vertex x="3.58" y="9.74"/>
@@ -4865,6 +4841,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.67" y1="1.42" x2="14.66" y2="1.42" width="0.254" layer="1"/>
 <wire x1="15.42" y1="3.57" x2="15.16" y2="3.57" width="0.254" layer="1"/>
 <wire x1="15.16" y1="3.57" x2="15.16" y2="1.42" width="0.254" layer="1"/>
+<wire x1="10.37" y1="19" x2="11.88" y2="19" width="0.6" layer="16"/>
+<wire x1="11.88" y1="19" x2="13.39" y2="19" width="0.6" layer="16"/>
+<wire x1="10.37" y1="19" x2="9" y2="19" width="0.6" layer="16"/>
+<via x="8.46" y="19" extent="1-16" drill="0.254"/>
+<wire x1="9" y1="19" x2="8.46" y2="19" width="0.6" layer="16"/>
+<via x="9" y="19" extent="1-16" drill="0.254"/>
+<via x="9.53" y="19.01" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="TPS-EN2">
 <contactref element="R201" pad="1"/>
@@ -5104,13 +5087,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="21,19,79587ed87cdd7cda"/>
-<approved hash="21,19,fb14051400e80096"/>
-<approved hash="21,19,18031affe4fc18fd"/>
-<approved hash="21,19,ca8e368bc88bcd77"/>
-<approved hash="21,19,ff4f0150fd52fab4"/>
-<approved hash="21,19,64199818661863e0"/>
-<approved hash="21,19,68dc6a2094236822"/>
+<approved hash="19,1,f24bf233d23bd243"/>
+<approved hash="19,1,b8cdbffc4bf44cc5"/>
+<approved hash="19,1,d3c8d2a2c8aac9c0"/>
+<approved hash="19,1,eecae9fcc9f4cec2"/>
+<approved hash="19,1,9341965f4a574f49"/>
+<approved hash="19,1,53c95554435c45c1"/>
+<approved hash="19,1,f74bf792cd9acd43"/>
+<approved hash="19,1,e748e79ad992d940"/>
+<approved hash="19,1,a9c8a8254c2d4dc0"/>
+<approved hash="19,1,135c125954515554"/>
+<approved hash="19,1,9b4b9b5141594143"/>
+<approved hash="19,1,1f401f5159595948"/>
+<approved hash="19,1,93cc92e348eb49c4"/>
+<approved hash="19,1,ecc9ede2c9eac8c1"/>
+<approved hash="19,1,faccfbdfcbd7cac4"/>
+<approved hash="19,1,50545499dc91d85c"/>
+<approved hash="19,1,4e4d4e32c63ac645"/>
+<approved hash="19,1,544e575ccd54ce46"/>
+<approved hash="19,1,2b4b285c4c544f43"/>
+<approved hash="19,1,b049b3157b1d7841"/>
+<approved hash="19,1,2d4b2e154c1d4f43"/>
+<approved hash="19,1,504855bb43b34640"/>
 </errors>
 </board>
 </drawing>
