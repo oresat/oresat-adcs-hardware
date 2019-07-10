@@ -1,7 +1,7 @@
 # Overview
 # Block Diagram
 ACS Level 2 Block Diagram Version 3.2
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/ACS%20level%202%20block%20diagram%203.2.png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/ACS%20level%202%20block%20diagram%203.2.png)
 
 | **System Block** | **Hardware Chosen and Reasons Why** |
 | :---           | :---                          |
@@ -17,19 +17,19 @@ ACS Level 2 Block Diagram Version 3.2
 # Schematic
 Rev1.1:
 * The “flatsat” version that we manufactured and tested.
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%201).PNG)
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%202).PNG)
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%203).PNG)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%201).PNG)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%202).PNG)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev1.1%20(page%203).PNG)
 
 Rev2:
 * Minor changes. Rev2 was never manufactured. Skip and go reference Rev3.
  
 Rev3:
 * Rev3 was manufactured and tested.
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%201).PNG)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%201).PNG)
 **Note:** R206 must be changed from 100kΩ to 150kΩ.
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%202).PNG)
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%203).PNG)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%202).PNG)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Board%20Schematic%20PDFs%20%26%20images/Schematic%20rev3%20(page%203).PNG)
 
 # Board Layout
 * The design of the board layout was a significant hardware challenge due to the physical space constraints in the cubesat. Our entire system needed to fit within a volume of 10x10x4 cm. Our system needs to drive four BLDC motors and three magnetorquers. Additionally, each motor needs an encoder positioned right next to it in line with the motor’s axle. 
@@ -38,42 +38,42 @@ Rev3:
 
 **REV1:** <br/>The goal of REV1 was to make a very compact board as a prototype so that we could get a good idea of how much area our board will take up. REV1 ended up with an area of 42x43mm. We passed this information onto the structure team so they could start prototyping how to fit everything into the cubesat frame.
 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller%20(rev1)%20(top).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller%20(rev1)%20(top).png)
 _Rev1: Top_
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller%20(rev1)%20(bottom).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller%20(rev1)%20(bottom).png)
 _Rev1: Bottom_
 
 **Rev1.1:** <br/>The goal of REV1.1 was to test all the hardware components and prove that they would work when all integrated together. REV1 was manufactured and assembled. All the hardware worked as expected with only minor design errors discovered.
 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev1.1(flat)%20(top).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller_rev1.1(flat)%20(top).png)
 _Rev1.1: Top_
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev1.1(flat)%20(bottom).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller_rev1.1(flat)%20(bottom).png)
 _Rev1.1: Bottom_
 
 **Rev2:** <br/>The goal of REV2 was to get a head start on developing better packing geometries that utilized both top and bottom layers for component placement. Upon reviewing the design for developing a mechanical mount, it was determined that with how effectivly the space was used, size should be deprioritized in favor of how it was to be mounted. This layout was then abandoned due to the amount of modification necisary for the mounting system that was developed shortly after.
 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev1.1(flat)%20(top).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller_rev2%20(top).png)
 _Rev2: Top_
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev1.1(flat)%20(bottom).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller_rev2%20(bottom).png)
 _Rev2: Bottom_
 
 **Rev3:** <br/>We received input from the structural team which informed us that we need to redesign the shape of the board and change the locations where thermal contacts occurs. The total area of REV3 came out to be a very small 38x35mm. 
 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev3%20(top).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller_rev3%20(top).png)
 _Rev3: Top_
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/controller_rev3%20(bottom).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller_rev3%20(bottom).png)
 _Rev3: Bottom_ 
 
 CAD photos for satellite mounting: 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(3).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(3).png)
 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(4).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(4).png)
 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(2).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(2).png)
 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(8).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(8).png)
 
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(9).png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(9).png)
 
 # Board Stuffing SoP
 
