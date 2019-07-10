@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
@@ -305,16 +305,16 @@ Example device(s):
 <library name="oresat-ACS_driver_board">
 <packages>
 <package name="DEBUG_CON">
-<pad name="1" x="0" y="8" drill="1" shape="square"/>
-<pad name="2" x="0" y="6" drill="1"/>
-<pad name="3" x="0" y="4" drill="1"/>
-<pad name="4" x="0" y="2" drill="1"/>
-<pad name="5" x="0" y="0" drill="1"/>
-<pad name="6" x="0" y="-2" drill="1"/>
-<pad name="7" x="0" y="-4" drill="1"/>
-<pad name="8" x="0" y="-6" drill="1"/>
-<pad name="9" x="0" y="-8" drill="1"/>
-<pad name="10" x="0" y="-10" drill="1"/>
+<pad name="VBUS" x="0" y="8" drill="1" shape="square"/>
+<pad name="3.3V" x="0" y="6" drill="1"/>
+<pad name="QUAD_B" x="0" y="4" drill="1"/>
+<pad name="QUAD_A" x="0" y="2" drill="1"/>
+<pad name="UART_RX" x="0" y="0" drill="1"/>
+<pad name="UART_TX" x="0" y="-2" drill="1"/>
+<pad name="NRST" x="0" y="-4" drill="1"/>
+<pad name="SWDIO" x="0" y="-6" drill="1"/>
+<pad name="SWCLK" x="0" y="-8" drill="1"/>
+<pad name="GND" x="0" y="-10" drill="1"/>
 <wire x1="1.27" y1="-11.303" x2="-1.27" y2="-11.303" width="0.1" layer="21"/>
 <wire x1="-1.27" y1="-11.303" x2="-1.27" y2="9.144" width="0.1" layer="21"/>
 <wire x1="-1.27" y1="9.144" x2="1.27" y2="9.144" width="0.1" layer="21"/>
@@ -524,7 +524,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J2" pad="P$6"/>
 <contactref element="SWD" pad="GND@2"/>
 <contactref element="SWD" pad="GND"/>
-<contactref element="U$1" pad="10"/>
+<contactref element="U$1" pad="GND"/>
 <polygon width="0.254" layer="16" rank="6">
 <vertex x="3" y="0" curve="-90"/>
 <vertex x="0" y="3"/>
@@ -553,7 +553,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="SWCLK">
 <contactref element="SWD" pad="SWDCLK"/>
-<contactref element="U$1" pad="9"/>
+<contactref element="U$1" pad="SWCLK"/>
 <wire x1="10.4" y1="4.605" x2="10.4" y2="4.4" width="0.4" layer="1"/>
 <wire x1="5.415" y1="9.59" x2="5.7286" y2="9.2764" width="0.4" layer="1"/>
 <wire x1="5.7286" y1="9.2764" x2="7.01915625" y2="9.2764" width="0.4" layer="1"/>
@@ -563,7 +563,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="SWDIO">
 <contactref element="SWD" pad="SWDIO"/>
-<contactref element="U$1" pad="8"/>
+<contactref element="U$1" pad="SWDIO"/>
 <wire x1="9.875" y1="6.4" x2="10.4" y2="6.4" width="0.4" layer="1"/>
 <wire x1="5.415" y1="10.86" x2="5.7286" y2="10.5464" width="0.4" layer="1"/>
 <wire x1="5.7286" y1="10.5464" x2="7.01915625" y2="10.5464" width="0.4" layer="1"/>
@@ -572,37 +572,37 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="8.1318" y1="9.43375625" x2="8.1318" y2="8.1432" width="0.4" layer="1"/>
 </signal>
 <signal name="NRST">
-<contactref element="U$1" pad="7"/>
+<contactref element="U$1" pad="NRST"/>
 <contactref element="SWD" pad="!RESET"/>
 <wire x1="5.415" y1="5.78" x2="7.78" y2="5.78" width="0.4" layer="16"/>
 <wire x1="7.78" y1="5.78" x2="10.4" y2="8.4" width="0.4" layer="16"/>
 </signal>
 <signal name="USART_RX">
 <contactref element="J2" pad="P$3"/>
-<contactref element="U$1" pad="5"/>
+<contactref element="U$1" pad="UART_RX"/>
 <wire x1="15.02" y1="9.86" x2="12.48" y2="12.4" width="0.4" layer="1"/>
 <wire x1="12.48" y1="12.4" x2="10.4" y2="12.4" width="0.4" layer="1"/>
 </signal>
 <signal name="USART_TX">
 <contactref element="J2" pad="P$2"/>
-<contactref element="U$1" pad="6"/>
+<contactref element="U$1" pad="UART_TX"/>
 <wire x1="15.02" y1="7.32" x2="11.94" y2="10.4" width="0.4" layer="1"/>
 <wire x1="11.94" y1="10.4" x2="10.4" y2="10.4" width="0.4" layer="1"/>
 </signal>
 <signal name="QUAD_B">
 <contactref element="QUAD" pad="2"/>
-<contactref element="U$1" pad="3"/>
+<contactref element="U$1" pad="QUAD_B"/>
 <wire x1="4.78" y1="20.02" x2="6.78" y2="20.02" width="0.6" layer="1"/>
 <wire x1="6.78" y1="20.02" x2="10.4" y2="16.4" width="0.6" layer="1"/>
 </signal>
 <signal name="QUAD_A">
 <contactref element="QUAD" pad="1"/>
-<contactref element="U$1" pad="4"/>
+<contactref element="U$1" pad="QUAD_A"/>
 <wire x1="4.78" y1="17.48" x2="7.32" y2="17.48" width="0.6" layer="1"/>
 <wire x1="7.32" y1="17.48" x2="10.4" y2="14.4" width="0.6" layer="1"/>
 </signal>
 <signal name="VBUS">
-<contactref element="U$1" pad="1"/>
+<contactref element="U$1" pad="VBUS"/>
 <contactref element="J2" pad="P$4"/>
 <wire x1="10.4" y1="20.4" x2="11.6" y2="20.4" width="0.6" layer="16"/>
 <wire x1="13" y1="19" x2="13" y2="14" width="0.6" layer="16"/>
@@ -611,7 +611,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.6" y1="20.4" x2="13" y2="19" width="0.6" layer="16"/>
 </signal>
 <signal name="3.3V">
-<contactref element="U$1" pad="2"/>
+<contactref element="U$1" pad="3.3V"/>
 <contactref element="SWD" pad="VTREF"/>
 <wire x1="4.145" y1="10.86" x2="4.145" y2="12.145" width="0.6" layer="16"/>
 <wire x1="4.145" y1="12.145" x2="10.4" y2="18.4" width="0.6" layer="16"/>

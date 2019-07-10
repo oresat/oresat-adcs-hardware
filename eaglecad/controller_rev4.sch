@@ -15814,16 +15814,16 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-1.7" y1="-1.7" x2="-1.7" y2="-1.4" width="0.127" layer="21"/>
 </package>
 <package name="DEBUG_CON">
-<pad name="1" x="0" y="8" drill="1" shape="square"/>
-<pad name="2" x="0" y="6" drill="1"/>
-<pad name="3" x="0" y="4" drill="1"/>
-<pad name="4" x="0" y="2" drill="1"/>
-<pad name="5" x="0" y="0" drill="1"/>
-<pad name="6" x="0" y="-2" drill="1"/>
-<pad name="7" x="0" y="-4" drill="1"/>
-<pad name="8" x="0" y="-6" drill="1"/>
-<pad name="9" x="0" y="-8" drill="1"/>
-<pad name="10" x="0" y="-10" drill="1"/>
+<pad name="VBUS" x="0" y="8" drill="1" shape="square"/>
+<pad name="3.3V" x="0" y="6" drill="1"/>
+<pad name="QUAD_B" x="0" y="4" drill="1"/>
+<pad name="QUAD_A" x="0" y="2" drill="1"/>
+<pad name="UART_RX" x="0" y="0" drill="1"/>
+<pad name="UART_TX" x="0" y="-2" drill="1"/>
+<pad name="NRST" x="0" y="-4" drill="1"/>
+<pad name="SWDIO" x="0" y="-6" drill="1"/>
+<pad name="SWCLK" x="0" y="-8" drill="1"/>
+<pad name="GND" x="0" y="-10" drill="1"/>
 <wire x1="1.27" y1="-11.303" x2="-1.27" y2="-11.303" width="0.1" layer="21"/>
 <wire x1="-1.27" y1="-11.303" x2="-1.27" y2="9.144" width="0.1" layer="21"/>
 <wire x1="-1.27" y1="9.144" x2="1.27" y2="9.144" width="0.1" layer="21"/>
@@ -15965,26 +15965,27 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="-17.78" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="DEBUG_CON">
-<pin name="1" x="2.54" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="2" x="2.54" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="3" x="2.54" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="4" x="2.54" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="5" x="2.54" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="6" x="2.54" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="7" x="2.54" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="8" x="2.54" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="9" x="2.54" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="10" x="2.54" y="-12.7" visible="pin" length="short" rot="R180"/>
-<wire x1="0" y1="10.16" x2="-2.54" y2="10.16" width="1.27" layer="94"/>
-<wire x1="0" y1="7.62" x2="-2.54" y2="7.62" width="1.27" layer="94"/>
-<wire x1="0" y1="5.08" x2="-2.54" y2="5.08" width="1.27" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="2.54" width="1.27" layer="94"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="1.27" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-2.54" y2="-2.54" width="1.27" layer="94"/>
-<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="1.27" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-2.54" y2="-7.62" width="1.27" layer="94"/>
-<wire x1="0" y1="-10.16" x2="-2.54" y2="-10.16" width="1.27" layer="94"/>
-<wire x1="0" y1="-12.7" x2="-2.54" y2="-12.7" width="1.27" layer="94"/>
+<pin name="1" x="7.62" y="11.43" visible="pad" length="middle" rot="R180"/>
+<pin name="2" x="7.62" y="8.89" visible="pad" length="middle" rot="R180"/>
+<pin name="3" x="7.62" y="6.35" visible="pad" length="middle" rot="R180"/>
+<pin name="4" x="7.62" y="3.81" visible="pad" length="middle" rot="R180"/>
+<pin name="5" x="7.62" y="1.27" visible="pad" length="middle" rot="R180"/>
+<pin name="6" x="7.62" y="-1.27" visible="pad" length="middle" rot="R180"/>
+<pin name="7" x="7.62" y="-3.81" visible="pad" length="middle" rot="R180"/>
+<pin name="8" x="7.62" y="-6.35" visible="pad" length="middle" rot="R180"/>
+<pin name="9" x="7.62" y="-8.89" visible="pad" length="middle" rot="R180"/>
+<pin name="10" x="7.62" y="-11.43" visible="pad" length="middle" rot="R180"/>
+<wire x1="2.54" y1="11.43" x2="0" y2="11.43" width="1.27" layer="94"/>
+<wire x1="2.54" y1="8.89" x2="0" y2="8.89" width="1.27" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="0" y2="6.35" width="1.27" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="0" y2="3.81" width="1.27" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="0" y2="1.27" width="1.27" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="0" y2="-1.27" width="1.27" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="0" y2="-3.81" width="1.27" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="0" y2="-6.35" width="1.27" layer="94"/>
+<wire x1="2.54" y1="-8.89" x2="0" y2="-8.89" width="1.27" layer="94"/>
+<wire x1="2.54" y1="-11.43" x2="0" y2="-11.43" width="1.27" layer="94"/>
+<text x="0" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="LOW-PROFILE_CONNECTOR(TAB)">
 <pin name="1" x="2.54" y="6.35" visible="pad" length="short" rot="R180"/>
@@ -16167,21 +16168,21 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 <deviceset name="DEBUG_CON">
 <gates>
-<gate name="G$1" symbol="DEBUG_CON" x="0" y="0"/>
+<gate name="G$1" symbol="DEBUG_CON" x="2.54" y="1.27"/>
 </gates>
 <devices>
 <device name="" package="DEBUG_CON">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="1" pad="VBUS"/>
+<connect gate="G$1" pin="10" pad="GND"/>
+<connect gate="G$1" pin="2" pad="3.3V"/>
+<connect gate="G$1" pin="3" pad="QUAD_B"/>
+<connect gate="G$1" pin="4" pad="QUAD_A"/>
+<connect gate="G$1" pin="5" pad="UART_RX"/>
+<connect gate="G$1" pin="6" pad="UART_TX"/>
+<connect gate="G$1" pin="7" pad="NRST"/>
+<connect gate="G$1" pin="8" pad="SWDIO"/>
+<connect gate="G$1" pin="9" pad="SWCLK"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16657,7 +16658,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U400" library="oresat-ACS_driver_board" deviceset="STSPIN250" device=""/>
 <part name="U300" library="oresat-ACS_driver_board" deviceset="STSPIN230" device=""/>
-<part name="U$2" library="oresat-ACS_driver_board" deviceset="DEBUG_CON" device=""/>
+<part name="C501" library="oresat-ACS_driver_board" deviceset="DEBUG_CON" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device="" value="VBUS"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
@@ -16680,10 +16681,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="264.16" y="218.44" size="1.778" layer="97">0603</text>
 <text x="275.59" y="218.44" size="1.778" layer="97">0805</text>
 <text x="285.75" y="218.44" size="1.778" layer="97">0805</text>
-<wire x1="86.36" y1="137.16" x2="81.28" y2="137.16" width="0.508" layer="97"/>
-<wire x1="81.28" y1="137.16" x2="81.28" y2="109.22" width="0.508" layer="97"/>
-<wire x1="86.36" y1="109.22" x2="81.28" y2="109.22" width="0.508" layer="97"/>
-<text x="78.74" y="127" size="1.778" layer="97" rot="R180">CONNECTION TO ACS 
+<wire x1="81.28" y1="137.16" x2="76.962" y2="137.16" width="0.508" layer="97"/>
+<wire x1="76.962" y1="137.16" x2="76.962" y2="109.22" width="0.508" layer="97"/>
+<wire x1="81.28" y1="109.22" x2="76.962" y2="109.22" width="0.508" layer="97"/>
+<text x="76.2" y="127.508" size="1.778" layer="97" rot="R180">CONNECTION TO ACS 
 DRIVER PROG. ADDAPTER</text>
 <text x="72.644" y="74.93" size="1.778" layer="97" rot="R180">CONNECTION 
 TO STANDARD
@@ -16696,6 +16697,8 @@ ORESAT CARD</text>
 <wire x1="121.92" y1="50.8" x2="121.92" y2="160.02" width="0.508" layer="97"/>
 <wire x1="121.92" y1="160.02" x2="40.64" y2="160.02" width="0.508" layer="97"/>
 <text x="45.72" y="154.94" size="2.54" layer="97">ASC BOARD CONNECTORS</text>
+<text x="78.74" y="139.7" size="1.778" layer="95">CON501</text>
+<text x="76.2" y="106.68" size="1.778" layer="96">DEBUG CONN</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -16954,19 +16957,19 @@ ORESAT CARD</text>
 <attribute name="NAME" x="281.94" y="139.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="281.94" y="58.42" size="1.778" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="88.9" y="124.46" smashed="yes"/>
+<instance part="C501" gate="G$1" x="80.264" y="123.19" smashed="yes"/>
 <instance part="SUPPLY10" gate="G$1" x="93.98" y="139.7" smashed="yes">
 <attribute name="VALUE" x="93.98" y="142.494" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY13" gate="G$1" x="101.6" y="139.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="101.6" y="142.494" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="GND18" gate="1" x="93.98" y="106.68" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="96.52" y="104.14" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND18" gate="1" x="96.52" y="106.68" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="99.06" y="104.14" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C100" gate="G$1" x="95.504" y="69.85" smashed="yes">
 <attribute name="NAME" x="82.804" y="80.01" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.264" y="59.055" size="1.778" layer="96"/>
+<attribute name="VALUE" x="80.264" y="56.515" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -17080,10 +17083,10 @@ ORESAT CARD</text>
 <wire x1="261.62" y1="121.92" x2="261.62" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="10"/>
+<pinref part="C501" gate="G$1" pin="10"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="91.44" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="111.76" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="87.884" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="111.76" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C100" gate="G$1" pin="6"/>
@@ -17160,9 +17163,9 @@ ORESAT CARD</text>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="C501" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="139.7" x2="101.6" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="132.08" x2="87.884" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -17180,8 +17183,8 @@ ORESAT CARD</text>
 <label x="274.32" y="86.36" size="1.27" layer="255" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="8"/>
-<wire x1="91.44" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C501" gate="G$1" pin="8"/>
+<wire x1="87.884" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
 <label x="96.52" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -17192,8 +17195,8 @@ ORESAT CARD</text>
 <label x="274.32" y="83.82" size="1.27" layer="255" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="9"/>
-<wire x1="91.44" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C501" gate="G$1" pin="9"/>
+<wire x1="87.884" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
 <label x="96.52" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -17497,8 +17500,8 @@ ORESAT CARD</text>
 <label x="274.32" y="93.98" size="1.27" layer="255" rot="MR0" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="6"/>
-<wire x1="91.44" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C501" gate="G$1" pin="6"/>
+<wire x1="87.884" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <label x="96.52" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -17509,8 +17512,8 @@ ORESAT CARD</text>
 <label x="274.32" y="91.44" size="1.27" layer="255" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="5"/>
-<wire x1="91.44" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C501" gate="G$1" pin="5"/>
+<wire x1="87.884" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 <label x="96.52" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -17521,23 +17524,23 @@ ORESAT CARD</text>
 <label x="274.32" y="81.28" size="1.27" layer="255" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="7"/>
-<wire x1="91.44" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C501" gate="G$1" pin="7"/>
+<wire x1="87.884" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="96.52" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="V_BATT"/>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="C501" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="139.7" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="134.62" x2="87.884" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="QUAD_B" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="3"/>
-<wire x1="91.44" y1="129.54" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="C501" gate="G$1" pin="3"/>
+<wire x1="87.884" y1="129.54" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
 <label x="96.52" y="129.54" size="1.27" layer="95" xref="yes"/>
 <probe x="157.48" y="106.68" size="1.778" layer="89" probetype="0"/>
 <probe x="139.7" y="76.2" size="1.778" layer="89" rot="R270" probetype="0"/>
@@ -17545,8 +17548,8 @@ ORESAT CARD</text>
 </net>
 <net name="QUAD_A" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="4"/>
-<wire x1="91.44" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
+<pinref part="C501" gate="G$1" pin="4"/>
+<wire x1="87.884" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
 <label x="96.52" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
