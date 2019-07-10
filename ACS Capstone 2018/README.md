@@ -1,7 +1,7 @@
 # Overview
 # Block Diagram
 ACS Level 2 Block Diagram Version 3.2
-![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20level%202%20block%20diagram%203.2.png)
+![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/ACS%20level%202%20block%20diagram%203.2.png)
 
 | **System Block** | **Hardware Chosen and Reasons Why** |
 | :---           | :---                          |
