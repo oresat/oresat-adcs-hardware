@@ -3684,7 +3684,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="8.419" y="23.562" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C501" library="oresat-ACS_driver_board" package="DEBUG_CON" value="DEBUG_CON" x="38" y="16" smashed="yes"/>
-<element name="C100" library="oresat-ACS_driver_board" package="LOW-PROFILE_CONNECTOR(TAB)" value="CARD CONN" x="17.41" y="0.42" smashed="yes">
+<element name="CON502" library="oresat-ACS_driver_board" package="LOW-PROFILE_CONNECTOR(TAB)" value="CARD CONN" x="17.41" y="0.42" smashed="yes">
 <attribute name="NAME" x="13.66" y="2.67" size="0.3" layer="25"/>
 <attribute name="VALUE" x="13.66" y="-0.08" size="0.3" layer="27"/>
 </element>
@@ -3987,9 +3987,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="26.48" y="22.11" extent="1-16" drill="0.254"/>
 <via x="17.62" y="7.56" extent="1-16" drill="0.254"/>
 <via x="17.02" y="7.56" extent="1-16" drill="0.254"/>
-<contactref element="C100" pad="12"/>
-<contactref element="C100" pad="13"/>
-<contactref element="C100" pad="14"/>
+<contactref element="CON502" pad="12"/>
+<contactref element="CON502" pad="13"/>
+<contactref element="CON502" pad="14"/>
 <wire x1="20.66" y1="1.42" x2="20.66" y2="2.94" width="0.254" layer="1"/>
 <wire x1="20.66" y1="2.94" x2="20.17" y2="3.43" width="0.254" layer="1"/>
 <via x="20.17" y="3.43" extent="1-16" drill="0.254"/>
@@ -4173,8 +4173,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="CAN_H">
 <contactref element="U101" pad="7"/>
-<contactref element="C100" pad="6"/>
-<contactref element="C100" pad="7"/>
+<contactref element="CON502" pad="6"/>
+<contactref element="CON502" pad="7"/>
 <wire x1="15.535" y1="6.61" x2="15.535" y2="5.31381875" width="0.254" layer="1"/>
 <wire x1="16.66" y1="4.18881875" x2="16.66" y2="1.42" width="0.254" layer="1"/>
 <wire x1="15.535" y1="5.31381875" x2="16.66" y2="4.18881875" width="0.254" layer="1"/>
@@ -4222,8 +4222,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U101" pad="6"/>
 <wire x1="14.885" y1="6.61" x2="14.885" y2="5.425" width="0.254" layer="1"/>
 <wire x1="14.885" y1="5.425" x2="16.155" y2="4.155" width="0.254" layer="1"/>
-<contactref element="C100" pad="4"/>
-<contactref element="C100" pad="5"/>
+<contactref element="CON502" pad="4"/>
+<contactref element="CON502" pad="5"/>
 <wire x1="16.155" y1="4.155" x2="16.155" y2="1.425" width="0.254" layer="1"/>
 <wire x1="16.155" y1="1.425" x2="16.16" y2="1.42" width="0.254" layer="1"/>
 <wire x1="15.66" y1="1.42" x2="16.15" y2="1.42" width="0.254" layer="1"/>
@@ -4374,8 +4374,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="21.08" y="5.24" extent="1-16" drill="0.254"/>
 <wire x1="21.08" y1="5.24" x2="21.1" y2="5.26" width="0.254" layer="1"/>
 <wire x1="21.1" y1="5.26" x2="21.1" y2="5.92" width="0.254" layer="1"/>
-<contactref element="C100" pad="10"/>
-<contactref element="C100" pad="11"/>
+<contactref element="CON502" pad="10"/>
+<contactref element="CON502" pad="11"/>
 <wire x1="19.16" y1="1.42" x2="19.16" y2="3.32" width="0.254" layer="1"/>
 <wire x1="19.16" y1="3.32" x2="19.16" y2="3.46" width="0.254" layer="1"/>
 <wire x1="19.16" y1="3.32" x2="20.4874" y2="4.6474" width="0.45" layer="1"/>
@@ -4397,8 +4397,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="19.95" y="8.65" extent="1-16" drill="0.254"/>
 <wire x1="19.95" y1="8.65" x2="19.95" y2="8.07" width="0.254" layer="1"/>
 <wire x1="19.95" y1="8.07" x2="19.96" y2="8.06" width="0.254" layer="1"/>
-<contactref element="C100" pad="9"/>
-<contactref element="C100" pad="8"/>
+<contactref element="CON502" pad="9"/>
+<contactref element="CON502" pad="8"/>
 <wire x1="18.16" y1="1.42" x2="18.16" y2="4.2" width="0.254" layer="1"/>
 <wire x1="18.16" y1="4.2" x2="18.16" y2="4.34" width="0.254" layer="1"/>
 <wire x1="18.16" y1="4.2" x2="19.96" y2="6" width="0.45" layer="1"/>
@@ -4823,9 +4823,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="15.02" y="4.8"/>
 <vertex x="12.64" y="4.8"/>
 </polygon>
-<contactref element="C100" pad="2"/>
-<contactref element="C100" pad="3"/>
-<contactref element="C100" pad="1"/>
+<contactref element="CON502" pad="2"/>
+<contactref element="CON502" pad="3"/>
+<contactref element="CON502" pad="1"/>
 <via x="15.42" y="3.57" extent="1-16" drill="0.254"/>
 <via x="14.67" y="3.58" extent="1-16" drill="0.254"/>
 <via x="13.91" y="3.58" extent="1-16" drill="0.254"/>

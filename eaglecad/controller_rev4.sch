@@ -16662,7 +16662,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_BATT" device="" value="VBUS"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="C100" library="oresat-ACS_driver_board" deviceset="LOW-PROFILE_CONNECTOR(TAB)" device="" value="CARD CONN"/>
+<part name="CON502" library="oresat-ACS_driver_board" deviceset="LOW-PROFILE_CONNECTOR(TAB)" device="" value="CARD CONN"/>
 </parts>
 <sheets>
 <sheet>
@@ -16967,7 +16967,7 @@ ORESAT CARD</text>
 <instance part="GND18" gate="1" x="96.52" y="106.68" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="99.06" y="104.14" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C100" gate="G$1" x="95.504" y="69.85" smashed="yes">
+<instance part="CON502" gate="G$1" x="95.504" y="69.85" smashed="yes">
 <attribute name="NAME" x="82.804" y="80.01" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.264" y="56.515" size="1.778" layer="96"/>
 </instance>
@@ -17089,7 +17089,7 @@ ORESAT CARD</text>
 <wire x1="96.52" y1="111.76" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C100" gate="G$1" pin="6"/>
+<pinref part="CON502" gate="G$1" pin="6"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="98.044" y1="63.5" x2="100.584" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="100.584" y1="63.5" x2="100.584" y2="59.69" width="0.1524" layer="91"/>
@@ -17173,7 +17173,7 @@ ORESAT CARD</text>
 <label x="100.584" y="71.12" size="1.27" layer="95"/>
 <pinref part="U101" gate="G$1" pin="CANH"/>
 <wire x1="98.044" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="C100" gate="G$1" pin="3"/>
+<pinref part="CON502" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -17234,7 +17234,7 @@ ORESAT CARD</text>
 <label x="100.584" y="73.66" size="1.27" layer="95"/>
 <pinref part="U101" gate="G$1" pin="CANL"/>
 <wire x1="137.16" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C100" gate="G$1" pin="2"/>
+<pinref part="CON502" gate="G$1" pin="2"/>
 <wire x1="98.044" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="73.66" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 </segment>
@@ -17383,7 +17383,7 @@ ORESAT CARD</text>
 <pinref part="VBUS1" gate="1" pin="VBUS"/>
 </segment>
 <segment>
-<pinref part="C100" gate="G$1" pin="1"/>
+<pinref part="CON502" gate="G$1" pin="1"/>
 <pinref part="SUPPLY2" gate="G$1" pin="V_BATT"/>
 <wire x1="98.044" y1="76.2" x2="100.584" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="100.584" y1="76.2" x2="100.584" y2="80.01" width="0.1524" layer="91"/>
@@ -17555,14 +17555,14 @@ ORESAT CARD</text>
 </net>
 <net name="OUT2" class="0">
 <segment>
-<pinref part="C100" gate="G$1" pin="4"/>
+<pinref part="CON502" gate="G$1" pin="4"/>
 <wire x1="98.044" y1="68.58" x2="100.584" y2="68.58" width="0.1524" layer="91"/>
 <label x="100.584" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUT1" class="0">
 <segment>
-<pinref part="C100" gate="G$1" pin="5"/>
+<pinref part="CON502" gate="G$1" pin="5"/>
 <wire x1="98.044" y1="66.04" x2="100.584" y2="66.04" width="0.1524" layer="91"/>
 <label x="100.584" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
