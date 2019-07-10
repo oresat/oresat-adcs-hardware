@@ -12,7 +12,7 @@ This includes a description of the purpose for each component by name as listed 
 * R101: Boot pull down resistor
 * X101: ABM10-16MHz Crystal Oscillator
 
-## CAN Transceiver 
+### CAN Transceiver 
 * U101: TCAN330- Ti CAN transceiver for CAN communication
 * C105: Decoupling capacitor
 
