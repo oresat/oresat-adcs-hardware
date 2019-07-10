@@ -1,7 +1,7 @@
 # Hardware Reference Guide:
 This includes a description of the purpose for each component by name as listed on the Rev 4 schematic. It also covers decisions about pin wiring desisions for some of the more complex chips and why certain choices were made.
 
-##Micro Controller
+## Micro Controller
 * U100: STM32L452CEU3- STM micro controller runing an M4 core with low power periphrials. The 52CEU3 was chosen because of its low pin count, small footprint, and higher operating temperature range along with meeting all other requiered specifications.
   * pin 1: VBAT - This pin allows for minimal processes to be kept running from a button cell battery and opperates as a battery charging output when lower than VDD. It is tied to VDD so the charge circuitry will remain inactive and so that the low power oscilator function is never activated
   * pin 36: VUSB- This pin provieds power to the internal USB peripherials. Since this board isn't programmed over usb, it is better to tie this pin low to ensure the usb peripherials don't use power. 
