@@ -1,89 +1,76 @@
 # Hardware Reference Guide:
+This includes a description of the purpose for each component by name as listed on the Rev 4 schematic. It also covers decisions about pin wiring desisions for some of the more complex chips and why certain choices were made.
 
-## Voltage Regulator
-* R208: Current limiting resistor to protect the LED from burning.
-* D201: LED light to indicate that battery power is connected.
-* R201: Jumper resistor.
-* C201, C202, C203: Bypass capacitors for filtering high frequency spikes in voltage.
-* R202: Pull-up resistor to pull PS/SYNC up to VBAT voltage.
-* R203: NP resistor. A place-holder in case PS/SYNC needs to be pulled down to GND.
-* TP201, TP202, TP203, TP205: Test points for probing voltage.
-* C204: Filter capacitor.
-* R204: Pull-down resistor.
-* L201: Main inductor for buck-boost topology. The inductor allows the voltage to be boosted. 
-* U200: 2-V to 16-V Buck-Boost Converter With 3.6-A Switch Current for stepping battery voltage down to a stable 3.3 volts.
-* R205, R206: Voltage divider.
-* 8R207: NP resistor in case we need a pull-up resistor here.
-* C205, C206, C207: Bypass capacitors for filtering high frequency spikes in voltage.
-* R209: Current limiting resistor to protect the LED from burning.
-* D202: LED light to indicate that 3.3V is active.
+##Micro Controller
+* U100: STM32L452CEU3- STM micro controller runing an M4 core with low power periphrials. The 52CEU3 was chosen because of its low pin count, small footprint, and higher operating temperature range along with meeting all other requiered specifications.
+  * pin 1: VBAT - This pin allows for minimal processes to be kept running from a button cell battery and opperates as a battery charging output when lower than VDD. It is tied to VDD so the charge circuitry will remain inactive and so that the low power oscilator function is never activated
+  * pin 36: VUSB- This pin provieds power to the internal USB peripherials. Since this board isn't programmed over usb, it is better to tie this pin low to ensure the usb peripherials don't use power. 
+  * pins 3 and 4: Low power oscillator input- left disconnected. VBAT being greater than VDD activates the system that opperates from this clock input and since VBAT is tied to VDD, those systems are never activated.
+* C101-C102: Decoupling capacitors for VDD
+* C103: Decoupling capacitor for VDDA
+* C104: Clock Capacitor
+* R101: Boot pull down resistor
+* X101: ABM10-16MHz Crystal Oscillator
 
 ## CAN Transceiver 
-* JP101: A 1x4 pinheader for connecting jumper wires.
-* U101: CAN transceiver chip for CAN communication.
-* C106: Filtering capacitor.
+* U101: TCAN330- Ti CAN transceiver for CAN communication
+* C105: Decoupling capacitor
 
-## Microcontroller Unit - STM32F0
-* JP102: Special pin connector for USART communication.
-* C101, C102, C103: Filtering capacitors.
-* U100: Microcontroller (MCU) for controlling pretty much everything else.
-* TP101: Test point for probing voltage.
-* R101: Pull-down resistor.
-* X101: Crystal oscillator providing a reference frequency for the microcontroller.
-* C104, C105: Filtering capacitors.
-* J1: Connector for both JTAG and SWD programming. This allows us to write and rewrite code to the microcontroller.
+## Voltage Regulator
+* U200: TPS63070- Ti Boost Buck Converter. Selected to maintain similarity to other oresat systems
+  * pin 2: Power Good output- not connected to save space
+  * pin 5: Voltage output set- Biased by R204 and R205 to set output at 3.3V (pg.17)
+  * pin 6: Voltage scaler for the feedback pin- not connected because only one output voltage is needed
+* C201-C203: Current buffer/ magnetic decoupling for VBUS
+* C204: Provides capacitence to the internal voltage regulator
+* C205-206: Current buffer/ magnetic decoupling for 3.3V output
+* L201: Inductor for internal voltage regulator
+* R201: Pull up resistor for Enable and PS/Sync, This turns on the regulator, and allows it to run using Pulse Frequency Modulation (PFM) as a power saving measure
+* R202: No Place - Allows for expanded functionallity such as syncing the PWM/PFM to an external clock to control noise frequency
+* R203: Pull down resistor for VSEL to hold FB2 (pin6) low
+* R204-R205: Provides biased voltage feedback for 3.3V output based on the relationship R204/R205 = Vout/Vref - 1
 
-## BLDC motor driver IC (STSPIN230)
-* R301: Pull-up resistor. 
-* C304: Filter capacitor?
-* R302: This resistor partially isolates the EN input from the FAULT output. If the MCU is driving EN high but the STSPIN230 IC pulls FAULT low then the R302 resistor will act as a 18k path to GND so that the MCU is not shorted to GND.
-* C305: Filter capacitor?
-* U300: The STSPIN230 is a motor driver IC for driving the BLDC motor.
-* R303: Jumper resistor to connect to the battery power rail.
-* R304: NP resistor to serve as a placeholder in case we want to jumper to the 3.3V rail instead of the batter power rail. This will most likely not be necessary. We are quite confident that we will be driving the motor with the direct battery power. But it is nice to have this option for our first prototype.
-* C301, C302, C303: Large capacitor bank for filtering high frequency voltage spikes and providing power when instantaneous current draw is needed.
-* JP301: A 1x3 pinheader for connecting the BLDC motor.
-* R305, R306, R307: Current limiting resistors to protect the LEDs from burning.
-* LEDU, LEDV, LEDW: LED lights so that we can visually see the commutation sequence of the motor driver. Basically, these LEDs allow a sanity check so we can see if our commutation pattern is actually occurring.
+## Reaction Wheel Driver
+* U300: STSPIN230- STM brushless motor driver. This was chosen because of its exceptionally small footprint and periphrial options, as well as a wide voltage range
+* C301-C303: Current buffer/ magnetic decoupling from VBUS
+* C304: Filter cap for STBY/RESET pin
+* C305: Filter cap for EN/FAULT pin
+* R301: Pullup Resistor for STBY/RESET
+* R302: Isolates EN from FAULT feedback so that if the driver goes into fault, the enable pin on the MCU can still be high while allowing the fault pin to be pulled to ground
+* JP301: 2mm header pin- Connects to the reaction wheel leads. Located near one of the arms of the motor cage so the wires can be wrapped
 
-## Current feedback from BLDC driver
-* R314: Jumper resistor. We can remove this if we want to isolate things.
-* U301: An operational amplifier IC configured in a non-inverting amplifier configuration.
-* C307: Filtering capacitor. This capacitor allows high frequencies through the feedback loop thus reducing the gain at high frequencies.
-* R313, R312: These resistors set the feedback bias and thus set the gain of the amplifier.
-* C308, C309: Filtering capacitors.
-* C306: Filtering capacitor shorts high frequencies to GND.
-* R308, R309: Voltage divider capacitors bias the voltage level of the IN+ node on the op amp.
-* R310, R311: These small resistors take the large amount of current going through the motor and a small voltage drop is produced across them. If more current flows through the motor then the voltage drop across the resistors increases. This in turn increases the voltage bias at the IN+ node of the op amp. The op amp takes that voltage level and amplifies it. The amplified voltage is seen at the OUT node of the op amp. Thus, the amount of current through the motors converts to a voltage level seen at the OUT pin of the op amp.
+### Current Feedback
+* U301: TSV991ILT- OpAmp for current feedback from the motor driver to the micro controller. This particular OpAmp was selected because of its use in the development board used to prototype the STSPIN230
+* C306-C307: Current buffer/ magnetic decoupling from 3.3V
+* C308: Input filter
+* C309: Output filter
+* R303-R304: DC bias for input voltage
+* R305-R306: Current shunt for the driver output. These resistors handle the current load running through the reaction wheel. If current feed back is not necisary, ground pins 4 and 9 on the driver
+* R307-R308: Feedback gain control. If the gain needs to be altered, it is prefered to modify R308 over R307 due to the filtering in the feedback path
 
-## Encoder:
-* R315: Pull-up resistor.
-* C310: Filtering capacitor.
-* U302: The AS5047P encoder IC gives us position information so we know the orientation of the motor. The motor shaft has a magnet connected to its drive shaft. The encoder IC sits close to the magnet and uses an internal array of Hall-effect sensors to determine the orientation of the motor shaft.
-* JP302: Pinheader to connect to quadrature output. This will not be needed for flight but it is useful for characterizing the motor.
+### Motor Encoder:
+* U302: AS5047P- 14-bit on axis magnetic rotery position sensor with 12-bit binary incremantal pulse count for high speed capability. This part was chosen for so many reasons. It doesn't have any moving parts making it space ready. It is capable of maintaining an accurate reading of possition even at high speeds. It has high accuracy output of position over SPI enabling phase vector control of the reaction wheels. It also boasts quadrachure encoding output, which is very useful for mechanical characterization of the motor and any weights attatched to it (these measurements are very important for running the motor more efficiently and using less power). This part is why the circuit boards are oriented perpendicularly to the moter, its possition relative to the motor axel is very important. It is also capable of simulating a hall effect sensor set up... just 'cause.
+  * pin 4: MOSI- You may have noticed that there is a data pin tied high. The MOSI pin controles which mode the AS5047 chip is in. As it turnes out, the mode we want it in is activated by the signal 0xffff. So in effect, tying it high sends the signal 0xffff
+* C310: Decouping cap
+* R309: Pull up resistor to set MOSI to 0xffff
 
-## Magnetorquer driver IC (STSPIN250)
-* R401: Pull-up resistor.
-* C404, C405: Filtering capacitor.
-* R402: This resistor partially isolates the EN input from the FAULT output. If the MCU is driving EN high but the STSPIN250 IC pulls FAULT low then the R402 resistor will act as a 18k path to GND so that the MCU is not shorted to GND.
-* R409, R410: Voltage divider biases the ‘REF’ pin to a desired voltage. The is voltage level is compared to the voltage on the sense pin. When V_SENSE>V_REF the current limiter is triggered and the IC temporarily goes into a protective state.
-* R408: This resistor determines the length of the protective state, the “OFF time”. 
-* R407, C406: RC network in parallel with R408 helps to stabilize the off timer circuitry.
-* C407: Filtering capacitor.
-* U400: The STSPIN250 is a motor driver IC for driving brushed DC motors. The Magnetorquer is essentially a large inductor just like a brushed DC motor is essentially just a large inductor.
-* R403: Jumper resistor to connect to the battery power rail.
-* R404: NP resistor to serve as a placeholder in case we want to jumper to the 3.3V rail instead of the batter power rail. This will most likely not be necessary. We are quite confident that we will be driving the motor with the direct battery power. But it is nice to have this option for our first prototype.
-* C401, C402, C403: Large capacitor bank for filtering high frequency voltage spikes and providing power when instantaneous current draw is needed.
-* JP401: Pinheader for connecting the Magnetorquer.
-* R411, R412: Current limiting resistors to protect the LEDs from burning.
-* LED+, LED-: LED lights so that we can visually see if we are sending current through the Magnetorquer.
+## Magnetorquer Driver
+* U400: STSPIN250- STM brushed motor driver. This was chosen because of its similarities to the STSPIN230 and runs about the same parameters that are needed for the magnetorquers in a very small footprint with a wide voltage input range.
+  * pins 15 and 16 are connected to ground as specified in the datasheet (pg.10)
+* C401-C403: Current buffer/ magnetic decoupling from VBUS
+* C404-C406: filter caps
+* C407: Timing cap for internal oscilator
+* R401: Pull up resistor
+* R402: Isolates EN from FAULT feedback so that if the driver goes into fault, the enable pin on the MCU can still be high while allowing the fault pin to be pulled to ground
+* R403-R404: Current limiting resistors
+* R405-R406: Voltage bias circuit
+* R407-R408: Timing resistors for internal oscillator
 
-## Current feedback from Magnetorquer driver
-* R419: Jumper resistor. We can remove this if we want to isolate things.
-* U401: An operational amplifier IC configured in a non-inverting amplifier configuration.
-* C411: Filtering capacitor. This capacitor allows high frequencies through the feedback loop thus reducing the gain at high frequencies.
-* R418, R417: These resistors set the feedback bias and thus set the gain of the amplifier.
-* C409, C410: Filtering capacitors.
-* C408: Filtering capacitor shorts high frequencies to GND.
-* R413, R14: Voltage divider capacitors bias the voltage level of the IN+ node on the op amp.
-* R415, R516: These small resistors take the large amount of current going through the Magnetorquer and a small voltage drop is produced across them. If more current flows through the Magnetorquer then the voltage drop across the resistors increases. This in turn increases the voltage bias at the IN+ node of the op amp. The op amp takes that voltage level and amplifies it. The amplified voltage is seen at the OUT node of the op amp. Thus, the amount of current through the Magnetorquer converts to a voltage level seen at the OUT pin of the op amp.
+### Current Feedback
+* U401: TSV991ILT- OpAmp for current feedback from the motor driver to the micro controller. This particular OpAmp was selected because of its use in the development board used to prototype the STSPIN250
+* C408-C409: Current buffer/ magnetic decoupling from 3.3V
+* C410: Input filter
+* C411: Output filter
+* R409-R410: DC bias for input voltage
+* R411-R412: Current shunt for the driver output. These resistors handle the current load running through the reaction wheel. If current feed back is not necisary, ground pins 4 and 9 on the driver
+* R413-R414: Feedback gain control. If the gain needs to be altered, it is prefered to modify R414 over R413 due to the filtering in the feedback path
