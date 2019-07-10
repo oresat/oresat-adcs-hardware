@@ -64,7 +64,7 @@ _Rev3: Top_
 ![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/controller_rev3%20(bottom).png)
 _Rev3: Bottom_ 
 
-CAD photos for satellite mounting: 
+## CAD photos for satellite mounting: 
 ![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(3).png)
 
 ![Alt Text](https://github.com/oresat/oresat-acs-board/blob/master/ACS%20Capstone%202018/Presentation%20Resources/Manufacturing%20photos/CAD%20model%20of%20mounting%20in%20frame%20(4).png)
