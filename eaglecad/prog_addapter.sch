@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1107,8 +1107,8 @@ For reference (or to suit your programming needs) check out these designs:
 <package name="DEBUG_CON">
 <pad name="VBUS" x="0" y="8" drill="1" shape="square"/>
 <pad name="3.3V" x="0" y="6" drill="1"/>
-<pad name="QUAD_B" x="0" y="4" drill="1"/>
-<pad name="QUAD_A" x="0" y="2" drill="1"/>
+<pad name="DEBUG_1" x="0" y="4" drill="1"/>
+<pad name="DEBUG_2" x="0" y="2" drill="1"/>
 <pad name="UART_RX" x="0" y="0" drill="1"/>
 <pad name="UART_TX" x="0" y="-2" drill="1"/>
 <pad name="NRST" x="0" y="-4" drill="1"/>
@@ -1157,8 +1157,8 @@ For reference (or to suit your programming needs) check out these designs:
 <connect gate="G$1" pin="1" pad="VBUS"/>
 <connect gate="G$1" pin="10" pad="GND"/>
 <connect gate="G$1" pin="2" pad="3.3V"/>
-<connect gate="G$1" pin="3" pad="QUAD_B"/>
-<connect gate="G$1" pin="4" pad="QUAD_A"/>
+<connect gate="G$1" pin="3" pad="DEBUG_1"/>
+<connect gate="G$1" pin="4" pad="DEBUG_2"/>
 <connect gate="G$1" pin="5" pad="UART_RX"/>
 <connect gate="G$1" pin="6" pad="UART_TX"/>
 <connect gate="G$1" pin="7" pad="NRST"/>
@@ -1279,7 +1279,7 @@ DIN A5, landscape with doc field</description>
 <parts>
 <part name="SWD" library="J-CNC-3220-10-0100-00-ARM-SWD-port" deviceset="1.27MM-SWD-CONNECTOR" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="6_PIN_SERIAL_TARGET" device="SILK" package3d_urn="urn:adsk.eagle:package:37995/1"/>
-<part name="QUAD" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="DEBUG" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="U$1" library="oresat-ACS_driver_board" deviceset="DEBUG_CON" device=""/>
 <part name="VBUS" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="VBUS"/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
@@ -1304,9 +1304,9 @@ ACS Driver Board rev4</text>
 <attribute name="VALUE" x="132.08" y="73.914" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="132.08" y="94.488" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="QUAD" gate="G$1" x="129.54" y="104.14" smashed="yes">
-<attribute name="NAME" x="123.19" y="109.855" size="1.778" layer="95"/>
-<attribute name="VALUE" x="123.19" y="99.06" size="1.778" layer="96"/>
+<instance part="DEBUG" gate="G$1" x="132.08" y="104.14" smashed="yes">
+<attribute name="NAME" x="125.73" y="109.855" size="1.778" layer="95"/>
+<attribute name="VALUE" x="125.73" y="99.06" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="42.164" y="80.01" smashed="yes"/>
 <instance part="VBUS" gate="VCC" x="55.88" y="99.06" smashed="yes">
@@ -1409,24 +1409,24 @@ ACS Driver Board rev4</text>
 <label x="106.68" y="83.82" size="1.778" layer="255"/>
 </segment>
 </net>
-<net name="QUAD_B" class="0">
+<net name="DEBUG_1" class="0">
 <segment>
-<pinref part="QUAD" gate="G$1" pin="2"/>
-<wire x1="127" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="104.14" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="106.68" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="3"/>
 <wire x1="86.36" y1="86.36" x2="49.784" y2="86.36" width="0.1524" layer="91"/>
 <label x="111.76" y="104.14" size="1.778" layer="255"/>
+<pinref part="DEBUG" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="106.68" x2="86.36" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="QUAD_A" class="0">
+<net name="DEBUG_2" class="0">
 <segment>
-<pinref part="QUAD" gate="G$1" pin="1"/>
-<wire x1="127" y1="106.68" x2="83.82" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="106.68" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="104.14" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="83.82" y1="83.82" x2="49.784" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="83.82" x2="49.784" y2="83.82" width="0.1524" layer="91"/>
 <label x="111.76" y="106.68" size="1.778" layer="255"/>
+<pinref part="DEBUG" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
