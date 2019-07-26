@@ -8,13 +8,14 @@ This includes a description of the purpose for each component by name as listed 
   * pins 3 and 4: Low power oscillator input- left disconnected. VBAT being greater than VDD activates the system that opperates from this clock input and since VBAT is tied to VDD, those systems are never activated.
 * C101-C102: Decoupling capacitors for VDD
 * C103: Decoupling capacitor for VDDA
-* C104: Clock Capacitor
+* C104-C105: Clock Capacitor
+* C106: This capacitor prevents parasitic reset
 * R101: Boot pull down resistor
 * X101: ABM10-16MHz Crystal Oscillator
 
 ### CAN Transceiver 
 * U101: TCAN330- Ti CAN transceiver for CAN communication
-* C105: Decoupling capacitor
+* C107: Decoupling capacitor
 
 ## Voltage Regulator
 * U200: TPS63070- Ti Boost Buck Converter. Selected to maintain similarity to other oresat systems
