@@ -5005,6 +5005,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="34.8164" y1="23.1936" x2="38.01" y2="20" width="0.254" layer="1"/>
 <wire x1="38.01" y1="20" x2="38.5" y2="20" width="0.254" layer="1"/>
 </signal>
+<signal name="I2C_SCL">
+<contactref element="U100" pad="21"/>
+</signal>
+<signal name="I2C_SDA">
+<contactref element="U100" pad="22"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>

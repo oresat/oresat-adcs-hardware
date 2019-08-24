@@ -17549,6 +17549,7 @@ ORESAT CARD</text>
 <wire x1="220.98" y1="134.62" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="101.6" x2="276.86" y2="101.6" width="0.1524" layer="91"/>
 <junction x="215.9" y="134.62"/>
+<label x="276.86" y="101.6" size="1.778" layer="255" rot="MR0"/>
 </segment>
 </net>
 <net name="CAN_RX" class="0">
@@ -17630,6 +17631,20 @@ ORESAT CARD</text>
 <pinref part="U100" gate="G$1" pin="PB2"/>
 <label x="325.12" y="91.44" size="1.778" layer="95"/>
 <wire x1="353.06" y1="91.44" x2="322.58" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="I2C_SCL" class="0">
+<segment>
+<pinref part="U100" gate="G$1" pin="PB10"/>
+<wire x1="322.58" y1="76.2" x2="325.12" y2="76.2" width="0.1524" layer="91"/>
+<label x="325.12" y="76.2" size="1.27" layer="255" xref="yes"/>
+</segment>
+</net>
+<net name="I2C_SDA" class="0">
+<segment>
+<pinref part="U100" gate="G$1" pin="PB11"/>
+<wire x1="322.58" y1="73.66" x2="325.12" y2="73.66" width="0.1524" layer="91"/>
+<label x="325.12" y="73.66" size="1.27" layer="255" xref="yes"/>
 </segment>
 </net>
 </nets>
