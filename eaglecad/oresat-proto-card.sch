@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="no"/>
@@ -18109,127 +18109,233 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 </library>
 <library name="oresat-ACS_driver_board">
 <packages>
-<package name="30-PIN_FFC-PORT">
-<smd name="P$1" x="-2" y="7.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$2" x="-2" y="6.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$3" x="-2" y="6.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$4" x="-2" y="5.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$5" x="-2" y="5.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$6" x="-2" y="4.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$7" x="-2" y="4.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$8" x="-2" y="3.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$9" x="-2" y="3.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$10" x="-2" y="2.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$11" x="-2" y="2.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$12" x="-2" y="1.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$13" x="-2" y="1.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$14" x="-2" y="0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$15" x="-2" y="0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$16" x="-2" y="-0.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$17" x="-2" y="-0.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$18" x="-2" y="-1.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$19" x="-2" y="-1.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$20" x="-2" y="-2.25" dx="0.8" dy="0.3" layer="1"/>
-<wire x1="-1.75" y1="7.5" x2="-1.75" y2="8" width="0.1524" layer="21"/>
-<wire x1="-1.75" y1="8" x2="-1.75" y2="8.5" width="0.1524" layer="21"/>
-<wire x1="-1.75" y1="8.5" x2="0" y2="8.5" width="0.1524" layer="21"/>
-<wire x1="-1.75" y1="8" x2="-3" y2="8" width="0.1524" layer="21"/>
-<wire x1="-3" y1="8" x2="-3" y2="-8" width="0.1524" layer="21"/>
-<wire x1="-3" y1="-8" x2="-1.75" y2="-8" width="0.1524" layer="21"/>
-<wire x1="-1.75" y1="-7.5" x2="-1.75" y2="-8.5" width="0.1524" layer="21"/>
-<wire x1="-1.75" y1="-8.5" x2="0" y2="-8.5" width="0.1524" layer="21"/>
-<wire x1="1" y1="-8" x2="1.25" y2="-8" width="0.1524" layer="21"/>
-<wire x1="1.25" y1="-8" x2="1.25" y2="8" width="0.1524" layer="21"/>
-<wire x1="1.25" y1="8" x2="1" y2="8" width="0.1524" layer="21"/>
-<smd name="P$21" x="-2" y="-2.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$22" x="-2" y="-3.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$23" x="-2" y="-3.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$24" x="-2" y="-4.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$25" x="-2" y="-4.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$26" x="-2" y="-5.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$27" x="-2" y="-5.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$28" x="-2" y="-6.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$29" x="-2" y="-6.75" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$30" x="-2" y="-7.25" dx="0.8" dy="0.3" layer="1"/>
-<smd name="P$31" x="0.5" y="-8.25" dx="0.8" dy="0.4" layer="1"/>
-<smd name="P$32" x="0.5" y="8.25" dx="0.8" dy="0.4" layer="1"/>
+<package name="10-8_STAGGERED-PAD_CARD_CONN">
+<smd name="SCL2" x="-3.5" y="-0.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="GND11" x="-3.5" y="0.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="CAN_H2" x="-3.5" y="1.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="CAN_L2" x="-3.5" y="2.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="VCC6" x="-3.5" y="3.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="SDA2" x="-3.5" y="-1.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="BOOT2" x="-3.5" y="-2.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="MAG12" x="-3.5" y="-3.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="GND12" x="-3.5" y="-4.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="MAG22" x="-3.5" y="-5.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="GND4" x="0.7" y="0.31" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="CAN_H1" x="0.7" y="0.93" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND3" x="0.7" y="1.55" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="CAN_L1" x="0.7" y="2.17" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND2" x="0.7" y="2.79" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC4" x="0.7" y="3.41" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC3" x="0.7" y="4.03" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC2" x="0.7" y="4.65" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC1" x="0.7" y="5.27" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND1" x="0.7" y="5.89" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="SCL1" x="0.7" y="-0.31" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND5" x="0.7" y="-0.93" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="SDA1" x="0.7" y="-1.55" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND6" x="0.7" y="-2.17" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="BOOT1" x="0.7" y="-2.79" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND7" x="0.7" y="-3.41" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="MAG11" x="0.7" y="-4.03" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND8" x="0.7" y="-4.65" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="MAG21" x="0.7" y="-5.27" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="GND9" x="0.7" y="-5.89" dx="0.4" dy="2" layer="1" rot="R90"/>
+<smd name="VCC5" x="-3.5" y="4.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<smd name="GND10" x="-3.5" y="5.5" dx="0.6" dy="4" layer="1" rot="R90"/>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="6.09"/>
+<vertex x="-0.3" y="6.09"/>
+<vertex x="-0.59" y="5.8"/>
+<vertex x="-5.5" y="5.8"/>
+<vertex x="-5.5" y="5.2"/>
+<vertex x="-0.79" y="5.2"/>
+<vertex x="-0.3" y="5.69"/>
+<vertex x="1.7" y="5.69"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="5.07"/>
+<vertex x="1.7" y="5.47"/>
+<vertex x="-0.3" y="5.47"/>
+<vertex x="-0.97" y="4.8"/>
+<vertex x="-5.5" y="4.8"/>
+<vertex x="-5.5" y="4.2"/>
+<vertex x="-1.5" y="4.2"/>
+<vertex x="-1.5" y="3.8"/>
+<vertex x="-5.5" y="3.8"/>
+<vertex x="-5.5" y="3.2"/>
+<vertex x="-1.5" y="3.2"/>
+<vertex x="-1.49" y="3.21"/>
+<vertex x="1.7" y="3.21"/>
+<vertex x="1.7" y="3.61"/>
+<vertex x="-0.3" y="3.61"/>
+<vertex x="-0.3" y="3.83"/>
+<vertex x="1.7" y="3.83"/>
+<vertex x="1.7" y="4.23"/>
+<vertex x="-0.3" y="4.23"/>
+<vertex x="-0.3" y="4.45"/>
+<vertex x="1.7" y="4.45"/>
+<vertex x="1.7" y="4.85"/>
+<vertex x="-0.3" y="4.85"/>
+<vertex x="-0.3" y="5.07"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="2.37"/>
+<vertex x="-0.3" y="2.37"/>
+<vertex x="-0.73" y="2.8"/>
+<vertex x="-5.5" y="2.8"/>
+<vertex x="-5.5" y="2.2"/>
+<vertex x="-0.74" y="2.2"/>
+<vertex x="-0.51" y="1.97"/>
+<vertex x="1.7" y="1.97"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="1.13"/>
+<vertex x="-0.3" y="1.13"/>
+<vertex x="-0.97" y="1.8"/>
+<vertex x="-5.5" y="1.8"/>
+<vertex x="-5.5" y="1.2"/>
+<vertex x="-0.98" y="1.2"/>
+<vertex x="-0.51" y="0.73"/>
+<vertex x="1.7" y="0.73"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="0.51"/>
+<vertex x="-0.63" y="0.51"/>
+<vertex x="-0.92" y="0.8"/>
+<vertex x="-5.5" y="0.8"/>
+<vertex x="-5.5" y="0.2"/>
+<vertex x="-0.93" y="0.2"/>
+<vertex x="-0.84" y="0.11"/>
+<vertex x="1.7" y="0.11"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-0.11"/>
+<vertex x="-1.41" y="-0.11"/>
+<vertex x="-1.5" y="-0.2"/>
+<vertex x="-5.5" y="-0.2"/>
+<vertex x="-5.5" y="-0.8"/>
+<vertex x="-1.49" y="-0.8"/>
+<vertex x="-1.2" y="-0.51"/>
+<vertex x="1.7" y="-0.51"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-1.35"/>
+<vertex x="-1.35" y="-1.35"/>
+<vertex x="-1.5" y="-1.2"/>
+<vertex x="-5.5" y="-1.2"/>
+<vertex x="-5.5" y="-1.8"/>
+<vertex x="-1.5" y="-1.8"/>
+<vertex x="-1.45" y="-1.75"/>
+<vertex x="1.7" y="-1.75"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-2.59"/>
+<vertex x="-0.3" y="-2.59"/>
+<vertex x="-0.69" y="-2.2"/>
+<vertex x="-5.5" y="-2.2"/>
+<vertex x="-5.5" y="-2.8"/>
+<vertex x="-0.7" y="-2.8"/>
+<vertex x="-0.51" y="-2.99"/>
+<vertex x="1.7" y="-2.99"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-3.83"/>
+<vertex x="-0.3" y="-3.83"/>
+<vertex x="-0.93" y="-3.2"/>
+<vertex x="-5.5" y="-3.2"/>
+<vertex x="-5.5" y="-3.8"/>
+<vertex x="-0.94" y="-3.8"/>
+<vertex x="-0.51" y="-4.23"/>
+<vertex x="1.7" y="-4.23"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-4.45"/>
+<vertex x="-0.62" y="-4.45"/>
+<vertex x="-0.87" y="-4.2"/>
+<vertex x="-5.5" y="-4.2"/>
+<vertex x="-5.5" y="-4.8"/>
+<vertex x="-0.88" y="-4.8"/>
+<vertex x="-0.83" y="-4.85"/>
+<vertex x="1.7" y="-4.85"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="1.7" y="-5.07"/>
+<vertex x="-0.53" y="-5.07"/>
+<vertex x="-0.66" y="-5.2"/>
+<vertex x="-5.5" y="-5.2"/>
+<vertex x="-5.5" y="-5.8"/>
+<vertex x="-0.63" y="-5.8"/>
+<vertex x="-0.3" y="-5.47"/>
+<vertex x="1.7" y="-5.47"/>
+</polygon>
+<smd name="GND13" x="-2.5" y="6.5" dx="0.7" dy="4" layer="1" rot="R90"/>
+<smd name="GND14" x="-2.5" y="-6.5" dx="0.7" dy="4" layer="1" rot="R90"/>
+<polygon width="0.001" layer="1">
+<vertex x="2" y="6.39"/>
+<vertex x="2" y="7" curve="-90"/>
+<vertex x="3" y="8" curve="-90"/>
+<vertex x="4" y="7"/>
+<vertex x="4" y="2.11" curve="-90"/>
+<vertex x="2" y="0.11"/>
+<vertex x="1.7" y="0.11"/>
+<vertex x="1.7" y="0.51" curve="180"/>
+<vertex x="1.7" y="1.35"/>
+<vertex x="1.7" y="1.75" curve="180"/>
+<vertex x="1.7" y="2.59"/>
+<vertex x="1.7" y="2.99" curve="90"/>
+<vertex x="1.7" y="5.69"/>
+<vertex x="1.7" y="6.09" curve="90"/>
+</polygon>
+<polygon width="0.001" layer="1">
+<vertex x="3" y="-8" curve="90"/>
+<vertex x="4" y="-7"/>
+<vertex x="4" y="-2.73" curve="90"/>
+<vertex x="2" y="-0.73"/>
+<vertex x="1.7" y="-0.73"/>
+<vertex x="1.7" y="-1.13" curve="-180"/>
+<vertex x="1.7" y="-1.97"/>
+<vertex x="1.7" y="-2.37" curve="-180"/>
+<vertex x="1.7" y="-3.21"/>
+<vertex x="1.7" y="-3.61" curve="-180"/>
+<vertex x="1.7" y="-4.45"/>
+<vertex x="1.7" y="-4.85" curve="-180"/>
+<vertex x="1.7" y="-5.69"/>
+<vertex x="1.7" y="-6.09" curve="-90"/>
+<vertex x="2" y="-6.39"/>
+<vertex x="2" y="-7" curve="90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
-<symbol name="CARD-TO-DRIVER-PORT">
-<pin name="P$1" x="-7.62" y="22.86" visible="off" length="short"/>
-<pin name="P$2" x="-7.62" y="17.78" visible="off" length="short"/>
-<pin name="P$3" x="-7.62" y="12.7" visible="off" length="short"/>
-<pin name="P$4" x="-7.62" y="7.62" visible="off" length="short"/>
-<pin name="P$5" x="-7.62" y="2.54" visible="off" length="short"/>
-<pin name="P$6" x="-7.62" y="-2.54" visible="off" length="short"/>
-<text x="-5.08" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="27.94" size="1.778" layer="95">&gt;NAME</text>
-<wire x1="12.7" y1="-20.32" x2="12.7" y2="-1.27" width="0.254" layer="97"/>
-<wire x1="12.7" y1="-1.27" x2="10.795" y2="-0.635" width="0.254" layer="97"/>
-<wire x1="10.795" y1="-0.635" x2="14.605" y2="0.635" width="0.254" layer="97"/>
-<wire x1="14.605" y1="0.635" x2="12.7" y2="1.27" width="0.254" layer="97"/>
-<wire x1="12.7" y1="1.27" x2="12.7" y2="25.4" width="0.254" layer="97"/>
-<rectangle x1="2.54" y1="12.065" x2="12.7" y2="13.335" layer="97"/>
-<rectangle x1="2.54" y1="6.985" x2="12.7" y2="8.255" layer="97"/>
-<rectangle x1="2.54" y1="1.905" x2="12.7" y2="3.175" layer="97"/>
-<rectangle x1="2.54" y1="-3.175" x2="12.7" y2="-1.905" layer="97"/>
-<rectangle x1="2.54" y1="-8.255" x2="12.7" y2="-6.985" layer="97"/>
-<rectangle x1="2.54" y1="-13.335" x2="12.7" y2="-12.065" layer="97"/>
-<wire x1="12.7" y1="25.4" x2="2.54" y2="25.4" width="0.254" layer="97"/>
-<wire x1="12.7" y1="-20.32" x2="2.54" y2="-20.32" width="0.254" layer="97"/>
-<rectangle x1="-5.08" y1="21.59" x2="-4.445" y2="26.67" layer="97"/>
-<pin name="P$7" x="-7.62" y="-7.62" visible="off" length="short"/>
-<pin name="P$8" x="-7.62" y="-12.7" visible="off" length="short"/>
-<pin name="P$9" x="-7.62" y="-17.78" visible="off" length="short"/>
-<rectangle x1="2.54" y1="17.145" x2="12.7" y2="18.415" layer="97"/>
-<rectangle x1="2.54" y1="22.225" x2="12.7" y2="23.495" layer="97"/>
-<rectangle x1="2.54" y1="-18.415" x2="12.7" y2="-17.145" layer="97"/>
-<rectangle x1="-1.27" y1="-21.59" x2="2.54" y2="26.67" layer="97"/>
-<rectangle x1="-5.08" y1="-21.59" x2="-4.445" y2="19.05" layer="97"/>
-<rectangle x1="-4.445" y1="-21.59" x2="-2.54" y2="26.67" layer="97"/>
+<symbol name="FLEX-BOARD_CONNECTIONS">
+<pin name="VCC" x="0" y="10.16" visible="pin" length="point"/>
+<pin name="CAN_L" x="0" y="7.62" visible="pin" length="point"/>
+<pin name="CAN_H" x="0" y="5.08" visible="pin" length="point"/>
+<pin name="SCL" x="0" y="2.54" visible="pin" length="point"/>
+<pin name="SDA" x="0" y="0" visible="pin" length="point"/>
+<pin name="BOOT" x="0" y="-2.54" visible="pin" length="point"/>
+<pin name="MAG1" x="0" y="-5.08" visible="pin" length="point"/>
+<pin name="MAG2" x="0" y="-7.62" visible="pin" length="point"/>
+<pin name="GND" x="0" y="-10.16" visible="pin" length="point"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CARD-CONNECTOR_B">
+<deviceset name="CARD-FLEX_CONN">
 <gates>
-<gate name="G$1" symbol="CARD-TO-DRIVER-PORT" x="0" y="0"/>
+<gate name="G$1" symbol="FLEX-BOARD_CONNECTIONS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="30-PIN_FFC-PORT">
+<device name="CARD-FLEX_CONN" package="10-8_STAGGERED-PAD_CARD_CONN">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$2 P$3 P$4 P$5 P$6 P$7 P$8"/>
-<connect gate="G$1" pin="P$2" pad="P$10 P$11"/>
-<connect gate="G$1" pin="P$3" pad="P$13 P$14"/>
-<connect gate="G$1" pin="P$4" pad="P$16 P$17"/>
-<connect gate="G$1" pin="P$5" pad="P$19 P$20"/>
-<connect gate="G$1" pin="P$6" pad="P$22 P$23"/>
-<connect gate="G$1" pin="P$7" pad="P$25 P$26"/>
-<connect gate="G$1" pin="P$8" pad="P$28 P$29"/>
-<connect gate="G$1" pin="P$9" pad="P$1 P$9 P$12 P$15 P$18 P$21 P$24 P$27 P$30 P$31 P$32"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CARD-CONNECTOR_C">
-<gates>
-<gate name="G$1" symbol="CARD-TO-DRIVER-PORT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="30-PIN_FFC-PORT">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$23 P$24 P$25 P$26 P$27 P$28 P$29"/>
-<connect gate="G$1" pin="P$2" pad="P$20 P$21"/>
-<connect gate="G$1" pin="P$3" pad="P$17 P$18"/>
-<connect gate="G$1" pin="P$4" pad="P$14 P$15"/>
-<connect gate="G$1" pin="P$5" pad="P$11 P$12"/>
-<connect gate="G$1" pin="P$6" pad="P$8 P$9"/>
-<connect gate="G$1" pin="P$7" pad="P$5 P$6"/>
-<connect gate="G$1" pin="P$8" pad="P$2 P$3"/>
-<connect gate="G$1" pin="P$9" pad="P$1 P$4 P$7 P$10 P$13 P$16 P$19 P$22 P$30 P$31 P$32"/>
+<connect gate="G$1" pin="BOOT" pad="BOOT1 BOOT2"/>
+<connect gate="G$1" pin="CAN_H" pad="CAN_H1 CAN_H2"/>
+<connect gate="G$1" pin="CAN_L" pad="CAN_L1 CAN_L2"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14"/>
+<connect gate="G$1" pin="MAG1" pad="MAG11 MAG12"/>
+<connect gate="G$1" pin="MAG2" pad="MAG21 MAG22"/>
+<connect gate="G$1" pin="SCL" pad="SCL1 SCL2"/>
+<connect gate="G$1" pin="SDA" pad="SDA1 SDA2"/>
+<connect gate="G$1" pin="VCC" pad="VCC1 VCC2 VCC3 VCC4 VCC5 VCC6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19505,11 +19611,7 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="U$1" library="oresat-ACS_driver_board" deviceset="CARD-CONNECTOR_B" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="U$3" library="oresat-ACS_driver_board" deviceset="CARD-CONNECTOR_C" device=""/>
-<part name="U$4" library="oresat-ACS_driver_board" deviceset="CARD-CONNECTOR_C" device=""/>
-<part name="U$5" library="oresat-ACS_driver_board" deviceset="CARD-CONNECTOR_C" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -19517,6 +19619,10 @@ www.torex.co.jp/english/product/pro02/pdf/0201_xc62fp.pdf</description>
 <part name="VBUSP6" library="oresat-supplies" deviceset="VBUSP" device="" value="VBUSP_Q3"/>
 <part name="VBUSP7" library="oresat-supplies" deviceset="VBUSP" device="" value="VBUSP_Q2"/>
 <part name="VBUSP8" library="oresat-supplies" deviceset="VBUSP" device="" value="VBUSP_Q1"/>
+<part name="U$3" library="oresat-ACS_driver_board" deviceset="CARD-FLEX_CONN" device="CARD-FLEX_CONN"/>
+<part name="U$1" library="oresat-ACS_driver_board" deviceset="CARD-FLEX_CONN" device="CARD-FLEX_CONN"/>
+<part name="U$4" library="oresat-ACS_driver_board" deviceset="CARD-FLEX_CONN" device="CARD-FLEX_CONN"/>
+<part name="U$5" library="oresat-ACS_driver_board" deviceset="CARD-FLEX_CONN" device="CARD-FLEX_CONN"/>
 </parts>
 <sheets>
 <sheet>
@@ -19847,6 +19953,11 @@ I2C pullups
 not placed.</text>
 <text x="170.18" y="144.78" size="1.778" layer="97">47k forces
 slow I2C</text>
+<wire x1="317.5" y1="106.68" x2="325.12" y2="106.68" width="0.508" layer="97"/>
+<wire x1="325.12" y1="106.68" x2="325.12" y2="81.28" width="0.508" layer="97"/>
+<wire x1="325.12" y1="81.28" x2="317.5" y2="81.28" width="0.508" layer="97"/>
+<text x="327.66" y="91.44" size="2.54" layer="97">Connector to 
+Driver Board</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -20346,16 +20457,13 @@ slow I2C</text>
 <attribute name="NAME" x="166.37" y="151.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="166.37" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$1" gate="G$1" x="325.12" y="88.9" smashed="yes">
-<attribute name="VALUE" x="320.04" y="63.5" size="1.778" layer="96"/>
-<attribute name="NAME" x="320.04" y="116.84" size="1.778" layer="95"/>
+<instance part="GND3" gate="1" x="309.88" y="76.2" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="312.42" y="73.66" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND3" gate="1" x="309.88" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="312.42" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="VBUSP8" gate="G$1" x="309.88" y="109.22" smashed="yes">
+<attribute name="VALUE" x="309.88" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="VBUSP8" gate="G$1" x="309.88" y="116.84" smashed="yes">
-<attribute name="VALUE" x="309.88" y="119.634" size="1.778" layer="96" align="bottom-center"/>
-</instance>
+<instance part="U$3" gate="G$1" x="314.96" y="93.98" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -20453,9 +20561,9 @@ slow I2C</text>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="P$9"/>
-<wire x1="309.88" y1="66.04" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="71.12" x2="317.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="78.74" x2="309.88" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="83.82" x2="314.96" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
@@ -20864,9 +20972,9 @@ slow I2C</text>
 <wire x1="167.64" y1="161.29" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <junction x="167.64" y="167.64"/>
 <wire x1="167.64" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$4"/>
 <wire x1="205.74" y1="167.64" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="96.52" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="96.52" x2="314.96" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="SDA_Q1" class="0">
@@ -20878,9 +20986,9 @@ slow I2C</text>
 <wire x1="161.29" y1="161.29" x2="161.29" y2="165.1" width="0.1524" layer="91"/>
 <junction x="161.29" y="165.1"/>
 <wire x1="161.29" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="165.1" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$5"/>
-<wire x1="203.2" y1="91.44" x2="317.5" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="165.1" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="93.98" x2="314.96" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="BOOT_Q1" class="0">
@@ -20888,9 +20996,9 @@ slow I2C</text>
 <pinref part="U3" gate="G$1" pin="IO5"/>
 <label x="172.72" y="162.56" size="1.27" layer="95" xref="yes"/>
 <wire x1="142.24" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="162.56" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$6"/>
-<wire x1="200.66" y1="86.36" x2="317.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="91.44" x2="314.96" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="BOOT"/>
 </segment>
 </net>
 <net name="MAX4211-3V3_Q1" class="0">
@@ -20951,9 +21059,9 @@ slow I2C</text>
 </segment>
 <segment>
 <pinref part="VBUSP8" gate="G$1" pin="VBUSP"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
-<wire x1="309.88" y1="116.84" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="111.76" x2="317.5" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="109.22" x2="309.88" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="104.14" x2="314.96" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="VPD_Q1" class="0">
@@ -21011,30 +21119,30 @@ slow I2C</text>
 </net>
 <net name="CAN2_L" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="317.5" y1="106.68" x2="309.88" y2="106.68" width="0.1524" layer="91"/>
-<label x="309.88" y="106.68" size="1.778" layer="255" rot="MR0" xref="yes"/>
+<wire x1="314.96" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
+<label x="309.88" y="101.6" size="1.27" layer="255" rot="MR0" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="CAN_L"/>
 </segment>
 </net>
 <net name="CAN2_H" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
-<wire x1="317.5" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
-<label x="309.88" y="101.6" size="1.778" layer="255" rot="MR0" xref="yes"/>
+<wire x1="314.96" y1="99.06" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
+<label x="309.88" y="99.06" size="1.27" layer="255" rot="MR0" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="CAN_H"/>
 </segment>
 </net>
 <net name="MAG1_Q1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$7"/>
-<wire x1="317.5" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
-<label x="309.88" y="81.28" size="1.778" layer="255" rot="MR0"/>
+<wire x1="314.96" y1="88.9" x2="309.88" y2="88.9" width="0.1524" layer="91"/>
+<label x="309.88" y="88.9" size="1.778" layer="255" rot="MR0"/>
+<pinref part="U$3" gate="G$1" pin="MAG1"/>
 </segment>
 </net>
 <net name="MAG2_Q1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$8"/>
-<wire x1="317.5" y1="76.2" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
-<label x="309.88" y="76.2" size="1.778" layer="255" rot="MR0"/>
+<wire x1="314.96" y1="86.36" x2="309.88" y2="86.36" width="0.1524" layer="91"/>
+<label x="309.88" y="86.36" size="1.778" layer="255" rot="MR0"/>
+<pinref part="U$3" gate="G$1" pin="MAG2"/>
 </segment>
 </net>
 </nets>
@@ -21070,6 +21178,11 @@ I2C pullups
 not placed.</text>
 <text x="170.18" y="144.78" size="1.778" layer="97">47k forces
 slow I2C</text>
+<wire x1="317.5" y1="106.68" x2="325.12" y2="106.68" width="0.508" layer="97"/>
+<wire x1="325.12" y1="106.68" x2="325.12" y2="81.28" width="0.508" layer="97"/>
+<wire x1="325.12" y1="81.28" x2="317.5" y2="81.28" width="0.508" layer="97"/>
+<text x="327.66" y="91.44" size="2.54" layer="97">Connector to 
+Driver Board</text>
 </plain>
 <instances>
 <instance part="D5" gate="G$1" x="393.7" y="210.82" smashed="yes">
@@ -21569,16 +21682,13 @@ slow I2C</text>
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="U$3" gate="G$1" x="325.12" y="88.9" smashed="yes">
-<attribute name="VALUE" x="320.04" y="63.5" size="1.778" layer="96"/>
-<attribute name="NAME" x="320.04" y="116.84" size="1.778" layer="95"/>
+<instance part="GND4" gate="1" x="309.88" y="76.2" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="312.42" y="73.66" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND4" gate="1" x="309.88" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="312.42" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="VBUSP7" gate="G$1" x="309.88" y="109.22" smashed="yes">
+<attribute name="VALUE" x="309.88" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="VBUSP7" gate="G$1" x="309.88" y="116.84" smashed="yes">
-<attribute name="VALUE" x="309.88" y="119.634" size="1.778" layer="96" align="bottom-center"/>
-</instance>
+<instance part="U$1" gate="G$1" x="314.96" y="93.98" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -21676,9 +21786,9 @@ slow I2C</text>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="P$9"/>
-<wire x1="309.88" y1="66.04" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="71.12" x2="317.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="78.74" x2="309.88" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="83.82" x2="314.96" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
@@ -22087,9 +22197,9 @@ slow I2C</text>
 <wire x1="167.64" y1="161.29" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <junction x="167.64" y="167.64"/>
 <wire x1="167.64" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$4"/>
 <wire x1="205.74" y1="167.64" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="96.52" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="96.52" x2="314.96" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="SDA_Q2" class="0">
@@ -22101,9 +22211,9 @@ slow I2C</text>
 <wire x1="161.29" y1="161.29" x2="161.29" y2="165.1" width="0.1524" layer="91"/>
 <junction x="161.29" y="165.1"/>
 <wire x1="161.29" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="165.1" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$5"/>
-<wire x1="203.2" y1="91.44" x2="317.5" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="165.1" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="93.98" x2="314.96" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="BOOT_Q2" class="0">
@@ -22111,9 +22221,9 @@ slow I2C</text>
 <pinref part="U7" gate="G$1" pin="IO5"/>
 <label x="172.72" y="162.56" size="1.27" layer="95" xref="yes"/>
 <wire x1="142.24" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="162.56" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$6"/>
-<wire x1="200.66" y1="86.36" x2="317.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="91.44" x2="314.96" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="BOOT"/>
 </segment>
 </net>
 <net name="MAX4211-3V3_Q2" class="0">
@@ -22174,9 +22284,9 @@ slow I2C</text>
 </segment>
 <segment>
 <pinref part="VBUSP7" gate="G$1" pin="VBUSP"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="309.88" y1="116.84" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="111.76" x2="317.5" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="109.22" x2="309.88" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="104.14" x2="314.96" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="VPD_Q2" class="0">
@@ -22234,30 +22344,30 @@ slow I2C</text>
 </net>
 <net name="CAN2_L" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
-<wire x1="317.5" y1="106.68" x2="309.88" y2="106.68" width="0.1524" layer="91"/>
-<label x="309.88" y="106.68" size="1.778" layer="255" rot="MR0" xref="yes"/>
+<label x="309.88" y="101.6" size="1.27" layer="255" rot="MR0" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="CAN_L"/>
+<wire x1="314.96" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN2_H" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$3"/>
-<wire x1="317.5" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
-<label x="309.88" y="101.6" size="1.778" layer="255" rot="MR0" xref="yes"/>
+<label x="309.88" y="99.06" size="1.27" layer="255" rot="MR0" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="CAN_H"/>
+<wire x1="314.96" y1="99.06" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAG1_Q2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$7"/>
-<wire x1="317.5" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
-<label x="309.88" y="81.28" size="1.778" layer="255" rot="MR0"/>
+<label x="309.88" y="88.9" size="1.778" layer="255" rot="MR0"/>
+<pinref part="U$1" gate="G$1" pin="MAG1"/>
+<wire x1="314.96" y1="88.9" x2="309.88" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAG2_Q2" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$8"/>
-<wire x1="317.5" y1="76.2" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
-<label x="309.88" y="76.2" size="1.778" layer="255" rot="MR0"/>
+<label x="309.88" y="86.36" size="1.778" layer="255" rot="MR0"/>
+<pinref part="U$1" gate="G$1" pin="MAG2"/>
+<wire x1="314.96" y1="86.36" x2="309.88" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -22293,6 +22403,11 @@ I2C pullups
 not placed.</text>
 <text x="170.18" y="144.78" size="1.778" layer="97">47k forces
 slow I2C</text>
+<wire x1="317.5" y1="106.68" x2="325.12" y2="106.68" width="0.508" layer="97"/>
+<wire x1="325.12" y1="106.68" x2="325.12" y2="81.28" width="0.508" layer="97"/>
+<wire x1="325.12" y1="81.28" x2="317.5" y2="81.28" width="0.508" layer="97"/>
+<text x="327.66" y="91.44" size="2.54" layer="97">Connector to 
+Driver Board</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -22792,16 +22907,13 @@ slow I2C</text>
 <attribute name="NAME" x="166.37" y="151.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="166.37" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$4" gate="G$1" x="325.12" y="88.9" smashed="yes">
-<attribute name="VALUE" x="320.04" y="63.5" size="1.778" layer="96"/>
-<attribute name="NAME" x="320.04" y="116.84" size="1.778" layer="95"/>
+<instance part="GND5" gate="1" x="309.88" y="76.2" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="312.42" y="73.66" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND5" gate="1" x="309.88" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="312.42" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="VBUSP6" gate="G$1" x="309.88" y="109.22" smashed="yes">
+<attribute name="VALUE" x="309.88" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="VBUSP6" gate="G$1" x="309.88" y="116.84" smashed="yes">
-<attribute name="VALUE" x="309.88" y="119.634" size="1.778" layer="96" align="bottom-center"/>
-</instance>
+<instance part="U$4" gate="G$1" x="314.96" y="93.98" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -22899,9 +23011,9 @@ slow I2C</text>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U$4" gate="G$1" pin="P$9"/>
-<wire x1="309.88" y1="66.04" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="71.12" x2="317.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="78.74" x2="309.88" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="83.82" x2="314.96" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
@@ -23363,9 +23475,9 @@ slow I2C</text>
 <wire x1="167.64" y1="161.29" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <junction x="167.64" y="167.64"/>
 <wire x1="167.64" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$4"/>
 <wire x1="205.74" y1="167.64" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="96.52" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="96.52" x2="314.96" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="SDA_Q3" class="0">
@@ -23377,9 +23489,9 @@ slow I2C</text>
 <wire x1="161.29" y1="161.29" x2="161.29" y2="165.1" width="0.1524" layer="91"/>
 <junction x="161.29" y="165.1"/>
 <wire x1="161.29" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="165.1" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$5"/>
-<wire x1="203.2" y1="91.44" x2="317.5" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="165.1" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="93.98" x2="314.96" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="BOOT_Q3" class="0">
@@ -23387,9 +23499,9 @@ slow I2C</text>
 <pinref part="U10" gate="G$1" pin="IO5"/>
 <label x="172.72" y="162.56" size="1.27" layer="95" xref="yes"/>
 <wire x1="142.24" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="162.56" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="P$6"/>
-<wire x1="200.66" y1="86.36" x2="317.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="91.44" x2="314.96" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="BOOT"/>
 </segment>
 </net>
 <net name="MAX4211-3V3_Q3" class="0">
@@ -23449,38 +23561,38 @@ slow I2C</text>
 <wire x1="393.7" y1="228.6" x2="393.7" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
 <pinref part="VBUSP6" gate="G$1" pin="VBUSP"/>
-<wire x1="317.5" y1="111.76" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="111.76" x2="309.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="104.14" x2="309.88" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="104.14" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="CAN2_L" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
-<wire x1="317.5" y1="106.68" x2="309.88" y2="106.68" width="0.1524" layer="91"/>
-<label x="309.88" y="106.68" size="1.778" layer="255" rot="MR0" xref="yes"/>
+<label x="309.88" y="101.6" size="1.27" layer="255" rot="MR0" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="CAN_L"/>
+<wire x1="314.96" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN2_H" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$3"/>
-<wire x1="317.5" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
-<label x="309.88" y="101.6" size="1.778" layer="255" rot="MR0" xref="yes"/>
+<label x="309.88" y="99.06" size="1.27" layer="255" rot="MR0" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="CAN_H"/>
+<wire x1="314.96" y1="99.06" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAG1_Q3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$7"/>
-<wire x1="317.5" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
-<label x="309.88" y="81.28" size="1.778" layer="255" rot="MR0"/>
+<label x="309.88" y="88.9" size="1.778" layer="255" rot="MR0"/>
+<pinref part="U$4" gate="G$1" pin="MAG1"/>
+<wire x1="314.96" y1="88.9" x2="309.88" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAG2_Q3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$8"/>
-<wire x1="317.5" y1="76.2" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
-<label x="309.88" y="76.2" size="1.778" layer="255" rot="MR0"/>
+<label x="309.88" y="86.36" size="1.778" layer="255" rot="MR0"/>
+<pinref part="U$4" gate="G$1" pin="MAG2"/>
+<wire x1="314.96" y1="86.36" x2="309.88" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -23515,6 +23627,11 @@ I2C pullups
 not placed.</text>
 <text x="170.18" y="144.78" size="1.778" layer="97">47k forces
 slow I2C</text>
+<wire x1="317.5" y1="106.68" x2="325.12" y2="106.68" width="0.508" layer="97"/>
+<wire x1="325.12" y1="106.68" x2="325.12" y2="81.28" width="0.508" layer="97"/>
+<wire x1="325.12" y1="81.28" x2="317.5" y2="81.28" width="0.508" layer="97"/>
+<text x="327.66" y="91.44" size="2.54" layer="97">Connector to 
+Driver Board</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -24014,16 +24131,13 @@ slow I2C</text>
 <attribute name="NAME" x="166.37" y="151.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="166.37" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$5" gate="G$1" x="325.12" y="88.9" smashed="yes">
-<attribute name="VALUE" x="320.04" y="63.5" size="1.778" layer="96"/>
-<attribute name="NAME" x="320.04" y="116.84" size="1.778" layer="95"/>
+<instance part="GND6" gate="1" x="309.88" y="76.2" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="312.42" y="73.66" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND6" gate="1" x="309.88" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="312.42" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="VBUSP3" gate="G$1" x="309.88" y="109.22" smashed="yes">
+<attribute name="VALUE" x="309.88" y="112.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="VBUSP3" gate="G$1" x="309.88" y="116.84" smashed="yes">
-<attribute name="VALUE" x="309.88" y="119.634" size="1.778" layer="96" align="bottom-center"/>
-</instance>
+<instance part="U$5" gate="G$1" x="314.96" y="93.98" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -24121,9 +24235,9 @@ slow I2C</text>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="U$5" gate="G$1" pin="P$9"/>
-<wire x1="309.88" y1="66.04" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="71.12" x2="317.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="78.74" x2="309.88" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="83.82" x2="314.96" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
@@ -24585,9 +24699,9 @@ slow I2C</text>
 <wire x1="167.64" y1="161.29" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <junction x="167.64" y="167.64"/>
 <wire x1="167.64" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$4"/>
 <wire x1="205.74" y1="167.64" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="96.52" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="96.52" x2="314.96" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="SDA_Q4" class="0">
@@ -24599,9 +24713,9 @@ slow I2C</text>
 <wire x1="161.29" y1="161.29" x2="161.29" y2="165.1" width="0.1524" layer="91"/>
 <junction x="161.29" y="165.1"/>
 <wire x1="161.29" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="165.1" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$5"/>
-<wire x1="203.2" y1="91.44" x2="317.5" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="165.1" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="93.98" x2="314.96" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="BOOT_Q4" class="0">
@@ -24609,9 +24723,9 @@ slow I2C</text>
 <pinref part="U13" gate="G$1" pin="IO5"/>
 <label x="172.72" y="162.56" size="1.27" layer="95" xref="yes"/>
 <wire x1="142.24" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="162.56" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="P$6"/>
-<wire x1="200.66" y1="86.36" x2="317.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="162.56" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="91.44" x2="314.96" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="BOOT"/>
 </segment>
 </net>
 <net name="MAX4211-3V3_Q4" class="0">
@@ -24671,38 +24785,38 @@ slow I2C</text>
 <wire x1="393.7" y1="228.6" x2="393.7" y2="226.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="P$1"/>
 <pinref part="VBUSP3" gate="G$1" pin="VBUSP"/>
-<wire x1="317.5" y1="111.76" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="111.76" x2="309.88" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="104.14" x2="309.88" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="104.14" x2="309.88" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="CAN2_L" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="P$2"/>
-<wire x1="317.5" y1="106.68" x2="309.88" y2="106.68" width="0.1524" layer="91"/>
-<label x="309.88" y="106.68" size="1.778" layer="255" rot="MR0" xref="yes"/>
+<label x="309.88" y="101.6" size="1.27" layer="255" rot="MR0" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="CAN_L"/>
+<wire x1="314.96" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN2_H" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="P$3"/>
-<wire x1="317.5" y1="101.6" x2="309.88" y2="101.6" width="0.1524" layer="91"/>
-<label x="309.88" y="101.6" size="1.778" layer="255" rot="MR0" xref="yes"/>
+<label x="309.88" y="99.06" size="1.27" layer="255" rot="MR0" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="CAN_H"/>
+<wire x1="314.96" y1="99.06" x2="309.88" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAG1_Q4" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="P$7"/>
-<wire x1="317.5" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
-<label x="309.88" y="81.28" size="1.778" layer="255" rot="MR0"/>
+<label x="309.88" y="88.9" size="1.778" layer="255" rot="MR0"/>
+<pinref part="U$5" gate="G$1" pin="MAG1"/>
+<wire x1="314.96" y1="88.9" x2="309.88" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAG2_Q4" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="P$8"/>
-<wire x1="317.5" y1="76.2" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
-<label x="309.88" y="76.2" size="1.778" layer="255" rot="MR0"/>
+<label x="309.88" y="86.36" size="1.778" layer="255" rot="MR0"/>
+<pinref part="U$5" gate="G$1" pin="MAG2"/>
+<wire x1="314.96" y1="86.36" x2="309.88" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
