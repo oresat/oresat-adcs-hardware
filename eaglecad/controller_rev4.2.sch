@@ -15727,6 +15727,20 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="oresat-ACS_driver_board" deviceset="DRIVER-FLEX_CONN" device=""/>
+<part name="R103" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="0">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="R102" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="0">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
+<part name="GND20" library="supply1" deviceset="GND" device=""/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16050,6 +16064,28 @@ ORESAT CARD</text>
 <attribute name="VALUE" x="243.84" y="66.04" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U$1" gate="G$1" x="88.9" y="81.28" smashed="yes" rot="MR0"/>
+<instance part="R103" gate="R" x="365.76" y="76.2" smashed="yes" rot="MR90">
+<attribute name="DIS" x="365.76" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DPN" x="365.76" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MFR" x="365.76" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="365.76" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="NAME" x="368.3" y="76.2" size="1.778" layer="95"/>
+<attribute name="VALUE" x="368.3" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="R102" gate="R" x="375.92" y="76.2" smashed="yes" rot="MR90">
+<attribute name="DIS" x="375.92" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DPN" x="375.92" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MFR" x="375.92" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MPN" x="375.92" y="76.2" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="NAME" x="378.46" y="76.2" size="1.778" layer="95"/>
+<attribute name="VALUE" x="378.46" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="GND20" gate="1" x="365.76" y="60.96" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="368.3" y="58.42" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND22" gate="1" x="375.92" y="60.96" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="378.46" y="58.42" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16188,6 +16224,16 @@ ORESAT CARD</text>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="88.9" y1="71.12" x2="92.964" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="92.964" y1="71.12" x2="92.964" y2="67.31" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R103" gate="R" pin="1"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="365.76" y1="63.5" x2="365.76" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R102" gate="R" pin="1"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="375.92" y1="63.5" x2="375.92" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_TX" class="0">
@@ -16645,14 +16691,14 @@ ORESAT CARD</text>
 </net>
 <net name="DEBUG_2" class="0">
 <segment>
-<pinref part="U100" gate="G$1" pin="PB1"/>
-<label x="325.12" y="93.98" size="1.778" layer="95"/>
-<wire x1="322.58" y1="93.98" x2="350.52" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="93.98" x2="350.52" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
+<label x="342.9" y="119.38" size="1.778" layer="95"/>
+<wire x1="358.14" y1="119.38" x2="358.14" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C501" gate="G$1" pin="4"/>
 <wire x1="162.56" y1="154.94" x2="162.56" y2="127" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="127" x2="87.884" y2="127" width="0.1524" layer="91"/>
+<pinref part="U100" gate="G$1" pin="PA7"/>
+<wire x1="358.14" y1="119.38" x2="322.58" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DEBUG_1" class="0">
@@ -16660,20 +16706,20 @@ ORESAT CARD</text>
 <pinref part="C501" gate="G$1" pin="3"/>
 <wire x1="87.884" y1="129.54" x2="160.02" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="129.54" x2="160.02" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="157.48" x2="353.06" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="157.48" x2="353.06" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U100" gate="G$1" pin="PB2"/>
-<label x="325.12" y="91.44" size="1.778" layer="95"/>
-<wire x1="353.06" y1="91.44" x2="322.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="157.48" x2="360.68" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="157.48" x2="360.68" y2="96.52" width="0.1524" layer="91"/>
+<label x="342.9" y="96.52" size="1.778" layer="95"/>
+<pinref part="U100" gate="G$1" pin="PB0"/>
+<wire x1="360.68" y1="96.52" x2="322.58" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PB10"/>
-<label x="340.36" y="76.2" size="1.778" layer="255"/>
-<wire x1="322.58" y1="76.2" x2="353.06" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="76.2" x2="353.06" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="48.26" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
+<label x="342.9" y="76.2" size="1.778" layer="255"/>
+<wire x1="322.58" y1="76.2" x2="358.14" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="76.2" x2="358.14" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="48.26" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="48.26" x2="299.72" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="15.24" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="SCL"/>
@@ -16684,15 +16730,33 @@ ORESAT CARD</text>
 <net name="I2C_SDA" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PB11"/>
-<label x="340.36" y="73.66" size="1.778" layer="255"/>
-<wire x1="322.58" y1="73.66" x2="350.52" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="73.66" x2="350.52" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="50.8" x2="297.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="342.9" y="73.66" size="1.778" layer="255"/>
+<wire x1="322.58" y1="73.66" x2="355.6" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="73.66" x2="355.6" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="50.8" x2="297.18" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="50.8" x2="297.18" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="SDA"/>
 <wire x1="132.08" y1="17.78" x2="132.08" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ADDR_0" class="0">
+<segment>
+<pinref part="U100" gate="G$1" pin="PB1"/>
+<pinref part="R102" gate="R" pin="2"/>
+<wire x1="322.58" y1="93.98" x2="375.92" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="93.98" x2="375.92" y2="81.28" width="0.1524" layer="91"/>
+<label x="342.9" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR_1" class="0">
+<segment>
+<pinref part="U100" gate="G$1" pin="PB2"/>
+<wire x1="322.58" y1="91.44" x2="365.76" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R103" gate="R" pin="2"/>
+<wire x1="365.76" y1="91.44" x2="365.76" y2="81.28" width="0.1524" layer="91"/>
+<label x="342.9" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -17362,10 +17426,10 @@ pin to 0.50V.</text>
 <attribute name="VALUE" x="114.3" y="114.3" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME3" gate="G$2" x="327.66" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="340.36" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="414.02" y="1.27" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="97"/>
+<instance part="FRAME3" gate="G$2" x="325.12" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="337.82" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="340.36" y="19.05" size="2.54" layer="97"/>
 </instance>
 <instance part="SUPPLY18" gate="G$1" x="243.84" y="147.32" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="243.84" y="150.114" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
