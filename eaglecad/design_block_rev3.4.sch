@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18202,7 +18202,7 @@ bootloader</text>
 <junction x="327.66" y="205.74"/>
 </segment>
 </net>
-<net name="IOUT" class="0">
+<net name="IOUT_Q_" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IOUT"/>
 <pinref part="R6" gate="R" pin="2"/>
@@ -18577,7 +18577,7 @@ bootloader</text>
 <junction x="91.44" y="144.78"/>
 </segment>
 </net>
-<net name="POUT" class="0">
+<net name="POUT_Q_" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="POUT"/>
 <pinref part="TP6" gate="G$1" pin="1"/>
