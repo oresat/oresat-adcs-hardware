@@ -1,0 +1,19 @@
+ratsnest 	evaluates air wires and floods polygons
+ripup		removes trace route
+ripup @;	removes polygon floods
+route		sets traces (use the space bar to switch layers and use the alt key for fine grid snap)
+group		selects parts to place in a group
+move		move parts around (ctrl+right click to move a selected group)
+copy		copy a feature
+polygon		make an area to flood with copper
+name		set net that a polygon is connected too
+delete		delete polygons
+
+
+design requierments:
+keep parts on the bottom
+minimize top side traces
+stay inside the white lines running down either side of the board
+route everything in 0.3 units of whatever it's currently set to
+route perpendicular on aproach to pads
+leave space for ground vias, VBUS vias, and VBUSP vias
