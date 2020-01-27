@@ -73,258 +73,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="oresat-ACS_driver_board">
-<packages>
-<package name="10-8_STAGGERED-PAD_CARD_SIDE_FLEX_CONN">
-<smd name="SCL2" x="2.5" y="-0.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="GND11" x="2.5" y="0.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="CAN_H2" x="2.5" y="1.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="CAN_L2" x="2.5" y="2.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="VCC6" x="2.5" y="3.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="SDA2" x="2.5" y="-1.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="BOOT2" x="2.5" y="-2.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="MAG12" x="2.5" y="-3.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="GND12" x="2.5" y="-4.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="MAG22" x="2.5" y="-5.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="GND4" x="-0.7" y="0.31" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="CAN_H1" x="-0.7" y="0.93" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="GND3" x="-0.7" y="1.55" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="CAN_L1" x="-0.7" y="2.17" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="GND2" x="-0.7" y="2.79" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="VCC4" x="-0.7" y="3.41" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="VCC3" x="-0.7" y="4.03" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="VCC2" x="-0.7" y="4.65" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="VCC1" x="-0.7" y="5.27" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="GND1" x="-0.7" y="5.89" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="SCL1" x="-0.7" y="-0.31" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="GND5" x="-0.7" y="-0.93" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="SDA1" x="-0.7" y="-1.55" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="GND6" x="-0.7" y="-2.17" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="BOOT1" x="-0.7" y="-2.79" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="GND7" x="-0.7" y="-3.41" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="MAG11" x="-0.7" y="-4.03" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="GND8" x="-0.7" y="-4.65" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="MAG21" x="-0.7" y="-5.27" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="GND9" x="-0.7" y="-5.89" dx="0.4" dy="2" layer="1" rot="R90"/>
-<smd name="VCC5" x="2.5" y="4.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<smd name="GND10" x="2.5" y="5.5" dx="0.6" dy="2" layer="1" rot="R90"/>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="6.09"/>
-<vertex x="1.21" y="6.09"/>
-<vertex x="1.5" y="5.8"/>
-<vertex x="3.5" y="5.8"/>
-<vertex x="3.5" y="5.2"/>
-<vertex x="1.5" y="5.2"/>
-<vertex x="1.01" y="5.69"/>
-<vertex x="-0.19" y="5.69"/>
-<vertex x="-1.7" y="5.69"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="5.07"/>
-<vertex x="-1.7" y="5.47"/>
-<vertex x="0.3" y="5.47"/>
-<vertex x="0.83" y="5.47"/>
-<vertex x="1.5" y="4.8"/>
-<vertex x="3.5" y="4.8"/>
-<vertex x="3.5" y="4.2"/>
-<vertex x="1.5" y="4.2"/>
-<vertex x="1.5" y="3.8"/>
-<vertex x="3.5" y="3.8"/>
-<vertex x="3.5" y="3.2"/>
-<vertex x="1.5" y="3.2"/>
-<vertex x="1.49" y="3.21"/>
-<vertex x="0.3" y="3.21"/>
-<vertex x="-1.7" y="3.21"/>
-<vertex x="-1.7" y="3.61"/>
-<vertex x="0.3" y="3.61"/>
-<vertex x="0.3" y="3.83"/>
-<vertex x="-1.7" y="3.83"/>
-<vertex x="-1.7" y="4.23"/>
-<vertex x="0.3" y="4.23"/>
-<vertex x="0.3" y="4.45"/>
-<vertex x="-1.7" y="4.45"/>
-<vertex x="-1.7" y="4.85"/>
-<vertex x="0.3" y="4.85"/>
-<vertex x="0.3" y="5.07"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="2.37"/>
-<vertex x="0.3" y="2.37"/>
-<vertex x="0.73" y="2.8"/>
-<vertex x="3.5" y="2.8"/>
-<vertex x="3.5" y="2.2"/>
-<vertex x="0.74" y="2.2"/>
-<vertex x="0.51" y="1.97"/>
-<vertex x="-1.7" y="1.97"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="1.13"/>
-<vertex x="0.3" y="1.13"/>
-<vertex x="0.97" y="1.8"/>
-<vertex x="3.5" y="1.8"/>
-<vertex x="3.5" y="1.2"/>
-<vertex x="0.98" y="1.2"/>
-<vertex x="0.51" y="0.73"/>
-<vertex x="-1.7" y="0.73"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="0.51"/>
-<vertex x="0.63" y="0.51"/>
-<vertex x="0.92" y="0.8"/>
-<vertex x="3.5" y="0.8"/>
-<vertex x="3.5" y="0.2"/>
-<vertex x="0.93" y="0.2"/>
-<vertex x="0.84" y="0.11"/>
-<vertex x="-1.7" y="0.11"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="-0.11"/>
-<vertex x="1.41" y="-0.11"/>
-<vertex x="1.5" y="-0.2"/>
-<vertex x="3.5" y="-0.2"/>
-<vertex x="3.5" y="-0.8"/>
-<vertex x="1.49" y="-0.8"/>
-<vertex x="1.31" y="-0.62"/>
-<vertex x="1.2" y="-0.51"/>
-<vertex x="0.15" y="-0.51"/>
-<vertex x="-1.7" y="-0.51"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="-1.35"/>
-<vertex x="1.35" y="-1.35"/>
-<vertex x="1.5" y="-1.2"/>
-<vertex x="3.5" y="-1.2"/>
-<vertex x="3.5" y="-1.8"/>
-<vertex x="1.5" y="-1.8"/>
-<vertex x="1.45" y="-1.75"/>
-<vertex x="-1.7" y="-1.75"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="-2.59"/>
-<vertex x="0.3" y="-2.59"/>
-<vertex x="0.69" y="-2.2"/>
-<vertex x="3.5" y="-2.2"/>
-<vertex x="3.5" y="-2.8"/>
-<vertex x="0.7" y="-2.8"/>
-<vertex x="0.51" y="-2.99"/>
-<vertex x="-1.7" y="-2.99"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="-3.83"/>
-<vertex x="0.3" y="-3.83"/>
-<vertex x="0.93" y="-3.2"/>
-<vertex x="3.5" y="-3.2"/>
-<vertex x="3.5" y="-3.8"/>
-<vertex x="0.94" y="-3.8"/>
-<vertex x="0.51" y="-4.23"/>
-<vertex x="-1.7" y="-4.23"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="-4.45"/>
-<vertex x="0.62" y="-4.45"/>
-<vertex x="0.87" y="-4.2"/>
-<vertex x="3.5" y="-4.2"/>
-<vertex x="3.5" y="-4.8"/>
-<vertex x="0.88" y="-4.8"/>
-<vertex x="0.83" y="-4.85"/>
-<vertex x="-1.7" y="-4.85"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-1.7" y="-5.07"/>
-<vertex x="0.53" y="-5.07"/>
-<vertex x="0.66" y="-5.2"/>
-<vertex x="3.5" y="-5.2"/>
-<vertex x="3.5" y="-5.8"/>
-<vertex x="0.63" y="-5.8"/>
-<vertex x="0.3" y="-5.47"/>
-<vertex x="-1.7" y="-5.47"/>
-</polygon>
-</package>
-<package name="20-PAD_DRIVER_SIDE_FLEX_CONN">
-<smd name="GND1" x="0" y="5.89" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="VCC1" x="0" y="5.27" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="VCC2" x="0" y="4.65" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="VCC3" x="0" y="4.03" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="VCC4" x="0" y="3.41" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="GND2" x="0" y="2.79" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="CAN_L" x="0" y="2.17" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="GND3" x="0" y="1.55" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="CAN_H" x="0" y="0.93" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="GND4" x="0" y="0.31" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="SCL" x="0" y="-0.31" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="GND5" x="0" y="-0.93" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="SDA" x="0" y="-1.55" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="GND6" x="0" y="-2.17" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="BOOT" x="0" y="-2.79" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="GND7" x="0" y="-3.41" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="MAG1" x="0" y="-4.03" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="GND8" x="0" y="-4.65" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="MAG2" x="0" y="-5.27" dx="0.4" dy="3" layer="1" rot="R90"/>
-<smd name="GND9" x="0" y="-5.89" dx="0.4" dy="3" layer="1" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FLEX-BOARD_CONNECTIONS">
-<pin name="VCC" x="0" y="10.16" visible="pin" length="point"/>
-<pin name="CAN_L" x="0" y="7.62" visible="pin" length="point"/>
-<pin name="CAN_H" x="0" y="5.08" visible="pin" length="point"/>
-<pin name="SCL" x="0" y="2.54" visible="pin" length="point"/>
-<pin name="SDA" x="0" y="0" visible="pin" length="point"/>
-<pin name="BOOT" x="0" y="-2.54" visible="pin" length="point"/>
-<pin name="MAG1" x="0" y="-5.08" visible="pin" length="point"/>
-<pin name="MAG2" x="0" y="-7.62" visible="pin" length="point"/>
-<pin name="GND" x="0" y="-10.16" visible="pin" length="point"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FLEX-CARD_CONN">
-<gates>
-<gate name="G$1" symbol="FLEX-BOARD_CONNECTIONS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="10-8_STAGGERED-PAD_CARD_SIDE_FLEX_CONN">
-<connects>
-<connect gate="G$1" pin="BOOT" pad="BOOT1 BOOT2"/>
-<connect gate="G$1" pin="CAN_H" pad="CAN_H1 CAN_H2"/>
-<connect gate="G$1" pin="CAN_L" pad="CAN_L1 CAN_L2"/>
-<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12"/>
-<connect gate="G$1" pin="MAG1" pad="MAG11 MAG12"/>
-<connect gate="G$1" pin="MAG2" pad="MAG21 MAG22"/>
-<connect gate="G$1" pin="SCL" pad="SCL1 SCL2"/>
-<connect gate="G$1" pin="SDA" pad="SDA1 SDA2"/>
-<connect gate="G$1" pin="VCC" pad="VCC1 VCC2 VCC3 VCC4 VCC5 VCC6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FLEX-DRIVER_CONN">
-<gates>
-<gate name="G$1" symbol="FLEX-BOARD_CONNECTIONS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="20-PAD_DRIVER_SIDE_FLEX_CONN">
-<connects>
-<connect gate="G$1" pin="BOOT" pad="BOOT"/>
-<connect gate="G$1" pin="CAN_H" pad="CAN_H"/>
-<connect gate="G$1" pin="CAN_L" pad="CAN_L"/>
-<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9"/>
-<connect gate="G$1" pin="MAG1" pad="MAG1"/>
-<connect gate="G$1" pin="MAG2" pad="MAG2"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VCC" pad="VCC1 VCC2 VCC3 VCC4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames" urn="urn:adsk.eagle:library:229">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -367,6 +115,99 @@ DIN A5, landscape with doc field</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="oresat-ACS_driver_board">
+<packages>
+<package name="MEZZANINE_RECEPTACLE">
+<smd name="P$1" x="-3.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$2" x="-3" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$3" x="-2.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$4" x="-2" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$5" x="-1.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$6" x="-1" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$7" x="-0.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$8" x="0" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$9" x="0.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$10" x="1" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$11" x="1.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$12" x="2" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$13" x="2.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$14" x="3" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$15" x="3.5" y="2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$16" x="3.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$17" x="3" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$18" x="2.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$19" x="2" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$20" x="1.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$21" x="1" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$22" x="0.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$23" x="0" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$24" x="-0.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$25" x="-1" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$26" x="-1.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$27" x="-2" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$28" x="-2.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$29" x="-3" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<smd name="P$30" x="-3.5" y="-2.75" dx="0.3" dy="1" layer="1"/>
+<wire x1="5.05" y1="-2.2" x2="5.05" y2="2.2" width="0.1016" layer="21"/>
+<wire x1="5.05" y1="2.2" x2="4.75" y2="2.5" width="0.1016" layer="21" curve="90"/>
+<wire x1="4.75" y1="2.5" x2="4" y2="2.5" width="0.1016" layer="21"/>
+<wire x1="-4" y1="2.5" x2="-4.75" y2="2.5" width="0.1016" layer="21"/>
+<wire x1="-4.75" y1="2.5" x2="-5.05" y2="2.2" width="0.1016" layer="21" curve="90"/>
+<wire x1="-5.05" y1="2.2" x2="-5.05" y2="-2.2" width="0.1016" layer="21"/>
+<wire x1="-5.05" y1="-2.2" x2="-4.75" y2="-2.5" width="0.1016" layer="21" curve="90"/>
+<wire x1="-4.75" y1="-2.5" x2="-4" y2="-2.5" width="0.1016" layer="21"/>
+<wire x1="4" y1="-2.5" x2="4.75" y2="-2.5" width="0.1016" layer="21"/>
+<wire x1="4.75" y1="-2.5" x2="5.05" y2="-2.2" width="0.1016" layer="21" curve="90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MEZZANINE_RECEPTACLE">
+<pin name="VCC" x="5.08" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="CAN_L" x="5.08" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="CAN_H" x="5.08" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="I2C_SCL" x="5.08" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="I2C_SDA" x="5.08" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="BOOT" x="5.08" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="MAG_1" x="5.08" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="MAG_2" x="5.08" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="5.08" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<wire x1="5.08" y1="15.24" x2="-12.7" y2="15.24" width="0.508" layer="97"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.508" layer="97"/>
+<wire x1="-12.7" y1="-15.24" x2="5.08" y2="-15.24" width="0.508" layer="97"/>
+<text x="-12.7" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="12.7" width="0.508" layer="97"/>
+<wire x1="5.08" y1="12.7" x2="-2.54" y2="12.7" width="0.508" layer="97"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="-12.7" width="0.508" layer="97"/>
+<wire x1="5.08" y1="-12.7" x2="-2.54" y2="-12.7" width="0.508" layer="97"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MEZZANINE_RECEPTACLE">
+<gates>
+<gate name="G$1" symbol="MEZZANINE_RECEPTACLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MEZZANINE_RECEPTACLE">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="P$9 P$22"/>
+<connect gate="G$1" pin="CAN_H" pad="P$6 P$25"/>
+<connect gate="G$1" pin="CAN_L" pad="P$5 P$26"/>
+<connect gate="G$1" pin="GND" pad="P$1 P$2 P$14 P$15 P$16 P$17 P$29 P$30"/>
+<connect gate="G$1" pin="I2C_SCL" pad="P$7 P$24"/>
+<connect gate="G$1" pin="I2C_SDA" pad="P$8 P$23"/>
+<connect gate="G$1" pin="MAG_1" pad="P$10 P$21"/>
+<connect gate="G$1" pin="MAG_2" pad="P$11 P$20"/>
+<connect gate="G$1" pin="VCC" pad="P$3 P$4 P$12 P$13 P$18 P$19 P$27 P$28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -377,21 +218,27 @@ DIN A5, landscape with doc field</description>
 </class>
 </classes>
 <parts>
-<part name="U$2" library="oresat-ACS_driver_board" deviceset="FLEX-CARD_CONN" device=""/>
-<part name="U$3" library="oresat-ACS_driver_board" deviceset="FLEX-DRIVER_CONN" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA5_L" device=""/>
+<part name="U$1" library="oresat-ACS_driver_board" deviceset="MEZZANINE_RECEPTACLE" device=""/>
+<part name="U$2" library="oresat-ACS_driver_board" deviceset="MEZZANINE_RECEPTACLE" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$2" gate="G$1" x="101.6" y="68.58" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="68.58" y="68.58" smashed="yes" rot="MR0"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="140.97" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="140.97" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="154.305" y="5.08" size="2.54" layer="94"/>
+</instance>
+<instance part="U$1" gate="G$1" x="63.5" y="68.58" smashed="yes">
+<attribute name="NAME" x="50.8" y="86.36" size="1.778" layer="95"/>
+<attribute name="VALUE" x="50.8" y="50.8" size="1.778" layer="96"/>
+</instance>
+<instance part="U$2" gate="G$1" x="106.68" y="68.58" smashed="yes" rot="MR0">
+<attribute name="NAME" x="119.38" y="86.36" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="119.38" y="50.8" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -399,65 +246,65 @@ DIN A5, landscape with doc field</description>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="VCC"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
 <wire x1="68.58" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="U$2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="CAN_L"/>
-<pinref part="U$3" gate="G$1" pin="CAN_L"/>
 <wire x1="101.6" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="CAN_L"/>
+<pinref part="U$2" gate="G$1" pin="CAN_L"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="CAN_H"/>
-<pinref part="U$2" gate="G$1" pin="CAN_H"/>
 <wire x1="68.58" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="CAN_H"/>
+<pinref part="U$2" gate="G$1" pin="CAN_H"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="SCL"/>
-<pinref part="U$3" gate="G$1" pin="SCL"/>
 <wire x1="101.6" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="I2C_SCL"/>
+<pinref part="U$2" gate="G$1" pin="I2C_SCL"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="SDA"/>
-<pinref part="U$2" gate="G$1" pin="SDA"/>
 <wire x1="68.58" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="I2C_SDA"/>
+<pinref part="U$2" gate="G$1" pin="I2C_SDA"/>
 </segment>
 </net>
 <net name="BOOT" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="BOOT"/>
-<pinref part="U$3" gate="G$1" pin="BOOT"/>
 <wire x1="101.6" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="BOOT"/>
+<pinref part="U$2" gate="G$1" pin="BOOT"/>
 </segment>
 </net>
 <net name="MAG1" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="MAG1"/>
-<pinref part="U$2" gate="G$1" pin="MAG1"/>
 <wire x1="68.58" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="MAG_1"/>
+<pinref part="U$2" gate="G$1" pin="MAG_1"/>
 </segment>
 </net>
 <net name="MAG2" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="MAG2"/>
-<pinref part="U$3" gate="G$1" pin="MAG2"/>
 <wire x1="101.6" y1="60.96" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="MAG_2"/>
+<pinref part="U$2" gate="G$1" pin="MAG_2"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="68.58" y1="58.42" x2="101.6" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
 </segment>
 </net>
 </nets>
