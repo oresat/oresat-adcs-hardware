@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18021,28 +18021,34 @@ pin to 0.50V.</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,3,233.68,220.98,U400,VS,N$8,,,"/>
-<approved hash="104,2,187.96,200.66,U300,VS,N$7,,,"/>
-<approved hash="104,2,345.44,114.3,U302,VDD3V,3.3V,,,"/>
-<approved hash="104,2,340.36,114.3,U302,VDD,3.3V,,,"/>
-<approved hash="104,2,345.44,76.2,U302,TEST,GND,,,"/>
-<approved hash="104,1,217.17,224.79,U200,VIN,TPS-VIN,,,"/>
-<approved hash="104,1,242.57,224.79,U200,VOUT,3.3V,,,"/>
-<approved hash="104,1,232.41,189.23,U200,PGND,GND,,,"/>
-<approved hash="206,3,254,210.82,OUT1,,,,,"/>
-<approved hash="206,3,254,195.58,OUT1,,,,,"/>
-<approved hash="206,3,254,205.74,OUT2,,,,,"/>
-<approved hash="206,3,254,190.5,OUT2,,,,,"/>
+<approved hash="102,1,92.964,92.71,V_BATT,VBUS,,,,"/>
+<approved hash="102,1,93.98,139.7,V_BATT,VBUS,,,,"/>
+<approved hash="102,2,187.96,218.44,V_BATT,VBUS,,,,"/>
+<approved hash="102,3,180.34,203.2,V_BATT,VBUS,,,,"/>
+<approved hash="104,1,200.66,134.62,X101,SHIELD,GND,,,"/>
+<approved hash="104,1,195.58,60.96,U101,VCC,3.3V,,,"/>
+<approved hash="104,2,142.24,78.74,U302,VDD3V,3.3V,,,"/>
+<approved hash="104,2,137.16,78.74,U302,VDD,3.3V,,,"/>
+<approved hash="104,2,142.24,40.64,U302,TEST,GND,,,"/>
+<approved hash="104,1,207.01,231.14,U200,VIN,VBUS,,,"/>
+<approved hash="104,1,232.41,231.14,U200,VOUT,3.3V,,,"/>
+<approved hash="104,1,222.25,195.58,U200,PGND,GND,,,"/>
+<approved hash="104,3,180.34,182.88,U400,VS,VBUS,,,"/>
+<approved hash="104,2,187.96,200.66,U300,VS,VBUS,,,"/>
+<approved hash="209,1,208.28,43.18,CAN_SHDN,,,,,"/>
+<approved hash="106,1,208.28,43.18,CAN_SHDN,,,,,"/>
+<approved hash="206,3,200.66,172.72,OUT1,,,,,"/>
+<approved hash="206,3,200.66,157.48,OUT1,,,,,"/>
+<approved hash="206,3,200.66,167.64,OUT2,,,,,"/>
+<approved hash="206,3,200.66,152.4,OUT2,,,,,"/>
 <approved hash="206,2,187.96,190.5,SENSE_BLDC,,,,,"/>
 <approved hash="206,2,187.96,175.26,SENSE_BLDC,,,,,"/>
-<approved hash="206,3,254,185.42,SENSE_MAG,,,,,"/>
-<approved hash="206,3,254,200.66,SENSE_MAG,,,,,"/>
+<approved hash="206,3,200.66,162.56,SENSE_MAG,,,,,"/>
+<approved hash="206,3,200.66,147.32,SENSE_MAG,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,3,326.627,211.046,JP401,,,,,"/>
-<approved hash="113,2,386.317,98.0161,JP302,,,,,"/>
-<approved hash="113,2,238.997,194.536,JP301,,,,,"/>
+<approved hash="113,2,256.777,194.536,JP301,,,,,"/>
 </errors>
 </schematic>
 </drawing>
