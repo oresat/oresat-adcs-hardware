@@ -23736,8 +23736,8 @@ by exp-lbrs.ulp</description>
 <sheet>
 <description>Connectors</description>
 <plain>
-<text x="341.63" y="26.67" size="3.81" layer="94">OreSat Proto-Card</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">3.1</text>
+<text x="341.63" y="26.67" size="3.81" layer="94">OreSat ACS Card</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">1.0</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="2.54" size="1.778" layer="97">All caps are 0402 ceramic 10% X5R Vw&gt;=16V unless marked</text>
 <text x="96.52" y="134.62" size="2.54" layer="97" rot="R90">Main OreSat Card Connector</text>
