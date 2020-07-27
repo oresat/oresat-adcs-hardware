@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -179,10 +179,6 @@
 <circle x="6.5" y="4.5" radius="2.5" width="0.1524" layer="39"/>
 <circle x="33.5" y="4.5" radius="2.5" width="0.1524" layer="39"/>
 <circle x="33.5" y="27.5" radius="2.5" width="0.1524" layer="39"/>
-<text x="17.83" y="8.02" size="1" layer="22" font="vector" ratio="10" rot="MR0">ACS Driver
-OreSat 
-Rev 4.2B
-Eric Ruhl</text>
 <rectangle x1="24.5" y1="25.5" x2="32" y2="29.5" layer="21"/>
 <rectangle x1="23.18" y1="20.12" x2="23.45" y2="20.38" layer="29"/>
 <rectangle x1="23.18" y1="19.62" x2="23.45" y2="19.88" layer="29"/>
