@@ -18691,34 +18691,34 @@ Source: www.kingbright.com</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="oresat-ACS_driver_board" deviceset="MEZZANINE_1" device=""/>
-<part name="TP1" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP2" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP3" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP4" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP5" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP6" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP7" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP8" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP9" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP10" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP11" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP12" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP13" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP14" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP15" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP16" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP17" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP18" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP19" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP20" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP21" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP22" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP23" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP24" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP25" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP26" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP28" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP27" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="MAG_CUR" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="BLDC_CUR" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="SPI_CS" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="SPI_SCK" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="SPI_MISO" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="DEBUG_2" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="INUL" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="INVL" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="INWL" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="FAULT" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="ENABLE" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="PWM" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="DEBUG_1" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="ADDR_0" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="ADDR_1" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="DIR" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="STBY_" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="FAULT_" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="ENABLE_" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="I2C_SCL" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="I2C_SDA" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="STBY" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="INUH" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="INVH" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="INWH" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="CAN_TX" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="CAN_SIL" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="CAN_RX" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="TP29" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="TP30" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="TP31" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
@@ -18743,6 +18743,10 @@ Source: www.kingbright.com</description>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="EN" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="VSEL" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="PG" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="FB2" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19071,88 +19075,88 @@ ORESAT CARD</text>
 <attribute name="VALUE" x="398.78" y="58.42" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U$2" gate="G$1" x="83.82" y="40.64" smashed="yes"/>
-<instance part="TP1" gate="G$1" x="332.74" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="137.16" size="1.778" layer="95" rot="R270"/>
+<instance part="MAG_CUR" gate="G$1" x="327.66" y="134.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="134.62" size="1.778" layer="95"/>
 </instance>
-<instance part="TP2" gate="G$1" x="332.74" y="132.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="134.62" size="1.778" layer="95" rot="R270"/>
+<instance part="BLDC_CUR" gate="G$1" x="327.66" y="132.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="132.08" size="1.778" layer="95"/>
 </instance>
-<instance part="TP3" gate="G$1" x="332.74" y="127" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="129.54" size="1.778" layer="95" rot="R270"/>
+<instance part="SPI_CS" gate="G$1" x="327.66" y="127" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="127" size="1.778" layer="95"/>
 </instance>
-<instance part="TP4" gate="G$1" x="332.74" y="124.46" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="127" size="1.778" layer="95" rot="R270"/>
+<instance part="SPI_SCK" gate="G$1" x="327.66" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="124.46" size="1.778" layer="95"/>
 </instance>
-<instance part="TP5" gate="G$1" x="332.74" y="121.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="124.46" size="1.778" layer="95" rot="R270"/>
+<instance part="SPI_MISO" gate="G$1" x="327.66" y="121.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="121.92" size="1.778" layer="95"/>
 </instance>
-<instance part="TP6" gate="G$1" x="332.74" y="119.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="121.92" size="1.778" layer="95" rot="R270"/>
+<instance part="DEBUG_2" gate="G$1" x="327.66" y="119.38" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="119.38" size="1.778" layer="95"/>
 </instance>
-<instance part="TP7" gate="G$1" x="332.74" y="116.84" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="119.38" size="1.778" layer="95" rot="R270"/>
+<instance part="INUL" gate="G$1" x="327.66" y="116.84" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="116.84" size="1.778" layer="95"/>
 </instance>
-<instance part="TP8" gate="G$1" x="332.74" y="114.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="116.84" size="1.778" layer="95" rot="R270"/>
+<instance part="INVL" gate="G$1" x="327.66" y="114.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="114.3" size="1.778" layer="95"/>
 </instance>
-<instance part="TP9" gate="G$1" x="332.74" y="111.76" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="114.3" size="1.778" layer="95" rot="R270"/>
+<instance part="INWL" gate="G$1" x="327.66" y="111.76" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="111.76" size="1.778" layer="95"/>
 </instance>
-<instance part="TP10" gate="G$1" x="332.74" y="109.22" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="111.76" size="1.778" layer="95" rot="R270"/>
+<instance part="FAULT" gate="G$1" x="327.66" y="109.22" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="109.22" size="1.778" layer="95"/>
 </instance>
-<instance part="TP11" gate="G$1" x="332.74" y="106.68" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="109.22" size="1.778" layer="95" rot="R270"/>
+<instance part="ENABLE" gate="G$1" x="327.66" y="106.68" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="106.68" size="1.778" layer="95"/>
 </instance>
-<instance part="TP12" gate="G$1" x="332.74" y="101.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="104.14" size="1.778" layer="95" rot="R270"/>
+<instance part="PWM" gate="G$1" x="327.66" y="101.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="101.6" size="1.778" layer="95"/>
 </instance>
-<instance part="TP13" gate="G$1" x="332.74" y="96.52" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="99.06" size="1.778" layer="95" rot="R270"/>
+<instance part="DEBUG_1" gate="G$1" x="327.66" y="96.52" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="96.52" size="1.778" layer="95"/>
 </instance>
-<instance part="TP14" gate="G$1" x="332.74" y="93.98" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="96.52" size="1.778" layer="95" rot="R270"/>
+<instance part="ADDR_0" gate="G$1" x="327.66" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="93.98" size="1.778" layer="95"/>
 </instance>
-<instance part="TP15" gate="G$1" x="332.74" y="91.44" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="93.98" size="1.778" layer="95" rot="R270"/>
+<instance part="ADDR_1" gate="G$1" x="327.66" y="91.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="91.44" size="1.778" layer="95"/>
 </instance>
-<instance part="TP16" gate="G$1" x="332.74" y="88.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="91.44" size="1.778" layer="95" rot="R270"/>
+<instance part="DIR" gate="G$1" x="327.66" y="88.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="88.9" size="1.778" layer="95"/>
 </instance>
-<instance part="TP17" gate="G$1" x="332.74" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="86.36" size="1.778" layer="95" rot="R270"/>
+<instance part="STBY_" gate="G$1" x="327.66" y="83.82" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="83.82" size="1.778" layer="95"/>
 </instance>
-<instance part="TP18" gate="G$1" x="332.74" y="81.28" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="83.82" size="1.778" layer="95" rot="R270"/>
+<instance part="FAULT_" gate="G$1" x="327.66" y="81.28" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="81.28" size="1.778" layer="95"/>
 </instance>
-<instance part="TP19" gate="G$1" x="332.74" y="78.74" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="81.28" size="1.778" layer="95" rot="R270"/>
+<instance part="ENABLE_" gate="G$1" x="327.66" y="78.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="78.74" size="1.778" layer="95"/>
 </instance>
-<instance part="TP20" gate="G$1" x="332.74" y="76.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="78.74" size="1.778" layer="95" rot="R270"/>
+<instance part="I2C_SCL" gate="G$1" x="327.66" y="76.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="76.2" size="1.778" layer="95"/>
 </instance>
-<instance part="TP21" gate="G$1" x="332.74" y="73.66" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="76.2" size="1.778" layer="95" rot="R270"/>
+<instance part="I2C_SDA" gate="G$1" x="327.66" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="73.66" size="1.778" layer="95"/>
 </instance>
-<instance part="TP22" gate="G$1" x="332.74" y="71.12" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="73.66" size="1.778" layer="95" rot="R270"/>
+<instance part="STBY" gate="G$1" x="327.66" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="71.12" size="1.778" layer="95"/>
 </instance>
-<instance part="TP23" gate="G$1" x="332.74" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="71.12" size="1.778" layer="95" rot="R270"/>
+<instance part="INUH" gate="G$1" x="327.66" y="68.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="68.58" size="1.778" layer="95"/>
 </instance>
-<instance part="TP24" gate="G$1" x="332.74" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="68.58" size="1.778" layer="95" rot="R270"/>
+<instance part="INVH" gate="G$1" x="327.66" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="66.04" size="1.778" layer="95"/>
 </instance>
-<instance part="TP25" gate="G$1" x="332.74" y="63.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="335.28" y="66.04" size="1.778" layer="95" rot="R270"/>
+<instance part="INWH" gate="G$1" x="327.66" y="63.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="330.2" y="63.5" size="1.778" layer="95"/>
 </instance>
-<instance part="TP26" gate="G$1" x="243.84" y="55.88" smashed="yes">
+<instance part="CAN_TX" gate="G$1" x="243.84" y="55.88" smashed="yes">
 <attribute name="NAME" x="241.3" y="58.42" size="1.778" layer="95"/>
 </instance>
-<instance part="TP28" gate="G$1" x="256.54" y="40.64" smashed="yes">
+<instance part="CAN_SIL" gate="G$1" x="256.54" y="40.64" smashed="yes">
 <attribute name="NAME" x="254" y="43.18" size="1.778" layer="95"/>
 </instance>
-<instance part="TP27" gate="G$1" x="248.92" y="50.8" smashed="yes">
+<instance part="CAN_RX" gate="G$1" x="248.92" y="50.8" smashed="yes">
 <attribute name="NAME" x="246.38" y="53.34" size="1.778" layer="95"/>
 </instance>
 <instance part="TP29" gate="G$1" x="254" y="137.16" smashed="yes">
@@ -19236,6 +19240,18 @@ ORESAT CARD</text>
 </instance>
 <instance part="GND59" gate="1" x="334.772" y="205.994" smashed="yes">
 <attribute name="VALUE" x="332.232" y="203.454" size="1.778" layer="96"/>
+</instance>
+<instance part="EN" gate="G$1" x="198.12" y="220.98" smashed="yes">
+<attribute name="NAME" x="200.152" y="219.964" size="1.778" layer="95"/>
+</instance>
+<instance part="VSEL" gate="G$1" x="205.74" y="210.82" smashed="yes">
+<attribute name="NAME" x="201.422" y="211.328" size="1.778" layer="95"/>
+</instance>
+<instance part="PG" gate="G$1" x="236.22" y="218.44" smashed="yes">
+<attribute name="NAME" x="237.49" y="217.424" size="1.778" layer="95"/>
+</instance>
+<instance part="FB2" gate="G$1" x="236.22" y="210.82" smashed="yes">
+<attribute name="NAME" x="237.236" y="210.058" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -19421,7 +19437,7 @@ ORESAT CARD</text>
 <wire x1="243.84" y1="53.34" x2="256.54" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="53.34" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="76.2" x2="276.86" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="TP26" gate="G$1" pin="TP"/>
+<pinref part="CAN_TX" gate="G$1" pin="TP"/>
 <junction x="243.84" y="53.34"/>
 </segment>
 </net>
@@ -19536,21 +19552,21 @@ ORESAT CARD</text>
 <net name="BLDC_INUL" class="0">
 <segment>
 <label x="345.44" y="116.84" size="1.27" layer="95" xref="yes"/>
-<wire x1="345.44" y1="116.84" x2="330.2" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="116.84" x2="325.12" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PA8"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="116.84" x2="322.58" y2="116.84" width="0.1524" layer="91"/>
-<junction x="330.2" y="116.84"/>
+<pinref part="INUL" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="116.84" x2="322.58" y2="116.84" width="0.1524" layer="91"/>
+<junction x="325.12" y="116.84"/>
 </segment>
 </net>
 <net name="BLDC_INWL" class="0">
 <segment>
-<wire x1="322.58" y1="111.76" x2="330.2" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="111.76" x2="325.12" y2="111.76" width="0.1524" layer="91"/>
 <label x="345.44" y="111.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA10"/>
-<pinref part="TP9" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="111.76" x2="345.44" y2="111.76" width="0.1524" layer="91"/>
-<junction x="330.2" y="111.76"/>
+<pinref part="INWL" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="111.76" x2="345.44" y2="111.76" width="0.1524" layer="91"/>
+<junction x="325.12" y="111.76"/>
 </segment>
 </net>
 <net name="CAN_SHDN" class="0">
@@ -19561,12 +19577,12 @@ ORESAT CARD</text>
 </net>
 <net name="BLDC_INVL" class="0">
 <segment>
-<wire x1="322.58" y1="114.3" x2="330.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="114.3" x2="325.12" y2="114.3" width="0.1524" layer="91"/>
 <label x="345.44" y="114.3" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA9"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="114.3" x2="345.44" y2="114.3" width="0.1524" layer="91"/>
-<junction x="330.2" y="114.3"/>
+<pinref part="INVL" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="114.3" x2="345.44" y2="114.3" width="0.1524" layer="91"/>
+<junction x="325.12" y="114.3"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
@@ -19587,168 +19603,168 @@ ORESAT CARD</text>
 <wire x1="256.54" y1="38.1" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="38.1" x2="266.7" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="71.12" x2="276.86" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="TP28" gate="G$1" pin="TP"/>
+<pinref part="CAN_SIL" gate="G$1" pin="TP"/>
 <junction x="256.54" y="38.1"/>
 </segment>
 </net>
 <net name="MAG_CURR_FDB" class="0">
 <segment>
-<wire x1="345.44" y1="134.62" x2="330.2" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="134.62" x2="325.12" y2="134.62" width="0.1524" layer="91"/>
 <label x="345.44" y="134.62" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA0"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="134.62" x2="322.58" y2="134.62" width="0.1524" layer="91"/>
-<junction x="330.2" y="134.62"/>
+<pinref part="MAG_CUR" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="134.62" x2="322.58" y2="134.62" width="0.1524" layer="91"/>
+<junction x="325.12" y="134.62"/>
 </segment>
 </net>
 <net name="BLDC_CURR_FDB" class="0">
 <segment>
-<wire x1="345.44" y1="132.08" x2="330.2" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
 <label x="345.44" y="132.08" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA1"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="132.08" x2="322.58" y2="132.08" width="0.1524" layer="91"/>
-<junction x="330.2" y="132.08"/>
+<pinref part="BLDC_CUR" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="132.08" x2="322.58" y2="132.08" width="0.1524" layer="91"/>
+<junction x="325.12" y="132.08"/>
 </segment>
 </net>
 <net name="SPI1_CS" class="0">
 <segment>
 <label x="345.44" y="127" size="1.27" layer="95" xref="yes"/>
-<wire x1="345.44" y1="127" x2="330.2" y2="127" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="127" x2="325.12" y2="127" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PA4"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="127" x2="322.58" y2="127" width="0.1524" layer="91"/>
-<junction x="330.2" y="127"/>
+<pinref part="SPI_CS" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="127" x2="322.58" y2="127" width="0.1524" layer="91"/>
+<junction x="325.12" y="127"/>
 </segment>
 </net>
 <net name="SPI1_SCK" class="0">
 <segment>
-<wire x1="345.44" y1="124.46" x2="330.2" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="124.46" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
 <label x="345.44" y="124.46" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA5"/>
-<pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="124.46" x2="322.58" y2="124.46" width="0.1524" layer="91"/>
-<junction x="330.2" y="124.46"/>
+<pinref part="SPI_SCK" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="124.46" x2="322.58" y2="124.46" width="0.1524" layer="91"/>
+<junction x="325.12" y="124.46"/>
 </segment>
 </net>
 <net name="SPI1_MISO" class="0">
 <segment>
-<wire x1="322.58" y1="121.92" x2="330.2" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="121.92" x2="325.12" y2="121.92" width="0.1524" layer="91"/>
 <label x="345.44" y="121.92" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA6"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="121.92" x2="345.44" y2="121.92" width="0.1524" layer="91"/>
-<junction x="330.2" y="121.92"/>
+<pinref part="SPI_MISO" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="121.92" x2="345.44" y2="121.92" width="0.1524" layer="91"/>
+<junction x="325.12" y="121.92"/>
 </segment>
 </net>
 <net name="MAG_FAULT" class="0">
 <segment>
-<wire x1="322.58" y1="81.28" x2="330.2" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="81.28" x2="325.12" y2="81.28" width="0.1524" layer="91"/>
 <label x="345.44" y="81.28" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PB8"/>
-<pinref part="TP18" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="81.28" x2="345.44" y2="81.28" width="0.1524" layer="91"/>
-<junction x="330.2" y="81.28"/>
+<pinref part="FAULT_" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="81.28" x2="345.44" y2="81.28" width="0.1524" layer="91"/>
+<junction x="325.12" y="81.28"/>
 </segment>
 </net>
 <net name="MAG_EN" class="0">
 <segment>
-<wire x1="322.58" y1="78.74" x2="330.2" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="78.74" x2="325.12" y2="78.74" width="0.1524" layer="91"/>
 <label x="345.44" y="78.74" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PB9"/>
-<pinref part="TP19" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="78.74" x2="345.44" y2="78.74" width="0.1524" layer="91"/>
-<junction x="330.2" y="78.74"/>
+<pinref part="ENABLE_" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="78.74" x2="345.44" y2="78.74" width="0.1524" layer="91"/>
+<junction x="325.12" y="78.74"/>
 </segment>
 </net>
 <net name="MAG_STBY" class="0">
 <segment>
-<wire x1="322.58" y1="83.82" x2="330.2" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="83.82" x2="325.12" y2="83.82" width="0.1524" layer="91"/>
 <label x="345.44" y="83.82" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PB7"/>
-<pinref part="TP17" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="83.82" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
-<junction x="330.2" y="83.82"/>
+<pinref part="STBY_" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="83.82" x2="345.44" y2="83.82" width="0.1524" layer="91"/>
+<junction x="325.12" y="83.82"/>
 </segment>
 </net>
 <net name="MAG_DIR" class="0">
 <segment>
-<wire x1="322.58" y1="88.9" x2="330.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="88.9" x2="325.12" y2="88.9" width="0.1524" layer="91"/>
 <label x="345.44" y="88.9" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PB3"/>
-<pinref part="TP16" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="88.9" x2="345.44" y2="88.9" width="0.1524" layer="91"/>
-<junction x="330.2" y="88.9"/>
+<pinref part="DIR" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="88.9" x2="345.44" y2="88.9" width="0.1524" layer="91"/>
+<junction x="325.12" y="88.9"/>
 </segment>
 </net>
 <net name="MAG_PWM" class="0">
 <segment>
-<wire x1="322.58" y1="101.6" x2="330.2" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="101.6" x2="325.12" y2="101.6" width="0.1524" layer="91"/>
 <label x="345.44" y="101.6" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA15"/>
-<pinref part="TP12" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="101.6" x2="345.44" y2="101.6" width="0.1524" layer="91"/>
-<junction x="330.2" y="101.6"/>
+<pinref part="PWM" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="101.6" x2="345.44" y2="101.6" width="0.1524" layer="91"/>
+<junction x="325.12" y="101.6"/>
 </segment>
 </net>
 <net name="BLDC_INUH" class="0">
 <segment>
 <label x="345.44" y="68.58" size="1.27" layer="95" xref="yes"/>
-<wire x1="345.44" y1="68.58" x2="330.2" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="68.58" x2="325.12" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PB13"/>
-<pinref part="TP23" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="68.58" x2="322.58" y2="68.58" width="0.1524" layer="91"/>
-<junction x="330.2" y="68.58"/>
+<pinref part="INUH" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="68.58" x2="322.58" y2="68.58" width="0.1524" layer="91"/>
+<junction x="325.12" y="68.58"/>
 </segment>
 </net>
 <net name="BLDC_INVH" class="0">
 <segment>
 <label x="345.44" y="66.04" size="1.27" layer="95" xref="yes"/>
-<wire x1="345.44" y1="66.04" x2="330.2" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="66.04" x2="325.12" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PB14"/>
-<pinref part="TP24" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="66.04" x2="322.58" y2="66.04" width="0.1524" layer="91"/>
-<junction x="330.2" y="66.04"/>
+<pinref part="INVH" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="66.04" x2="322.58" y2="66.04" width="0.1524" layer="91"/>
+<junction x="325.12" y="66.04"/>
 </segment>
 </net>
 <net name="BLDC_INWH" class="0">
 <segment>
 <label x="345.44" y="63.5" size="1.27" layer="95" xref="yes"/>
-<wire x1="345.44" y1="63.5" x2="330.2" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="63.5" x2="325.12" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PB15"/>
-<pinref part="TP25" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="63.5" x2="322.58" y2="63.5" width="0.1524" layer="91"/>
-<junction x="330.2" y="63.5"/>
+<pinref part="INWH" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="63.5" x2="322.58" y2="63.5" width="0.1524" layer="91"/>
+<junction x="325.12" y="63.5"/>
 </segment>
 </net>
 <net name="BLDC_EN" class="0">
 <segment>
-<wire x1="322.58" y1="106.68" x2="330.2" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="106.68" x2="325.12" y2="106.68" width="0.1524" layer="91"/>
 <label x="345.44" y="106.68" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA12"/>
-<pinref part="TP11" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="106.68" x2="345.44" y2="106.68" width="0.1524" layer="91"/>
-<junction x="330.2" y="106.68"/>
+<pinref part="ENABLE" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="106.68" x2="345.44" y2="106.68" width="0.1524" layer="91"/>
+<junction x="325.12" y="106.68"/>
 </segment>
 </net>
 <net name="BLDC_FAULT" class="0">
 <segment>
-<wire x1="345.44" y1="109.22" x2="330.2" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="109.22" x2="325.12" y2="109.22" width="0.1524" layer="91"/>
 <label x="345.44" y="109.22" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PA11"/>
-<pinref part="TP10" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="109.22" x2="322.58" y2="109.22" width="0.1524" layer="91"/>
-<junction x="330.2" y="109.22"/>
+<pinref part="FAULT" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="109.22" x2="322.58" y2="109.22" width="0.1524" layer="91"/>
+<junction x="325.12" y="109.22"/>
 </segment>
 </net>
 <net name="BLDC_STBY" class="0">
 <segment>
-<wire x1="322.58" y1="71.12" x2="330.2" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="71.12" x2="325.12" y2="71.12" width="0.1524" layer="91"/>
 <label x="345.44" y="71.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="U100" gate="G$1" pin="PB12"/>
-<pinref part="TP22" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="71.12" x2="345.44" y2="71.12" width="0.1524" layer="91"/>
-<junction x="330.2" y="71.12"/>
+<pinref part="STBY" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="71.12" x2="345.44" y2="71.12" width="0.1524" layer="91"/>
+<junction x="325.12" y="71.12"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -19798,10 +19814,13 @@ ORESAT CARD</text>
 <pinref part="U200" gate="G$1" pin="PS/SYNC"/>
 <wire x1="207.01" y1="220.98" x2="207.01" y2="218.44" width="0.1524" layer="91"/>
 <junction x="207.01" y="218.44"/>
-<wire x1="207.01" y1="218.44" x2="187.96" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="218.44" x2="198.12" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="R202" gate="R" pin="2"/>
+<wire x1="198.12" y1="218.44" x2="187.96" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="215.9" x2="187.96" y2="218.44" width="0.1524" layer="91"/>
 <junction x="187.96" y="218.44"/>
+<pinref part="EN" gate="G$1" pin="TP"/>
+<junction x="198.12" y="218.44"/>
 </segment>
 </net>
 <net name="TPS-VAUX2" class="0">
@@ -19818,19 +19837,22 @@ ORESAT CARD</text>
 <pinref part="R205" gate="R" pin="2"/>
 <wire x1="246.38" y1="219.71" x2="246.38" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="218.44" x2="246.38" y2="217.17" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="218.44" x2="240.03" y2="218.44" width="0.1524" layer="91"/>
-<wire x1="240.03" y1="218.44" x2="240.03" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="218.44" x2="242.57" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="218.44" x2="242.57" y2="220.98" width="0.1524" layer="91"/>
 <junction x="246.38" y="218.44"/>
 <pinref part="U200" gate="G$1" pin="FB"/>
-<wire x1="240.03" y1="220.98" x2="232.41" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="220.98" x2="232.41" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TPS-VSEL2" class="0">
 <segment>
 <pinref part="U200" gate="G$1" pin="VSEL"/>
-<wire x1="207.01" y1="208.28" x2="204.47" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="208.28" x2="205.74" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R203" gate="R" pin="2"/>
+<wire x1="205.74" y1="208.28" x2="204.47" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="204.47" y1="205.74" x2="204.47" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="VSEL" gate="G$1" pin="TP"/>
+<junction x="205.74" y="208.28"/>
 </segment>
 </net>
 <net name="TPS-L5" class="0">
@@ -19899,7 +19921,7 @@ ORESAT CARD</text>
 <wire x1="261.62" y1="48.26" x2="261.62" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="73.66" x2="276.86" y2="73.66" width="0.1524" layer="91"/>
 <label x="276.86" y="73.66" size="1.778" layer="95" rot="MR0"/>
-<pinref part="TP27" gate="G$1" pin="TP"/>
+<pinref part="CAN_RX" gate="G$1" pin="TP"/>
 <junction x="248.92" y="48.26"/>
 </segment>
 </net>
@@ -19959,10 +19981,10 @@ ORESAT CARD</text>
 <wire x1="378.46" y1="119.38" x2="378.46" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U100" gate="G$1" pin="PA7"/>
-<wire x1="378.46" y1="119.38" x2="330.2" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="TP6" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="119.38" x2="322.58" y2="119.38" width="0.1524" layer="91"/>
-<junction x="330.2" y="119.38"/>
+<wire x1="378.46" y1="119.38" x2="325.12" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="DEBUG_2" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="119.38" x2="322.58" y2="119.38" width="0.1524" layer="91"/>
+<junction x="325.12" y="119.38"/>
 <wire x1="121.92" y1="162.56" x2="121.92" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
 <pinref part="DEBUG1" gate="G$1" pin="2"/>
@@ -19978,10 +20000,10 @@ ORESAT CARD</text>
 <wire x1="381" y1="167.64" x2="381" y2="96.52" width="0.1524" layer="91"/>
 <label x="363.22" y="96.52" size="1.778" layer="95"/>
 <pinref part="U100" gate="G$1" pin="PB0"/>
-<wire x1="381" y1="96.52" x2="330.2" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="TP13" gate="G$1" pin="TP"/>
-<wire x1="330.2" y1="96.52" x2="322.58" y2="96.52" width="0.1524" layer="91"/>
-<junction x="330.2" y="96.52"/>
+<wire x1="381" y1="96.52" x2="325.12" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="DEBUG_1" gate="G$1" pin="TP"/>
+<wire x1="325.12" y1="96.52" x2="322.58" y2="96.52" width="0.1524" layer="91"/>
+<junction x="325.12" y="96.52"/>
 <wire x1="124.46" y1="167.64" x2="124.46" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="58.42" y1="175.26" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
@@ -19996,8 +20018,8 @@ ORESAT CARD</text>
 <segment>
 <pinref part="U100" gate="G$1" pin="PB10"/>
 <label x="363.22" y="76.2" size="1.778" layer="255"/>
-<wire x1="322.58" y1="76.2" x2="330.2" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="76.2" x2="378.46" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="76.2" x2="325.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="76.2" x2="378.46" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="76.2" x2="378.46" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="378.46" y1="48.26" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="48.26" x2="299.72" y2="15.24" width="0.1524" layer="91"/>
@@ -20005,16 +20027,16 @@ ORESAT CARD</text>
 <wire x1="129.54" y1="15.24" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="I2C_SCL"/>
-<pinref part="TP20" gate="G$1" pin="TP"/>
-<junction x="330.2" y="76.2"/>
+<pinref part="I2C_SCL" gate="G$1" pin="TP"/>
+<junction x="325.12" y="76.2"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PB11"/>
 <label x="363.22" y="73.66" size="1.778" layer="255"/>
-<wire x1="322.58" y1="73.66" x2="330.2" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="73.66" x2="375.92" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="73.66" x2="325.12" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="73.66" x2="375.92" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="73.66" x2="375.92" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="375.92" y1="50.8" x2="297.18" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="50.8" x2="297.18" y2="17.78" width="0.1524" layer="91"/>
@@ -20022,32 +20044,32 @@ ORESAT CARD</text>
 <wire x1="132.08" y1="17.78" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="I2C_SDA"/>
-<pinref part="TP21" gate="G$1" pin="TP"/>
-<junction x="330.2" y="73.66"/>
+<pinref part="I2C_SDA" gate="G$1" pin="TP"/>
+<junction x="325.12" y="73.66"/>
 </segment>
 </net>
 <net name="ADDR_0" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PB1"/>
 <pinref part="R102" gate="R" pin="2"/>
-<wire x1="322.58" y1="93.98" x2="330.2" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="93.98" x2="396.24" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="93.98" x2="325.12" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="93.98" x2="396.24" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="93.98" x2="396.24" y2="81.28" width="0.1524" layer="91"/>
 <label x="363.22" y="93.98" size="1.778" layer="95"/>
-<pinref part="TP14" gate="G$1" pin="TP"/>
-<junction x="330.2" y="93.98"/>
+<pinref part="ADDR_0" gate="G$1" pin="TP"/>
+<junction x="325.12" y="93.98"/>
 </segment>
 </net>
 <net name="ADDR_1" class="0">
 <segment>
 <pinref part="U100" gate="G$1" pin="PB2"/>
-<wire x1="322.58" y1="91.44" x2="330.2" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="91.44" x2="325.12" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R103" gate="R" pin="2"/>
-<wire x1="330.2" y1="91.44" x2="386.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="91.44" x2="386.08" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="91.44" x2="386.08" y2="81.28" width="0.1524" layer="91"/>
 <label x="363.22" y="91.44" size="1.778" layer="95"/>
-<pinref part="TP15" gate="G$1" pin="TP"/>
-<junction x="330.2" y="91.44"/>
+<pinref part="ADDR_1" gate="G$1" pin="TP"/>
+<junction x="325.12" y="91.44"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -20076,6 +20098,20 @@ ORESAT CARD</text>
 <pinref part="LED8" gate="G$1" pin="C"/>
 <pinref part="R8" gate="R" pin="2"/>
 <wire x1="334.772" y1="221.234" x2="334.772" y2="218.694" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="FB2" class="0">
+<segment>
+<pinref part="U200" gate="G$1" pin="FB2"/>
+<pinref part="FB2" gate="G$1" pin="TP"/>
+<wire x1="232.41" y1="208.28" x2="236.22" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PG" class="0">
+<segment>
+<pinref part="U200" gate="G$1" pin="PG"/>
+<pinref part="PG" gate="G$1" pin="TP"/>
+<wire x1="232.41" y1="215.9" x2="236.22" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
