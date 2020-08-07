@@ -6258,6 +6258,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="19,16,6f306e24662c6738"/>
 <approved hash="19,16,ed4dee15ce1dcd45"/>
 <approved hash="19,16,51b052145a1c59b8"/>
+<approved hash="19,16,6fc86e27e62fe7c0"/>
+<approved hash="19,16,f7cdf624fe2cffc5"/>
+<approved hash="19,16,93ca9225722d73c2"/>
+<approved hash="19,16,ad4aae154e1d4d42"/>
+<approved hash="19,16,fccff852ca5acec7"/>
+<approved hash="19,16,3d5b3c994c914d53"/>
+<approved hash="19,16,93c89222722a73c0"/>
+<approved hash="19,16,324c334043484244"/>
+<approved hash="19,16,bb42ba414049414a"/>
+<approved hash="19,16,ac44a846484e4c4c"/>
+<approved hash="19,16,c841cc40c448c049"/>
+<approved hash="19,16,51485217da1fd940"/>
 </errors>
 </board>
 </drawing>
