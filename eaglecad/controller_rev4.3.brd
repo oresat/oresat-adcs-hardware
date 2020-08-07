@@ -225,6 +225,10 @@ Eric Ruhl</text>
 <circle x="26.26" y="22.84" radius="0.113134375" width="0.254" layer="29"/>
 <circle x="26.72" y="23.32" radius="0.113134375" width="0.254" layer="29"/>
 <circle x="26.72" y="23.32" radius="0.113134375" width="0.254" layer="30"/>
+<circle x="14.03" y="21.54" radius="0.111803125" width="0.25" layer="30"/>
+<circle x="14.35" y="21.05" radius="0.1063" width="0.25" layer="30"/>
+<circle x="14.822" y="22.02" radius="0.107703125" width="0.25" layer="30"/>
+<circle x="14.4" y="23.17" radius="0.1063" width="0.25" layer="30"/>
 </plain>
 <libraries>
 <library name="rcl_custom">
