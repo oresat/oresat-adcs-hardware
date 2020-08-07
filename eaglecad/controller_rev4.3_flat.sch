@@ -19238,9 +19238,9 @@ CLX6E-FKC-CH1M1D1BB7C3D3CT-ND</description>
 <part name="CAN_TX" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="CAN_SIL" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="CAN_RX" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP29" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP30" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
-<part name="TP31" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="3.3V_C" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="3.3V_A" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
+<part name="3.3V_B" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="SWD1" library="J-CNC-3220-10-0100-00-ARM-SWD-port" deviceset="1.27MM-SWD-CONNECTOR" device=""/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="6_PIN_SERIAL_TARGET" device="SILK" package3d_urn="urn:adsk.eagle:package:37995/1"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="3.3V"/>
@@ -19698,14 +19698,14 @@ ORESAT CARD</text>
 <instance part="CAN_RX" gate="G$1" x="248.92" y="50.8" smashed="yes">
 <attribute name="NAME" x="246.38" y="53.34" size="1.778" layer="95"/>
 </instance>
-<instance part="TP29" gate="G$1" x="251.46" y="137.16" smashed="yes">
-<attribute name="NAME" x="248.92" y="139.7" size="1.778" layer="95"/>
+<instance part="3.3V_C" gate="G$1" x="271.78" y="137.16" smashed="yes">
+<attribute name="NAME" x="271.78" y="139.7" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="TP30" gate="G$1" x="261.62" y="137.16" smashed="yes">
-<attribute name="NAME" x="259.08" y="139.7" size="1.778" layer="95"/>
+<instance part="3.3V_A" gate="G$1" x="251.46" y="137.16" smashed="yes">
+<attribute name="NAME" x="251.46" y="139.7" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="TP31" gate="G$1" x="271.78" y="137.16" smashed="yes">
-<attribute name="NAME" x="269.24" y="139.7" size="1.778" layer="95"/>
+<instance part="3.3V_B" gate="G$1" x="261.62" y="137.16" smashed="yes">
+<attribute name="NAME" x="261.62" y="139.7" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="SWD1" gate="J" x="119.38" y="83.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="125.73" y="102.235" size="1.778" layer="95" rot="MR0"/>
@@ -20105,12 +20105,12 @@ ORESAT CARD</text>
 <wire x1="276.86" y1="127" x2="274.32" y2="127" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="127" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
 <junction x="274.32" y="132.08"/>
-<wire x1="274.32" y1="134.62" x2="271.78" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="134.62" x2="261.62" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-<wire x1="271.78" y1="134.62" x2="261.62" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="134.62" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="134.62" x2="251.46" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="134.62" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="134.62" x2="251.46" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="134.62" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="134.62" x2="271.78" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="134.62" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="134.62" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="139.7" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C101" gate="CE" pin="1"/>
@@ -20122,12 +20122,12 @@ ORESAT CARD</text>
 <pinref part="C103" gate="CE" pin="1"/>
 <wire x1="259.08" y1="132.08" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
 <junction x="259.08" y="134.62"/>
-<pinref part="TP29" gate="G$1" pin="TP"/>
-<junction x="251.46" y="134.62"/>
-<pinref part="TP30" gate="G$1" pin="TP"/>
-<junction x="261.62" y="134.62"/>
-<pinref part="TP31" gate="G$1" pin="TP"/>
+<pinref part="3.3V_C" gate="G$1" pin="TP"/>
 <junction x="271.78" y="134.62"/>
+<pinref part="3.3V_A" gate="G$1" pin="TP"/>
+<junction x="251.46" y="134.62"/>
+<pinref part="3.3V_B" gate="G$1" pin="TP"/>
+<junction x="261.62" y="134.62"/>
 </segment>
 <segment>
 <pinref part="U101" gate="G$1" pin="VCC"/>
