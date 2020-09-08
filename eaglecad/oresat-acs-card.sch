@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -24006,6 +24006,22 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.1" device="-NO-RF"/>
+<part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+</part>
+<part name="R13" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -24033,9 +24049,6 @@ by exp-lbrs.ulp</description>
 <wire x1="106.68" y1="121.92" x2="107.95" y2="121.92" width="0.1524" layer="97"/>
 <wire x1="107.95" y1="121.92" x2="107.95" y2="119.38" width="0.1524" layer="97"/>
 <wire x1="107.95" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="97"/>
-<wire x1="106.68" y1="203.2" x2="107.95" y2="203.2" width="0.1524" layer="97"/>
-<wire x1="107.95" y1="203.2" x2="107.95" y2="200.66" width="0.1524" layer="97"/>
-<wire x1="107.95" y1="200.66" x2="106.68" y2="200.66" width="0.1524" layer="97"/>
 <wire x1="106.68" y1="187.96" x2="107.95" y2="187.96" width="0.1524" layer="97"/>
 <wire x1="107.95" y1="187.96" x2="107.95" y2="185.42" width="0.1524" layer="97"/>
 <wire x1="107.95" y1="185.42" x2="106.68" y2="185.42" width="0.1524" layer="97"/>
@@ -24044,7 +24057,6 @@ by exp-lbrs.ulp</description>
 <wire x1="107.95" y1="180.34" x2="106.68" y2="180.34" width="0.1524" layer="97"/>
 <text x="109.22" y="180.34" size="1.778" layer="97">SPARE: Not used</text>
 <text x="109.22" y="185.42" size="1.778" layer="97">SPARE: Not used</text>
-<text x="109.22" y="200.66" size="1.778" layer="97">SPARE: Not used</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -24491,19 +24503,25 @@ by exp-lbrs.ulp</description>
 <net name="MAG_SCL" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="4"/>
-<wire x1="101.6" y1="195.58" x2="127" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="127" y1="195.58" x2="127" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="127" y1="198.12" x2="128.27" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="195.58" x2="107.95" y2="195.58" width="0.1524" layer="91"/>
 <label x="128.27" y="198.12" size="2.54" layer="95" xref="yes"/>
+<pinref part="J6" gate="G$1" pin="3"/>
+<wire x1="128.27" y1="198.12" x2="107.95" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="198.12" x2="101.6" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="195.58" x2="107.95" y2="198.12" width="0.1524" layer="91"/>
+<junction x="107.95" y="198.12"/>
 </segment>
 </net>
 <net name="MAG_SDA" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="3"/>
-<wire x1="101.6" y1="198.12" x2="125.73" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="125.73" y1="198.12" x2="125.73" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="125.73" y1="203.2" x2="128.27" y2="203.2" width="0.1524" layer="91"/>
 <label x="128.27" y="203.2" size="2.54" layer="95" xref="yes"/>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="128.27" y1="203.2" x2="107.95" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="107.95" y1="203.2" x2="101.6" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="200.66" x2="107.95" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="200.66" x2="107.95" y2="203.2" width="0.1524" layer="91"/>
+<junction x="107.95" y="203.2"/>
 </segment>
 </net>
 </nets>
@@ -31139,10 +31157,10 @@ bootloader</text>
 <description>Sensors</description>
 <plain>
 <wire x1="167.64" y1="143.51" x2="167.64" y2="196.85" width="0.1524" layer="97"/>
-<wire x1="167.64" y1="196.85" x2="74.93" y2="196.85" width="0.1524" layer="97"/>
-<wire x1="74.93" y1="196.85" x2="74.93" y2="143.51" width="0.1524" layer="97"/>
-<wire x1="74.93" y1="143.51" x2="167.64" y2="143.51" width="0.1524" layer="97"/>
-<text x="77.47" y="186.69" size="2.54" layer="97">Magnetometer
+<wire x1="167.64" y1="196.85" x2="66.04" y2="196.85" width="0.1524" layer="97"/>
+<wire x1="66.04" y1="196.85" x2="66.04" y2="143.51" width="0.1524" layer="97"/>
+<wire x1="66.04" y1="143.51" x2="167.64" y2="143.51" width="0.1524" layer="97"/>
+<text x="68.58" y="186.69" size="2.54" layer="97">Magnetometer
 I2C Buffer</text>
 <wire x1="52.07" y1="128.27" x2="167.64" y2="128.27" width="0.1524" layer="97"/>
 <wire x1="167.64" y1="128.27" x2="167.64" y2="68.58" width="0.1524" layer="97"/>
@@ -31263,6 +31281,14 @@ Limited to 50mA by R2</text>
 <instance part="GND13" gate="1" x="213.36" y="151.13" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="215.9" y="148.59" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="R6" gate="R" x="93.98" y="185.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="95.25" y="179.07" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="95.25" y="185.42" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="R13" gate="R" x="100.33" y="185.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="101.6" y="179.07" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="101.6" y="185.42" size="1.778" layer="96" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31343,6 +31369,11 @@ Limited to 50mA by R2</text>
 <wire x1="106.68" y1="190.5" x2="142.24" y2="190.5" width="0.1524" layer="91"/>
 <junction x="106.68" y="190.5"/>
 <pinref part="R10" gate="R" pin="1"/>
+<pinref part="R13" gate="R" pin="1"/>
+<wire x1="100.33" y1="190.5" x2="106.68" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="R6" gate="R" pin="1"/>
+<wire x1="93.98" y1="190.5" x2="100.33" y2="190.5" width="0.1524" layer="91"/>
+<junction x="100.33" y="190.5"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
@@ -31389,15 +31420,23 @@ Limited to 50mA by R2</text>
 <net name="MAG_SDA" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SDAIN"/>
-<wire x1="110.49" y1="167.64" x2="99.06" y2="167.64" width="0.1524" layer="91"/>
-<label x="99.06" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="110.49" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
+<label x="87.63" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R6" gate="R" pin="2"/>
+<wire x1="92.71" y1="167.64" x2="87.63" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="167.64" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MAG_SCL" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SCLIN"/>
 <wire x1="110.49" y1="162.56" x2="100.33" y2="162.56" width="0.1524" layer="91"/>
-<label x="100.33" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="87.63" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R13" gate="R" pin="2"/>
+<wire x1="100.33" y1="162.56" x2="87.63" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="162.56" x2="100.33" y2="180.34" width="0.1524" layer="91"/>
+<junction x="100.33" y="162.56"/>
 </segment>
 </net>
 <net name="MAG_READY" class="0">
