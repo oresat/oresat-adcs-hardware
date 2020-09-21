@@ -17610,6 +17610,24 @@ by exp-lbrs.ulp</description>
 <junction x="107.95" y="203.2"/>
 </segment>
 </net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="10"/>
+<wire x1="101.6" y1="180.34" x2="107.95" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="180.34" x2="107.95" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="9"/>
+<wire x1="107.95" y1="182.88" x2="101.6" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="8"/>
+<wire x1="101.6" y1="185.42" x2="107.95" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="185.42" x2="107.95" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="7"/>
+<wire x1="107.95" y1="187.96" x2="101.6" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>

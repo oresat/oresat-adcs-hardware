@@ -7977,7 +7977,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="25.2" y="63.7" extent="1-16" drill="0.254"/>
 <via x="12.8" y="75.3" extent="1-16" drill="0.254"/>
 <via x="18.1" y="74.1" extent="1-16" drill="0.254"/>
-<via x="13.9" y="53.8" extent="1-16" drill="0.254"/>
+<via x="13.4" y="53.7" extent="1-16" drill="0.254"/>
 <via x="26.4" y="76.7" extent="1-16" drill="0.254"/>
 <via x="10.8" y="68.2" extent="1-16" drill="0.254"/>
 <via x="10" y="80.2" extent="1-16" drill="0.254"/>
@@ -8002,8 +8002,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="31.6" y="57.9" extent="1-16" drill="0.254"/>
 <via x="32.7" y="61.7" extent="1-16" drill="0.254"/>
 <via x="29" y="56.3" extent="1-16" drill="0.254"/>
-<via x="36.4" y="57.6" extent="1-16" drill="0.254"/>
-<via x="42.2" y="57.6" extent="1-16" drill="0.254"/>
+<via x="37.1" y="59.1" extent="1-16" drill="0.254"/>
+<via x="41.5" y="59.1" extent="1-16" drill="0.254"/>
 <via x="41.5" y="62.4" extent="1-16" drill="0.254"/>
 <via x="43.7" y="62.4" extent="1-16" drill="0.254"/>
 <via x="36.7" y="68.5" extent="1-16" drill="0.254"/>
@@ -8038,7 +8038,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="25.2" y="83.5" extent="1-16" drill="0.254"/>
 <via x="14.3" y="82.8" extent="1-16" drill="0.254"/>
 <via x="24.3" y="60.2" extent="1-16" drill="0.254"/>
-<via x="26.2" y="53.7" extent="1-16" drill="0.254"/>
+<via x="22.3" y="53.7" extent="1-16" drill="0.254"/>
 <via x="19.8" y="63.4" extent="1-16" drill="0.254"/>
 <via x="40.1" y="68.7" extent="1-16" drill="0.254"/>
 <via x="39.1" y="71.4" extent="1-16" drill="0.254"/>
@@ -8086,6 +8086,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="79.9" y="69.3" extent="1-16" drill="0.254"/>
 <via x="70.9" y="64.1" extent="1-16" drill="0.254"/>
 <via x="82.4" y="80.7" extent="1-16" drill="0.254"/>
+<via x="15" y="54.3" extent="1-16" drill="0.254"/>
+<via x="20.1" y="55.2" extent="1-16" drill="0.254"/>
+<via x="24.5" y="55.2" extent="1-16" drill="0.254"/>
+<via x="58.6" y="59.7" extent="1-16" drill="0.254"/>
+<via x="63.7" y="60.7" extent="1-16" drill="0.254"/>
+<via x="68.1" y="60.7" extent="1-16" drill="0.254"/>
+<via x="65.1" y="57.7" extent="1-16" drill="0.254"/>
+<via x="76.7" y="52.8" extent="1-16" drill="0.254"/>
+<via x="82.6" y="52.8" extent="1-16" drill="0.254"/>
+<via x="87" y="52.8" extent="1-16" drill="0.254"/>
+<via x="83.9" y="50.8" extent="1-16" drill="0.254"/>
+<via x="73.5" y="54.8" extent="1-16" drill="0.254"/>
+<via x="88.8" y="49.8" extent="1-16" drill="0.254"/>
+<via x="89.4" y="46.9" extent="1-16" drill="0.254"/>
+<via x="94.2" y="68.4" extent="1-16" drill="0.254"/>
+<via x="89.2" y="76.9" extent="1-16" drill="0.254"/>
+<via x="78.4" y="88.5" extent="1-16" drill="0.254"/>
+<via x="65.5" y="88.7" extent="1-16" drill="0.254"/>
+<via x="33.3" y="88.3" extent="1-16" drill="0.254"/>
+<via x="19.9" y="89.7" extent="1-16" drill="0.254"/>
+<via x="4.9" y="72.5" extent="1-16" drill="0.254"/>
+<via x="12.2" y="20.4" extent="1-16" drill="0.254"/>
+<via x="42.9" y="33.8" extent="1-16" drill="0.254"/>
+<via x="69.8" y="41.1" extent="1-16" drill="0.254"/>
+<via x="31.2" y="64.4" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="OPD_SDA">
 <contactref element="J6" pad="12"/>
@@ -12238,6 +12263,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.2" y1="10.6" x2="22.5" y2="10.6" width="0.3" layer="16"/>
 <wire x1="22" y1="10.1" x2="21.35" y2="10.1" width="0.3" layer="16"/>
 <wire x1="22.5" y1="10.6" x2="22" y2="10.1" width="0.3" layer="16"/>
+</signal>
+<signal name="N$47">
+<contactref element="J6" pad="10"/>
+<contactref element="J6" pad="9"/>
+<wire x1="56.885" y1="87.359" x2="56.885" y2="88.629" width="0.3" layer="16"/>
+</signal>
+<signal name="N$48">
+<contactref element="J6" pad="8"/>
+<contactref element="J6" pad="7"/>
+<wire x1="58.155" y1="88.629" x2="58.155" y2="87.359" width="0.3" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
