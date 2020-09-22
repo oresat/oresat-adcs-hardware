@@ -1105,21 +1105,21 @@ STAND-OFF</description>
 </library>
 <library name="oresat-cards">
 <packages>
-<package name="ORESAT-CARD-V1.1-NO-RF">
+<package name="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0">
 <rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="51"/>
-<wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="20"/>
-<wire x1="0" y1="9" x2="0.5" y2="8.5" width="0.001" layer="20" curve="90"/>
-<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="20"/>
+<wire x1="0" y1="88.9" x2="0" y2="9.2" width="0.001" layer="20"/>
+<wire x1="0" y1="9.2" x2="0.5" y2="8.7" width="0.001" layer="20" curve="90"/>
+<wire x1="0.5" y1="8.7" x2="2.25" y2="8.7" width="0.001" layer="20"/>
 <wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="20"/>
 <wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="20"/>
 <wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20"/>
 <wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20"/>
 <wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="20"/>
 <wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="20"/>
-<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="20"/>
-<wire x1="99.3" y1="8.5" x2="99.8" y2="9" width="0.001" layer="20" curve="90"/>
-<wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="20"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="20"/>
+<wire x1="97.55" y1="8.7" x2="99.3" y2="8.7" width="0.001" layer="20"/>
+<wire x1="99.3" y1="8.7" x2="99.8" y2="9.2" width="0.001" layer="20" curve="90"/>
+<wire x1="99.8" y1="9.2" x2="99.8" y2="88.9" width="0.001" layer="20"/>
+<wire x1="97.05" y1="4.1" x2="97.05" y2="8.2" width="0.001" layer="20"/>
 <wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="20"/>
 <wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="20"/>
 <wire x1="15.5" y1="0.5" x2="16" y2="0" width="0.001" layer="20" curve="90"/>
@@ -1127,11 +1127,11 @@ STAND-OFF</description>
 <wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="20" curve="90"/>
 <wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="20"/>
 <wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="20"/>
-<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="20"/>
-<wire x1="2.75" y1="8" x2="2.25" y2="8.5" width="0.001" layer="20" curve="90"/>
+<wire x1="2.75" y1="8.2" x2="2.75" y2="4.1" width="0.001" layer="20"/>
+<wire x1="2.75" y1="8.2" x2="2.25" y2="8.7" width="0.001" layer="20" curve="90"/>
 <wire x1="8.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
 <wire x1="31.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="97.55" y1="8.5" x2="97.05" y2="8" width="0.001" layer="20" curve="90"/>
+<wire x1="97.55" y1="8.7" x2="97.05" y2="8.2" width="0.001" layer="20" curve="90"/>
 <wire x1="96.55" y1="3.6" x2="97.05" y2="4.1" width="0.001" layer="20" curve="90"/>
 <wire x1="84.8" y1="3.6" x2="84.3" y2="3.1" width="0.001" layer="20" curve="90"/>
 <wire x1="15.5" y1="3.1" x2="15" y2="3.6" width="0.001" layer="20" curve="90"/>
@@ -1151,23 +1151,23 @@ STAND-OFF</description>
 <wire x1="20.9" y1="87.994" x2="22.9" y2="87.994" width="0.001" layer="51"/>
 <rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="52"/>
 <polygon width="0.1" layer="29">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0.5" y="8.5" curve="-90"/>
-<vertex x="0" y="9"/>
+<vertex x="2.7" y="8.7"/>
+<vertex x="0.5" y="8.7" curve="-90"/>
+<vertex x="0" y="9.2"/>
 <vertex x="0" y="88.9"/>
 <vertex x="2.7" y="91.6"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9" curve="-90"/>
-<vertex x="99.3" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
+<vertex x="99.8" y="9.2" curve="-90"/>
+<vertex x="99.3" y="8.7"/>
+<vertex x="97.1" y="8.7"/>
 <vertex x="97.1" y="91.4"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0.5" y="8.5" curve="-90"/>
-<vertex x="0" y="9"/>
+<vertex x="2.7" y="8.7"/>
+<vertex x="0.5" y="8.7" curve="-90"/>
+<vertex x="0" y="9.2"/>
 <vertex x="0" y="88.9"/>
 <vertex x="2.7" y="91.6"/>
 </polygon>
@@ -1181,9 +1181,9 @@ STAND-OFF</description>
 </polygon>
 <polygon width="0.1" layer="30">
 <vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9" curve="-90"/>
-<vertex x="99.3" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
+<vertex x="99.8" y="9.2" curve="-90"/>
+<vertex x="99.3" y="8.7"/>
+<vertex x="97.1" y="8.7"/>
 <vertex x="97.1" y="91.4"/>
 </polygon>
 <polygon width="0.1" layer="30">
@@ -1205,19 +1205,19 @@ STAND-OFF</description>
 <wire x1="15.5" y1="2.5" x2="84.3" y2="2.5" width="0.001" layer="100"/>
 <wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="100"/>
 <wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="2.5" y1="91.4" x2="2.5" y2="8.5" width="0.001" layer="100"/>
-<wire x1="97.3" y1="8.5" x2="97.3" y2="91.4" width="0.001" layer="100"/>
+<wire x1="2.5" y1="91.4" x2="2.5" y2="8.7" width="0.001" layer="100"/>
+<wire x1="97.3" y1="8.7" x2="97.3" y2="91.4" width="0.001" layer="100"/>
 <wire x1="49.9" y1="44.671840625" x2="49.9" y2="90" width="0.001" layer="100"/>
 <wire x1="9.872909375" y1="87.994" x2="56.421040625" y2="87.994" width="0.001" layer="100"/>
 <wire x1="21.9" y1="90" x2="21.9" y2="86" width="0.001" layer="100"/>
-<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="100"/>
+<wire x1="2.75" y1="8.2" x2="2.75" y2="4.1" width="0.001" layer="100"/>
 <wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="100"/>
 <wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="100"/>
 <wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="100"/>
 <wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="100"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="100"/>
-<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="100"/>
-<wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="100"/>
+<wire x1="97.05" y1="4.1" x2="97.05" y2="8.2" width="0.001" layer="100"/>
+<wire x1="97.55" y1="8.7" x2="99.3" y2="8.7" width="0.001" layer="100"/>
+<wire x1="99.8" y1="9.2" x2="99.8" y2="88.9" width="0.001" layer="100"/>
 <wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="100"/>
 <wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="100"/>
 <wire x1="87.66795" y1="94.7" x2="68.13205" y2="94.7" width="0.001" layer="100"/>
@@ -1225,22 +1225,22 @@ STAND-OFF</description>
 <wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="100"/>
 <wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="100"/>
 <wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="100"/>
-<wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="100"/>
-<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="100"/>
+<wire x1="0" y1="88.9" x2="0" y2="9.2" width="0.001" layer="100"/>
+<wire x1="0.5" y1="8.7" x2="2.25" y2="8.7" width="0.001" layer="100"/>
 <wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="100"/>
-<wire x1="2.25" y1="8.5" x2="2.75" y2="8" width="0.001" layer="100" curve="-90"/>
+<wire x1="2.25" y1="8.7" x2="2.75" y2="8.2" width="0.001" layer="100" curve="-90"/>
 <wire x1="3.25" y1="3.6" x2="2.75" y2="4.1" width="0.001" layer="100" curve="-90"/>
 <wire x1="15" y1="3.6" x2="15.5" y2="3.1" width="0.001" layer="100" curve="-90"/>
 <wire x1="84.3" y1="0.5" x2="83.8" y2="0" width="0.001" layer="100" curve="-90"/>
 <wire x1="84.3" y1="3.1" x2="84.8" y2="3.6" width="0.001" layer="100" curve="-90"/>
 <wire x1="97.05" y1="4.1" x2="96.55" y2="3.6" width="0.001" layer="100" curve="-90"/>
-<wire x1="97.05" y1="8" x2="97.55" y2="8.5" width="0.001" layer="100" curve="-90"/>
-<wire x1="99.8" y1="9" x2="99.3" y2="8.5" width="0.001" layer="100" curve="-90"/>
+<wire x1="97.05" y1="8.2" x2="97.55" y2="8.7" width="0.001" layer="100" curve="-90"/>
+<wire x1="99.8" y1="9.2" x2="99.3" y2="8.7" width="0.001" layer="100" curve="-90"/>
 <wire x1="91.13205" y1="94.7" x2="87.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="68.13205" y1="94.7" x2="64.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="35.13205" y1="94.7" x2="31.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="12.13205" y1="94.7" x2="8.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="0.5" y1="8.5" x2="0" y2="9" width="0.001" layer="100" curve="-90"/>
+<wire x1="0.5" y1="8.7" x2="0" y2="9.2" width="0.001" layer="100" curve="-90"/>
 <wire x1="16" y1="0" x2="15.5" y2="0.5" width="0.001" layer="100" curve="-90"/>
 </package>
 </packages>
@@ -4485,14 +4485,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="6" y="4.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" package="J-SAMTEC-TFM-120-X1-XXX-D-RA" value="J-SAMTEC-TFM-120-X1-XXX-D-RA" x="49.9" y="87.994" locked="yes" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="SAM10145-ND" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="MFR" value="Samtec" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TFM-120-01-L-D-RA" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="62.854" y="85.962" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="QUADRANT1" library="oresat-ACS_driver_board" package="MEZZANINE_PLUG" value="MEZZANINE_PLUG" x="57" y="51.3" locked="yes" smashed="yes" rot="R225"/>
-<element name="QUADRANT2" library="oresat-ACS_driver_board" package="MEZZANINE_PLUG" value="MEZZANINE_PLUG" x="48.5" y="57" locked="yes" smashed="yes" rot="R315"/>
-<element name="QUADRANT3" library="oresat-ACS_driver_board" package="MEZZANINE_PLUG" value="MEZZANINE_PLUG" x="42.8" y="48.5" locked="yes" smashed="yes" rot="R45"/>
-<element name="QUADRANT4" library="oresat-ACS_driver_board" package="MEZZANINE_PLUG" value="MEZZANINE_PLUG" x="51.3" y="42.8" locked="yes" smashed="yes" rot="R135"/>
+<element name="QUADRANT1" library="oresat-ACS_driver_board" package="MEZZANINE_PLUG" value="MEZZANINE_PLUG" x="57" y="51.3" locked="yes" smashed="yes" rot="R225">
+<attribute name="DIS" value="Digi-Key" x="57" y="51.3" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="DPN" value="WM9218CT-ND" x="57" y="51.3" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MFR" value="Molex" x="57" y="51.3" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="MPN" value="0555600307" x="57" y="51.3" size="1.778" layer="27" rot="R225" display="off"/>
+</element>
+<element name="QUADRANT2" library="oresat-ACS_driver_board" package="MEZZANINE_PLUG" value="MEZZANINE_PLUG" x="48.5" y="57" locked="yes" smashed="yes" rot="R315">
+<attribute name="DIS" value="Digi-Key" x="48.5" y="57" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DPN" value="WM9218CT-ND" x="48.5" y="57" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MFR" value="Molex" x="48.5" y="57" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MPN" value="0555600307" x="48.5" y="57" size="1.778" layer="27" rot="R315" display="off"/>
+</element>
+<element name="QUADRANT3" library="oresat-ACS_driver_board" package="MEZZANINE_PLUG" value="MEZZANINE_PLUG" x="42.8" y="48.5" locked="yes" smashed="yes" rot="R45">
+<attribute name="DIS" value="Digi-Key" x="42.8" y="48.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DPN" value="WM9218CT-ND" x="42.8" y="48.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MFR" value="Molex" x="42.8" y="48.5" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MPN" value="0555600307" x="42.8" y="48.5" size="1.778" layer="27" rot="R45" display="off"/>
+</element>
+<element name="QUADRANT4" library="oresat-ACS_driver_board" package="MEZZANINE_PLUG" value="MEZZANINE_PLUG" x="51.3" y="42.8" locked="yes" smashed="yes" rot="R135">
+<attribute name="DIS" value="Digi-Key" x="51.3" y="42.8" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="DPN" value="WM9218CT-ND" x="51.3" y="42.8" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MFR" value="Molex" x="51.3" y="42.8" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="MPN" value="0555600307" x="51.3" y="42.8" size="1.778" layer="27" rot="R135" display="off"/>
+</element>
 <element name="C11" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="89.3" y="61.3" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="127.4" y="81.62" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="DPN" value="1276-1001-1-ND" x="127.4" y="81.62" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -4591,9 +4613,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R77" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="77.6" y="76.1" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="97.92" y="34.19" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="97.92" y="34.19" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="97.92" y="34.19" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="97.92" y="34.19" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="97.92" y="34.19" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="97.92" y="34.19" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="77.6" y="76.1" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="76.3" y="75.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="78.95" y="76.9" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -4609,9 +4631,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R105" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="78.5" y="58.1" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="32.78" y="37.78" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="32.78" y="37.78" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="TE Connectivity " x="32.78" y="37.78" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="32.78" y="37.78" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="32.78" y="37.78" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="32.78" y="37.78" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="32.78" y="37.78" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="78.5" y="58.1" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="79.4" y="58.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="79.3" y="56.75" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -4636,27 +4658,27 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R106" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="85.2" y="82.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="61.07" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="61.07" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="61.07" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="61.07" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="61.07" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="61.07" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="85.2" y="82.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="85.7" y="80.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="83.85" y="81.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R109" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="87.9" y="87.5" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="57.42" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="57.42" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="57.42" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Vishay" x="57.42" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="57.42" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="57.42" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="87.9" y="87.5" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="89.1" y="88" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="88.7" y="86.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R110" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="87.9" y="85.8" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="45.99" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="45.99" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="45.99" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="45.99" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="45.99" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="45.99" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="87.9" y="85.8" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="89.1" y="86.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="88.7" y="84.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -4708,36 +4730,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R91" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="82.8" y="89.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="106.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="106.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="106.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="106.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="106.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="106.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="82.8" y="89.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="82.1" y="90.15" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="84.15" y="90.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R92" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="89.3" y="63" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="119.78" y="90.94" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="119.78" y="90.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="119.78" y="90.94" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="119.78" y="90.94" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="119.78" y="90.94" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="119.78" y="90.94" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="89.3" y="63" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="90.6" y="61.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="88.5" y="64.35" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R93" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="75.9" y="58.1" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="41.61" y="30.16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="41.61" y="30.16" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="41.61" y="30.16" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="41.61" y="30.16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="41.61" y="30.16" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="41.61" y="30.16" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="75.9" y="58.1" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="76.86" y="58.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="76.7" y="56.75" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R94" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="78.5" y="59.9" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="40.4" y="31.96" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="40.4" y="31.96" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="40.4" y="31.96" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="40.4" y="31.96" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="40.4" y="31.96" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="40.4" y="31.96" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="78.5" y="59.9" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="79.3" y="60.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="79.3" y="58.55" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -4753,18 +4775,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R96" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="86.4" y="69.2" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="114.34" y="27.29" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="114.34" y="27.29" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="114.34" y="27.29" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="114.34" y="27.29" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="114.34" y="27.29" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="114.34" y="27.29" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="86.4" y="69.2" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="85.15" y="68.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="87.75" y="70" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R97" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="83.4" y="63.7" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="37.68" y="35.76" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="37.68" y="35.76" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="37.68" y="35.76" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="37.68" y="35.76" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="37.68" y="35.76" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="37.68" y="35.76" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="83.4" y="63.7" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="84.2" y="62.55" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="84.2" y="62.35" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -4780,9 +4802,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R99" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="86.4" y="66.4" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="118.15" y="47.35" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="118.15" y="47.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="118.15" y="47.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="118.15" y="47.35" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="118.15" y="47.35" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="118.15" y="47.35" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="86.4" y="66.4" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="85.2" y="65.4" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="87.75" y="67.2" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -4798,9 +4820,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R101" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="76" y="70" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="107.75" y="43.33" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="107.75" y="43.33" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="107.75" y="43.33" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="107.75" y="43.33" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="107.75" y="43.33" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="107.75" y="43.33" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="76" y="70" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="74.9" y="68.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="77.35" y="70.8" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -4825,72 +4847,72 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R104" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="79.2" y="73.4" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="47.45" y="111.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="47.45" y="111.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="47.45" y="111.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="47.45" y="111.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="47.45" y="111.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="47.45" y="111.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="79.2" y="73.4" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="79.8" y="72.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="77.85" y="72.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R107" library="oresat-rcl" package=".0603-C-NOSILK" value="47k" x="81.5" y="62" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="113.25" y="20.09" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND" x="113.25" y="20.09" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND" x="113.25" y="20.09" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="113.25" y="20.09" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0747KL" x="113.25" y="20.09" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0747KL" x="113.25" y="20.09" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="81.5" y="62" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="80.35" y="61.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="82.85" y="62.8" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R78" library="oresat-rcl" package=".0603-C-NOSILK" value="10" x="79.2" y="76.1" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="103.33" y="60.86" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="103.33" y="60.86" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0HRCT-ND" x="103.33" y="60.86" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="103.33" y="60.86" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="103.33" y="60.86" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710RL" x="103.33" y="60.86" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="79.2" y="76.1" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="79.8" y="75.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="80.55" y="76.9" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R108" library="oresat-rcl" package=".0603-C-NOSILK" value="47k" x="79.8" y="62" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="111.55" y="16.28" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND" x="111.55" y="16.28" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND" x="111.55" y="16.28" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="111.55" y="16.28" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0747KL" x="111.55" y="16.28" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0747KL" x="111.55" y="16.28" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="79.8" y="62" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="78.65" y="61.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="81.15" y="62.8" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R111" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="85.8" y="89.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="109.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="109.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="109.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="109.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="109.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="109.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="85.8" y="89.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="88.5" y="90.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="87.15" y="90.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R112" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="83.4" y="82.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="47.84" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="47.84" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="47.84" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="47.84" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="47.84" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="47.84" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="83.4" y="82.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="82.2" y="80.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="82.05" y="81.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R113" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="80.7" y="87.5" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="114.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="114.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="114.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Vishay" x="114.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="114.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="114.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="80.7" y="87.5" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="81.9" y="88" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="79.9" y="88.85" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R114" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="80.7" y="85.8" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="99.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="99.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="99.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="99.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="99.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="99.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="80.7" y="85.8" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="81.9" y="86.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="79.9" y="87.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -4993,16 +5015,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="82.4" y="70.4996" size="0.635" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="U11" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="80.7" y="81.9" smashed="yes" rot="MR90">
+<attribute name="DIS" value="Digi-Key" x="80.7" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="80.7" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Microchip" x="80.7" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="80.7" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="81.73" y="80.13" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="U12" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="87.9" y="81.9" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="87.9" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="87.9" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Microchip" x="87.9" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="87.9" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="88.93" y="80.13" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="C21" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="69.2" y="69.8" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="107.3" y="90.12" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="107.3" y="90.12" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="107.3" y="90.12" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Samsung" x="107.3" y="90.12" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="107.3" y="90.12" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="107.3" y="90.12" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="69.2" y="69.8" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="70.6" y="68.55" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="68.4" y="71.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -5096,9 +5126,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R153" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="56.8" y="84" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="98.71" y="104.32" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="98.71" y="104.32" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="98.71" y="104.32" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="98.71" y="104.32" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="98.71" y="104.32" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="98.71" y="104.32" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="56.8" y="84" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="58" y="84.5" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="56" y="85.35" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -5114,9 +5144,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R181" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="58.4" y="66.6" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="12.68" y="46.28" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="12.68" y="46.28" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="TE Connectivity " x="12.68" y="46.28" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="12.68" y="46.28" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="12.68" y="46.28" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="12.68" y="46.28" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="12.68" y="46.28" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="58.4" y="66.6" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="59.5" y="65.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="59.2" y="65.25" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -5141,27 +5171,27 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R182" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="73.5" y="82.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="49.37" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="49.37" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="49.37" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="49.37" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="49.37" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="49.37" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="73.5" y="82.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="74" y="80.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="72.15" y="81.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R185" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="76.2" y="87.5" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="45.72" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="45.72" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="45.72" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Vishay" x="45.72" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="45.72" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="45.72" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="76.2" y="87.5" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="77.4" y="88" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="77" y="86.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R186" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="76.2" y="85.8" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="34.29" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="34.29" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="34.29" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="34.29" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="34.29" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="34.29" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="76.2" y="85.8" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="77.4" y="86.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="77" y="84.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -5213,36 +5243,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R167" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="71.1" y="89.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="95.23" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="95.23" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="95.23" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="95.23" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="95.23" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="95.23" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="71.1" y="89.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="70.5" y="90.15" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="72.45" y="90.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R168" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="69.2" y="71.5" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="99.68" y="99.44" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="99.68" y="99.44" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="99.68" y="99.44" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="99.68" y="99.44" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="99.68" y="99.44" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="99.68" y="99.44" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="69.2" y="71.5" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="70.6" y="70.35" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="68.4" y="72.85" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R169" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="55.8" y="66.6" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="21.51" y="38.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="21.51" y="38.66" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="21.51" y="38.66" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="21.51" y="38.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="21.51" y="38.66" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="21.51" y="38.66" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="55.8" y="66.6" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="56.9" y="65.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="56.6" y="65.25" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R170" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="58.4" y="68.4" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="20.3" y="40.46" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="20.3" y="40.46" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="20.3" y="40.46" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="20.3" y="40.46" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="20.3" y="40.46" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="20.3" y="40.46" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="58.4" y="68.4" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="59.4" y="67.25" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="59.2" y="67.05" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -5258,18 +5288,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R172" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="66.3" y="77.7" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="94.24" y="35.79" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="94.24" y="35.79" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="94.24" y="35.79" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="94.24" y="35.79" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="94.24" y="35.79" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="94.24" y="35.79" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="66.3" y="77.7" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="65" y="76.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="67.65" y="78.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R173" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="63.3" y="72.2" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="17.58" y="44.26" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="17.58" y="44.26" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="17.58" y="44.26" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="17.58" y="44.26" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="17.58" y="44.26" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="17.58" y="44.26" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="63.3" y="72.2" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="64.6" y="70.95" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="64.1" y="70.85" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -5285,9 +5315,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R175" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="66.3" y="74.9" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="98.05" y="55.85" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="98.05" y="55.85" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="98.05" y="55.85" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="98.05" y="55.85" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="98.05" y="55.85" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="98.05" y="55.85" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="66.3" y="74.9" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="65" y="73.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="67.65" y="75.7" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -5303,9 +5333,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R177" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="55.9" y="78.5" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="87.65" y="51.83" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="87.65" y="51.83" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="87.65" y="51.83" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="87.65" y="51.83" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="87.65" y="51.83" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="87.65" y="51.83" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="55.9" y="78.5" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="56.9" y="76.75" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="57.25" y="79.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -5330,72 +5360,72 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R180" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="59.1" y="81.9" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="27.35" y="120" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="27.35" y="120" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="27.35" y="120" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="27.35" y="120" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="27.35" y="120" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="27.35" y="120" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="59.1" y="81.9" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="59.7" y="80.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="57.75" y="81.1" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R183" library="oresat-rcl" package=".0603-C-NOSILK" value="47k" x="61.4" y="70.5" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="93.15" y="28.59" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND" x="93.15" y="28.59" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND" x="93.15" y="28.59" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="93.15" y="28.59" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0747KL" x="93.15" y="28.59" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0747KL" x="93.15" y="28.59" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="61.4" y="70.5" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="60.25" y="69.4" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="62.75" y="71.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R154" library="oresat-rcl" package=".0603-C-NOSILK" value="10" x="66.6" y="84.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="90.73" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="90.73" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0HRCT-ND" x="90.73" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="90.73" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="90.73" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710RL" x="90.73" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="66.6" y="84.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="66" y="85.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="67.95" y="85.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R184" library="oresat-rcl" package=".0603-C-NOSILK" value="47k" x="59.7" y="70.5" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="91.45" y="24.78" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND" x="91.45" y="24.78" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND" x="91.45" y="24.78" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="91.45" y="24.78" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0747KL" x="91.45" y="24.78" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0747KL" x="91.45" y="24.78" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="59.7" y="70.5" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="58.55" y="69.4" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="61.05" y="71.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R187" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="74.1" y="89.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="98.23" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="98.23" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="98.23" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="98.23" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="98.23" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="98.23" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="74.1" y="89.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="76.9" y="90.15" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="75.45" y="90.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R188" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="71.7" y="82.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="36.14" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="36.14" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="36.14" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="36.14" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="36.14" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="36.14" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="71.7" y="82.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="70.5" y="80.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="70.35" y="81.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R189" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="69" y="87.5" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="103.29" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="103.29" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="103.29" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Vishay" x="103.29" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="103.29" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="103.29" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="69" y="87.5" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="70.2" y="86.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="68.2" y="88.85" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R190" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="69" y="85.8" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="88.05" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="88.05" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="88.05" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="88.05" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="88.05" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="88.05" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="69" y="85.8" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="70.2" y="88" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="68.2" y="87.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -5498,16 +5528,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="62.3" y="78.9996" size="0.635" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="U19" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="69" y="81.9" smashed="yes" rot="MR90">
+<attribute name="DIS" value="Digi-Key" x="69" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="69" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Microchip" x="69" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="69" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="70.13" y="80.13" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="U20" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="76.2" y="81.9" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="76.2" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="76.2" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Microchip" x="76.2" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="76.2" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="77.23" y="80.13" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="C31" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="47" y="69" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="85.1" y="89.32" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="85.1" y="89.32" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="85.1" y="89.32" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Samsung" x="85.1" y="89.32" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="85.1" y="89.32" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="85.1" y="89.32" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="47" y="69" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="49.7" y="69.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="46.2" y="70.35" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -5601,9 +5639,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R229" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="35.3" y="84.1" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="55.62" y="42.19" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="55.62" y="42.19" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="55.62" y="42.19" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="55.62" y="42.19" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="55.62" y="42.19" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="55.62" y="42.19" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="35.3" y="84.1" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="35.95" y="82.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="36.65" y="84.9" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -5619,9 +5657,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R257" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="36.2" y="65.8" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-9.52" y="45.48" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="-9.52" y="45.48" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="TE Connectivity " x="-9.52" y="45.48" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="-9.52" y="45.48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="-9.52" y="45.48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="-9.52" y="45.48" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="-9.52" y="45.48" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="36.2" y="65.8" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="37.2" y="64.55" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="37" y="64.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -5646,27 +5684,27 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R258" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="26.1" y="82.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="1.97" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="1.97" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="1.97" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="1.97" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="1.97" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="1.97" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="26.1" y="82.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="26.75" y="81" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="24.75" y="81.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R261" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="28.8" y="87.5" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-1.68" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="-1.68" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="-1.68" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Vishay" x="-1.68" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="-1.68" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="-1.68" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="28.8" y="87.5" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="30" y="88" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="29.6" y="86.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R262" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="28.8" y="85.8" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-13.11" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="-13.11" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="-13.11" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="-13.11" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="-13.11" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="-13.11" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="28.8" y="85.8" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="30" y="86.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="29.6" y="84.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -5718,36 +5756,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R243" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="23.7" y="89.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="47.83" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="47.83" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="47.83" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="47.83" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="47.83" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="47.83" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="23.7" y="89.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="23" y="90.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="25.05" y="90.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R244" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="47" y="70.7" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="77.48" y="98.64" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="77.48" y="98.64" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="77.48" y="98.64" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="77.48" y="98.64" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="77.48" y="98.64" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="77.48" y="98.64" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="47" y="70.7" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="50.3" y="70.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="46.2" y="72.05" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R245" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="33.6" y="65.8" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-0.69" y="37.86" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="-0.69" y="37.86" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="-0.69" y="37.86" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="-0.69" y="37.86" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="-0.69" y="37.86" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="-0.69" y="37.86" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="33.6" y="65.8" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="34.4" y="66.25" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="34.4" y="64.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R246" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="36.2" y="67.6" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-1.9" y="39.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="-1.9" y="39.66" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="-1.9" y="39.66" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="-1.9" y="39.66" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="-1.9" y="39.66" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="-1.9" y="39.66" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="36.2" y="67.6" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="37.2" y="66.35" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="37" y="66.25" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -5763,18 +5801,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R248" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="44.1" y="76.9" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="72.04" y="34.99" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="72.04" y="34.99" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="72.04" y="34.99" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="72.04" y="34.99" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="72.04" y="34.99" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="72.04" y="34.99" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="44.1" y="76.9" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="42.95" y="75.55" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="45.45" y="77.7" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R249" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="41.1" y="71.4" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-4.62" y="43.46" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="-4.62" y="43.46" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="-4.62" y="43.46" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="-4.62" y="43.46" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="-4.62" y="43.46" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="-4.62" y="43.46" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="41.1" y="71.4" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="42.2" y="70.25" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="41.9" y="70.05" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -5790,9 +5828,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R251" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="44.1" y="74.1" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="75.85" y="55.05" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="75.85" y="55.05" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="75.85" y="55.05" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="75.85" y="55.05" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="75.85" y="55.05" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="75.85" y="55.05" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="44.1" y="74.1" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="42.9" y="73.1" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="45.45" y="74.9" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -5808,9 +5846,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R253" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="33.7" y="77.7" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="65.45" y="51.03" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="65.45" y="51.03" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="65.45" y="51.03" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="65.45" y="51.03" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="65.45" y="51.03" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="65.45" y="51.03" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="33.7" y="77.7" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="34.8" y="75.95" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="35.05" y="78.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -5835,72 +5873,72 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R256" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="36.9" y="81.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="5.15" y="119.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="5.15" y="119.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="5.15" y="119.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="5.15" y="119.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="5.15" y="119.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="5.15" y="119.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="36.9" y="81.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="37.5" y="80.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="35.55" y="80.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R259" library="oresat-rcl" package=".0603-C-NOSILK" value="47k" x="39.2" y="69.7" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="70.95" y="27.79" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND" x="70.95" y="27.79" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND" x="70.95" y="27.79" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="70.95" y="27.79" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0747KL" x="70.95" y="27.79" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0747KL" x="70.95" y="27.79" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="39.2" y="69.7" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="38.05" y="68.7" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="40.55" y="70.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R230" library="oresat-rcl" package=".0603-C-NOSILK" value="10" x="31.2" y="84.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="55.33" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="55.33" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0HRCT-ND" x="55.33" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="55.33" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="55.33" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710RL" x="55.33" y="69.56" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="31.2" y="84.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="32.7" y="83.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="32.55" y="85.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R260" library="oresat-rcl" package=".0603-C-NOSILK" value="47k" x="37.5" y="69.7" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="69.25" y="23.98" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND" x="69.25" y="23.98" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND" x="69.25" y="23.98" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="69.25" y="23.98" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0747KL" x="69.25" y="23.98" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0747KL" x="69.25" y="23.98" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="37.5" y="69.7" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="36.35" y="68.7" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="38.85" y="70.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R263" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="26.7" y="89.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="50.83" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="50.83" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="50.83" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="50.83" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="50.83" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="50.83" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="26.7" y="89.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="29.5" y="90.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="28.05" y="90.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R264" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="24.3" y="82.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="-11.26" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="-11.26" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="-11.26" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="-11.26" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="-11.26" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="-11.26" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="24.3" y="82.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="23.05" y="81" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="22.95" y="81.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R265" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="21.6" y="87.5" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="55.89" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="55.89" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="55.89" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Vishay" x="55.89" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="55.89" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="55.89" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="21.6" y="87.5" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="22.8" y="88" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="20.8" y="88.85" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R266" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="21.6" y="85.8" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="40.65" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="40.65" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="40.65" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="40.65" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="40.65" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="40.65" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="21.6" y="85.8" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="22.8" y="86.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="20.8" y="87.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -6003,16 +6041,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="40.1" y="78.1996" size="0.635" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="U27" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="21.6" y="81.9" smashed="yes" rot="MR90">
+<attribute name="DIS" value="Digi-Key" x="21.6" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="21.6" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Microchip" x="21.6" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="21.6" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="22.73" y="80.03" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="U28" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="28.8" y="81.9" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="28.8" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="28.8" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Microchip" x="28.8" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="28.8" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="29.63" y="80.03" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="C6" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="26.7" y="63.7" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="64.8" y="84.02" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="64.8" y="84.02" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="64.8" y="84.02" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Samsung" x="64.8" y="84.02" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="64.8" y="84.02" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="64.8" y="84.02" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="26.7" y="63.7" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="26.3" y="62.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="25.9" y="65.05" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -6106,9 +6152,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R39" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="12.2" y="77.2" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="32.52" y="35.29" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="32.52" y="35.29" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="32.52" y="35.29" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="32.52" y="35.29" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="32.52" y="35.29" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="32.52" y="35.29" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="12.2" y="77.2" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="12.6" y="75.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="13.55" y="78" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -6124,9 +6170,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R67" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="15.9" y="60.5" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-29.82" y="40.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="-29.82" y="40.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MFR" value="TE Connectivity " x="-29.82" y="40.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="-29.82" y="40.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="-29.82" y="40.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="-29.82" y="40.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="-29.82" y="40.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="15.9" y="60.5" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="16.7" y="59.15" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="16.7" y="59.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -6151,27 +6197,27 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R68" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="15.2" y="82.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="-8.93" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="-8.93" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="-8.93" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="-8.93" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="-8.93" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="-8.93" y="120.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="15.2" y="82.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="15.75" y="81" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="13.85" y="81.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R71" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="17.9" y="87.5" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-12.58" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="-12.58" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="-12.58" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Vishay" x="-12.58" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="-12.58" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="-12.58" y="67.18" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="17.9" y="87.5" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="19" y="88" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="18.7" y="86.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R72" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="17.9" y="85.8" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-24.01" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="-24.01" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="-24.01" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="-24.01" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="-24.01" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="-24.01" y="61.67" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="17.9" y="85.8" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="19" y="86.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="18.7" y="84.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -6223,36 +6269,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R53" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="12.8" y="89.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="36.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="36.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="36.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="36.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="36.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="36.93" y="70.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="12.8" y="89.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="12.1" y="90.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="14.15" y="90.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R54" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="26.7" y="65.4" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="57.18" y="93.34" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="57.18" y="93.34" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="57.18" y="93.34" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="57.18" y="93.34" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="57.18" y="93.34" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="57.18" y="93.34" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="26.7" y="65.4" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="27.85" y="64.4" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="25.9" y="66.75" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R55" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="13.3" y="60.5" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-20.99" y="32.56" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="-20.99" y="32.56" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="-20.99" y="32.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="-20.99" y="32.56" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="-20.99" y="32.56" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="-20.99" y="32.56" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="13.3" y="60.5" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="14" y="59.15" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="14.1" y="59.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R56" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="15.9" y="62.3" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-22.2" y="34.36" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="-22.2" y="34.36" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="-22.2" y="34.36" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="-22.2" y="34.36" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="-22.2" y="34.36" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="-22.2" y="34.36" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="15.9" y="62.3" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="16.6" y="62.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="16.7" y="60.95" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -6268,18 +6314,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R58" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="23.8" y="71.6" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="51.74" y="29.69" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="51.74" y="29.69" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="51.74" y="29.69" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="51.74" y="29.69" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="51.74" y="29.69" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="51.74" y="29.69" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="23.8" y="71.6" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="22.65" y="70.6" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="25.15" y="72.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R59" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="20.8" y="66.1" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="-24.92" y="38.16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="-24.92" y="38.16" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="-24.92" y="38.16" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="-24.92" y="38.16" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="-24.92" y="38.16" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="-24.92" y="38.16" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="20.8" y="66.1" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="22" y="64.95" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="21.6" y="64.75" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -6295,9 +6341,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R61" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="23.8" y="68.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="55.55" y="49.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="55.55" y="49.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="55.55" y="49.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="55.55" y="49.75" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="55.55" y="49.75" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="55.55" y="49.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="23.8" y="68.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="22.75" y="67.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="25.15" y="69.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -6313,9 +6359,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R63" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="13.4" y="72.4" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="45.15" y="45.73" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="45.15" y="45.73" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="45.15" y="45.73" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="45.15" y="45.73" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="45.15" y="45.73" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="45.15" y="45.73" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="13.4" y="72.4" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="14.2" y="70.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="14.75" y="73.2" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -6340,72 +6386,72 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R66" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="16.6" y="75.8" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="-15.15" y="113.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="-15.15" y="113.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="-15.15" y="113.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="-15.15" y="113.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="-15.15" y="113.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="-15.15" y="113.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="16.6" y="75.8" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="17.25" y="74.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="15.25" y="75" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R69" library="oresat-rcl" package=".0603-C-NOSILK" value="47k" x="18.9" y="64.5" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="50.65" y="22.59" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND" x="50.65" y="22.59" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND" x="50.65" y="22.59" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="50.65" y="22.59" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0747KL" x="50.65" y="22.59" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0747KL" x="50.65" y="22.59" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="18.9" y="64.5" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="19.45" y="63.7" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="20.25" y="65.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R40" library="oresat-rcl" package=".0603-C-NOSILK" value="10" x="16.8" y="78.7" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="40.93" y="63.46" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="40.93" y="63.46" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0HRCT-ND" x="40.93" y="63.46" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="40.93" y="63.46" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="40.93" y="63.46" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710RL" x="40.93" y="63.46" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="16.8" y="78.7" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="19.1" y="77.95" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="18.15" y="79.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R70" library="oresat-rcl" package=".0603-C-NOSILK" value="47k" x="17.2" y="64.4" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="48.95" y="18.68" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND" x="48.95" y="18.68" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND" x="48.95" y="18.68" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="48.95" y="18.68" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0747KL" x="48.95" y="18.68" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0747KL" x="48.95" y="18.68" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="17.2" y="64.4" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="15.95" y="63.6" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="18.55" y="65.2" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R73" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="15.8" y="89.8" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="39.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="39.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="39.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="39.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="39.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="39.93" y="66.94" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="15.8" y="89.8" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="18.1" y="90.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="17.15" y="90.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R74" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="13.4" y="82.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="-22.16" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="-22.16" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="-22.16" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="-22.16" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="-22.16" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="-22.16" y="97.34" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="13.4" y="82.1" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="12.15" y="81" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="12.05" y="81.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R75" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="10.7" y="87.5" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="44.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="44.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="44.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Vishay" x="44.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="44.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="44.99" y="107.82" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="10.7" y="87.5" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="11.9" y="88" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="9.9" y="88.85" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R76" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="10.7" y="85.8" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="29.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="29.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="29.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="29.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="29.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="29.75" y="121.36" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="10.7" y="85.8" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="11.9" y="86.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="9.9" y="87.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -6508,9 +6554,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="19.8" y="72.8996" size="0.635" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
 <element name="U7" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="10.7" y="81.9" smashed="yes" rot="MR90">
+<attribute name="DIS" value="Digi-Key" x="10.7" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="10.7" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Microchip" x="10.7" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="10.7" y="81.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="11.33" y="80.03" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="U8" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="17.9" y="81.9" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="17.9" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="17.9" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Microchip" x="17.9" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="17.9" y="81.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="19.33" y="80.13" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="MAG_PIN_Q2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="56.3" y="60.2" smashed="yes" rot="R270">
@@ -6553,18 +6607,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R198" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="32.7" y="38.2" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="32.7" y="38.2" size="2" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="32.7" y="38.2" size="2" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="32.7" y="38.2" size="2" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="32.7" y="38.2" size="2" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="32.7" y="38.2" size="2" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="32.7" y="38.2" size="2" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="33.35" y="37.6" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="32.7" y="38.2" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="31.35" y="37.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R199" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="33.3" y="46.9" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="33.3" y="46.9" size="2" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="33.3" y="46.9" size="2" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="33.3" y="46.9" size="2" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="33.3" y="46.9" size="2" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="33.3" y="46.9" size="2" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="33.3" y="46.9" size="2" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="33.95" y="46.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="33.3" y="46.9" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="31.95" y="46.1" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -6579,18 +6633,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C43" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="25.6" y="16.8" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="25.6" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="25.6" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="25.6" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Samsung" x="25.6" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="25.6" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="25.6" y="16.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="25.6" y="16.8" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="24.5" y="16.55" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="26.4" y="15.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R200" library="oresat-rcl" package=".0603-C-NOSILK" value="10" x="23" y="15.2" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="23" y="15.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="23" y="15.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0HRCT-ND" x="23" y="15.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="23" y="15.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="23" y="15.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710RL" x="23" y="15.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="23" y="15.2" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="23.3" y="15.75" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="22.2" y="16.55" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -6713,36 +6767,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R213" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="16.8" y="12.2" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="16.8" y="12.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="16.8" y="12.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="16.8" y="12.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="16.8" y="12.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="16.8" y="12.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="16.8" y="12.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="16.8" y="12.2" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="17.9" y="11.08" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="16" y="13.55" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R214" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="27.6" y="17.6" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="27.6" y="17.6" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="27.6" y="17.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="27.6" y="17.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="27.6" y="17.6" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="27.6" y="17.6" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="27.6" y="17.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="27.6" y="17.6" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="28.8" y="17.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="28.95" y="18.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R215" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="19.2" y="29.6" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="19.2" y="29.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="19.2" y="29.6" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="19.2" y="29.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="19.2" y="29.6" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="19.2" y="29.6" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="19.2" y="29.6" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="19.2" y="29.6" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="17.9" y="28.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="20" y="28.25" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R216" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="21.4" y="25.7" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="21.4" y="25.7" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="21.4" y="25.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="21.4" y="25.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="21.4" y="25.7" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="21.4" y="25.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="21.4" y="25.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="21.4" y="25.7" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="21.4" y="23.95" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="20.6" y="27.05" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -6758,18 +6812,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R218" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="23.7" y="24.3" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="23.7" y="24.3" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="23.7" y="24.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="23.7" y="24.3" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="23.7" y="24.3" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="23.7" y="24.3" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="23.7" y="24.3" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="23.7" y="24.3" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="24.85" y="25.5" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="22.35" y="23.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R219" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="24.1" y="32.5" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="24.1" y="32.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="24.1" y="32.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="24.1" y="32.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="24.1" y="32.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="24.1" y="32.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="24.1" y="32.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="24.1" y="32.5" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="24.9" y="33.75" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="22.75" y="31.7" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -6785,9 +6839,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R221" library="oresat-rcl" package=".0603-C-NOSILK" value="0" x="30" y="29.7" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="30" y="29.7" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-0.0JRCT-ND" x="30" y="29.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-0.0GRCT-ND" x="30" y="29.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="30" y="29.7" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402JR-070RL" x="30" y="29.7" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603JR-070RL" x="30" y="29.7" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="30" y="29.7" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="30.8" y="30.35" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="29.2" y="31.05" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -6818,9 +6872,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R223" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="21.5" y="38.1" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="21.5" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="21.5" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="21.5" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="21.5" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="21.5" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="21.5" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="21.5" y="38.1" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="22.4" y="36.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="22.3" y="36.75" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -6850,9 +6904,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R226" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="26.1" y="27.8" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="26.1" y="27.8" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="26.1" y="27.8" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="26.1" y="27.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="26.1" y="27.8" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="26.1" y="27.8" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="26.1" y="27.8" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="26.1" y="27.8" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="28.9" y="26.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="25.3" y="29.15" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
@@ -6908,9 +6962,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R227" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="18.2" y="45.4" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="18.2" y="45.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="18.2" y="45.4" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="18.2" y="45.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="18.2" y="45.4" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="18.2" y="45.4" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="18.2" y="45.4" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="18.2" y="45.4" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="17.55" y="46.1" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="16.85" y="44.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -6994,9 +7048,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R267" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="32.7" y="30.8" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="29.7" y="30.8" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="29.7" y="30.8" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
-<attribute name="MFR" value="TE Connectivity " x="29.7" y="30.8" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="29.7" y="30.8" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="29.7" y="30.8" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
+<attribute name="MFR" value="TE Connectivity" x="29.7" y="30.8" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="29.7" y="30.8" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
 <attribute name="NAME" x="32.7" y="30.8" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="33.85" y="32" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="31.35" y="30" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -7010,9 +7064,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R268" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="23.2" y="9.9" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="23.2" y="9.9" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="23.2" y="9.9" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="23.2" y="9.9" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="23.2" y="9.9" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="23.2" y="9.9" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="23.2" y="9.9" size="0.635" layer="28" ratio="20" rot="MR90" display="off"/>
 <attribute name="NAME" x="23.2" y="9.9" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="22" y="8.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="21.85" y="9.1" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -7025,18 +7079,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R269" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="24.3" y="13" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="24.3" y="13" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="24.3" y="13" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="24.3" y="13" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Vishay" x="24.3" y="13" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="24.3" y="13" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="24.3" y="13" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="24.3" y="13" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="24.6" y="14.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="22.95" y="12.2" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R270" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="25.7" y="10.5" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="25.7" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="25.7" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="25.7" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Yageo" x="25.7" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="25.7" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="25.7" y="10.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="25.7" y="10.5" size="0.2" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="25.15" y="12" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="27.05" y="11.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
@@ -7046,36 +7100,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R271" library="oresat-rcl" package=".0603-C-NOSILK" value="100" x="16.8" y="10.6" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="13" y="0.3" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-100LRCT-ND" x="13" y="0.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-100HRCT-ND" x="13" y="0.3" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="13" y="0.3" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-07100RL" x="13" y="0.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-07100RL" x="13" y="0.3" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="16.8" y="10.6" size="0.2" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="NAME" x="17.6" y="9.35" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="16" y="11.95" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R272" library="oresat-rcl" package=".0603-C-NOSILK" value="665k" x="19.5" y="8.3" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="22.2" y="1.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="22.2" y="1.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-665KHRCT-ND" x="22.2" y="1.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="22.2" y="1.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="22.2" y="1.5" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07665KL" x="22.2" y="1.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="19.5" y="8.3" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="18.85" y="9.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="18.15" y="7.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R273" library="oresat-rcl" package=".0603-C-NOSILK" value="330k" x="23.2" y="7.2" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="26.1" y="7.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="749-1575-1-ND" x="26.1" y="7.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="749-1638-1-ND" x="26.1" y="7.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Vishay" x="26.1" y="7.2" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="MCS04020C3303FE000" x="26.1" y="7.2" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="MCT06030C3303FP000" x="26.1" y="7.2" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="23.2" y="7.2" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="22.05" y="6" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="21.85" y="6.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R274" library="oresat-rcl" package=".0603-C-NOSILK" value="1M" x="22.7" y="5.3" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="25.7" y="4.7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND" x="25.7" y="4.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND" x="25.7" y="4.7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Yageo" x="25.7" y="4.7" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="RC0402FR-071ML" x="25.7" y="4.7" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-071ML" x="25.7" y="4.7" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="22.7" y="5.3" size="0.2" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="NAME" x="24" y="4.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="23.5" y="3.95" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
@@ -7102,125 +7156,181 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="24.1" y="6.9" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="U32" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="20.1" y="5.3" smashed="yes" rot="MR0">
+<attribute name="DIS" value="Digi-Key" x="20.1" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="20.1" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="Microchip" x="20.1" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="20.1" y="5.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="20.03" y="3.23" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="U33" library="U-Microchip-MIC842-Comparator" package="SC70-5" value="MIC842LYC5" x="25.8" y="7.9" smashed="yes" rot="MR270">
+<attribute name="DIS" value="Digi-Key" x="25.8" y="7.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="576-2927-1-ND" x="25.8" y="7.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Microchip" x="25.8" y="7.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="MIC842LYC5-TR" x="25.8" y="7.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="28.83" y="8.33" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" package="21-0036K-L" value="MAX892LEUA+T21-0036K-L" x="72.2" y="33.3" smashed="yes" rot="MR0">
+<attribute name="DIS" value="Digi-Key" x="72.2" y="33.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="MAX892LEUA+-ND" x="72.2" y="33.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MAX892LEUA+T" x="72.2" y="33.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="Maxim" x="72.2" y="33.3" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="MAX892LEUA+" x="72.2" y="33.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="73.4956" y="35.225" size="0.635" layer="26" font="vector" ratio="20" rot="SMR0"/>
 <attribute name="VENDOR" value="Maxim Integrated Products" x="72.2" y="33.3" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C1" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="76.8" y="34.4" smashed="yes" rot="MR180">
+<attribute name="DIS" value="Digi-Key" x="76.8" y="34.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="76.8" y="34.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MFR" value="Yageo" x="76.8" y="34.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="76.8" y="34.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="76.8" y="35.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="NAME" x="76.8" y="34.4" size="0.3" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="VALUE" x="75.8" y="35.95" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="C2" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="67.7" y="34.5" smashed="yes" rot="MR0">
+<attribute name="DIS" value="Digi-Key" x="67.7" y="34.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="67.7" y="34.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="Yageo" x="67.7" y="34.5" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="67.7" y="34.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="67.7" y="35.15" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="NAME" x="67.7" y="34.5" size="0.3" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="VALUE" x="68.7" y="32.95" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R1" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="67.7" y="33.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="65.7" y="32.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="DIS" value="Digi-Key" x="67.7" y="33.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="67.7" y="33.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="Yageo" x="67.7" y="33.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="67.7" y="33.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="67.7" y="33.2" size="0.3" layer="34" ratio="15" rot="MR0" align="center"/>
+<attribute name="NAME" x="65.7" y="32.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="68.7" y="31.65" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R2" library="oresat-rcl" package=".0603-C-NOSILK" value="23.7k" x="67.7" y="31.9" smashed="yes" rot="MR180">
+<attribute name="DIS" value="Digi-Key" x="67.7" y="31.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-23.7KHRCT-ND" x="67.7" y="31.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MFR" value="Yageo" x="67.7" y="31.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0723K7L" x="67.7" y="31.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="65.9" y="31.55" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="NAME" x="67.7" y="31.9" size="0.3" layer="34" ratio="15" rot="MR180" align="center"/>
 <attribute name="VALUE" x="66.7" y="33.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="R3" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="76.8" y="33" smashed="yes" rot="MR180">
-<attribute name="NAME" x="76.8" y="31.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="DIS" value="Digi-Key" x="76.8" y="33" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="76.8" y="33" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MFR" value="Yageo" x="76.8" y="33" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="76.8" y="33" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="76.8" y="33" size="0.3" layer="34" ratio="15" rot="MR180" align="center"/>
+<attribute name="NAME" x="76.8" y="31.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="75.8" y="34.55" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="U2" library="U-Linear-LTC4300A-1-2-Wire-Bus-Buffer" package="MS8" value="LTC4300A-1" x="69.8" y="26.4" smashed="yes" rot="MR180">
+<attribute name="DIS" value="Digi-Key" x="69.8" y="26.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="LTC4300A-1IMS8#TRPBFCT-ND" x="69.8" y="26.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MFR" value="Linear" x="69.8" y="26.4" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="LTC4300A-1IMS8#TRPBF" x="69.8" y="26.4" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="71.5" y="27" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="66.2" y="30.4" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C3" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="67.4" y="27.1" smashed="yes" rot="MR90">
+<attribute name="DIS" value="Digi-Key" x="67.4" y="27.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="67.4" y="27.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Yageo" x="67.4" y="27.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="67.4" y="27.1" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="67.8" y="25.25" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="NAME" x="67.4" y="27.1" size="0.3" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="65.85" y="26.1" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="R10" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="69.5" y="22.9" smashed="yes" rot="MR180">
-<attribute name="NAME" x="69.8" y="21.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="DIS" value="Digi-Key" x="69.5" y="22.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="69.5" y="22.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MFR" value="Yageo" x="69.5" y="22.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="69.5" y="22.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="69.5" y="22.9" size="0.3" layer="34" ratio="15" rot="MR180" align="center"/>
+<attribute name="NAME" x="69.8" y="21.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="68.5" y="24.45" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
 <element name="U13" library="BMI088" package="PQFN50P450X300X100-16N" value="BMI088" x="49.9" y="49.9" smashed="yes" rot="MR270">
 <attribute name="AVAILABILITY" value="Unavailable" x="49.9" y="49.9" size="0.2" layer="28" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" value=" Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output " x="49.9" y="49.9" size="0.2" layer="28" rot="MR270" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="49.9" y="49.9" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="828-1082-1-ND" x="49.9" y="49.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MF" value="Bosch Sensortec" x="49.9" y="49.9" size="0.2" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Bosch Sensortec" x="49.9" y="49.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MP" value="BMI088" x="49.9" y="49.9" size="0.2" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="BMI088" x="49.9" y="49.9" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="48.897" y="46.867" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="PACKAGE" value="VFLGA-16 Bosch Sensortec" x="49.9" y="49.9" size="0.2" layer="28" rot="MR270" display="off"/>
 <attribute name="PRICE" value="None" x="49.9" y="49.9" size="0.2" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="53.8" y="52.897" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="C4" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="52.7" y="51.6" smashed="yes" rot="MR90">
+<attribute name="DIS" value="Digi-Key" x="52.7" y="51.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="52.7" y="51.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Yageo" x="52.7" y="51.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="52.7" y="51.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="53.25" y="51.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="52.7" y="51.6" size="0.3" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="51.15" y="50.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="C16" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="47.1" y="52.1" smashed="yes" rot="MR90">
+<attribute name="DIS" value="Digi-Key" x="47.1" y="52.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-1446-1-ND" x="47.1" y="52.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MFR" value="Yageo" x="47.1" y="52.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105" x="47.1" y="52.1" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="45.85" y="51.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="47.1" y="52.1" size="0.3" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="45.55" y="51.1" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
 <element name="C28" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="61" y="22.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="61" y="22.1" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="61" y="22.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="61" y="22.1" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="61" y="22.1" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="61" y="22.1" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="61" y="22.1" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="61" y="22.1" size="0.635" layer="34" ratio="20" rot="MR90" align="center"/>
 <attribute name="NAME" x="61.6" y="21.18" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="61" y="22.1" size="0.5" layer="28" ratio="20" rot="MR90" align="center"/>
 </element>
 <element name="C29" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="51.45" y="29.9" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="51.45" y="29.9" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="51.45" y="29.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="51.45" y="29.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Samsung" x="51.45" y="29.9" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="51.45" y="29.9" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="51.45" y="29.9" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="51.45" y="29.9" size="0.635" layer="34" ratio="20" rot="MR180" align="center"/>
 <attribute name="NAME" x="52.05" y="30.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="51.45" y="29.9" size="0.5" layer="28" ratio="20" rot="MR180" align="center"/>
 </element>
 <element name="C30" library="oresat-rcl" package=".0603-C-NOSILK" value="20p" x="57.3" y="19.5" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="57.3" y="19.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="57.3" y="19.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="1276-1187-1-ND" x="57.3" y="19.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="Samsung" x="57.3" y="19.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="57.3" y="19.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CL10C200JB8NNNC" x="57.3" y="19.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="57.3" y="19.5" size="0.635" layer="34" ratio="20" rot="MR270" align="center"/>
 <attribute name="NAME" x="57" y="16.68" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="57.3" y="19.5" size="0.5" layer="28" ratio="20" rot="MR270" align="center"/>
 </element>
 <element name="C36" library="oresat-rcl" package=".0603-C-NOSILK" value="20p" x="61.9" y="19.6" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="61.9" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="61.9" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="1276-1187-1-ND" x="61.9" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="61.9" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="61.9" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CL10C200JB8NNNC" x="61.9" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="61.9" y="19.6" size="0.635" layer="34" ratio="20" rot="MR90" align="center"/>
 <attribute name="NAME" x="62.52" y="18.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="61.9" y="19.6" size="0.5" layer="28" ratio="20" rot="MR90" align="center"/>
 </element>
 <element name="C37" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="61.5" y="34.2" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="61.5" y="34.2" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="61.5" y="34.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="61.5" y="34.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Samsung" x="61.5" y="34.2" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="61.5" y="34.2" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="61.5" y="34.2" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="61.5" y="34.2" size="0.635" layer="34" ratio="20" rot="MR0" align="center"/>
 <attribute name="NAME" x="63.01" y="33.6" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="61.5" y="34.2" size="0.5" layer="28" ratio="20" rot="MR0" align="center"/>
 </element>
 <element name="C38" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="55.6" y="19.6" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="55.6" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="55.6" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="55.6" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="55.6" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="55.6" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="55.6" y="19.6" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="55.6" y="19.6" size="0.635" layer="34" ratio="20" rot="MR90" align="center"/>
 <attribute name="NAME" x="55.35" y="16.7" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="55.6" y="19.6" size="0.5" layer="28" ratio="20" rot="MR90" align="center"/>
@@ -7251,9 +7361,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R7" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="62.5" y="23.9" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="62.5" y="23.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="62.5" y="23.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="62.5" y="23.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Yageo" x="62.5" y="23.9" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="62.5" y="23.9" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="62.5" y="23.9" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="63.4" y="25.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="NAME" x="62.5" y="23.9" size="0.635" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="61.15" y="23.1" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -7272,18 +7382,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R8" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="59.5" y="10.7" smashed="yes" rot="R90">
 <attribute name="DIS" value="Digi-Key" x="62.9" y="10.7" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="62.9" y="10.7" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="62.9" y="10.7" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="62.9" y="10.7" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="62.9" y="10.7" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="62.9" y="10.7" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
 <attribute name="NAME" x="58.95" y="10" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="59.5" y="10.7" size="0.635" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="60.85" y="9.9" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R9" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="43.6" y="29.2" smashed="yes" rot="MR180">
 <attribute name="DIS" value="Digi-Key" x="43.6" y="29.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="43.6" y="29.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="43.6" y="29.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MFR" value="Yageo" x="43.6" y="29.2" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="43.6" y="29.2" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="43.6" y="29.2" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="44.235" y="27.935" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="42.965" y="31.105" size="1.27" layer="28" rot="MR180"/>
 </element>
@@ -7308,51 +7418,87 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="R11" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="40.2" y="24.7" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="40.2" y="24.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="40.2" y="24.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="40.2" y="24.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="40.2" y="24.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="40.2" y="24.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="40.2" y="24.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="40.2" y="24.7" size="0.3" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="38.95" y="24.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="41.75" y="25.7" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R12" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="41.7" y="25.4" smashed="yes" rot="MR270">
 <attribute name="DIS" value="Digi-Key" x="41.7" y="25.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DPN" value="A129632CT-ND" x="41.7" y="25.4" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="A129693CT-ND" x="41.7" y="25.4" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MFR" value="TE Connectivity" x="41.7" y="25.4" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MPN" value="CRGCQ0402F2K7" x="41.7" y="25.4" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="CRGCQ0603F2K7" x="41.7" y="25.4" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="41.7" y="25.4" size="0.3" layer="34" ratio="15" rot="MR270" align="center"/>
 <attribute name="NAME" x="42.35" y="24.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="43.25" y="26.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="C39" library="oresat-rcl" package=".0603-C-NOSILK" value="100n" x="60.7" y="31.8" smashed="yes" rot="MR0">
 <attribute name="DIS" value="Digi-Key" x="60.7" y="31.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="60.7" y="31.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND" x="60.7" y="31.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MFR" value="Samsung" x="60.7" y="31.8" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="60.7" y="31.8" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="CL10B104KB8NNNL" x="60.7" y="31.8" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="61.1" y="32.55" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="NAME" x="60.7" y="31.8" size="0.3" layer="34" ratio="15" rot="MR0" align="center"/>
 <attribute name="VALUE" x="61.7" y="30.25" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R4" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="53.5" y="48.9" smashed="yes" rot="MR0">
-<attribute name="NAME" x="54.5" y="49.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="DIS" value="Digi-Key" x="53.5" y="48.9" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="53.5" y="48.9" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MFR" value="Yageo" x="53.5" y="48.9" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="53.5" y="48.9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="53.5" y="48.9" size="0.3" layer="34" ratio="15" rot="MR0" align="center"/>
+<attribute name="NAME" x="54.5" y="49.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="54.5" y="47.35" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R5" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="49.9" y="53.3" smashed="yes" rot="MR180">
-<attribute name="NAME" x="50.9" y="53.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+<attribute name="DIS" value="Digi-Key" x="49.9" y="53.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="49.9" y="53.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MFR" value="Yageo" x="49.9" y="53.3" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="49.9" y="53.3" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="49.9" y="53.3" size="0.3" layer="34" ratio="15" rot="MR180" align="center"/>
+<attribute name="NAME" x="50.9" y="53.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="48.9" y="54.85" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="PCB1" library="oresat-cards" package="ORESAT-CARD-V1.1-NO-RF" value="ORESAT-CARD-V1.1-NO-RF" x="0" y="0" smashed="yes"/>
+<element name="PCB1" library="oresat-cards" package="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0" value="ORESAT-CARD-V1.2-GENERIC-0XRF-V1.0" x="0" y="0" smashed="yes"/>
 <element name="R6" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="74.4" y="26.7" smashed="yes" rot="MR270">
-<attribute name="NAME" x="73.65" y="27.7" size="0.5" layer="26" font="vector" ratio="15" rot="MR270"/>
+<attribute name="DIS" value="Digi-Key" x="74.4" y="26.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="74.4" y="26.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Yageo" x="74.4" y="26.7" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="74.4" y="26.7" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="74.4" y="26.7" size="0.3" layer="34" ratio="15" rot="MR270" align="center"/>
+<attribute name="NAME" x="73.65" y="27.7" size="0.5" layer="26" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="75.95" y="27.7" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R13" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="73" y="27.5" smashed="yes" rot="MR270">
-<attribute name="NAME" x="72.25" y="28.5" size="0.5" layer="26" font="vector" ratio="15" rot="MR270"/>
+<attribute name="DIS" value="Digi-Key" x="73" y="27.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND" x="73" y="27.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MFR" value="Yageo" x="73" y="27.5" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="RC0603FR-0710KL" x="73" y="27.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="73" y="27.5" size="0.3" layer="34" ratio="15" rot="MR270" align="center"/>
+<attribute name="NAME" x="72.25" y="28.5" size="0.5" layer="26" font="vector" ratio="15" rot="MR270"/>
 <attribute name="VALUE" x="74.55" y="28.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
+</element>
+<element name="TP1" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="78.8" y="28.8" smashed="yes">
+<attribute name="NAME" x="77.8" y="29.8" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="79.8" y="27.1" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="TP3" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="78.8" y="26" smashed="yes">
+<attribute name="NAME" x="77.8" y="27" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="79.8" y="24.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="TP5" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="64.1" y="29.6" smashed="yes">
+<attribute name="NAME" x="63.1" y="30.6" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="65.1" y="27.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="TP6" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="66.2" y="29.6" smashed="yes">
+<attribute name="NAME" x="65.2" y="30.6" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="67.2" y="27.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="TP7" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="71" y="36.6" smashed="yes">
+<attribute name="NAME" x="70" y="37.6" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="72" y="34.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 </elements>
 <signals>
@@ -7789,7 +7935,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R4" pad="1"/>
 <contactref element="R5" pad="1"/>
 <via x="47.9" y="53.3" extent="1-16" drill="0.254"/>
-<via x="2" y="9.2" extent="1-16" drill="0.254"/>
+<via x="2" y="9.4" extent="1-16" drill="0.254"/>
 <via x="7" y="9" extent="1-16" drill="0.254"/>
 <via x="9" y="7" extent="1-16" drill="0.254"/>
 <via x="11" y="5" extent="1-16" drill="0.254"/>
@@ -7932,9 +8078,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="21" y="2" extent="1-16" drill="0.254"/>
 <via x="19" y="2" extent="1-16" drill="0.254"/>
 <via x="17" y="2" extent="1-16" drill="0.254"/>
-<via x="80.3" y="30.9" extent="1-16" drill="0.254"/>
+<via x="79.7" y="30.9" extent="1-16" drill="0.254"/>
 <via x="81.5" y="29.4" extent="1-16" drill="0.254"/>
-<via x="80.3" y="41.9" extent="1-16" drill="0.254"/>
+<via x="80" y="41.9" extent="1-16" drill="0.254"/>
 <via x="77.1" y="44.2" extent="1-16" drill="0.254"/>
 <via x="80" y="20" extent="1-16" drill="0.254"/>
 <via x="80" y="10" extent="1-16" drill="0.254"/>
@@ -11821,9 +11967,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J6" pad="5"/>
 <contactref element="J6" pad="6"/>
 <polygon width="0.3" layer="16" thermals="no">
-<vertex x="68.2" y="35.5"/>
-<vertex x="70.6" y="35.5"/>
-<vertex x="70.6" y="33.5"/>
+<vertex x="68.2" y="37.3"/>
+<vertex x="71.8" y="37.3"/>
+<vertex x="71.8" y="33.5"/>
 <vertex x="69.4" y="33.5"/>
 <vertex x="69.4" y="34"/>
 <vertex x="68.2" y="34"/>
@@ -11840,6 +11986,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="59.425" y1="87.359" x2="59.425" y2="88.629" width="0.5" layer="2"/>
 <via x="69.4" y="34.9" extent="1-16" drill="0.254"/>
 <wire x1="69.8" y1="35.3" x2="69.4" y2="34.9" width="0.5" layer="2"/>
+<contactref element="TP7" pad="1"/>
 </signal>
 <signal name="N$25">
 <contactref element="U1" pad="5"/>
@@ -11858,31 +12005,35 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="70.825" y1="32.975" x2="71.3" y2="32.5" width="0.2" layer="16"/>
 <wire x1="71.3" y1="32.5" x2="71.3" y2="31.4" width="0.2" layer="16"/>
 <wire x1="71.3" y1="31.4" x2="70.8" y2="30.9" width="0.2" layer="16"/>
-<wire x1="70.8" y1="30.9" x2="68.3" y2="30.9" width="0.2" layer="16"/>
+<wire x1="68.3" y1="30.9" x2="68.4" y2="30.9" width="0.2" layer="16"/>
 <contactref element="U15" pad="39"/>
-<wire x1="68.3" y1="30.9" x2="65.55" y2="28.15" width="0.2" layer="16"/>
-<wire x1="65.55" y1="28.15" x2="60.95" y2="28.15" width="0.2" layer="16"/>
+<contactref element="TP5" pad="1"/>
+<wire x1="68.4" y1="30.9" x2="70.8" y2="30.9" width="0.2" layer="16"/>
+<wire x1="60.95" y1="28.15" x2="62.65" y2="28.15" width="0.2" layer="16"/>
+<wire x1="62.65" y1="28.15" x2="64.1" y2="29.6" width="0.2" layer="16"/>
+<wire x1="64.1" y1="29.6" x2="65.4" y2="30.9" width="0.2" layer="16"/>
+<wire x1="65.4" y1="30.9" x2="68.3" y2="30.9" width="0.2" layer="16"/>
 </signal>
 <signal name="MAG_!EN">
 <contactref element="U1" pad="3"/>
 <contactref element="R3" pad="1"/>
 <wire x1="76.1" y1="33" x2="76.075" y2="32.975" width="0.3" layer="16"/>
 <wire x1="76.075" y1="32.975" x2="74.3344" y2="32.975" width="0.3" layer="16"/>
-<wire x1="70.9" y1="30.4" x2="68.44431875" y2="30.4" width="0.2" layer="16"/>
 <wire x1="70.9" y1="30.4" x2="73.475" y2="32.975" width="0.2" layer="16"/>
 <wire x1="73.475" y1="32.975" x2="74.3344" y2="32.975" width="0.2" layer="16"/>
 <contactref element="U15" pad="40"/>
-<wire x1="68.44431875" y1="30.4" x2="65.69431875" y2="27.65" width="0.2" layer="16"/>
-<wire x1="65.69431875" y1="27.65" x2="60.95" y2="27.65" width="0.2" layer="16"/>
+<contactref element="TP6" pad="1"/>
+<wire x1="60.95" y1="27.65" x2="64.25" y2="27.65" width="0.2" layer="16"/>
+<wire x1="64.25" y1="27.65" x2="66.2" y2="29.6" width="0.2" layer="16"/>
+<wire x1="66.2" y1="29.6" x2="67" y2="30.4" width="0.2" layer="16"/>
+<wire x1="67" y1="30.4" x2="70.9" y2="30.4" width="0.2" layer="16"/>
 </signal>
 <signal name="MAG_SDA">
 <contactref element="U2" pad="6"/>
 <wire x1="70.125" y1="24.3055" x2="70.125" y2="25.225" width="0.3" layer="16"/>
 <wire x1="70.125" y1="25.225" x2="70.9" y2="26" width="0.3" layer="16"/>
-<wire x1="77.3" y1="26" x2="79.7" y2="28.4" width="0.3" layer="16"/>
-<wire x1="79.7" y1="28.4" x2="79.7" y2="42.7" width="0.3" layer="16"/>
 <via x="92.4" y="49.2" extent="1-16" drill="0.254"/>
-<wire x1="79.7" y1="42.7" x2="85.2" y2="48.2" width="0.3" layer="16"/>
+<wire x1="80.8" y1="43.8" x2="85.2" y2="48.2" width="0.3" layer="16"/>
 <wire x1="92.5" y1="84.6" x2="92.5" y2="49.3" width="0.3" layer="1"/>
 <wire x1="92.5" y1="49.3" x2="92.4" y2="49.2" width="0.3" layer="1"/>
 <wire x1="85.2" y1="48.2" x2="91.4" y2="48.2" width="0.3" layer="16"/>
@@ -11891,12 +12042,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J6" pad="2"/>
 <contactref element="R6" pad="2"/>
 <wire x1="70.9" y1="26" x2="74.4" y2="26" width="0.3" layer="16"/>
-<wire x1="74.4" y1="26" x2="77.3" y2="26" width="0.3" layer="16"/>
 <wire x1="87.2" y1="89.9" x2="64.6" y2="89.9" width="0.3" layer="1"/>
 <wire x1="64.6" y1="89.9" x2="63.329" y2="88.629" width="0.3" layer="1"/>
 <wire x1="63.329" y1="88.629" x2="61.965" y2="88.629" width="0.3" layer="1"/>
 <wire x1="92.5" y1="84.6" x2="87.2" y2="89.9" width="0.3" layer="1"/>
 <wire x1="61.965" y1="88.629" x2="61.965" y2="87.359" width="0.3" layer="1"/>
+<contactref element="TP3" pad="1"/>
+<wire x1="78.8" y1="26" x2="74.4" y2="26" width="0.3" layer="16"/>
+<wire x1="78.8" y1="26" x2="80.8" y2="28" width="0.3" layer="16"/>
+<wire x1="80.8" y1="28" x2="80.8" y2="43.8" width="0.3" layer="16"/>
 </signal>
 <signal name="MAG_SCL">
 <contactref element="J6" pad="4"/>
@@ -11904,14 +12058,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="70.125" y1="28.4945" x2="70.125" y2="27.575" width="0.3" layer="16"/>
 <wire x1="70.9" y1="26.8" x2="70.125" y2="27.575" width="0.3" layer="16"/>
 <via x="93.1" y="50.9" extent="1-16" drill="0.254"/>
-<wire x1="78.9" y1="28.8" x2="76.9" y2="26.8" width="0.3" layer="16"/>
-<wire x1="78.9" y1="28.8" x2="78.9" y2="43.1" width="0.3" layer="16"/>
-<wire x1="78.9" y1="43.1" x2="84.7" y2="48.9" width="0.3" layer="16"/>
 <wire x1="84.7" y1="48.9" x2="91.1" y2="48.9" width="0.3" layer="16"/>
 <wire x1="91.1" y1="48.9" x2="93.1" y2="50.9" width="0.3" layer="16"/>
 <contactref element="J6" pad="3"/>
 <contactref element="R13" pad="2"/>
-<wire x1="76.9" y1="26.8" x2="73" y2="26.8" width="0.3" layer="16"/>
+<wire x1="73" y1="26.8" x2="76.9" y2="26.8" width="0.3" layer="16"/>
 <wire x1="73" y1="26.8" x2="70.9" y2="26.8" width="0.3" layer="16"/>
 <wire x1="60.695" y1="90.295" x2="60.695" y2="88.629" width="0.3" layer="1"/>
 <wire x1="93.2" y1="85" x2="93.2" y2="51" width="0.3" layer="1"/>
@@ -11920,6 +12071,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="87.6" y1="90.6" x2="61" y2="90.6" width="0.3" layer="1"/>
 <wire x1="61" y1="90.6" x2="60.695" y2="90.295" width="0.3" layer="1"/>
 <wire x1="60.695" y1="88.629" x2="60.695" y2="87.359" width="0.3" layer="1"/>
+<contactref element="TP1" pad="1"/>
+<wire x1="76.9" y1="26.8" x2="78.8" y2="28.7" width="0.3" layer="16"/>
+<wire x1="78.8" y1="28.7" x2="78.8" y2="28.8" width="0.3" layer="16"/>
+<wire x1="78.8" y1="28.8" x2="78.8" y2="43" width="0.3" layer="16"/>
+<wire x1="78.8" y1="43" x2="84.7" y2="48.9" width="0.3" layer="16"/>
 </signal>
 <signal name="MAG_READY">
 <contactref element="U2" pad="5"/>
@@ -12273,6 +12429,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J6" pad="8"/>
 <contactref element="J6" pad="7"/>
 <wire x1="58.155" y1="88.629" x2="58.155" y2="87.359" width="0.3" layer="16"/>
+</signal>
+<signal name="N$49">
+<contactref element="J6" pad="40"/>
+<contactref element="J6" pad="39"/>
+<wire x1="37.835" y1="87.359" x2="37.835" y2="88.629" width="0.3" layer="16"/>
+</signal>
+<signal name="N$50">
+<contactref element="J6" pad="36"/>
+<contactref element="J6" pad="35"/>
+<wire x1="40.375" y1="88.629" x2="40.375" y2="87.359" width="0.3" layer="16"/>
+</signal>
+<signal name="N$51">
+<contactref element="J6" pad="34"/>
+<contactref element="J6" pad="33"/>
+<wire x1="41.645" y1="87.359" x2="41.645" y2="88.629" width="0.3" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

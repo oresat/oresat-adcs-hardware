@@ -551,38 +551,21 @@ STAND-OFF</description>
 </library>
 <library name="oresat-cards">
 <packages>
-<package name="ORESAT-CARD-V1.1-3XRF">
+<package name="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0">
 <rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="51"/>
-<wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="20"/>
-<wire x1="0" y1="9" x2="0.5" y2="8.5" width="0.001" layer="20" curve="90"/>
-<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="20"/>
+<wire x1="0" y1="88.9" x2="0" y2="9.2" width="0.001" layer="20"/>
+<wire x1="0" y1="9.2" x2="0.5" y2="8.7" width="0.001" layer="20" curve="90"/>
+<wire x1="0.5" y1="8.7" x2="2.25" y2="8.7" width="0.001" layer="20"/>
 <wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="20"/>
 <wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="20"/>
 <wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20"/>
 <wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="66.4" y1="93.7" x2="67.63205" y2="93.7" width="0.001" layer="20"/>
-<wire x1="68.13205" y1="93.2" x2="68.13205" y2="91.2" width="0.001" layer="20"/>
-<wire x1="70.31" y1="90.7" x2="68.63205" y2="90.7" width="0.001" layer="20"/>
-<wire x1="70.31" y1="87" x2="70.31" y2="90.7" width="0.001" layer="20"/>
-<wire x1="70.81" y1="86.5" x2="72.99" y2="86.5" width="0.001" layer="20"/>
-<wire x1="73.49" y1="87" x2="73.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="76.31" y1="90.7" x2="73.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="76.31" y1="87" x2="76.31" y2="90.7" width="0.001" layer="20"/>
-<wire x1="76.81" y1="86.5" x2="78.99" y2="86.5" width="0.001" layer="20"/>
-<wire x1="79.49" y1="87" x2="79.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="82.31" y1="90.7" x2="79.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="82.31" y1="87" x2="82.31" y2="90.7" width="0.001" layer="20"/>
-<wire x1="82.81" y1="86.5" x2="84.99" y2="86.5" width="0.001" layer="20"/>
-<wire x1="85.49" y1="87" x2="85.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="87.16795" y1="90.7" x2="85.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="87.66795" y1="93.2" x2="87.66795" y2="91.2" width="0.001" layer="20"/>
-<wire x1="89.4" y1="93.7" x2="88.16795" y2="93.7" width="0.001" layer="20"/>
 <wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="20"/>
 <wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="20"/>
-<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="20"/>
-<wire x1="99.3" y1="8.5" x2="99.8" y2="9" width="0.001" layer="20" curve="90"/>
-<wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="20"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="20"/>
+<wire x1="97.55" y1="8.7" x2="99.3" y2="8.7" width="0.001" layer="20"/>
+<wire x1="99.3" y1="8.7" x2="99.8" y2="9.2" width="0.001" layer="20" curve="90"/>
+<wire x1="99.8" y1="9.2" x2="99.8" y2="88.9" width="0.001" layer="20"/>
+<wire x1="97.05" y1="4.1" x2="97.05" y2="8.2" width="0.001" layer="20"/>
 <wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="20"/>
 <wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="20"/>
 <wire x1="15.5" y1="0.5" x2="16" y2="0" width="0.001" layer="20" curve="90"/>
@@ -590,23 +573,11 @@ STAND-OFF</description>
 <wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="20" curve="90"/>
 <wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="20"/>
 <wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="20"/>
-<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="20"/>
-<wire x1="2.75" y1="8" x2="2.25" y2="8.5" width="0.001" layer="20" curve="90"/>
+<wire x1="2.75" y1="8.2" x2="2.75" y2="4.1" width="0.001" layer="20"/>
+<wire x1="2.75" y1="8.2" x2="2.25" y2="8.7" width="0.001" layer="20" curve="90"/>
 <wire x1="8.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
 <wire x1="31.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="64.66795" y1="94.7" x2="66.4" y2="93.7" width="0.001" layer="20" curve="59.999988"/>
-<wire x1="68.13205" y1="93.2" x2="67.63205" y2="93.7" width="0.001" layer="20" curve="90"/>
-<wire x1="68.13205" y1="91.2" x2="68.63205" y2="90.7" width="0.001" layer="20" curve="90"/>
-<wire x1="70.31" y1="87" x2="70.81" y2="86.5" width="0.001" layer="20" curve="90"/>
-<wire x1="72.99" y1="86.5" x2="73.49" y2="87" width="0.001" layer="20" curve="90"/>
-<wire x1="76.31" y1="87" x2="76.81" y2="86.5" width="0.001" layer="20" curve="90"/>
-<wire x1="78.99" y1="86.5" x2="79.49" y2="87" width="0.001" layer="20" curve="90"/>
-<wire x1="82.31" y1="87" x2="82.81" y2="86.5" width="0.001" layer="20" curve="90"/>
-<wire x1="84.99" y1="86.5" x2="85.49" y2="87" width="0.001" layer="20" curve="90"/>
-<wire x1="87.16795" y1="90.7" x2="87.66795" y2="91.2" width="0.001" layer="20" curve="90"/>
-<wire x1="88.16795" y1="93.7" x2="87.66795" y2="93.2" width="0.001" layer="20" curve="90"/>
-<wire x1="89.4" y1="93.7" x2="91.13205" y2="94.7" width="0.001" layer="20" curve="59.999988"/>
-<wire x1="97.55" y1="8.5" x2="97.05" y2="8" width="0.001" layer="20" curve="90"/>
+<wire x1="97.55" y1="8.7" x2="97.05" y2="8.2" width="0.001" layer="20" curve="90"/>
 <wire x1="96.55" y1="3.6" x2="97.05" y2="4.1" width="0.001" layer="20" curve="90"/>
 <wire x1="84.8" y1="3.6" x2="84.3" y2="3.1" width="0.001" layer="20" curve="90"/>
 <wire x1="15.5" y1="3.1" x2="15" y2="3.6" width="0.001" layer="20" curve="90"/>
@@ -626,23 +597,23 @@ STAND-OFF</description>
 <wire x1="20.9" y1="87.994" x2="22.9" y2="87.994" width="0.001" layer="51"/>
 <rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="52"/>
 <polygon width="0.1" layer="29">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0.5" y="8.5" curve="-90"/>
-<vertex x="0" y="9"/>
+<vertex x="2.7" y="8.7"/>
+<vertex x="0.5" y="8.7" curve="-90"/>
+<vertex x="0" y="9.2"/>
 <vertex x="0" y="88.9"/>
 <vertex x="2.7" y="91.6"/>
 </polygon>
 <polygon width="0.1" layer="29">
 <vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9" curve="-90"/>
-<vertex x="99.3" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
+<vertex x="99.8" y="9.2" curve="-90"/>
+<vertex x="99.3" y="8.7"/>
+<vertex x="97.1" y="8.7"/>
 <vertex x="97.1" y="91.4"/>
 </polygon>
 <polygon width="0.1" layer="30">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0.5" y="8.5" curve="-90"/>
-<vertex x="0" y="9"/>
+<vertex x="2.7" y="8.7"/>
+<vertex x="0.5" y="8.7" curve="-90"/>
+<vertex x="0" y="9.2"/>
 <vertex x="0" y="88.9"/>
 <vertex x="2.7" y="91.6"/>
 </polygon>
@@ -656,178 +627,9 @@ STAND-OFF</description>
 </polygon>
 <polygon width="0.1" layer="30">
 <vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9" curve="-90"/>
-<vertex x="99.3" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
-<vertex x="97.1" y="91.4"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="84.3" y="2.7"/>
-<vertex x="84.3" y="0.5" curve="-90"/>
-<vertex x="83.8" y="0"/>
-<vertex x="16" y="0" curve="-90"/>
-<vertex x="15.5" y="0.5"/>
-<vertex x="15.5" y="2.7"/>
-</polygon>
-<circle x="49.9" y="49.9" radius="2.5" width="0.001" layer="100"/>
-<wire x1="91.4" y1="97.3" x2="8.4" y2="97.3" width="0.001" layer="100"/>
-<wire x1="91.4" y1="95.7" x2="8.4" y2="95.7" width="0.001" layer="100"/>
-<wire x1="8.4" y1="95.7" x2="8.4" y2="97.3" width="0.001" layer="100"/>
-<wire x1="91.4" y1="97.3" x2="91.4" y2="95.7" width="0.001" layer="100"/>
-<wire x1="15.5" y1="2.5" x2="84.3" y2="2.5" width="0.001" layer="100"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="2.5" y1="91.4" x2="2.5" y2="8.45" width="0.001" layer="100"/>
-<wire x1="97.3" y1="8.45" x2="97.3" y2="91.4" width="0.001" layer="100"/>
-<wire x1="49.9" y1="44.671840625" x2="49.9" y2="90" width="0.001" layer="100"/>
-<wire x1="9.872909375" y1="88" x2="56.421040625" y2="88" width="0.001" layer="100"/>
-<wire x1="21.9" y1="90" x2="21.9" y2="86" width="0.001" layer="100"/>
-<circle x="85.49" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="82.31" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="79.49" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="70.31" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="73.49" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="76.31" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<wire x1="15.5" y1="3.1" x2="15.5" y2="2.5" width="0.001" layer="100"/>
-<wire x1="15.5" y1="2.5" x2="15.5" y2="0.5" width="0.001" layer="100"/>
-<wire x1="15.5" y1="0.5" x2="16" y2="0" width="0.001" layer="100" curve="90"/>
-<wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="100"/>
-<wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="100" curve="90"/>
-<wire x1="84.3" y1="0.5" x2="84.3" y2="2.5" width="0.001" layer="100"/>
-<wire x1="84.3" y1="2.5" x2="84.3" y2="3.1" width="0.001" layer="100"/>
-<wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="100"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="100"/>
-<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="100"/>
-<wire x1="99.3" y1="8.5" x2="99.8" y2="9" width="0.001" layer="100" curve="90"/>
-<wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="100"/>
-<wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="100"/>
-<wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="89.4" y1="93.7" x2="88.16795" y2="93.7" width="0.001" layer="100"/>
-<wire x1="87.66795" y1="93.2" x2="87.66795" y2="91.2" width="0.001" layer="100"/>
-<wire x1="87.16795" y1="90.7" x2="85.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="85.49" y1="87" x2="85.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="82.81" y1="86.5" x2="84.99" y2="86.5" width="0.001" layer="100"/>
-<wire x1="82.31" y1="87" x2="82.31" y2="90.7" width="0.001" layer="100"/>
-<wire x1="82.31" y1="90.7" x2="79.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="79.49" y1="87" x2="79.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="76.81" y1="86.5" x2="78.99" y2="86.5" width="0.001" layer="100"/>
-<wire x1="76.31" y1="87" x2="76.31" y2="90.7" width="0.001" layer="100"/>
-<wire x1="76.31" y1="90.7" x2="73.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="73.49" y1="87" x2="73.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="70.81" y1="86.5" x2="72.99" y2="86.5" width="0.001" layer="100"/>
-<wire x1="70.31" y1="87" x2="70.31" y2="90.7" width="0.001" layer="100"/>
-<wire x1="70.31" y1="90.7" x2="68.63205" y2="90.7" width="0.001" layer="100"/>
-<wire x1="68.13205" y1="93.2" x2="68.13205" y2="91.2" width="0.001" layer="100"/>
-<wire x1="66.4" y1="93.7" x2="67.63205" y2="93.7" width="0.001" layer="100"/>
-<wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="100"/>
-<wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="100"/>
-<wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="100"/>
-<wire x1="0" y1="9" x2="0.5" y2="8.5" width="0.001" layer="100" curve="90"/>
-<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="100"/>
-<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="100"/>
-<wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="100"/>
-<wire x1="15" y1="3.6" x2="15.5" y2="3.1" width="0.001" layer="100" curve="-90"/>
-<wire x1="84.3" y1="3.1" x2="84.8" y2="3.6" width="0.001" layer="100" curve="-90"/>
-<wire x1="97.05" y1="4.1" x2="96.55" y2="3.6" width="0.001" layer="100" curve="-90"/>
-<wire x1="97.05" y1="8" x2="97.55" y2="8.5" width="0.001" layer="100" curve="-90"/>
-<wire x1="91.13205" y1="94.7" x2="89.4" y2="93.7" width="0.001" layer="100" curve="-59.999988"/>
-<wire x1="87.66795" y1="93.2" x2="88.16795" y2="93.7" width="0.001" layer="100" curve="-90"/>
-<wire x1="87.66795" y1="91.2" x2="87.16795" y2="90.7" width="0.001" layer="100" curve="-90"/>
-<wire x1="85.49" y1="87" x2="84.99" y2="86.5" width="0.001" layer="100" curve="-90"/>
-<wire x1="82.81" y1="86.5" x2="82.31" y2="87" width="0.001" layer="100" curve="-90"/>
-<wire x1="79.49" y1="87" x2="78.99" y2="86.5" width="0.001" layer="100" curve="-90"/>
-<wire x1="76.81" y1="86.5" x2="76.31" y2="87" width="0.001" layer="100" curve="-90"/>
-<wire x1="73.49" y1="87" x2="72.99" y2="86.5" width="0.001" layer="100" curve="-90"/>
-<wire x1="70.81" y1="86.5" x2="70.31" y2="87" width="0.001" layer="100" curve="-90"/>
-<wire x1="68.63205" y1="90.7" x2="68.13205" y2="91.2" width="0.001" layer="100" curve="-90"/>
-<wire x1="67.63205" y1="93.7" x2="68.13205" y2="93.2" width="0.001" layer="100" curve="-90"/>
-<wire x1="66.4" y1="93.7" x2="64.66795" y2="94.7" width="0.001" layer="100" curve="-59.999988"/>
-<wire x1="35.13205" y1="94.7" x2="31.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="12.13205" y1="94.7" x2="8.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="2.25" y1="8.5" x2="2.75" y2="8" width="0.001" layer="100" curve="-90"/>
-<wire x1="3.25" y1="3.6" x2="2.75" y2="4.1" width="0.001" layer="100" curve="-90"/>
-</package>
-<package name="ORESAT-CARD-V1.1-NO-RF">
-<rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="51"/>
-<wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="20"/>
-<wire x1="0" y1="9" x2="0.5" y2="8.5" width="0.001" layer="20" curve="90"/>
-<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="20"/>
-<wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="20"/>
-<wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="20"/>
-<wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="20"/>
-<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="20"/>
-<wire x1="99.3" y1="8.5" x2="99.8" y2="9" width="0.001" layer="20" curve="90"/>
-<wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="20"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="20"/>
-<wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="20"/>
-<wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="20"/>
-<wire x1="15.5" y1="0.5" x2="16" y2="0" width="0.001" layer="20" curve="90"/>
-<wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="20"/>
-<wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="20" curve="90"/>
-<wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="20"/>
-<wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="20"/>
-<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="20"/>
-<wire x1="2.75" y1="8" x2="2.25" y2="8.5" width="0.001" layer="20" curve="90"/>
-<wire x1="8.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="31.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="97.55" y1="8.5" x2="97.05" y2="8" width="0.001" layer="20" curve="90"/>
-<wire x1="96.55" y1="3.6" x2="97.05" y2="4.1" width="0.001" layer="20" curve="90"/>
-<wire x1="84.8" y1="3.6" x2="84.3" y2="3.1" width="0.001" layer="20" curve="90"/>
-<wire x1="15.5" y1="3.1" x2="15" y2="3.6" width="0.001" layer="20" curve="90"/>
-<wire x1="2.75" y1="4.1" x2="3.25" y2="3.6" width="0.001" layer="20" curve="90"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="52"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="51"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="52"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="51"/>
-<circle x="49.9" y="49.9" radius="0.5" width="0.001" layer="51"/>
-<wire x1="48.9" y1="49.9" x2="50.9" y2="49.9" width="0.001" layer="51"/>
-<wire x1="49.9" y1="50.9" x2="49.9" y2="48.9" width="0.001" layer="51"/>
-<circle x="49.9" y="87.994" radius="0.5" width="0.001" layer="51"/>
-<wire x1="49.9" y1="88.994" x2="49.9" y2="86.994" width="0.001" layer="51"/>
-<wire x1="48.9" y1="87.994" x2="50.9" y2="87.994" width="0.001" layer="51"/>
-<wire x1="21.9" y1="88.994" x2="21.9" y2="86.994" width="0.001" layer="51"/>
-<circle x="21.9" y="87.994" radius="0.5" width="0.001" layer="51"/>
-<wire x1="20.9" y1="87.994" x2="22.9" y2="87.994" width="0.001" layer="51"/>
-<rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="52"/>
-<polygon width="0.1" layer="29">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0.5" y="8.5" curve="-90"/>
-<vertex x="0" y="9"/>
-<vertex x="0" y="88.9"/>
-<vertex x="2.7" y="91.6"/>
-</polygon>
-<polygon width="0.1" layer="29">
-<vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9" curve="-90"/>
-<vertex x="99.3" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
-<vertex x="97.1" y="91.4"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0.5" y="8.5" curve="-90"/>
-<vertex x="0" y="9"/>
-<vertex x="0" y="88.9"/>
-<vertex x="2.7" y="91.6"/>
-</polygon>
-<polygon width="0.1" layer="29">
-<vertex x="84.3" y="2.7"/>
-<vertex x="84.3" y="0.5" curve="-90"/>
-<vertex x="83.8" y="0"/>
-<vertex x="16" y="0" curve="-90"/>
-<vertex x="15.5" y="0.5"/>
-<vertex x="15.5" y="2.7"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9" curve="-90"/>
-<vertex x="99.3" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
+<vertex x="99.8" y="9.2" curve="-90"/>
+<vertex x="99.3" y="8.7"/>
+<vertex x="97.1" y="8.7"/>
 <vertex x="97.1" y="91.4"/>
 </polygon>
 <polygon width="0.1" layer="30">
@@ -849,19 +651,19 @@ STAND-OFF</description>
 <wire x1="15.5" y1="2.5" x2="84.3" y2="2.5" width="0.001" layer="100"/>
 <wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="100"/>
 <wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="2.5" y1="91.4" x2="2.5" y2="8.5" width="0.001" layer="100"/>
-<wire x1="97.3" y1="8.5" x2="97.3" y2="91.4" width="0.001" layer="100"/>
+<wire x1="2.5" y1="91.4" x2="2.5" y2="8.7" width="0.001" layer="100"/>
+<wire x1="97.3" y1="8.7" x2="97.3" y2="91.4" width="0.001" layer="100"/>
 <wire x1="49.9" y1="44.671840625" x2="49.9" y2="90" width="0.001" layer="100"/>
 <wire x1="9.872909375" y1="87.994" x2="56.421040625" y2="87.994" width="0.001" layer="100"/>
 <wire x1="21.9" y1="90" x2="21.9" y2="86" width="0.001" layer="100"/>
-<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="100"/>
+<wire x1="2.75" y1="8.2" x2="2.75" y2="4.1" width="0.001" layer="100"/>
 <wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="100"/>
 <wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="100"/>
 <wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="100"/>
 <wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="100"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="100"/>
-<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="100"/>
-<wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.001" layer="100"/>
+<wire x1="97.05" y1="4.1" x2="97.05" y2="8.2" width="0.001" layer="100"/>
+<wire x1="97.55" y1="8.7" x2="99.3" y2="8.7" width="0.001" layer="100"/>
+<wire x1="99.8" y1="9.2" x2="99.8" y2="88.9" width="0.001" layer="100"/>
 <wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="100"/>
 <wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="100"/>
 <wire x1="87.66795" y1="94.7" x2="68.13205" y2="94.7" width="0.001" layer="100"/>
@@ -869,520 +671,41 @@ STAND-OFF</description>
 <wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="100"/>
 <wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="100"/>
 <wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="100"/>
-<wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="100"/>
-<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="100"/>
+<wire x1="0" y1="88.9" x2="0" y2="9.2" width="0.001" layer="100"/>
+<wire x1="0.5" y1="8.7" x2="2.25" y2="8.7" width="0.001" layer="100"/>
 <wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="100"/>
-<wire x1="2.25" y1="8.5" x2="2.75" y2="8" width="0.001" layer="100" curve="-90"/>
+<wire x1="2.25" y1="8.7" x2="2.75" y2="8.2" width="0.001" layer="100" curve="-90"/>
 <wire x1="3.25" y1="3.6" x2="2.75" y2="4.1" width="0.001" layer="100" curve="-90"/>
 <wire x1="15" y1="3.6" x2="15.5" y2="3.1" width="0.001" layer="100" curve="-90"/>
 <wire x1="84.3" y1="0.5" x2="83.8" y2="0" width="0.001" layer="100" curve="-90"/>
 <wire x1="84.3" y1="3.1" x2="84.8" y2="3.6" width="0.001" layer="100" curve="-90"/>
 <wire x1="97.05" y1="4.1" x2="96.55" y2="3.6" width="0.001" layer="100" curve="-90"/>
-<wire x1="97.05" y1="8" x2="97.55" y2="8.5" width="0.001" layer="100" curve="-90"/>
-<wire x1="99.8" y1="9" x2="99.3" y2="8.5" width="0.001" layer="100" curve="-90"/>
+<wire x1="97.05" y1="8.2" x2="97.55" y2="8.7" width="0.001" layer="100" curve="-90"/>
+<wire x1="99.8" y1="9.2" x2="99.3" y2="8.7" width="0.001" layer="100" curve="-90"/>
 <wire x1="91.13205" y1="94.7" x2="87.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="68.13205" y1="94.7" x2="64.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="35.13205" y1="94.7" x2="31.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
 <wire x1="12.13205" y1="94.7" x2="8.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="0.5" y1="8.5" x2="0" y2="9" width="0.001" layer="100" curve="-90"/>
+<wire x1="0.5" y1="8.7" x2="0" y2="9.2" width="0.001" layer="100" curve="-90"/>
 <wire x1="16" y1="0" x2="15.5" y2="0.5" width="0.001" layer="100" curve="-90"/>
-</package>
-<package name="ORESAT-END-CARD-V1.1-3XRF">
-<rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="51"/>
-<wire x1="91.4" y1="97.3" x2="8.4" y2="97.3" width="0.001" layer="100"/>
-<wire x1="91.4" y1="95.7" x2="8.4" y2="95.7" width="0.001" layer="100"/>
-<wire x1="8.4" y1="95.7" x2="8.4" y2="97.3" width="0.001" layer="100"/>
-<wire x1="91.4" y1="97.3" x2="91.4" y2="95.7" width="0.001" layer="100"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="13" y1="2.6" x2="86.8" y2="2.6" width="0.001" layer="100"/>
-<wire x1="2.6" y1="91.4" x2="2.6" y2="8.5" width="0.001" layer="100"/>
-<wire x1="97.2" y1="8.4" x2="97.2" y2="91.4" width="0.001" layer="100"/>
-<wire x1="28.25" y1="88.994" x2="28.25" y2="86.994" width="0.001" layer="100"/>
-<circle x="85.49" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="82.31" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="79.49" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="76.31" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="73.49" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<circle x="70.31" y="86.5" radius="0.16" width="0.001" layer="100"/>
-<wire x1="0" y1="8.5" x2="2.1" y2="8.5" width="0.001" layer="100"/>
-<wire x1="0" y1="88.9" x2="0" y2="8.5" width="0.001" layer="100"/>
-<wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="100"/>
-<wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="100"/>
-<wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="66.4" y1="93.7" x2="67.63205" y2="93.7" width="0.001" layer="100"/>
-<wire x1="68.13205" y1="93.2" x2="68.13205" y2="91.2" width="0.001" layer="100"/>
-<wire x1="70.31" y1="90.7" x2="68.63205" y2="90.7" width="0.001" layer="100"/>
-<wire x1="70.31" y1="87" x2="70.31" y2="90.7" width="0.001" layer="100"/>
-<wire x1="70.81" y1="86.5" x2="72.99" y2="86.5" width="0.001" layer="100"/>
-<wire x1="73.49" y1="87" x2="73.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="76.31" y1="90.7" x2="73.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="76.31" y1="87" x2="76.31" y2="90.7" width="0.001" layer="100"/>
-<wire x1="76.81" y1="86.5" x2="78.99" y2="86.5" width="0.001" layer="100"/>
-<wire x1="79.49" y1="87" x2="79.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="82.31" y1="90.7" x2="79.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="82.31" y1="87" x2="82.31" y2="90.7" width="0.001" layer="100"/>
-<wire x1="82.81" y1="86.5" x2="84.99" y2="86.5" width="0.001" layer="100"/>
-<wire x1="85.49" y1="87" x2="85.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="87.16795" y1="90.7" x2="85.49" y2="90.7" width="0.001" layer="100"/>
-<wire x1="87.66795" y1="93.2" x2="87.66795" y2="91.2" width="0.001" layer="100"/>
-<wire x1="89.4" y1="93.7" x2="88.16795" y2="93.7" width="0.001" layer="100"/>
-<wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="100"/>
-<wire x1="99.8" y1="8.5" x2="99.8" y2="88.9" width="0.001" layer="100"/>
-<wire x1="97.7" y1="8.5" x2="99.8" y2="8.5" width="0.001" layer="100"/>
-<wire x1="97.2" y1="4.1" x2="97.2" y2="8" width="0.001" layer="100"/>
-<wire x1="87.3" y1="3.6" x2="96.7" y2="3.6" width="0.001" layer="100"/>
-<wire x1="86.8" y1="0" x2="86.8" y2="2.6" width="0.001" layer="100"/>
-<wire x1="86.8" y1="2.6" x2="86.8" y2="3.1" width="0.001" layer="100"/>
-<wire x1="13" y1="0" x2="86.8" y2="0" width="0.001" layer="100"/>
-<wire x1="13" y1="3.1" x2="13" y2="2.6" width="0.001" layer="100"/>
-<wire x1="13" y1="2.6" x2="13" y2="0" width="0.001" layer="100"/>
-<wire x1="3.1" y1="3.6" x2="12.5" y2="3.6" width="0.001" layer="100"/>
-<wire x1="2.6" y1="8" x2="2.6" y2="4.1" width="0.001" layer="100"/>
-<wire x1="2.6" y1="8" x2="2.1" y2="8.5" width="0.001" layer="100" curve="90"/>
-<wire x1="8.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="100" curve="119.999977"/>
-<wire x1="31.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="100" curve="119.999977"/>
-<wire x1="64.66795" y1="94.7" x2="66.4" y2="93.7" width="0.001" layer="100" curve="59.999988"/>
-<wire x1="68.13205" y1="93.2" x2="67.63205" y2="93.7" width="0.001" layer="100" curve="90"/>
-<wire x1="68.13205" y1="91.2" x2="68.63205" y2="90.7" width="0.001" layer="100" curve="90"/>
-<wire x1="70.31" y1="87" x2="70.81" y2="86.5" width="0.001" layer="100" curve="90"/>
-<wire x1="72.99" y1="86.5" x2="73.49" y2="87" width="0.001" layer="100" curve="90"/>
-<wire x1="76.31" y1="87" x2="76.81" y2="86.5" width="0.001" layer="100" curve="90"/>
-<wire x1="78.99" y1="86.5" x2="79.49" y2="87" width="0.001" layer="100" curve="90"/>
-<wire x1="82.31" y1="87" x2="82.81" y2="86.5" width="0.001" layer="100" curve="90"/>
-<wire x1="84.99" y1="86.5" x2="85.49" y2="87" width="0.001" layer="100" curve="90"/>
-<wire x1="87.16795" y1="90.7" x2="87.66795" y2="91.2" width="0.001" layer="100" curve="90"/>
-<wire x1="88.16795" y1="93.7" x2="87.66795" y2="93.2" width="0.001" layer="100" curve="90"/>
-<wire x1="89.4" y1="93.7" x2="91.13205" y2="94.7" width="0.001" layer="100" curve="59.999988"/>
-<wire x1="97.7" y1="8.5" x2="97.2" y2="8" width="0.001" layer="100" curve="90"/>
-<wire x1="96.7" y1="3.6" x2="97.2" y2="4.1" width="0.001" layer="100" curve="90"/>
-<wire x1="87.3" y1="3.6" x2="86.8" y2="3.1" width="0.001" layer="100" curve="90"/>
-<wire x1="13" y1="3.1" x2="12.5" y2="3.6" width="0.001" layer="100" curve="90"/>
-<wire x1="2.6" y1="4.1" x2="3.1" y2="3.6" width="0.001" layer="100" curve="90"/>
-<circle x="49.9" y="49.9" radius="0.5" width="0.001" layer="100"/>
-<wire x1="48.9" y1="49.9" x2="50.9" y2="49.9" width="0.001" layer="100"/>
-<wire x1="49.9" y1="50.9" x2="49.9" y2="48.9" width="0.001" layer="100"/>
-<circle x="28.25" y="87.994" radius="0.5" width="0.001" layer="100"/>
-<wire x1="27.25" y1="87.994" x2="29.25" y2="87.994" width="0.001" layer="100"/>
-<wire x1="0" y1="8.5" x2="2.1" y2="8.5" width="0.001" layer="20"/>
-<wire x1="0" y1="88.9" x2="0" y2="8.5" width="0.001" layer="20"/>
-<wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="20"/>
-<wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="20"/>
-<wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="66.4" y1="93.7" x2="67.63205" y2="93.7" width="0.001" layer="20"/>
-<wire x1="68.13205" y1="93.2" x2="68.13205" y2="91.2" width="0.001" layer="20"/>
-<wire x1="70.31" y1="90.7" x2="68.63205" y2="90.7" width="0.001" layer="20"/>
-<wire x1="70.31" y1="87" x2="70.31" y2="90.7" width="0.001" layer="20"/>
-<wire x1="70.81" y1="86.5" x2="72.99" y2="86.5" width="0.001" layer="20"/>
-<wire x1="73.49" y1="87" x2="73.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="76.31" y1="90.7" x2="73.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="76.31" y1="87" x2="76.31" y2="90.7" width="0.001" layer="20"/>
-<wire x1="76.81" y1="86.5" x2="78.99" y2="86.5" width="0.001" layer="20"/>
-<wire x1="79.49" y1="87" x2="79.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="82.31" y1="90.7" x2="79.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="82.31" y1="87" x2="82.31" y2="90.7" width="0.001" layer="20"/>
-<wire x1="82.81" y1="86.5" x2="84.99" y2="86.5" width="0.001" layer="20"/>
-<wire x1="85.49" y1="87" x2="85.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="87.16795" y1="90.7" x2="85.49" y2="90.7" width="0.001" layer="20"/>
-<wire x1="87.66795" y1="93.2" x2="87.66795" y2="91.2" width="0.001" layer="20"/>
-<wire x1="89.4" y1="93.7" x2="88.16795" y2="93.7" width="0.001" layer="20"/>
-<wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="20"/>
-<wire x1="99.8" y1="8.5" x2="99.8" y2="88.9" width="0.001" layer="20"/>
-<wire x1="97.7" y1="8.5" x2="99.8" y2="8.5" width="0.001" layer="20"/>
-<wire x1="97.2" y1="4.1" x2="97.2" y2="8" width="0.001" layer="20"/>
-<wire x1="87.3" y1="3.6" x2="96.7" y2="3.6" width="0.001" layer="20"/>
-<wire x1="86.8" y1="0" x2="86.8" y2="3.1" width="0.001" layer="20"/>
-<wire x1="13" y1="0" x2="86.8" y2="0" width="0.001" layer="20"/>
-<wire x1="13" y1="3.1" x2="13" y2="0" width="0.001" layer="20"/>
-<wire x1="3.1" y1="3.6" x2="12.5" y2="3.6" width="0.001" layer="20"/>
-<wire x1="2.6" y1="8" x2="2.6" y2="4.1" width="0.001" layer="20"/>
-<wire x1="2.6" y1="8" x2="2.1" y2="8.5" width="0.001" layer="20" curve="90"/>
-<wire x1="8.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="31.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="64.66795" y1="94.7" x2="66.4" y2="93.7" width="0.001" layer="20" curve="59.999988"/>
-<wire x1="68.13205" y1="93.2" x2="67.63205" y2="93.7" width="0.001" layer="20" curve="90"/>
-<wire x1="68.13205" y1="91.2" x2="68.63205" y2="90.7" width="0.001" layer="20" curve="90"/>
-<wire x1="70.31" y1="87" x2="70.81" y2="86.5" width="0.001" layer="20" curve="90"/>
-<wire x1="72.99" y1="86.5" x2="73.49" y2="87" width="0.001" layer="20" curve="90"/>
-<wire x1="76.31" y1="87" x2="76.81" y2="86.5" width="0.001" layer="20" curve="90"/>
-<wire x1="78.99" y1="86.5" x2="79.49" y2="87" width="0.001" layer="20" curve="90"/>
-<wire x1="82.31" y1="87" x2="82.81" y2="86.5" width="0.001" layer="20" curve="90"/>
-<wire x1="84.99" y1="86.5" x2="85.49" y2="87" width="0.001" layer="20" curve="90"/>
-<wire x1="87.16795" y1="90.7" x2="87.66795" y2="91.2" width="0.001" layer="20" curve="90"/>
-<wire x1="88.16795" y1="93.7" x2="87.66795" y2="93.2" width="0.001" layer="20" curve="90"/>
-<wire x1="89.4" y1="93.7" x2="91.13205" y2="94.7" width="0.001" layer="20" curve="59.999988"/>
-<wire x1="97.7" y1="8.5" x2="97.2" y2="8" width="0.001" layer="20" curve="90"/>
-<wire x1="96.7" y1="3.6" x2="97.2" y2="4.1" width="0.001" layer="20" curve="90"/>
-<wire x1="87.3" y1="3.6" x2="86.8" y2="3.1" width="0.001" layer="20" curve="90"/>
-<wire x1="13" y1="3.1" x2="12.5" y2="3.6" width="0.001" layer="20" curve="90"/>
-<wire x1="2.6" y1="4.1" x2="3.1" y2="3.6" width="0.001" layer="20" curve="90"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="52"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="51"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="52"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="51"/>
-<circle x="49.9" y="49.9" radius="0.5" width="0.001" layer="51"/>
-<wire x1="48.9" y1="49.9" x2="50.9" y2="49.9" width="0.001" layer="51"/>
-<wire x1="49.9" y1="50.9" x2="49.9" y2="48.9" width="0.001" layer="51"/>
-<circle x="49.9" y="87.994" radius="0.5" width="0.001" layer="51"/>
-<wire x1="49.9" y1="88.994" x2="49.9" y2="86.994" width="0.001" layer="51"/>
-<wire x1="48.9" y1="87.994" x2="50.9" y2="87.994" width="0.001" layer="51"/>
-<wire x1="21.9" y1="88.994" x2="21.9" y2="86.994" width="0.001" layer="51"/>
-<circle x="21.9" y="87.994" radius="0.5" width="0.001" layer="51"/>
-<wire x1="20.9" y1="87.994" x2="22.9" y2="87.994" width="0.001" layer="51"/>
-<rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="52"/>
-<polygon width="0.1" layer="29">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0" y="8.5"/>
-<vertex x="0" y="88.9"/>
-<vertex x="2.7" y="91.6"/>
-</polygon>
-<polygon width="0.1" layer="29">
-<vertex x="99.8" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
-<vertex x="97.1" y="91.4"/>
-<vertex x="99.8" y="88.9"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0" y="8.5"/>
-<vertex x="0" y="88.9"/>
-<vertex x="2.7" y="91.6"/>
-</polygon>
-<polygon width="0.1" layer="29">
-<vertex x="86.8" y="0"/>
-<vertex x="13" y="0"/>
-<vertex x="13" y="2.7"/>
-<vertex x="86.8" y="2.7"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="99.8" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
-<vertex x="97.1" y="91.4"/>
-<vertex x="99.8" y="88.9"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="86.8" y="0"/>
-<vertex x="13" y="0"/>
-<vertex x="13" y="2.7"/>
-<vertex x="86.8" y="2.7"/>
-</polygon>
-<circle x="12.15" y="44.515" radius="0.8" width="0.001" layer="100"/>
-<circle x="12.15" y="55.285" radius="0.8" width="0.001" layer="100"/>
-<circle x="44.515" y="12.15" radius="0.8" width="0.001" layer="100"/>
-<circle x="55.285" y="12.15" radius="0.8" width="0.001" layer="100"/>
-<circle x="87.65" y="44.515" radius="0.8" width="0.001" layer="100"/>
-<circle x="87.65" y="55.285" radius="0.8" width="0.001" layer="100"/>
-<circle x="55.285" y="87.65" radius="0.8" width="0.001" layer="100"/>
-<circle x="44.515" y="87.65" radius="0.8" width="0.001" layer="100"/>
-<circle x="7.4" y="73.415" radius="0.8" width="0.001" layer="100"/>
-<circle x="7.4" y="84.185" radius="0.8" width="0.001" layer="100"/>
-<text x="20" y="50" size="5" layer="100" font="vector">NOT UPDATED</text>
-</package>
-<package name="ORESAT-CARD-V1.1-BATTERY">
-<rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="51"/>
-<circle x="49.9" y="49.9" radius="0.5" width="0.001" layer="51"/>
-<wire x1="48.9" y1="49.9" x2="50.9" y2="49.9" width="0.001" layer="51"/>
-<wire x1="49.9" y1="50.9" x2="49.9" y2="48.9" width="0.001" layer="51"/>
-<circle x="49.9" y="87.994" radius="0.5" width="0.001" layer="51"/>
-<wire x1="49.9" y1="88.994" x2="49.9" y2="86.994" width="0.001" layer="51"/>
-<wire x1="48.9" y1="87.994" x2="50.9" y2="87.994" width="0.001" layer="51"/>
-<rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="52"/>
-<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.001" layer="20"/>
-<wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="20"/>
-<wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="20"/>
-<wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="20"/>
-<wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="20"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.001" layer="20"/>
-<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.001" layer="20"/>
-<wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="20"/>
-<wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="87.66795" y1="94.7" x2="68.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="20"/>
-<wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="20"/>
-<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.001" layer="20"/>
-<wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="20"/>
-<wire x1="2.25" y1="8.5" x2="2.75" y2="8" width="0.001" layer="20" curve="-90"/>
-<wire x1="3.25" y1="3.6" x2="2.75" y2="4.1" width="0.001" layer="20" curve="-90"/>
-<wire x1="15" y1="3.6" x2="15.5" y2="3.1" width="0.001" layer="20" curve="-90"/>
-<wire x1="84.3" y1="0.5" x2="83.8" y2="0" width="0.001" layer="20" curve="-90"/>
-<wire x1="84.3" y1="3.1" x2="84.8" y2="3.6" width="0.001" layer="20" curve="-90"/>
-<wire x1="97.05" y1="4.1" x2="96.55" y2="3.6" width="0.001" layer="20" curve="-90"/>
-<wire x1="97.05" y1="8" x2="97.55" y2="8.5" width="0.001" layer="20" curve="-90"/>
-<wire x1="99.8" y1="9" x2="99.3" y2="8.5" width="0.001" layer="20" curve="-90"/>
-<wire x1="91.13205" y1="94.7" x2="87.66795" y2="94.7" width="0.001" layer="20" curve="-119.999977"/>
-<wire x1="68.13205" y1="94.7" x2="64.66795" y2="94.7" width="0.001" layer="20" curve="-119.999977"/>
-<wire x1="35.13205" y1="94.7" x2="31.66795" y2="94.7" width="0.001" layer="20" curve="-119.999977"/>
-<wire x1="12.13205" y1="94.7" x2="8.66795" y2="94.7" width="0.001" layer="20" curve="-119.999977"/>
-<wire x1="0.5" y1="8.5" x2="0" y2="9" width="0.001" layer="20" curve="-90"/>
-<wire x1="16" y1="0" x2="15.5" y2="0.5" width="0.001" layer="20" curve="-90"/>
-<wire x1="99.8" y1="88.9" x2="99.8" y2="9" width="0.001" layer="20"/>
-<wire x1="0" y1="88.9" x2="0" y2="9" width="0.001" layer="20"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="52"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="51"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="52"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="51"/>
-<hole x="31.9" y="89.7" drill="2.6"/>
-<hole x="67.9" y="89.7" drill="2.6"/>
-<hole x="49.9" y="49.9" drill="2.6"/>
-<hole x="24.9" y="49.9" drill="2.6"/>
-<hole x="74.9" y="49.9" drill="2.6"/>
-<hole x="74.9" y="10.1" drill="2.6"/>
-<hole x="49.9" y="10.1" drill="2.6"/>
-<hole x="24.9" y="10.1" drill="2.6"/>
-<polygon width="0.1" layer="29">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0.5" y="8.5" curve="-90"/>
-<vertex x="0" y="9"/>
-<vertex x="0" y="88.9"/>
-<vertex x="2.7" y="91.6"/>
-</polygon>
-<polygon width="0.1" layer="29">
-<vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9" curve="-90"/>
-<vertex x="99.3" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
-<vertex x="97.1" y="91.4"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="2.7" y="8.5"/>
-<vertex x="0.5" y="8.5" curve="-90"/>
-<vertex x="0" y="9"/>
-<vertex x="0" y="88.9"/>
-<vertex x="2.7" y="91.6"/>
-</polygon>
-<polygon width="0.1" layer="29">
-<vertex x="84.3" y="2.7"/>
-<vertex x="84.3" y="0.5" curve="-90"/>
-<vertex x="83.8" y="0"/>
-<vertex x="16" y="0" curve="-90"/>
-<vertex x="15.5" y="0.5"/>
-<vertex x="15.5" y="2.7"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9" curve="-90"/>
-<vertex x="99.3" y="8.5"/>
-<vertex x="97.1" y="8.5"/>
-<vertex x="97.1" y="91.4"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="84.3" y="2.7"/>
-<vertex x="84.3" y="0.5" curve="-90"/>
-<vertex x="83.8" y="0"/>
-<vertex x="16" y="0" curve="-90"/>
-<vertex x="15.5" y="0.5"/>
-<vertex x="15.5" y="2.7"/>
-</polygon>
-<circle x="31.9" y="89.7" radius="2.3" width="0" layer="41"/>
-<circle x="31.9" y="89.7" radius="2.3" width="0" layer="39"/>
-<circle x="67.9" y="89.7" radius="2.3" width="0" layer="39"/>
-<circle x="67.9" y="89.7" radius="2.3" width="0" layer="41"/>
-<circle x="24.9" y="49.9" radius="2.3" width="0" layer="41"/>
-<circle x="24.9" y="49.9" radius="2.3" width="0" layer="39"/>
-<circle x="49.9" y="49.9" radius="2.3" width="0" layer="39"/>
-<circle x="49.9" y="49.9" radius="2.3" width="0" layer="41"/>
-<circle x="74.9" y="49.9" radius="2.3" width="0" layer="41"/>
-<circle x="74.9" y="49.9" radius="2.3" width="0" layer="39"/>
-<circle x="24.9" y="10.1" radius="2.3" width="0" layer="39"/>
-<circle x="24.9" y="10.1" radius="2.3" width="0" layer="41"/>
-<circle x="49.9" y="10.1" radius="2.3" width="0" layer="41"/>
-<circle x="49.9" y="10.1" radius="2.3" width="0" layer="39"/>
-<circle x="74.9" y="10.1" radius="2.3" width="0" layer="39"/>
-<circle x="74.9" y="10.1" radius="2.3" width="0" layer="41"/>
-<circle x="49.9" y="49.9" locked="yes" radius="2.5" width="0.1" layer="50"/>
-<wire x1="90.45" y1="16.25" x2="87.95" y2="13.75" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="87.95" y1="21.75" x2="90.45" y2="19.25" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="9.35" y1="19.25" x2="11.85" y2="21.75" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="11.85" y1="13.75" x2="9.35" y2="16.25" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="91.4" y1="97.3" x2="8.4" y2="97.3" width="0.1" layer="50" locked="yes"/>
-<wire x1="91.4" y1="95.7" x2="8.4" y2="95.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="8.4" y1="95.7" x2="8.4" y2="97.3" width="0.1" layer="50" locked="yes"/>
-<wire x1="91.4" y1="97.3" x2="91.4" y2="95.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="12.9" y1="2.5" x2="86.9" y2="2.5" width="0.1" layer="50" locked="yes"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="2.5" y1="91.4" x2="2.5" y2="8.5" width="0.1" layer="50" locked="yes"/>
-<wire x1="97.3" y1="8.4" x2="97.3" y2="8.5" width="0.1" layer="50" locked="yes"/>
-<wire x1="97.3" y1="8.5" x2="97.3" y2="91.4" width="0.1" layer="50" locked="yes"/>
-<wire x1="97.3" y1="8.5" x2="97.2" y2="8.5" width="0.1" layer="50" locked="yes"/>
-<wire x1="0" y1="88.756" x2="99.8" y2="88.756" width="0.1" layer="50" locked="yes"/>
-<wire x1="49.9" y1="44.671840625" x2="49.9" y2="107.27168125" width="0.1" layer="50" locked="yes"/>
-<wire x1="0" y1="87.232" x2="99.8" y2="87.232" width="0.1" layer="50" locked="yes"/>
-<wire x1="9.872909375" y1="87.994" x2="56.421040625" y2="87.994" width="0.1" layer="50" locked="yes"/>
-<wire x1="21.9" y1="98.5679" x2="21.9" y2="84.10488125" width="0.1" layer="50" locked="yes"/>
-<wire x1="16.0072" y1="87.461" x2="16.0072" y2="87.207" width="0.1" layer="50" locked="yes"/>
-<wire x1="16.0072" y1="88.731" x2="16.0072" y2="88.477" width="0.1" layer="50" locked="yes"/>
-<wire x1="96.7" y1="13.75" x2="96.7" y2="9.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="93.7" y1="13.75" x2="93.7" y2="9.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="93.7" y1="13.75" x2="96.7" y2="13.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="95.2" y1="25.75" x2="95.2" y2="9.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="6.1" y1="13.75" x2="3.1" y2="13.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="4.6" y1="25.75" x2="4.6" y2="9.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="86.45" y1="25.75" x2="96.95" y2="25.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="96.95" y1="25.75" x2="96.95" y2="9.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="96.95" y1="9.75" x2="86.45" y2="9.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="86.45" y1="9.75" x2="86.45" y2="13.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="86.45" y1="13.75" x2="87.95" y2="13.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="90.45" y1="16.25" x2="90.45" y2="19.25" width="0.1" layer="50" locked="yes"/>
-<wire x1="87.95" y1="21.75" x2="86.45" y2="21.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="86.45" y1="21.75" x2="86.45" y2="25.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="3.1" y1="9.75" x2="3.1" y2="13.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="6.1" y1="9.75" x2="6.1" y2="13.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="13.35" y1="9.75" x2="2.85" y2="9.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="2.85" y1="9.75" x2="2.85" y2="25.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="2.85" y1="25.75" x2="13.35" y2="25.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="13.35" y1="25.75" x2="13.35" y2="21.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="13.35" y1="21.75" x2="11.85" y2="21.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="9.35" y1="19.25" x2="9.35" y2="16.25" width="0.1" layer="50" locked="yes"/>
-<wire x1="11.85" y1="13.75" x2="13.35" y2="13.75" width="0.1" layer="50" locked="yes"/>
-<wire x1="13.35" y1="13.75" x2="13.35" y2="9.75" width="0.1" layer="50" locked="yes"/>
-<circle x="67.9" y="89.7" locked="yes" radius="1.3" width="0.1" layer="50"/>
-<circle x="24.9" y="10.1" locked="yes" radius="1.3" width="0.1" layer="50"/>
-<circle x="74.9" y="10.1" locked="yes" radius="1.3" width="0.1" layer="50"/>
-<circle x="88.45" y="23.75" locked="yes" radius="1" width="0.1" layer="50"/>
-<circle x="11.35" y="11.75" locked="yes" radius="1" width="0.1" layer="50"/>
-<circle x="11.35" y="23.75" locked="yes" radius="1" width="0.1" layer="50"/>
-<circle x="88.45" y="11.75" locked="yes" radius="1" width="0.1" layer="50"/>
-<circle x="24.9" y="49.9" locked="yes" radius="1.3" width="0.1" layer="50"/>
-<circle x="49.9" y="10.1" locked="yes" radius="1.3" width="0.1" layer="50"/>
-<circle x="74.9" y="49.9" locked="yes" radius="1.3" width="0.1" layer="50"/>
-<circle x="49.9" y="49.9" locked="yes" radius="1.3" width="0.1" layer="50"/>
-<circle x="31.9" y="89.7" locked="yes" radius="1.3" width="0.1" layer="50"/>
-<wire x1="2.75" y1="8" x2="2.75" y2="4.1" width="0.1" layer="50" locked="yes"/>
-<wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.1" layer="50" locked="yes"/>
-<wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.1" layer="50" locked="yes"/>
-<wire x1="16" y1="0" x2="83.8" y2="0" width="0.1" layer="50" locked="yes"/>
-<wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.1" layer="50" locked="yes"/>
-<wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.1" layer="50" locked="yes"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8" width="0.1" layer="50" locked="yes"/>
-<wire x1="97.55" y1="8.5" x2="99.3" y2="8.5" width="0.1" layer="50" locked="yes"/>
-<wire x1="99.8" y1="9" x2="99.8" y2="88.9" width="0.1" layer="50" locked="yes"/>
-<wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="87.66795" y1="94.7" x2="68.13205" y2="94.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="0" y1="88.9" x2="0" y2="9" width="0.1" layer="50" locked="yes"/>
-<wire x1="0.5" y1="8.5" x2="2.25" y2="8.5" width="0.1" layer="50" locked="yes"/>
-<wire x1="16.9" y1="75.35" x2="16.9" y2="82.65" width="0.1" layer="50" locked="yes"/>
-<wire x1="17.9" y1="82.65" x2="17.9" y2="75.35" width="0.1" layer="50" locked="yes"/>
-<wire x1="81.9" y1="56.95" x2="81.9" y2="64.25" width="0.1" layer="50" locked="yes"/>
-<wire x1="82.9" y1="64.25" x2="82.9" y2="56.95" width="0.1" layer="50" locked="yes"/>
-<wire x1="82.9" y1="24.45" x2="82.9" y2="17.15" width="0.1" layer="50" locked="yes"/>
-<wire x1="81.9" y1="17.15" x2="81.9" y2="24.45" width="0.1" layer="50" locked="yes"/>
-<wire x1="84.9" y1="24.45" x2="84.9" y2="17.15" width="0.1" layer="50" locked="yes"/>
-<wire x1="83.9" y1="17.15" x2="83.9" y2="24.45" width="0.1" layer="50" locked="yes"/>
-<wire x1="84.9" y1="42.85" x2="84.9" y2="35.55" width="0.1" layer="50" locked="yes"/>
-<wire x1="83.9" y1="35.55" x2="83.9" y2="42.85" width="0.1" layer="50" locked="yes"/>
-<wire x1="81.9" y1="35.55" x2="81.9" y2="42.85" width="0.1" layer="50" locked="yes"/>
-<wire x1="83.9" y1="56.95" x2="83.9" y2="64.25" width="0.1" layer="50" locked="yes"/>
-<wire x1="84.9" y1="64.25" x2="84.9" y2="56.95" width="0.1" layer="50" locked="yes"/>
-<wire x1="83.9" y1="75.35" x2="83.9" y2="82.65" width="0.1" layer="50" locked="yes"/>
-<wire x1="84.9" y1="82.65" x2="84.9" y2="75.35" width="0.1" layer="50" locked="yes"/>
-<wire x1="81.9" y1="75.35" x2="81.9" y2="82.65" width="0.1" layer="50" locked="yes"/>
-<wire x1="82.9" y1="82.65" x2="82.9" y2="75.35" width="0.1" layer="50" locked="yes"/>
-<wire x1="17.9" y1="24.45" x2="17.9" y2="17.15" width="0.1" layer="50" locked="yes"/>
-<wire x1="16.9" y1="17.15" x2="16.9" y2="24.45" width="0.1" layer="50" locked="yes"/>
-<wire x1="16.9" y1="56.95" x2="16.9" y2="64.25" width="0.1" layer="50" locked="yes"/>
-<wire x1="17.9" y1="64.25" x2="17.9" y2="56.95" width="0.1" layer="50" locked="yes"/>
-<wire x1="14.9" y1="56.95" x2="14.9" y2="64.25" width="0.1" layer="50" locked="yes"/>
-<wire x1="15.9" y1="64.25" x2="15.9" y2="56.95" width="0.1" layer="50" locked="yes"/>
-<wire x1="14.9" y1="75.35" x2="14.9" y2="82.65" width="0.1" layer="50" locked="yes"/>
-<wire x1="15.9" y1="82.65" x2="15.9" y2="75.35" width="0.1" layer="50" locked="yes"/>
-<wire x1="15.9" y1="24.45" x2="15.9" y2="17.15" width="0.1" layer="50" locked="yes"/>
-<wire x1="14.9" y1="17.15" x2="14.9" y2="24.45" width="0.1" layer="50" locked="yes"/>
-<wire x1="15.9" y1="42.85" x2="15.9" y2="35.55" width="0.1" layer="50" locked="yes"/>
-<wire x1="14.9" y1="35.55" x2="14.9" y2="42.85" width="0.1" layer="50" locked="yes"/>
-<wire x1="17.9" y1="42.85" x2="17.9" y2="35.55" width="0.1" layer="50" locked="yes"/>
-<wire x1="16.9" y1="35.55" x2="16.9" y2="42.85" width="0.1" layer="50" locked="yes"/>
-<wire x1="82.9" y1="42.85" x2="82.9" y2="35.55" width="0.1" layer="50" locked="yes"/>
-<wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.1" layer="50" locked="yes"/>
-<wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.1" layer="50" locked="yes"/>
-<wire x1="2.25" y1="8.5" x2="2.75" y2="8" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="3.25" y1="3.6" x2="2.75" y2="4.1" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="15" y1="3.6" x2="15.5" y2="3.1" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="16" y1="0" x2="15.5" y2="0.5" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="84.3" y1="0.5" x2="83.8" y2="0" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="84.3" y1="3.1" x2="84.8" y2="3.6" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="97.05" y1="4.1" x2="96.55" y2="3.6" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="97.05" y1="8" x2="97.55" y2="8.5" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="99.8" y1="9" x2="99.3" y2="8.5" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="91.13205" y1="94.7" x2="87.66795" y2="94.7" width="0.1" layer="50" curve="-119.999977" locked="yes"/>
-<wire x1="68.13205" y1="94.7" x2="64.66795" y2="94.7" width="0.1" layer="50" curve="-119.999977" locked="yes"/>
-<wire x1="35.13205" y1="94.7" x2="31.66795" y2="94.7" width="0.1" layer="50" curve="-119.999977" locked="yes"/>
-<wire x1="12.13205" y1="94.7" x2="8.66795" y2="94.7" width="0.1" layer="50" curve="-119.999977" locked="yes"/>
-<wire x1="0.5" y1="8.5" x2="0" y2="9" width="0.1" layer="50" curve="-90" locked="yes"/>
-<wire x1="17.9" y1="75.35" x2="16.9" y2="75.35" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="16.9" y1="82.65" x2="17.9" y2="82.65" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="82.9" y1="56.95" x2="81.9" y2="56.95" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="81.9" y1="64.25" x2="82.9" y2="64.25" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="81.9" y1="24.45" x2="82.9" y2="24.45" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="82.9" y1="17.15" x2="81.9" y2="17.15" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="83.9" y1="24.45" x2="84.9" y2="24.45" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="84.9" y1="17.15" x2="83.9" y2="17.15" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="83.9" y1="42.85" x2="84.9" y2="42.85" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="84.9" y1="35.55" x2="83.9" y2="35.55" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="81.9" y1="42.85" x2="82.9" y2="42.85" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="82.9" y1="35.55" x2="81.9" y2="35.55" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="84.9" y1="56.95" x2="83.9" y2="56.95" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="83.9" y1="64.25" x2="84.9" y2="64.25" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="84.9" y1="75.35" x2="83.9" y2="75.35" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="83.9" y1="82.65" x2="84.9" y2="82.65" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="82.9" y1="75.35" x2="81.9" y2="75.35" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="81.9" y1="82.65" x2="82.9" y2="82.65" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="16.9" y1="24.45" x2="17.9" y2="24.45" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="17.9" y1="17.15" x2="16.9" y2="17.15" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="17.9" y1="56.95" x2="16.9" y2="56.95" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="16.9" y1="64.25" x2="17.9" y2="64.25" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="15.9" y1="56.95" x2="14.9" y2="56.95" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="14.9" y1="64.25" x2="15.9" y2="64.25" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="15.9" y1="75.35" x2="14.9" y2="75.35" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="14.9" y1="82.65" x2="15.9" y2="82.65" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="14.9" y1="24.45" x2="15.9" y2="24.45" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="15.9" y1="17.15" x2="14.9" y2="17.15" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="14.9" y1="42.85" x2="15.9" y2="42.85" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="15.9" y1="35.55" x2="14.9" y2="35.55" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="16.9" y1="42.85" x2="17.9" y2="42.85" width="0.1" layer="50" curve="-180" locked="yes"/>
-<wire x1="17.9" y1="35.55" x2="16.9" y2="35.55" width="0.1" layer="50" curve="-180" locked="yes"/>
 </package>
 </packages>
 <symbols>
-<symbol name="ORESAT-CARD">
+<symbol name="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0">
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<text x="2.54" y="-1.27" size="2.54" layer="94">OreSat Card v1.1</text>
+<text x="2.54" y="-1.27" size="2.54" layer="94">OreSat Card v1.2: Generic Card w/0RF v1.0</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ORESAT-CARD-V1.1" prefix="PCB">
+<deviceset name="ORESAT-CARD-V1.2-GENERIC-0XRF-V1.0" prefix="PCB">
 <gates>
-<gate name="G$1" symbol="ORESAT-CARD" x="0" y="0"/>
+<gate name="G$1" symbol="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-3XRF" package="ORESAT-CARD-V1.1-3XRF">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-NO-RF" package="ORESAT-CARD-V1.1-NO-RF">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-END-CARD-3XRF" package="ORESAT-END-CARD-V1.1-3XRF">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-BATTERY" package="ORESAT-CARD-V1.1-BATTERY">
+<device name="" package="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -15043,14 +14366,36 @@ by exp-lbrs.ulp</description>
 <part name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="H4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-120-X1-XXX-D-RA" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="SAM10145-ND"/>
 <attribute name="MFR" value="Samtec"/>
 <attribute name="MPN" value="TFM-120-01-L-D-RA"/>
 </part>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="QUADRANT1" library="oresat-ACS_driver_board" deviceset="MEZZANINE_PLUG" device=""/>
-<part name="QUADRANT2" library="oresat-ACS_driver_board" deviceset="MEZZANINE_PLUG" device=""/>
-<part name="QUADRANT3" library="oresat-ACS_driver_board" deviceset="MEZZANINE_PLUG" device=""/>
-<part name="QUADRANT4" library="oresat-ACS_driver_board" deviceset="MEZZANINE_PLUG" device=""/>
+<part name="QUADRANT1" library="oresat-ACS_driver_board" deviceset="MEZZANINE_PLUG" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM9218CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0555600307"/>
+</part>
+<part name="QUADRANT2" library="oresat-ACS_driver_board" deviceset="MEZZANINE_PLUG" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM9218CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0555600307"/>
+</part>
+<part name="QUADRANT3" library="oresat-ACS_driver_board" deviceset="MEZZANINE_PLUG" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM9218CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0555600307"/>
+</part>
+<part name="QUADRANT4" library="oresat-ACS_driver_board" deviceset="MEZZANINE_PLUG" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="WM9218CT-ND"/>
+<attribute name="MFR" value="Molex"/>
+<attribute name="MPN" value="0555600307"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -15065,9 +14410,9 @@ by exp-lbrs.ulp</description>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R77" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="U9" library="U-Maxim-MAX7310-I2C-GPIO-expander" deviceset="MAX7310" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15085,9 +14430,9 @@ by exp-lbrs.ulp</description>
 <part name="GND52" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R78" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-10.0HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-0710RL"/>
 </part>
 <part name="U10" library="U-Maxim-MAX4211-power-monitor" deviceset="MAX4211" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15173,29 +14518,29 @@ by exp-lbrs.ulp</description>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R91" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R92" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="VBUS3" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R93" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R94" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R95" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m">
@@ -15212,16 +14557,16 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R96" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R97" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R98" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15231,9 +14576,9 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R99" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R100" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15250,9 +14595,9 @@ by exp-lbrs.ulp</description>
 <part name="TP35" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R101" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R102" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15271,9 +14616,9 @@ by exp-lbrs.ulp</description>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R104" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="TP36" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
@@ -15323,9 +14668,9 @@ by exp-lbrs.ulp</description>
 <part name="GND65" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R105" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
-<attribute name="MFR" value="TE Connectivity "/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="DPN" value="A129693CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="Q15" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15335,61 +14680,61 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R106" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R107" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
 </part>
 <part name="R108" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
 </part>
 <part name="TP42" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP43" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R109" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R110" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND67" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP44" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R111" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R112" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R113" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R114" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND69" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP45" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -15407,8 +14752,18 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U11" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
-<part name="U12" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
+<part name="U11" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
+<part name="U12" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
 <part name="D9" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="511-1584-1-ND"/>
@@ -15419,9 +14774,9 @@ by exp-lbrs.ulp</description>
 <part name="GND94" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R153" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="U17" library="U-Maxim-MAX7310-I2C-GPIO-expander" deviceset="MAX7310" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15432,16 +14787,16 @@ by exp-lbrs.ulp</description>
 <part name="GND95" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C21" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="GND96" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R154" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-10.0HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-0710RL"/>
 </part>
 <part name="U18" library="U-Maxim-MAX4211-power-monitor" deviceset="MAX4211" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15527,29 +14882,29 @@ by exp-lbrs.ulp</description>
 <part name="GND100" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R167" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R168" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="VBUS5" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R169" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND101" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R170" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R171" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m">
@@ -15566,16 +14921,16 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R172" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND103" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R173" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R174" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15585,9 +14940,9 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R175" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R176" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15604,9 +14959,9 @@ by exp-lbrs.ulp</description>
 <part name="TP65" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R177" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R178" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15625,9 +14980,9 @@ by exp-lbrs.ulp</description>
 <part name="GND107" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R180" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="TP66" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
@@ -15677,9 +15032,9 @@ by exp-lbrs.ulp</description>
 <part name="GND109" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R181" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
-<attribute name="MFR" value="TE Connectivity "/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="DPN" value="A129693CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="Q25" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15689,61 +15044,61 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R182" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R183" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
 </part>
 <part name="R184" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
 </part>
 <part name="TP72" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP73" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R185" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R186" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND111" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP74" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R187" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R188" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R189" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R190" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND113" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP75" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -15761,8 +15116,18 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND115" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U19" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
-<part name="U20" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
+<part name="U19" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
+<part name="U20" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
 <part name="D13" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="511-1584-1-ND"/>
@@ -15773,9 +15138,9 @@ by exp-lbrs.ulp</description>
 <part name="GND138" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R229" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="U25" library="U-Maxim-MAX7310-I2C-GPIO-expander" deviceset="MAX7310" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15786,16 +15151,16 @@ by exp-lbrs.ulp</description>
 <part name="GND139" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C31" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="GND140" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R230" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-10.0HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-0710RL"/>
 </part>
 <part name="U26" library="U-Maxim-MAX4211-power-monitor" deviceset="MAX4211" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15881,29 +15246,29 @@ by exp-lbrs.ulp</description>
 <part name="GND144" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R243" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R244" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="VBUS7" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R245" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND145" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R246" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND146" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R247" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m">
@@ -15920,16 +15285,16 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R248" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND147" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R249" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R250" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15939,9 +15304,9 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R251" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R252" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15958,9 +15323,9 @@ by exp-lbrs.ulp</description>
 <part name="TP95" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R253" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R254" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -15979,9 +15344,9 @@ by exp-lbrs.ulp</description>
 <part name="GND151" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R256" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="TP96" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="FRAME8" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
@@ -16031,9 +15396,9 @@ by exp-lbrs.ulp</description>
 <part name="GND153" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R257" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
-<attribute name="MFR" value="TE Connectivity "/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="DPN" value="A129693CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="Q35" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16043,61 +15408,61 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R258" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R259" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
 </part>
 <part name="R260" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
 </part>
 <part name="TP102" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP103" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R261" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R262" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND155" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP104" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R263" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R264" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R265" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R266" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND157" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP105" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -16115,8 +15480,18 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND159" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U27" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
-<part name="U28" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
+<part name="U27" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
+<part name="U28" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="511-1584-1-ND"/>
@@ -16127,9 +15502,9 @@ by exp-lbrs.ulp</description>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R39" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="U5" library="U-Maxim-MAX7310-I2C-GPIO-expander" deviceset="MAX7310" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16140,16 +15515,16 @@ by exp-lbrs.ulp</description>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R40" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-10.0HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-0710RL"/>
 </part>
 <part name="U6" library="U-Maxim-MAX4211-power-monitor" deviceset="MAX4211" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16235,29 +15610,29 @@ by exp-lbrs.ulp</description>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R53" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R54" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="VBUS2" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R55" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R56" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m">
@@ -16274,16 +15649,16 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R59" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R60" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16293,9 +15668,9 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R61" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R62" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16312,9 +15687,9 @@ by exp-lbrs.ulp</description>
 <part name="TP17" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R63" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R64" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16333,9 +15708,9 @@ by exp-lbrs.ulp</description>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R66" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="TP19" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
@@ -16385,9 +15760,9 @@ by exp-lbrs.ulp</description>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R67" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
-<attribute name="MFR" value="TE Connectivity "/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="DPN" value="A129693CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="Q10" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16397,61 +15772,61 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R68" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R69" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
 </part>
 <part name="R70" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="47k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-47.0KLRCT-ND"/>
+<attribute name="DPN" value="311-47.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
 </part>
 <part name="TP27" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP28" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R71" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R72" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP29" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R73" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R74" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R75" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R76" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP30" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -16469,8 +15844,18 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U7" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
-<part name="U8" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
+<part name="U7" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
+<part name="U8" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
 <part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="MAG_PIN_Q2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="MAG_PIN_Q1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
@@ -16494,15 +15879,15 @@ by exp-lbrs.ulp</description>
 <part name="GND163" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R198" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="R199" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="U29" library="U-Maxim-MAX7310-I2C-GPIO-expander" deviceset="MAX7310" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX7310ATE">
@@ -16514,16 +15899,16 @@ by exp-lbrs.ulp</description>
 <part name="GND164" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C43" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="GND165" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R200" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-10.0HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-0710RL"/>
 </part>
 <part name="U30" library="U-Maxim-MAX4211-power-monitor" deviceset="MAX4211" device="" package3d_urn="urn:adsk.eagle:package:8018497/1" value="MAX4211FETE">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16609,29 +15994,29 @@ by exp-lbrs.ulp</description>
 <part name="GND169" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R213" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R214" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="VBUS9" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R215" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND170" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R216" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND171" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R217" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100m">
@@ -16648,16 +16033,16 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R218" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND172" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R219" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R220" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16667,9 +16052,9 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R221" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-0.0JRCT-ND"/>
+<attribute name="DPN" value="311-0.0GRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402JR-070RL"/>
+<attribute name="MPN" value="RC0603JR-070RL"/>
 </part>
 <part name="R222" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16686,9 +16071,9 @@ by exp-lbrs.ulp</description>
 <part name="TP108" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R223" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R224" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16707,9 +16092,9 @@ by exp-lbrs.ulp</description>
 <part name="GND176" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R226" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="TP109" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP110" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -16747,9 +16132,9 @@ by exp-lbrs.ulp</description>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R227" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R228" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="NP">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16814,9 +16199,9 @@ by exp-lbrs.ulp</description>
 <part name="GND183" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R267" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
-<attribute name="MFR" value="TE Connectivity "/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="DPN" value="A129693CT-ND"/>
+<attribute name="MFR" value="TE Connectivity"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="Q30" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM">
 <attribute name="DIS" value="Digi-Key"/>
@@ -16826,50 +16211,50 @@ by exp-lbrs.ulp</description>
 </part>
 <part name="R268" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="TP118" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP119" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R269" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R270" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND185" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VPD14" library="oresat-supplies" deviceset="VPD" device=""/>
 <part name="TP120" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R271" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-100LRCT-ND"/>
+<attribute name="DPN" value="311-100HRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
 </part>
 <part name="R272" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="665k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-665KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-07665KL"/>
 </part>
 <part name="R273" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="330k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="749-1575-1-ND"/>
+<attribute name="DPN" value="749-1638-1-ND"/>
 <attribute name="MFR" value="Vishay"/>
-<attribute name="MPN" value="MCS04020C3303FE000"/>
+<attribute name="MPN" value="MCT06030C3303FP000"/>
 </part>
 <part name="R274" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1M">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-1.00MLRCT-ND"/>
+<attribute name="DPN" value="311-1.00MHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
 </part>
 <part name="GND187" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VPD15" library="oresat-supplies" deviceset="VPD" device=""/>
@@ -16888,12 +16273,37 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="CC0603KRX7R7BB105"/>
 </part>
 <part name="GND189" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U32" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
-<part name="U33" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5"/>
-<part name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" deviceset="MAX892LEUA+T" device="21-0036K-L"/>
+<part name="U32" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
+<part name="U33" library="U-Microchip-MIC842-Comparator" deviceset="MIC842L" device="YC5">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="576-2927-1-ND"/>
+<attribute name="MFR" value="Microchip"/>
+<attribute name="MPN" value="MIC842LYC5-TR"/>
+</part>
+<part name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" deviceset="MAX892LEUA+T" device="21-0036K-L">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="MAX892LEUA+-ND"/>
+<attribute name="MFR" value="Maxim"/>
+<attribute name="MPN" value="MAX892LEUA+"/>
+</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
-<part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
+<part name="C1" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+</part>
+<part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+</part>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
@@ -16903,6 +16313,10 @@ by exp-lbrs.ulp</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R2" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="23.7k">
 <spice>
@@ -16911,6 +16325,10 @@ by exp-lbrs.ulp</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-23.7KHRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0723K7L"/>
 </part>
 <part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <spice>
@@ -16919,12 +16337,26 @@ by exp-lbrs.ulp</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="U2" library="U-Linear-LTC4300A-1-2-Wire-Bus-Buffer" deviceset="LTC4300A-1" device=""/>
+<part name="U2" library="U-Linear-LTC4300A-1-2-Wire-Bus-Buffer" deviceset="LTC4300A-1" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="LTC4300A-1IMS8#TRPBFCT-ND"/>
+<attribute name="MFR" value="Linear"/>
+<attribute name="MPN" value="LTC4300A-1IMS8#TRPBF"/>
+</part>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
+<part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+</part>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
@@ -16934,46 +16366,65 @@ by exp-lbrs.ulp</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
-<part name="U13" library="BMI088" deviceset="BMI088" device=""/>
+<part name="U13" library="BMI088" deviceset="BMI088" device="">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="828-1082-1-ND"/>
+<attribute name="MFR" value="Bosch Sensortec"/>
+<attribute name="MPN" value="BMI088"/>
+</part>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
+<part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+</part>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C16" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
+<part name="C16" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-1446-1-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="CC0603KRX7R7BB105"/>
+</part>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="C28" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="C29" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="C30" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="20p">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-6601-1-ND"/>
+<attribute name="DPN" value="1276-1187-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05C200JB51PNC"/>
+<attribute name="MPN" value="CL10C200JB8NNNC"/>
 </part>
 <part name="C36" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="20p">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-6601-1-ND"/>
+<attribute name="DPN" value="1276-1187-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05C200JB51PNC"/>
+<attribute name="MPN" value="CL10C200JB8NNNC"/>
 </part>
 <part name="C37" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -16986,9 +16437,9 @@ by exp-lbrs.ulp</description>
 <part name="GND82" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C38" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="X2" library="low-gain-radio" deviceset="CRYSTAL-WITH-GND" device="" value="16MHZ-2.5x2mm">
 <attribute name="DIS" value="Digi-Key"/>
@@ -17011,9 +16462,9 @@ by exp-lbrs.ulp</description>
 <part name="GND83" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R7" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="TP9" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -17028,9 +16479,9 @@ by exp-lbrs.ulp</description>
 <part name="GND84" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R8" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="FRAME10" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
@@ -17041,9 +16492,9 @@ by exp-lbrs.ulp</description>
 </pinmapping>
 </spice>
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
 <attribute name="MFR" value="Yageo"/>
-<attribute name="MPN" value="RC0402FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="J2" library="oresat-debug-connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-SOLAR"/>
 <part name="GND85" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17055,22 +16506,22 @@ by exp-lbrs.ulp</description>
 <part name="TP14" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="R11" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="R12" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="2.7k">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="A129632CT-ND"/>
+<attribute name="DPN" value="A129693CT-ND"/>
 <attribute name="MFR" value="TE Connectivity"/>
-<attribute name="MPN" value="CRGCQ0402F2K7"/>
+<attribute name="MPN" value="CRGCQ0603F2K7"/>
 </part>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C39" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-1001-1-ND"/>
+<attribute name="DPN" value="1276-CL10B104KB8NNNLCT-ND"/>
 <attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="CL05B104KO5NNNC"/>
+<attribute name="MPN" value="CL10B104KB8NNNL"/>
 </part>
 <part name="GND86" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUSP2" library="oresat-supplies" deviceset="VBUSP" device=""/>
@@ -17081,6 +16532,10 @@ by exp-lbrs.ulp</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R5" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <spice>
@@ -17089,9 +16544,13 @@ by exp-lbrs.ulp</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.1" device="-NO-RF"/>
+<part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.2-GENERIC-0XRF-V1.0" device=""/>
 <part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -17099,6 +16558,10 @@ by exp-lbrs.ulp</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="R13" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <spice>
@@ -17107,7 +16570,16 @@ by exp-lbrs.ulp</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="311-10.0KHRCT-ND"/>
+<attribute name="MFR" value="Yageo"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
+<part name="TP1" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP3" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP5" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP6" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="TP7" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17160,6 +16632,8 @@ by exp-lbrs.ulp</description>
 <attribute name="VALUE" x="92.71" y="100.33" size="1.778" layer="96" rot="MR180"/>
 <attribute name="MFR" x="99.06" y="154.94" size="2.54" layer="96" rot="MR0" display="off"/>
 <attribute name="MPN" x="99.06" y="154.94" size="2.54" layer="96" rot="MR0" display="off"/>
+<attribute name="DIS" x="99.06" y="154.94" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="99.06" y="154.94" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="137.16" y="102.87" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="139.7" y="100.33" size="1.778" layer="96" rot="MR0"/>
@@ -17167,18 +16641,34 @@ by exp-lbrs.ulp</description>
 <instance part="QUADRANT1" gate="G$1" x="279.4" y="205.74" smashed="yes" rot="MR0">
 <attribute name="NAME" x="292.1" y="220.98" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="292.1" y="190.5" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="279.4" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="279.4" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="279.4" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="279.4" y="205.74" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="QUADRANT2" gate="G$1" x="279.4" y="167.64" smashed="yes" rot="MR0">
 <attribute name="NAME" x="292.1" y="182.88" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="292.1" y="152.4" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="279.4" y="167.64" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="279.4" y="167.64" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="279.4" y="167.64" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="279.4" y="167.64" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="QUADRANT3" gate="G$1" x="279.4" y="129.54" smashed="yes" rot="MR0">
 <attribute name="NAME" x="292.1" y="144.78" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="292.1" y="114.3" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="279.4" y="129.54" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="279.4" y="129.54" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="279.4" y="129.54" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="279.4" y="129.54" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="QUADRANT4" gate="G$1" x="279.4" y="91.44" smashed="yes" rot="MR0">
 <attribute name="NAME" x="292.1" y="106.68" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="292.1" y="76.2" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIS" x="279.4" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DPN" x="279.4" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MFR" x="279.4" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MPN" x="279.4" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND3" gate="1" x="266.7" y="73.66" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="269.24" y="71.12" size="1.778" layer="96" rot="MR0"/>
@@ -17626,6 +17116,33 @@ by exp-lbrs.ulp</description>
 <wire x1="107.95" y1="185.42" x2="107.95" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="7"/>
 <wire x1="107.95" y1="187.96" x2="101.6" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="40"/>
+<wire x1="101.6" y1="104.14" x2="107.95" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="104.14" x2="107.95" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="39"/>
+<wire x1="107.95" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="36"/>
+<wire x1="101.6" y1="114.3" x2="107.95" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="114.3" x2="107.95" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="35"/>
+<wire x1="107.95" y1="116.84" x2="101.6" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="34"/>
+<wire x1="101.6" y1="119.38" x2="107.95" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="33"/>
+<wire x1="107.95" y1="119.38" x2="107.95" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="107.95" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -18200,10 +17717,18 @@ bootloader</text>
 <instance part="U11" gate="G$1" x="139.7" y="81.28" smashed="yes">
 <attribute name="NAME" x="145.415" y="76.2" size="1.27" layer="95"/>
 <attribute name="VALUE" x="145.415" y="74.93" size="1.27" layer="96"/>
+<attribute name="MFR" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U12" gate="G$1" x="139.7" y="36.83" smashed="yes">
 <attribute name="NAME" x="145.415" y="31.75" size="1.27" layer="95"/>
 <attribute name="VALUE" x="145.415" y="30.48" size="1.27" layer="96"/>
+<attribute name="MFR" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -19475,10 +19000,18 @@ bootloader</text>
 <instance part="U19" gate="G$1" x="139.7" y="81.28" smashed="yes">
 <attribute name="NAME" x="145.415" y="76.2" size="1.27" layer="95"/>
 <attribute name="VALUE" x="145.415" y="74.93" size="1.27" layer="96"/>
+<attribute name="DPN" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U20" gate="G$1" x="139.7" y="36.83" smashed="yes">
 <attribute name="NAME" x="145.415" y="31.75" size="1.27" layer="95"/>
 <attribute name="VALUE" x="145.415" y="30.48" size="1.27" layer="96"/>
+<attribute name="DPN" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -20750,10 +20283,18 @@ bootloader</text>
 <instance part="U27" gate="G$1" x="139.7" y="81.28" smashed="yes">
 <attribute name="NAME" x="145.415" y="76.2" size="1.27" layer="95"/>
 <attribute name="VALUE" x="145.415" y="74.93" size="1.27" layer="96"/>
+<attribute name="DIS" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U28" gate="G$1" x="139.7" y="36.83" smashed="yes">
 <attribute name="NAME" x="145.415" y="31.75" size="1.27" layer="95"/>
 <attribute name="VALUE" x="145.415" y="30.48" size="1.27" layer="96"/>
+<attribute name="DIS" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -22025,10 +21566,18 @@ bootloader</text>
 <instance part="U7" gate="G$1" x="139.7" y="81.28" smashed="yes">
 <attribute name="NAME" x="145.415" y="76.2" size="1.27" layer="95"/>
 <attribute name="VALUE" x="145.415" y="74.93" size="1.27" layer="96"/>
+<attribute name="MPN" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U8" gate="G$1" x="139.7" y="36.83" smashed="yes">
 <attribute name="NAME" x="145.415" y="31.75" size="1.27" layer="95"/>
 <attribute name="VALUE" x="145.415" y="30.48" size="1.27" layer="96"/>
+<attribute name="MPN" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="139.7" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -23405,10 +22954,18 @@ bootloader</text>
 <instance part="U32" gate="G$1" x="132.08" y="91.44" smashed="yes">
 <attribute name="NAME" x="137.795" y="86.36" size="1.27" layer="95"/>
 <attribute name="VALUE" x="137.795" y="85.09" size="1.27" layer="96"/>
+<attribute name="DIS" x="132.08" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="132.08" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="132.08" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="132.08" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U33" gate="G$1" x="132.08" y="46.99" smashed="yes">
 <attribute name="NAME" x="137.795" y="41.91" size="1.27" layer="95"/>
 <attribute name="VALUE" x="137.795" y="40.64" size="1.27" layer="96"/>
+<attribute name="DIS" x="132.08" y="46.99" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="132.08" y="46.99" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="132.08" y="46.99" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="132.08" y="46.99" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -24255,6 +23812,10 @@ Limited to 50mA by R2</text>
 <instance part="U2" gate="G$1" x="125.73" y="170.18" smashed="yes">
 <attribute name="NAME" x="114.3" y="185.42" size="2.0828" layer="95"/>
 <attribute name="VALUE" x="121.92" y="185.42" size="2.0828" layer="96"/>
+<attribute name="DIS" x="125.73" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="125.73" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="125.73" y="170.18" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="125.73" y="170.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="125.73" y="151.13" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="128.27" y="148.59" size="1.778" layer="96" rot="MR0"/>
@@ -24262,6 +23823,10 @@ Limited to 50mA by R2</text>
 <instance part="C3" gate="CE" x="106.68" y="173.99" smashed="yes">
 <attribute name="NAME" x="108.204" y="174.371" size="1.778" layer="95"/>
 <attribute name="VALUE" x="106.934" y="169.291" size="1.778" layer="96"/>
+<attribute name="MPN" x="106.68" y="173.99" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="106.68" y="173.99" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="106.68" y="173.99" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="106.68" y="173.99" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="106.68" y="151.13" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="109.22" y="148.59" size="1.778" layer="96" rot="MR0"/>
@@ -24272,6 +23837,10 @@ Limited to 50mA by R2</text>
 <instance part="R10" gate="R" x="142.24" y="185.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="143.51" y="181.61" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="143.51" y="187.96" size="1.778" layer="96" rot="MR90"/>
+<attribute name="MPN" x="142.24" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="142.24" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="142.24" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="142.24" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME7" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -24282,6 +23851,10 @@ Limited to 50mA by R2</text>
 <instance part="U13" gate="G$1" x="238.76" y="177.8" smashed="yes">
 <attribute name="NAME" x="227.33" y="199.39" size="1.778" layer="95"/>
 <attribute name="VALUE" x="240.03" y="199.39" size="1.778" layer="96"/>
+<attribute name="DIS" x="238.76" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="238.76" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="238.76" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="238.76" y="177.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="220.98" y="203.2" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="220.98" y="205.994" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
@@ -24295,6 +23868,10 @@ Limited to 50mA by R2</text>
 <instance part="C4" gate="CE" x="262.89" y="189.23" smashed="yes">
 <attribute name="NAME" x="264.414" y="189.611" size="1.778" layer="95"/>
 <attribute name="VALUE" x="264.414" y="184.531" size="1.778" layer="96"/>
+<attribute name="MPN" x="262.89" y="189.23" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="262.89" y="189.23" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="262.89" y="189.23" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="262.89" y="189.23" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND16" gate="1" x="262.89" y="151.13" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="265.43" y="148.59" size="1.778" layer="96" rot="MR0"/>
@@ -24302,6 +23879,10 @@ Limited to 50mA by R2</text>
 <instance part="C16" gate="CE" x="270.51" y="189.23" smashed="yes">
 <attribute name="NAME" x="272.034" y="189.611" size="1.778" layer="95"/>
 <attribute name="VALUE" x="272.034" y="184.531" size="1.778" layer="96"/>
+<attribute name="MPN" x="270.51" y="189.23" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="270.51" y="189.23" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="270.51" y="189.23" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="270.51" y="189.23" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND17" gate="1" x="270.51" y="151.13" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="273.05" y="148.59" size="1.778" layer="96" rot="MR0"/>
@@ -24309,6 +23890,10 @@ Limited to 50mA by R2</text>
 <instance part="U1" gate="A" x="114.3" y="99.06" smashed="yes">
 <attribute name="NAME" x="103.9876" y="115.7986" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="101.5746" y="110.7186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="DIS" x="114.3" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="114.3" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="114.3" y="99.06" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="114.3" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="114.3" y="73.66" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="116.84" y="71.12" size="1.778" layer="96" rot="MR0"/>
@@ -24316,10 +23901,18 @@ Limited to 50mA by R2</text>
 <instance part="C1" gate="CE" x="96.52" y="101.6" smashed="yes">
 <attribute name="NAME" x="98.044" y="101.981" size="1.778" layer="95"/>
 <attribute name="VALUE" x="98.044" y="96.901" size="1.778" layer="96"/>
+<attribute name="MPN" x="96.52" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="96.52" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="96.52" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="96.52" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="CE" x="135.89" y="101.6" smashed="yes">
 <attribute name="NAME" x="137.414" y="101.981" size="1.778" layer="95"/>
 <attribute name="VALUE" x="137.414" y="96.901" size="1.778" layer="96"/>
+<attribute name="MPN" x="135.89" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MFR" x="135.89" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="DIS" x="135.89" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="DPN" x="135.89" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND7" gate="1" x="96.52" y="73.66" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="99.06" y="71.12" size="1.778" layer="96" rot="MR0"/>
@@ -24330,14 +23923,26 @@ Limited to 50mA by R2</text>
 <instance part="R1" gate="R" x="88.9" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.4014" y="110.49" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="87.122" y="115.57" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="88.9" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="88.9" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="88.9" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="88.9" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R2" gate="R" x="128.27" y="82.55" smashed="yes" rot="R90">
 <attribute name="NAME" x="126.7714" y="78.74" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="131.572" y="78.74" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIS" x="128.27" y="82.55" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="128.27" y="82.55" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="128.27" y="82.55" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="128.27" y="82.55" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R3" gate="R" x="81.28" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="79.7814" y="110.49" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="79.502" y="115.57" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="81.28" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="81.28" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="81.28" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="81.28" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="128.27" y="73.66" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="130.81" y="71.12" size="1.778" layer="96" rot="MR0"/>
@@ -24348,10 +23953,18 @@ Limited to 50mA by R2</text>
 <instance part="R4" gate="R" x="220.98" y="161.29" smashed="yes" rot="R90">
 <attribute name="NAME" x="219.4814" y="157.48" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="219.202" y="162.56" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="220.98" y="161.29" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="220.98" y="161.29" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="220.98" y="161.29" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="220.98" y="161.29" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R5" gate="R" x="213.36" y="161.29" smashed="yes" rot="R90">
 <attribute name="NAME" x="211.8614" y="157.48" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="211.582" y="162.56" size="1.778" layer="96" rot="R90"/>
+<attribute name="MPN" x="213.36" y="161.29" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="213.36" y="161.29" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIS" x="213.36" y="161.29" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="213.36" y="161.29" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND13" gate="1" x="213.36" y="151.13" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="215.9" y="148.59" size="1.778" layer="96" rot="MR0"/>
@@ -24359,10 +23972,33 @@ Limited to 50mA by R2</text>
 <instance part="R6" gate="R" x="93.98" y="185.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="95.25" y="179.07" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="95.25" y="185.42" size="1.778" layer="96" rot="MR90"/>
+<attribute name="MPN" x="93.98" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="93.98" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="93.98" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="93.98" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="R13" gate="R" x="100.33" y="185.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="101.6" y="179.07" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="101.6" y="185.42" size="1.778" layer="96" rot="MR90"/>
+<attribute name="MPN" x="100.33" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MFR" x="100.33" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIS" x="100.33" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DPN" x="100.33" y="185.42" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="TP1" gate="G$1" x="100.33" y="162.56" smashed="yes">
+<attribute name="NAME" x="97.79" y="165.1" size="1.27" layer="104"/>
+</instance>
+<instance part="TP3" gate="G$1" x="93.98" y="167.64" smashed="yes">
+<attribute name="NAME" x="91.44" y="170.18" size="1.27" layer="104"/>
+</instance>
+<instance part="TP5" gate="G$1" x="88.9" y="93.98" smashed="yes">
+<attribute name="NAME" x="86.36" y="96.52" size="1.27" layer="104"/>
+</instance>
+<instance part="TP6" gate="G$1" x="81.28" y="86.36" smashed="yes">
+<attribute name="NAME" x="78.74" y="88.9" size="1.27" layer="104"/>
+</instance>
+<instance part="TP7" gate="G$1" x="135.89" y="106.68" smashed="yes">
+<attribute name="NAME" x="133.35" y="109.22" size="1.27" layer="104"/>
 </instance>
 </instances>
 <busses>
@@ -24501,6 +24137,8 @@ Limited to 50mA by R2</text>
 <wire x1="92.71" y1="167.64" x2="87.63" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="167.64" x2="93.98" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="167.64" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="TP3" gate="G$1" pin="1"/>
+<junction x="93.98" y="167.64"/>
 </segment>
 </net>
 <net name="MAG_SCL" class="0">
@@ -24511,6 +24149,8 @@ Limited to 50mA by R2</text>
 <pinref part="R13" gate="R" pin="2"/>
 <wire x1="100.33" y1="162.56" x2="87.63" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="100.33" y1="162.56" x2="100.33" y2="180.34" width="0.1524" layer="91"/>
+<junction x="100.33" y="162.56"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
 <junction x="100.33" y="162.56"/>
 </segment>
 </net>
@@ -24536,6 +24176,7 @@ Limited to 50mA by R2</text>
 <wire x1="135.89" y1="104.14" x2="135.89" y2="106.68" width="0.1524" layer="91"/>
 <junction x="135.89" y="106.68"/>
 <label x="144.78" y="106.68" size="1.778" layer="95" xref="yes"/>
+<pinref part="TP7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -24555,6 +24196,7 @@ Limited to 50mA by R2</text>
 <wire x1="88.9" y1="93.98" x2="77.47" y2="93.98" width="0.1524" layer="91"/>
 <junction x="88.9" y="93.98"/>
 <label x="77.47" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MAG_!EN" class="0">
@@ -24566,6 +24208,7 @@ Limited to 50mA by R2</text>
 <wire x1="81.28" y1="86.36" x2="77.47" y2="86.36" width="0.1524" layer="91"/>
 <junction x="81.28" y="86.36"/>
 <label x="77.47" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PB6/SCL" class="0">
@@ -25423,10 +25066,6 @@ programming board</text>
 <approved hash="113,3,215.796,139.596,FRAME6,,,,,"/>
 <approved hash="113,4,215.796,139.596,FRAME8,,,,,"/>
 <approved hash="113,5,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,1,253.237,160.173,MAG_PIN_Q2,,,,,"/>
-<approved hash="113,1,253.237,198.273,MAG_PIN_Q1,,,,,"/>
-<approved hash="113,1,253.237,83.9732,MAG_PIN_Q4,,,,,"/>
-<approved hash="113,1,253.237,122.073,MAG_PIN_Q3,,,,,"/>
 <approved hash="113,6,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,7,215.796,139.596,FRAME7,,,,,"/>
 <approved hash="113,8,215.796,139.596,FRAME10,,,,,"/>
@@ -25458,10 +25097,6 @@ Since Version 8.4, EAGLE supports properties for SPICE simulation.
 Probes in schematics and SPICE mapping objects found in parts and library devices
 will not be understood with this version. Update EAGLE to the latest version
 for full support of SPICE simulation. 
-</note>
-<note version="8.5" severity="warning">
-Since Version 8.5, EAGLE supports locking for holes, vias, wires and polygons. 
-The locking property on all objects of these types will not be understood in this version. 
 </note>
 </compatibility>
 </eagle>
