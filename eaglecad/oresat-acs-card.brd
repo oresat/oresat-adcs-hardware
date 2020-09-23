@@ -4282,6 +4282,15 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 </library>
+<library name="oresat-flight-marker">
+<packages>
+<package name="FLIGHTMARKER">
+<text x="0" y="0" size="1.27" layer="21" font="vector">FLIGHT HARDWARE IF  NOT CHECKED</text>
+<rectangle x1="31.68" y1="0" x2="33.48" y2="1.8" layer="21"/>
+<wire x1="19.177" y1="-0.381" x2="22.987" y2="-0.381" width="0.1524" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7500,6 +7509,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="70" y="37.6" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="72" y="34.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
+<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER" value="" x="12.8" y="18" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="SDAOPT2">
@@ -7825,7 +7835,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="15.1" y="26.6" extent="1-16" drill="0.254"/>
 <via x="14.8" y="40" extent="1-16" drill="0.254"/>
 <via x="13.6" y="47.3" extent="1-16" drill="0.254"/>
-<via x="12.3" y="55.4" extent="1-16" drill="0.254"/>
+<via x="11.2" y="54.4" extent="1-16" drill="0.254"/>
 <via x="56" y="42.6" extent="1-16" drill="0.254"/>
 <via x="53.4" y="39.2" extent="1-16" drill="0.254"/>
 <via x="51.4" y="38.3" extent="1-16" drill="0.254"/>
@@ -8253,10 +8263,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="33.3" y="88.3" extent="1-16" drill="0.254"/>
 <via x="19.9" y="89.7" extent="1-16" drill="0.254"/>
 <via x="4.9" y="72.5" extent="1-16" drill="0.254"/>
-<via x="12.2" y="20.4" extent="1-16" drill="0.254"/>
+<via x="12.2" y="20" extent="1-16" drill="0.254"/>
 <via x="42.9" y="33.8" extent="1-16" drill="0.254"/>
 <via x="69.8" y="41.1" extent="1-16" drill="0.254"/>
 <via x="31.2" y="64.4" extent="1-16" drill="0.254"/>
+<via x="10.5" y="55.5" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="OPD_SDA">
 <contactref element="J6" pad="12"/>
