@@ -998,6 +998,7 @@
 <hole x="49.9" y="77.16" drill="2.4" locked="yes"/>
 <hole x="49.9" y="32.64" drill="2.4" locked="yes"/>
 <hole x="49.9" y="22.64" drill="2.4" locked="yes"/>
+<text x="14.9" y="48.6" size="1.27" layer="21" font="vector" ratio="15">TEST</text>
 </plain>
 <libraries>
 <library name="SparkFun-Hardware" urn="urn:adsk.eagle:library:519">
@@ -4285,9 +4286,9 @@ by exp-lbrs.ulp</description>
 <library name="oresat-flight-marker">
 <packages>
 <package name="FLIGHTMARKER">
-<text x="0" y="0" size="1.27" layer="21" font="vector">FLIGHT HARDWARE IF  NOT CHECKED</text>
-<rectangle x1="31.68" y1="0" x2="33.48" y2="1.8" layer="21"/>
-<wire x1="19.177" y1="-0.381" x2="22.987" y2="-0.381" width="0.1524" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
+<rectangle x1="35.98" y1="-0.2" x2="37.78" y2="1.6" layer="21"/>
+<wire x1="22.077" y1="-0.381" x2="26.187" y2="-0.381" width="0.1524" layer="21"/>
 </package>
 </packages>
 </library>
