@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -275,110 +275,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Hardware" urn="urn:adsk.eagle:library:519">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-This library contains board components that are not electrical in nature, such as stand-offs, magnets, and Actobotics. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="STAND-OFF" urn="urn:adsk.eagle:footprint:38612/1" library_version="1">
-<description>&lt;h3&gt;Standoff (#4 Screw)&lt;/h3&gt;
-&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
-&lt;h4&gt;Devices Using&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.302"/>
-<text x="0" y="2.032" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="STAND-OFF-TIGHT" urn="urn:adsk.eagle:footprint:38613/1" library_version="1">
-<description>&lt;h3&gt;Standoff (#4 Screw) - Tight fit around screw body&lt;/h3&gt;
-&lt;p&gt;This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.&lt;/p&gt;
-&lt;h4&gt;Devices Using&lt;/h4&gt;
-&lt;ul&gt;&lt;li&gt;STAND-OFF&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="0" y1="1.8542" x2="0" y2="-1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="41" curve="-180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="180"/>
-<wire x1="0" y1="-1.8542" x2="0" y2="1.8542" width="0.2032" layer="42" curve="-180"/>
-<circle x="0" y="0" radius="2.794" width="0.127" layer="39"/>
-<hole x="0" y="0" drill="3.048"/>
-<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="STAND-OFF" urn="urn:adsk.eagle:package:38630/1" type="box" library_version="1">
-<description>Standoff (#4 Screw)
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
-Devices Using
-STAND-OFF</description>
-</package3d>
-<package3d name="STAND-OFF-TIGHT" urn="urn:adsk.eagle:package:38629/1" type="box" library_version="1">
-<description>Standoff (#4 Screw) - Tight fit around screw body
-This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components.
-Devices Using
-STAND-OFF</description>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="STAND-OFF" urn="urn:adsk.eagle:symbol:38611/1" library_version="1">
-<description>&lt;h3&gt;Stand-Off Drill Hole&lt;/h3&gt;</description>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="STAND-OFF" urn="urn:adsk.eagle:component:38644/1" prefix="H" library_version="1">
-<description>&lt;h3&gt;Stand Off&lt;/h3&gt;
-&lt;p&gt;Drill holes for mechanically mounting via screws, standoffs, etc.&lt;/p&gt;
-&lt;p&gt;Note: Use the keepout ring to avoid running the screw head into surrounding components.
-&lt;h4&gt;Variant Overviews&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;STAND-OFF&lt;/b&gt; - Mechanical footprint for a &lt;b&gt;#4 phillips button head&lt;/b&gt; screw.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;STAND-OFF-TIGHT&lt;/b&gt; - Mechanical footprint for a &lt;b&gt;#4 phillips button head&lt;/b&gt; screw, &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Example SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10453"&gt;Screw - Phillips Head (1/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10453)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10452"&gt;Screw - Phillips Head (1/2", 4-40, 10 pack)&lt;/a&gt; (PRT-10452)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10451"&gt;Screw - Phillips Head (3/4", 4-40, 10 pack)&lt;/a&gt; (PRT-10451)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10450"&gt;Screw - Phillips Head (1", 4-40, 10 pack)&lt;/a&gt; (PRT-10450)&lt;/li&gt;</description>
-<gates>
-<gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="STAND-OFF">
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38630/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TIGHT" package="STAND-OFF-TIGHT">
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38629/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="J-Samtec-TFM-120-X1-XXX-D-RA">
 <packages>
 <package name="J-SAMTEC-TFM-120-X1-XXX-D-RA">
@@ -541,171 +437,6 @@ STAND-OFF</description>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="oresat-cards">
-<packages>
-<package name="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0">
-<rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="51"/>
-<wire x1="0" y1="88.9" x2="0" y2="9.2" width="0.001" layer="20"/>
-<wire x1="0" y1="9.2" x2="0.5" y2="8.7" width="0.001" layer="20" curve="90"/>
-<wire x1="0.5" y1="8.7" x2="2.25" y2="8.7" width="0.001" layer="20"/>
-<wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="20"/>
-<wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="20"/>
-<wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="20"/>
-<wire x1="97.55" y1="8.7" x2="99.3" y2="8.7" width="0.001" layer="20"/>
-<wire x1="99.3" y1="8.7" x2="99.8" y2="9.2" width="0.001" layer="20" curve="90"/>
-<wire x1="99.8" y1="9.2" x2="99.8" y2="88.9" width="0.001" layer="20"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8.2" width="0.001" layer="20"/>
-<wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="20"/>
-<wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="20"/>
-<wire x1="15.5" y1="0.5" x2="16" y2="0" width="0.001" layer="20" curve="90"/>
-<wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="20"/>
-<wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="20" curve="90"/>
-<wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="20"/>
-<wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="20"/>
-<wire x1="2.75" y1="8.2" x2="2.75" y2="4.1" width="0.001" layer="20"/>
-<wire x1="2.75" y1="8.2" x2="2.25" y2="8.7" width="0.001" layer="20" curve="90"/>
-<wire x1="8.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="31.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="97.55" y1="8.7" x2="97.05" y2="8.2" width="0.001" layer="20" curve="90"/>
-<wire x1="96.55" y1="3.6" x2="97.05" y2="4.1" width="0.001" layer="20" curve="90"/>
-<wire x1="84.8" y1="3.6" x2="84.3" y2="3.1" width="0.001" layer="20" curve="90"/>
-<wire x1="15.5" y1="3.1" x2="15" y2="3.6" width="0.001" layer="20" curve="90"/>
-<wire x1="2.75" y1="4.1" x2="3.25" y2="3.6" width="0.001" layer="20" curve="90"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="52"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="51"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="52"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="51"/>
-<circle x="49.9" y="49.9" radius="0.5" width="0.001" layer="51"/>
-<wire x1="48.9" y1="49.9" x2="50.9" y2="49.9" width="0.001" layer="51"/>
-<wire x1="49.9" y1="50.9" x2="49.9" y2="48.9" width="0.001" layer="51"/>
-<circle x="49.9" y="87.994" radius="0.5" width="0.001" layer="51"/>
-<wire x1="49.9" y1="88.994" x2="49.9" y2="86.994" width="0.001" layer="51"/>
-<wire x1="48.9" y1="87.994" x2="50.9" y2="87.994" width="0.001" layer="51"/>
-<wire x1="21.9" y1="88.994" x2="21.9" y2="86.994" width="0.001" layer="51"/>
-<circle x="21.9" y="87.994" radius="0.5" width="0.001" layer="51"/>
-<wire x1="20.9" y1="87.994" x2="22.9" y2="87.994" width="0.001" layer="51"/>
-<rectangle x1="8.4" y1="95.7" x2="91.4" y2="97.3" layer="52"/>
-<polygon width="0.1" layer="29">
-<vertex x="2.7" y="8.7"/>
-<vertex x="0.5" y="8.7" curve="-90"/>
-<vertex x="0" y="9.2"/>
-<vertex x="0" y="88.9"/>
-<vertex x="2.7" y="91.6"/>
-</polygon>
-<polygon width="0.1" layer="29">
-<vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9.2" curve="-90"/>
-<vertex x="99.3" y="8.7"/>
-<vertex x="97.1" y="8.7"/>
-<vertex x="97.1" y="91.4"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="2.7" y="8.7"/>
-<vertex x="0.5" y="8.7" curve="-90"/>
-<vertex x="0" y="9.2"/>
-<vertex x="0" y="88.9"/>
-<vertex x="2.7" y="91.6"/>
-</polygon>
-<polygon width="0.1" layer="29">
-<vertex x="84.3" y="2.7"/>
-<vertex x="84.3" y="0.5" curve="-90"/>
-<vertex x="83.8" y="0"/>
-<vertex x="16" y="0" curve="-90"/>
-<vertex x="15.5" y="0.5"/>
-<vertex x="15.5" y="2.7"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="99.8" y="88.9"/>
-<vertex x="99.8" y="9.2" curve="-90"/>
-<vertex x="99.3" y="8.7"/>
-<vertex x="97.1" y="8.7"/>
-<vertex x="97.1" y="91.4"/>
-</polygon>
-<polygon width="0.1" layer="30">
-<vertex x="84.3" y="2.7"/>
-<vertex x="84.3" y="0.5" curve="-90"/>
-<vertex x="83.8" y="0"/>
-<vertex x="16" y="0" curve="-90"/>
-<vertex x="15.5" y="0.5"/>
-<vertex x="15.5" y="2.7"/>
-</polygon>
-<wire x1="87.66795" y1="94.7" x2="68.13205" y2="94.7" width="0.001" layer="20"/>
-<wire x1="64.66795" y1="94.7" x2="68.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<wire x1="87.66795" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="20" curve="119.999977"/>
-<circle x="49.9" y="49.9" radius="2.5" width="0.001" layer="100"/>
-<wire x1="91.4" y1="97.3" x2="8.4" y2="97.3" width="0.001" layer="100"/>
-<wire x1="91.4" y1="95.7" x2="8.4" y2="95.7" width="0.001" layer="100"/>
-<wire x1="8.4" y1="95.7" x2="8.4" y2="97.3" width="0.001" layer="100"/>
-<wire x1="91.4" y1="97.3" x2="91.4" y2="95.7" width="0.001" layer="100"/>
-<wire x1="15.5" y1="2.5" x2="84.3" y2="2.5" width="0.001" layer="100"/>
-<wire x1="8.4" y1="3.6" x2="8.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="91.4" y1="3.6" x2="91.4" y2="94.7" width="0.001" layer="100"/>
-<wire x1="2.5" y1="91.4" x2="2.5" y2="8.7" width="0.001" layer="100"/>
-<wire x1="97.3" y1="8.7" x2="97.3" y2="91.4" width="0.001" layer="100"/>
-<wire x1="49.9" y1="44.671840625" x2="49.9" y2="90" width="0.001" layer="100"/>
-<wire x1="9.872909375" y1="87.994" x2="56.421040625" y2="87.994" width="0.001" layer="100"/>
-<wire x1="21.9" y1="90" x2="21.9" y2="86" width="0.001" layer="100"/>
-<wire x1="2.75" y1="8.2" x2="2.75" y2="4.1" width="0.001" layer="100"/>
-<wire x1="3.25" y1="3.6" x2="15" y2="3.6" width="0.001" layer="100"/>
-<wire x1="15.5" y1="3.1" x2="15.5" y2="0.5" width="0.001" layer="100"/>
-<wire x1="84.3" y1="0.5" x2="84.3" y2="3.1" width="0.001" layer="100"/>
-<wire x1="84.8" y1="3.6" x2="96.55" y2="3.6" width="0.001" layer="100"/>
-<wire x1="97.05" y1="4.1" x2="97.05" y2="8.2" width="0.001" layer="100"/>
-<wire x1="97.55" y1="8.7" x2="99.3" y2="8.7" width="0.001" layer="100"/>
-<wire x1="99.8" y1="9.2" x2="99.8" y2="88.9" width="0.001" layer="100"/>
-<wire x1="99.8" y1="88.9" x2="94" y2="94.7" width="0.001" layer="100"/>
-<wire x1="94" y1="94.7" x2="91.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="87.66795" y1="94.7" x2="68.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="64.66795" y1="94.7" x2="35.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="31.66795" y1="94.7" x2="12.13205" y2="94.7" width="0.001" layer="100"/>
-<wire x1="8.66795" y1="94.7" x2="5.8" y2="94.7" width="0.001" layer="100"/>
-<wire x1="5.8" y1="94.7" x2="0" y2="88.9" width="0.001" layer="100"/>
-<wire x1="0" y1="88.9" x2="0" y2="9.2" width="0.001" layer="100"/>
-<wire x1="0.5" y1="8.7" x2="2.25" y2="8.7" width="0.001" layer="100"/>
-<wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="100"/>
-<wire x1="2.25" y1="8.7" x2="2.75" y2="8.2" width="0.001" layer="100" curve="-90"/>
-<wire x1="3.25" y1="3.6" x2="2.75" y2="4.1" width="0.001" layer="100" curve="-90"/>
-<wire x1="15" y1="3.6" x2="15.5" y2="3.1" width="0.001" layer="100" curve="-90"/>
-<wire x1="84.3" y1="0.5" x2="83.8" y2="0" width="0.001" layer="100" curve="-90"/>
-<wire x1="84.3" y1="3.1" x2="84.8" y2="3.6" width="0.001" layer="100" curve="-90"/>
-<wire x1="97.05" y1="4.1" x2="96.55" y2="3.6" width="0.001" layer="100" curve="-90"/>
-<wire x1="97.05" y1="8.2" x2="97.55" y2="8.7" width="0.001" layer="100" curve="-90"/>
-<wire x1="99.8" y1="9.2" x2="99.3" y2="8.7" width="0.001" layer="100" curve="-90"/>
-<wire x1="91.13205" y1="94.7" x2="87.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="68.13205" y1="94.7" x2="64.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="35.13205" y1="94.7" x2="31.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="12.13205" y1="94.7" x2="8.66795" y2="94.7" width="0.001" layer="100" curve="-119.999977"/>
-<wire x1="0.5" y1="8.7" x2="0" y2="9.2" width="0.001" layer="100" curve="-90"/>
-<wire x1="16" y1="0" x2="15.5" y2="0.5" width="0.001" layer="100" curve="-90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0">
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<text x="2.54" y="-1.27" size="2.54" layer="94">OreSat Card v1.2: Generic Card w/0RF v1.0</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ORESAT-CARD-V1.2-GENERIC-0XRF-V1.0" prefix="PCB">
-<gates>
-<gate name="G$1" symbol="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ORESAT-CARD-V1.2-GENERIC-0RF-V1.0">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14350,6 +14081,187 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="oresat-cards">
+<packages>
+<package name="ORESAT-CARD-V1.3-GENERIC-0RF">
+<wire x1="87.66795" y1="94.6" x2="68.13205" y2="94.6" width="0.001" layer="50"/>
+<wire x1="91.13205" y1="94.6" x2="87.66795" y2="94.6" width="0.001" layer="50" curve="-119.999977"/>
+<wire x1="68.13205" y1="94.6" x2="64.66795" y2="94.6" width="0.001" layer="50" curve="-119.999977"/>
+<rectangle x1="8.4" y1="95.6" x2="91.4" y2="97.2" layer="51"/>
+<wire x1="0" y1="88.8" x2="0" y2="9.1" width="0.001" layer="20"/>
+<wire x1="0" y1="9.1" x2="0.5" y2="8.6" width="0.001" layer="20" curve="90"/>
+<wire x1="0.5" y1="8.6" x2="2.25" y2="8.6" width="0.001" layer="20"/>
+<wire x1="5.8" y1="94.6" x2="0" y2="88.8" width="0.001" layer="20"/>
+<wire x1="8.66795" y1="94.6" x2="5.8" y2="94.6" width="0.001" layer="20"/>
+<wire x1="31.66795" y1="94.6" x2="12.13205" y2="94.6" width="0.001" layer="20"/>
+<wire x1="64.66795" y1="94.6" x2="35.13205" y2="94.6" width="0.001" layer="20"/>
+<wire x1="94" y1="94.6" x2="91.13205" y2="94.6" width="0.001" layer="20"/>
+<wire x1="99.8" y1="88.8" x2="94" y2="94.6" width="0.001" layer="20"/>
+<wire x1="97.55" y1="8.6" x2="99.3" y2="8.6" width="0.001" layer="20"/>
+<wire x1="99.3" y1="8.6" x2="99.8" y2="9.1" width="0.001" layer="20" curve="90"/>
+<wire x1="99.8" y1="9.1" x2="99.8" y2="88.8" width="0.001" layer="20"/>
+<wire x1="97.05" y1="3.4" x2="97.05" y2="8.1" width="0.001" layer="20"/>
+<wire x1="84.8" y1="2.9" x2="96.55" y2="2.9" width="0.001" layer="20"/>
+<wire x1="15.5" y1="2.4" x2="15.5" y2="0.5" width="0.001" layer="20"/>
+<wire x1="15.5" y1="0.5" x2="16" y2="0" width="0.001" layer="20" curve="90"/>
+<wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="20"/>
+<wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="20" curve="90"/>
+<wire x1="84.3" y1="0.5" x2="84.3" y2="2.4" width="0.001" layer="20"/>
+<wire x1="3.25" y1="2.9" x2="15" y2="2.9" width="0.001" layer="20"/>
+<wire x1="2.75" y1="8.1" x2="2.75" y2="3.4" width="0.001" layer="20"/>
+<wire x1="2.75" y1="8.1" x2="2.25" y2="8.6" width="0.001" layer="20" curve="90"/>
+<wire x1="8.66795" y1="94.6" x2="12.13205" y2="94.6" width="0.001" layer="20" curve="119.999977"/>
+<wire x1="31.66795" y1="94.6" x2="35.13205" y2="94.6" width="0.001" layer="20" curve="119.999977"/>
+<wire x1="97.55" y1="8.6" x2="97.05" y2="8.1" width="0.001" layer="20" curve="90"/>
+<wire x1="96.55" y1="2.9" x2="97.05" y2="3.4" width="0.001" layer="20" curve="90"/>
+<wire x1="84.8" y1="2.9" x2="84.3" y2="2.4" width="0.001" layer="20" curve="90"/>
+<wire x1="15.5" y1="2.4" x2="15" y2="2.9" width="0.001" layer="20" curve="90"/>
+<wire x1="2.75" y1="3.4" x2="3.25" y2="2.9" width="0.001" layer="20" curve="90"/>
+<wire x1="8.4" y1="2.9" x2="8.4" y2="94.6" width="0.001" layer="52"/>
+<wire x1="8.4" y1="2.9" x2="8.4" y2="94.6" width="0.001" layer="51"/>
+<wire x1="91.4" y1="2.9" x2="91.4" y2="94.6" width="0.001" layer="52"/>
+<wire x1="91.4" y1="2.9" x2="91.4" y2="94.6" width="0.001" layer="51"/>
+<circle x="49.9" y="49.8" radius="0.5" width="0.001" layer="51"/>
+<wire x1="48.9" y1="49.8" x2="50.9" y2="49.8" width="0.001" layer="51"/>
+<wire x1="49.9" y1="50.8" x2="49.9" y2="48.8" width="0.001" layer="51"/>
+<circle x="49.9" y="87.894" radius="0.5" width="0.001" layer="51"/>
+<wire x1="49.9" y1="88.894" x2="49.9" y2="86.894" width="0.001" layer="51"/>
+<wire x1="48.9" y1="87.894" x2="50.9" y2="87.894" width="0.001" layer="51"/>
+<wire x1="21.9" y1="88.894" x2="21.9" y2="86.894" width="0.001" layer="51"/>
+<circle x="21.9" y="87.894" radius="0.5" width="0.001" layer="51"/>
+<wire x1="20.9" y1="87.894" x2="22.9" y2="87.894" width="0.001" layer="51"/>
+<rectangle x1="8.4" y1="95.6" x2="91.4" y2="97.2" layer="52"/>
+<polygon width="0.1" layer="29">
+<vertex x="2.7" y="8.6"/>
+<vertex x="0.5" y="8.6" curve="-90"/>
+<vertex x="0" y="9.1"/>
+<vertex x="0" y="88.8"/>
+<vertex x="2.7" y="91.5"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="99.8" y="88.8"/>
+<vertex x="99.8" y="9.1" curve="-90"/>
+<vertex x="99.3" y="8.6"/>
+<vertex x="97.1" y="8.6"/>
+<vertex x="97.1" y="91.3"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="2.7" y="8.6"/>
+<vertex x="0.5" y="8.6" curve="-90"/>
+<vertex x="0" y="9.1"/>
+<vertex x="0" y="88.8"/>
+<vertex x="2.7" y="91.5"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="84.3" y="2.6"/>
+<vertex x="84.3" y="0.5" curve="-90"/>
+<vertex x="83.8" y="0"/>
+<vertex x="16" y="0" curve="-90"/>
+<vertex x="15.5" y="0.5"/>
+<vertex x="15.5" y="2.6"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="99.8" y="88.8"/>
+<vertex x="99.8" y="9.1" curve="-90"/>
+<vertex x="99.3" y="8.6"/>
+<vertex x="97.1" y="8.6"/>
+<vertex x="97.1" y="91.3"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="84.3" y="2.6"/>
+<vertex x="84.3" y="0.5" curve="-90"/>
+<vertex x="83.8" y="0"/>
+<vertex x="16" y="0" curve="-90"/>
+<vertex x="15.5" y="0.5"/>
+<vertex x="15.5" y="2.6"/>
+</polygon>
+<circle x="49.9" y="49.8" radius="2.5" width="0.001" layer="50"/>
+<wire x1="91.4" y1="97.2" x2="8.4" y2="97.2" width="0.001" layer="50"/>
+<wire x1="91.4" y1="95.6" x2="8.4" y2="95.6" width="0.001" layer="50"/>
+<wire x1="8.4" y1="95.6" x2="8.4" y2="97.2" width="0.001" layer="50"/>
+<wire x1="91.4" y1="97.2" x2="91.4" y2="95.6" width="0.001" layer="50"/>
+<wire x1="15.5" y1="2.4" x2="84.3" y2="2.4" width="0.001" layer="50"/>
+<wire x1="8.4" y1="2.9" x2="8.4" y2="94.6" width="0.001" layer="50"/>
+<wire x1="91.4" y1="2.9" x2="91.4" y2="94.6" width="0.001" layer="50"/>
+<wire x1="2.5" y1="91.3" x2="2.5" y2="8.6" width="0.001" layer="50"/>
+<wire x1="97.3" y1="8.55" x2="97.3" y2="91.3" width="0.001" layer="50"/>
+<wire x1="49.9" y1="44.571840625" x2="49.9" y2="89.9" width="0.001" layer="50"/>
+<wire x1="9.872909375" y1="87.9" x2="56.421040625" y2="87.9" width="0.001" layer="50"/>
+<wire x1="21.9" y1="89.9" x2="21.9" y2="85.9" width="0.001" layer="50"/>
+<wire x1="15.5" y1="2.4" x2="15.5" y2="0.5" width="0.001" layer="50"/>
+<wire x1="15.5" y1="0.5" x2="16" y2="0" width="0.001" layer="50" curve="90"/>
+<wire x1="16" y1="0" x2="83.8" y2="0" width="0.001" layer="50"/>
+<wire x1="83.8" y1="0" x2="84.3" y2="0.5" width="0.001" layer="50" curve="90"/>
+<wire x1="84.3" y1="0.5" x2="84.3" y2="2.4" width="0.001" layer="50"/>
+<wire x1="84.8" y1="2.9" x2="95.2" y2="2.9" width="0.001" layer="50"/>
+<wire x1="95.2" y1="2.9" x2="96.55" y2="2.9" width="0.001" layer="50"/>
+<wire x1="97.05" y1="3.4" x2="97.05" y2="8.1" width="0.001" layer="50"/>
+<wire x1="97.55" y1="8.6" x2="99.3" y2="8.6" width="0.001" layer="50"/>
+<wire x1="99.3" y1="8.6" x2="99.8" y2="9.1" width="0.001" layer="50" curve="90"/>
+<wire x1="99.8" y1="9.1" x2="99.8" y2="88.8" width="0.001" layer="50"/>
+<wire x1="99.8" y1="88.8" x2="95.2" y2="93.4" width="0.001" layer="50"/>
+<wire x1="95.2" y1="93.4" x2="94" y2="94.6" width="0.001" layer="50"/>
+<wire x1="94" y1="94.6" x2="91.13205" y2="94.6" width="0.001" layer="50"/>
+<wire x1="64.66795" y1="94.6" x2="35.13205" y2="94.6" width="0.001" layer="50"/>
+<wire x1="31.66795" y1="94.6" x2="12.13205" y2="94.6" width="0.001" layer="50"/>
+<wire x1="8.66795" y1="94.6" x2="5.8" y2="94.6" width="0.001" layer="50"/>
+<wire x1="5.8" y1="94.6" x2="4.6" y2="93.4" width="0.001" layer="50"/>
+<wire x1="4.6" y1="93.4" x2="0" y2="88.8" width="0.001" layer="50"/>
+<wire x1="0" y1="88.8" x2="0" y2="9.1" width="0.001" layer="50"/>
+<wire x1="0" y1="9.1" x2="0.5" y2="8.6" width="0.001" layer="50" curve="90"/>
+<wire x1="0.5" y1="8.6" x2="2.25" y2="8.6" width="0.001" layer="50"/>
+<wire x1="2.75" y1="8.1" x2="2.75" y2="3.4" width="0.001" layer="50"/>
+<wire x1="3.25" y1="2.9" x2="4.6" y2="2.9" width="0.001" layer="50"/>
+<wire x1="4.6" y1="2.9" x2="15" y2="2.9" width="0.001" layer="50"/>
+<wire x1="15" y1="2.9" x2="15.5" y2="2.4" width="0.001" layer="50" curve="-90"/>
+<wire x1="84.3" y1="2.4" x2="84.8" y2="2.9" width="0.001" layer="50" curve="-90"/>
+<wire x1="97.05" y1="3.4" x2="96.55" y2="2.9" width="0.001" layer="50" curve="-90"/>
+<wire x1="97.05" y1="8.1" x2="97.55" y2="8.6" width="0.001" layer="50" curve="-90"/>
+<wire x1="35.13205" y1="94.6" x2="31.66795" y2="94.6" width="0.001" layer="50" curve="-119.999977"/>
+<wire x1="12.13205" y1="94.6" x2="8.66795" y2="94.6" width="0.001" layer="50" curve="-119.999977"/>
+<wire x1="2.25" y1="8.6" x2="2.75" y2="8.1" width="0.001" layer="50" curve="-90"/>
+<wire x1="3.25" y1="2.9" x2="2.75" y2="3.4" width="0.001" layer="50" curve="-90"/>
+<wire x1="4.6" y1="2.9" x2="4.6" y2="93.4" width="0.001" layer="50"/>
+<wire x1="4.6" y1="2.9" x2="4.6" y2="93.4" width="0.001" layer="51"/>
+<wire x1="4.6" y1="2.9" x2="4.6" y2="93.4" width="0.001" layer="52"/>
+<wire x1="4.6" y1="2.9" x2="4.6" y2="93.4" width="0.001" layer="39"/>
+<wire x1="4.6" y1="2.9" x2="4.6" y2="93.4" width="0.001" layer="40"/>
+<wire x1="95.2" y1="2.9" x2="95.2" y2="93.4" width="0.001" layer="50"/>
+<wire x1="95.2" y1="2.9" x2="95.2" y2="93.4" width="0.001" layer="51"/>
+<wire x1="95.2" y1="2.9" x2="95.2" y2="93.4" width="0.001" layer="52"/>
+<wire x1="95.2" y1="2.9" x2="95.2" y2="93.4" width="0.001" layer="39"/>
+<wire x1="95.2" y1="2.9" x2="95.2" y2="93.4" width="0.001" layer="40"/>
+<wire x1="68.13205" y1="94.6" x2="64.66795" y2="94.6" width="0.001" layer="20" curve="-119.999977"/>
+<wire x1="87.66795" y1="94.6" x2="68.13205" y2="94.6" width="0.001" layer="20"/>
+<wire x1="91.13205" y1="94.6" x2="87.66795" y2="94.6" width="0.001" layer="20" curve="-119.999977"/>
+<hole x="94.5" y="5.5" drill="3"/>
+<hole x="5.3" y="5.5" drill="3"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ORESAT-CARD-V1.3-GENERIC-0RF">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<text x="2.54" y="-1.27" size="2.54" layer="94">OreSat Card v1.3: Generic Card w/0RF</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ORESAT-CARD-V1.3-GENERIC-0RF" prefix="PCB">
+<gates>
+<gate name="G$1" symbol="ORESAT-CARD-V1.3-GENERIC-0RF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ORESAT-CARD-V1.3-GENERIC-0RF">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -14361,10 +14273,6 @@ by exp-lbrs.ulp</description>
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
-<part name="H2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
-<part name="H3" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
-<part name="H4" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1"/>
 <part name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-120-X1-XXX-D-RA" device="">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="SAM10145-ND"/>
@@ -16550,7 +16458,6 @@ by exp-lbrs.ulp</description>
 <attribute name="MPN" value="RC0603FR-0710KL"/>
 </part>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.2-GENERIC-0XRF-V1.0" device=""/>
 <part name="R6" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
 <spice>
 <pinmapping spiceprefix="R">
@@ -16580,6 +16487,7 @@ by exp-lbrs.ulp</description>
 <part name="TP5" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP6" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP7" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.3-GENERIC-0RF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16623,10 +16531,6 @@ by exp-lbrs.ulp</description>
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="342.9" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="H1" gate="G$1" x="299.72" y="7.62" smashed="yes"/>
-<instance part="H2" gate="G$1" x="302.26" y="7.62" smashed="yes"/>
-<instance part="H3" gate="G$1" x="304.8" y="7.62" smashed="yes"/>
-<instance part="H4" gate="G$1" x="307.34" y="7.62" smashed="yes"/>
 <instance part="J6" gate="G$1" x="99.06" y="154.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="105.41" y="206.375" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="92.71" y="100.33" size="1.778" layer="96" rot="MR180"/>
@@ -16701,7 +16605,7 @@ by exp-lbrs.ulp</description>
 <attribute name="NAME" x="245.11" y="117.475" size="1.778" layer="95"/>
 <attribute name="VALUE" x="247.65" y="116.84" size="1.778" layer="96"/>
 </instance>
-<instance part="PCB1" gate="G$1" x="185.42" y="30.48" smashed="yes"/>
+<instance part="PCB1" gate="G$1" x="152.4" y="68.58" smashed="yes"/>
 </instances>
 <busses>
 </busses>
