@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -189,9 +189,9 @@
 </layers>
 <board>
 <plain>
-<rectangle x1="5.8" y1="8.5" x2="13.8" y2="16.5" layer="21"/>
-<text x="7.5" y="17.9" size="2" layer="21" font="vector" ratio="15" rot="R90">OreSat ACS Card v1.0</text>
-<text x="10.5" y="17.9" size="2" layer="21" font="vector" ratio="15" rot="R90">2020/07/19</text>
+<rectangle x1="5.2" y1="11.1" x2="13.2" y2="19.1" layer="21"/>
+<text x="60.5" y="15.6" size="2" layer="21" font="vector" ratio="15">OreSat ACS Card v1.1</text>
+<text x="60.4" y="13.1" size="2" layer="21" font="vector" ratio="15">2021/04/08</text>
 <text x="52.5" y="83.6" size="0.635" layer="21" font="vector" ratio="20">C2H</text>
 <text x="50" y="-7.6" size="2.54" layer="48">X+</text>
 <text x="47.1" y="100" size="2.54" layer="48">X-</text>
@@ -925,7 +925,9 @@
 <hole x="49.9" y="77.06" drill="2.4" locked="yes"/>
 <hole x="49.9" y="32.54" drill="2.4" locked="yes"/>
 <hole x="49.9" y="22.54" drill="2.4" locked="yes"/>
-<text x="14.9" y="48.5" size="1.27" layer="21" font="vector" ratio="15">TEST</text>
+<text x="94.6" y="15.7" size="2" layer="22" font="vector" ratio="15" rot="MR0">OreSat ACS Card v1.1</text>
+<text x="94.6" y="13" size="2" layer="22" font="vector" ratio="15" rot="MR0">2021/04/08</text>
+<rectangle x1="5.2" y1="11.1" x2="13.2" y2="19.1" layer="22" rot="R180"/>
 </plain>
 <libraries>
 <library name="J-Samtec-TFM-120-X1-XXX-D-RA">
@@ -4029,15 +4031,6 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 </library>
-<library name="oresat-flight-marker">
-<packages>
-<package name="FLIGHTMARKER">
-<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
-<rectangle x1="35.98" y1="-0.2" x2="37.78" y2="1.6" layer="21"/>
-<wire x1="22.077" y1="-0.381" x2="26.187" y2="-0.381" width="0.1524" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="oresat-cards">
 <packages>
 <package name="ORESAT-CARD-V1.3-GENERIC-0RF">
@@ -4193,6 +4186,28 @@ by exp-lbrs.ulp</description>
 <wire x1="91.13205" y1="94.6" x2="87.66795" y2="94.6" width="0.001" layer="20" curve="-119.999977"/>
 <hole x="94.5" y="5.5" drill="3"/>
 <hole x="5.3" y="5.5" drill="3"/>
+</package>
+</packages>
+</library>
+<library name="oresat-flight-marker">
+<packages>
+<package name="FLIGHTMARKER_NEW_BOARDS">
+<text x="2.54" y="0" size="1.27" layer="21" font="vector" ratio="15">NOT FLIGHT HARDWARE</text>
+<wire x1="2.19" y1="-0.5" x2="5.89" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="-0.25" y1="-0.3" x2="1.55" y2="1.5" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="dock_v2">
+<description>Generated from &lt;b&gt;dock.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="FIDUCIAL-1.0X2.0">
+<description>Moderate Fiducial, 1.0 mm diameter with 2 mm mask clearance</description>
+<circle x="0" y="0" radius="0.5" width="1" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<circle x="0" y="0" radius="0.5" width="1" layer="41"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 </package>
 </packages>
 </library>
@@ -4426,7 +4441,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="90.6" y="60.05" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="88.5" y="62.55" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="C12" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="77.6" y="73.3" smashed="yes" rot="MR90">
+<element name="C12" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="77.6" y="73.3" smashed="yes" rot="MR90">
 <attribute name="NAME" x="76.3" y="72.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="77.6" y="73.3" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="76.25" y="72.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -4729,7 +4744,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="74.9" y="68.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="77.35" y="70.7" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
-<element name="R102" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="77.6" y="70.6" smashed="yes" rot="MR90">
+<element name="R102" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="77.6" y="70.6" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="45.85" y="101.08" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="45.85" y="101.08" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="45.85" y="101.08" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4738,7 +4753,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="76.5" y="69.6" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="76.25" y="69.8" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="R103" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="79.2" y="70.6" smashed="yes" rot="MR90">
+<element name="R103" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="79.2" y="70.6" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="47.45" y="104.89" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="47.45" y="104.89" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="47.45" y="104.89" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -4939,7 +4954,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="70.6" y="68.45" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="68.4" y="71.05" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="C22" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="57.5" y="81.8" smashed="yes" rot="MR90">
+<element name="C22" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="57.5" y="81.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="56.3" y="80.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="57.5" y="81.8" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="56.15" y="81" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -5242,7 +5257,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="56.9" y="76.65" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="57.25" y="79.2" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
-<element name="R178" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="57.5" y="79.1" smashed="yes" rot="MR90">
+<element name="R178" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="57.5" y="79.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="25.75" y="109.58" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="25.75" y="109.58" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="25.75" y="109.58" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5251,7 +5266,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="56.4" y="77.9" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="56.15" y="78.3" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="R179" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="59.1" y="79.1" smashed="yes" rot="MR90">
+<element name="R179" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="59.1" y="79.1" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="27.35" y="113.39" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="27.35" y="113.39" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="27.35" y="113.39" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5452,7 +5467,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="49.7" y="68.95" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="46.2" y="70.25" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="C32" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="35.3" y="81" smashed="yes" rot="MR90">
+<element name="C32" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="35.3" y="81" smashed="yes" rot="MR90">
 <attribute name="NAME" x="34.05" y="80.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="35.3" y="81" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="33.95" y="80.2" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -5755,7 +5770,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="34.8" y="75.85" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="35.05" y="78.4" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
-<element name="R254" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="35.3" y="78.3" smashed="yes" rot="MR90">
+<element name="R254" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="35.3" y="78.3" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="3.55" y="108.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="3.55" y="108.78" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="3.55" y="108.78" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5764,7 +5779,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="34.25" y="77.1" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="33.95" y="77.5" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="R255" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="36.9" y="78.3" smashed="yes" rot="MR90">
+<element name="R255" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="36.9" y="78.3" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="5.15" y="112.59" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="5.15" y="112.59" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="5.15" y="112.59" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -5965,7 +5980,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="26.3" y="62.35" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="25.9" y="64.95" size="0.8" layer="28" font="vector" ratio="15" rot="MR180"/>
 </element>
-<element name="C7" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="15" y="75.7" smashed="yes" rot="MR90">
+<element name="C7" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="15" y="75.7" smashed="yes" rot="MR90">
 <attribute name="NAME" x="13.75" y="74.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="NAME" x="15" y="75.7" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="VALUE" x="13.65" y="74.9" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -6268,7 +6283,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="14.2" y="70.55" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="14.75" y="73.1" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
-<element name="R64" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="15" y="73" smashed="yes" rot="MR90">
+<element name="R64" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="15" y="73" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="-16.75" y="103.48" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="-16.75" y="103.48" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="-16.75" y="103.48" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6277,7 +6292,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="13.85" y="72.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="13.65" y="72.2" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="R65" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="16.6" y="73" smashed="yes" rot="MR90">
+<element name="R65" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="16.6" y="73" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="-15.15" y="107.29" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="-15.15" y="107.29" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="-15.15" y="107.29" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6781,7 +6796,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="22.4" y="36.75" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="22.3" y="36.65" size="0.8" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="R224" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="30.8" y="37.5" smashed="yes" rot="MR90">
+<element name="R224" library="oresat-rcl" package=".0603-C-NOSILK" value="100k" x="30.8" y="37.5" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="30.8" y="37.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="30.8" y="37.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="30.8" y="37.5" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6790,7 +6805,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="32.05" y="38.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="29.45" y="36.7" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="R225" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="29.4" y="37.5" smashed="yes" rot="MR90">
+<element name="R225" library="oresat-rcl" package=".0603-C-NOSILK" value="10k" x="29.4" y="37.5" smashed="yes" rot="MR90">
 <attribute name="DIS" value="Digi-Key" x="29.4" y="37.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="DPN" value="1276-4275-1-ND" x="29.4" y="37.5" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="MFR" value="Samsung" x="29.4" y="37.5" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6799,7 +6814,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="29.1" y="38.5" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="28.05" y="36.7" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
 </element>
-<element name="C44" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="27.9" y="38.8" smashed="yes" rot="MR90">
+<element name="C44" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="27.9" y="38.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="27.9" y="38.8" size="0.2" layer="34" ratio="15" rot="MR90" align="center"/>
 <attribute name="NAME" x="27.25" y="39.7" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
 <attribute name="VALUE" x="26.55" y="38" size="0.8" layer="28" font="vector" ratio="15" rot="MR90"/>
@@ -7324,7 +7339,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="TE Connectivity" x="40.2" y="24.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MPN" value="CRGCQ0603F2K7" x="40.2" y="24.6" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="40.2" y="24.6" size="0.3" layer="34" ratio="15" rot="MR270" align="center"/>
-<attribute name="NAME" x="38.95" y="24.2" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
+<attribute name="NAME" x="38.95" y="23.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR90"/>
 <attribute name="VALUE" x="41.75" y="25.6" size="0.8" layer="28" font="vector" ratio="15" rot="MR270"/>
 </element>
 <element name="R12" library="oresat-rcl" package=".0603-C-NOSILK" value="2.7k" x="41.7" y="25.3" smashed="yes" rot="MR270">
@@ -7401,8 +7416,22 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="70" y="37.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="72" y="34.8" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER" value="" x="12.8" y="17.9" smashed="yes" rot="R90"/>
 <element name="PCB1" library="oresat-cards" package="ORESAT-CARD-V1.3-GENERIC-0RF" value="ORESAT-CARD-V1.3-GENERIC-0RF" x="0" y="0" smashed="yes"/>
+<element name="TP8" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="45.4" y="27.4" smashed="yes">
+<attribute name="NAME" x="46.3" y="27.2" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="48.1" y="27.1" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="TP18" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE-SQUARE" x="43" y="27.2" smashed="yes">
+<attribute name="NAME" x="39.9" y="27" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="42.1" y="27" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="66" y="10.7" smashed="yes"/>
+<element name="FIDUCIAL1" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="6" y="91" smashed="yes"/>
+<element name="FIDUCIAL2" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="5" y="9" smashed="yes"/>
+<element name="FIDUCIAL3" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="93" y="91" smashed="yes"/>
+<element name="FIDUCIAL4" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="5" y="9" smashed="yes" rot="MR0"/>
+<element name="FIDUCIAL5" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="93" y="91" smashed="yes" rot="MR0"/>
+<element name="FIDUCIAL6" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="6" y="91" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="SDAOPT2">
@@ -8803,7 +8832,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.7" y1="55.9" x2="30.05" y2="57.55" width="1.5" layer="16"/>
 <wire x1="41.08" y1="47.47" x2="32.65" y2="55.9" width="1.5" layer="16"/>
 <wire x1="30.05" y1="74.55" x2="30.05" y2="57.55" width="1.5" layer="16"/>
-<wire x1="30.05" y1="74.55" x2="30.1" y2="74.7" width="1.5" layer="16"/>
 <wire x1="35.3" y1="81.7" x2="35.3" y2="83.3" width="0.3" layer="16"/>
 <wire x1="35.3" y1="81.7" x2="32.4" y2="81.7" width="0.3" layer="16"/>
 <polygon width="0.2" layer="16" thermals="no">
@@ -11117,7 +11145,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C39" pad="2"/>
 <wire x1="61.175" y1="34.975" x2="61.175" y2="35.8" width="0.3" layer="16"/>
 <contactref element="U15" pad="1"/>
-<wire x1="59.45" y1="22.05" x2="59.45" y2="22.5" width="0.1524" layer="16"/>
 <contactref element="J2" pad="11"/>
 <via x="49.65" y="10.5" extent="1-16" drill="0.254"/>
 <wire x1="49.65" y1="9.5" x2="49.65" y2="10.5" width="0.3" layer="1"/>
@@ -11182,6 +11209,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="56.6" y1="43.9861875" x2="56.04309375" y2="44.54309375" width="0.2" layer="1"/>
 <wire x1="64.8" y1="38.7" x2="61.3" y2="38.7" width="0.2" layer="1"/>
 <wire x1="41.7" y1="26" x2="43" y2="26" width="0.2" layer="16"/>
+<contactref element="TP18" pad="1"/>
+<wire x1="43" y1="27.2" x2="43" y2="26" width="0.2" layer="1"/>
 </signal>
 <signal name="PB6/SCL">
 <contactref element="U29" pad="4"/>
@@ -11217,8 +11246,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="60.95" y1="26.55" x2="59.6896" y2="26.55" width="0.2" layer="16"/>
 <wire x1="59.6896" y1="26.55" x2="59.65" y2="26.5104" width="0.2" layer="16"/>
 <via x="59.65" y="26.5104" extent="1-16" drill="0.254"/>
-<wire x1="44.2" y1="26.5" x2="59.6396" y2="26.5" width="0.2" layer="1"/>
+<wire x1="44.2" y1="26.5" x2="45.4" y2="26.5" width="0.2" layer="1"/>
+<wire x1="45.4" y1="26.5" x2="59.6396" y2="26.5" width="0.2" layer="1"/>
 <wire x1="59.6396" y1="26.5" x2="59.65" y2="26.5104" width="0.2" layer="1"/>
+<contactref element="TP8" pad="1"/>
+<wire x1="45.4" y1="27.4" x2="45.4" y2="26.5" width="0.2" layer="1"/>
 </signal>
 <signal name="SDAOPT38">
 </signal>
@@ -12347,6 +12379,38 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="7,40,ea920bf65db4a0d6"/>
+<approved hash="7,40,4c246d4037033a61"/>
+<approved hash="7,40,4c120bf65d833a61"/>
+<approved hash="19,16,ab4caaa34eab4f44"/>
+<approved hash="19,16,c9cfc9dac1d2c1c7"/>
+<approved hash="19,16,b248b0a54cad4e40"/>
+<approved hash="19,16,b3c8b3254f2d4fc0"/>
+<approved hash="19,16,2b493622522a4f41"/>
+<approved hash="19,16,fccffdc0cdc8ccc7"/>
+<approved hash="19,16,2ad329f44dfc4edb"/>
+<approved hash="19,16,c84dcc95c49dc045"/>
+<approved hash="19,16,6bcf6824482c4bc7"/>
+<approved hash="19,16,ea4fe8b4ccbcce47"/>
+<approved hash="19,16,32d233fa43f242da"/>
+<approved hash="19,16,1a701b154b1d4a78"/>
+<approved hash="19,16,f341f01acc12cf49"/>
+<approved hash="19,16,924e90a54cad4e46"/>
+<approved hash="19,16,93ce93254f2d4fc6"/>
+<approved hash="23,16,a91347154658a85e"/>
+<approved hash="23,16,c5a4eb42eed26168"/>
+<approved hash="23,16,f1abef79fe66f836"/>
+<approved hash="23,16,73ff8c0b8d8c7278"/>
+<approved hash="23,16,caf408003680f474"/>
+<approved hash="23,16,f00189cd886bf1a7"/>
+<approved hash="23,16,e408267c3980fbf4"/>
+<approved hash="23,16,6d179f119c956e93"/>
+<approved hash="23,16,851cf61ce6289d34"/>
+<approved hash="23,16,fd14e484eff2e78c"/>
+<approved hash="23,16,2d3f033907532955"/>
+<approved hash="23,16,73f8840c8398746c"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
