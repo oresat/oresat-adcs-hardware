@@ -197,7 +197,7 @@
     (property "Sheetname" "")
     (path "/2df58661-5840-44fb-b012-769daaba4952")
     (attr smd)
-    (fp_text reference "C36" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C36" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3c10823d-ec79-40fb-ae49-48de798075a6)
     )
@@ -239,7 +239,7 @@
     (property "Sheetname" "")
     (path "/713a62fc-735b-47cc-966d-baf0d0c11971")
     (attr through_hole)
-    (fp_text reference "J1" (at 0 -2.33) (layer "F.SilkS")
+    (fp_text reference "J1" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2529e40e-a838-4aa9-9d1d-87341f3247f5)
     )
@@ -298,7 +298,7 @@
     (property "Sheetname" "")
     (path "/31aef119-2075-49c6-a142-ceaa24727a0d")
     (attr smd)
-    (fp_text reference "TP29" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP29" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15c8de38-31bc-4e9c-85eb-70b851b98c73)
     )
@@ -336,7 +336,7 @@
     (property "Sheetname" "")
     (path "/6f4bfc22-08c6-4ddb-97a4-26dee9bd7ca0")
     (attr smd)
-    (fp_text reference "C4" (at 0 -1.68 90) (layer "F.SilkS")
+    (fp_text reference "C4" (at 0 -1.68 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 89e39bc9-3d4f-4ade-ad0f-7bbeff67c7bf)
     )
@@ -378,7 +378,7 @@
     (property "Sheetname" "")
     (path "/985fffa3-71cd-462a-b6dd-78554ddd31c1")
     (attr through_hole)
-    (fp_text reference "J5" (at 5.655 -2.27) (layer "F.SilkS")
+    (fp_text reference "J5" (at 5.655 -2.27) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp efa878f2-b0c4-4d99-a3b9-dcb935320df4)
     )
@@ -534,7 +534,7 @@
     (property "Sheetname" "")
     (path "/0373c28a-ac3c-4fdc-b1cd-d899326abfe8")
     (attr smd)
-    (fp_text reference "C50" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C50" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 13684a9a-5acc-461c-a4da-8cdf249293dd)
     )
@@ -576,7 +576,7 @@
     (property "Sheetname" "")
     (path "/1cb004ea-70f5-4379-b7cb-9eb7e43c3362")
     (attr smd)
-    (fp_text reference "TP1" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP1" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 79424563-6841-4355-aeab-79eb0a02d861)
     )
@@ -614,7 +614,7 @@
     (property "Sheetname" "")
     (path "/ddaa87cf-886c-4955-b20a-4ce9c579558e")
     (attr smd)
-    (fp_text reference "R20" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R20" (at 0 -1.17) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63487d49-6c2a-4ab5-a78f-fbf4d69ef393)
     )
@@ -656,7 +656,7 @@
     (property "Sheetname" "")
     (path "/832af0d1-c2d4-4417-8cf8-cca99494be69")
     (attr smd)
-    (fp_text reference "C19" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C19" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 684c86ce-5f03-4c9d-89ea-d7f789954021)
     )
@@ -698,7 +698,7 @@
     (property "Sheetname" "")
     (path "/ea72d0b6-1438-4168-bb7f-26314307e9fb")
     (attr smd)
-    (fp_text reference "C21" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C21" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6d8c3a9e-ecc3-45c7-a8b9-5ce4608f908c)
     )
@@ -740,7 +740,7 @@
     (property "Sheetname" "")
     (path "/74f18821-c434-4be3-8235-a986d2676e1c")
     (attr smd)
-    (fp_text reference "TP19" (at 0 -2.25 45) (layer "F.SilkS")
+    (fp_text reference "TP19" (at 0 -2.25 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8b2bc173-c2d4-4d26-90a9-404a71a7ce24)
     )
@@ -778,7 +778,7 @@
     (property "Sheetname" "")
     (path "/ff0f8a9a-afba-4a95-b01c-483d74ddfcc1")
     (attr smd)
-    (fp_text reference "R22" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R22" (at 0 -1.17) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9d785c27-c6b9-4bf1-b6f2-649a98ae94ae)
     )
@@ -820,7 +820,7 @@
     (property "Sheetname" "")
     (path "/b2370742-8574-4640-8f6d-80f55d29632f")
     (attr smd)
-    (fp_text reference "TP17" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP17" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ea90278d-d379-4383-b6e3-c55808a1e873)
     )
@@ -858,7 +858,7 @@
     (property "Sheetname" "")
     (path "/4406c5f0-6fc7-4d4e-8d9e-bbf2bc244387")
     (attr smd)
-    (fp_text reference "TP14" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP14" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fb11eb77-59c5-48ee-b303-c39b94350ead)
     )
@@ -896,7 +896,7 @@
     (property "Sheetname" "")
     (path "/462d1995-8d84-4b97-98a0-16996e2e9259")
     (attr smd)
-    (fp_text reference "TP13" (at 0 -2.25 90) (layer "F.SilkS")
+    (fp_text reference "TP13" (at 0 -2.25 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 526b5563-d41f-40da-b838-04f98793ba33)
     )
@@ -934,7 +934,7 @@
     (property "Sheetname" "")
     (path "/2bdb0147-a3e7-4950-a327-780f5cd5bca1")
     (attr smd)
-    (fp_text reference "TP22" (at -50.65 -37.9 135) (layer "F.SilkS")
+    (fp_text reference "TP22" (at -50.65 -37.9 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c9f0d1e-3978-4620-9d3a-4c8662e03d0b)
     )
@@ -972,7 +972,7 @@
     (property "Sheetname" "")
     (path "/e47155e5-092a-474e-8090-0dec08eb2765")
     (attr smd)
-    (fp_text reference "C17" (at 0 -1.31 90) (layer "F.SilkS")
+    (fp_text reference "C17" (at 0 -1.31 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 736c15db-2ac5-4f83-b97a-5e8241901ca6)
     )
@@ -1056,7 +1056,7 @@
     (property "Sheetname" "")
     (path "/c2f7cd71-9f50-428c-a1c2-480920c28329")
     (attr smd)
-    (fp_text reference "TP15" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP15" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 51bbac5f-05f1-4262-af90-dbf4552fd9c7)
     )
@@ -1094,7 +1094,7 @@
     (property "Sheetname" "")
     (path "/a601d937-38b2-46e0-ae39-10157598a9de")
     (attr smd)
-    (fp_text reference "TP6" (at 0 -2.25 135) (layer "F.SilkS")
+    (fp_text reference "TP6" (at 0 -2.25 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 94096649-892d-4100-be29-c821a6d357b3)
     )
@@ -1132,7 +1132,7 @@
     (property "Sheetname" "")
     (path "/e452b06d-e204-4425-859c-a1fed9b4768b")
     (attr smd)
-    (fp_text reference "TP25" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP25" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4e8cb5cd-da64-4523-9a54-39e0e259d371)
     )
@@ -1170,7 +1170,7 @@
     (property "Sheetname" "")
     (path "/0a074ec3-db82-4dba-8b7a-04655d60cefe")
     (attr smd)
-    (fp_text reference "R13" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R13" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 483f95e6-6a83-4ecb-88ee-93367eb094be)
     )
@@ -1212,7 +1212,7 @@
     (property "Sheetname" "")
     (path "/5ed532a3-083f-492e-a0cd-d12e8ffbca74")
     (attr smd)
-    (fp_text reference "C8" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C8" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e0d6c1e-8cc9-43c4-afc6-aae08440d610)
     )
@@ -1254,7 +1254,7 @@
     (property "Sheetname" "")
     (path "/9706aad8-eebd-4f09-af7f-3434acb8b8b9")
     (attr smd)
-    (fp_text reference "R8" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R8" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 14b4d4ee-0409-45f0-ae62-5369c5df01f2)
     )
@@ -1296,7 +1296,7 @@
     (property "Sheetname" "")
     (path "/25a3ce11-bb97-4f53-b7fe-9fdc70346422")
     (attr smd)
-    (fp_text reference "C23" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C23" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a53f0f68-577b-4c8e-8abf-50f9589c914f)
     )
@@ -1338,7 +1338,7 @@
     (property "Sheetname" "")
     (path "/6a7410ac-6f2d-41b6-9ae5-119b71f0d7e5")
     (attr smd)
-    (fp_text reference "TP4" (at 0 -2.25 135) (layer "F.SilkS")
+    (fp_text reference "TP4" (at 0 -2.25 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42cba836-1f2c-45b7-86fc-258426b4fc64)
     )
@@ -1376,7 +1376,7 @@
     (property "Sheetname" "")
     (path "/c9898d63-3bf0-4cc4-a46f-52c3e320fb5b")
     (attr smd)
-    (fp_text reference "C41" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C41" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 552846dc-ad12-4b59-a6a4-18704b3e453b)
     )
@@ -1418,7 +1418,7 @@
     (property "Sheetname" "")
     (path "/5b550f4e-275b-4972-be63-4a19ee9d8fee")
     (attr smd)
-    (fp_text reference "C40" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C40" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e20d708a-d4ad-49e3-a0b9-779723dc238d)
     )
@@ -1460,7 +1460,7 @@
     (property "Sheetname" "")
     (path "/88d844b0-1c48-4a4c-9a2d-81e82e0ca452")
     (attr smd)
-    (fp_text reference "TP16" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP16" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d68c3554-23d6-4650-9f3c-6d71b0ec1ed3)
     )
@@ -1498,7 +1498,7 @@
     (property "Sheetname" "")
     (path "/2d2a79ae-0743-45b5-9f8c-ce4a8223ed94")
     (attr smd)
-    (fp_text reference "C6" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C6" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a47f7bfb-46c3-44c9-afd8-0ea578d09d5f)
     )
@@ -1540,7 +1540,7 @@
     (property "Sheetname" "")
     (path "/b22c84fe-c2d0-41b5-bdba-8794185a7658")
     (attr smd)
-    (fp_text reference "C12" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C12" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c761072e-094a-4885-a036-4e8f50abdd11)
     )
@@ -1582,7 +1582,7 @@
     (property "Sheetname" "")
     (path "/ea382bee-eca0-45a6-8194-77046ba89c95")
     (attr smd)
-    (fp_text reference "C31" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C31" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 46b8e800-6a05-4065-b1b7-c8fde0442de8)
     )
@@ -1624,7 +1624,7 @@
     (property "Sheetname" "")
     (path "/fc396268-cf06-426a-b1f2-179c79d59a7e")
     (attr through_hole)
-    (fp_text reference "J3" (at 0 -2.33 90) (layer "F.SilkS")
+    (fp_text reference "J3" (at 0 -2.33 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8323b823-ed69-4376-8a56-a084167f4f13)
     )
@@ -1681,7 +1681,7 @@
     (property "Sheetname" "")
     (path "/03943a42-cf0c-45b7-a9f9-e7bed50ae524")
     (attr smd)
-    (fp_text reference "C5" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C5" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ce3941cf-c9a8-4da3-a9a3-8fa83db0c6b7)
     )
@@ -1723,7 +1723,7 @@
     (property "Sheetname" "")
     (path "/b8e45bb1-d28d-4a6d-9422-e4384dabcabd")
     (attr smd)
-    (fp_text reference "TP11" (at 0 -2.25 90) (layer "F.SilkS")
+    (fp_text reference "TP11" (at 0 -2.25 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp bfefd7e8-3ce0-49c6-bb6d-885bb9c2aeb2)
     )
@@ -1761,7 +1761,7 @@
     (property "Sheetname" "")
     (path "/8f58c4cf-883d-4055-8b69-72bf5b59234e")
     (attr smd)
-    (fp_text reference "C29" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C29" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f9037809-8ee3-486c-8908-424cbfb62823)
     )
@@ -1803,7 +1803,7 @@
     (property "Sheetname" "")
     (path "/486f00c8-7af7-4778-ab6b-10771b69f33b")
     (attr smd)
-    (fp_text reference "TP20" (at 0 -2.25 45) (layer "F.SilkS")
+    (fp_text reference "TP20" (at 0 -2.25 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ee54cecb-b4b3-48bf-aa70-1ab34d2250ae)
     )
@@ -1841,7 +1841,7 @@
     (property "Sheetname" "")
     (path "/dc8b91d8-2e16-4784-a0bb-4467b052e223")
     (attr smd)
-    (fp_text reference "C39" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C39" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d2f59b08-02e4-4a88-a7aa-2335648b10d8)
     )
@@ -1883,7 +1883,7 @@
     (property "Sheetname" "")
     (path "/6cf89b96-67f4-450b-8369-b89d743436ea")
     (attr smd)
-    (fp_text reference "TP21" (at 0 -2.25 45) (layer "F.SilkS")
+    (fp_text reference "TP21" (at 0 -2.25 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ef80fb8f-d394-4f10-ab26-f2be152317f1)
     )
@@ -1921,7 +1921,7 @@
     (property "Sheetname" "")
     (path "/0baeb0cf-d25a-4d95-a5b2-ef3fe258d8cf")
     (attr smd)
-    (fp_text reference "C3" (at 0 -1.68 90) (layer "F.SilkS")
+    (fp_text reference "C3" (at 0 -1.68 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp af419322-977a-41b7-b801-2e86782a23df)
     )
@@ -1963,7 +1963,7 @@
     (property "Sheetname" "")
     (path "/3f971dbd-01cf-434d-9504-9b5755f501b2")
     (attr smd)
-    (fp_text reference "C24" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C24" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 468768ea-eaa0-4a5b-bcf7-0e44db880eac)
     )
@@ -2005,7 +2005,7 @@
     (property "Sheetname" "")
     (path "/51b545c8-4369-4f81-9890-5e2bc907609e")
     (attr smd)
-    (fp_text reference "C52" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C52" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 10fdb490-2337-4e70-81ed-d80b4fb6f839)
     )
@@ -2047,7 +2047,7 @@
     (property "Sheetname" "")
     (path "/5672f8ee-9a32-40ed-8706-874450ea7096")
     (attr smd)
-    (fp_text reference "C34" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C34" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d47e414d-ae8f-4924-a876-04f1dc859c7f)
     )
@@ -2089,7 +2089,7 @@
     (property "Sheetname" "")
     (path "/cad50bd6-6adf-487f-8379-b93249b9a01b")
     (attr through_hole)
-    (fp_text reference "J4" (at 5.655 -2.27) (layer "F.SilkS")
+    (fp_text reference "J4" (at 5.655 -2.27) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8a063a40-3d3d-4478-9eb4-a846326d470a)
     )
@@ -2263,7 +2263,7 @@
     (property "Sheetname" "")
     (path "/700d6170-6cb6-4704-92aa-eef4ca55f384")
     (attr smd)
-    (fp_text reference "TP7" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP7" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f9413ef4-b182-4495-9cc4-1fdb0ef96852)
     )
@@ -2301,7 +2301,7 @@
     (property "Sheetname" "")
     (path "/b48181e5-879b-4e96-a954-909902c16d9a")
     (attr smd)
-    (fp_text reference "TP27" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP27" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3d71ea73-1e6b-4e43-8169-37191d9dd337)
     )
@@ -2339,7 +2339,7 @@
     (property "Sheetname" "")
     (path "/82e6a61e-39b5-4a28-b5b9-86f8cbfafc16")
     (attr smd)
-    (fp_text reference "R14" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R14" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c7cc901a-d87b-4ca0-b6f7-c26130af1b0e)
     )
@@ -2381,7 +2381,7 @@
     (property "Sheetname" "")
     (path "/704483c9-1c16-4131-b3cd-249b73392f59")
     (attr smd)
-    (fp_text reference "R3" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R3" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 10c645be-8ab7-4de8-bcd8-cccccd044a1b)
     )
@@ -2423,7 +2423,7 @@
     (property "Sheetname" "")
     (path "/aa66b975-5009-4e8e-9833-09908a4e5e59")
     (attr smd)
-    (fp_text reference "C47" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C47" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c411717a-3664-4e53-82f8-8bf99593796f)
     )
@@ -2465,7 +2465,7 @@
     (property "Sheetname" "")
     (path "/55c1d55a-55f6-4426-9e1a-821393a1bfa1")
     (attr smd)
-    (fp_text reference "U3" (at 0 -2.4 -270) (layer "F.SilkS")
+    (fp_text reference "U3" (at 0 -2.4 -270) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eab1118a-ecf7-4864-a062-f3ac179a005d)
     )
@@ -2516,7 +2516,7 @@
     (property "Sheetname" "")
     (path "/5a00af77-0424-44c5-af00-54352186be83")
     (attr smd)
-    (fp_text reference "C35" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C35" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7238e94e-17f5-4ad3-8bc8-89a7425c80f6)
     )
@@ -2558,7 +2558,7 @@
     (property "Sheetname" "")
     (path "/dcb579e0-444e-4532-bd83-ce3de28e3c33")
     (attr smd)
-    (fp_text reference "C37" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C37" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6ad65936-4d44-4af5-9b96-e6b5e15b5b81)
     )
@@ -2600,7 +2600,7 @@
     (property "Sheetname" "")
     (path "/7ae5d987-73ca-43f2-aabb-735b4a94e3fe")
     (attr smd)
-    (fp_text reference "R26" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R26" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 79cb074b-dfa1-4b1c-84d3-9e1b2821eb82)
     )
@@ -2642,7 +2642,7 @@
     (property "Sheetname" "")
     (path "/78a8d0d1-c9e8-4a69-8ca7-299916328cf2")
     (attr smd)
-    (fp_text reference "TP28" (at 0 -2.25 45) (layer "F.SilkS")
+    (fp_text reference "TP28" (at 0 -2.25 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 18dd5334-4a27-4ba9-9ed5-62b58580a8a6)
     )
@@ -2680,7 +2680,7 @@
     (property "Sheetname" "")
     (path "/075dffa0-f847-4342-94b8-29e22ecf4449")
     (attr smd)
-    (fp_text reference "TP23" (at 0 -2.25 135) (layer "F.SilkS")
+    (fp_text reference "TP23" (at 0 -2.25 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a005ece-6d7c-47fe-9d49-5de8f6891e78)
     )
@@ -2718,7 +2718,7 @@
     (property "Sheetname" "")
     (path "/48df54e3-eb6f-457c-a72f-01431bca0125")
     (attr smd)
-    (fp_text reference "C49" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C49" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6e5a76ff-4fde-49ef-a9e8-a7ce43601a65)
     )
@@ -2760,7 +2760,7 @@
     (property "Sheetname" "")
     (path "/11d8e6dc-aa0f-47ea-8bdc-693647451a39")
     (attr smd)
-    (fp_text reference "U2" (at 0 -7.4 90) (layer "F.SilkS")
+    (fp_text reference "U2" (at 0 -7.4 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 02c7ef9d-8784-4483-9482-3a18f31c363b)
     )
@@ -2954,7 +2954,7 @@
     (property "Sheetname" "")
     (path "/e6dd5308-0261-4da2-8434-fb86c268390f")
     (attr smd)
-    (fp_text reference "C32" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C32" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1bc822fb-44c5-496d-8a12-18922d0ff94f)
     )
@@ -2996,7 +2996,7 @@
     (property "Sheetname" "")
     (path "/ed4fb036-2d5a-4fd9-a5fe-cba3994ae221")
     (attr smd)
-    (fp_text reference "TP5" (at 0 -2.25 135) (layer "F.SilkS")
+    (fp_text reference "TP5" (at 0 -2.25 135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 20fc1ee8-1f78-4020-86eb-448bfc29b28e)
     )
@@ -3034,7 +3034,7 @@
     (property "Sheetname" "")
     (path "/a5e6e99d-50bc-41dc-86b6-aacdc9bff077")
     (attr smd)
-    (fp_text reference "C44" (at 0 -1.0922) (layer "F.SilkS")
+    (fp_text reference "C44" (at 0 -1.0922) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 25353b94-74e7-4dad-937b-46f5593c51c1)
     )
@@ -3076,7 +3076,7 @@
     (property "Sheetname" "")
     (path "/4673f777-eb29-4b11-957d-6908434c4dca")
     (attr smd)
-    (fp_text reference "TP2" (at 0 -2.25 90) (layer "F.SilkS")
+    (fp_text reference "TP2" (at 0 -2.25 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cf734cdc-6923-4ef9-84da-5fe37277e6e9)
     )
@@ -3111,7 +3111,7 @@
     (property "Sheetfile" "rev6.0_flat_controlstage.kicad_sch")
     (property "Sheetname" "")
     (path "/eb0aba89-2a8c-48c7-bfb3-d9665cf0f875")
-    (fp_text reference "D4" (at -1 -1.3) (layer "F.SilkS")
+    (fp_text reference "D4" (at -1 -1.3) (layer "F.SilkS") hide
       (effects (font (size 0.666496 0.666496) (thickness 0.146304)) (justify right bottom))
       (tstamp ffd7093c-2bcb-48b1-aee7-869fd7e1ca09)
     )
@@ -3176,7 +3176,7 @@
     (property "Sheetname" "")
     (path "/0669b5e7-33a5-46fb-9b92-c7ee0ff9c424")
     (attr smd)
-    (fp_text reference "C45" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C45" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a8e9d866-2896-4e7c-8a7a-142673ce988a)
     )
@@ -3218,7 +3218,7 @@
     (property "Sheetname" "")
     (path "/02deb7da-7563-41cf-959c-6500bff48335")
     (attr smd)
-    (fp_text reference "R1" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R1" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4fda6d12-7b6d-4d62-886f-266a5e320174)
     )
@@ -3260,7 +3260,7 @@
     (property "Sheetname" "")
     (path "/3dcaae53-a0a3-4bc1-aa4a-830fe5ff5d14")
     (attr smd)
-    (fp_text reference "R10" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R10" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fe1b2620-2cee-44ab-9836-da18956ca669)
     )
@@ -3302,7 +3302,7 @@
     (property "Sheetname" "")
     (path "/a419685b-8862-46fd-85dc-4224e7300d11")
     (attr smd)
-    (fp_text reference "R25" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R25" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dbf985f1-5f55-4b75-92a0-3bf43621e840)
     )
@@ -3344,7 +3344,7 @@
     (property "Sheetname" "")
     (path "/dd523cdc-13dc-40ec-a296-a02de48b9f35")
     (attr smd)
-    (fp_text reference "TP12" (at 0 -2.25 90) (layer "F.SilkS")
+    (fp_text reference "TP12" (at 0 -2.25 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 686d14e0-dd13-44d1-8dd3-a4b378d3b785)
     )
@@ -3381,7 +3381,7 @@
     (property "Sheetname" "")
     (path "/e9d90377-0ed3-4d66-9ae8-56c4c3fe1382")
     (attr through_hole)
-    (fp_text reference "L1" (at 0.95 -3.135) (layer "F.SilkS")
+    (fp_text reference "L1" (at 0.95 -3.135) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8b822c2d-1a50-49b2-b49b-1ec3881336f8)
     )
@@ -3420,7 +3420,7 @@
     (property "Sheetfile" "rev6.0_flat_controlstage.kicad_sch")
     (property "Sheetname" "")
     (path "/dd1fd306-6ec8-4737-8972-5db7c9615898")
-    (fp_text reference "D2" (at -1 -1.3) (layer "F.SilkS")
+    (fp_text reference "D2" (at -1 -1.3) (layer "F.SilkS") hide
       (effects (font (size 0.666496 0.666496) (thickness 0.146304)) (justify right bottom))
       (tstamp 883d5b35-74ae-4626-88f8-107b7df774f3)
     )
@@ -3485,7 +3485,7 @@
     (property "Sheetname" "")
     (path "/8a7a27a0-3fe7-4480-bfa0-9140a49373f8")
     (attr smd)
-    (fp_text reference "R27" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R27" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74a20e5a-5692-4014-bbdb-9076812465cc)
     )
@@ -3527,7 +3527,7 @@
     (property "Sheetname" "")
     (path "/9f0a0529-77b6-4cbe-b2ea-96ba51402655")
     (attr smd)
-    (fp_text reference "TP9" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP9" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e40c8764-6da0-41e7-a774-eb13b0a2663f)
     )
@@ -3565,7 +3565,7 @@
     (property "Sheetname" "")
     (path "/6546e3f4-8b9a-4079-afa1-49985583761b")
     (attr smd)
-    (fp_text reference "TP18" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP18" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 461fbf36-f3d5-4ee2-9d7a-0357132c9f71)
     )
@@ -3603,7 +3603,7 @@
     (property "Sheetname" "")
     (path "/84a4cec8-e470-4c2c-aa27-3ba313d71470")
     (attr smd)
-    (fp_text reference "U7" (at 0 -2) (layer "F.SilkS")
+    (fp_text reference "U7" (at 0 -2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39d52616-2bf3-4937-9309-4de970743ad1)
     )
@@ -3652,7 +3652,7 @@
     (property "Sheetname" "")
     (path "/ed2bcaac-4f9e-41aa-afcd-942dab7c3018")
     (attr through_hole)
-    (fp_text reference "J2" (at 0 -2.33) (layer "F.SilkS")
+    (fp_text reference "J2" (at 0 -2.33) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cb1b7714-e231-4c23-a371-9bd66ab4abd1)
     )
@@ -3709,7 +3709,7 @@
     (property "Sheetname" "")
     (path "/8839e91f-8ea3-46bc-b9d9-30b694b8d3a3")
     (attr smd)
-    (fp_text reference "R18" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R18" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 68115f92-e2cc-418e-a398-14c54f97f395)
     )
@@ -3751,7 +3751,7 @@
     (property "Sheetname" "")
     (path "/e1f96f96-6297-4e10-b168-7e4c3c3474ae")
     (attr smd)
-    (fp_text reference "TP3" (at -59.5 -21.7 90) (layer "F.SilkS")
+    (fp_text reference "TP3" (at -59.5 -21.7 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d0b5a9e0-84ba-4e60-8bf9-92717642e012)
     )
@@ -3789,7 +3789,7 @@
     (property "Sheetname" "")
     (path "/18eaf212-403f-446f-99c4-aee2bdcf4553")
     (attr smd)
-    (fp_text reference "C11" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C11" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5578410a-f8b2-4005-b858-acfa8259ead0)
     )
@@ -3831,7 +3831,7 @@
     (property "Sheetname" "")
     (path "/7cf8cd04-3693-4d70-8b2c-6b5b232ff65f")
     (attr smd)
-    (fp_text reference "U6" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U6" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 92aea7bf-8301-4e4b-b290-9dac911f40e5)
     )
@@ -3888,7 +3888,7 @@
     (property "Sheetname" "")
     (path "/1ae12627-c7af-4519-9b52-19d22cdd3c7c")
     (attr smd)
-    (fp_text reference "C27" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C27" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 79db9f14-e4bb-4d45-8004-9f20fe2a7f5b)
     )
@@ -3930,7 +3930,7 @@
     (property "Sheetname" "")
     (path "/efa2b57c-0331-4b03-ae50-6be4c1e3853d")
     (attr smd)
-    (fp_text reference "TP31" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP31" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c891010-152c-4613-a73b-bc145443367a)
     )
@@ -3968,7 +3968,7 @@
     (property "Sheetname" "")
     (path "/95f5976a-d918-41c5-b319-d3e9386e7d20")
     (attr smd)
-    (fp_text reference "TP26" (at 0 -2.25 45) (layer "F.SilkS")
+    (fp_text reference "TP26" (at 0 -2.25 45) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b73f4736-7cf6-415f-b3a4-0a9489d4ea97)
     )
@@ -4007,7 +4007,7 @@
     (property "Sheetname" "")
     (path "/cb476a1c-aa52-42fc-8acb-72c8958e6fcb")
     (attr smd)
-    (fp_text reference "C10" (at 0 -1.68 90) (layer "F.SilkS")
+    (fp_text reference "C10" (at 0 -1.68 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ef0a390f-11a4-40c9-a767-fec01021bcda)
     )
@@ -4049,7 +4049,7 @@
     (property "Sheetname" "")
     (path "/539e83da-f24b-4b46-b88f-c312c1f84af0")
     (attr smd)
-    (fp_text reference "C51" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C51" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f0ccae09-3a43-4c3b-b37f-8a7daef48b74)
     )
@@ -4091,7 +4091,7 @@
     (property "Sheetname" "")
     (path "/5ad6f9b1-276f-40ae-8acb-4b3257fd64e3")
     (attr through_hole)
-    (fp_text reference "J7" (at 4.385 -2.27) (layer "F.SilkS")
+    (fp_text reference "J7" (at 4.385 -2.27) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 34701b52-d110-4a08-ba20-6cec7e1d168d)
     )
@@ -4167,7 +4167,7 @@
     (property "Sheetname" "")
     (path "/9f6aa78a-2a28-4851-9eef-c1cf52de904f")
     (attr smd)
-    (fp_text reference "C15" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C15" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 87260d68-dec1-44d9-a009-eccdcaeede1c)
     )
@@ -4209,7 +4209,7 @@
     (property "Sheetname" "")
     (path "/c371e4d8-cbe4-45f5-9b31-2b3a3de6021d")
     (attr smd)
-    (fp_text reference "R19" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R19" (at 0 -1.17) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 551e4a2b-7568-4416-9919-d3f5ff5cb02f)
     )
@@ -4251,7 +4251,7 @@
     (property "Sheetname" "")
     (path "/64896694-0cab-4947-8abd-bfb73338ec46")
     (attr smd)
-    (fp_text reference "R12" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R12" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp add6ff7f-98c1-4a44-bca4-98a007422016)
     )
@@ -4293,7 +4293,7 @@
     (property "Sheetname" "")
     (path "/4561a64e-3f8d-4849-9a9f-006eca953852")
     (attr smd)
-    (fp_text reference "R4" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R4" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5d84c871-bb41-48e2-9ac9-1aa38d504a30)
     )
@@ -4335,7 +4335,7 @@
     (property "Sheetname" "")
     (path "/4cbbb445-5a0e-427a-8ae9-985af44decca")
     (attr exclude_from_pos_files)
-    (fp_text reference "JP1" (at 0 -1.8) (layer "F.SilkS")
+    (fp_text reference "JP1" (at 0 -1.8) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0ed4fe76-e244-4e63-a5e2-99a236e1f270)
     )
@@ -4377,7 +4377,7 @@
     (property "Sheetname" "")
     (path "/bfb52a8a-3429-402f-b5e2-7546048fb6d8")
     (attr smd)
-    (fp_text reference "C38" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C38" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4993a6f4-60e9-4b51-b56c-acd2942e9ead)
     )
@@ -4419,7 +4419,7 @@
     (property "Sheetname" "")
     (path "/b3a9743e-0986-4452-a05e-5d2e63b68298")
     (attr smd)
-    (fp_text reference "R24" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R24" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39c80d73-eb52-472b-9f4e-24aaa3d3e9f9)
     )
@@ -4461,7 +4461,7 @@
     (property "Sheetname" "")
     (path "/69967772-4c76-4e10-bfb2-5b70e1c56a52")
     (attr smd)
-    (fp_text reference "C48" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C48" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 21534be2-5193-4fb3-bc2e-1361839376a9)
     )
@@ -4503,7 +4503,7 @@
     (property "Sheetname" "")
     (path "/55cc41bb-59f6-4bfb-9f86-63b8f1c7cd87")
     (attr smd)
-    (fp_text reference "R28" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R28" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 88d1c0e1-1789-458d-84ed-13a1fc5b8244)
     )
@@ -4546,7 +4546,7 @@
     (property "Sheetname" "")
     (path "/9a990303-6b5c-429d-9039-585553edce5d")
     (attr smd)
-    (fp_text reference "Y1" (at 0 -2.45 90) (layer "F.SilkS")
+    (fp_text reference "Y1" (at 0 -2.45 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 158d866b-0e57-4689-9993-6f6e5d5233d1)
     )
@@ -4593,7 +4593,7 @@
     (property "Sheetname" "")
     (path "/90051e8c-9dfc-49f7-8c8c-952e760db8e6")
     (attr smd)
-    (fp_text reference "C1" (at 0 -1.68 90) (layer "F.SilkS")
+    (fp_text reference "C1" (at 0 -1.68 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e6502f4d-e0d1-4549-9ed8-e5eb0765750f)
     )
@@ -4635,7 +4635,7 @@
     (property "Sheetname" "")
     (path "/94ae4a4e-344f-4b4d-a5b6-53c1a7b7442e")
     (attr smd)
-    (fp_text reference "C30" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C30" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 081c8145-1266-4d66-b191-51caed965493)
     )
@@ -4677,7 +4677,7 @@
     (property "Sheetname" "")
     (path "/95347881-29fd-4ab3-a640-4c5ae1173f4a")
     (attr smd)
-    (fp_text reference "D1" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D1" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c9776a5-c59c-49a7-8b9e-d88e5963628e)
     )
@@ -4721,7 +4721,7 @@
     (property "Sheetname" "")
     (path "/12c1b7a2-e49d-47c1-8c21-cd3e2f1ee53c")
     (attr smd)
-    (fp_text reference "C33" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C33" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a28f4c8-f38b-49b6-aa61-cdeda6904c6a)
     )
@@ -4763,7 +4763,7 @@
     (property "Sheetname" "")
     (path "/7fd6c7ff-5af5-4f5c-b1bb-7c1495d5fed7")
     (attr smd)
-    (fp_text reference "R6" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R6" (at 0 -1.17) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2a1ff3c9-eaec-49c2-8983-b5cd07ac4416)
     )
@@ -4805,7 +4805,7 @@
     (property "Sheetname" "")
     (path "/28eabaf8-3304-47f7-abe1-7a1f63115562")
     (attr exclude_from_pos_files)
-    (fp_text reference "NT1" (at 0 -1.2) (layer "F.SilkS")
+    (fp_text reference "NT1" (at 0 -1.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b97187df-5f68-4a02-b5a0-fb01192d82bd)
     )
@@ -4838,7 +4838,7 @@
     (property "Sheetname" "")
     (path "/b3953e58-9842-494b-8d28-acfa27db6bad")
     (attr smd)
-    (fp_text reference "U1" (at 0 -3.32 180) (layer "F.SilkS")
+    (fp_text reference "U1" (at 0 -3.32 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0f93ddaa-13bf-4dc0-8bc9-c02461b526ed)
     )
@@ -4920,7 +4920,7 @@
     (property "Sheetname" "")
     (path "/1753b18e-d5a6-4d99-81b8-c83f99854117")
     (attr smd)
-    (fp_text reference "C25" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C25" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 55231156-8ac6-45fc-997a-9ce781173849)
     )
@@ -4962,7 +4962,7 @@
     (property "Sheetname" "")
     (path "/df75c386-3877-4b84-8d39-8cba635c1f49")
     (attr smd)
-    (fp_text reference "R15" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R15" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ae2848cd-d8e7-456a-8234-fa677320b80c)
     )
@@ -5004,7 +5004,7 @@
     (property "Sheetname" "")
     (path "/3d7a3e9b-99a4-4717-a705-c8be30513254")
     (attr smd)
-    (fp_text reference "C26" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C26" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c34adb89-510f-4cce-ae0c-1cd1112648a7)
     )
@@ -5046,7 +5046,7 @@
     (property "Sheetname" "")
     (path "/eb846782-3e23-4b7e-b67b-062f39c088e3")
     (attr smd)
-    (fp_text reference "R9" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R9" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc059509-5624-4c48-9cae-b415324969c0)
     )
@@ -5088,7 +5088,7 @@
     (property "Sheetname" "")
     (path "/633e5531-e055-4d8f-9aec-3f78100c1f9e")
     (attr smd)
-    (fp_text reference "C20" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C20" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e6d8688c-9585-416e-8f53-d3b2fdab4801)
     )
@@ -5130,7 +5130,7 @@
     (property "Sheetname" "")
     (path "/5e7ef3f6-1700-496d-8b5f-850bab1605c7")
     (attr smd)
-    (fp_text reference "TP24" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP24" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 97a0fec8-3ad8-435e-9afb-da330de0e77b)
     )
@@ -5168,7 +5168,7 @@
     (property "Sheetname" "")
     (path "/9d01fc8b-1fbd-4b2f-ae7b-cfbdc85c84f9")
     (attr smd)
-    (fp_text reference "C22" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C22" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5b6b1e39-f691-4099-abbb-198bb062b2a5)
     )
@@ -5207,7 +5207,7 @@
     (property "Sheetfile" "rev6.0_flat_controlstage.kicad_sch")
     (property "Sheetname" "")
     (path "/4470eb6c-73b0-4472-96ef-f239ec38c82f")
-    (fp_text reference "D3" (at -1 -1.3) (layer "F.SilkS")
+    (fp_text reference "D3" (at -1 -1.3) (layer "F.SilkS") hide
       (effects (font (size 0.666496 0.666496) (thickness 0.146304)) (justify right bottom))
       (tstamp b65a659a-7230-40c3-ac57-d2583be53309)
     )
@@ -5272,7 +5272,7 @@
     (property "Sheetname" "")
     (path "/1fdfafa5-f841-44d9-8a63-a1e11d3295d0")
     (attr smd)
-    (fp_text reference "C42" (at -12.8524 4.7676 90) (layer "F.SilkS")
+    (fp_text reference "C42" (at -12.8524 4.7676 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aba28418-b2ec-49d2-8d43-58c1c71a4f01)
     )
@@ -5314,7 +5314,7 @@
     (property "Sheetname" "")
     (path "/4481faba-ff93-45e5-95c8-9cffbe8c8ced")
     (attr smd)
-    (fp_text reference "R2" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R2" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ce180a4-e75c-43ce-b722-92a1fbfa20b8)
     )
@@ -5356,7 +5356,7 @@
     (property "Sheetname" "")
     (path "/e387b448-4033-43c7-90f0-0d2070c24ab2")
     (attr smd)
-    (fp_text reference "JP3" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "JP3" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp edb5b81f-4831-47ac-836c-2f1d747820f4)
     )
@@ -5398,7 +5398,7 @@
     (property "Sheetname" "")
     (path "/7fb91f8f-5ff3-430a-9136-d7174d17e0a2")
     (attr smd)
-    (fp_text reference "TP10" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP10" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 15538864-a836-4a8c-bc2c-57f6f357e53f)
     )
@@ -5436,7 +5436,7 @@
     (property "Sheetname" "")
     (path "/44d3bc5b-f5a9-46f6-ac00-4f51a23a3c28")
     (attr smd)
-    (fp_text reference "R16" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R16" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a1c34428-e385-44ea-af37-f1fffca8ce33)
     )
@@ -5478,7 +5478,7 @@
     (property "Sheetname" "")
     (path "/eeb6fbe0-69be-4fa7-9f53-525b0af0254d")
     (attr smd)
-    (fp_text reference "R23" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "R23" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 179db12a-a867-42da-860a-cb10682ef84c)
     )
@@ -5520,7 +5520,7 @@
     (property "Sheetname" "")
     (path "/6e5f1222-6044-4b88-9669-d2907b8ed3c7")
     (attr smd)
-    (fp_text reference "C9" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "C9" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1a8e369c-84ca-4608-b72b-ca8fbe7d115c)
     )
@@ -5562,7 +5562,7 @@
     (property "Sheetname" "")
     (path "/f34c2716-c10e-41ba-9da2-b156c489f5e1")
     (attr smd)
-    (fp_text reference "C28" (at 0 -1.16 90) (layer "F.SilkS")
+    (fp_text reference "C28" (at 0 -1.16 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp caa5a048-957d-4e4d-95a2-cac3f247c23f)
     )
@@ -5604,7 +5604,7 @@
     (property "Sheetname" "")
     (path "/b84514e6-5285-4c4a-a5ea-4bc62d66f916")
     (attr smd)
-    (fp_text reference "C14" (at 0 -1.31 90) (layer "F.SilkS")
+    (fp_text reference "C14" (at 0 -1.31 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 45016ee5-b23d-46d9-a1af-6e3b1e395c05)
     )
@@ -5644,7 +5644,7 @@
     (property "Sheetname" "")
     (path "/1eac5711-3d08-4bd2-b36d-1f40e1383058")
     (attr smd)
-    (fp_text reference "U5" (at 0 -5.08 90 unlocked) (layer "F.SilkS")
+    (fp_text reference "U5" (at 0 -5.08 90 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4be46856-df16-41b3-9a87-a8f67431ea60)
     )
@@ -5684,7 +5684,7 @@
     (property "Sheetname" "")
     (path "/c1522970-3a12-4cc6-a993-09cf0c99b0ee")
     (attr smd)
-    (fp_text reference "C46" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C46" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fbcc7b5b-06ed-4e29-9a7a-f80b7daf3c6f)
     )
@@ -5726,7 +5726,7 @@
     (property "Sheetname" "")
     (path "/b7324745-61ad-407b-9325-c3bc5693db42")
     (attr smd)
-    (fp_text reference "R7" (at 0 -1.17) (layer "F.SilkS")
+    (fp_text reference "R7" (at 0 -1.17) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4ec87348-146d-4f29-a7d4-31da2a999e2b)
     )
@@ -5768,7 +5768,7 @@
     (property "Sheetname" "")
     (path "/6e4d022b-fae4-4c7d-8de7-70cccfbd4078")
     (attr smd)
-    (fp_text reference "TP8" (at 0.6 -1.55 90) (layer "F.SilkS")
+    (fp_text reference "TP8" (at 0.6 -1.55 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1c1003b3-f0a4-4840-8adb-147cc6d39103)
     )
@@ -5806,7 +5806,7 @@
     (property "Sheetname" "")
     (path "/f3a796e5-0fa7-41c0-8532-af61615f77df")
     (attr smd)
-    (fp_text reference "R17" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R17" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 243f6059-7bb9-4819-9dbe-c438f86fb882)
     )
@@ -5848,7 +5848,7 @@
     (property "Sheetname" "")
     (path "/1f6f32fe-2c9e-4e1e-8e87-e07ef66fc951")
     (attr smd)
-    (fp_text reference "R21" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R21" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 16bcb135-d5eb-4ac3-b110-1a6cba3f6be1)
     )
@@ -5890,7 +5890,7 @@
     (property "Sheetname" "")
     (path "/af0ee9c8-61d6-49fc-b4ef-cf07338a4607")
     (attr smd)
-    (fp_text reference "C43" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "C43" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cdef11ab-23c8-4b3f-b92b-a34a9eb8651f)
     )
@@ -5932,7 +5932,7 @@
     (property "Sheetname" "")
     (path "/e001662d-dc8d-4e41-b2c6-98cda823a0bf")
     (attr smd)
-    (fp_text reference "R11" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R11" (at 0 -1.43) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7595145d-4fd2-45e3-a6d9-1215ecf96974)
     )
@@ -5974,7 +5974,7 @@
     (property "Sheetname" "")
     (path "/190140cf-1b36-425e-a1a2-0e7f94c46741")
     (attr smd)
-    (fp_text reference "R5" (at 0 -1.17 90) (layer "F.SilkS")
+    (fp_text reference "R5" (at 0 -1.17 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5313834d-f8a8-411b-bc0a-7e44db48f686)
     )
@@ -6016,7 +6016,7 @@
     (property "Sheetname" "")
     (path "/9d22c856-d4eb-4467-bed7-cec78855553b")
     (attr smd)
-    (fp_text reference "TP30" (at 0 -2.25) (layer "F.SilkS")
+    (fp_text reference "TP30" (at 0 -2.25) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 39cf12e3-3e1f-4350-a48c-d93a10034481)
     )
@@ -6054,7 +6054,7 @@
     (property "Sheetname" "")
     (path "/9f58765b-28e1-4b4e-ab04-6066082b1079")
     (attr smd)
-    (fp_text reference "C2" (at 0 -1.68 90) (layer "F.SilkS")
+    (fp_text reference "C2" (at 0 -1.68 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 60ebc8ee-d83d-442a-aa25-86a20e0fe6d9)
     )
@@ -6096,7 +6096,7 @@
     (property "Sheetname" "")
     (path "/12b537df-a446-44c2-8467-cafa6ebabeb0")
     (attr smd)
-    (fp_text reference "JP2" (at 0 -1.43 90) (layer "F.SilkS")
+    (fp_text reference "JP2" (at 0 -1.43 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b724ff88-08b4-4470-84c5-31c8b55c784e)
     )
@@ -6138,7 +6138,7 @@
     (property "Sheetname" "")
     (path "/a9c23223-f53d-41fc-b158-de94beb91f58")
     (attr through_hole)
-    (fp_text reference "J6" (at 5.655 -2.27) (layer "F.SilkS")
+    (fp_text reference "J6" (at 5.655 -2.27) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a2ca8873-a46c-4aab-9471-92893b9fb937)
     )
@@ -6348,7 +6348,7 @@
     (property "Sheetname" "")
     (path "/40e2bdbd-8d0d-499a-8c5c-d50ecfe0bbcb")
     (attr smd)
-    (fp_text reference "U4" (at 0 -2.4) (layer "F.SilkS")
+    (fp_text reference "U4" (at 0 -2.4) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0ee91ee9-e35a-4b5d-9c3e-6e340a5cb7d8)
     )
@@ -6394,7 +6394,7 @@
     (property "Sheetname" "")
     (path "/3c9e91f4-20ea-4b28-b7e3-2217dce59f38")
     (attr smd)
-    (fp_text reference "C16" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C16" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7090c2bd-0cdc-4066-9bd3-d0e94f38d3bc)
     )
@@ -6437,7 +6437,7 @@
     (property "Sheetname" "")
     (path "/be796a77-d8d3-4b85-b3ad-eb8ef48eeb94")
     (attr smd)
-    (fp_text reference "C7" (at 0 -1.68 90) (layer "F.SilkS")
+    (fp_text reference "C7" (at 0 -1.68 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 75a4b67a-3a15-4b36-8222-92b9b9a06f94)
     )
@@ -6479,7 +6479,7 @@
     (property "Sheetname" "")
     (path "/e0f006a4-5238-43bf-b1fc-553af192e96c")
     (attr smd)
-    (fp_text reference "C18" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C18" (at 0 -1.16) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cf088c5b-c9b5-4120-8586-da1a505d2d83)
     )
