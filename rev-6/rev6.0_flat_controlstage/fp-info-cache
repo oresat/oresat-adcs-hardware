@@ -1,4 +1,4 @@
-16433866791599
+18078143081194
 project-footprints
 APA102_2020
 
@@ -41,6 +41,13 @@ resistor
 0
 6
 4
+project-footprints
+SOT-23-8-Fixed
+SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+8
+8
 project-footprints
 TI-WSON-6-2.2x2.5
 
