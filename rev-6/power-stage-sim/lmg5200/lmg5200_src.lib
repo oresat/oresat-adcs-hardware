@@ -1,0 +1,319 @@
+*$
+* PSpice Model Editor - Version 16.2.0
+*
+* LMG5200
+*****************************************************************************
+*  (C) Copyright 2015 Texas Instruments Incorporated. All rights reserved.
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+** Released by: WEBENCH(R) Design Center, Texas Instruments Inc.
+* Part: LMG5200
+* Date: 16SEP2015
+* Model Type: TRANSIENT
+* Simulator: PSPICE
+* Simulator Version: 16.2
+* EVM Order Number: LMG5200EVM-01A
+* EVM Users Guide: 
+* Datasheet: SNOSCY4 –OCTOBER 2014
+*
+* Model Version: Final 3.00
+*
+*****************************************************************************
+*
+* Updates: 3.0 made changes to diode to have deadtime lower Vsw 
+*
+* Final 3.0
+* Release to Web.
+*
+*****************************************************************************
+.subckt LMG5200_TRANS HB HI HS LI PGND AGND VCC VIN SW params: del_match=2n
+X_U3         LO HS PGND EPC2016C
+X_U2         HOH VIN HS EPC2016C
+M_U1_M3         U1_N16654664 U1_N16654638 LO LO NMOS01           
+X_U1_U3         U1_N16653092 U1_N16653336 U1_N16655486 AND2_BASIC_GEN PARAMS:
++  VDD=1 VSS=0 VTHRESH=.5
+R_U1_R11         U1_N16655218 U1_N16653474  13 TC=0,0 
+V_U1_V3         U1_N16653310 AGND 2.06
+X_U1_U5         HI U1_N16653310 U1_N16653316 U1_N16653096 COMPHYS_BASIC_GEN
++  PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+X_U1_U13         VCC HB d_d1 
+R_U1_R7         U1_N16653954 U1_N16654638  50  
+C_U1_C1         U1_N16653578 U1_N16655008  10p  
+R_U1_R15         U1_N16655764 U1_N16655214  {20 + DEL_MATCH* 0.68e9} TC=0,0 
+C_U1_C9         0 U1_N16655218  1n  TC=0,0 
+C_U1_C2         U1_N16653646 U1_N16653616  20p  
+R_U1_R5         U1_N16653572 U1_N16653616  100  
+E_U1_ABM4         U1_LO_ON 0 VALUE { if(V(U1_N16652926)  >0.5,1,0)    }
+R_U1_R16         U1_N16652926 U1_N16655754  20 TC=0,0 
+C_U1_C4         U1_N16654638 U1_N16654664  10p  
+R_U1_R3         U1_N16654976 U1_N16653578  50  
+V_U1_V9         U1_N16654306 0 0.2
+R_U1_R9         U1_N16654944 U1_N16654806  100  
+V_U1_V8         U1_N16654258 0 3.2
+M_U1_M2         U1_N16653646 U1_N16653616 HOH HOH PMOS01           
+X_U1_U116         U1_N16655206 U1_N16655236 d_d1 
+X_U1_U2         U1_N16653096 U1_N16653092 U1_UVLOHI AND2_BASIC_GEN PARAMS:
++  VDD=1 VSS=0 VTHRESH=.5
+C_U1_C3         HOH U1_N16653578  10p  
+M_U1_M4         U1_N16654836 U1_N16654806 LO LO PMOS01           
+X_U1_U10         LI U1_N16653174 U1_N16653200 U1_N16653336 COMPHYS_BASIC_GEN
++  PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+C_U1_C6         HOH U1_N16653616  20p  
+M_U1_M1         U1_N16655008 U1_N16653578 HOH HOH NMOS01           
+R_U1_R13         U1_N16654120 U1_N16655486  13 TC=0,0 
+C_U1_C11         0 U1_N16654120  1n  TC=0,0 
+R_U1_R12         U1_N16655236 U1_N16655206  13k TC=0,0 
+E_U1_E4         U1_N16653954 LO VALUE { IF(V(U1_LO_ON, 0) > 0.5, 5, -5) }
+C_U1_C7         U1_N16654836 U1_N16654806  20p  
+R_U1_R14         U1_N16655508 U1_N16655478  13k TC=0,0 
+V_U1_V4         U1_N16653316 0 0.4
+E_U1_E8         U1_N16654408 0 HB HS 1
+C_U1_C5         LO U1_N16654638  10p  
+R_U1_R6         U1_N16653646 HS  20m  
+V_U1_V7         U1_N16654060 0 0.2
+C_U1_C10         0 U1_N16655236  1p  TC=0,0 
+R_U1_R10         U1_N16654836 0  20m  
+R_U1_R4         HB U1_N16655008  20m  
+X_U1_U117         U1_N16655218 U1_N16653474 d_d1 
+C_U1_C12         0 U1_N16655508  1p  TC=0,0 
+E_U1_ABM2         U1_N16655478 0 VALUE { if(V(U1_N16654120)  >0.5,1,0)    }
+V_U1_V1         U1_N16653174 AGND 2.06
+C_U1_C14         0 U1_N16652926  1n  TC=0,0 
+C_U1_C15         HB HS  47n  
+X_U1_U119         U1_N16655478 U1_N16655508 d_d1 
+V_U1_V2         U1_N16653200 0 0.4
+X_U1_U9         U1_N16655236 U1_N16655206 U1_N16655214 OR2_BASIC_GEN PARAMS:
++  VDD=1 VSS=0 VTHRESH=0.5
+E_U1_E1         U1_N16654976 HOH VALUE { IF(V(U1_HI_ON, 0) > 0.5, 5, -5) }
+C_U1_C8         LO U1_N16654806  20p  
+E_U1_E2         HOH U1_N16653572 VALUE { IF(V(U1_HI_ON, 0) > 0.5, -5, 5) }
+X_U1_U6         HB U1_N166561400 d_d 
+E_U1_E3         LO U1_N16654944 VALUE { IF(V(U1_LO_ON, 0) > 0.5, -5, 5) }
+R_U1_R8         VCC U1_N16654664  20m  
+E_U1_ABM1         U1_N16655206 0 VALUE { if(V(U1_N16655218) >0.5,1,0)    }
+E_U1_E7         U1_N16654252 0 VCC AGND 1
+X_U1_U4         U1_N16653346 U1_UVLOHI U1_N16653474 AND2_BASIC_GEN PARAMS:
++  VDD=1 VSS=0 VTHRESH=.5
+X_U1_U15         U1_N16654408 U1_N16654258 U1_N16654306 U1_N16653346
++  COMPHYS_BASIC_GEN PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+E_U1_ABM3         U1_HI_ON 0 VALUE { if(V(U1_N16655764)  >0.5,1,0)    }
+X_U1_U120         U1_N16655508 U1_N16655478 U1_N16655754 OR2_BASIC_GEN PARAMS:
++  VDD=1 VSS=0 VTHRESH=0.5
+C_U1_C13         0 U1_N16655764  1n  TC=0,0 
+V_U1_V6         U1_N16654012 0 3.8
+V_U1_V5         U1_N166561400 HS 5.3
+X_U1_U121         U1_N16654120 U1_N16655486 d_d1 
+X_U1_U14         U1_N16654252 U1_N16654012 U1_N16654060 U1_N16653092
++  COMPHYS_BASIC_GEN PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+Rdum1 SW HS 1m
+.ends
+*$
+.SUBCKT D_D1 1 2
+D1 1 2 DD1
+
+.MODEL DD1 D( IS=1e-15 TT=10p Rs=1 N=0.05  )
+
+.ENDS D_D1
+
+*$
+
+.subckt d_d 1 2
+d1 1 2 dd
+
+.model dd d
++ is=1e-015
++ n=0.01
++ RS= 0.01
++ tt=1e-011
+
+.ends d_d
+
+*$
+
+.model NMOS01 NMOS
++ VTO     = 2
++ KP      = 0.267
++ LAMBDA  = 0.001
+*$
+
+.model PMOS01 PMOS
++ VTO     = -2
++ KP      = 1.11
++ LAMBDA  = 0.001
+*$
+
+.SUBCKT COMPHYS_BASIC_GEN INP INM HYS OUT PARAMS: VDD=1 VSS=0 VTHRESH=0.5	
+EIN INP1 INM1 INP INM 1 
+EHYS INP1 INP2 VALUE { IF( V(1) > {VTHRESH},-V(HYS),0) }
+EOUT OUT 0 VALUE { IF( V(INP2)>V(INM1), {VDD} ,{VSS}) }
+R1 OUT 1 1
+C1 1 0 5n
+RINP1 INP1 0 1K
+.ENDS COMPHYS_BASIC_GEN
+*$
+.SUBCKT AND2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  &  
++ V(B) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS AND2_BASIC_GEN
+*$
+.SUBCKT INVERTER IN OUT  
+EOUT OUT1 0 VALUE { IF( V(IN)<0.5,1,0) }
+R1 OUT1 OUT 1
+C1 OUT 0 10p
+.ends INVERTER
+*$
+.SUBCKT INV_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH} , 
++ {VSS},{VDD})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS INV_BASIC_GEN
+*$
+.SUBCKT BUF_DELAY_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 DELAY = 10n 
+E_ABMGATE1    YINT1 0 VALUE {{IF(V(A) > {VTHRESH} , 
++ {VDD},{VSS})}}
+RINT YINT1 YINT2 1
+CINT YINT2 0 {DELAY*1.3}
+E_ABMGATE2    YINT3 0 VALUE {{IF(V(YINT2) > {VTHRESH} , 
++ {VDD},{VSS})}}
+RINT2 YINT3 Y 1
+CINT2 Y 0 1n
+.ENDS BUF_DELAY_BASIC_GEN
+*$
+.SUBCKT OR2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  |  
++ V(B) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS OR2_BASIC_GEN
+*$
+.SUBCKT BUFFER_PS A Y PARAMS: vhi=1 vlo=0 vthresh=500e-3 tplh=1e-9 tphl=1e-9 tr=1e-9 tf=1e-9
+RA A 0 1e11
+CA A 0 0.01pF
+VS VSUP 0 DC 1
+EBUF1 Ypp 0 VALUE={IF(V(A) > ({vthresh}), 1, 0)}
+ROUTpp Ypp 0 1e11
+XNSW1 OUTp Ypp 0 NSW_PS PARAMS: RONval={(tplh+1e-15)/(1e-12*0.693)} VTHval=0.5
+XPSW1 OUTp Ypp VSUP PSW_PS PARAMS: RONval={(tphl+1e-15)/(1e-12*0.693)} VTHval=0.5
+CDEL1 OUTp 0 1pF
+ETHRESH Yp 0 VALUE={IF(V(OUTp) > 0.5, 1, 0)}
+ROUTp Yp 0 1e11
+XNSW2 OUTr Yp 0 NSW_PS PARAMS: RONval={(tf+1e-15)/(1e-12*2.3)} VTHval=0.5
+XPSW2 OUTr Yp VSUP PSW_PS PARAMS: RONval={(tr+1e-15)/(1e-12*2.3)} VTHval=0.5
+CDEL2 OUTr 0 1pF
+EOUT OUTf 0 VALUE={V(OUTr)*({vhi} - {vlo})+{vlo}}
+RDR OUTf Y  1000
+RO Y 0 1e11
+.ENDS BUFFER_PS
+*$
+.SUBCKT NSW_PS D G S PARAMS: RONval=10k VTHval=0.7 VCHARval=0.01 CGval=0.01pF CDval=0.01pF CSval=0.01pf
+RDDUM D 0 1e11
+RSDUM S 0 1e11
+RGDUM G 0 1e11
+CG G D {CGval}
+CD D S {CDval}
+CS G S {CSval}
+***EEXP F1 0 VALUE={LIMIT(((V(G,S)-VTHval)/VCHARval),-80,80)} 
+Etest test 0 VALUE={IF(V(D) > V(S), V(G,S), V(G,D))}
+GOUT D S VALUE={V(D,S)/(RONval*(1+EXP(-LIMIT(((V(test)-VTHval)/VCHARval),-80,80))))}
+.ENDS NSW_PS
+*$
+.SUBCKT PSW_PS D G S PARAMS: RONval=10k VTHval=0.7 VCHARval=0.01 CGval=0.01pF CDval=0.01pF 
+RDDUM D 0 1e11
+RSDUM S 0 1e11
+RGDUM G 0 1e11
+CG G D {CGval}
+CD D S {CDval}
+Etest test 0 VALUE={IF(V(S) > V(D), V(S,G), V(D,G))}
+GOUT S D VALUE={V(S,D)/(RONval*(1+EXP(-LIMIT(((V(test)-VTHval)/VCHARval),-80,80))))}
+.ENDS PSW_PS
+*$
+.SUBCKT FALLING_DELAY IN OUT PARAMS: DELAY=100n VDD=1 VSS=0 VTHRESH=0.5
+X_U1         INT OUT BUF_BASIC_GEN PARAMS: VDD={VDD} VSS={VSS} VTHRESH=
++ {VTHRESH}
+R_R1         IN INT  {DELAY/(0.693 * 1E-9)}  
+C_C1         0 INT  1n  
+D_D1         IN INT DD 
+.MODEL DD D( IS=1F N=0.01 TT = 10p )
+.ENDS FALLING_DELAY
+*$
+.SUBCKT BUF_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH} , 
++ {VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS BUF_BASIC_GEN
+*$
+* (C) Copyright Efficient Power Conversion Corporation. All rights reserved.
+*****************************************************************************
+* Version History:
+* 1.00: 03/30/2015 - Initial Model Creation
+.subckt EPC2016C gatein drainin sourcein 
+.param aWg=506 A1=16.068 k2=2.1706 k3=0.15 rpara=0.0090152 rpara_s_factor=0.15 
++ aITc=0.00377 arTc=-0.0058 k2Tc=0.00053 x0_0=1.4801 x0_1=2.9429e-07 x0_1_TC=0 
++ dgs1=4.3e-07 dgs2=2.6e-13 dgs3=0.8 dgs4=0.23 
++ ags1=3.5349e-10 ags2=2.1671e-10 ags3=1.8658 ags4=0.18564 
++ ags5=-2.121e-13 ags6=-4.3456 ags7=4.5809 
++ agd1=9.6492e-13 agd2=4.1526e-11 agd3=-1.0223 agd4=0.84414 
++ agd5=3.4461e-11 agd6=-7.2589 agd7=4.7456 
++ agd8=4.3656e-12 agd9=-51.814 agd10=22.587 
++ asd1=9.9513e-11 asd2=2.2884e-10 asd3=-14.313 asd4=6.5135 
++ asd5=3.4213e-10 asd6=-0.76983 asd7=61.161 rg_value=0.4 
+rd drainin drain {((1-rpara_s_factor)*rpara*(1-arTc*(Temp-25)))}
+rs sourcein source {(rpara_s_factor*rpara*(1-arTc*(Temp-25)))}
+rg gatein gate {(rg_value)}
+*Large resistors to aid convergence
+Rcsdconv drain source {100000Meg/aWg}
+Rcgsconv gate source {100000Meg/aWg}
+Rcgdconv gate drain {100000Meg/aWg}
+gswitch drain source Value {if(v(drain,source)>0,
++	(A1*(1-aITc*(Temp-25))*log(1.0+exp((v(gate,source)-(k2*(1-k2Tc*(Temp-25))))/k3))* 
++	v(drain,source)/(1 + max(x0_0+x0_1*(1-x0_1_TC*(Temp-25))*v(gate,source),0.2)*v(drain,source)) ),
++	(-A1*(1-aITc*(Temp-25))*log(1.0+exp((v(gate,drain)-(k2*(1-k2Tc*(Temp-25))))/k3))* 
++	v(source,drain)/(1 + max(x0_0+x0_1*(1-x0_1_TC*(Temp-25))*v(gate,drain),0.2)*v(source,drain)) ) ) }
+ggsdiode gate source VALUE {if( v(gate,source) < 10,
++	0.5*aWg/1077*(dgs1*(exp((v(gate,source))/dgs3)-1)+dgs2*(exp((v(gate,source))/dgs4)-1)),
++	0.5*aWg/1077*(dgs1*(exp((10)/dgs3)-1)+dgs2*(exp((10)/dgs4)-1)) ) }
+ggddiode gate drain Value {if( v(gate,drain) < 10,
++	0.5*aWg/1077*(dgs1*(exp((v(gate,drain))/dgs3)-1)+dgs2*(exp((v(gate,drain))/dgs4)-1)),
++	0.5*aWg/1077*(dgs1*(exp((10)/dgs3)-1)+dgs2*(exp((10)/dgs4)-1)) ) }
+*Model for voltage dependent gate-source capacitance
+E_IGS tl_gs bl_gs value = {0.5*ags2*ags4*log(1+exp((v(gate,source)-ags3)/ags4))+
++	ags5*ags7*log(1+exp((v(source,drain)-ags6)/ags7))+
++	ags1*v(gate,source) }
+V_INGS br_gs bl_gs 0.0
+C_IGS br_gs tr_gs {1.0e-6}
+R_IGS tr_gs tl_gs {1.0e-4}
+F_IGS gate source V_INGS 1e6
+R_IGS2 bl_gs source 100Meg
+*Model for voltage dependent gate-drain capacitance
+E_IGD tl_gd bl_gd value = {0.5*ags2*ags4*log(1+exp((v(gate,drain)-ags3)/ags4))+
++	agd2*agd4*log(1+exp((v(gate,drain)-agd3)/agd4))+
++	agd5*agd7*log(1+exp((v(gate,drain)-agd6)/agd7))+
++	agd8*agd10*log(1+exp((v(gate,drain)-agd9)/agd10))+
++	agd1*v(gate,drain) }
+V_INGD br_gd bl_gd 0.0
+C_IGD br_gd tr_gd {1.0e-6}
+R_IGD tr_gd tl_gd {1.0e-4}
+F_IGD gate drain V_INGD 1e6
+R_IGD2 bl_gd drain 100Meg
+*Model for voltage dependent source-drain capacitance
+E_ISD tl_sd bl_sd value = {asd2*asd4*log(1+exp((v(source,drain)-asd3)/asd4))+
++	asd5*asd7*log(1+exp((v(source,drain)-asd6)/asd7))+
++	asd1*v(source,drain) }
+V_INSD br_sd bl_sd 0.0
+C_ISD br_sd tr_sd {1.0E-6}
+R_ISD tr_sd tl_sd {1.0e-4}
+F_ISD source drain V_INSD 1e6
+R_ISD2 bl_sd drain 100Meg
+.ends
+*$
