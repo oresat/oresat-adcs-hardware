@@ -297,7 +297,7 @@
         (name "VOCM" (effects (font (size 0.508 0.508))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -2.54 7.62 270) (length 2.54)
+      (pin power_in line (at -2.54 7.62 270) (length 2.54)
         (name "V+" (effects (font (size 0.508 0.508))))
         (number "3" (effects (font (size 0.762 0.762))))
       )
@@ -309,7 +309,7 @@
         (name "OUT2" (effects (font (size 0.508 0.508))))
         (number "5" (effects (font (size 0.508 0.508))))
       )
-      (pin output line (at -2.54 -7.62 90) (length 2.54)
+      (pin input line (at -2.54 -7.62 90) (length 2.54)
         (name "V-" (effects (font (size 0.508 0.508))))
         (number "6" (effects (font (size 0.762 0.762))))
       )
@@ -321,7 +321,7 @@
         (name "IN+" (effects (font (size 0.508 0.508))))
         (number "8" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at -2.54 -7.62 90) (length 2.54) hide
+      (pin input line (at -2.54 -7.62 90) (length 2.54) hide
         (name "EP" (effects (font (size 0.508 0.508))))
         (number "9" (effects (font (size 0.762 0.762))))
       )
