@@ -1,4 +1,4 @@
-19833403086044719
+19835047362334314
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84524,6 +84524,13 @@ resistor
 0
 6
 4
+project-footprints
+SOT-23-8-Fixed
+SOT, 8 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant BA), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+8
+8
 project-footprints
 TI-WSON-6-2.2x2.5
 
