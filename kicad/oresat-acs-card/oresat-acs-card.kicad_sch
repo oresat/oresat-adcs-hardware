@@ -133,14 +133,8 @@
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/ce21ff00-00b8-4ed8-9417-82388977baeb"
       (reference "#FRAME2") (unit 1) (value "FRAME_B_L") (footprint "")
     )
-    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/2ebb8b5c-5488-4489-973c-d93246a94dc5"
-      (reference "#FRAME3") (unit 1) (value "FRAME_B_L") (footprint "")
-    )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/871784c6-10d1-4698-80e4-c571e86d0b8f"
       (reference "#FRAME4") (unit 1) (value "FRAME_B_L") (footprint "")
-    )
-    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/04c8e39d-4c41-4fe5-b67b-37713d5ef63e"
-      (reference "#FRAME6") (unit 1) (value "FRAME_B_L") (footprint "")
     )
     (path "/a4e22a47-8081-427b-a284-fdb057c6b905/57720542-bdde-4812-ae04-f6c39f4da1e5"
       (reference "#FRAME7") (unit 1) (value "FRAME_B_L") (footprint "")
@@ -153,6 +147,9 @@
     )
     (path "/a4e22a47-8081-427b-a284-fdb057c6b905/305a9b1d-826b-4142-ac53-265056c843d8"
       (reference "#GND01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/37855023-1391-4a46-a8e9-10be7d303c47"
+      (reference "#GND02") (unit 1) (value "GND") (footprint "oresat-live-card:")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/34f49b81-03af-49c6-80ba-1d6c08956c69"
       (reference "#GND03") (unit 1) (value "GND") (footprint "")
@@ -187,6 +184,9 @@
     (path "/a4e22a47-8081-427b-a284-fdb057c6b905/a37f9c2b-d677-49b9-9d8c-d8cbc38ce02b"
       (reference "#GND013") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/d7cd0b7c-0af1-4621-8144-6cdceda5a7d8"
+      (reference "#GND014") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
     (path "/a4e22a47-8081-427b-a284-fdb057c6b905/3d5231ed-2ebf-4883-90e5-f3a3895fdbe9"
       (reference "#GND015") (unit 1) (value "GND") (footprint "")
     )
@@ -195,6 +195,30 @@
     )
     (path "/a4e22a47-8081-427b-a284-fdb057c6b905/683494ab-83e3-4e0e-9f47-9b1d32dcbe51"
       (reference "#GND017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/88aaa8ca-5d5e-420e-9150-eae76ab65680"
+      (reference "#GND019") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/8327b721-97b1-4d7d-86cd-f7c18e09a67f"
+      (reference "#GND020") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/48e0df2c-492a-4b86-a171-3ac890a8f9b2"
+      (reference "#GND021") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/848b58c5-d86e-46d6-ac1f-007a85e5e34e"
+      (reference "#GND022") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/35c12960-3d56-4136-a549-0a54a565b629"
+      (reference "#GND023") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/6368ae27-ca36-4e52-98d3-2634830f5528"
+      (reference "#GND025") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/0adca5e4-d78f-4605-8865-7cf634cfbf74"
+      (reference "#GND026") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/aea77cf7-4ded-4709-b05f-22ed017862ef"
+      (reference "#GND027") (unit 1) (value "GND") (footprint "oresat-live-card:")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/07459f39-3235-4839-b27e-387eaf36b5d8"
       (reference "#GND028") (unit 1) (value "GND") (footprint "")
@@ -244,8 +268,14 @@
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/f9eea97b-b5c5-4fb3-a982-71d4c003a44e"
       (reference "#GND043") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/b6a33ea3-b5ed-49a7-b77d-3a4e30ea7801"
+      (reference "#GND044") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/b91188b5-8fc5-4c73-b77f-e64c2593c5ac"
       (reference "#GND045") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/a5e80278-f2d5-4452-ad68-2e2edf5a1e03"
+      (reference "#GND046") (unit 1) (value "GND") (footprint "oresat-live-card:")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/1f817199-06d7-4e05-a7d3-eee274d6cf95"
       (reference "#GND047") (unit 1) (value "GND") (footprint "")
@@ -307,6 +337,9 @@
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/3cc6f3de-4ec4-43f1-b67c-aadcbe7b6b0b"
       (reference "#GND067") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/94b313c0-019f-4820-8b64-f1c748dff9c8"
+      (reference "#GND068") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/83c43cd1-eea8-49b2-b3d7-28c19a42f1d6"
       (reference "#GND069") (unit 1) (value "GND") (footprint "")
     )
@@ -315,6 +348,12 @@
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/db635bad-02c7-4bee-9f0f-2fd4ceff6162"
       (reference "#GND071") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/0ea24e0d-a1dd-46cc-9aef-ed2ac0a5c0e7"
+      (reference "#GND072") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/bcc3553d-2928-4d5e-9a25-61c0be6343b9"
+      (reference "#GND073") (unit 1) (value "GND") (footprint "oresat-live-card:")
     )
     (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/a3dbef52-37e3-4248-bb52-2d6bcaf2f2ca"
       (reference "#GND074") (unit 1) (value "GND") (footprint "")
@@ -354,6 +393,21 @@
     )
     (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/065f48c6-f434-4574-867b-9089930e0f1e"
       (reference "#GND086") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/c0cb5d92-139e-431a-a9da-0a856a981f84"
+      (reference "#GND087") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/1d9d1700-11a6-420c-b7ff-f628c3890115"
+      (reference "#GND088") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/41a0fb91-214f-4e6b-96cd-393336cd9ee5"
+      (reference "#GND090") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/d18fb1b0-c14a-4061-a288-a0485d4afde7"
+      (reference "#GND091") (unit 1) (value "GND") (footprint "oresat-live-card:")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/dd6af4e0-ba7e-42ff-897b-29d5f22bd241"
+      (reference "#GND092") (unit 1) (value "GND") (footprint "oresat-live-card:")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/a7956c98-3751-48f8-9cf9-52e42f508bcd"
       (reference "#GND094") (unit 1) (value "GND") (footprint "")
@@ -409,6 +463,9 @@
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/158bb94f-3490-4c8e-b4a3-1ca7bfd649dc"
       (reference "#GND0111") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/f8a39ee2-981c-4fd7-8144-2639ffa3871d"
+      (reference "#GND0112") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/09c5b2e9-fadc-49a8-867f-ed662ece0465"
       (reference "#GND0113") (unit 1) (value "GND") (footprint "")
     )
@@ -417,6 +474,27 @@
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/af29f1af-4417-4f22-a8c5-39ca9003935d"
       (reference "#GND0115") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/35bc7598-6262-4741-8bdd-aaad39858347"
+      (reference "#GND0116") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/f2f523bd-0051-4af4-9c3c-2a7bbcacef8f"
+      (reference "#GND0117") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/ebebe20c-eec6-4263-9541-d5c390bd4875"
+      (reference "#GND0118") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/f9a2cf51-bdd5-4d6f-8643-d20caae6aa13"
+      (reference "#GND0119") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/dff07a46-6f7b-46fb-b88d-95ddf1d316d7"
+      (reference "#GND0120") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/b851524f-f835-4bc6-9e98-44955536582a"
+      (reference "#GND0121") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/70129e80-7010-4796-ae61-561e4c1b088d"
+      (reference "#GND0122") (unit 1) (value "GND") (footprint "")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/462cc3b1-535e-43f2-9d1e-b0968d208b83"
       (reference "#GND0138") (unit 1) (value "GND") (footprint "")
@@ -805,6 +883,9 @@
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/4ebf0ab5-6cd6-4fcd-aa91-b4f2346fdc15"
       (reference "C19") (unit 1) (value "22n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/3ea1333e-d76b-40ee-8057-84e14f958221"
+      (reference "C20") (unit 1) (value "10u") (footprint "oresat-acs-card:.0805-B-NOSILK")
+    )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/a4d9ec5d-543c-4022-8925-71ec507d5921"
       (reference "C21") (unit 1) (value "100n") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
@@ -913,6 +994,9 @@
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/46e3fade-cdc4-47b0-beef-c62014186c60"
       (reference "C56") (unit 1) (value "22n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/c425c49b-8aa3-498d-9378-e82b2b671516"
+      (reference "C57") (unit 1) (value "1u") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/f6007329-cd85-4c1f-acaa-6dcecdd642ec"
       (reference "C58") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -931,6 +1015,9 @@
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/9ca8c60d-9804-498f-b0fe-83d3be646c32"
       (reference "C63") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/55f22e52-5d59-4475-a978-0c9cd973dc0a"
+      (reference "C64") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/6e8f9f5f-4ff8-43c1-a3dc-af8fd33f6c33"
       (reference "C65") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -942,6 +1029,9 @@
     )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/56ec1bfb-1bfd-40d9-add7-e5dd16d919ea"
       (reference "C68") (unit 1) (value "22n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/fda42ef4-6a3a-4a49-829c-f10f59c857fd"
+      (reference "C69") (unit 1) (value "10u") (footprint "oresat-acs-card:.0805-B-NOSILK")
     )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/cb7e1b05-76eb-4eb7-bfa2-7910bf3b8395"
       (reference "C70") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -955,8 +1045,47 @@
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/0c3682a2-0342-47ba-9f39-07c4828ae386"
       (reference "C73") (unit 1) (value "100p") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/c51b1b48-75fa-4961-a13d-1be547543575"
+      (reference "C74") (unit 1) (value "1u") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/17cc8129-4aa4-4f8a-839a-dbeb127c8e99"
+      (reference "C75") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/f6e36725-b117-4d07-bbfe-5f55c5d81fca"
+      (reference "C76") (unit 1) (value "10u") (footprint "oresat-acs-card:.0805-B-NOSILK")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/0b147742-3933-4a6f-8532-9792d39cfbba"
       (reference "C77") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/13dd06a6-51ee-4aa4-b28a-921648e35132"
+      (reference "C78") (unit 1) (value "1u") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/f44c1f69-51f0-4474-87dd-da15313953f6"
+      (reference "C79") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/fa583983-f203-41a0-90b6-5ba0f82b66c9"
+      (reference "C80") (unit 1) (value "10u") (footprint "oresat-acs-card:.0805-B-NOSILK")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/e88ba7e3-2526-488a-b2ba-9624e8b07801"
+      (reference "C81") (unit 1) (value "1u") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/af35cf31-d420-4289-b0f4-01d38e3f26fc"
+      (reference "C82") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/e0feb20d-ac85-46cd-8c42-0f3bd22e8011"
+      (reference "C83") (unit 1) (value "100n") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/c5fc2b3b-c096-4d93-93f6-5570cdffd06a"
+      (reference "C84") (unit 1) (value "100n") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/b45fad5c-35a4-4e24-9712-8eb8b1772a76"
+      (reference "C85") (unit 1) (value "100n") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/487a1985-a9a3-4d66-b76a-83640afbfa3c"
+      (reference "C86") (unit 1) (value "100n") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/0e6cfa31-4bee-4f56-8f14-e6a9002c6bae"
+      (reference "D1") (unit 1) (value "GREEN") (footprint "oresat-acs-card:LED-0603")
     )
     (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/7ea41be9-54e8-47ac-8fd2-9913b35b7ed9"
       (reference "D2") (unit 1) (value "AMBER") (footprint "oresat-acs-card:LED-0603")
@@ -973,11 +1102,20 @@
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/86889156-f428-4283-bb74-1151ef5e0280"
       (reference "D6") (unit 1) (value "AMBER") (footprint "oresat-acs-card:LED-0603")
     )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/5645c101-60cb-41b3-bd48-571d6d61a04f"
+      (reference "D7") (unit 1) (value "GREEN") (footprint "oresat-acs-card:LED-0603")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/8a526725-1fa4-4df5-bf9a-244560e3d341"
+      (reference "D8") (unit 1) (value "GREEN") (footprint "oresat-acs-card:LED-0603")
+    )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/adc99d30-654f-450a-bbee-2e855bf37d09"
       (reference "D9") (unit 1) (value "GREEN") (footprint "oresat-acs-card:LED-0603")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/fbb8afbe-95f7-49e0-9ec6-6fabf7c68608"
       (reference "D10") (unit 1) (value "AMBER") (footprint "oresat-acs-card:LED-0603")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/f334a97d-793a-4401-ab3d-734924a48597"
+      (reference "D11") (unit 1) (value "GREEN") (footprint "oresat-acs-card:LED-0603")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/2b586e14-22cd-4c20-8969-51f54accd3f7"
       (reference "D13") (unit 1) (value "GREEN") (footprint "oresat-acs-card:LED-0603")
@@ -1018,8 +1156,20 @@
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/40d23b3d-4efc-4b91-8ea9-c6201f8db3f8"
       (reference "J6") (unit 1) (value "J-SAMTEC-TFM-120-X1-XXX-D-RA") (footprint "oresat-acs-card:J-SAMTEC-TFM-120-X1-XXX-D-RA")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/96e4d00b-b508-443b-8852-96ec6d97795d"
+      (reference "L1") (unit 1) (value "6.8u") (footprint "oresat-acs-card:ECS-MPI4040")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/961dcd69-851e-4242-9d0e-3271b7f693d9"
+      (reference "L2") (unit 1) (value "6.8u") (footprint "oresat-acs-card:ECS-MPI4040")
+    )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/7a80b9b8-3e0d-409d-9475-3f3f1301f326"
       (reference "L3") (unit 1) (value "6.8u") (footprint "oresat-acs-card:ECS-MPI4040")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/990c37a3-db13-46cf-814a-9a9964da47c0"
+      (reference "L4") (unit 1) (value "6.8u") (footprint "oresat-acs-card:ECS-MPI4040")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/c314ed2c-03ac-4a7c-bfbd-024f62030698"
+      (reference "L5") (unit 1) (value "6.8u") (footprint "oresat-acs-card:ECS-MPI4040")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/134e7d69-ce12-4f3f-8131-19801eae8228"
       (reference "MAG_PIN_X1") (unit 1) (value "PINHD-1X2") (footprint "oresat-acs-card:1X02")
@@ -1174,6 +1324,9 @@
     (path "/a4e22a47-8081-427b-a284-fdb057c6b905/c5dfbb7d-21d5-48a5-acf7-a52f8f58fd4a"
       (reference "R13") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/75237cbf-6ddd-4d61-a318-10db8306aa6a"
+      (reference "R14") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/f31a6451-3b35-47f1-9692-e810de569651"
       (reference "R15") (unit 1) (value "20m") (footprint "oresat-acs-card:WSK1206")
     )
@@ -1204,11 +1357,35 @@
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/333a7df6-d1a0-42c3-933c-0d0816f49556"
       (reference "R25") (unit 1) (value "20m") (footprint "oresat-acs-card:WSK1206")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/ad6c35ed-1dc1-4416-abe9-b03198064c67"
+      (reference "R26") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/9aa38c6e-df53-4f96-b4c2-b55329a30a79"
+      (reference "R27") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/8e599320-7da1-414a-ae71-470e469e78e2"
       (reference "R29") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/6741fc28-f640-4c17-ae78-7f07f077968d"
       (reference "R30") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/1971fd4b-902b-4a27-beb1-a55d067593ca"
+      (reference "R31") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/f938c119-2c50-4eeb-94f6-992e0399f0b4"
+      (reference "R32") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/52824878-41dd-4544-85de-5fe03fb22b34"
+      (reference "R34") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/52fdcf8c-8a00-4d30-b506-26fec0e1a4fd"
+      (reference "R35") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/ce6304d0-1eb2-41c0-b681-696f2871ff86"
+      (reference "R37") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/c4f82fb0-fead-40cb-b958-c523228887e5"
+      (reference "R38") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/141657a8-f4e7-4a4a-9506-551f59fd0a55"
       (reference "R39") (unit 1) (value "2.7k") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1437,6 +1614,27 @@
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/1e3b2927-b0e2-4e4d-9cd2-17d58f1622c7"
       (reference "R114") (unit 1) (value "1M") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/030b3f55-2952-4081-a80b-d8bcd08af7a6"
+      (reference "R115") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/7924d673-38f7-46f2-a702-72b4b4c32c3c"
+      (reference "R116") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/9e240620-4bd8-41ff-8e31-c69fa403ef37"
+      (reference "R117") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/ae851cca-20d9-4e89-90da-f96ba22d8f7d"
+      (reference "R118") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/821e3b30-b18e-48ff-9cf5-602d87225959"
+      (reference "R119") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/3aac187a-3e3e-423d-b80d-2e4dc35808e3"
+      (reference "R120") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/cbf622d3-73ed-4e61-883f-f2884477fa1c"
+      (reference "R121") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/168b849d-a11f-4345-8475-a8c5dc9976f6"
       (reference "R153") (unit 1) (value "2.7k") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1927,6 +2125,9 @@
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/0855a221-c84d-4e47-89d3-29d688060939"
       (reference "TP50") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/2ad9864f-6594-4dfc-848b-ff28e1edd6e8"
+      (reference "TP51") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/8b5a1548-b33a-4b35-b67d-df53ef43a6b4"
       (reference "TP52") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
@@ -1993,6 +2194,9 @@
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/196afe34-74fd-48ae-9b9f-d7a341cb4cdd"
       (reference "TP75") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/d54e8c22-5c9a-49dc-9c05-69ab78bb4820"
+      (reference "TP76") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/df549650-2eca-4d5e-bbc5-e7be795e4b23"
       (reference "TP77") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
@@ -2013,6 +2217,9 @@
     )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/ea47b480-537d-49d6-be36-f2182c45da53"
       (reference "TP84") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/50e75743-f068-4046-be30-bc29b7ccebcd"
+      (reference "TP86") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/1a8d2671-ef5c-4a13-be45-276b7e3bc987"
       (reference "TP89") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
@@ -2113,6 +2320,9 @@
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/3d3731e5-9852-454f-94e1-1fd7cd6cba93"
       (reference "TP121") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/e588b3f7-aec5-418a-86ad-f494a2baa66c"
+      (reference "TP122") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/f18a0af4-c22b-4c2b-ae65-0110681c942f"
       (reference "U$1") (unit 1) (value "FLIGHMARKERNEW") (footprint "oresat-acs-card:FLIGHTMARKER_NEW_BOARDS")
     )
@@ -2185,6 +2395,9 @@
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/909fd5f9-94f1-43a0-a22c-a89e9b3049e5"
       (reference "U23") (unit 1) (value "INA185") (footprint "Package_TO_SOT_SMD:SOT-563")
     )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/9de2492f-19d1-4e56-8af2-434c03849bb0"
+      (reference "U24") (unit 1) (value "TPS62112") (footprint "oresat-acs-card:S-PVQFN-16")
+    )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/4c516544-a53a-48f3-ae29-6e5455f8b1e6"
       (reference "U25") (unit 1) (value "MAX7310ATE") (footprint "oresat-acs-card:QFN65P400X400X80-17T210")
     )
@@ -2211,6 +2424,27 @@
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/7e7eb2ad-d01c-487a-b57c-e73d47029860"
       (reference "U33") (unit 1) (value "MIC842LYC5") (footprint "oresat-acs-card:SC70-5")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/c3f12b45-3a4f-46bb-b7a5-c42dc85a66b9"
+      (reference "U34") (unit 1) (value "TPS62112") (footprint "oresat-acs-card:S-PVQFN-16")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/7af63572-61bb-4d07-b2ff-d313c3dfefe8"
+      (reference "U35") (unit 1) (value "TPS62112") (footprint "oresat-acs-card:S-PVQFN-16")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/1fe63701-aeba-4d4b-aa2d-3323de42aa03"
+      (reference "U36") (unit 1) (value "TPS62112") (footprint "oresat-acs-card:S-PVQFN-16")
+    )
+    (path "/d0c96332-b838-489f-9d21-b5d76c78559c/27369437-c6eb-423a-8ace-8388831e78ed"
+      (reference "U37") (unit 1) (value "TS5A21366DCUR") (footprint "oresat-acs-card:DCU-R-PDSO-G8")
+    )
+    (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/4f37d6ef-71b5-443d-b1be-696d0e027f43"
+      (reference "U38") (unit 1) (value "TS5A21366DCUR") (footprint "oresat-acs-card:DCU-R-PDSO-G8")
+    )
+    (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/af083a2f-696e-44c3-b92e-666559aaba41"
+      (reference "U39") (unit 1) (value "TS5A21366DCUR") (footprint "oresat-acs-card:DCU-R-PDSO-G8")
+    )
+    (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/1c8d1599-6d9d-499b-abd7-60e22d4a09c8"
+      (reference "U40") (unit 1) (value "TS5A21366DCUR") (footprint "oresat-acs-card:DCU-R-PDSO-G8")
     )
     (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/fbb5f69f-7bf0-46df-8524-c2e25178b3f2"
       (reference "X2") (unit 1) (value "16MHZ-2.5x2mm") (footprint "oresat-acs-card:CRYSTAL_2.5X2")
