@@ -5289,8 +5289,8 @@
     )
     (pin "1" (uuid 5ddc80f2-9232-4bb8-bf59-8e63e1016b2e))
     (pin "5" (uuid 54baece2-df48-42a1-bfbd-66be97eee584))
-    (pin "6" (uuid fa3eef28-e71a-4729-981f-b9895b1725e4))
-    (pin "6" (uuid fa3eef28-e71a-4729-981f-b9895b1725e4))
+    (pin "6" (uuid fa3eef28-e71a-4729-981f-b9895b1725e5))
+    (pin "6" (uuid fa3eef28-e71a-4729-981f-b9895b1725e5))
   )
 
   (symbol (lib_id "oresat-live-card-eagle-import:LED-GREEN0603") (at 365.76 232.41 0) (unit 1)

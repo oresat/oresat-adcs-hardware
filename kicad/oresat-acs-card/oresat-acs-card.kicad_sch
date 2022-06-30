@@ -1150,6 +1150,9 @@
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/6e7e407b-0d47-4dbd-9bf1-a34a597b3588"
       (reference "FIDUCIAL6") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "oresat-acs-card:FIDUCIAL-1.0X2.0")
     )
+    (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/0e3952f8-cef5-42e5-8e67-b47a6a5bba8c"
+      (reference "J1") (unit 1) (value "Conn_01x06") (footprint "oresat-acs-card:691243100006")
+    )
     (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/b79a7340-60b6-4c9b-8356-f75182760b48"
       (reference "J2") (unit 1) (value "ORESAT-DEBUG-CONNECTOR-SOLAR") (footprint "oresat-acs-card:WURTH_687120183622")
     )
@@ -1170,15 +1173,6 @@
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/c314ed2c-03ac-4a7c-bfbd-024f62030698"
       (reference "L5") (unit 1) (value "6.8u") (footprint "oresat-acs-card:ECS-MPI4040")
-    )
-    (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/134e7d69-ce12-4f3f-8131-19801eae8228"
-      (reference "MAG_PIN_X1") (unit 1) (value "PINHD-1X2") (footprint "oresat-acs-card:1X02")
-    )
-    (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/13f76433-d9fc-4f51-8436-5a1972596cce"
-      (reference "MAG_PIN_Y1") (unit 1) (value "PINHD-1X2") (footprint "oresat-acs-card:1X02")
-    )
-    (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/4b888a50-5370-4bf7-8b51-30c46a355df4"
-      (reference "MAG_PIN_Z1") (unit 1) (value "PINHD-1X2") (footprint "oresat-acs-card:1X02")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/761fe907-e5d9-42db-98c6-e1ff4e3d741c"
       (reference "PCB1") (unit 1) (value "ORESAT-CARD-V1.3-GENERIC-0RF") (footprint "oresat-acs-card:ORESAT-CARD-V1.3-GENERIC-0RF")
