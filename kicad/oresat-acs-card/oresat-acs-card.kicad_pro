@@ -57,7 +57,9 @@
       ],
       "drc_exclusions": [
         "courtyards_overlap|119055001|75805001|76d746f4-3f58-4c51-b2a3-c1e775832b8f|c89e7a25-d61d-4c19-b2a4-3837d734c192",
+        "courtyards_overlap|119055001|75805001|c89e7a25-d61d-4c19-b2a4-3837d734c192|76d746f4-3f58-4c51-b2a3-c1e775832b8f",
         "courtyards_overlap|139355001|70505001|0c23fd3c-8e92-44f9-9905-f0d6b673c1e2|a1f33bc2-b7fd-46c2-acf0-ba6ec5aa3b0e",
+        "courtyards_overlap|139355001|70505001|a1f33bc2-b7fd-46c2-acf0-ba6ec5aa3b0e|0c23fd3c-8e92-44f9-9905-f0d6b673c1e2",
         "courtyards_overlap|161555001|69705001|9248e779-1210-4871-bd2f-c0136a498cab|b84cd507-81d3-4b97-84f4-ffd2f1f1857e",
         "courtyards_overlap|181655001|78205001|070d3cb2-5963-422d-8770-fa7d04bf9a98|1418a8af-ecf9-4c29-a7a3-d0ed1e478705",
         "items_not_allowed|103600000|143300000|140d0eb0-b351-4d05-9c80-941550e1dece|00000000-0000-0000-0000-000000000000",
@@ -67,7 +69,15 @@
         "items_not_allowed|191600000|61300000|c2d43f4a-dfb1-475a-a3ad-5fc26c163ce4|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|191600000|61300000|dc503e7a-3881-44c7-9dce-fab3105d1bb4|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|103200000|149400000|3f4e9acd-56dc-49d1-a9fe-753e3553fdbf|00000000-0000-0000-0000-000000000000",
-        "malformed_courtyard|193800000|149400000|3f4e9acd-56dc-49d1-a9fe-753e3553fdbf|00000000-0000-0000-0000-000000000000"
+        "malformed_courtyard|193800000|149400000|3f4e9acd-56dc-49d1-a9fe-753e3553fdbf|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|134212500|57675000|3628a756-8e57-49d7-9825-d1bcc1175cd4|268c6477-051a-4631-8f4a-c86c47bf5102",
+        "silk_over_copper|134212500|57700000|3628a756-8e57-49d7-9825-d1bcc1175cd4|9c3dbdfa-1d03-4398-9be7-f28a12c9bf19",
+        "silk_over_copper|135482500|57675000|3628a756-8e57-49d7-9825-d1bcc1175cd4|491de0e1-cd41-47a4-a79b-f86c4b58fa87",
+        "silk_over_copper|135482500|57700000|3628a756-8e57-49d7-9825-d1bcc1175cd4|31f4dc6c-dde9-45e8-b29d-489d35e0f1d0",
+        "silk_over_copper|138276500|57675000|3628a756-8e57-49d7-9825-d1bcc1175cd4|7bfe75c7-ef59-483f-8531-f86433a553f4",
+        "silk_over_copper|138276500|57700000|3628a756-8e57-49d7-9825-d1bcc1175cd4|a8aaba27-4342-41ce-bbda-d0444467961f",
+        "silk_over_copper|162787500|57700000|3628a756-8e57-49d7-9825-d1bcc1175cd4|9d3292e9-89ed-435a-b615-fc52a41b2a3d",
+        "silk_over_copper|179242500|143850000|e1c6d4fd-c5b0-4d46-8760-f7a20e8d24b3|c3377dc3-cd3f-4c1f-b057-76e1afc2a9ee"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -440,7 +450,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",

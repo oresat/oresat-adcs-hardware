@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "oresat-acs-card")(type "KiCad")(uri "$(KIPRJMOD)/oresat-acs-card.pretty")(options "")(descr ""))
+  (lib (name "oresat-footprints")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints")(options "")(descr ""))
 )
