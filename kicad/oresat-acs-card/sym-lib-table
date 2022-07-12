@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name "oresat-acs-card-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-acs-card-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "U-STMicro-STSPIN250")(type "KiCad")(uri "${ORESAT_SYMBOLS}/U-STMicro-STSPIN250.kicad_sym")(options "")(descr ""))
+  (lib (name "U-TexasInstruments-INA185")(type "KiCad")(uri "${ORESAT_SYMBOLS}/U-TexasInstruments-INA185.kicad_sym")(options "")(descr ""))
+  (lib (name "U-Linear Tech-LTC3624")(type "KiCad")(uri "${ORESAT_SYMBOLS}/U-Linear Tech-LTC3624.kicad_sym")(options "")(descr ""))
 )
