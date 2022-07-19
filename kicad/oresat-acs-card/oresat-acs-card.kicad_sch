@@ -1290,19 +1290,19 @@
       (reference "J2") (unit 1) (value "ORESAT-DEBUG-CONNECTOR-SOLAR") (footprint "oresat-footprints:J-TE_2-1734592-0")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/7107631d-3008-45ea-9b99-7324c892add5"
-      (reference "J3") (unit 1) (value "QUADRANT 1") (footprint "oresat-footprints:J-Molex-555600307")
+      (reference "J3") (unit 1) (value "Mezzanine Plug") (footprint "oresat-footprints:J-Molex-555600307")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/a84d850c-55c4-4dbc-a068-1021420b8e3b"
-      (reference "J4") (unit 1) (value "QUADRANT 2") (footprint "oresat-footprints:J-Molex-555600307")
+      (reference "J4") (unit 1) (value "Mezzanine Plug") (footprint "oresat-footprints:J-Molex-555600307")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/ae41ddc8-040a-4a4c-a52c-c9a78e4e42c9"
-      (reference "J5") (unit 1) (value "QUADRANT 3") (footprint "oresat-footprints:J-Molex-555600307")
+      (reference "J5") (unit 1) (value "Mezzanine Plug") (footprint "oresat-footprints:J-Molex-555600307")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/fc65146f-31de-4f3b-a678-0e5eb0846754"
-      (reference "J6") (unit 1) (value "QUADTRANT 4") (footprint "oresat-footprints:J-Molex-555600307")
+      (reference "J6") (unit 1) (value "Mezzanine Plug") (footprint "oresat-footprints:J-Molex-555600307")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/0e3952f8-cef5-42e5-8e67-b47a6a5bba8c"
-      (reference "J7") (unit 1) (value "Conn_01x06") (footprint "oresat-acs-card:691243100006")
+      (reference "J7") (unit 1) (value "Magnetorquer Pins") (footprint "oresat-acs-card:691243100006")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/9f5d4a7e-94b1-43e7-bf66-5acb74e419d7"
       (reference "L1") (unit 1) (value "3u3") (footprint "oresat-footprints:L_ECS-MPI4040")
@@ -1434,7 +1434,7 @@
       (reference "R7") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/f76bafbd-6dd5-45ba-8a74-aeca1dbc8b97"
-      (reference "R8") (unit 1) (value "2.7k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R8") (unit 1) (value "4.7k") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/0ac7fb28-d118-4f7a-a099-6f0d6eaf1844"
       (reference "R9") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")

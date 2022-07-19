@@ -2938,7 +2938,7 @@
     (property "Reference" "R8" (id 0) (at 339.09 85.3186 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
-    (property "Value" "2.7k" (id 1) (at 334.01 85.09 0)
+    (property "Value" "4.7k" (id 1) (at 334.01 85.09 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Footprint" "oresat-acs-card:.0603-C-NOSILK" (id 2) (at 335.28 83.82 0)

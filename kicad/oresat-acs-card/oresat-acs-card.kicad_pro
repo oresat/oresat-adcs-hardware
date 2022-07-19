@@ -538,7 +538,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "oresat-acs-card.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

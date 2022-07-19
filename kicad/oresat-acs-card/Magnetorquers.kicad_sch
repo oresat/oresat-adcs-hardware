@@ -696,7 +696,6 @@
     )
   )
 
-
   (junction (at 274.32 130.81) (diameter 0.6096) (color 0 0 0 0)
     (uuid 088b81df-00f6-4c5a-8e45-0f0be76e1298)
   )
@@ -1980,7 +1979,7 @@
     (uuid ff80430e-94a0-4475-85f5-8b97e1ad44c4)
   )
 
-  (text "300 mW max" (at 167.64 248.92 0)
+  (text "30 mW max" (at 167.64 248.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 16f10f96-19b7-4926-aec0-b66717f7bd6b)
   )
