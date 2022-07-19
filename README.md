@@ -39,6 +39,9 @@ ACS Level 2 Block Diagram Version 3.2
 ### System Firmware:
 [Check here for the firmware information](https://github.com/oresat/oresat-firmware/wiki/ACS-Firmware)
 
+
+
+
 ### Research and Tutorials / Ramp Up Documents:
 Brushless DC (BLDC) motor control is a challenging form of motor control. We found numerous helpful tutorials and references.
 [Link to research references and bibliography, start here for a ramp up on ACS](https://github.com/oresat/oresat-acs-board/blob/master/Ramp%20Up.md)
@@ -47,3 +50,22 @@ Brushless DC (BLDC) motor control is a challenging form of motor control. We fou
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_1.jpg)
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_2.jpg)
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_3.jpg)
+
+
+
+## LICENSE
+
+Copyright the Portland State Aerospace Society, 2022.
+
+This source describes Open Hardware that is licensed under CERN-OHL-S v2, or any later version.
+
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source location: https://github.com/oresat/
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
+
+
+
