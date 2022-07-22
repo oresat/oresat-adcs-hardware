@@ -1,4 +1,26 @@
-# oresat-acs-board
+# oresat-adcs-hardware
+
+For more information on the OreSat project, please see <https://www.oresat.org/>!
+
+This repo contains the following projects:
+
+* **The OreSat ADCS Card**
+   * ADCS M0 microcontroller on its own OreSat Power Domain (OPD)
+      * Power switch and LTC4300 that connects the M0 to:
+         * BMI088 IMU (onboard the ADCS card)
+         * LTC4305 2-Channel I2C Bus Multiplexer (one on each end cap via the backplane, end cards, and connectors to the end caps)
+            * Two MMC5883MA magnetometers (two on each end cap, multiplexed by the LTC4305s)
+      * Three STSPIN250s for the X, Y, and Z magnetorquers
+   * Q1 Reaction Wheel OPD which powers the Q1 RW board
+   * Q2 Reaction Wheel OPD which powers the Q2 RW board
+   * Q3 Reaction Wheel OPD which powers the Q3 RW board
+   * Q4 Reaction Wheel OPD which powers the Q4 RW board
+* **OreSat RW boards**
+   * Boards that run one of the four reaction wheels that we have.
+   * Note that the "flat" version of the boards are for development
+   
+
+# DEPRECATED - PLEASE EVENTUALLY REWRITE :)
 
 # Introduction
 ## The OreSat Project
