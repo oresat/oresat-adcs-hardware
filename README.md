@@ -2,6 +2,8 @@
 
 For more information on the OreSat project, please see <https://www.oresat.org/>!
 
+## About this Repo
+
 This repo contains the following projects:
 
 * **The OreSat ADCS Card**
@@ -18,11 +20,24 @@ This repo contains the following projects:
 * **OreSat RW boards**
    * Boards that run one of the four reaction wheels that we have.
    * Note that the "flat" version of the boards are for development
-   
+
+## LICENSE
+
+Copyright the Portland State Aerospace Society, 2022.
+
+This source describes Open Hardware that is licensed under CERN-OHL-S v2, or any later version.
+
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source location: https://github.com/oresat/
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
+
 
 # DEPRECATED - PLEASE EVENTUALLY REWRITE :)
 
-# Introduction
 ## The OreSat Project
 OreSat is an inter university collaboration to design an orbital vehicle. Once in orbit, the nanosatellite will engage in three missions. One of the missions is space testing a relatively new photovoltaic panel. The other missions require the ability to point at and maintain visual contact with a specified location. 
 ## Background Motivation   
@@ -68,26 +83,7 @@ ACS Level 2 Block Diagram Version 3.2
 Brushless DC (BLDC) motor control is a challenging form of motor control. We found numerous helpful tutorials and references.
 [Link to research references and bibliography, start here for a ramp up on ACS](https://github.com/oresat/oresat-acs-board/blob/master/Ramp%20Up.md)
 
-# Final Product:
+## Final Product:
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_1.jpg)
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_2.jpg)
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_3.jpg)
-
-
-
-## LICENSE
-
-Copyright the Portland State Aerospace Society, 2022.
-
-This source describes Open Hardware that is licensed under CERN-OHL-S v2, or any later version.
-
-You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
-
-This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
-
-Source location: https://github.com/oresat/
-
-As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
-
-
-
