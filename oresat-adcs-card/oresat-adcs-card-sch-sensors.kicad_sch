@@ -559,7 +559,6 @@
     )
   )
 
-
   (junction (at 269.24 193.04) (diameter 0) (color 0 0 0 0)
     (uuid 16820acd-f6b9-412f-9306-fac51641b591)
   )
@@ -622,7 +621,7 @@
   )
 
   (no_connect (at 226.06 78.74) (uuid 497fe36a-2a15-4bc5-8e9c-4c3f211537e1))
-  (no_connect (at 226.06 81.28) (uuid 497fe36a-2a15-4bc5-8e9c-4c3f211537e1))
+  (no_connect (at 226.06 81.28) (uuid 497fe36a-2a15-4bc5-8e9c-4c3f211537e2))
 
   (polyline (pts (xy 170.18 146.05) (xy 170.18 205.74))
     (stroke (width 0) (type default) (color 0 0 0 0))

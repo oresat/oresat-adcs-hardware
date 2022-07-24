@@ -8,7 +8,6 @@
   )
 
 
-
   (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -1323,19 +1322,19 @@
       (reference "J7") (unit 1) (value "Magnetorquer Pins") (footprint "oresat-footprints:J-Wurth-691243100006")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/9f5d4a7e-94b1-43e7-bf66-5acb74e419d7"
-      (reference "L1") (unit 1) (value "3u3") (footprint "Inductor_SMD:L_Coilcraft_XxL4030")
+      (reference "L1") (unit 1) (value "3u3") (footprint "oresat-footprints:L_ECS-MPI4040")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/feaca332-89da-40aa-a053-e2d9ede4b36c"
-      (reference "L2") (unit 1) (value "3u3") (footprint "Inductor_SMD:L_Coilcraft_XxL4030")
+      (reference "L2") (unit 1) (value "3u3") (footprint "oresat-footprints:L_ECS-MPI4040")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/7a80b9b8-3e0d-409d-9475-3f3f1301f326"
       (reference "L3") (unit 1) (value "6.8u") (footprint "oresat-acs-card:ECS-MPI4040")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/1f903c5e-6ccf-49b9-9e54-f6f7a5de24a2"
-      (reference "L4") (unit 1) (value "3u3") (footprint "Inductor_SMD:L_Coilcraft_XxL4030")
+      (reference "L4") (unit 1) (value "3u3") (footprint "oresat-footprints:L_ECS-MPI4040")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/1c60e1f8-64ae-4420-a41c-d0a8c1a9df3d"
-      (reference "L5") (unit 1) (value "3u3") (footprint "Inductor_SMD:L_Coilcraft_XxL4030")
+      (reference "L5") (unit 1) (value "3u3") (footprint "oresat-footprints:L_ECS-MPI4040")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/761fe907-e5d9-42db-98c6-e1ff4e3d741c"
       (reference "PCB1") (unit 1) (value "ORESAT-CARD-V1.3-GENERIC-0RF") (footprint "oresat-acs-card:ORESAT-CARD-V1.3-GENERIC-0RF")
