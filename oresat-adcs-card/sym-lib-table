@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name "oresat-acs-card-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-acs-card-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "U-STMicro-STSPIN250")(type "KiCad")(uri "${ORESAT_SYMBOLS}/U-STMicro-STSPIN250.kicad_sym")(options "")(descr ""))
   (lib (name "U-Linear Tech-LTC3624")(type "KiCad")(uri "${ORESAT_SYMBOLS}/U-Linear Tech-LTC3624.kicad_sym")(options "")(descr ""))
   (lib (name "U-TI-INA185-current-sense-amplifier")(type "KiCad")(uri "${ORESAT_SYMBOLS}/U-TI-INA185-current-sense-amplifier.kicad_sym")(options "")(descr ""))
@@ -7,4 +6,7 @@
   (lib (name "J-Molex-555600307-mezzanine-plug")(type "KiCad")(uri "${ORESAT_SYMBOLS}/J-Molex-555600307-mezzanine-plug.kicad_sym")(options "")(descr ""))
   (lib (name "J-SAMTEC-TFM-120-01-L-D-RA-oresat-backplane-connector")(type "KiCad")(uri "${ORESAT_SYMBOLS}/J-SAMTEC-TFM-120-01-L-D-RA-oresat-backplane-connector.kicad_sym")(options "")(descr ""))
   (lib (name "J-TE-2-1734592-0-oresat-debug-connector")(type "KiCad")(uri "${ORESAT_SYMBOLS}/J-TE-2-1734592-0-oresat-debug-connector.kicad_sym")(options "")(descr ""))
+  (lib (name "oresat-acs-card-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-acs-card-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "OreSat-TestPoint")(type "KiCad")(uri "${ORESAT_SYMBOLS}/OreSat-TestPoint.kicad_sym")(options "")(descr ""))
+  (lib (name "OreSat-Power")(type "KiCad")(uri "${ORESAT_SYMBOLS}/OreSat-Power.kicad_sym")(options "")(descr ""))
 )
