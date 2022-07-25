@@ -1123,11 +1123,6 @@
   (no_connect (at 39.37 200.66) (uuid aeda6659-26fa-4b93-8cd6-528be1065d3d))
   (no_connect (at 39.37 198.12) (uuid aeda6659-26fa-4b93-8cd6-528be1065d3e))
 
-  (bus_entry (at 54.61 214.63) (size 2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 531de8fb-c917-4a2a-bf27-7727fc431e85)
-  )
-
   (wire (pts (xy 63.5 88.9) (xy 63.5 86.36))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 00d56386-9787-46c9-b9d6-9aa432671940)

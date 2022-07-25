@@ -8,6 +8,7 @@
   )
 
 
+
   (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -1988,7 +1989,7 @@
       (reference "R216") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/8f3fe051-b904-48fe-a5e7-125eb0bf21f4"
-      (reference "R217") (unit 1) (value "100m") (footprint "oresat-acs-card:R1206")
+      (reference "R217") (unit 1) (value "15m") (footprint "oresat-acs-card:R1206")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/880c680a-7e6c-48f7-8226-9c3889b584d9"
       (reference "R218") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")

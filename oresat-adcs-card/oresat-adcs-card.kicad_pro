@@ -228,7 +228,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "unresolved_variable|122200|2625000|00000000-0000-0000-0000-000000000000|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
