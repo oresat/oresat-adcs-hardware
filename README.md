@@ -21,6 +21,9 @@ This repo contains the following projects:
    * Boards that run one of the four reaction wheels that we have.
    * Note that the "flat" version of the boards are for development
 
+![ADCS Card Block Diagram](https://github.com/oresat/oresat-adcs-hardware/blob/master/documentation/OreSat%20ADCS%20Card%20Block%20Diagram%20V1.0%202022-08-18.png)
+
+
 ## LICENSE
 
 Copyright the Portland State Aerospace Society, 2022.
