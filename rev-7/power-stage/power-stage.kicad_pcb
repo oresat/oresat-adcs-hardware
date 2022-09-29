@@ -1817,7 +1817,7 @@
     (fp_line (start 15.000011 -13.27691) (end 15.000011 -12.989723) (layer "B.Mask") (width 0.1) (tstamp e537ea24-0788-4db3-932a-40f8ccedb97c))
     (fp_line (start -15.000001 13.723079) (end -15.000001 13.435892) (layer "B.Mask") (width 0.1) (tstamp ed27877d-5ea9-4f76-b726-16982d772856))
     (fp_line (start -14.000001 -14.276921) (end -16.890983 -14.276922) (layer "B.Mask") (width 0.1) (tstamp fd0c6793-7945-41c2-bfcd-a77b77f2e268))
-    (fp_arc (start 16.890992 -14.276909) (mid 17.013752 -14.119771) (end 17.114589 -13.947741) (layer "B.Mask") (width 0.1) (tstamp 080baadd-30ed-4599-9794-aaa89d77faf2))
+    (fp_arc (start 16.890992 -14.276909) (mid 17.013756 -14.119774) (end 17.114589 -13.947741) (layer "B.Mask") (width 0.1) (tstamp 080baadd-30ed-4599-9794-aaa89d77faf2))
     (fp_arc (start -17.114591 -13.947741) (mid -17.013752 -14.11978) (end -16.890983 -14.276922) (layer "B.Mask") (width 0.1) (tstamp 0d35d7bc-7828-4462-a778-e1331194afc1))
     (fp_arc (start -14.000001 14.723079) (mid -14.707108 14.430186) (end -15.000001 13.723079) (layer "B.Mask") (width 0.1) (tstamp 2e3aeb80-97a6-4ca6-ad14-5a0a7338624c))
     (fp_arc (start 14.00001 -14.276909) (mid 14.707113 -13.984013) (end 15.000011 -13.27691) (layer "B.Mask") (width 0.1) (tstamp 2f2120a9-e197-4013-acd7-e6639e0227a2))
@@ -2070,7 +2070,7 @@
     (zone (net 0) (net_name "") (layer "B.Cu") (tstamp 2d071ff7-1a5e-42cc-9743-ae00e4891d88) (name "Bracket-Keepout") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks allowed) (vias allowed) (pads not_allowed ) (copperpour allowed) (footprints not_allowed))
+      (keepout (tracks allowed) (vias allowed) (pads not_allowed) (copperpour allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -2094,7 +2094,7 @@
     (zone (net 0) (net_name "") (layer "B.Cu") (tstamp 5f900a06-6044-49c4-9f09-42a4366d11c7) (name "Bracket-Keepout") (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks allowed) (vias allowed) (pads not_allowed ) (copperpour allowed) (footprints not_allowed))
+      (keepout (tracks allowed) (vias allowed) (pads not_allowed) (copperpour allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -5173,8 +5173,17 @@
     )
   )
 
+  (gr_text "Layer stackup:\nOSHPark 6-L\n1oz copper\n-- 0.11mm prepreg --\n0.5oz copper\n-- 0.10mm prepreg --\n0.50oz copper\n-- 0.92mm core -- \n0.5oz copper \n-- 0.10mm prepreg --\n0.5oz copper\n-- 0.11mm prepreg --\n1oz copper" (at 128.15 51.45) (layer "Cmts.User") (tstamp 17c1e0f9-a499-433c-aa80-66a9d73d7349)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
   (gr_text "1.65mm Clearance Zone" (at 97.475 62.425) (layer "Cmts.User") (tstamp 784bef87-c95a-4e2d-a413-6f02a173a248)
     (effects (font (size 0.6 0.6) (thickness 0.15)))
+  )
+  (gr_text "F.Cu -> Sig\nIn1.Cu -> PGND\nIn2.Cu -> VBUS / sig\nIn3.Cu -> Analog Sig\nIn4.Cu -> PGND/GND\nB.Cu -> Phase/Sig" (at 125.65 67.4) (layer "Cmts.User") (tstamp cad5fde6-af86-4ddf-b03a-3c7a5e3e46bb)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (gr_text "Cutout GND plane under SW nodes" (at 127.2 74.4) (layer "Cmts.User") (tstamp fc82ee6c-82bd-49ee-a103-a09742acbbcf)
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
 
   (zone (net 43) (net_name "/PHA_RAW") (layer "F.Cu") (tstamp 0c5e2be0-22e4-491f-9ddd-7611f538b450) (hatch edge 0.508)
