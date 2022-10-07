@@ -1,6 +1,46 @@
-# oresat-acs-board
+# oresat-adcs-hardware
 
-# Introduction
+For more information on the OreSat project, please see <https://www.oresat.org/>!
+
+## About this Repo
+
+This repo contains the following projects:
+
+* **The OreSat ADCS Card**
+   * ADCS M0 microcontroller on its own OreSat Power Domain (OPD)
+      * Power switch and LTC4300 that connects the M0 to:
+         * BMI088 IMU (onboard the ADCS card)
+         * LTC4305 2-Channel I2C Bus Multiplexer (one on each end cap via the backplane, end cards, and connectors to the end caps)
+            * Two MMC5883MA magnetometers (two on each end cap, multiplexed by the LTC4305s)
+      * Three STSPIN250s for the X, Y, and Z magnetorquers
+   * Q1 Reaction Wheel OPD which powers the Q1 RW board
+   * Q2 Reaction Wheel OPD which powers the Q2 RW board
+   * Q3 Reaction Wheel OPD which powers the Q3 RW board
+   * Q4 Reaction Wheel OPD which powers the Q4 RW board
+* **OreSat RW boards**
+   * Boards that run one of the four reaction wheels that we have.
+   * Note that the "flat" version of the boards are for development
+
+![ADCS Card Block Diagram](https://github.com/oresat/oresat-adcs-hardware/blob/master/documentation/OreSat%20ADCS%20Card%20Block%20Diagram%20V1.0%202022-08-18.png)
+
+
+## LICENSE
+
+Copyright the Portland State Aerospace Society, 2022.
+
+This source describes Open Hardware that is licensed under CERN-OHL-S v2, or any later version.
+
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source location: https://github.com/oresat/
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
+
+
+# DEPRECATED - PLEASE EVENTUALLY REWRITE :)
+
 ## The OreSat Project
 OreSat is an inter university collaboration to design an orbital vehicle. Once in orbit, the nanosatellite will engage in three missions. One of the missions is space testing a relatively new photovoltaic panel. The other missions require the ability to point at and maintain visual contact with a specified location. 
 ## Background Motivation   
@@ -39,11 +79,14 @@ ACS Level 2 Block Diagram Version 3.2
 ### System Firmware:
 [Check here for the firmware information](https://github.com/oresat/oresat-firmware/wiki/ACS-Firmware)
 
+
+
+
 ### Research and Tutorials / Ramp Up Documents:
 Brushless DC (BLDC) motor control is a challenging form of motor control. We found numerous helpful tutorials and references.
 [Link to research references and bibliography, start here for a ramp up on ACS](https://github.com/oresat/oresat-acs-board/blob/master/Ramp%20Up.md)
 
-# Final Product:
+## Final Product:
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_1.jpg)
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_2.jpg)
 ![Physical Product](https://github.com/oresat/oresat-acs-board/blob/master/Manufacturing%20photos/rev3_3.jpg)

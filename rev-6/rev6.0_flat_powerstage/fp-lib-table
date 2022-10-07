@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "project-footprints")(type "KiCad")(uri "/home/solomon/code/oresat/oresat-acs-board/rev-6/project-footprints.pretty")(options "")(descr ""))
-)
