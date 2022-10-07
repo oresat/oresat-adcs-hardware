@@ -357,9 +357,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "project-footprints"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
