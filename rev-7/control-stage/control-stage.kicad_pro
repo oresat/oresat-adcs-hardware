@@ -396,7 +396,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "control-stage_no_powerstage.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
