@@ -337,9 +337,6 @@
   (gr_text "ADCS Card Center" (at 131 121.7) (layer "Dwgs.User") (tstamp 2949d120-37eb-42db-92c6-e9b8ef70d983)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "Silk screen on top, name and version number.\nextend things and open up solder mask so we can slide thing" (at 145 104.45) (layer "Cmts.User") (tstamp 143bed3d-ad1d-4ccd-9d8f-5bce33007442)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
 
   (segment (start 156.65 123.5) (end 159.9 123.5) (width 0.3) (layer "B.Cu") (net 1) (tstamp 2b73c4c8-3f68-4582-b69c-659edcedb03b))
   (segment (start 139.992893 123.192893) (end 140.007107 123.207107) (width 0.3) (layer "B.Cu") (net 1) (tstamp 4c5e1083-a589-4243-8650-7ca551fc6380))
