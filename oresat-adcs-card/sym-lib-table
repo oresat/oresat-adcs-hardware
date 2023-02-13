@@ -9,4 +9,7 @@
   (lib (name "oresat-acs-card-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-acs-card-eagle-import.kicad_sym")(options "")(descr ""))
   (lib (name "OreSat-TestPoint")(type "KiCad")(uri "${ORESAT_SYMBOLS}/OreSat-TestPoint.kicad_sym")(options "")(descr ""))
   (lib (name "OreSat-Power")(type "KiCad")(uri "${ORESAT_SYMBOLS}/OreSat-Power.kicad_sym")(options "")(descr ""))
+  (lib (name "psas-ics")(type "KiCad")(uri "${PSAS_LIBRARIES}/psas-symbols/psas-ics.kicad_sym")(options "")(descr ""))
+  (lib (name "flighmarkernew")(type "KiCad")(uri "${ORESAT_SYMBOLS}/flighmarkernew.kicad_sym")(options "")(descr ""))
+  (lib (name "fiducial-1.0x2.0")(type "KiCad")(uri "${ORESAT_SYMBOLS}/fiducial-1.0x2.0.kicad_sym")(options "")(descr ""))
 )

@@ -8,7 +8,6 @@
   )
 
 
-
   (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -1491,7 +1490,7 @@
       (reference "R20") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/9294ff13-6085-4da1-a2f7-cc8b9c97907c"
-      (reference "R21") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R21") (unit 1) (value "18k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/30eee447-5968-4020-a4b8-cd91bc4d4290"
       (reference "R22") (unit 1) (value "18k") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1542,7 +1541,7 @@
       (reference "R37") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/c4f82fb0-fead-40cb-b958-c523228887e5"
-      (reference "R38") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R38") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/141657a8-f4e7-4a4a-9506-551f59fd0a55"
       (reference "R39") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1560,7 +1559,7 @@
       (reference "R43") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/eb150cc4-5079-4cc4-9e36-71218f2123dd"
-      (reference "R44") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R44") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/9d946fa7-4855-4433-9821-5620ab086af0"
       (reference "R45") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1572,13 +1571,13 @@
       (reference "R47") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/252f5480-3e74-4d8d-a6fc-57f8c5020707"
-      (reference "R48") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R48") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/8d13ce00-4272-48f8-859f-56605330801a"
       (reference "R49") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/aa2b8f2b-944b-4173-a46a-0eb096c15b4f"
-      (reference "R50") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R50") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/7d222a92-0b52-4840-9def-5100b8266a13"
       (reference "R51") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1668,7 +1667,7 @@
       (reference "R79") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/993fb5c8-773b-49bf-a903-7401e8aa299c"
-      (reference "R80") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R80") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/9b631613-8665-491a-b2ec-365bed932f1b"
       (reference "R81") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1680,7 +1679,7 @@
       (reference "R83") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/d0ef9572-f9f1-402b-82aa-afe53ec77b54"
-      (reference "R84") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R84") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/436937bc-ec66-4fa5-bfce-abac93d55497"
       (reference "R85") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1692,7 +1691,7 @@
       (reference "R87") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/1b9443a3-51ba-4b98-961a-84902a38a4f3"
-      (reference "R88") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R88") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/c82d1802-175a-4f3b-8e87-55ba65630bcc"
       (reference "R89") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1773,31 +1772,31 @@
       (reference "R114") (unit 1) (value "1M") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/030b3f55-2952-4081-a80b-d8bcd08af7a6"
-      (reference "R115") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R115") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/7924d673-38f7-46f2-a702-72b4b4c32c3c"
-      (reference "R116") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R116") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/9e240620-4bd8-41ff-8e31-c69fa403ef37"
-      (reference "R117") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R117") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/ae851cca-20d9-4e89-90da-f96ba22d8f7d"
-      (reference "R118") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R118") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/821e3b30-b18e-48ff-9cf5-602d87225959"
-      (reference "R119") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R119") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/3aac187a-3e3e-423d-b80d-2e4dc35808e3"
-      (reference "R120") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R120") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/cbf622d3-73ed-4e61-883f-f2884477fa1c"
-      (reference "R121") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R121") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/8d090b15-13f9-4d1a-97be-4feb66d45191"
-      (reference "R122") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R122") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/8d05c22c-a6a0-4542-84a7-a87df3b20afb"
-      (reference "R123") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R123") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/e74e2cfb-6488-4003-a8d2-0b4dea5a62fe"
       (reference "R124") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1833,13 +1832,13 @@
       (reference "R157") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/c89f0a1d-dd23-4110-acc2-d3ff736a4812"
-      (reference "R158") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R158") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/11dd635d-8920-41b8-9329-b249747dad94"
       (reference "R159") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/cc7b36fd-334a-443d-918e-57dadff3cb0c"
-      (reference "R160") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R160") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/3fce9cf2-f532-47a5-a866-cfa1b81d5b6e"
       (reference "R161") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1851,7 +1850,7 @@
       (reference "R163") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/be1ea428-d74e-4125-8596-38f82be06487"
-      (reference "R164") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R164") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/0f1b8694-bd8f-414b-b289-9db60dcaca68"
       (reference "R165") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1947,13 +1946,13 @@
       (reference "R202") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/6b1d8153-1929-422b-bfbd-285ab66db86b"
-      (reference "R203") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R203") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/b589a08d-5a8e-4bb2-90d4-ef5270d09c90"
       (reference "R204") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/33a82f10-4417-4c64-86a9-b3ba692dd44c"
-      (reference "R205") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R205") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/f6e654e6-0b62-44cf-aa6c-98db940c48e7"
       (reference "R206") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -1971,7 +1970,7 @@
       (reference "R210") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/ef5b5fb7-b188-4e19-93ed-a58cef64e8c3"
-      (reference "R211") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R211") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/38d5d713-b94e-4d55-b43a-1a75433f7985"
       (reference "R212") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -2034,7 +2033,7 @@
       (reference "R231") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/de51e245-a27c-4a43-a9d6-150e7ff82e45"
-      (reference "R232") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R232") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/d89e2580-b022-4d48-a37e-c7e9e38b0bcb"
       (reference "R233") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -2052,13 +2051,13 @@
       (reference "R237") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/de318d54-9ecf-49a5-aa55-23b881ca3d37"
-      (reference "R238") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R238") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/f2b60592-cb8a-4826-890c-56eb7a5d779a"
       (reference "R239") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/e30f45f6-5fc9-41a4-bf68-78f2fe486e35"
-      (reference "R240") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+      (reference "R240") (unit 1) (value "100") (footprint "oresat-acs-card:.0603-C-NOSILK")
     )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/c8dc27e5-e45b-45f6-a7f1-e6dad6249006"
       (reference "R241") (unit 1) (value "NP") (footprint "oresat-acs-card:.0603-C-NOSILK")
@@ -2405,14 +2404,26 @@
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/bea67be3-8821-405c-bf18-8817260af9c2"
       (reference "TP81") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/9c92d822-041d-4792-a98f-a7325f653bea"
+      (reference "TP82") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/dc3041ab-7f25-4d6d-99b2-43fb5709a7b6"
       (reference "TP83") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/ea47b480-537d-49d6-be36-f2182c45da53"
       (reference "TP84") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/9dd04357-59ef-49ce-9fe1-bac5cdc6ce42"
+      (reference "TP85") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
     (path "/d0c96332-b838-489f-9d21-b5d76c78559c/50e75743-f068-4046-be30-bc29b7ccebcd"
       (reference "TP86") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/2c114123-2d9c-4607-9eaa-511295ecb12a"
+      (reference "TP87") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
+    (path "/a4e22a47-8081-427b-a284-fdb057c6b905/826a0655-e1d5-478c-bff4-c8872e083e7c"
+      (reference "TP88") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/1a8d2671-ef5c-4a13-be45-276b7e3bc987"
       (reference "TP89") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
@@ -2512,6 +2523,24 @@
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/3d3731e5-9852-454f-94e1-1fd7cd6cba93"
       (reference "TP121") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
+    (path "/a4e22a47-8081-427b-a284-fdb057c6b905/9f533725-ccd0-4515-865c-33a503b0e638"
+      (reference "TP122") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
+    (path "/a4e22a47-8081-427b-a284-fdb057c6b905/0912db83-df51-40a2-9f87-b767f28777b2"
+      (reference "TP123") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
+    (path "/a4e22a47-8081-427b-a284-fdb057c6b905/677e2c2b-e643-4e59-a207-596e44a231d7"
+      (reference "TP124") (unit 1) (value "TEST-POINT-LARGE-SQUARE") (footprint "oresat-acs-card:1X01")
+    )
+    (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/8d03679a-8c09-4b98-9099-52e39171c547"
+      (reference "TP125") (unit 1) (value "Test-Point") (footprint "OreSat-TestPoint:1X01")
+    )
+    (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/5a90c770-7a73-43de-b203-0ca65bda8f20"
+      (reference "TP126") (unit 1) (value "Test-Point") (footprint "OreSat-TestPoint:1X01")
+    )
+    (path "/dece22cf-5001-44cd-9ca5-af884a2dd1f9/2a9e5d41-f981-4d08-af9c-90b0ea186606"
+      (reference "TP127") (unit 1) (value "Test-Point") (footprint "OreSat-TestPoint:1X01")
     )
     (path "/45428425-fb0f-4d83-8cf8-877871e2f14c/f18a0af4-c22b-4c2b-ae65-0110681c942f"
       (reference "U$1") (unit 1) (value "FLIGHMARKERNEW") (footprint "oresat-acs-card:FLIGHTMARKER_NEW_BOARDS")
