@@ -859,6 +859,15 @@
     (path "/90bdf8b3-979d-47a5-a553-16f3f2d65734/0a6594ef-2f10-4325-903f-550191725a49"
       (reference "#PWR075") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/b462d9c3-8a08-429d-8dc9-95a0f6a67d50"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/8b38529d-ec3c-4239-979c-c18074892ca9"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/e32ff9c6-7d63-441d-9fe3-b6a74646906a"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/1a8381bf-753c-4b14-aff3-224a6615c178"
       (reference "#SUPPLY01") (unit 1) (value "3.3V") (footprint "")
     )
@@ -1233,6 +1242,15 @@
     )
     (path "/2e7c06c0-a412-4c3a-b490-9aec08573322/237db208-2b16-48b3-832d-0880701c11d9"
       (reference "C99") (unit 1) (value "100n") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/2a130739-57be-4820-8a6b-bdfaeac08694"
+      (reference "C100") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/f5097d81-a15f-4ae5-9d11-1fda98e8d893"
+      (reference "C101") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/13aa565f-e8c0-4f48-ae15-94b5adbbe5fa"
+      (reference "C102") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7/0e6cfa31-4bee-4f56-8f14-e6a9002c6bae"
       (reference "D1") (unit 1) (value "LED-GREEN0603") (footprint "oresat-acs-card:LED-0603")
@@ -1815,6 +1833,15 @@
     )
     (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/27f4afd8-cad6-49b5-8a1f-4a89933626e0"
       (reference "R129") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/94a029a5-5eb1-4851-9894-3177e6eb8413"
+      (reference "R130") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/524b91d6-e6bc-4267-b8da-02a18035d30a"
+      (reference "R131") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/ea4234c5-c7c7-400f-8e65-99a982be6ec1/965cd05c-f2ed-40f6-a707-802e6c9617e3"
+      (reference "R132") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/ef44cf4a-1a33-4569-916b-eeeb075d8ff6/168b849d-a11f-4345-8475-a8c5dc9976f6"
       (reference "R153") (unit 1) (value "10k") (footprint "oresat-acs-card:.0603-C-NOSILK")
