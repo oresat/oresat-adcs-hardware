@@ -56,11 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "unconnected_items|107625000|53600000|ed38e8eb-450b-4a97-91d5-1eea2b437c30|b8dbdc9f-1350-47db-be5b-d16c8088c8c4",
-        "unconnected_items|110400000|71525000|657f5c78-5430-4bec-ab71-b96d4ae3fc2e|f41887d6-6df4-4c83-b543-a6a6778bcecd",
-        "unconnected_items|83800000|56725000|ccad8d64-48f9-42f8-9ca1-2f3da461c3c0|17cae237-739f-490a-ad83-9128a5589d7b"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -465,7 +461,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../../../../../tmp/thing",
+      "step": "../../../../../../../tmp/rxw-rev7_2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
