@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "J-Molex-555600307-mezzanine-plug")(type "KiCad")(uri "${ORESAT_SYMBOLS}/J-Molex-555600307-mezzanine-plug.kicad_sym")(options "")(descr ""))
+)
