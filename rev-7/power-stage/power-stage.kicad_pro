@@ -461,7 +461,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "power-stage.step",
+      "step": "../../../../../../../tmp/meowgh",
       "vrml": ""
     },
     "page_layout_descr_file": ""
