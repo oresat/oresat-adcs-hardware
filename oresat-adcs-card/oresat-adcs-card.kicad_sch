@@ -15,7 +15,7 @@
     (property "Sheetname" "Card Power Domain" (at 25.4 75.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "oresat-adcs-card-sch-sensor-power.kicad_sch" (at 25.4 80.5946 0)
+    (property "Sheetfile" "oresat-adcs-card-sch-card-power.kicad_sch" (at 25.4 80.5946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
