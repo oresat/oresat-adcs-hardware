@@ -56,7 +56,44 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|182363499|149400001|426ed991-6406-4f4c-9c65-e12d4a6d4259|dc57fc7f-ac0a-4abc-9ee6-49dd5a65998a",
+        "silk_over_copper|108596439|71862426|d5f12618-2c91-4dab-af46-e5d162090f3e|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|122500000|109896400|6c8ff1e8-ea85-42ce-a076-682529c8b193|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|123798933|98591391|dea05295-e471-4d45-ac35-a28cc2c4f88e|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|124159573|91027751|de8497ec-a683-4fee-92aa-7f46579b4e4b|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|124587580|98668034|9ee8a2d4-21ab-496e-a083-7c877ab6da99|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|130374387|90951000|8ef38955-6998-4b51-aa68-dd1f552ba1f4|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|132591981|90933281|f7b296b4-7b23-48ac-96d1-42db7f9ba7bd|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|146302117|100850533|888ac178-64f7-43b4-b707-72fcc082fe7f|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|153986401|74067976|a9fd00f9-dd7d-4f0c-9402-07a8e2cd21d2|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|155168009|77614168|7dd3b7f3-5a46-434f-b12a-012dd080d9df|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|183215406|131760000|7f4db288-e106-42ae-84bf-b619f2f4cd2f|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|110792826|78613334|368723c4-1a91-44b9-a805-56530af58817|d28fe04d-9696-45d8-9b3b-bcba0abb99a0",
+        "silk_overlap|116692533|121794430|ee4af63a-9cb8-4d8e-8d65-fe9249bcaa7c|e753ce67-cb56-42f0-a3cb-c1a35f060ac2",
+        "silk_overlap|118669805|78793401|3536a698-8d06-4668-bdd5-d05636530ecd|0822003a-4943-41d2-9c41-77d7bd200eaa",
+        "silk_overlap|120655561|78760015|3536a698-8d06-4668-bdd5-d05636530ecd|dc0ca2fc-3599-4142-ace0-e48580dd6bc3",
+        "silk_overlap|121227453|134112830|52ee8aa8-2442-4a0b-a548-c511f11df2ee|2bcbcaea-3caf-4690-a136-2989fa8ddd84",
+        "silk_overlap|121286160|111612280|6214eec8-2f38-4045-ad6b-fd8313df9673|3e2a7c0e-46c4-4acf-af2d-f1b463ebd097",
+        "silk_overlap|123576539|98698575|051471c0-2a7e-4153-ae14-b8c0416b68d7|dea05295-e471-4d45-ac35-a28cc2c4f88e",
+        "silk_overlap|123873618|91069844|de8497ec-a683-4fee-92aa-7f46579b4e4b|ced23a17-cc8a-4c5d-95f6-018b51394a9f",
+        "silk_overlap|124688549|98652826|051471c0-2a7e-4153-ae14-b8c0416b68d7|9ee8a2d4-21ab-496e-a083-7c877ab6da99",
+        "silk_overlap|130652826|127306667|fd19797b-028b-4574-a156-e0a1f72d23e9|98be2513-3dc6-4aa2-8bb4-4dd08f99d93a",
+        "silk_overlap|131092826|73554387|4272a9ae-a27e-4a06-9b12-e6d66f24eba7|5cd104ba-c754-480f-b493-6299309e2a7c",
+        "silk_overlap|131100000|74491812|866fc443-b7db-4327-b4b3-f28f7ee35424|5cd104ba-c754-480f-b493-6299309e2a7c",
+        "silk_overlap|138955681|73474302|0e9b39bc-19f8-4be9-9f92-cec79e6d24b0|dea8afb7-68a3-4db7-872e-608403d6ce47",
+        "silk_overlap|140955561|73460015|26cf64c6-3409-4400-8702-e5be58144203|0e9b39bc-19f8-4be9-9f92-cec79e6d24b0",
+        "silk_overlap|141230121|148550000|c40393e8-55cc-4591-a7e3-69310312ff5b|7fc2debf-37ae-4e60-9a71-7b6d7c4a5e77",
+        "silk_overlap|142952826|127306667|6060e9c8-3eca-4a6a-a466-b39e5be22c97|5f6017a8-56ac-419b-b6b5-5daf983f32ba",
+        "silk_overlap|148227237|148550000|59eaa717-ddaa-430e-9c43-d33d603403c9|c40393e8-55cc-4591-a7e3-69310312ff5b",
+        "silk_overlap|153300000|72946667|14716592-01ee-43b8-b727-231cd5bad2fe|a9fd00f9-dd7d-4f0c-9402-07a8e2cd21d2",
+        "silk_overlap|155166667|148550000|c40393e8-55cc-4591-a7e3-69310312ff5b|7151d66e-9b8b-4b5f-880f-d46363832681",
+        "silk_overlap|155252826|127733334|0eb24929-fcc4-4143-a0fb-ac2d14ad9618|3a0728e8-f942-4d0c-862b-5db5eea3322f",
+        "silk_overlap|159254387|89366160|6c993263-8649-474a-8b52-c75e1e3201f0|89446336-cf23-4c9c-b450-7e17e047a60b",
+        "silk_overlap|163155561|72660015|8c55afe9-535b-4909-8f34-2f000bd901b0|3bf538f9-0e4b-4f29-800e-3918debddaf4",
+        "silk_overlap|170350587|105387140|011485d1-647a-467f-8448-e8a1627ceb35|1dfca15f-97e6-44f2-a142-de8d294476a5",
+        "silk_overlap|176012826|97192826|5a38626b-f7e6-4776-9adb-33456b455cf0|5c579301-bff6-451b-b47f-4ab2a3b968be"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -93,7 +130,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -217,9 +254,14 @@
       "pin_to_pin|1358900|1333500|50a65077-7e68-47f0-88f5-e20111da7d73|81d2ee11-627d-4ccc-8398-dc18bb2860f8|/c58960d9-4cac-4036-ad2e-1aef26946dae/45428425-fb0f-4d83-8cf8-877871e2f14c|/c58960d9-4cac-4036-ad2e-1aef26946dae/45428425-fb0f-4d83-8cf8-877871e2f14c|/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322",
       "power_pin_not_driven|1409700|647700|7dab5c68-f268-48ae-94fb-f3768b63a9f9|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|1511300|685800|a3d036d1-1f33-4ad8-a443-01fb8ab8e6bd|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2628900|495300|d1e09193-4976-4c3a-ad43-78fdc2586714|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2641600|495300|8a543a22-3f2e-4ef6-80ac-9ac69fbe4cf3|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2641600|495300|8e0f3693-3f4f-4bda-9d63-43b5c8ff9ebd|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2654300|495300|a63c0fbf-5851-4684-8419-7888ab437e7b|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|2717800|495300|d1e09193-4976-4c3a-ad43-78fdc2586714|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|2730500|495300|2af03734-769d-4be2-8727-78cbed8fec04|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|2730500|495300|a63c0fbf-5851-4684-8419-7888ab437e7b|00000000-0000-0000-0000-000000000000|||"
+      "power_pin_not_driven|2730500|495300|a63c0fbf-5851-4684-8419-7888ab437e7b|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|2832100|508000|95367dce-7348-4e46-8b79-617f0b078986|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
       "version": 0
@@ -487,7 +529,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -522,36 +564,20 @@
   },
   "sheets": [
     [
-      "ea4234c5-c7c7-400f-8e65-99a982be6ec1",
-      "Magnetorquers"
-    ],
-    [
-      "c58960d9-4cac-4036-ad2e-1aef26946dae",
-      ""
-    ],
-    [
       "45428425-fb0f-4d83-8cf8-877871e2f14c",
       "Connectors"
     ],
     [
       "2e7c06c0-a412-4c3a-b490-9aec08573322",
-      "Sensor Power Domain"
+      "Card Power Domain"
     ],
     [
       "ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7",
       "Q1 Power Domain"
     ],
     [
-      "dece22cf-5001-44cd-9ca5-af884a2dd1f9",
-      "Microcontroller"
-    ],
-    [
       "ef44cf4a-1a33-4569-916b-eeeb075d8ff6",
       "Q2 Power Domain"
-    ],
-    [
-      "a4e22a47-8081-427b-a284-fdb057c6b905",
-      "Sensors"
     ],
     [
       "d0c96332-b838-489f-9d21-b5d76c78559c",
@@ -560,6 +586,22 @@
     [
       "90bdf8b3-979d-47a5-a553-16f3f2d65734",
       "Q4 Power Domain"
+    ],
+    [
+      "dece22cf-5001-44cd-9ca5-af884a2dd1f9",
+      "Microcontroller"
+    ],
+    [
+      "a4e22a47-8081-427b-a284-fdb057c6b905",
+      "Sensors"
+    ],
+    [
+      "ea4234c5-c7c7-400f-8e65-99a982be6ec1",
+      "Magnetorquers"
+    ],
+    [
+      "c58960d9-4cac-4036-ad2e-1aef26946dae",
+      ""
     ]
   ],
   "text_variables": {}

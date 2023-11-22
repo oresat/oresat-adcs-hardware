@@ -148,6 +148,12 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
+    (symbol "BMI088_1_1"
+      (pin no_connect line (at -12.7 -17.78 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
   )
   (symbol "C-EU0201-A" (in_bom yes) (on_board yes)
     (property "Reference" "C" (at 1.524 0.381 0)
@@ -7444,6 +7450,12 @@
         (number "EPAD" (effects (font (size 0 0))))
       )
     )
+    (symbol "MAX4211_1_1"
+      (pin no_connect line (at -12.7 -17.78 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
   )
   (symbol "MAX7310" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 5.08 -15.24 0)
@@ -8217,6 +8229,12 @@
       (pin power_in line (at 0 7.62 270) (length 2.54)
         (name "VDD" (effects (font (size 0 0))))
         (number "5" (effects (font (size 0 0))))
+      )
+    )
+    (symbol "MIC842LYC5_1_1"
+      (pin no_connect line (at -5.08 -2.54 0) (length 2.54) hide
+        (name "NC" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
       )
     )
   )

@@ -12,7 +12,7 @@
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 2e7c06c0-a412-4c3a-b490-9aec08573322)
-    (property "Sheetname" "Sensor Power Domain" (at 25.4 75.4884 0)
+    (property "Sheetname" "Card Power Domain" (at 25.4 75.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "oresat-adcs-card-sch-sensor-power.kicad_sch" (at 25.4 80.5946 0)
@@ -20,7 +20,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "#"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "2"))
       )
     )
   )
@@ -37,7 +37,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "#"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "1"))
       )
     )
   )
@@ -54,7 +54,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "#"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "6"))
       )
     )
   )
@@ -71,7 +71,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "#"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "8"))
       )
     )
   )
@@ -88,7 +88,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "#"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "5"))
       )
     )
   )
@@ -105,7 +105,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "#"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "7"))
       )
     )
   )
@@ -122,7 +122,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "10"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "9"))
       )
     )
   )
@@ -139,7 +139,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "#"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "3"))
       )
     )
   )
@@ -156,7 +156,7 @@
     )
     (instances
       (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "#"))
+        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "4"))
       )
     )
   )
