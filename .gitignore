@@ -1,3 +1,8 @@
+# Ignore local archives and build folders
+archive
+local-archive
+build
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
@@ -29,12 +34,17 @@ fp-info-cache
 *.csv
 
 # ----------------------------------------------------------------------------
+
 # Ignore list for Eagle, a PCB layout tool
 
 # Backup files
 *.s#?
 *.b#?
 *.l#?
+*.d#?
+*.b$?
+*.s$?
+*.l$?
 
 # Eagle project file
 # It contains a serial number and references to the file structure
@@ -62,9 +72,15 @@ eagle.epf
 *.drl
 *.gpi
 *.pls
+*.ger
+*.gpi
+*.xln
 
 *.drd
 *.drd.*
+
+*.s#*
+*.b#*
 
 *.info
 
@@ -72,4 +88,3 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
-
