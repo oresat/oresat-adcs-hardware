@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "oresat-connectors")(type "KiCad")(uri "${ORESAT_SYMBOLS}/oresat-connectors.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "oresat-connectors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-connectors.kicad_sym")(options "")(descr ""))
 )
