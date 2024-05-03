@@ -1,167 +1,355 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid c58960d9-4cac-4036-ad2e-1aef26946dae)
-
-  (paper "B")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2e7c06c0-a412-4c3a-b490-9aec08573322)
-    (property "Sheetname" "Card Power Domain" (at 25.4 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-card-power.kicad_sch" (at 25.4 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 45428425-fb0f-4d83-8cf8-877871e2f14c)
-    (property "Sheetname" "Connectors" (at 25.4 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-connectors.kicad_sch" (at 25.4 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "1"))
-      )
-    )
-  )
-
-  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 90bdf8b3-979d-47a5-a553-16f3f2d65734)
-    (property "Sheetname" "Q4 Power Domain" (at 228.6 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-q4-power.kicad_sch" (at 228.6 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 127 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a4e22a47-8081-427b-a284-fdb057c6b905)
-    (property "Sheetname" "Sensors" (at 127 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-sensors.kicad_sch" (at 127 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d0c96332-b838-489f-9d21-b5d76c78559c)
-    (property "Sheetname" "Q3 Power Domain" (at 177.8 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-q3-power.kicad_sch" (at 177.8 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 76.2 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid dece22cf-5001-44cd-9ca5-af884a2dd1f9)
-    (property "Sheetname" "Microcontroller" (at 76.2 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-microcontroller.kicad_sch" (at 76.2 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 177.8 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ea4234c5-c7c7-400f-8e65-99a982be6ec1)
-    (property "Sheetname" "Magnetorquers" (at 177.8 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-magnetorquers.kicad_sch" (at 177.8 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7)
-    (property "Sheetname" "Q1 Power Domain" (at 76.2 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-q1-power.kicad_sch" (at 76.2 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ef44cf4a-1a33-4569-916b-eeeb075d8ff6)
-    (property "Sheetname" "Q2 Power Domain" (at 127 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "oresat-adcs-card-sch-q2-power.kicad_sch" (at 127 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oresat-adcs-card"
-        (path "/c58960d9-4cac-4036-ad2e-1aef26946dae" (page "4"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "#"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c58960d9-4cac-4036-ad2e-1aef26946dae")
+	(paper "B")
+	(lib_symbols)
+	(sheet
+		(at 25.4 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e7c06c0-a412-4c3a-b490-9aec08573322")
+		(property "Sheetname" "Card Power Domain"
+			(at 25.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-card-power.kicad_sch"
+			(at 25.4 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45428425-fb0f-4d83-8cf8-877871e2f14c")
+		(property "Sheetname" "Connectors"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-connectors.kicad_sch"
+			(at 25.4 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90bdf8b3-979d-47a5-a553-16f3f2d65734")
+		(property "Sheetname" "Q4 Power Domain"
+			(at 228.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-q4-power.kicad_sch"
+			(at 228.6 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4e22a47-8081-427b-a284-fdb057c6b905")
+		(property "Sheetname" "Sensors"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-sensors.kicad_sch"
+			(at 127 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0c96332-b838-489f-9d21-b5d76c78559c")
+		(property "Sheetname" "Q3 Power Domain"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-q3-power.kicad_sch"
+			(at 177.8 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dece22cf-5001-44cd-9ca5-af884a2dd1f9")
+		(property "Sheetname" "Microcontroller"
+			(at 76.2 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-microcontroller.kicad_sch"
+			(at 76.2 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 76.2)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea4234c5-c7c7-400f-8e65-99a982be6ec1")
+		(property "Sheetname" "Magnetorquers"
+			(at 177.8 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-magnetorquers.kicad_sch"
+			(at 177.8 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed3de7a8-91a8-4a0a-bed2-aeb1ccafa7a7")
+		(property "Sheetname" "Q1 Power Domain"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-q1-power.kicad_sch"
+			(at 76.2 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef44cf4a-1a33-4569-916b-eeeb075d8ff6")
+		(property "Sheetname" "Q2 Power Domain"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-adcs-card-sch-q2-power.kicad_sch"
+			(at 127 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-adcs-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "#")
+		)
+	)
 )
