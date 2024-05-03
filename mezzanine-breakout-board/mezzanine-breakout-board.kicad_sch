@@ -1,459 +1,1380 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 3047cff5-9fb3-49cf-b385-b6d5f1304b72)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "Connector_Generic:Conn_01x10" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (id 0) (at 0 12.7 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x10" (id 1) (at 0 -15.24 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x10_1_1"
-        (rectangle (start -1.27 -12.573) (end 0 -12.827)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -10.033) (end 0 -10.287)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -7.493) (end 0 -7.747)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -4.953) (end 0 -5.207)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 5.207) (end 0 4.953)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 7.747) (end 0 7.493)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 10.287) (end 0 10.033)
-          (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 11.43) (end 1.27 -13.97)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 10.16 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -12.7 0) (length 3.81)
-          (name "Pin_10" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 7.62 0) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 5.08 0) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 2.54 0) (length 3.81)
-          (name "Pin_4" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_5" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -2.54 0) (length 3.81)
-          (name "Pin_6" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -5.08 0) (length 3.81)
-          (name "Pin_7" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -7.62 0) (length 3.81)
-          (name "Pin_8" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -10.16 0) (length 3.81)
-          (name "Pin_9" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "J-Molex-555600307-mezzanine-plug:Mezzanine Plug" (in_bom yes) (on_board yes)
-      (property "Reference" "J" (id 0) (at -12.7 13.97 0)
-        (effects (font (size 1.778 1.5113)) (justify left bottom))
-      )
-      (property "Value" "Mezzanine Plug" (id 1) (at -12.7 -13.97 0)
-        (effects (font (size 1.778 1.5113)) (justify left bottom))
-      )
-      (property "Footprint" "oresat-footprints:J-Molex-555600307" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mezzanine plug, 555600307" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Mezzanine Plug_1_0"
-        (polyline
-          (pts
-            (xy -12.7 -10.16)
-            (xy 2.54 -10.16)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 12.7)
-            (xy -12.7 12.7)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (pin bidirectional line (at 5.08 -7.62 180) (length 5.08)
-          (name "CAN_L" (effects (font (size 1.27 1.27))))
-          (number "P$1" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 7.62 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$10" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 7.62 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$11" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 10.16 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "P$12" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 10.16 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "P$13" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 10.16 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "P$14" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 10.16 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "P$15" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 10.16 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "P$16" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 10.16 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "P$17" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 10.16 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "P$18" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 10.16 180) (length 5.08)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "P$19" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 -5.08 180) (length 5.08)
-          (name "CAN_H" (effects (font (size 1.27 1.27))))
-          (number "P$2" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 7.62 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$20" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 7.62 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$21" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 7.62 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$22" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 7.62 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$23" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 5.08 180) (length 5.08)
-          (name "5V" (effects (font (size 1.27 1.27))))
-          (number "P$24" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 5.08 180) (length 5.08)
-          (name "5V" (effects (font (size 1.27 1.27))))
-          (number "P$25" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 2.54 180) (length 5.08)
-          (name "UART_TX" (effects (font (size 1.27 1.27))))
-          (number "P$26" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 0 180) (length 5.08)
-          (name "UART_RX" (effects (font (size 1.27 1.27))))
-          (number "P$27" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 -2.54 180) (length 5.08)
-          (name "BOOT" (effects (font (size 1.27 1.27))))
-          (number "P$28" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 -5.08 180) (length 5.08)
-          (name "CAN_H" (effects (font (size 1.27 1.27))))
-          (number "P$29" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 -2.54 180) (length 5.08)
-          (name "BOOT" (effects (font (size 1.27 1.27))))
-          (number "P$3" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 -7.62 180) (length 5.08)
-          (name "CAN_L" (effects (font (size 1.27 1.27))))
-          (number "P$30" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 0 180) (length 5.08)
-          (name "UART_RX" (effects (font (size 1.27 1.27))))
-          (number "P$4" (effects (font (size 0 0))))
-        )
-        (pin bidirectional line (at 5.08 2.54 180) (length 5.08)
-          (name "UART_TX" (effects (font (size 1.27 1.27))))
-          (number "P$5" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 5.08 180) (length 5.08)
-          (name "5V" (effects (font (size 1.27 1.27))))
-          (number "P$6" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 5.08 180) (length 5.08)
-          (name "5V" (effects (font (size 1.27 1.27))))
-          (number "P$7" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 7.62 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$8" (effects (font (size 0 0))))
-        )
-        (pin power_in line (at 5.08 7.62 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$9" (effects (font (size 0 0))))
-        )
-      )
-      (symbol "Mezzanine Plug_1_1"
-        (polyline
-          (pts
-            (xy -12.7 12.7)
-            (xy -12.7 -10.16)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-  (junction (at 160.02 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 346f9de7-7249-4745-98e6-0d40489d7488)
-  )
-  (junction (at 160.02 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid c2986b0f-a0a6-41a2-9eb2-a9c1592a6a98)
-  )
-
-  (wire (pts (xy 157.48 96.52) (xy 160.02 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5e80a3e1-dbfa-444c-92d9-619660738879)
-  )
-  (wire (pts (xy 111.76 109.22) (xy 160.02 109.22))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 605f7358-eb5e-4d98-940c-1c4727139c96)
-  )
-  (wire (pts (xy 111.76 104.14) (xy 160.02 104.14))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 63867677-77d1-4f6d-85da-94ceb680a1b8)
-  )
-  (wire (pts (xy 111.76 101.6) (xy 160.02 101.6))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6a37a4d7-7c8a-4926-b6fb-4b661e983971)
-  )
-  (wire (pts (xy 111.76 106.68) (xy 160.02 106.68))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 773b9c2e-7437-495d-b754-c28718b86ac1)
-  )
-  (wire (pts (xy 157.48 99.06) (xy 157.48 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 8007835e-0ac7-4c37-8528-039c510b8b0b)
-  )
-  (wire (pts (xy 111.76 116.84) (xy 160.02 116.84))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 90e4a39f-1cf6-41f7-8bf1-6838e632b339)
-  )
-  (wire (pts (xy 160.02 99.06) (xy 160.02 101.6))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 94029fcf-2e66-4796-8373-847e57bf1ba0)
-  )
-  (wire (pts (xy 111.76 99.06) (xy 157.48 99.06))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid aadfe7fc-24fa-4ee3-8be9-5493ed98ee20)
-  )
-  (wire (pts (xy 111.76 111.76) (xy 160.02 111.76))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b62f989a-5d9d-4210-be44-2e8745b8faa6)
-  )
-  (wire (pts (xy 111.76 114.3) (xy 160.02 114.3))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid d4a67902-7f8c-48b8-bb1f-418b4ac7e2a6)
-  )
-  (wire (pts (xy 160.02 93.98) (xy 160.02 96.52))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid fff24034-bf83-4004-9e91-614fdba0d74b)
-  )
-
-  (label "UART_TX" (at 116.84 106.68 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 0cd1b749-4867-461c-b46d-93f6097cd22c)
-  )
-  (label "5V" (at 116.84 104.14 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4613eaa1-f789-4b6d-bb5d-51a74f782635)
-  )
-  (label "VBUS" (at 116.84 99.06 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 53fa70c4-60c9-4dd0-b278-972345e63848)
-  )
-  (label "GND" (at 116.84 101.6 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 68d55f88-71a2-4cfe-856f-903a3a826a61)
-  )
-  (label "BOOT" (at 116.84 111.76 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 80c84a71-ae75-406f-a451-7eb0a93ddef5)
-  )
-  (label "UART_RX" (at 116.84 109.22 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 81f25792-675b-4e1d-90d3-5ae1bbeb25e9)
-  )
-  (label "CAN_L" (at 116.84 116.84 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid a3b09bef-ba8e-463f-9667-ba5fcd907421)
-  )
-  (label "CAN_H" (at 116.84 114.3 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid f6b78317-1790-4da0-900d-6a504f777756)
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x10") (at 165.1 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 26efaee5-fb00-4a73-9723-7548b3ecd80d)
-    (property "Reference" "J2" (id 0) (at 167.64 104.1399 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x10" (id 1) (at 167.64 106.6799 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" (id 2) (at 165.1 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 165.1 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 10ef8cdc-bea2-4d31-9933-732c363da10f))
-    (pin "10" (uuid 7804816c-7a91-454c-a6fc-acc6f173a4e9))
-    (pin "2" (uuid 83a8a721-0c47-4c0c-98bf-8b3bf0fda858))
-    (pin "3" (uuid 98ef13ac-eaea-47eb-83ba-c0bc2a218aaa))
-    (pin "4" (uuid b079bf97-9763-40a6-aa16-dd4b59fe690d))
-    (pin "5" (uuid d187e0b2-5c09-48ef-b108-877e1026ab0d))
-    (pin "6" (uuid e1f19c80-dc77-4b0f-afa7-2e567420986e))
-    (pin "7" (uuid 04be8b0e-7d0b-4df1-b7cc-ca80eea442ad))
-    (pin "8" (uuid 3d02900a-2b1c-4cd2-b0c2-98689e3a26f7))
-    (pin "9" (uuid 7af7b7b9-d734-41bf-a121-8cf240eb3405))
-  )
-
-  (symbol (lib_id "J-Molex-555600307-mezzanine-plug:Mezzanine Plug") (at 106.68 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid ba19f892-460a-44dd-b970-85a191aa32c8)
-    (property "Reference" "J1" (id 0) (at 101.6 90.17 0)
-      (effects (font (size 1.778 1.5113)))
-    )
-    (property "Value" "Mezzanine Plug" (id 1) (at 101.6 93.98 0)
-      (effects (font (size 1.778 1.5113)))
-    )
-    (property "Footprint" "oresat-footprints:J-Molex-0547220304" (id 2) (at 106.68 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 106.68 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "P$1" (uuid eabaa4f4-29e4-4d3e-aec8-fe285ce189a6))
-    (pin "P$10" (uuid 3e269bbd-310a-49d1-b23d-69bc9cd16eed))
-    (pin "P$11" (uuid b0c111aa-8898-44aa-a9e0-d90c074df94d))
-    (pin "P$12" (uuid a8148501-5a1a-44bc-bd57-79efd0abeb5b))
-    (pin "P$13" (uuid 36c24e87-e4e4-4d87-8539-4bde40ea4efa))
-    (pin "P$14" (uuid 829ab066-458b-4ede-b923-35de26598f1e))
-    (pin "P$15" (uuid 9a58040c-6e42-4865-bc1f-42d6faa9e206))
-    (pin "P$16" (uuid bb70a4b3-e528-4227-9464-b3db89a7dcfe))
-    (pin "P$17" (uuid 9aa6756c-a52a-4978-a76b-b93c937de7e3))
-    (pin "P$18" (uuid 9854f9ed-d90f-438a-a04e-8ac751af7cd6))
-    (pin "P$19" (uuid 463608e6-23d7-4a68-a9f7-7b397f884289))
-    (pin "P$2" (uuid da8dde73-02d8-4571-af30-98bbb8db9d14))
-    (pin "P$20" (uuid 8a691952-c8eb-4b2d-a014-50be4c6d3771))
-    (pin "P$21" (uuid ec5b31ce-76af-4900-a639-35cb811d6f78))
-    (pin "P$22" (uuid 0c2af0e4-d523-4de3-b62b-2727d9fb4cd0))
-    (pin "P$23" (uuid 3e22427a-946d-4e63-aa9e-1b5baa53eb24))
-    (pin "P$24" (uuid ef6915a7-c004-4b2c-93af-041c622c35c7))
-    (pin "P$25" (uuid 2d78ec7d-fcd1-4a55-978f-1930996d25de))
-    (pin "P$26" (uuid 8053fe2f-e551-4def-94bc-f81d10601703))
-    (pin "P$27" (uuid 3ed81849-59f1-4d3c-8fa9-a116f5fb35cf))
-    (pin "P$28" (uuid bb9d40e6-d933-4a3f-9029-2becbf77d88f))
-    (pin "P$29" (uuid e0f5ed8e-8f70-4c2b-bac5-0b8dab8e5aa8))
-    (pin "P$3" (uuid 576a0511-1e1b-4dbe-931f-68f117c0751f))
-    (pin "P$30" (uuid 69217c49-de44-4468-9709-c08e59c7713a))
-    (pin "P$4" (uuid eec01ffe-22c0-49f2-aa0f-7614d6d7d7af))
-    (pin "P$5" (uuid aa301f23-0771-42aa-9def-4a5387512226))
-    (pin "P$6" (uuid e33f38b8-fd8f-494d-902c-5f31dfb14246))
-    (pin "P$7" (uuid 2104a8e6-bceb-4f79-a0ae-15a086645034))
-    (pin "P$8" (uuid e3a67cee-ac5f-47e0-a2d3-71cedd162b4c))
-    (pin "P$9" (uuid f68967f7-bc3b-4801-873c-ab64ae6590c3))
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
-
-  (symbol_instances
-    (path "/ba19f892-460a-44dd-b970-85a191aa32c8"
-      (reference "J1") (unit 1) (value "Mezzanine Plug") (footprint "oresat-footprints:J-Molex-0547220304")
-    )
-    (path "/26efaee5-fb00-4a73-9723-7548b3ecd80d"
-      (reference "J2") (unit 1) (value "Conn_01x10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3047cff5-9fb3-49cf-b385-b6d5f1304b72")
+	(paper "USLedger")
+	(title_block
+		(title "OreSat Reaction Wheel Mezzanine Breakout")
+		(date "2024-03-12")
+		(rev "v1.2")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "J-Molex-555600307-mezzanine-plug:Mezzanine Plug"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "Mezzanine Plug"
+				(at -12.7 -13.97 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-footprints:J-Molex-555600307"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mezzanine plug, 555600307"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mezzanine Plug_1_0"
+				(polyline
+					(pts
+						(xy -12.7 -10.16) (xy 2.54 -10.16)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 12.7) (xy -12.7 12.7)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -7.62 180)
+					(length 5.08)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$10"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$11"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$12"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$13"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$14"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$15"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$16"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$17"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$18"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$19"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -5.08 180)
+					(length 5.08)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$20"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$21"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$22"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$23"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$24"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$25"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "UART_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$26"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "UART_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$27"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$28"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -5.08 180)
+					(length 5.08)
+					(name "CAN_H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$29"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -2.54 180)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -7.62 180)
+					(length 5.08)
+					(name "CAN_L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$30"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "UART_RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "UART_TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 5.08 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$9"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Mezzanine Plug_1_1"
+				(polyline
+					(pts
+						(xy -12.7 12.7) (xy -12.7 -10.16)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 220.98 124.46) (xy 243.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e80a3e1-dbfa-444c-92d9-619660738879")
+	)
+	(wire
+		(pts
+			(xy 220.98 134.62) (xy 243.84 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605f7358-eb5e-4d98-940c-1c4727139c96")
+	)
+	(wire
+		(pts
+			(xy 220.98 129.54) (xy 243.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63867677-77d1-4f6d-85da-94ceb680a1b8")
+	)
+	(wire
+		(pts
+			(xy 220.98 127) (xy 243.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a37a4d7-7c8a-4926-b6fb-4b661e983971")
+	)
+	(wire
+		(pts
+			(xy 220.98 132.08) (xy 243.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "773b9c2e-7437-495d-b754-c28718b86ac1")
+	)
+	(wire
+		(pts
+			(xy 220.98 142.24) (xy 243.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e4a39f-1cf6-41f7-8bf1-6838e632b339")
+	)
+	(wire
+		(pts
+			(xy 220.98 137.16) (xy 243.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62f989a-5d9d-4210-be44-2e8745b8faa6")
+	)
+	(wire
+		(pts
+			(xy 220.98 139.7) (xy 243.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a67902-7f8c-48b8-bb1f-418b4ac7e2a6")
+	)
+	(text "2.54 mm pin header"
+		(exclude_from_sim no)
+		(at 248.92 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a7397fa0-7f69-4164-9f37-6b57401cf819")
+	)
+	(label "UART_TX"
+		(at 226.06 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cd1b749-4867-461c-b46d-93f6097cd22c")
+	)
+	(label "5V"
+		(at 226.06 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4613eaa1-f789-4b6d-bb5d-51a74f782635")
+	)
+	(label "VBUS"
+		(at 226.06 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53fa70c4-60c9-4dd0-b278-972345e63848")
+	)
+	(label "GND"
+		(at 226.06 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68d55f88-71a2-4cfe-856f-903a3a826a61")
+	)
+	(label "BOOT"
+		(at 226.06 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80c84a71-ae75-406f-a451-7eb0a93ddef5")
+	)
+	(label "UART_RX"
+		(at 226.06 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81f25792-675b-4e1d-90d3-5ae1bbeb25e9")
+	)
+	(label "CAN_L"
+		(at 226.06 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3b09bef-ba8e-463f-9667-ba5fcd907421")
+	)
+	(label "CAN_H"
+		(at 226.06 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6b78317-1790-4da0-900d-6a504f777756")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 248.92 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26efaee5-fb00-4a73-9723-7548b3ecd80d")
+		(property "Reference" "J2"
+			(at 251.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 248.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10ef8cdc-bea2-4d31-9933-732c363da10f")
+		)
+		(pin "2"
+			(uuid "83a8a721-0c47-4c0c-98bf-8b3bf0fda858")
+		)
+		(pin "3"
+			(uuid "98ef13ac-eaea-47eb-83ba-c0bc2a218aaa")
+		)
+		(pin "4"
+			(uuid "b079bf97-9763-40a6-aa16-dd4b59fe690d")
+		)
+		(pin "5"
+			(uuid "d187e0b2-5c09-48ef-b108-877e1026ab0d")
+		)
+		(pin "6"
+			(uuid "e1f19c80-dc77-4b0f-afa7-2e567420986e")
+		)
+		(pin "7"
+			(uuid "04be8b0e-7d0b-4df1-b7cc-ca80eea442ad")
+		)
+		(pin "8"
+			(uuid "3d02900a-2b1c-4cd2-b0c2-98689e3a26f7")
+		)
+		(instances
+			(project "mezzanine-breakout-board"
+				(path "/3047cff5-9fb3-49cf-b385-b6d5f1304b72"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "J-Molex-555600307-mezzanine-plug:Mezzanine Plug")
+		(at 215.9 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba19f892-460a-44dd-b970-85a191aa32c8")
+		(property "Reference" "J1"
+			(at 210.82 115.57 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Value" "Mezzanine Plug"
+			(at 210.82 119.38 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+			)
+		)
+		(property "Footprint" "oresat-footprints:J-Molex-0547220304"
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "eabaa4f4-29e4-4d3e-aec8-fe285ce189a6")
+		)
+		(pin "P$10"
+			(uuid "3e269bbd-310a-49d1-b23d-69bc9cd16eed")
+		)
+		(pin "P$11"
+			(uuid "b0c111aa-8898-44aa-a9e0-d90c074df94d")
+		)
+		(pin "P$12"
+			(uuid "a8148501-5a1a-44bc-bd57-79efd0abeb5b")
+		)
+		(pin "P$13"
+			(uuid "36c24e87-e4e4-4d87-8539-4bde40ea4efa")
+		)
+		(pin "P$14"
+			(uuid "829ab066-458b-4ede-b923-35de26598f1e")
+		)
+		(pin "P$15"
+			(uuid "9a58040c-6e42-4865-bc1f-42d6faa9e206")
+		)
+		(pin "P$16"
+			(uuid "bb70a4b3-e528-4227-9464-b3db89a7dcfe")
+		)
+		(pin "P$17"
+			(uuid "9aa6756c-a52a-4978-a76b-b93c937de7e3")
+		)
+		(pin "P$18"
+			(uuid "9854f9ed-d90f-438a-a04e-8ac751af7cd6")
+		)
+		(pin "P$19"
+			(uuid "463608e6-23d7-4a68-a9f7-7b397f884289")
+		)
+		(pin "P$2"
+			(uuid "da8dde73-02d8-4571-af30-98bbb8db9d14")
+		)
+		(pin "P$20"
+			(uuid "8a691952-c8eb-4b2d-a014-50be4c6d3771")
+		)
+		(pin "P$21"
+			(uuid "ec5b31ce-76af-4900-a639-35cb811d6f78")
+		)
+		(pin "P$22"
+			(uuid "0c2af0e4-d523-4de3-b62b-2727d9fb4cd0")
+		)
+		(pin "P$23"
+			(uuid "3e22427a-946d-4e63-aa9e-1b5baa53eb24")
+		)
+		(pin "P$24"
+			(uuid "ef6915a7-c004-4b2c-93af-041c622c35c7")
+		)
+		(pin "P$25"
+			(uuid "2d78ec7d-fcd1-4a55-978f-1930996d25de")
+		)
+		(pin "P$26"
+			(uuid "8053fe2f-e551-4def-94bc-f81d10601703")
+		)
+		(pin "P$27"
+			(uuid "3ed81849-59f1-4d3c-8fa9-a116f5fb35cf")
+		)
+		(pin "P$28"
+			(uuid "bb9d40e6-d933-4a3f-9029-2becbf77d88f")
+		)
+		(pin "P$29"
+			(uuid "e0f5ed8e-8f70-4c2b-bac5-0b8dab8e5aa8")
+		)
+		(pin "P$3"
+			(uuid "576a0511-1e1b-4dbe-931f-68f117c0751f")
+		)
+		(pin "P$30"
+			(uuid "69217c49-de44-4468-9709-c08e59c7713a")
+		)
+		(pin "P$4"
+			(uuid "eec01ffe-22c0-49f2-aa0f-7614d6d7d7af")
+		)
+		(pin "P$5"
+			(uuid "aa301f23-0771-42aa-9def-4a5387512226")
+		)
+		(pin "P$6"
+			(uuid "e33f38b8-fd8f-494d-902c-5f31dfb14246")
+		)
+		(pin "P$7"
+			(uuid "2104a8e6-bceb-4f79-a0ae-15a086645034")
+		)
+		(pin "P$8"
+			(uuid "e3a67cee-ac5f-47e0-a2d3-71cedd162b4c")
+		)
+		(pin "P$9"
+			(uuid "f68967f7-bc3b-4801-873c-ab64ae6590c3")
+		)
+		(instances
+			(project "mezzanine-breakout-board"
+				(path "/3047cff5-9fb3-49cf-b385-b6d5f1304b72"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
