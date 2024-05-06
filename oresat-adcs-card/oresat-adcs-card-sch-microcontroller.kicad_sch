@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "9497a9d2-2c0b-4e6d-977e-6e4bec33df35")
 	(paper "B")
+	(title_block
+		(title "OreSat ADCS Card")
+		(date "2023-11-21")
+		(rev "v1.3")
+	)
 	(lib_symbols
 		(symbol "oresat-acs-card-eagle-import:3.3V"
 			(power)

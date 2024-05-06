@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "0778d228-2b23-458f-a853-33dfe5d5d4fb")
 	(paper "B")
+	(title_block
+		(title "OreSat ADCS Card")
+		(date "2023-11-21")
+		(rev "v1.3")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
@@ -335,75 +340,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-		)
-		(symbol "oresat-acs-card-eagle-import:FLIGHMARKERNEW"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "FLIGHMARKERNEW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FLIGHMARKERNEW_1_0"
-				(text "Flight Hardware Marker (on PCB)"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 2.54 2.159)
-						)
-						(justify left bottom)
 					)
 				)
 			)
@@ -3071,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 116.84) (xy 360.68 116.84)
+			(xy 266.7 237.49) (xy 275.59 237.49)
 		)
 		(stroke
 			(width 0)
@@ -3621,7 +3557,7 @@
 	)
 	(polyline
 		(pts
-			(xy 335.28 86.36) (xy 335.28 124.46)
+			(xy 250.19 207.01) (xy 250.19 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3681,7 +3617,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 111.76) (xy 360.68 111.76)
+			(xy 266.7 232.41) (xy 275.59 232.41)
 		)
 		(stroke
 			(width 0)
@@ -3711,7 +3647,7 @@
 	)
 	(polyline
 		(pts
-			(xy 335.28 124.46) (xy 388.62 124.46)
+			(xy 250.19 245.11) (xy 303.53 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3717,7 @@
 	)
 	(polyline
 		(pts
-			(xy 388.62 124.46) (xy 388.62 86.36)
+			(xy 303.53 245.11) (xy 303.53 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3801,7 +3737,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 114.3) (xy 360.68 114.3)
+			(xy 266.7 234.95) (xy 275.59 234.95)
 		)
 		(stroke
 			(width 0)
@@ -3811,7 +3747,7 @@
 	)
 	(polyline
 		(pts
-			(xy 335.28 86.36) (xy 388.62 86.36)
+			(xy 250.19 207.01) (xy 303.53 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3891,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 109.22) (xy 360.68 109.22)
+			(xy 266.7 229.87) (xy 275.59 229.87)
 		)
 		(stroke
 			(width 0)
@@ -4021,7 +3957,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 106.68) (xy 360.68 106.68)
+			(xy 266.7 227.33) (xy 275.59 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4121,7 +4057,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 119.38) (xy 360.68 119.38)
+			(xy 266.7 240.03) (xy 275.59 240.03)
 		)
 		(stroke
 			(width 0)
@@ -4159,27 +4095,17 @@
 		)
 		(uuid "ff6fab5b-7288-498e-8d31-cc3055d34559")
 	)
-	(text "OreSat ACS Card"
+	(text "Q4"
 		(exclude_from_sim no)
-		(at 327.66 231.14 0)
+		(at 303.53 173.99 0)
 		(effects
 			(font
-				(size 3.81 3.2385)
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "062c3e62-6132-4418-9102-8ea620d8c673")
-	)
-	(text "1.1"
-		(exclude_from_sim no)
-		(at 327.66 237.49 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "0cf5128c-e217-48c5-8f79-0662f10a805a")
+		(uuid "144d6afd-bacf-41eb-9788-b110ba5e7102")
 	)
 	(text "Main OreSat Card Connector"
 		(exclude_from_sim no)
@@ -4192,9 +4118,21 @@
 		)
 		(uuid "378d8b0c-c96e-41ea-83a2-6410fb27212e")
 	)
+	(text "Q3"
+		(exclude_from_sim no)
+		(at 304.8 134.62 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3b73f4e3-3651-4eba-9d5d-ccea7f04ce27")
+	)
 	(text "Fiducials (on both sides of board)"
 		(exclude_from_sim no)
-		(at 172.72 260.35 0)
+		(at 168.91 252.73 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -4203,9 +4141,21 @@
 		)
 		(uuid "3c87c8e9-ddf9-4c5e-aafb-cc1d2f78abf4")
 	)
+	(text "Q2"
+		(exclude_from_sim no)
+		(at 304.8 96.52 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3ea2ab1a-24cf-4f83-8c2d-c22478e68c06")
+	)
 	(text "Mezzanine Plugs to\nReaction Wheel Boards"
 		(exclude_from_sim no)
-		(at 241.3 40.64 0)
+		(at 255.27 40.64 0)
 		(effects
 			(font
 				(size 2.794 2.794)
@@ -4214,14 +4164,26 @@
 		)
 		(uuid "89e3d2e1-7267-43b9-a161-bae5e950164a")
 	)
-	(text "MT Power\nTerminal Block"
+	(text "Q1"
 		(exclude_from_sim no)
-		(at 340.36 96.52 0)
+		(at 304.8 58.42 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9eda0c47-1cc5-4931-b900-e32fe5bcb0de")
+	)
+	(text "Magnetorquer\nTerminal Block"
+		(exclude_from_sim no)
+		(at 275.59 217.17 0)
 		(effects
 			(font
 				(size 2.794 2.794)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "e39b7218-d2a7-4f9d-a042-eb3e891b6b67")
 	)
@@ -4629,7 +4591,7 @@
 	)
 	(global_label "MT_X_OUT_A"
 		(shape input)
-		(at 360.68 116.84 0)
+		(at 275.59 237.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4639,7 +4601,7 @@
 		)
 		(uuid "651e2142-8592-4f7b-95e2-08f5c0f856ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.765 116.7606 0)
+			(at 289.675 237.4106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4675,7 @@
 	)
 	(global_label "MT_Y_OUT_B"
 		(shape input)
-		(at 360.68 114.3 0)
+		(at 275.59 234.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4723,7 +4685,7 @@
 		)
 		(uuid "75af4dbc-432c-4b78-af1c-8859a57316d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.4021 114.2206 0)
+			(at 289.3121 234.8706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4717,7 @@
 	)
 	(global_label "MT_Z_OUT_A"
 		(shape input)
-		(at 360.68 106.68 0)
+		(at 275.59 227.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4765,7 +4727,7 @@
 		)
 		(uuid "7b56d902-fe20-4bc8-9b02-21b6ea4acbc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.765 106.6006 0)
+			(at 289.675 227.2506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4738,7 @@
 	)
 	(global_label "MT_X_OUT_B"
 		(shape input)
-		(at 360.68 119.38 0)
+		(at 275.59 240.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4786,7 +4748,7 @@
 		)
 		(uuid "7fdf9f70-85f4-4cb5-aaec-89edba550728")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.9464 119.3006 0)
+			(at 289.8564 239.9506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4801,7 @@
 	)
 	(global_label "MT_Z_OUT_B"
 		(shape input)
-		(at 360.68 109.22 0)
+		(at 275.59 229.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4849,7 +4811,7 @@
 		)
 		(uuid "972e2ab9-75c5-4f46-b080-9f2b81622d5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.9464 109.1406 0)
+			(at 289.8564 229.7906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +4990,7 @@
 	)
 	(global_label "MT_Y_OUT_A"
 		(shape input)
-		(at 360.68 111.76 0)
+		(at 275.59 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5038,7 +5000,7 @@
 		)
 		(uuid "c7883989-69cb-4842-9956-eee24edadbb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 374.2207 111.6806 0)
+			(at 289.1307 232.3306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5242,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 346.71 111.76 0)
+		(at 261.62 232.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5290,7 +5252,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e3952f8-cef5-42e5-8e67-b47a6a5bba8c")
 		(property "Reference" "J7"
-			(at 346.71 100.33 0)
+			(at 261.62 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5260,7 @@
 			)
 		)
 		(property "Value" "Magnetorquer Pins"
-			(at 346.71 102.87 0)
+			(at 261.62 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +5268,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-Wurth-691243100006"
-			(at 346.71 111.76 0)
+			(at 261.62 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5315,7 +5277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.71 111.76 0)
+			(at 261.62 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5286,7 @@
 			)
 		)
 		(property "Description" "6 Position Wire to Board Terminal Block Vertical with Board 0.138\" (3.50mm) Through Hole"
-			(at 346.71 111.76 0)
+			(at 261.62 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5821,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Mezzanine Plug"
+		(property "Value" "0555600307"
 			(at 297.18 73.66 0)
 			(effects
 				(font
@@ -5877,7 +5839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/555600307?display=pdf"
 			(at 284.48 59.69 0)
 			(effects
 				(font
@@ -5886,7 +5848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30 Position Connector Plug, Outer Shroud Contacts Surface Mount Gold"
 			(at 284.48 59.69 0)
 			(effects
 				(font
@@ -5895,12 +5857,40 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Quadrant 1"
-			(at 309.88 58.42 0)
+		(property "DIST" "Digi-Key"
+			(at 284.48 59.69 0)
 			(effects
 				(font
-					(size 2.286 2.286)
+					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "WM9218CT-ND"
+			(at 284.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 284.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0555600307"
+			(at 284.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "P$1"
@@ -6281,7 +6271,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Mezzanine Plug"
+		(property "Value" "0555600307"
 			(at 297.18 111.76 0)
 			(effects
 				(font
@@ -6299,7 +6289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/555600307?display=pdf"
 			(at 284.48 97.79 0)
 			(effects
 				(font
@@ -6308,7 +6298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30 Position Connector Plug, Outer Shroud Contacts Surface Mount Gold"
 			(at 284.48 97.79 0)
 			(effects
 				(font
@@ -6317,12 +6307,40 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Quadrant 2"
-			(at 309.88 96.52 0)
+		(property "DIST" "Digi-Key"
+			(at 284.48 97.79 0)
 			(effects
 				(font
-					(size 2.286 2.286)
+					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "WM9218CT-ND"
+			(at 284.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 284.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0555600307"
+			(at 284.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "P$1"
@@ -6443,7 +6461,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Mezzanine Plug"
+		(property "Value" "0555600307"
 			(at 297.18 149.86 0)
 			(effects
 				(font
@@ -6461,7 +6479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/555600307?display=pdf"
 			(at 284.48 135.89 0)
 			(effects
 				(font
@@ -6470,7 +6488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30 Position Connector Plug, Outer Shroud Contacts Surface Mount Gold"
 			(at 284.48 135.89 0)
 			(effects
 				(font
@@ -6479,12 +6497,40 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Quadrant 3"
-			(at 309.88 134.62 0)
+		(property "DIST" "Digi-Key"
+			(at 284.48 135.89 0)
 			(effects
 				(font
-					(size 2.286 2.286)
+					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "WM9218CT-ND"
+			(at 284.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 284.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0555600307"
+			(at 284.48 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "P$1"
@@ -7105,69 +7151,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:FLIGHMARKERNEW")
-		(at 157.48 204.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "f18a0af4-c22b-4c2b-ae65-0110681c942f")
-		(property "Reference" "U$1"
-			(at 157.48 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "FLIGHMARKERNEW"
-			(at 157.48 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-acs-card:FLIGHTMARKER_NEW_BOARDS"
-			(at 157.48 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "oresat-adcs-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/45428425-fb0f-4d83-8cf8-877871e2f14c"
-					(reference "U$1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-connectors:Mezzanine Plug")
 		(at 284.48 173.99 0)
 		(mirror y)
@@ -7186,7 +7169,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Mezzanine Plug"
+		(property "Value" "0555600307"
 			(at 297.18 187.96 0)
 			(effects
 				(font
@@ -7204,7 +7187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/555600307?display=pdf"
 			(at 284.48 173.99 0)
 			(effects
 				(font
@@ -7213,7 +7196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30 Position Connector Plug, Outer Shroud Contacts Surface Mount Gold"
 			(at 284.48 173.99 0)
 			(effects
 				(font
@@ -7222,12 +7205,40 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Quadrant 4"
-			(at 309.88 172.72 0)
+		(property "DIST" "Digi-Key"
+			(at 284.48 173.99 0)
 			(effects
 				(font
-					(size 2.286 2.286)
+					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "WM9218CT-ND"
+			(at 284.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 284.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0555600307"
+			(at 284.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "P$1"

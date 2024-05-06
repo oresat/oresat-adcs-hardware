@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "c58960d9-4cac-4036-ad2e-1aef26946dae")
 	(paper "B")
+	(title_block
+		(title "OreSat ADCS Card")
+		(date "2023-11-21")
+		(rev "v1.3")
+	)
 	(lib_symbols)
 	(sheet
 		(at 25.4 76.2)

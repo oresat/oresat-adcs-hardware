@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "4538a706-7a04-492d-9a2e-4e39b4bf5ad1")
 	(paper "B")
+	(title_block
+		(title "OreSat ADCS Card")
+		(date "2023-11-21")
+		(rev "v1.3")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
@@ -7491,14 +7496,6 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 336.55 162.56 90)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "576eeca5-54a5-4e06-9635-f69783a77397")
 		)
@@ -8387,14 +8384,6 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 176.53 86.36 90)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c7a04af5-30a5-4c67-8673-401e2c0a7712")
 		)
@@ -8796,14 +8785,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 336.55 175.26 90)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
 			)
 		)
 		(pin "1"
@@ -10357,14 +10338,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 176.53 233.68 90)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
 			)
 		)
 		(pin "1"
@@ -12771,14 +12744,6 @@
 				(hide yes)
 			)
 		)
-		(property "P/N" ""
-			(at 176.53 222.25 90)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e5f9b8aa-40c8-4143-9b39-aa5750dd91f9")
 		)
@@ -13775,14 +13740,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "P/N" ""
-			(at 176.53 74.93 90)
-			(effects
-				(font
-					(size 0.5 0.5)
-				)
 			)
 		)
 		(pin "1"

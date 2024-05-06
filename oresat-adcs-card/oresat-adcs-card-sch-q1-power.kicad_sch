@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "99e78964-1449-4321-ad33-c70620f1a12d")
 	(paper "B")
+	(title_block
+		(title "OreSat ADCS Card")
+		(date "2023-11-21")
+		(rev "v1.3")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
@@ -9774,7 +9779,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "05d6ccc2-421b-4e9d-91cd-1ea66144224c")
 		(property "Reference" "R83"
 			(at 72.1614 91.44 0)
@@ -9785,7 +9790,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 73.66 87.63 0)
 			(effects
 				(font
@@ -10040,15 +10045,6 @@
 			)
 		)
 		(property "MPN" "150060GS75020"
-			(at 337.82 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "DigiKey"
 			(at 337.82 203.2 0)
 			(effects
 				(font
@@ -10582,7 +10578,7 @@
 		(dnp no)
 		(uuid "1b9443a3-51ba-4b98-961a-84902a38a4f3")
 		(property "Reference" "R88"
-			(at 56.9214 81.28 0)
+			(at 57.15 83.82 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10590,14 +10586,13 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
-			(at 58.42 77.47 0)
+		(property "Value" "2.7k"
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11658,7 +11653,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Analog Devices"
+		(property "MPN" "LTC3624IDD-5#PBF"
 			(at 266.7 204.47 0)
 			(effects
 				(font
@@ -11667,7 +11662,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTC3624IDD-5#PBF"
+		(property "MFR" "Analog Devices"
 			(at 266.7 204.47 0)
 			(effects
 				(font
@@ -12066,7 +12061,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "436937bc-ec66-4fa5-bfce-abac93d55497")
 		(property "Reference" "R85"
 			(at 82.8294 91.44 0)
@@ -12077,7 +12072,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -14733,7 +14728,7 @@
 		(dnp no)
 		(uuid "993fb5c8-773b-49bf-a903-7401e8aa299c")
 		(property "Reference" "R80"
-			(at 87.4014 81.28 0)
+			(at 87.63 83.82 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14741,14 +14736,13 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
-			(at 88.9 77.47 0)
+		(property "Value" "2.7k"
+			(at 87.63 77.47 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14867,7 +14861,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b631613-8665-491a-b2ec-365bed932f1b")
 		(property "Reference" "R81"
 			(at 98.0694 91.44 0)
@@ -14878,7 +14872,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 93.98 87.63 0)
 			(effects
 				(font
@@ -15003,7 +14997,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9dee1416-5d24-4079-8f3b-80db1b19ce66")
 		(property "Reference" "R90"
 			(at 67.5894 81.28 0)
@@ -15014,7 +15008,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 63.5 77.47 0)
 			(effects
 				(font
@@ -15295,7 +15289,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a0c2ed19-a636-40a2-8970-6e4539968ab6")
 		(property "Reference" "R87"
 			(at 56.9214 91.44 0)
@@ -15306,7 +15300,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 58.42 87.63 0)
 			(effects
 				(font
@@ -15435,7 +15429,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a6b2d2ea-5f44-4953-80c6-29c6290485aa")
 		(property "Reference" "R82"
 			(at 98.0694 81.28 0)
@@ -15446,7 +15440,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -16251,7 +16245,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bfd6c3fd-c866-43d5-b941-065d88cfa78c")
 		(property "Reference" "R86"
 			(at 82.8294 81.28 0)
@@ -16262,7 +16256,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 78.74 77.47 0)
 			(effects
 				(font
@@ -16458,7 +16452,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c82d1802-175a-4f3b-8e87-55ba65630bcc")
 		(property "Reference" "R89"
 			(at 67.5894 91.44 0)
@@ -16469,7 +16463,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -16886,7 +16880,7 @@
 		(dnp no)
 		(uuid "d0ef9572-f9f1-402b-82aa-afe53ec77b54")
 		(property "Reference" "R84"
-			(at 72.1614 81.28 0)
+			(at 72.39 83.82 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16894,14 +16888,13 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
-			(at 73.66 77.47 0)
+		(property "Value" "2.7k"
+			(at 72.39 77.47 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify right top)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -18319,7 +18312,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fb6abd4e-9046-424c-8044-a7bde2514fa8")
 		(property "Reference" "R79"
 			(at 87.4014 91.44 0)
@@ -18330,7 +18323,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "2.7k"
 			(at 88.9 87.63 0)
 			(effects
 				(font
