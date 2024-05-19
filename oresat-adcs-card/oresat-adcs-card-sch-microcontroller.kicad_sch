@@ -5998,7 +5998,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 327.66 165.1 0)
 			(effects
 				(font
@@ -6203,7 +6203,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNL"
+		(property "Value" "100n"
 			(at 193.04 33.02 0)
 			(effects
 				(font
@@ -6273,7 +6273,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRGCQ0603F2K7"
+		(property "Value" "4.7k"
 			(at 27.94 68.58 0)
 			(effects
 				(font
@@ -6497,7 +6497,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNL"
+		(property "Value" "100n"
 			(at 226.06 33.02 0)
 			(effects
 				(font
@@ -7034,7 +7034,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "IN-S63AT5A"
+		(property "Value" "AMBER"
 			(at 342.9 86.36 90)
 			(effects
 				(font
@@ -7439,7 +7439,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10C200JB8NNNC"
+		(property "Value" "20p"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -7845,7 +7845,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNL"
+		(property "Value" "100n"
 			(at 378.46 91.44 0)
 			(effects
 				(font
@@ -8312,7 +8312,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10C200JB8NNNC"
+		(property "Value" "20p"
 			(at 63.5 81.28 0)
 			(effects
 				(font
@@ -8450,7 +8450,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNL"
+		(property "Value" "100n"
 			(at 200.66 33.02 0)
 			(effects
 				(font
@@ -8521,7 +8521,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 45.72 73.66 0)
 			(effects
 				(font
@@ -8934,7 +8934,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRGCQ0603F2K7"
+		(property "Value" "4.7k"
 			(at 22.86 68.58 0)
 			(effects
 				(font
@@ -9004,7 +9004,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRGCQ0603F2K7"
+		(property "Value" "4.7k"
 			(at 335.28 83.82 0)
 			(effects
 				(font
@@ -9218,7 +9218,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNL"
+		(property "Value" "100n"
 			(at 213.36 33.02 0)
 			(effects
 				(font

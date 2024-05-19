@@ -5731,7 +5731,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "049bec1f-675f-4583-9bed-e0c022c9bf1a")
 		(property "Reference" "C59"
@@ -5867,7 +5867,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "06acbf93-aed2-4a68-9d51-a61876c731be")
 		(property "Reference" "C71"
@@ -5937,7 +5937,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "082d5fd5-fc3a-4c0d-9cbe-489a4e196ea9")
 		(property "Reference" "C61"
@@ -6144,7 +6144,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0c3682a2-0342-47ba-9f39-07c4828ae386")
 		(property "Reference" "C73"
@@ -6350,7 +6350,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "12b1d622-3540-4b39-ad8d-52b24771bad9")
 		(property "Reference" "C27"
@@ -7053,7 +7053,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRGCQ0603F2K7"
+		(property "Value" "10k"
 			(at 60.96 121.92 0)
 			(effects
 				(font
@@ -9462,7 +9462,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "83c2be9e-6629-46bf-86d2-5cdc327ac6ca")
 		(property "Reference" "C40"

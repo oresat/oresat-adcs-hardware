@@ -3904,7 +3904,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0723K7L"
+		(property "Value" "23.7k"
 			(at 130.81 191.77 0)
 			(effects
 				(font
@@ -4041,7 +4041,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CC0603KRX7R7BB105"
+		(property "Value" "1u"
 			(at 138.43 172.72 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CC0603KRX7R7BB105"
+		(property "Value" "1u"
 			(at 99.06 172.72 0)
 			(effects
 				(font
@@ -4383,7 +4383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CC0603KRX7R7BB105"
+		(property "Value" "1u"
 			(at 217.17 181.61 0)
 			(effects
 				(font
@@ -4453,7 +4453,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CC0603KRX7R7BB105"
+		(property "Value" "1u"
 			(at 275.59 72.39 0)
 			(effects
 				(font
@@ -4523,7 +4523,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 226.06 100.33 0)
 			(effects
 				(font
@@ -4880,7 +4880,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 252.73 170.18 0)
 			(effects
 				(font
@@ -4950,7 +4950,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 218.44 100.33 0)
 			(effects
 				(font
@@ -5021,7 +5021,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 269.24 170.18 0)
 			(effects
 				(font
@@ -5381,7 +5381,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 276.86 170.18 0)
 			(effects
 				(font
@@ -5717,7 +5717,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CC0603KRX7R7BB105"
+		(property "Value" "1u"
 			(at 267.97 72.39 0)
 			(effects
 				(font
@@ -5854,7 +5854,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 91.44 160.02 0)
 			(effects
 				(font

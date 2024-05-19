@@ -9359,7 +9359,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "10k"
 			(at 257.81 59.69 0)
 			(effects
 				(font
@@ -9430,7 +9430,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNL"
+		(property "Value" "100n"
 			(at 128.27 100.33 0)
 			(effects
 				(font
@@ -9500,7 +9500,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 95.25 87.63 0)
 			(effects
 				(font
@@ -10075,7 +10075,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CSR1206FTR100"
+		(property "Value" "15m"
 			(at 280.67 36.83 0)
 			(effects
 				(font
@@ -10212,7 +10212,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRGCQ0603F2K7"
+		(property "Value" "10k"
 			(at 398.78 44.45 0)
 			(effects
 				(font
@@ -10348,7 +10348,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CC0603KRX7R7BB105"
+		(property "Value" "1u"
 			(at 107.95 231.14 0)
 			(effects
 				(font
@@ -10418,7 +10418,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 64.77 77.47 0)
 			(effects
 				(font
@@ -10993,7 +10993,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 102.87 107.95 0)
 			(effects
 				(font
@@ -11063,7 +11063,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "100"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -11132,7 +11132,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "1k"
 			(at 364.49 46.99 0)
 			(effects
 				(font
@@ -11533,7 +11533,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MCT06030C3303FP000"
+		(property "Value" "330k"
 			(at 107.95 176.53 0)
 			(effects
 				(font
@@ -11718,7 +11718,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "100"
 			(at 158.75 67.31 0)
 			(effects
 				(font
@@ -11854,7 +11854,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-07665KL"
+		(property "Value" "665k"
 			(at 92.71 200.66 0)
 			(effects
 				(font
@@ -11994,7 +11994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRGCQ0603F2K7"
+		(property "Value" "10k"
 			(at 142.24 99.06 0)
 			(effects
 				(font
@@ -12065,7 +12065,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CL10B104KB8NNNL"
+		(property "Value" "100n"
 			(at 153.67 57.15 0)
 			(effects
 				(font
@@ -12135,7 +12135,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 356.87 57.15 0)
 			(effects
 				(font
@@ -12264,7 +12264,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "500e49f7-79ae-4e35-947b-08c3a312e894")
 		(property "Reference" "R60"
 			(at 332.5114 59.69 0)
@@ -12275,7 +12275,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "NP"
 			(at 334.01 54.61 0)
 			(effects
 				(font
@@ -12411,7 +12411,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 74.93 77.47 0)
 			(effects
 				(font
@@ -12616,7 +12616,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SML-E12M8WT86"
+		(property "Value" "GREEN"
 			(at 398.78 54.61 90)
 			(effects
 				(font
@@ -12686,7 +12686,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC0603JR-070RL"
+		(property "Value" "0"
 			(at 318.77 57.15 0)
 			(effects
 				(font
@@ -12756,7 +12756,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 383.54 57.15 0)
 			(effects
 				(font
@@ -12826,7 +12826,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-07100RL"
+		(property "Value" "100"
 			(at 68.58 227.33 0)
 			(effects
 				(font
@@ -13184,7 +13184,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-07665KL"
+		(property "Value" "665k"
 			(at 92.71 245.11 0)
 			(effects
 				(font
@@ -13558,7 +13558,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 351.79 41.91 0)
 			(effects
 				(font
@@ -13628,7 +13628,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "RC0603JR-070RL"
+		(property "Value" "0"
 			(at 323.85 49.53 0)
 			(effects
 				(font
@@ -13786,7 +13786,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 64.77 87.63 0)
 			(effects
 				(font
@@ -13845,7 +13845,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "81fbc598-7e3b-4e0f-81b9-a850c73127f2")
 		(property "Reference" "R62"
 			(at 322.58 77.47 0)
@@ -13856,7 +13856,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "NP"
 			(at 323.85 72.39 0)
 			(effects
 				(font
@@ -14062,7 +14062,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MCT06030C3303FP000"
+		(property "Value" "330k"
 			(at 107.95 220.98 0)
 			(effects
 				(font
@@ -14214,7 +14214,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 59.69 87.63 0)
 			(effects
 				(font
@@ -14284,7 +14284,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 90.17 87.63 0)
 			(effects
 				(font
@@ -14420,7 +14420,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 90.17 77.47 0)
 			(effects
 				(font
@@ -14695,7 +14695,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 74.93 87.63 0)
 			(effects
 				(font
@@ -14897,7 +14897,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 306.07 87.63 0)
 			(effects
 				(font
@@ -14967,7 +14967,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 204.47 41.91 0)
 			(effects
 				(font
@@ -15037,7 +15037,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "100"
 			(at 58.42 76.2 0)
 			(effects
 				(font
@@ -15173,7 +15173,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "IN-S63AT5A"
+		(property "Value" "AMBER"
 			(at 210.82 82.55 90)
 			(effects
 				(font
@@ -15243,7 +15243,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CC0603KRX7R7BB105"
+		(property "Value" "1u"
 			(at 240.03 54.61 0)
 			(effects
 				(font
@@ -15707,7 +15707,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-071ML"
+		(property "Value" "1M"
 			(at 115.57 220.98 0)
 			(effects
 				(font
@@ -16043,7 +16043,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CC0603KRX7R7BB105"
+		(property "Value" "1u"
 			(at 107.95 186.69 0)
 			(effects
 				(font
@@ -16394,7 +16394,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "CRGCQ0603F2K7"
+		(property "Value" "4.7k"
 			(at 200.66 82.55 0)
 			(effects
 				(font
@@ -16610,7 +16610,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "100"
 			(at 158.75 69.85 0)
 			(effects
 				(font
@@ -16750,7 +16750,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710KL"
+		(property "Value" "10k"
 			(at 199.39 62.23 0)
 			(effects
 				(font
@@ -16820,7 +16820,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC1005F6653CS"
+		(property "Value" "100k"
 			(at 250.19 64.77 0)
 			(effects
 				(font
@@ -16890,7 +16890,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-07100RL"
+		(property "Value" "100"
 			(at 68.58 182.88 0)
 			(effects
 				(font
@@ -17376,7 +17376,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "100"
 			(at 99.06 76.2 0)
 			(effects
 				(font
@@ -17515,7 +17515,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-071ML"
+		(property "Value" "1M"
 			(at 115.57 176.53 0)
 			(effects
 				(font
@@ -17651,7 +17651,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RC0603FR-0710RL"
+		(property "Value" "10"
 			(at 58.42 44.45 0)
 			(effects
 				(font
@@ -17794,7 +17794,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LED-GREEN0603"
+		(property "Value" "GREEN"
 			(at 340.995 206.502 90)
 			(effects
 				(font
@@ -18007,7 +18007,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2.7k"
+		(property "Value" "NP"
 			(at 80.01 87.63 0)
 			(effects
 				(font
