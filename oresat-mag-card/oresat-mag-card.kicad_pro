@@ -628,7 +628,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "oresat-adcs-card.kicad_pro",
+    "filename": "oresat-mag-card.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -970,11 +970,11 @@
     ],
     [
       "e889bc11-06d8-4b5a-8dd5-30963e8b2dc1",
-      "MCXN uC"
+      "Microcontroller"
     ],
     [
       "a4e22a47-8081-427b-a284-fdb057c6b905",
-      "Sensors"
+      "Magnetometers + IMU"
     ],
     [
       "ea4234c5-c7c7-400f-8e65-99a982be6ec1",

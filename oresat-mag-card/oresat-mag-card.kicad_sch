@@ -9556,7 +9556,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-adcs-card-sch-card-power.kicad_sch"
+		(property "Sheetfile" "oresat-mag-card-sch-power.kicad_sch"
 			(at 226.06 264.7446 0)
 			(effects
 				(font
@@ -9646,7 +9646,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(page "2")
 				)
@@ -9669,7 +9669,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a4e22a47-8081-427b-a284-fdb057c6b905")
-		(property "Sheetname" "Sensors"
+		(property "Sheetname" "Magnetometers + IMU"
 			(at 226.06 177.0884 0)
 			(effects
 				(font
@@ -9678,7 +9678,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-adcs-card-sch-sensors.kicad_sch"
+		(property "Sheetfile" "oresat-mag-card-sch-sensors.kicad_sch"
 			(at 226.06 211.4046 0)
 			(effects
 				(font
@@ -9768,7 +9768,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(page "4")
 				)
@@ -9791,7 +9791,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e889bc11-06d8-4b5a-8dd5-30963e8b2dc1")
-		(property "Sheetname" "MCXN uC"
+		(property "Sheetname" "Microcontroller"
 			(at 226.06 278.6884 0)
 			(effects
 				(font
@@ -9800,7 +9800,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCXN_uC.kicad_sch"
+		(property "Sheetfile" "oresat-mag-card-sch-microcontroller.kicad_sch"
 			(at 226.06 379.0446 0)
 			(effects
 				(font
@@ -10040,7 +10040,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(page "3")
 				)
@@ -10071,7 +10071,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-adcs-card-sch-magnetorquers.kicad_sch"
+		(property "Sheetfile" "oresat-mag-card-sch-magnetorquers.kicad_sch"
 			(at 342.9 156.464 0)
 			(effects
 				(font
@@ -10271,7 +10271,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(page "5")
 				)
