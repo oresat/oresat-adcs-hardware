@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "MCXN-rev-3-symbols")(type "KiCad")(uri "${KIPRJMOD}/MCXN-rev-3-symbols.kicad_sym")(options "")(descr ""))
-)
