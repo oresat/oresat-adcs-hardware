@@ -1,0 +1,195 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e3478264-8144-4891-a85f-e20358e93e76")
+	(paper "A3")
+	(title_block
+		(title "OreSat Reaction Wheel Control Board (MCXN Version)")
+		(rev "3")
+		(company "Chris Kane-Pardy, Portland State Aerospace Society")
+	)
+	(lib_symbols)
+	(sheet
+		(at 13.97 200.66)
+		(size 224.79 80.01)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14349772-60e7-4809-ad4a-e5259fbd4b18")
+		(property "Sheetname" "Power Architecture"
+			(at 13.97 279.908 0)
+			(effects
+				(font
+					(size 12.7 12.7)
+					(thickness 2.54)
+					(bold yes)
+					(color 0 0 132 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 13.97 281.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control-stage"
+				(path "/e3478264-8144-4891-a85f-e20358e93e76"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 13.97)
+		(size 165.1 237.49)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55d8045c-f21d-4f9d-a56c-9396b7520f64")
+		(property "Sheetname" "Mezzanine Connectors"
+			(at 241.3 250.444 0)
+			(effects
+				(font
+					(size 7.62 7.62)
+					(thickness 2.54)
+					(bold yes)
+					(color 0 0 132 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mezzanine.kicad_sch"
+			(at 241.3 252.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control-stage"
+				(path "/e3478264-8144-4891-a85f-e20358e93e76"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 13.97)
+		(size 226.06 97.79)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a94c05d-ecc0-43cc-b4b4-0f75b4fec388")
+		(property "Sheetname" "MCXN"
+			(at 13.97 110.49 0)
+			(effects
+				(font
+					(size 12.7 12.7)
+					(thickness 2.54)
+					(bold yes)
+					(color 0 0 132 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCXN.kicad_sch"
+			(at 13.97 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control-stage"
+				(path "/e3478264-8144-4891-a85f-e20358e93e76"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 116.84)
+		(size 226.06 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a8fc29df-6015-4322-b00d-36def1d3ccaf")
+		(property "Sheetname" "Debug"
+			(at 13.97 191.516 0)
+			(effects
+				(font
+					(size 12.7 12.7)
+					(thickness 2.54)
+					(bold yes)
+					(color 0 0 132 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug.kicad_sch"
+			(at 13.97 196.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control-stage"
+				(path "/e3478264-8144-4891-a85f-e20358e93e76"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
