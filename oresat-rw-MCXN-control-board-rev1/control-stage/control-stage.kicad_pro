@@ -60,23 +60,19 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|158350000|84412500|09d83a12-f2dd-4d06-8264-afddefd070bd|34a47d89-da6a-4b57-a0d8-d4f031dcc249",
+          "clearance|158350000|84087500|34a47d89-da6a-4b57-a0d8-d4f031dcc249|09d83a12-f2dd-4d06-8264-afddefd070bd",
           ""
         ],
         [
-          "clearance|158350000|84912500|9cff8278-1632-4f19-a174-6ba9b4bbf1bf|09d83a12-f2dd-4d06-8264-afddefd070bd",
+          "clearance|158350000|84587500|09d83a12-f2dd-4d06-8264-afddefd070bd|9cff8278-1632-4f19-a174-6ba9b4bbf1bf",
           ""
         ],
         [
-          "clearance|159775000|84087500|b6bc5692-f487-4686-ae37-3856c3ee3afa|4901f3f2-6ccf-461f-a480-82dfb943c946",
+          "clearance|159775000|84412500|4901f3f2-6ccf-461f-a480-82dfb943c946|b6bc5692-f487-4686-ae37-3856c3ee3afa",
           ""
         ],
         [
-          "clearance|159775000|84412500|4901f3f2-6ccf-461f-a480-82dfb943c946|d133c2c7-67fd-4596-99e2-d4e73b68e973",
-          ""
-        ],
-        [
-          "clearance|159775000|84587500|4901f3f2-6ccf-461f-a480-82dfb943c946|f243b2b9-fff4-484b-92ee-bccf74a3653c",
+          "clearance|159775000|84912500|f243b2b9-fff4-484b-92ee-bccf74a3653c|4901f3f2-6ccf-461f-a480-82dfb943c946",
           ""
         ],
         [
@@ -96,19 +92,15 @@
           ""
         ],
         [
-          "solder_mask_bridge|136000000|74610000|a5aa492e-d36e-49e1-a60b-fff0bb1ba595|89e748ac-81e1-485d-b348-43abc9a12676",
+          "unconnected_items|135766726|78266726|F.Cu|4|fbf63f53-6b43-45a3-9303-4ec65685826e|5ff277b4-64e7-4422-a5d6-c945d2f0e178",
           ""
         ],
         [
-          "unconnected_items|132950000|61637500|5ff277b4-64e7-4422-a5d6-c945d2f0e178|fbf63f53-6b43-45a3-9303-4ec65685826e",
+          "unconnected_items|159512500|59350000|F.Cu|4|110e5992-7542-4748-a8b2-2d6f958ebf83|2195f6e5-7c80-49c4-83e8-617aef704433",
           ""
         ],
         [
-          "unconnected_items|159512500|59350000|110e5992-7542-4748-a8b2-2d6f958ebf83|2195f6e5-7c80-49c4-83e8-617aef704433",
-          ""
-        ],
-        [
-          "unconnected_items|162766726|78266726|b9a552d5-921b-48e2-a506-661b595fc615|7f4b0ad6-41b4-4880-a6e0-159a312c099a",
+          "unconnected_items|162766726|60566726|F.Cu|4|7f4b0ad6-41b4-4880-a6e0-159a312c099a|b9a552d5-921b-48e2-a506-661b595fc615",
           ""
         ]
       ],
@@ -539,6 +531,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -585,7 +578,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "build",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
