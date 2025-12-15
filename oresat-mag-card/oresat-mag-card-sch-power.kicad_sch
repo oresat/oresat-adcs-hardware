@@ -5098,6 +5098,19 @@
 		)
 		(uuid "73c017c3-8122-4e99-9828-9d59e5ed777e")
 	)
+	(text "FIXME"
+		(exclude_from_sim no)
+		(at 295.656 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "77c4229f-52ba-4b4d-ba2e-62c257fec20f")
+	)
 	(text "1206"
 		(exclude_from_sim no)
 		(at 332.74 123.19 0)
@@ -5109,6 +5122,19 @@
 		)
 		(uuid "7a8f9329-4004-4f23-b060-e05858440dc2")
 	)
+	(text "FIXME"
+		(exclude_from_sim no)
+		(at 307.594 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "84709a32-db56-4458-bd33-28e8c4c7250b")
+	)
 	(text "(3.3V)"
 		(exclude_from_sim no)
 		(at 161.29 176.53 0)
@@ -5119,6 +5145,32 @@
 			(justify left bottom)
 		)
 		(uuid "8f403a3e-69cf-4320-99d1-a1be9f0d3472")
+	)
+	(text "FIXME"
+		(exclude_from_sim no)
+		(at 215.138 276.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "932f08d6-a89b-411c-8bac-815253df5e14")
+	)
+	(text "FIXME"
+		(exclude_from_sim no)
+		(at 208.534 215.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "979fb736-c81a-4bbc-8175-5c82cbc3c2d0")
 	)
 	(text "To STM32 I2C\nbootloader"
 		(exclude_from_sim no)
@@ -5185,6 +5237,19 @@
 			(justify left bottom)
 		)
 		(uuid "f5b00045-b817-4edc-9066-f4ed03525bd4")
+	)
+	(text "FIXME"
+		(exclude_from_sim no)
+		(at 232.664 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "fa0a15a4-5dc3-4c4a-82d2-8e60c6a779cc")
 	)
 	(junction
 		(at 113.03 152.4)

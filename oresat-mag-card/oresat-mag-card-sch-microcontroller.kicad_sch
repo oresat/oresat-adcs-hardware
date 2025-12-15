@@ -4564,6 +4564,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "FIXME"
+		(exclude_from_sim no)
+		(at 176.53 169.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "3eca7311-542b-4023-a756-6c7fa1135963")
+	)
 	(text "Each magnetorquer operate individually of each other\nPWM specification does not really matter here."
 		(exclude_from_sim no)
 		(at 331.978 153.67 0)
@@ -4604,6 +4617,19 @@
 			(justify left bottom)
 		)
 		(uuid "7be49d8f-8b1c-49f5-bcf0-aeefb7162cf9")
+	)
+	(text "FIXME"
+		(exclude_from_sim no)
+		(at 173.736 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8644adb3-857d-48bf-ad9f-18111ad9bacd")
 	)
 	(text "I2C"
 		(exclude_from_sim no)
@@ -5023,6 +5049,10 @@
 		(uuid "6152b8d6-db50-4d49-b8fe-37dd2318cdbb")
 	)
 	(no_connect
+		(at 144.78 279.4)
+		(uuid "6528ca9d-0277-4119-851c-8eaf54ddec60")
+	)
+	(no_connect
 		(at 311.15 173.99)
 		(uuid "664b19a4-5409-4153-8f28-b07103dda68b")
 	)
@@ -5075,6 +5105,10 @@
 		(uuid "bca886e0-f4cd-47f7-8b7e-f86c14c7e6d8")
 	)
 	(no_connect
+		(at 144.78 281.94)
+		(uuid "c1aa1532-b523-4af9-b90b-ec2a6722fa21")
+	)
+	(no_connect
 		(at 312.42 308.61)
 		(uuid "cb0453d4-fa46-4610-b998-22e933e8ebb8")
 	)
@@ -5105,6 +5139,10 @@
 	(no_connect
 		(at 311.15 168.91)
 		(uuid "e47dd4a6-3e95-4cc9-85f5-b89f87b270ec")
+	)
+	(no_connect
+		(at 144.78 274.32)
+		(uuid "e844711e-bec2-46a7-899c-4c286e532814")
 	)
 	(no_connect
 		(at 311.15 280.67)
