@@ -4979,10 +4979,6 @@
 		(uuid "34be7b1f-7deb-4a2c-94e3-0764d70f797d")
 	)
 	(no_connect
-		(at 311.15 176.53)
-		(uuid "3940c6aa-568d-4c9f-b37b-cf3087cc6b79")
-	)
-	(no_connect
 		(at 312.42 303.53)
 		(uuid "3d0a632c-e713-4f99-b323-a6923339f76f")
 	)
@@ -5101,10 +5097,6 @@
 	(no_connect
 		(at 311.15 203.2)
 		(uuid "dd92a2a2-9809-44b8-9ee3-9aae3420d7c9")
-	)
-	(no_connect
-		(at 311.15 179.07)
-		(uuid "debe3c00-5660-46d1-807a-05012422528d")
 	)
 	(no_connect
 		(at 144.78 248.92)
@@ -6398,6 +6390,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 176.53) (xy 327.66 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5012704-c4c2-409f-9206-5c5bd0ee6171")
+	)
+	(wire
+		(pts
 			(xy 424.18 170.18) (xy 455.93 170.18)
 		)
 		(stroke
@@ -6608,6 +6610,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 179.07) (xy 327.66 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6d18a0-4a75-4577-bfaf-52994150e7f1")
+	)
+	(wire
+		(pts
 			(xy 466.09 170.18) (xy 466.09 167.64)
 		)
 		(stroke
@@ -6714,6 +6726,17 @@
 			(justify left)
 		)
 		(uuid "381b90ce-05a3-4f8e-a1d4-b63dc95b4864")
+	)
+	(hierarchical_label "IMU_INT2"
+		(shape input)
+		(at 327.66 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3bd001c4-0358-4db2-973a-146776d563f8")
 	)
 	(hierarchical_label "MAG_~{FAULT}"
 		(shape input)
@@ -6913,6 +6936,17 @@
 		)
 		(uuid "f23604da-adf8-4c5f-9f97-846045be8597")
 	)
+	(hierarchical_label "IMU_INT1"
+		(shape input)
+		(at 327.66 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3b6d9fa-61f6-4f73-823c-526080551adf")
+	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:TCAN330")
 		(at 207.01 274.32 0)
@@ -6996,6 +7030,15 @@
 			)
 		)
 		(property "DPN" "296-46215-1-ND"
+			(at 207.01 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 207.01 274.32 0)
 			(effects
 				(font
@@ -7130,7 +7173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 516.89 38.1 0)
 			(effects
 				(font
@@ -7193,6 +7236,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 516.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a436d78f-37e3-48ea-a11e-8507fff8b97b")
 		)
@@ -7235,7 +7287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 455.93 180.34 0)
 			(effects
 				(font
@@ -7290,6 +7342,15 @@
 			)
 		)
 		(property "DPN" "587-3473-1-ND"
+			(at 455.93 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 455.93 180.34 0)
 			(effects
 				(font
@@ -7395,6 +7456,15 @@
 			)
 		)
 		(property "DPN" "771-MCXN947VKLT"
+			(at 128.27 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 128.27 189.23 0)
 			(effects
 				(font
@@ -7806,6 +7876,15 @@
 			)
 		)
 		(property "DPN" "771-MCXN947VKLT"
+			(at 128.27 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 128.27 265.43 0)
 			(effects
 				(font
@@ -8296,6 +8375,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 294.64 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "3400f71f-711b-4780-8312-a4f01d60c848")
 		)
@@ -8699,6 +8787,15 @@
 			)
 		)
 		(property "DPN" "771-MCXN947VKLT"
+			(at 295.91 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 295.91 307.34 0)
 			(effects
 				(font
@@ -9119,7 +9216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 524.51 38.1 0)
 			(effects
 				(font
@@ -9174,6 +9271,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 524.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 524.51 38.1 0)
 			(effects
 				(font
@@ -9489,6 +9595,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 182.88 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c01b0685-6354-4908-88b1-652c32e9422a")
 		)
@@ -9600,7 +9715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 167.64 295.91 0)
 			(effects
 				(font
@@ -9655,6 +9770,15 @@
 			)
 		)
 		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
+			(at 167.64 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 167.64 295.91 0)
 			(effects
 				(font
@@ -9767,6 +9891,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 434.34 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1f97c8b-320f-4fec-ac56-0a031f5fb456")
 		)
@@ -9809,7 +9942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 548.64 38.1 0)
 			(effects
 				(font
@@ -9864,6 +9997,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 548.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 548.64 38.1 0)
 			(effects
 				(font
@@ -9914,7 +10056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 494.03 38.1 0)
 			(effects
 				(font
@@ -9969,6 +10111,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 494.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 494.03 38.1 0)
 			(effects
 				(font
@@ -10151,7 +10302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 501.65 38.1 0)
 			(effects
 				(font
@@ -10206,6 +10357,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 501.65 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 501.65 38.1 0)
 			(effects
 				(font
@@ -10322,7 +10482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 539.75 38.1 0)
 			(effects
 				(font
@@ -10377,6 +10537,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 539.75 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 539.75 38.1 0)
 			(effects
 				(font
@@ -10637,6 +10806,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 182.88 293.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "711d3a06-b3cf-48da-93fe-e4d864f51c5b")
 		)
@@ -10744,6 +10922,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 369.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f54d9315-d531-45f7-b695-64144ff4cd36")
 		)
@@ -10841,6 +11028,15 @@
 			)
 		)
 		(property "DPN" "771-MCXN947VKLT"
+			(at 294.64 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 294.64 212.09 0)
 			(effects
 				(font
@@ -11258,6 +11454,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 337.82 262.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1ff9c1f0-881b-4f49-a60e-434634f45f4e")
 		)
@@ -11356,6 +11561,15 @@
 			)
 		)
 		(property "DPN" "771-MCXN947VKLT"
+			(at 294.64 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 294.64 265.43 0)
 			(effects
 				(font
@@ -11711,7 +11925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 509.27 38.1 0)
 			(effects
 				(font
@@ -11766,6 +11980,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 509.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 509.27 38.1 0)
 			(effects
 				(font
@@ -12015,7 +12238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 369.57 132.08 0)
 			(effects
 				(font
@@ -12070,6 +12293,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 369.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 369.57 132.08 0)
 			(effects
 				(font
@@ -12174,6 +12406,15 @@
 			)
 		)
 		(property "DPN" "1923-830108212309CT-ND"
+			(at 156.21 290.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 156.21 290.83 90)
 			(effects
 				(font
@@ -12351,6 +12592,15 @@
 			)
 		)
 		(property "DPN" "1934-1472-1-ND"
+			(at 462.28 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 462.28 170.18 0)
 			(effects
 				(font
@@ -12864,7 +13114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 433.07 212.09 0)
 			(effects
 				(font
@@ -12919,6 +13169,15 @@
 			)
 		)
 		(property "DPN" "587-4332-1-ND"
+			(at 433.07 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 433.07 212.09 0)
 			(effects
 				(font
@@ -13026,6 +13285,15 @@
 			)
 		)
 		(property "DPN" "771-MCXN947VKLT"
+			(at 402.59 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 402.59 166.37 0)
 			(effects
 				(font
@@ -13381,7 +13649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 448.31 190.5 0)
 			(effects
 				(font
@@ -13444,6 +13712,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 448.31 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "56c10bfd-e4d4-49ca-be0c-0d1507bfecc8")
 		)
@@ -13488,7 +13765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 148.59 298.45 0)
 			(effects
 				(font
@@ -13543,6 +13820,15 @@
 			)
 		)
 		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
+			(at 148.59 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 148.59 298.45 0)
 			(effects
 				(font
@@ -13791,7 +14077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 438.15 198.12 0)
 			(effects
 				(font
@@ -13846,6 +14132,15 @@
 			)
 		)
 		(property "DPN" "445-12661-1-ND"
+			(at 438.15 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 438.15 198.12 0)
 			(effects
 				(font
@@ -14159,7 +14454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 425.45 212.09 0)
 			(effects
 				(font
@@ -14214,6 +14509,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 425.45 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 425.45 212.09 0)
 			(effects
 				(font
@@ -14264,7 +14568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 219.71 262.89 0)
 			(effects
 				(font
@@ -14319,6 +14623,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 219.71 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 219.71 262.89 0)
 			(effects
 				(font
@@ -14434,7 +14747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 434.34 154.94 0)
 			(effects
 				(font
@@ -14489,6 +14802,15 @@
 			)
 		)
 		(property "DPN" "587-4332-1-ND"
+			(at 434.34 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 434.34 154.94 90)
 			(effects
 				(font
@@ -14567,6 +14889,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 374.65 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f176481-6403-45bf-aeb0-3c206ac4eff2")
 		)
@@ -14606,7 +14937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 532.13 38.1 0)
 			(effects
 				(font
@@ -14661,6 +14992,15 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
+			(at 532.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 532.13 38.1 0)
 			(effects
 				(font

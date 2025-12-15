@@ -11,6 +11,319 @@
 		(company "Edward Tsoi")
 	)
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:Q_Dual_PMOS_G1S2G2D2S1D1"
 			(pin_names
 				(offset 0)
@@ -1511,744 +1824,6 @@
 						)
 					)
 					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-acs-card-eagle-import:MOSFET-PCH-SOT23-6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MOSFET-PCH-SOT23-6"
-				(at -11.43 -3.81 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MOSFET-PCH-SOT23-6_1_0"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.54) (xy 0.762 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.905) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 0.762 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy 0.762 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 0.762 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -3.175) (xy 0.762 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.762 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0.762) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -2.54)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0.762) (xy 3.302 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.508) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.508) (xy 4.318 -0.254) (xy 3.302 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 0.508) (xy 4.572 0.254)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-acs-card-eagle-import:PMV45EN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PMV45EN"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PMV45EN_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.032 1.397)
-					(end -1.524 2.921)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -0.762)
-					(end -1.524 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.921)
-					(end -1.524 -1.397)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 2.159) (xy 0 2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -0.508 0.635) (xy -0.508 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -2.159) (xy 0 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.048) (xy 1.397 3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.159) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.159) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.762 0.762)
-					(end 2.032 0.889)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 3.048) (xy 1.397 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 0.762) (xy 2.032 -0.254) (xy 0.762 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -0.254) (xy 1.397 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.397 -3.048) (xy 0 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -5322,104 +4897,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers
@@ -5557,7 +5034,7 @@
 	)
 	(text "3.3V Card Switching Supply"
 		(exclude_from_sim no)
-		(at 346.71 290.83 0)
+		(at 343.408 291.084 0)
 		(effects
 			(font
 				(size 3.81 3.2385)
@@ -5568,7 +5045,7 @@
 	)
 	(text "ECS-MPI4040R4-6R8-R"
 		(exclude_from_sim no)
-		(at 386.08 299.72 0)
+		(at 395.478 299.974 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5689,7 +5166,7 @@
 	)
 	(text "0805"
 		(exclude_from_sim no)
-		(at 416.56 317.5 0)
+		(at 439.42 317.5 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -5722,7 +5199,7 @@
 		(uuid "02503c53-d04d-44c8-9da1-daa0b0edbb6f")
 	)
 	(junction
-		(at 435.61 119.38)
+		(at 471.17 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06dda285-c680-42c4-8e78-01fec3b11192")
@@ -5746,7 +5223,7 @@
 		(uuid "10bd3120-1ec4-45da-89b8-27344c5a6088")
 	)
 	(junction
-		(at 410.21 304.8)
+		(at 433.07 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "117b06ec-dc4e-4750-934c-f1c0799006c9")
@@ -5762,6 +5239,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "181378e8-7102-4a44-b001-45175260beb8")
+	)
+	(junction
+		(at 412.75 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c894e2b-3297-489c-948c-4a7928df4a01")
 	)
 	(junction
 		(at 140.97 208.28)
@@ -5812,7 +5295,7 @@
 		(uuid "2f513496-0da5-460d-9b65-76c049916c84")
 	)
 	(junction
-		(at 412.75 304.8)
+		(at 435.61 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3017ff5a-a688-458b-bc91-2b91ea1e010c")
@@ -5834,12 +5317,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33b4dc87-d23a-4997-8b3d-76bbaa6cb0ef")
-	)
-	(junction
-		(at 223.52 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "363bd977-229e-4675-ba7c-ad98419f81d4")
 	)
 	(junction
 		(at 179.07 299.72)
@@ -5878,34 +5355,10 @@
 		(uuid "46a60137-2053-422a-b5c5-c89257ba074c")
 	)
 	(junction
-		(at 412.75 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fab0b58-ef30-42ef-ad7e-ac6fcde0c659")
-	)
-	(junction
 		(at 306.07 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "538a5dae-8fb2-43b3-8c61-973e39d0f8b8")
-	)
-	(junction
-		(at 400.05 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "540df67b-f8db-484a-868a-a80e794e8d8d")
-	)
-	(junction
-		(at 424.18 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5416dabb-b5ab-4951-89e5-160a19f55070")
-	)
-	(junction
-		(at 415.29 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57e345a7-fd4d-4640-953c-1489199ff73d")
 	)
 	(junction
 		(at 351.79 304.8)
@@ -5920,6 +5373,12 @@
 		(uuid "5a07dbc4-e34c-44f8-9cb5-459d8ccbafc0")
 	)
 	(junction
+		(at 271.78 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a203109-256b-465e-8afa-7aa09728da4b")
+	)
+	(junction
 		(at 359.41 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5930,12 +5389,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66a7c90d-0d12-4607-aa94-775b74835ae4")
-	)
-	(junction
-		(at 405.13 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66a93d04-0308-433d-84c9-b6bd118d7486")
 	)
 	(junction
 		(at 254 226.06)
@@ -5956,7 +5409,7 @@
 		(uuid "7076fdf9-3d9e-46dc-8021-cde9c82fa64e")
 	)
 	(junction
-		(at 415.29 302.26)
+		(at 438.15 302.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "710deca7-5df4-4e58-8361-22c21253049c")
@@ -5968,16 +5421,34 @@
 		(uuid "718416e3-dd6c-4fe6-8107-787cf5ffdb22")
 	)
 	(junction
+		(at 440.69 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79bf0e66-2209-4dd4-b4ac-76864d134b35")
+	)
+	(junction
 		(at 354.33 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a3aa626-9901-4b92-805e-743e0ef3f087")
 	)
 	(junction
+		(at 461.01 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7afbae63-ffa6-414c-848d-46d578380e59")
+	)
+	(junction
 		(at 257.81 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bc1b0be-5375-4860-b9f7-f06f42500df3")
+	)
+	(junction
+		(at 436.88 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7be0ab17-0ed9-4c9c-bd17-c2189a306462")
 	)
 	(junction
 		(at 179.07 344.17)
@@ -6010,6 +5481,12 @@
 		(uuid "931e0314-2895-41b4-ade0-aa160700a4f7")
 	)
 	(junction
+		(at 424.18 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "956f3ecd-f10e-4648-b543-daf463727200")
+	)
+	(junction
 		(at 120.65 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6040,10 +5517,16 @@
 		(uuid "a37318fa-8dc9-42f8-88a1-5023278e8589")
 	)
 	(junction
-		(at 415.29 304.8)
+		(at 438.15 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4e64c80-b2df-4558-a2cb-a8c6591229fc")
+	)
+	(junction
+		(at 454.66 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a68df6ba-84d6-44c8-9cc0-7ba7e0b8b783")
 	)
 	(junction
 		(at 107.95 149.86)
@@ -6100,10 +5583,10 @@
 		(uuid "aebbbda9-299a-49ff-9338-8f25d5336c0d")
 	)
 	(junction
-		(at 417.83 170.18)
+		(at 424.18 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb715cff-2ca3-46b1-abaa-1d9fa4c43041")
+		(uuid "b0187eb7-33f4-4242-9c5f-43be3cc89963")
 	)
 	(junction
 		(at 114.3 127)
@@ -6118,6 +5601,12 @@
 		(uuid "bec16055-a290-408e-a018-3dada3d80d98")
 	)
 	(junction
+		(at 405.13 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c41ecfbe-170f-45b2-8b3c-78910d535191")
+	)
+	(junction
 		(at 123.19 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6130,10 +5619,10 @@
 		(uuid "ceaec669-42ab-4740-975c-9af0f9579f52")
 	)
 	(junction
-		(at 405.13 129.54)
+		(at 412.75 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d1f57772-5ce6-4b85-bd55-bf5b4526514f")
+		(uuid "cf0f68ce-0dcc-4604-b405-2ac7bdeca0a3")
 	)
 	(junction
 		(at 384.81 132.08)
@@ -6158,6 +5647,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e74c5e37-c4b2-4ecb-bff4-6f7e1c448d91")
+	)
+	(junction
+		(at 449.58 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f50ebb96-6b06-4205-91a1-d3b9dd298415")
 	)
 	(junction
 		(at 138.43 182.88)
@@ -6219,16 +5714,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 144.78) (xy 224.79 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c3f9fd-2c1a-48ef-ac20-b62703767065")
-	)
-	(wire
-		(pts
 			(xy 133.35 374.65) (xy 133.35 361.95)
 		)
 		(stroke
@@ -6259,6 +5744,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 182.88) (xy 195.58 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08561a5c-2103-4126-a29f-2618b17df4c0")
+	)
+	(wire
+		(pts
 			(xy 179.07 344.17) (xy 179.07 351.79)
 		)
 		(stroke
@@ -6269,7 +5764,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 180.34) (xy 318.77 180.34)
+			(xy 318.77 180.34) (xy 424.18 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6349,6 +5844,26 @@
 	)
 	(wire
 		(pts
+			(xy 461.01 119.38) (xy 461.01 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c545c6-9a5c-4a79-8269-0c832b1e5a76")
+	)
+	(wire
+		(pts
+			(xy 436.88 119.38) (xy 436.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16917a05-1ffd-4b25-8713-6bdef238559e")
+	)
+	(wire
+		(pts
 			(xy 331.47 119.38) (xy 331.47 121.92)
 		)
 		(stroke
@@ -6369,13 +5884,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 182.88) (xy 171.45 182.88)
+			(xy 223.52 137.16) (xy 223.52 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19a4f767-dc1c-42e6-80bf-577af4534bd6")
+		(uuid "199082ce-118f-4c4f-b84f-44ed5ec62b9e")
 	)
 	(wire
 		(pts
@@ -6389,6 +5904,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 309.88) (xy 435.61 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c462f59-a75c-4989-a869-25d6f89e040f")
+	)
+	(wire
+		(pts
 			(xy 125.73 200.66) (xy 125.73 165.1)
 		)
 		(stroke
@@ -6399,7 +5924,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 144.78) (xy 232.41 146.05)
+			(xy 298.45 219.71) (xy 298.45 220.98)
 		)
 		(stroke
 			(width 0)
@@ -6409,7 +5934,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 317.5) (xy 341.63 314.96)
+			(xy 341.63 317.5) (xy 341.63 316.23)
 		)
 		(stroke
 			(width 0)
@@ -6429,7 +5954,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 304.8) (xy 394.97 304.8)
+			(xy 389.89 304.8) (xy 402.59 304.8)
 		)
 		(stroke
 			(width 0)
@@ -6439,7 +5964,17 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 119.38) (xy 415.29 119.38)
+			(xy 436.88 125.73) (xy 436.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed2a32c-e378-4e5f-97fa-fffb97b551bf")
+	)
+	(wire
+		(pts
+			(xy 429.26 119.38) (xy 436.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6489,13 +6024,23 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 307.34) (xy 415.29 304.8)
+			(xy 438.15 307.34) (xy 438.15 304.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "21a7e865-c24c-47c9-95c0-c2ec9bcaeafd")
+	)
+	(wire
+		(pts
+			(xy 412.75 119.38) (xy 419.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c9f64e-8330-48d0-9b5f-f5be230a134d")
 	)
 	(wire
 		(pts
@@ -6519,7 +6064,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 114.3) (xy 435.61 119.38)
+			(xy 471.17 114.3) (xy 471.17 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6569,6 +6114,16 @@
 	)
 	(wire
 		(pts
+			(xy 436.88 129.54) (xy 434.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0f6ffd-b798-48f5-9fe9-f18ca5d77994")
+	)
+	(wire
+		(pts
 			(xy 109.22 354.33) (xy 96.52 354.33)
 		)
 		(stroke
@@ -6579,7 +6134,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 312.42) (xy 431.8 314.96)
+			(xy 464.82 313.69) (xy 464.82 316.23)
 		)
 		(stroke
 			(width 0)
@@ -6629,7 +6184,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 119.38) (xy 435.61 121.92)
+			(xy 471.17 119.38) (xy 471.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6639,7 +6194,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 147.32) (xy 417.83 147.32)
+			(xy 449.58 172.72) (xy 454.66 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6739,7 +6294,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 157.48) (xy 412.75 160.02)
+			(xy 449.58 185.42) (xy 449.58 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6789,7 +6344,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 109.22) (xy 415.29 119.38)
+			(xy 440.69 107.95) (xy 440.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6806,16 +6361,6 @@
 			(type default)
 		)
 		(uuid "3fd0a841-351f-4dc1-b3c2-1686bffa07d5")
-	)
-	(wire
-		(pts
-			(xy 181.61 182.88) (xy 181.61 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "405f8772-5c91-4843-a95b-929e769e757a")
 	)
 	(wire
 		(pts
@@ -6879,13 +6424,23 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 109.22) (xy 415.29 109.22)
+			(xy 306.07 107.95) (xy 440.69 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "479bc06d-10d0-4caa-bea1-507f03228588")
+	)
+	(wire
+		(pts
+			(xy 417.83 304.8) (xy 433.07 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489cf838-0158-46d2-93ee-b43ef59f9f8a")
 	)
 	(wire
 		(pts
@@ -6899,16 +6454,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 119.38) (xy 341.63 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aea1598-fbcc-4d5a-b54f-60518c0aaf97")
-	)
-	(wire
-		(pts
 			(xy 109.22 309.88) (xy 96.52 309.88)
 		)
 		(stroke
@@ -6919,7 +6464,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 304.8) (xy 415.29 304.8)
+			(xy 435.61 304.8) (xy 438.15 304.8)
 		)
 		(stroke
 			(width 0)
@@ -6939,13 +6484,13 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 309.88) (xy 412.75 309.88)
+			(xy 405.13 129.54) (xy 412.75 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "520b96fb-61ef-4ae7-ba95-0bade8f6e6dd")
+		(uuid "51ef18a9-3c68-48eb-8faa-b62d9d14794d")
 	)
 	(wire
 		(pts
@@ -6969,7 +6514,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 304.8) (xy 410.21 304.8)
+			(xy 435.61 304.8) (xy 433.07 304.8)
 		)
 		(stroke
 			(width 0)
@@ -7079,16 +6624,6 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 129.54) (xy 405.13 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dad2f49-52bf-4323-96cd-ba936cc8db69")
-	)
-	(wire
-		(pts
 			(xy 189.23 359.41) (xy 196.85 359.41)
 		)
 		(stroke
@@ -7149,6 +6684,16 @@
 	)
 	(wire
 		(pts
+			(xy 426.72 129.54) (xy 424.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dc8534-6553-4e7e-b989-e95f94471e37")
+	)
+	(wire
+		(pts
 			(xy 264.16 120.65) (xy 257.81 120.65)
 		)
 		(stroke
@@ -7159,13 +6704,23 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 214.63) (xy 223.52 214.63)
+			(xy 271.78 212.09) (xy 223.52 212.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "63471732-9d6c-4085-b4ad-cea931da4ab8")
+	)
+	(wire
+		(pts
+			(xy 181.61 203.2) (xy 454.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63786e3f-7ea0-4a66-8930-7a875d3b3d5c")
 	)
 	(wire
 		(pts
@@ -7186,6 +6741,16 @@
 			(type default)
 		)
 		(uuid "656eafbc-4e83-4f3d-a27d-aa3ac8b0d5fc")
+	)
+	(wire
+		(pts
+			(xy 449.58 175.26) (xy 449.58 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "657c7605-722c-4cac-ad3b-51aa172d50fe")
 	)
 	(wire
 		(pts
@@ -7216,6 +6781,16 @@
 			(type default)
 		)
 		(uuid "678e4f39-29d4-45a6-8f07-61110902bd14")
+	)
+	(wire
+		(pts
+			(xy 424.18 129.54) (xy 424.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68cba9e1-493a-4c12-ad36-37e8c216bb73")
 	)
 	(wire
 		(pts
@@ -7279,7 +6854,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 133.35) (xy 306.07 109.22)
+			(xy 306.07 133.35) (xy 306.07 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7299,7 +6874,17 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 299.72) (xy 431.8 302.26)
+			(xy 412.75 129.54) (xy 424.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db9011d-9aed-448f-89d8-570848bffb89")
+	)
+	(wire
+		(pts
+			(xy 464.82 300.99) (xy 464.82 303.53)
 		)
 		(stroke
 			(width 0)
@@ -7319,7 +6904,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 142.24) (xy 435.61 144.78)
+			(xy 471.17 142.24) (xy 471.17 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7349,16 +6934,6 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 119.38) (xy 402.59 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7256d11a-14ff-445c-a438-bcd70efc9185")
-	)
-	(wire
-		(pts
 			(xy 369.57 160.02) (xy 361.95 160.02)
 		)
 		(stroke
@@ -7366,6 +6941,16 @@
 			(type default)
 		)
 		(uuid "72616612-d502-4e5c-8d3c-0e1b715fac0b")
+	)
+	(wire
+		(pts
+			(xy 436.88 119.38) (xy 440.69 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a9eab2-4b7b-4eb8-acf5-5d94f744a0dc")
 	)
 	(wire
 		(pts
@@ -7459,7 +7044,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 119.38) (xy 400.05 119.38)
+			(xy 341.63 119.38) (xy 405.13 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7519,16 +7104,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 203.2) (xy 417.83 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807cf2e0-18e7-44ec-9f0a-b4b2ab995db5")
-	)
-	(wire
-		(pts
 			(xy 95.25 149.86) (xy 107.95 149.86)
 		)
 		(stroke
@@ -7546,16 +7121,6 @@
 			(type default)
 		)
 		(uuid "843bb793-c409-40d1-9a78-9ff54c43e883")
-	)
-	(wire
-		(pts
-			(xy 407.67 154.94) (xy 405.13 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "876538c4-9b2c-47e3-ba34-df230a80c897")
 	)
 	(wire
 		(pts
@@ -7599,6 +7164,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 212.09) (xy 298.45 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89199920-1561-410f-9dbf-26238c302316")
+	)
+	(wire
+		(pts
 			(xy 189.23 314.96) (xy 196.85 314.96)
 		)
 		(stroke
@@ -7619,7 +7194,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 309.88) (xy 412.75 304.8)
+			(xy 435.61 309.88) (xy 435.61 304.8)
 		)
 		(stroke
 			(width 0)
@@ -7649,23 +7224,13 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 322.58) (xy 431.8 325.12)
+			(xy 464.82 323.85) (xy 464.82 326.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8e6e0abc-c8ef-49f0-bfaf-3db59d43de39")
-	)
-	(wire
-		(pts
-			(xy 168.91 193.04) (xy 168.91 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ee3ae9a-d445-4107-9a13-399a88aed476")
 	)
 	(wire
 		(pts
@@ -7686,26 +7251,6 @@
 			(type default)
 		)
 		(uuid "8f6d62c6-f268-46d6-a2ec-46679a4c8094")
-	)
-	(wire
-		(pts
-			(xy 223.52 137.16) (xy 223.52 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f7f8ad2-9589-4072-89cd-577bb37ea06c")
-	)
-	(wire
-		(pts
-			(xy 223.52 144.78) (xy 223.52 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fdc7627-1853-4b81-94fe-57c62680a427")
 	)
 	(wire
 		(pts
@@ -7789,7 +7334,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 132.08) (xy 412.75 134.62)
+			(xy 449.58 157.48) (xy 449.58 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7806,6 +7351,16 @@
 			(type default)
 		)
 		(uuid "995ce4c1-0a19-4bec-9498-708834ed84b9")
+	)
+	(wire
+		(pts
+			(xy 454.66 199.39) (xy 454.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9b9bb9-d2a5-4624-ba03-754ca1b6af0c")
 	)
 	(wire
 		(pts
@@ -7869,16 +7424,6 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 119.38) (xy 424.18 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26e4379-4607-4536-bd76-0d8025eac49f")
-	)
-	(wire
-		(pts
 			(xy 256.54 106.68) (xy 259.08 106.68)
 		)
 		(stroke
@@ -7899,7 +7444,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 219.71) (xy 271.78 214.63)
+			(xy 271.78 212.09) (xy 271.78 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7959,6 +7504,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 182.88) (xy 168.91 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ec25ac-9ca2-43e8-933b-cc23ba70cbbb")
+	)
+	(wire
+		(pts
 			(xy 123.19 154.94) (xy 123.19 149.86)
 		)
 		(stroke
@@ -7969,7 +7524,7 @@
 	)
 	(wire
 		(pts
-			(xy 435.61 132.08) (xy 435.61 134.62)
+			(xy 471.17 132.08) (xy 471.17 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7996,16 +7551,6 @@
 			(type default)
 		)
 		(uuid "aba53243-da3f-4824-9d85-aa6b6feae0d0")
-	)
-	(wire
-		(pts
-			(xy 405.13 129.54) (xy 405.13 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac1aacfb-16d3-472f-b5b3-b171dfe254ac")
 	)
 	(wire
 		(pts
@@ -8069,6 +7614,26 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 119.38) (xy 461.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40acdd3-5be7-46ee-b9fe-a5aa47a7f723")
+	)
+	(wire
+		(pts
+			(xy 412.75 127) (xy 412.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b41896be-21fa-4f75-b76f-68af481948cc")
+	)
+	(wire
+		(pts
 			(xy 163.83 300.99) (xy 163.83 299.72)
 		)
 		(stroke
@@ -8089,13 +7654,13 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 129.54) (xy 405.13 129.54)
+			(xy 424.18 140.97) (xy 424.18 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba907e0d-2755-4208-ab9b-bc3b980814be")
+		(uuid "bc2d61e9-6d9d-4859-bc03-525284483bac")
 	)
 	(wire
 		(pts
@@ -8149,7 +7714,17 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 304.8) (xy 415.29 302.26)
+			(xy 412.75 119.38) (xy 412.75 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c367446b-75cf-491b-a613-c67d94f9ac3a")
+	)
+	(wire
+		(pts
+			(xy 438.15 304.8) (xy 438.15 302.26)
 		)
 		(stroke
 			(width 0)
@@ -8196,16 +7771,6 @@
 			(type default)
 		)
 		(uuid "c566607a-ed73-4dd1-bced-a0f9e98d27e4")
-	)
-	(wire
-		(pts
-			(xy 417.83 170.18) (xy 417.83 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7d261b6-2a48-49ba-9c79-c0f5dcd4317c")
 	)
 	(wire
 		(pts
@@ -8369,7 +7934,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 317.5) (xy 415.29 314.96)
+			(xy 438.15 317.5) (xy 438.15 314.96)
 		)
 		(stroke
 			(width 0)
@@ -8379,7 +7944,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 299.72) (xy 415.29 302.26)
+			(xy 438.15 299.72) (xy 438.15 302.26)
 		)
 		(stroke
 			(width 0)
@@ -8459,13 +8024,13 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 182.88) (xy 181.61 182.88)
+			(xy 461.01 119.38) (xy 471.17 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcf9856d-8e58-482b-ac3e-ed7ca9899b4c")
+		(uuid "e03cca03-b9e3-4505-bc34-9a2917f8bbd4")
 	)
 	(wire
 		(pts
@@ -8489,7 +8054,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 147.32) (xy 417.83 170.18)
+			(xy 454.66 172.72) (xy 454.66 199.39)
 		)
 		(stroke
 			(width 0)
@@ -8499,7 +8064,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 307.34) (xy 341.63 304.8)
+			(xy 341.63 308.61) (xy 341.63 304.8)
 		)
 		(stroke
 			(width 0)
@@ -8589,6 +8154,26 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 190.5) (xy 195.58 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb719fc5-d9ba-4786-abab-74c046650b61")
+	)
+	(wire
+		(pts
+			(xy 424.18 127) (xy 424.18 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec957d54-eb43-4dcc-96c2-b967cfa1d45a")
+	)
+	(wire
+		(pts
 			(xy 369.57 208.28) (xy 369.57 160.02)
 		)
 		(stroke
@@ -8599,7 +8184,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 144.78) (xy 412.75 147.32)
+			(xy 449.58 170.18) (xy 449.58 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8669,13 +8254,13 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 154.94) (xy 405.13 180.34)
+			(xy 405.13 119.38) (xy 412.75 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f55818e7-6952-4d1a-b769-53676d534ac7")
+		(uuid "f6845b57-a22b-4800-9262-6fc5891d3190")
 	)
 	(wire
 		(pts
@@ -8739,6 +8324,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 180.34) (xy 441.96 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafddef4-726f-4a26-935a-7f7f1b368698")
+	)
+	(wire
+		(pts
 			(xy 179.07 344.17) (xy 163.83 344.17)
 		)
 		(stroke
@@ -8769,16 +8364,6 @@
 	)
 	(wire
 		(pts
-			(xy 424.18 119.38) (xy 435.61 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc6a9eff-ba5f-40f1-9df7-d26f7b395fa9")
-	)
-	(wire
-		(pts
 			(xy 181.61 213.36) (xy 194.31 213.36)
 		)
 		(stroke
@@ -8798,7 +8383,7 @@
 		(uuid "fff681c6-a285-4c19-ac68-89b099cbc152")
 	)
 	(label "~{FAULT}"
-		(at 185.42 203.2 0)
+		(at 252.73 203.2 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8908,7 +8493,7 @@
 		(uuid "6f6a14ce-ee8a-4c70-8b30-f5347a9387a0")
 	)
 	(label "~{FAULT}"
-		(at 312.42 203.2 0)
+		(at 354.33 203.2 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8928,7 +8513,7 @@
 		(uuid "70ad1139-50a2-4f62-960b-0274790f3382")
 	)
 	(label "CB_CTRL"
-		(at 391.16 180.34 0)
+		(at 414.02 180.34 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -9209,6 +8794,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 133.35 356.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "7bbb80b5-339d-44e7-966f-1af76f5b8b0c")
 		)
@@ -9291,6 +8885,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 128.27 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2b45768-6fcb-46af-86c6-25bccaebb327")
 		)
@@ -9352,6 +8955,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 369.57 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 369.57 160.02 0)
 			(effects
 				(font
@@ -9426,6 +9038,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 242.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b11bd4c-2f2d-49bf-80dd-eebab4f3d582")
 		)
@@ -9486,6 +9107,15 @@
 		)
 		(property "Description" ""
 			(at 259.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 259.08 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9629,6 +9259,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 318.77 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0266427-5c8e-4d3b-a6e8-ef06c33f8ac3")
 		)
@@ -9636,6 +9275,76 @@
 			(project "oresat-adcs-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 436.88 123.19 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09c9e02d-6723-41d7-a2c0-8e28b6efd4d5")
+		(property "Reference" "C69"
+			(at 437.134 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470n"
+			(at 437.134 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
+			(at 436.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 436.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 436.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d7cb2a7-c780-499c-82f0-d79f2b9264eb")
+		)
+		(pin "2"
+			(uuid "5caca14e-4f7c-4f2c-9fe0-1c8c55a759a8")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -9718,7 +9427,7 @@
 		(dnp no)
 		(uuid "0d0fcec1-c79c-46ae-9aef-86c0c513e836")
 		(property "Reference" "C8"
-			(at 335.28 309.88 0)
+			(at 324.612 315.976 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9727,13 +9436,12 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 334.01 309.88 0)
+			(at 324.612 318.516 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0805-B-NOSILK"
@@ -9755,6 +9463,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 334.01 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 334.01 309.88 0)
 			(effects
 				(font
@@ -9824,6 +9541,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 394.97 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 394.97 314.96 0)
 			(effects
 				(font
@@ -9920,7 +9646,7 @@
 		(dnp no)
 		(uuid "1073e2ab-1f15-45c5-9f39-a4ed310932b4")
 		(property "Reference" "R7"
-			(at 110.49 353.06 0)
+			(at 110.998 358.14 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9929,13 +9655,12 @@
 			)
 		)
 		(property "Value" "100"
-			(at 114.3 354.33 0)
+			(at 110.998 360.68 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -9957,6 +9682,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 114.3 354.33 0)
 			(effects
 				(font
@@ -10048,7 +9782,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:GND")
-		(at 412.75 162.56 0)
+		(at 449.58 189.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10057,7 +9791,7 @@
 		(dnp no)
 		(uuid "11344e65-61ba-43a4-9419-489bb9f5afec")
 		(property "Reference" "#GND025"
-			(at 412.75 162.56 0)
+			(at 449.58 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,7 +9800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 415.29 165.1 0)
+			(at 452.12 191.77 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10075,7 +9809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 412.75 162.56 0)
+			(at 449.58 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 162.56 0)
+			(at 449.58 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +9827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 412.75 162.56 0)
+			(at 449.58 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +9849,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:VBUSP")
-		(at 435.61 114.3 0)
+		(at 471.17 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10123,7 +9857,7 @@
 		(dnp no)
 		(uuid "122fa39f-09e9-4efb-a783-665ace7e0e52")
 		(property "Reference" "#VBUSP03"
-			(at 435.61 114.3 0)
+			(at 471.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +9866,7 @@
 			)
 		)
 		(property "Value" "VBUSP"
-			(at 435.61 111.506 0)
+			(at 471.17 111.506 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10141,7 +9875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 435.61 114.3 0)
+			(at 471.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +9884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 435.61 114.3 0)
+			(at 471.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +9893,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 435.61 114.3 0)
+			(at 471.17 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +9915,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:R-US_0603-C-NOSILK")
-		(at 400.05 124.46 90)
+		(at 405.13 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10189,7 +9923,7 @@
 		(dnp no)
 		(uuid "1316ffae-54b5-461f-a1c3-c1dcd4a8204c")
 		(property "Reference" "R37"
-			(at 398.78 129.54 0)
+			(at 401.32 122.174 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10198,17 +9932,16 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 400.05 124.46 0)
+			(at 400.812 124.714 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 400.05 124.46 0)
+			(at 405.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +9950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 400.05 124.46 0)
+			(at 405.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +9959,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 400.05 124.46 0)
+			(at 405.13 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 405.13 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10259,7 +10001,7 @@
 		(dnp no)
 		(uuid "162b5b58-32d2-4810-bf0b-a743a9bb56ed")
 		(property "Reference" "R18"
-			(at 149.6314 194.31 0)
+			(at 156.972 189.992 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10268,13 +10010,12 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.13 190.5 0)
+			(at 156.718 192.278 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -10304,6 +10045,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 151.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8828788e-df99-49a3-821d-754234d6a54f")
 		)
@@ -10314,6 +10064,118 @@
 			(project "oresat-adcs-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 447.04 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a7871cf-dd42-4240-b09c-fd8451a84f58")
+		(property "Reference" "Q9"
+			(at 442.214 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PMV45EN"
+			(at 436.118 188.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 452.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV45EN2.pdf"
+			(at 447.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/source/drain"
+			(at 447.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 447.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1727-2307-1-ND"
+			(at 447.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 447.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PMV45EN2R"
+			(at 447.04 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7655bf1-0a26-421f-ac94-27ea8e5ba121")
+		)
+		(pin "2"
+			(uuid "8b8f46d4-b881-4915-8508-b4dab5fe690b")
+		)
+		(pin "3"
+			(uuid "2f17d07a-719f-43bd-b612-ec59cf6ae17d")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -10373,6 +10235,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 354.33 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e45d9fa8-f0da-4361-b562-8f6805c2d992")
 		)
@@ -10396,7 +10267,7 @@
 		(dnp no)
 		(uuid "1f73c229-2255-4e1e-8f3a-baf695ef532e")
 		(property "Reference" "C7"
-			(at 302.26 135.89 0)
+			(at 300.228 135.89 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10405,7 +10276,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 307.34 135.89 0)
+			(at 300.228 138.43 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10413,7 +10284,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 306.07 138.43 0)
 			(effects
 				(font
@@ -10432,6 +10303,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 306.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 306.07 138.43 0)
 			(effects
 				(font
@@ -10457,7 +10337,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:C-EU0603-C-NOSILK")
-		(at 229.87 144.78 270)
+		(at 298.45 217.17 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10466,26 +10346,25 @@
 		(dnp no)
 		(uuid "237db208-2b16-48b3-832d-0880701c11d9")
 		(property "Reference" "C5"
-			(at 230.251 143.256 0)
+			(at 306.324 214.884 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "100n"
-			(at 229.87 144.78 0)
+			(at 306.324 217.932 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify right bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 229.87 144.78 0)
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
+			(at 298.45 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,7 +10373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 144.78 0)
+			(at 298.45 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10382,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 144.78 0)
+			(at 298.45 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 298.45 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,7 +10416,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:GND")
-		(at 431.8 327.66 0)
+		(at 464.82 328.93 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10537,7 +10425,7 @@
 		(dnp no)
 		(uuid "25073d52-dbb2-4fc8-9662-e31e440b8087")
 		(property "Reference" "#GND030"
-			(at 431.8 327.66 0)
+			(at 464.82 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10546,7 +10434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 434.34 330.2 0)
+			(at 467.36 331.47 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10555,7 +10443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 431.8 327.66 0)
+			(at 464.82 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,7 +10452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 431.8 327.66 0)
+			(at 464.82 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,7 +10461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 431.8 327.66 0)
+			(at 464.82 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,34 +10482,32 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:TEST-POINT-LARGE-SQUARE")
-		(at 415.29 302.26 0)
+		(lib_id "Device:R_US")
+		(at 430.53 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2ca33881-23ce-4575-b8f0-ec3b7b2d0444")
-		(property "Reference" "TP19"
-			(at 417.83 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 415.29 302.26 0)
+		(uuid "2c5e4031-e1a4-45f0-8102-fbe51e106047")
+		(property "Reference" "R50"
+			(at 430.53 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-acs-card:1X01"
-			(at 415.29 302.26 0)
+		(property "Value" "10k"
+			(at 430.53 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 430.276 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +10516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 415.29 302.26 0)
+			(at 430.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10639,7 +10525,85 @@
 			)
 		)
 		(property "Description" ""
-			(at 415.29 302.26 0)
+			(at 430.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4abcfcb-a9b9-44e0-869a-4e94dfdf58d1")
+		)
+		(pin "2"
+			(uuid "10b51def-abc1-47a6-8eac-ed50cca58b65")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-acs-card-eagle-import:TEST-POINT-LARGE-SQUARE")
+		(at 438.15 302.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ca33881-23ce-4575-b8f0-ec3b7b2d0444")
+		(property "Reference" "TP19"
+			(at 440.69 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TEST-POINT-LARGE-SQUARE"
+			(at 438.15 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-acs-card:1X01"
+			(at 438.15 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 438.15 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 438.15 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 438.15 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10713,6 +10677,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 140.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff08a4af-3c28-43e2-be1e-e8fd95d19612")
 		)
@@ -10772,6 +10745,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 107.95 160.02 0)
 			(effects
 				(font
@@ -10916,6 +10898,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 123.19 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5a3e45b-0b8e-496d-ab1d-a9755e69ac61")
 		)
@@ -10941,7 +10932,7 @@
 		(dnp no)
 		(uuid "3529d64c-be7a-4bf8-86f1-f43fc0a28acd")
 		(property "Reference" "R22"
-			(at 162.56 354.33 0)
+			(at 170.434 350.774 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10950,13 +10941,12 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 163.83 350.52 0)
+			(at 169.164 353.314 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -10978,6 +10968,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 163.83 350.52 0)
 			(effects
 				(font
@@ -11056,6 +11055,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 113.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e6ca305-2b2a-4bbd-8304-3c766e1c0de3")
 		)
@@ -11126,6 +11134,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 351.79 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adecd9e3-c550-441e-bf65-511656ed1a9a")
 		)
@@ -11187,6 +11204,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 196.85 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 196.85 330.2 0)
 			(effects
 				(font
@@ -11329,6 +11355,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 128.27 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50c76261-991e-4f8e-b0e3-d44d86d66ff8")
 		)
@@ -11346,7 +11381,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 410.21 304.8 180)
+		(at 433.07 304.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11354,7 +11389,7 @@
 		(dnp no)
 		(uuid "3fb72bea-2864-4c06-8ab9-fd584176446b")
 		(property "Reference" "#FLG04"
-			(at 410.21 306.705 0)
+			(at 433.07 306.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11363,7 +11398,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 410.21 308.61 0)
+			(at 433.07 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +11406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 410.21 304.8 0)
+			(at 433.07 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11380,7 +11415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 304.8 0)
+			(at 433.07 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11389,7 +11424,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 410.21 304.8 0)
+			(at 433.07 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11411,7 +11446,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:R-US_0603-C-NOSILK")
-		(at 412.75 139.7 90)
+		(at 449.58 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11419,7 +11454,7 @@
 		(dnp no)
 		(uuid "46e69041-2c68-4e50-b952-4312bd028dba")
 		(property "Reference" "R38"
-			(at 411.48 144.78 0)
+			(at 456.946 161.798 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11428,17 +11463,16 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 412.75 139.7 0)
+			(at 456.692 164.846 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 412.75 139.7 0)
+			(at 449.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11447,7 +11481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 139.7 0)
+			(at 449.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11456,7 +11490,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 412.75 139.7 0)
+			(at 449.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 449.58 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11481,7 +11524,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:R-US_0603-C-NOSILK")
-		(at 435.61 127 90)
+		(at 471.17 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11489,7 +11532,7 @@
 		(dnp no)
 		(uuid "47073deb-2847-4d06-8191-ed9cde79fa59")
 		(property "Reference" "R41"
-			(at 434.34 133.35 0)
+			(at 477.52 123.698 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11498,17 +11541,16 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 435.61 127 0)
+			(at 477.52 126.238 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 435.61 127 0)
+			(at 471.17 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +11559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 435.61 127 0)
+			(at 471.17 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11526,7 +11568,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 435.61 127 0)
+			(at 471.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 471.17 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,7 +11610,7 @@
 		(dnp no)
 		(uuid "497c1702-992c-48f9-b649-d9d3911718ef")
 		(property "Reference" "R29"
-			(at 304.8 152.4 0)
+			(at 303.784 147.066 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11568,13 +11619,12 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 306.07 149.86 0)
+			(at 304.8 149.86 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11596,6 +11646,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 306.07 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 306.07 149.86 0)
 			(effects
 				(font
@@ -11713,6 +11772,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 168.91 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "74fe9a82-1338-44a3-a0bf-c7870e92c8cf")
 		)
@@ -11783,7 +11851,7 @@
 		(dnp no)
 		(uuid "4c5d8d86-4117-4eee-bf1d-06f693db94f7")
 		(property "Reference" "R27"
-			(at 252.73 166.5986 0)
+			(at 251.206 158.7246 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11792,13 +11860,12 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 248.92 165.1 0)
+			(at 251.46 161.036 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11820,6 +11887,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 248.92 165.1 0)
 			(effects
 				(font
@@ -11853,7 +11929,7 @@
 		(dnp no)
 		(uuid "50bf00c7-c69d-47e9-8d7f-002d8001f5dd")
 		(property "Reference" "C2"
-			(at 157.48 316.23 0)
+			(at 150.114 316.484 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11862,16 +11938,15 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 156.21 316.23 0)
+			(at 150.114 319.024 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 156.21 316.23 0)
 			(effects
 				(font
@@ -11890,6 +11965,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 156.21 316.23 0)
 			(effects
 				(font
@@ -11923,7 +12007,7 @@
 		(dnp no)
 		(uuid "53d8783e-26ab-4615-9325-cb5c75f0fb47")
 		(property "Reference" "R34"
-			(at 374.65 130.81 0)
+			(at 376.428 126.238 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11932,13 +12016,12 @@
 			)
 		)
 		(property "Value" "0"
-			(at 379.73 132.08 0)
+			(at 378.206 127.254 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -11960,6 +12043,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 379.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 379.73 132.08 0)
 			(effects
 				(font
@@ -12036,6 +12128,15 @@
 				)
 			)
 		)
+		(property "DIST" ""
+			(at 271.78 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a827854-e606-4ee6-94fc-fa2dd9c4e6c0")
 		)
@@ -12079,7 +12180,7 @@
 		(dnp no)
 		(uuid "5885058b-912d-41af-8379-0178908b40eb")
 		(property "Reference" "R14"
-			(at 144.78 331.47 0)
+			(at 139.7 331.978 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12088,13 +12189,12 @@
 			)
 		)
 		(property "Value" "665k"
-			(at 140.97 330.2 0)
+			(at 140.716 334.518 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12116,6 +12216,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 140.97 330.2 0)
 			(effects
 				(font
@@ -12185,6 +12294,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 120.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 120.65 127 0)
 			(effects
 				(font
@@ -12406,6 +12524,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 424.18 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "646d0b93-f0a8-4349-9a0f-0e43f5fd756c")
+		(property "Reference" "R49"
+			(at 421.64 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 426.72 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 423.164 136.906 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 424.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 424.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82e8730a-da54-4764-9fad-29647420519e")
+		)
+		(pin "2"
+			(uuid "b657e0e0-2f30-4562-9ee9-f0ef05dcbf23")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-acs-card-eagle-import:GND")
 		(at 168.91 226.06 0)
 		(mirror y)
@@ -12527,6 +12712,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 389.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c71f55ed-8b0d-4053-bda8-e1811b500d5c")
 		)
@@ -12588,6 +12782,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -12658,6 +12861,15 @@
 		)
 		(property "Description" "IC Single Comparator W/REF, SC-70-5"
 			(at 179.07 342.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 179.07 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12832,7 +13044,7 @@
 		(dnp no)
 		(uuid "6ce18499-2103-468b-9ede-e0550cc5165e")
 		(property "Reference" "R19"
-			(at 154.94 311.15 0)
+			(at 152.654 304.292 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12841,13 +13053,12 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 156.21 306.07 0)
+			(at 153.67 307.086 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -12869,6 +13080,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 156.21 306.07 0)
 			(effects
 				(font
@@ -12960,7 +13180,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:GND")
-		(at 415.29 320.04 0)
+		(at 438.15 320.04 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12969,7 +13189,7 @@
 		(dnp no)
 		(uuid "72d95b6f-c92a-43d5-9d3f-1403c61ef42a")
 		(property "Reference" "#GND029"
-			(at 415.29 320.04 0)
+			(at 438.15 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,7 +13198,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 417.83 322.58 0)
+			(at 440.69 322.58 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12987,7 +13207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 415.29 320.04 0)
+			(at 438.15 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12996,7 +13216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 415.29 320.04 0)
+			(at 438.15 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13005,7 +13225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 415.29 320.04 0)
+			(at 438.15 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,6 +13299,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 194.31 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6799601-4d0b-46ca-8af6-5929e2d29658")
 		)
@@ -13145,6 +13374,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 196.85 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1be515e-a7bb-43c1-b1bb-0aba8f0efd17")
 		)
@@ -13159,7 +13397,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:L-ECS-MPI4040")
-		(at 402.59 304.8 90)
+		(at 410.21 304.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13167,7 +13405,7 @@
 		(dnp no)
 		(uuid "7a80b9b8-3e0d-409d-9475-3f3f1301f326")
 		(property "Reference" "L1"
-			(at 398.78 302.26 90)
+			(at 406.4 302.26 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13176,7 +13414,7 @@
 			)
 		)
 		(property "Value" "6.8u"
-			(at 402.59 304.8 90)
+			(at 410.21 304.8 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13186,7 +13424,7 @@
 			)
 		)
 		(property "Footprint" "oresat-acs-card:ECS-MPI4040"
-			(at 402.59 304.8 0)
+			(at 410.21 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13195,7 +13433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 402.59 304.8 0)
+			(at 410.21 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +13442,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 402.59 304.8 0)
+			(at 410.21 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 410.21 304.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,6 +13528,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 359.41 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a73db652-ecca-4cdc-a766-91df9dc7759f")
 		)
@@ -13321,7 +13577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 156.21 360.68 0)
 			(effects
 				(font
@@ -13340,6 +13596,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 156.21 360.68 0)
 			(effects
 				(font
@@ -13431,7 +13696,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:LED-GREEN0603")
-		(at 435.61 137.16 0)
+		(at 471.17 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13439,7 +13704,7 @@
 		(dnp no)
 		(uuid "870f2d65-523e-4f16-bf6a-2290580317d0")
 		(property "Reference" "D2"
-			(at 432.181 141.732 90)
+			(at 467.741 141.732 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13448,7 +13713,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 435.61 137.16 90)
+			(at 471.17 137.16 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -13458,7 +13723,7 @@
 			)
 		)
 		(property "Footprint" "oresat-acs-card:LED-0603"
-			(at 435.61 137.16 0)
+			(at 471.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,7 +13732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 435.61 137.16 0)
+			(at 471.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13741,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 435.61 137.16 0)
+			(at 471.17 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 471.17 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +13783,7 @@
 		(dnp no)
 		(uuid "880c680a-7e6c-48f7-8226-9c3889b584d9")
 		(property "Reference" "R32"
-			(at 360.68 176.53 0)
+			(at 358.902 167.386 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13518,13 +13792,12 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 361.95 170.18 0)
+			(at 358.648 169.926 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -13546,6 +13819,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 361.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 361.95 170.18 0)
 			(effects
 				(font
@@ -13616,6 +13898,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 107.95 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 107.95 170.18 0)
 			(effects
 				(font
@@ -13707,7 +13998,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:C-EU0805-B-NOSILK")
-		(at 415.29 309.88 0)
+		(at 438.15 309.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13715,7 +14006,7 @@
 		(dnp no)
 		(uuid "8b6bf445-c726-4109-9f29-b5151aea8368")
 		(property "Reference" "C10"
-			(at 416.56 309.88 0)
+			(at 443.23 312.166 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13724,17 +14015,16 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 415.29 309.88 0)
+			(at 443.23 314.706 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0805-B-NOSILK"
-			(at 415.29 309.88 0)
+			(at 438.15 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13743,7 +14033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 415.29 309.88 0)
+			(at 438.15 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13752,7 +14042,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 415.29 309.88 0)
+			(at 438.15 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 438.15 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13852,7 +14151,7 @@
 		(dnp no)
 		(uuid "8d05c22c-a6a0-4542-84a7-a87df3b20afb")
 		(property "Reference" "R25"
-			(at 295.91 234.95 0)
+			(at 291.846 235.458 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13861,13 +14160,12 @@
 			)
 		)
 		(property "Value" "100"
-			(at 290.83 233.68 0)
+			(at 291.846 237.998 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -13889,6 +14187,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 290.83 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 290.83 233.68 0)
 			(effects
 				(font
@@ -13922,7 +14229,7 @@
 		(dnp no)
 		(uuid "8d090b15-13f9-4d1a-97be-4feb66d45191")
 		(property "Reference" "R24"
-			(at 295.91 224.79 0)
+			(at 291.592 221.742 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13931,13 +14238,12 @@
 			)
 		)
 		(property "Value" "100"
-			(at 290.83 228.6 0)
+			(at 291.338 224.282 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -13959,6 +14265,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 290.83 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 290.83 228.6 0)
 			(effects
 				(font
@@ -14037,6 +14352,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 379.73 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "366c129a-725d-4148-83c6-a739290fcf1f")
 		)
@@ -14071,13 +14395,12 @@
 			)
 		)
 		(property "Value" "15m"
-			(at 336.55 119.38 0)
+			(at 331.216 115.57 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-acs-card:R1206"
@@ -14099,6 +14422,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 336.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 336.55 119.38 0)
 			(effects
 				(font
@@ -14132,7 +14464,7 @@
 		(dnp no)
 		(uuid "8fd77c3d-f2a0-44cb-b71a-cd12609996dc")
 		(property "Reference" "R21"
-			(at 162.56 309.88 0)
+			(at 169.926 303.022 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14141,13 +14473,12 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 163.83 306.07 0)
+			(at 168.656 305.308 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14169,6 +14500,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 163.83 306.07 0)
 			(effects
 				(font
@@ -14193,35 +14533,35 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:C-EU0603-C-NOSILK")
-		(at 341.63 309.88 0)
+		(lib_id "oresat-acs-card-eagle-import:GND")
+		(at 271.78 247.65 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9946a18f-b364-476a-865d-31023aee8640")
-		(property "Reference" "C9"
-			(at 342.9 309.88 0)
+		(uuid "94cd76f0-a355-486e-ba57-1a81ef71b350")
+		(property "Reference" "#GND036"
+			(at 271.78 247.65 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1u"
-			(at 341.63 309.88 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 341.63 309.88 0)
+		(property "Value" "GND"
+			(at 274.32 250.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14230,7 +14570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 309.88 0)
+			(at 271.78 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14239,7 +14579,82 @@
 			)
 		)
 		(property "Description" ""
-			(at 341.63 309.88 0)
+			(at 271.78 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a869e117-03da-42f3-92f8-8e0c30dd467c")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "#GND036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-acs-card-eagle-import:C-EU0603-C-NOSILK")
+		(at 341.63 311.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9946a18f-b364-476a-865d-31023aee8640")
+		(property "Reference" "C9"
+			(at 345.44 310.388 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1u"
+			(at 345.186 313.182 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
+			(at 341.63 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 341.63 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14404,7 +14819,7 @@
 		(dnp no)
 		(uuid "9b942571-635a-4a90-b817-4b1849d6fc14")
 		(property "Reference" "C6"
-			(at 297.18 137.16 0)
+			(at 290.068 137.414 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14413,16 +14828,15 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 295.91 137.16 0)
+			(at 290.068 139.7 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 295.91 137.16 0)
 			(effects
 				(font
@@ -14441,6 +14855,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 295.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 295.91 137.16 0)
 			(effects
 				(font
@@ -14466,7 +14889,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:R-US_0603-C-NOSILK")
-		(at 431.8 307.34 90)
+		(at 464.82 308.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14474,7 +14897,7 @@
 		(dnp no)
 		(uuid "a0e0bdf7-70d2-4bef-9b11-d7704083a099")
 		(property "Reference" "R42"
-			(at 430.53 310.515 0)
+			(at 472.694 303.276 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14483,17 +14906,16 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 431.8 307.34 0)
+			(at 472.44 305.816 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 431.8 307.34 0)
+			(at 464.82 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14502,7 +14924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 431.8 307.34 0)
+			(at 464.82 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,7 +14933,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 431.8 307.34 0)
+			(at 464.82 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 464.82 308.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14535,81 +14966,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:PMV45EN")
-		(at 412.75 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a13e30bb-75d7-4ea0-90be-8bb68bf7e98c")
-		(property "Reference" "Q5"
-			(at 415.29 149.86 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "PMV45EN2R"
-			(at 412.75 152.4 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-acs-card:SOT23"
-			(at 412.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 412.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 412.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf2fd0eb-4afe-41f0-8903-e0d06b553341")
-		)
-		(pin "2"
-			(uuid "78c24942-68bc-409d-bfc7-0165969b3a24")
-		)
-		(pin "3"
-			(uuid "5c5eb6ad-a6d2-4f33-af4e-4801258f3bc4")
-		)
-		(instances
-			(project "oresat-adcs-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-acs-card-eagle-import:GND")
-		(at 181.61 187.96 0)
+		(at 195.58 198.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14618,7 +14976,7 @@
 		(dnp no)
 		(uuid "a6d8d465-8d09-4b48-8213-4b62bd5101ce")
 		(property "Reference" "#GND011"
-			(at 181.61 187.96 0)
+			(at 195.58 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14627,7 +14985,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 190.5 0)
+			(at 198.12 200.66 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14636,7 +14994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 187.96 0)
+			(at 195.58 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14645,7 +15003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 187.96 0)
+			(at 195.58 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14654,7 +15012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 187.96 0)
+			(at 195.58 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14676,7 +15034,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:LED-GREEN0603")
-		(at 431.8 317.5 0)
+		(at 464.82 318.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14684,7 +15042,7 @@
 		(dnp no)
 		(uuid "a71e868a-eca0-4ad6-8ac6-981664f13616")
 		(property "Reference" "D3"
-			(at 428.371 322.072 90)
+			(at 461.391 323.342 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -14693,7 +15051,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 431.8 317.5 90)
+			(at 464.82 318.77 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -14703,7 +15061,7 @@
 			)
 		)
 		(property "Footprint" "oresat-acs-card:LED-0603"
-			(at 431.8 317.5 0)
+			(at 464.82 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14712,7 +15070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 431.8 317.5 0)
+			(at 464.82 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14721,7 +15079,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 431.8 317.5 0)
+			(at 464.82 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 464.82 318.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14754,7 +15121,7 @@
 		(dnp no)
 		(uuid "a8cbb7ea-4783-4a46-908f-66157147a7f8")
 		(property "Reference" "R20"
-			(at 154.94 355.6 0)
+			(at 151.892 350.52 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14763,13 +15130,12 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 156.21 350.52 0)
+			(at 153.162 353.06 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -14791,6 +15157,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 156.21 350.52 0)
 			(effects
 				(font
@@ -14883,7 +15258,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:TEST-POINT-LARGE-SQUARE")
-		(at 435.61 119.38 0)
+		(at 471.17 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14891,7 +15266,7 @@
 		(dnp no)
 		(uuid "afbdda1b-d0ba-430e-9791-9a792e39699f")
 		(property "Reference" "TP17"
-			(at 434.34 116.84 0)
+			(at 469.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14900,7 +15275,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 435.61 119.38 0)
+			(at 471.17 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14909,7 +15284,7 @@
 			)
 		)
 		(property "Footprint" "oresat-acs-card:1X01"
-			(at 435.61 119.38 0)
+			(at 471.17 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14918,7 +15293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 435.61 119.38 0)
+			(at 471.17 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14927,7 +15302,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 435.61 119.38 0)
+			(at 471.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 471.17 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14993,6 +15377,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 186.69 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 186.69 215.9 0)
 			(effects
 				(font
@@ -15068,6 +15461,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 138.43 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abb284d1-6005-460a-b044-acdfa77fc3f5")
 		)
@@ -15085,7 +15487,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:VPD")
-		(at 412.75 132.08 0)
+		(at 449.58 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15093,7 +15495,7 @@
 		(dnp no)
 		(uuid "b5385a29-ce3a-4a4b-b6d9-615ab612116e")
 		(property "Reference" "#VPD05"
-			(at 412.75 132.08 0)
+			(at 449.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +15504,7 @@
 			)
 		)
 		(property "Value" "VPD"
-			(at 412.75 129.286 0)
+			(at 449.58 154.686 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15111,7 +15513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 412.75 132.08 0)
+			(at 449.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15120,7 +15522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 132.08 0)
+			(at 449.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15129,7 +15531,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 412.75 132.08 0)
+			(at 449.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,6 +15598,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 143.51 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 143.51 160.02 0)
 			(effects
 				(font
@@ -15319,6 +15730,15 @@
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 133.35 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15536,6 +15956,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 384.81 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63064acd-9f8b-4107-bde9-40f5b0a7304c")
 		)
@@ -15683,7 +16112,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:GND")
-		(at 232.41 148.59 0)
+		(at 298.45 223.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15692,7 +16121,7 @@
 		(dnp no)
 		(uuid "c27af09a-bd28-4e15-b096-44c476d54837")
 		(property "Reference" "#GND013"
-			(at 232.41 148.59 0)
+			(at 298.45 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +16130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 151.13 0)
+			(at 300.99 226.06 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15710,7 +16139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 148.59 0)
+			(at 298.45 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15719,7 +16148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 148.59 0)
+			(at 298.45 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +16157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 148.59 0)
+			(at 298.45 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15750,7 +16179,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:GND")
-		(at 435.61 147.32 0)
+		(at 471.17 147.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15759,7 +16188,7 @@
 		(dnp no)
 		(uuid "c404a29a-a3ad-4218-a781-4cc6633013b5")
 		(property "Reference" "#GND027"
-			(at 435.61 147.32 0)
+			(at 471.17 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15768,7 +16197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 438.15 149.86 0)
+			(at 473.71 149.86 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15777,7 +16206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 435.61 147.32 0)
+			(at 471.17 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15786,7 +16215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 435.61 147.32 0)
+			(at 471.17 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15795,7 +16224,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 435.61 147.32 0)
+			(at 471.17 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15869,6 +16298,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 179.07 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "37597732-7697-4a0c-8126-2f2dc178929f")
 		)
@@ -15903,7 +16341,7 @@
 		(dnp no)
 		(uuid "cd065b82-0cf5-4208-b86e-c662ada48d95")
 		(property "Reference" "R28"
-			(at 255.27 116.84 0)
+			(at 253.238 110.744 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15912,13 +16350,12 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 256.54 111.76 0)
+			(at 252.73 113.03 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -15940,6 +16377,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 256.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 256.54 111.76 0)
 			(effects
 				(font
@@ -16031,35 +16477,35 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:MOSFET-PCH-SOT23-6")
-		(at 407.67 121.92 90)
+		(lib_id "Device:C_Small")
+		(at 412.75 124.46 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cfc07e4b-d234-462e-9250-a9a7d9d4386b")
-		(property "Reference" "Q4"
-			(at 401.32 113.03 90)
+		(uuid "cea54936-2b64-428d-8bf9-a9cf911ad938")
+		(property "Reference" "C68"
+			(at 413.004 126.238 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left)
 			)
 		)
-		(property "Value" "MOSFET-PCH-SOT23-6"
-			(at 407.67 121.92 0)
+		(property "Value" "10n"
+			(at 413.004 122.428 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-acs-card:SOT23-6"
-			(at 407.67 121.92 0)
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
+			(at 412.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16067,8 +16513,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 407.67 121.92 0)
+		(property "Datasheet" "~"
+			(at 412.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16076,8 +16522,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 407.67 121.92 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 412.75 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16086,93 +16532,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "771e03f3-9f97-442a-a238-18973b234c1f")
+			(uuid "5f71f4d0-74db-4967-8ff6-51b84cf0091e")
 		)
 		(pin "2"
-			(uuid "57881c8f-ea31-4450-bce6-89885e0a9c0e")
-		)
-		(pin "3"
-			(uuid "a3722fe0-facc-42fa-a01b-a26433c9d80f")
-		)
-		(pin "4"
-			(uuid "f8df4375-570f-4eb0-868e-4f350bd24558")
-		)
-		(pin "5"
-			(uuid "dcbfbc55-d151-4959-9fef-a922a869dd7d")
-		)
-		(pin "6"
-			(uuid "b9d4079a-b9f8-424f-b7dd-0b88ecc39384")
+			(uuid "c7c42dde-1c89-4d9c-84da-723a65f2834a")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 271.78 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d005ef36-0a76-48ed-8171-3aec258c5b3c")
-		(property "Reference" "#PWR01"
-			(at 271.78 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 271.78 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94ccbd4e-f8dd-4d48-9ed7-f8753751aaa1")
-		)
-		(instances
-			(project "oresat-adcs-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#PWR01")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -16188,7 +16556,7 @@
 		(dnp no)
 		(uuid "d0627f29-39cf-42e1-8180-e3534b87ede9")
 		(property "Reference" "R1"
-			(at 102.87 125.73 0)
+			(at 102.362 130.556 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16197,13 +16565,12 @@
 			)
 		)
 		(property "Value" "10"
-			(at 106.68 127 0)
+			(at 102.362 132.842 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -16225,6 +16592,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 106.68 127 0)
 			(effects
 				(font
@@ -16325,7 +16701,7 @@
 		(dnp no)
 		(uuid "d2b838e3-95f5-4d58-a236-5b4f2fa682ba")
 		(property "Reference" "R15"
-			(at 144.78 375.92 0)
+			(at 141.986 365.506 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16334,13 +16710,12 @@
 			)
 		)
 		(property "Value" "665k"
-			(at 140.97 374.65 0)
+			(at 143.256 368.046 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -16362,6 +16737,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 140.97 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 140.97 374.65 0)
 			(effects
 				(font
@@ -16395,7 +16779,7 @@
 		(dnp no)
 		(uuid "d2e9bb83-246f-498f-9a85-ec08a2ecca4f")
 		(property "Reference" "R39"
-			(at 350.52 316.23 0)
+			(at 358.14 308.61 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16404,13 +16788,12 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 351.79 312.42 0)
+			(at 357.632 311.15 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -16432,6 +16815,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 351.79 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 351.79 312.42 0)
 			(effects
 				(font
@@ -16465,7 +16857,7 @@
 		(dnp no)
 		(uuid "d7981509-627f-4763-b195-7ec7276f6ef0")
 		(property "Reference" "R26"
-			(at 246.38 149.86 0)
+			(at 253.746 141.478 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16474,13 +16866,12 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 247.65 144.78 0)
+			(at 253.492 144.018 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -16502,6 +16893,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 247.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 247.65 144.78 0)
 			(effects
 				(font
@@ -16593,8 +16993,133 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-transistors:DMP3050LVT-7")
+		(at 424.18 121.92 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de24626e-c344-4ec1-91d6-4013ddb9823d")
+		(property "Reference" "Q4"
+			(at 430.53 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "DMP3050LVT-7"
+			(at 430.53 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 422.275 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3050LVT.pdf"
+			(at 424.18 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-Channel Power MOSFET, TSOT-23-6"
+			(at 424.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digi-Key"
+			(at 424.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DPN" "DMP3050LVT-7DICT-ND"
+			(at 424.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Diodes Inc"
+			(at 424.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DMP3050LVT-7"
+			(at 424.18 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8aca2818-72d8-4560-b0e5-d2f3d281185a")
+		)
+		(pin "4"
+			(uuid "b2ae8eb0-85ef-4177-a74f-7fe5f6af6ff6")
+		)
+		(pin "6"
+			(uuid "039ad029-e41c-4a9a-919d-45383430dbe9")
+		)
+		(pin "2"
+			(uuid "784fc183-d462-43c2-b72f-2852dfc465e2")
+		)
+		(pin "5"
+			(uuid "93aee43a-ed61-465a-af5a-11aa7fa2a945")
+		)
+		(pin "1"
+			(uuid "1bb93580-d789-43e7-93c1-32deeef2ddde")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-acs-card-eagle-import:TEST-POINT-LARGE-SQUARE")
-		(at 417.83 170.18 0)
+		(at 454.66 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16602,7 +17127,7 @@
 		(dnp no)
 		(uuid "df12478a-c8e6-4c02-b2b1-9c7664222422")
 		(property "Reference" "TP15"
-			(at 415.29 173.99 0)
+			(at 452.12 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -16611,7 +17136,7 @@
 			)
 		)
 		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 417.83 170.18 0)
+			(at 454.66 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16620,7 +17145,7 @@
 			)
 		)
 		(property "Footprint" "oresat-acs-card:1X01"
-			(at 417.83 170.18 0)
+			(at 454.66 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16629,7 +17154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 417.83 170.18 0)
+			(at 454.66 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16638,7 +17163,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 417.83 170.18 0)
+			(at 454.66 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 454.66 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16660,7 +17194,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:C-EU0603-C-NOSILK")
-		(at 176.53 182.88 270)
+		(at 195.58 187.96 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16669,7 +17203,7 @@
 		(dnp no)
 		(uuid "e0b7f899-9704-4714-ac7e-6f176d9f76bb")
 		(property "Reference" "C4"
-			(at 176.911 181.356 0)
+			(at 199.136 186.944 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16678,17 +17212,16 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 176.53 182.88 0)
+			(at 199.39 184.404 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 176.53 182.88 0)
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
+			(at 195.58 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16697,7 +17230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 182.88 0)
+			(at 195.58 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16706,7 +17239,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 182.88 0)
+			(at 195.58 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 195.58 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16784,6 +17326,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 138.43 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "830d86b3-78eb-4c6c-a352-bf19ba50bd18")
 		)
@@ -16801,7 +17352,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:3.3V")
-		(at 415.29 299.72 0)
+		(at 438.15 299.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16809,7 +17360,7 @@
 		(dnp no)
 		(uuid "e3097b36-c90e-4749-b994-b18ef735ea26")
 		(property "Reference" "#SUPPLY02"
-			(at 415.29 299.72 0)
+			(at 438.15 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16818,7 +17369,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 415.29 296.926 0)
+			(at 438.15 296.926 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16827,7 +17378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 415.29 299.72 0)
+			(at 438.15 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16836,7 +17387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 415.29 299.72 0)
+			(at 438.15 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16845,7 +17396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 415.29 299.72 0)
+			(at 438.15 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16985,6 +17536,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 367.03 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74d1be10-4b5e-4ee2-9454-d63d3bb89bc5")
 		)
@@ -17091,6 +17651,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74d36a3e-85fb-4c88-b128-3d034103f9aa")
 		)
@@ -17119,7 +17688,7 @@
 		(dnp no)
 		(uuid "e726cc5d-4354-4b0e-8bd9-6aa8c2320ae5")
 		(property "Reference" "R30"
-			(at 311.15 142.24 0)
+			(at 310.896 148.844 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17128,13 +17697,12 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 313.69 144.78 0)
+			(at 315.214 149.352 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -17156,6 +17724,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 313.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 313.69 144.78 0)
 			(effects
 				(font
@@ -17189,7 +17766,7 @@
 		(dnp no)
 		(uuid "e74e2cfb-6488-4003-a8d2-0b4dea5a62fe")
 		(property "Reference" "R23"
-			(at 219.71 239.395 0)
+			(at 216.408 233.172 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17198,13 +17775,12 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 220.98 236.22 0)
+			(at 216.154 235.966 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -17226,6 +17802,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 220.98 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 220.98 236.22 0)
 			(effects
 				(font
@@ -17268,13 +17853,12 @@
 			)
 		)
 		(property "Value" "100"
-			(at 114.3 309.88 0)
+			(at 109.982 313.944 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -17304,6 +17888,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 114.3 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49f16bed-aace-45fd-adf1-2b297c0e8522")
 		)
@@ -17321,7 +17914,7 @@
 	)
 	(symbol
 		(lib_id "oresat-acs-card-eagle-import:3.3V")
-		(at 431.8 299.72 0)
+		(at 464.82 300.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17329,7 +17922,7 @@
 		(dnp no)
 		(uuid "eb78d82e-8e98-4c43-b796-6639339ee0a4")
 		(property "Reference" "#SUPPLY03"
-			(at 431.8 299.72 0)
+			(at 464.82 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17338,7 +17931,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 431.8 296.926 0)
+			(at 464.82 298.196 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17347,7 +17940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 431.8 299.72 0)
+			(at 464.82 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17356,7 +17949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 431.8 299.72 0)
+			(at 464.82 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17365,7 +17958,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 431.8 299.72 0)
+			(at 464.82 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17612,6 +18205,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 377.19 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "a56847a1-cdb0-4577-9644-896acc277d9c")
 		)
@@ -17718,6 +18320,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 113.03 170.18 0)
 			(effects
 				(font
@@ -17839,6 +18450,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 264.16 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b95675e5-fe18-4a2b-8573-abc3b51881bc")
 		)
@@ -17920,6 +18540,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 146.05 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db0877bd-3efd-4292-a5a0-1825f09cec66")
 		)
@@ -17979,6 +18608,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 123.19 160.02 0)
 			(effects
 				(font
@@ -18096,6 +18734,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 336.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "551ca4b2-eff6-468d-afcf-134be4a8f7a6")
 		)
@@ -18158,7 +18805,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 424.18 119.38 180)
+		(at 461.01 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18167,7 +18814,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa94d53d-675f-4368-bbc1-87afc913708f")
 		(property "Reference" "#FLG03"
-			(at 424.18 121.285 0)
+			(at 461.01 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18176,7 +18823,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 424.18 124.46 0)
+			(at 461.01 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18184,7 +18831,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 424.18 119.38 0)
+			(at 461.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18193,7 +18840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 424.18 119.38 0)
+			(at 461.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18202,7 +18849,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 424.18 119.38 0)
+			(at 461.01 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18241,13 +18888,12 @@
 			)
 		)
 		(property "Value" "0"
-			(at 374.65 139.7 0)
+			(at 371.348 134.112 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
@@ -18269,6 +18915,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 374.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 374.65 139.7 0)
 			(effects
 				(font
