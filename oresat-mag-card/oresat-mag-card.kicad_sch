@@ -407,6 +407,245 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -482,650 +721,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-acs-card-eagle-import:3.3V"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#SUPPLY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "3.3V"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "3.3V_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "3.3V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-acs-card-eagle-import:R-US_0603-C-NOSILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -3.81 1.4986 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R-US_0603-C-NOSILK"
-				(at -3.81 -3.302 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-US_0603-C-NOSILK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.159 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.159 1.016) (xy -1.524 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -1.016) (xy -0.889 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -1.016) (xy 0.381 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 1.016) (xy 1.016 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.016) (xy 1.651 1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 1.016) (xy 2.286 -1.016)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.016) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-acs-card-eagle-import:TEST-POINT-LARGE-SQUARE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TEST-POINT-LARGE-SQUARE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TEST-POINT-LARGE-SQUARE_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-acs-card-eagle-import:VBUS"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#VBUS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 0.254 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUS_1_0"
-				(polyline
-					(pts
-						(xy 0 0) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-acs-card-eagle-import:VBUSP"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#VBUSP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUSP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBUSP_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 2.54)
-					(name "VBUSP"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
 					)
 				)
 			)
@@ -2752,6 +2347,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-misc:Test-Point-0.75mm-th"
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+				)
+			)
+			(property "Value" "Test-Point"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Test-Point-0.75mm-th_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "oresat-pcbs:ORESAT-CARD-V1.3-0RF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2825,20 +2503,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "oresat-power:3.3V"
 			(power)
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+			(property "Reference" "#3V3"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2846,8 +2520,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Value" "3.3V"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2872,7 +2546,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2881,7 +2555,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2890,10 +2564,34 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "3.3V_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2904,11 +2602,12 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "3.3V_1_1"
 				(pin power_in line
-					(at 0 0 270)
+					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(hide yes)
+					(name "3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3022,6 +2721,131 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3235,6 +3059,12 @@
 		(uuid "12da00eb-b5de-469d-9fcb-9fb9e39b7f5b")
 	)
 	(junction
+		(at 110.49 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31f807a0-e9d5-421f-a025-388c1cf262ab")
+	)
+	(junction
 		(at 195.58 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3277,13 +3107,7 @@
 		(uuid "6b3a89fd-7721-4500-b9e2-fcac42d6a2bf")
 	)
 	(junction
-		(at 311.15 274.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e85cafb-d791-42f6-81e0-b4b09e7c36fb")
-	)
-	(junction
-		(at 111.76 254)
+		(at 118.11 254)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f29a806-fb8b-4a27-9940-372cab84434a")
@@ -3299,6 +3123,12 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "926cdcd1-a98f-412c-bfa5-ae75e07b2da9")
+	)
+	(junction
+		(at 311.15 274.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "933b3115-c984-4ade-9afb-43db6b6811d3")
 	)
 	(junction
 		(at 306.07 293.37)
@@ -3343,6 +3173,12 @@
 		(uuid "f2050c0b-f03c-4b06-8300-7f1298a14fc1")
 	)
 	(junction
+		(at 110.49 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f419159c-5261-4046-b065-588109b226c5")
+	)
+	(junction
 		(at 104.14 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3361,7 +3197,7 @@
 		(uuid "fc46de47-1aa2-49c3-a025-28f558e2292b")
 	)
 	(junction
-		(at 111.76 261.62)
+		(at 118.11 261.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fef15db9-8e59-4116-bcc7-4ad8e286304f")
@@ -3812,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 252.73) (xy 111.76 254)
+			(xy 118.11 252.73) (xy 118.11 254)
 		)
 		(stroke
 			(width 0)
@@ -3902,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 288.29) (xy 306.07 293.37)
+			(xy 306.07 285.75) (xy 306.07 293.37)
 		)
 		(stroke
 			(width 0)
@@ -3932,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 274.32) (xy 314.96 278.13)
+			(xy 314.96 274.32) (xy 314.96 280.67)
 		)
 		(stroke
 			(width 0)
@@ -4042,16 +3878,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 261.62) (xy 111.76 261.62)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "661dcef7-7528-40ec-bf33-71db1d1c4379")
-	)
-	(wire
-		(pts
 			(xy 102.87 233.68) (xy 104.14 233.68)
 		)
 		(stroke
@@ -4059,6 +3885,16 @@
 			(type default)
 		)
 		(uuid "6722fa59-c734-4c40-ba1d-f2b9cc71c9d5")
+	)
+	(wire
+		(pts
+			(xy 110.49 254) (xy 118.11 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b9a051-868c-4fc6-97d6-aef9f0aab4c7")
 	)
 	(wire
 		(pts
@@ -4112,6 +3948,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 274.32) (xy 306.07 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d7a6ee-8d58-44a8-af0c-fc82ce057742")
+	)
+	(wire
+		(pts
 			(xy 212.09 195.58) (xy 226.06 195.58)
 		)
 		(stroke
@@ -4152,6 +3998,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 261.62) (xy 110.49 261.62)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7fc01f95-0223-46ae-9ae5-89f1cb9dcf9e")
+	)
+	(wire
+		(pts
 			(xy 289.56 332.74) (xy 358.14 332.74)
 		)
 		(stroke
@@ -4182,23 +4038,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 261.62) (xy 111.76 262.89)
+			(xy 118.11 261.62) (xy 118.11 262.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88eab7ab-27e8-451b-a98d-65aaea9fa931")
-	)
-	(wire
-		(pts
-			(xy 311.15 274.32) (xy 314.96 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8babfc98-3444-44f8-b5c3-00c199ee22dc")
 	)
 	(wire
 		(pts
@@ -4272,6 +4118,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 261.62) (xy 118.11 261.62)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9becfcaf-02e8-4d34-9ac7-185cfefb3c26")
+	)
+	(wire
+		(pts
 			(xy 289.56 365.76) (xy 358.14 365.76)
 		)
 		(stroke
@@ -4279,16 +4135,6 @@
 			(type default)
 		)
 		(uuid "9c027292-dbdc-42d7-a73c-53c89c2fb186")
-	)
-	(wire
-		(pts
-			(xy 306.07 278.13) (xy 306.07 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c811ed4-0bac-4417-8fcd-325d547db12f")
 	)
 	(wire
 		(pts
@@ -4432,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 288.29) (xy 314.96 295.91)
+			(xy 314.96 285.75) (xy 314.96 295.91)
 		)
 		(stroke
 			(width 0)
@@ -4562,16 +4408,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 254) (xy 111.76 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9d35e72-dd52-478d-9f81-201d64c42fec")
-	)
-	(wire
-		(pts
 			(xy 198.12 373.38) (xy 226.06 373.38)
 		)
 		(stroke
@@ -4679,6 +4515,16 @@
 			(type solid)
 		)
 		(uuid "db0eefcb-fc26-44e6-96bf-88f6a85f13d9")
+	)
+	(wire
+		(pts
+			(xy 105.41 254) (xy 110.49 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e176c068-9615-48cd-a23d-4a02c7743ee5")
 	)
 	(wire
 		(pts
@@ -4802,6 +4648,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 274.32) (xy 314.96 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3931362-ec7d-4603-a4a9-12f475445fd8")
+	)
+	(wire
+		(pts
 			(xy 105.41 259.08) (xy 105.41 261.62)
 		)
 		(stroke
@@ -4860,6 +4716,16 @@
 		)
 		(uuid "fd842f28-ff8d-4fb0-b475-50cf8fafec01")
 	)
+	(label "CAN2_L"
+		(at 105.41 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eae70a5-5a6c-4242-a0bf-91988231c1b6")
+	)
 	(label "C3-UART-TX"
 		(at 104.14 284.48 0)
 		(effects
@@ -4869,6 +4735,16 @@
 			(justify left bottom)
 		)
 		(uuid "20c30768-6d34-42aa-9d5d-a409095dfa9e")
+	)
+	(label "C3-UART-RX"
+		(at 104.14 287.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ed087d9-32cf-4572-9144-7f0e95a3522f")
 	)
 	(label "MAG_SDA"
 		(at 105.41 193.04 0)
@@ -4880,25 +4756,15 @@
 		)
 		(uuid "6b170703-6409-4c0c-ade1-a837b0f4ff87")
 	)
-	(label "CAN2_H"
-		(at 201.93 292.1 0)
+	(label "OPD_SDA"
+		(at 105.41 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "76b525bc-0183-4d53-a416-aabc847c9160")
-	)
-	(label "CAN2_L"
-		(at 201.93 294.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ed0ae95-3301-4135-b81f-4b65b2983df7")
+		(uuid "818b12cf-6c96-40ae-bc6d-617c1014e802")
 	)
 	(label "C3-UART-TX"
 		(at 166.37 370.84 0)
@@ -4910,6 +4776,26 @@
 		)
 		(uuid "991df0d7-a0be-45c3-a9db-283794b0cc2e")
 	)
+	(label "OPD_PWR"
+		(at 105.41 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a25d040e-48b6-4120-bb52-8273e8e63328")
+	)
+	(label "OPD_SCL"
+		(at 105.41 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a89014fa-4bc1-45ee-9d45-115a72d187c3")
+	)
 	(label "MAG_SCL"
 		(at 105.41 198.12 0)
 		(effects
@@ -4920,17 +4806,28 @@
 		)
 		(uuid "bbd30303-0a2f-45c2-acb7-b456d232db26")
 	)
+	(label "CAN2_H"
+		(at 105.41 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2f866d7-0402-4528-8372-680d272e5ac7")
+	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:VBUS")
-		(at 110.49 201.93 0)
+		(lib_id "oresat-power:3.3V")
+		(at 311.15 274.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0245a4d4-5159-489f-9570-759ad96dcfa1")
-		(property "Reference" "#VBUS02"
-			(at 110.49 201.93 0)
+		(fields_autoplaced yes)
+		(uuid "00e24203-c8fc-4404-8713-b7d7888c8bce")
+		(property "Reference" "#3V08"
+			(at 311.15 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,17 +4835,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "MAG_PWR"
-			(at 110.49 201.676 0)
+		(property "Value" "3.3V"
+			(at 311.15 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 201.93 0)
+			(at 311.15 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4957,7 +4853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 201.93 0)
+			(at 311.15 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,8 +4861,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 110.49 201.93 0)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 311.15 274.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,28 +4871,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "f837f41c-90f1-43ba-ad24-c6eb7f48d6ef")
+			(uuid "7b7c7ef7-f8e4-4daf-bdde-d780becaa2ea")
 		)
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#VBUS02")
+					(reference "#3V08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:VBUSP")
-		(at 170.18 340.36 0)
+		(lib_id "oresat-power:3.3V")
+		(at 177.8 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "07f7455f-32ae-4f5d-862a-5702055f685f")
-		(property "Reference" "#VBUSP01"
-			(at 170.18 340.36 0)
+		(fields_autoplaced yes)
+		(uuid "09955c09-97d1-484d-8b45-7beeb903c75b")
+		(property "Reference" "#3V01"
+			(at 177.8 356.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,17 +4901,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUSP"
-			(at 170.18 337.566 0)
+		(property "Value" "3.3V"
+			(at 177.8 347.98 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 340.36 0)
+			(at 177.8 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +4919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 340.36 0)
+			(at 177.8 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5031,73 +4927,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d95731f-2537-470a-9de1-dd7a0553cd19")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#VBUSP01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 388.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d563285-ed68-4666-8a48-9d942368dcf9")
-		(property "Reference" "#PWR041"
-			(at 167.64 394.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 392.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 388.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 388.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 388.62 0)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 177.8 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,12 +4937,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a796a99d-dab6-41a5-a49c-791aec1fa334")
+			(uuid "515b80e1-be7c-4273-a11b-fcc006834a80")
 		)
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#PWR041")
+					(reference "#3V01")
 					(unit 1)
 				)
 			)
@@ -5208,99 +5039,33 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:VBUS")
-		(at 111.76 250.19 0)
+		(lib_id "Device:R_Small_US")
+		(at 314.96 283.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1e3dc94d-e12a-4232-a49a-1db01be5e129")
-		(property "Reference" "#VBUS01"
-			(at 111.76 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 111.76 249.936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea694a4f-15c6-4572-bedd-e9496489886b")
-		)
-		(instances
-			(project "oresat-adcs-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#VBUS01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-acs-card-eagle-import:R-US_0603-C-NOSILK")
-		(at 314.96 283.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29f6ca98-43f7-4f09-b319-8533cfd6d164")
+		(uuid "3510f955-a19e-4183-903c-c8548e36281c")
 		(property "Reference" "R74"
-			(at 308.5846 280.924 0)
+			(at 312.42 284.4801 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 310.896 280.67 0)
+			(at 312.42 281.9401 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 314.96 283.21 0)
 			(effects
 				(font
@@ -5309,7 +5074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 314.96 283.21 0)
 			(effects
 				(font
@@ -5337,10 +5102,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "301fc229-248c-43b4-adbc-97344b9edee8")
+			(uuid "3208de2a-4a9e-47af-90dd-eddd6813ba9c")
 		)
 		(pin "2"
-			(uuid "a66dbedb-1d01-4440-b207-f92abde365de")
+			(uuid "4c236b42-a5c1-4756-8043-7c3aade6549e")
 		)
 		(instances
 			(project "oresat-mag-card"
@@ -5352,34 +5117,34 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:R-US_0603-C-NOSILK")
-		(at 306.07 283.21 270)
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 118.11 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5ae2f4d5-356a-45e2-8846-f89601b242d4")
-		(property "Reference" "R73"
-			(at 299.6946 280.924 0)
+		(uuid "35fb87b8-8dfe-4924-a075-dd874e1de93f")
+		(property "Reference" "#GND02"
+			(at 118.11 269.24 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 302.006 280.67 0)
+		(property "Value" "GND"
+			(at 118.11 266.7 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 306.07 283.21 0)
+		(property "Footprint" ""
+			(at 118.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 283.21 0)
+			(at 118.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,17 +5161,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 306.07 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
-			(at 306.07 283.21 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,32 +5171,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "369e0c59-287b-49a8-b9ea-60ffe00473ff")
-		)
-		(pin "2"
-			(uuid "23a3acf1-1300-41ad-9887-36943fe3ac3d")
+			(uuid "ca8b1c8c-a637-4723-aca0-d872fc0c662d")
 		)
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "R73")
+					(reference "#GND02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:3.3V")
-		(at 311.15 274.32 0)
-		(mirror y)
+		(lib_id "power:VCC")
+		(at 110.49 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5bb24f4b-3a8a-4b9e-8e86-38304e555f42")
-		(property "Reference" "#SUPPLY06"
-			(at 311.15 274.32 0)
+		(uuid "47061d2a-9868-427f-9fa2-12ec6ce8079e")
+		(property "Reference" "#MAG_PWR01"
+			(at 110.49 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,17 +5200,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 311.15 271.526 0)
+		(property "Value" "MAG_PWR"
+			(at 110.49 200.66 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 311.15 274.32 0)
+			(at 110.49 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 274.32 0)
+			(at 110.49 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,8 +5226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 311.15 274.32 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 110.49 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,12 +5236,145 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe01ba5c-65b3-47a8-86b3-030a121803d1")
+			(uuid "1d190dd1-1616-4c20-a609-06d4da6c56d4")
+		)
+		(instances
+			(project ""
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#MAG_PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 118.11 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b32e263-8038-4dd4-bd5d-e402a54ab225")
+		(property "Reference" "#VBUS01"
+			(at 118.11 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 118.11 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 118.11 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a184c25-651a-41a0-9624-e859c87ce1c5")
+		)
+		(instances
+			(project ""
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#VBUS01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 170.18 377.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "624e9eb0-c561-4610-a34a-4a391449edce")
+		(property "Reference" "TP1"
+			(at 172.72 377.1899 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 170.18 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 170.18 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 170.18 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17254d93-693c-4ace-88b8-6a322f93e94c")
 		)
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#SUPPLY06")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5628,71 +5512,6 @@
 			(project "oresat-adcs-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 262.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ec66e0a-82e4-4c51-a073-7830be5948ed")
-		(property "Reference" "#PWR01"
-			(at 111.76 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 266.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9fbfefc2-6832-459e-b731-dcb5a35de5d6")
-		)
-		(instances
-			(project ""
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5843,17 +5662,17 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:3.3V")
-		(at 177.8 353.06 0)
-		(mirror y)
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 261.62 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7f33b7c-283c-4890-90eb-f68bb9988735")
-		(property "Reference" "#SUPPLY01"
-			(at 177.8 353.06 0)
+		(fields_autoplaced yes)
+		(uuid "898a3abe-40bb-4b35-a043-024be686fb3f")
+		(property "Reference" "#FLG09"
+			(at 110.49 263.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,17 +5680,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 177.8 347.726 0)
+		(property "Value" "PWR_FLAG"
+			(at 110.49 266.7 0)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 353.06 0)
+			(at 110.49 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,8 +5697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 177.8 353.06 0)
+		(property "Datasheet" "~"
+			(at 110.49 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5889,7 +5707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 353.06 0)
+			(at 110.49 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,38 +5716,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce1b99f0-cfeb-44a9-b416-0405c9b1d782")
+			(uuid "0295e074-0605-4da0-9ce4-7ec04c9e2cad")
 		)
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#SUPPLY01")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "oresat-acs-card-eagle-import:TEST-POINT-LARGE-SQUARE")
-		(at 170.18 377.19 0)
-		(mirror x)
+		(lib_id "Device:R_Small_US")
+		(at 306.07 283.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "afd13723-f725-4478-a0dd-302a63ba6eca")
-		(property "Reference" "TP1"
-			(at 172.72 375.92 0)
+		(uuid "923ad3fd-75b6-4725-a075-2fa8e2f5bb7f")
+		(property "Reference" "R73"
+			(at 303.53 284.4801 0)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "TEST-POINT-LARGE-SQUARE"
-			(at 170.18 377.19 0)
+		(property "Value" "4.7k"
+			(at 303.53 281.9401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 306.07 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,17 +5763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-acs-card:1X01"
-			(at 170.18 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 377.19 0)
+		(property "Datasheet" "~"
+			(at 306.07 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5773,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 377.19 0)
+			(at 306.07 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +5782,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 170.18 377.19 0)
+			(at 306.07 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,12 +5791,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "973d4f2f-6318-45e3-9c02-5d55daa76d0e")
+			(uuid "eb48d13b-381f-47b2-b850-2343721aba77")
+		)
+		(pin "2"
+			(uuid "2fe5f033-0af8-40be-8062-3abd1bdd9b8f")
 		)
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "TP1")
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 167.64 388.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af4906d5-64e9-49c4-b5d8-8e47eff422d0")
+		(property "Reference" "#GND031"
+			(at 167.64 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 392.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b76a0d4-951e-4338-8874-6e995bf94947")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#GND031")
 					(unit 1)
 				)
 			)
@@ -6321,6 +6207,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 254 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8676e7e-3793-4c95-9147-037d87cf2509")
+		(property "Reference" "#FLG05"
+			(at 110.49 252.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.49 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ddaacf9-dd44-458b-8a30-d09b3a4cda15")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-connectors:ORESAT-DEBUG-CONNECTOR-3")
 		(at 154.94 361.95 0)
 		(unit 1)
@@ -6476,8 +6428,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 170.18 340.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6af87bb-1b7d-4423-b1e5-36b25d83b0c3")
+		(property "Reference" "#VBUSP01"
+			(at 170.18 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUSP"
+			(at 170.18 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 170.18 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65d61209-11b9-4703-8af3-355db47dac60")
+		)
+		(instances
+			(project ""
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#VBUSP01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 111.76 257.81 0)
+		(at 118.11 257.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6486,7 +6504,7 @@
 		(dnp no)
 		(uuid "d16aa1d7-e45a-48e3-b159-95be93845196")
 		(property "Reference" "C1"
-			(at 117.348 257.556 0)
+			(at 123.698 257.556 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6495,7 +6513,7 @@
 			)
 		)
 		(property "Value" "10u 25V 0805"
-			(at 130.81 260.604 0)
+			(at 137.16 260.604 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6504,7 +6522,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 111.76 257.81 0)
+			(at 118.11 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6531,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
-			(at 111.76 257.81 0)
+			(at 118.11 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6540,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
-			(at 111.76 257.81 0)
+			(at 118.11 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6549,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 111.76 257.81 0)
+			(at 118.11 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6558,7 @@
 			)
 		)
 		(property "DPN" "587-3485-1-ND"
-			(at 111.76 257.81 0)
+			(at 118.11 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,7 +6567,7 @@
 			)
 		)
 		(property "MFR" "Taiyo Yuden"
-			(at 111.76 257.81 0)
+			(at 118.11 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6576,7 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
-			(at 111.76 257.81 0)
+			(at 118.11 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6585,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 111.76 257.81 0)
+			(at 118.11 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
