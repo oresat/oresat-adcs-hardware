@@ -4222,9 +4222,9 @@
 		)
 		(uuid "979fb736-c81a-4bbc-8175-5c82cbc3c2d0")
 	)
-	(text "To STM32 I2C\nbootloader"
+	(text "To MCXN digitally configued boot pin\n"
 		(exclude_from_sim no)
-		(at 210.82 270.51 0)
+		(at 202.438 271.018 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -7997,7 +7997,7 @@
 			)
 		)
 	)
-	(hierarchical_label "PA2{slash}USART2_TX_OPD"
+	(hierarchical_label "SW_COM1"
 		(shape input)
 		(at 252.73 233.68 180)
 		(effects
@@ -8042,7 +8042,7 @@
 		(uuid "6f65924f-4487-466a-8d10-d64026fe87b0")
 	)
 	(hierarchical_label "C3-UART-TX"
-		(shape input)
+		(shape output)
 		(at 303.53 233.68 0)
 		(effects
 			(font
@@ -8052,7 +8052,7 @@
 		)
 		(uuid "a0002c45-37c5-4bd1-89ed-bb50a6b21778")
 	)
-	(hierarchical_label "PA3{slash}USART2_RX_OPD"
+	(hierarchical_label "SW_COM2"
 		(shape output)
 		(at 252.73 236.22 180)
 		(effects
@@ -8064,7 +8064,7 @@
 		(uuid "b1ea0dcc-d34c-4052-b5f3-e8f11d6e0e1a")
 	)
 	(hierarchical_label "C3-UART-RX"
-		(shape output)
+		(shape input)
 		(at 303.53 228.6 0)
 		(effects
 			(font
@@ -8074,8 +8074,8 @@
 		)
 		(uuid "b99b2290-b829-46c0-90a3-d72b5888cb89")
 	)
-	(hierarchical_label "BOOT0"
-		(shape bidirectional)
+	(hierarchical_label "BOOT_CONFIG"
+		(shape output)
 		(at 212.09 273.05 0)
 		(effects
 			(font
