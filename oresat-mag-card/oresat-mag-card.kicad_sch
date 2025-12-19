@@ -407,144 +407,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers
@@ -2852,26 +2714,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "WRONG"
-		(exclude_from_sim no)
-		(at 182.372 375.412 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "166645bc-2482-478f-85ce-9b9e64f9454f")
-	)
-	(text "OPD_PWR"
-		(exclude_from_sim no)
-		(at 152.4 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "22f1231a-a565-4725-9016-d16e983d9b31")
-	)
 	(text "Main OreSat Card Connector"
 		(exclude_from_sim no)
 		(at 86.868 272.034 90)
@@ -2903,19 +2745,6 @@
 		)
 		(uuid "489f347d-5454-4c1e-9bcc-a4b89735b434")
 	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 221.488 375.412 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "5e8f2637-239e-429e-9499-df461f644d9f")
-	)
 	(text "DOUBLECHECK"
 		(exclude_from_sim no)
 		(at 121.412 280.67 0)
@@ -2936,19 +2765,6 @@
 			(justify left bottom)
 		)
 		(uuid "62bb6e51-2cfa-4be5-9027-6fd75f072d20")
-	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 285.496 257.556 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "647546c7-123f-40f0-b3d8-aff13009ba37")
 	)
 	(text "Z"
 		(exclude_from_sim no)
@@ -3005,7 +2821,7 @@
 	)
 	(text "Connector TBD"
 		(exclude_from_sim no)
-		(at 460.502 368.808 0)
+		(at 475.234 352.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3028,12 +2844,6 @@
 		(uuid "df1ebbce-9654-4c8d-8252-dfe3bdd92ab8")
 	)
 	(junction
-		(at 314.96 295.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e1ae99d-2e61-4f3c-8172-8fc2808ab28a")
-	)
-	(junction
 		(at 105.41 251.46)
 		(diameter 0.9144)
 		(color 0 0 0 0)
@@ -3052,18 +2862,6 @@
 		(uuid "31f807a0-e9d5-421f-a025-388c1cf262ab")
 	)
 	(junction
-		(at 195.58 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3230ce79-4701-489a-8ec1-b598b6e98e0d")
-	)
-	(junction
-		(at 148.59 228.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "454085c3-7b78-47a1-aec1-da1278708f67")
-	)
-	(junction
 		(at 104.14 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3074,12 +2872,6 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "5631b0e7-4ece-4411-9358-514241b13bad")
-	)
-	(junction
-		(at 198.12 256.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ae9d08c-eaf8-4f21-8e98-e200bcd25e85")
 	)
 	(junction
 		(at 104.14 193.04)
@@ -3112,28 +2904,10 @@
 		(uuid "926cdcd1-a98f-412c-bfa5-ae75e07b2da9")
 	)
 	(junction
-		(at 311.15 274.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "933b3115-c984-4ade-9afb-43db6b6811d3")
-	)
-	(junction
-		(at 306.07 293.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93f8d380-a1d9-4703-8f6d-d0e9e7d43bd6")
-	)
-	(junction
 		(at 104.14 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af8ce8f0-4ade-4aaf-911f-469ded68bfa8")
-	)
-	(junction
-		(at 198.12 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc462009-d012-4d4a-a0e1-510da649332f")
 	)
 	(junction
 		(at 167.64 387.35)
@@ -3170,12 +2944,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fab969f6-d52d-4799-bc39-44acd9cf478d")
-	)
-	(junction
-		(at 195.58 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc46de47-1aa2-49c3-a025-28f558e2292b")
 	)
 	(junction
 		(at 195.58 370.84)
@@ -3252,16 +3020,6 @@
 	(no_connect
 		(at 102.87 281.94)
 		(uuid "dd6188d8-8182-4d13-8e15-88f144113d58")
-	)
-	(wire
-		(pts
-			(xy 212.09 198.12) (xy 212.09 195.58)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0955f1be-f1f3-4271-9cd2-0b021acb7487")
 	)
 	(wire
 		(pts
@@ -3345,16 +3103,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 256.54) (xy 198.12 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1388c742-7cd5-4fc7-a8f5-2c6b21264020")
-	)
-	(wire
-		(pts
 			(xy 198.12 256.54) (xy 198.12 373.38)
 		)
 		(stroke
@@ -3405,16 +3153,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 226.06) (xy 226.06 226.06)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "19179056-b822-49f2-a978-0bc441cacc30")
-	)
-	(wire
-		(pts
 			(xy 289.56 368.3) (xy 358.14 368.3)
 		)
 		(stroke
@@ -3455,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 198.12) (xy 212.09 198.12)
+			(xy 104.14 198.12) (xy 226.06 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3485,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 237.49) (xy 226.06 237.49)
+			(xy 163.83 237.49) (xy 226.06 237.49)
 		)
 		(stroke
 			(width 0)
@@ -3555,7 +3293,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 240.03) (xy 198.12 240.03)
+			(xy 166.37 240.03) (xy 226.06 240.03)
 		)
 		(stroke
 			(width 0)
@@ -3705,16 +3443,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 285.75) (xy 306.07 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d74f8d9-53df-44f4-9d00-f886593a5f4e")
-	)
-	(wire
-		(pts
 			(xy 289.56 308.61) (xy 336.55 308.61)
 		)
 		(stroke
@@ -3732,26 +3460,6 @@
 			(type default)
 		)
 		(uuid "5102730d-f928-40cc-b46e-d2e4eb54809b")
-	)
-	(wire
-		(pts
-			(xy 314.96 274.32) (xy 314.96 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5362e4f3-788a-481d-8bab-730febda55ac")
-	)
-	(wire
-		(pts
-			(xy 163.83 237.49) (xy 195.58 237.49)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "53e3d191-4942-4181-bfed-297cefcfd147")
 	)
 	(wire
 		(pts
@@ -3792,16 +3500,6 @@
 			(type default)
 		)
 		(uuid "5c40f0a2-18ac-46ee-9fb9-8d583518c0ac")
-	)
-	(wire
-		(pts
-			(xy 181.61 228.6) (xy 181.61 226.06)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5d86a1b7-0616-4d6f-a984-51396728bd7d")
 	)
 	(wire
 		(pts
@@ -3905,7 +3603,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 228.6) (xy 148.59 228.6)
+			(xy 104.14 228.6) (xy 226.06 228.6)
 		)
 		(stroke
 			(width 0)
@@ -3922,26 +3620,6 @@
 			(type default)
 		)
 		(uuid "74ac9199-9c87-4b42-a738-b82d4346f664")
-	)
-	(wire
-		(pts
-			(xy 306.07 274.32) (xy 306.07 280.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d7a6ee-8d58-44a8-af0c-fc82ce057742")
-	)
-	(wire
-		(pts
-			(xy 212.09 195.58) (xy 226.06 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d7b03c-c290-418b-abef-6fef7b898951")
 	)
 	(wire
 		(pts
@@ -3965,16 +3643,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 240.03) (xy 226.06 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b225c70-05e2-4120-9b84-10f30c4b2dc3")
-	)
-	(wire
-		(pts
 			(xy 105.41 261.62) (xy 110.49 261.62)
 		)
 		(stroke
@@ -3995,7 +3663,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 295.91) (xy 314.96 295.91)
+			(xy 289.56 295.91) (xy 327.66 295.91)
 		)
 		(stroke
 			(width 0)
@@ -4225,16 +3893,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 237.49) (xy 195.58 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa095cc1-7e4e-4977-9cb7-0505eefe136a")
-	)
-	(wire
-		(pts
 			(xy 289.56 373.38) (xy 358.14 373.38)
 		)
 		(stroke
@@ -4265,16 +3923,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 285.75) (xy 314.96 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1526071-e999-4408-b0a5-0b558f0f00c7")
-	)
-	(wire
-		(pts
 			(xy 165.1 365.76) (xy 226.06 365.76)
 		)
 		(stroke
@@ -4282,16 +3930,6 @@
 			(type default)
 		)
 		(uuid "b1976a0f-8c14-46f5-9679-571b167c076c")
-	)
-	(wire
-		(pts
-			(xy 306.07 274.32) (xy 311.15 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6a11804-a411-49d6-aa5f-2228d226371f")
 	)
 	(wire
 		(pts
@@ -4405,23 +4043,13 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 293.37) (xy 306.07 293.37)
+			(xy 289.56 293.37) (xy 325.12 293.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd881727-7b82-4b5c-bb7d-d2e452e6ca0c")
-	)
-	(wire
-		(pts
-			(xy 314.96 295.91) (xy 327.66 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf681fed-5961-4879-81af-06b701a2b0e7")
 	)
 	(wire
 		(pts
@@ -4605,16 +4233,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 293.37) (xy 325.12 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f28c5d08-34e3-489e-8d5d-07f7c9593e88")
-	)
-	(wire
-		(pts
 			(xy 339.09 172.72) (xy 339.09 311.15)
 		)
 		(stroke
@@ -4632,16 +4250,6 @@
 			(type solid)
 		)
 		(uuid "f36982ec-6a2a-4b2a-bb47-5d3bf5595d45")
-	)
-	(wire
-		(pts
-			(xy 311.15 274.32) (xy 314.96 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3931362-ec7d-4603-a4a9-12f475445fd8")
 	)
 	(wire
 		(pts
@@ -4672,16 +4280,6 @@
 			(type default)
 		)
 		(uuid "f6997c43-05a1-42aa-88fc-859645551201")
-	)
-	(wire
-		(pts
-			(xy 148.59 228.6) (xy 181.61 228.6)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "f9035ac2-2cd6-4c6c-bba9-08bef55a6f98")
 	)
 	(wire
 		(pts
@@ -4732,16 +4330,6 @@
 			(justify right bottom)
 		)
 		(uuid "2371a474-35b3-4907-8c51-ec78e466e6d0")
-	)
-	(label "C3-UART-RX"
-		(at 166.37 373.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3791795b-8c35-4e30-b8ca-077ae87c0e67")
 	)
 	(label "MT_Z_OUT_A"
 		(at 455.93 346.71 180)
@@ -4812,16 +4400,6 @@
 			(justify left bottom)
 		)
 		(uuid "818b12cf-6c96-40ae-bc6d-617c1014e802")
-	)
-	(label "C3-UART-TX"
-		(at 166.37 370.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "991df0d7-a0be-45c3-a9db-283794b0cc2e")
 	)
 	(label "OPD_PWR"
 		(at 105.41 228.6 0)
@@ -4912,72 +4490,6 @@
 			(justify right bottom)
 		)
 		(uuid "e6667770-d129-46c5-bad5-edfe1773be9b")
-	)
-	(symbol
-		(lib_id "oresat-power:3.3V")
-		(at 311.15 274.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00e24203-c8fc-4404-8713-b7d7888c8bce")
-		(property "Reference" "#3V08"
-			(at 311.15 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 311.15 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 311.15 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b7c7ef7-f8e4-4daf-bdde-d780becaa2ea")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#3V08")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "oresat-power:3.3V")
@@ -5130,84 +4642,6 @@
 			(project "oresat-adcs-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 314.96 283.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3510f955-a19e-4183-903c-c8548e36281c")
-		(property "Reference" "R74"
-			(at 312.42 284.4801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 312.42 281.9401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 314.96 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 314.96 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 314.96 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
-			(at 314.96 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3208de2a-4a9e-47af-90dd-eddd6813ba9c")
-		)
-		(pin "2"
-			(uuid "4c236b42-a5c1-4756-8043-7c3aade6549e")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -5472,71 +4906,6 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 148.59 228.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "665c61ce-b3d5-4fe5-8dd7-ab6abab38a03")
-		(property "Reference" "#FLG01"
-			(at 148.59 230.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 154.686 230.632 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 148.59 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "889e31a4-810c-4d1e-a455-1530c19fe000")
-		)
-		(instances
-			(project "oresat-adcs-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -5819,84 +5188,6 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 306.07 283.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "923ad3fd-75b6-4725-a075-2fa8e2f5bb7f")
-		(property "Reference" "R73"
-			(at 303.53 284.4801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 303.53 281.9401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 306.07 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 306.07 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 306.07 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIST" ""
-			(at 306.07 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb48d13b-381f-47b2-b850-2343721aba77")
-		)
-		(pin "2"
-			(uuid "2fe5f033-0af8-40be-8062-3abd1bdd9b8f")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -6904,7 +6195,7 @@
 			)
 		)
 		(pin "OPD_PWR" passive
-			(at 226.06 226.06 180)
+			(at 226.06 228.6 180)
 			(uuid "b5ea16da-e9fc-497d-9749-182a86aaed87")
 			(effects
 				(font
@@ -6996,7 +6287,7 @@
 			)
 		)
 		(property "Sheetfile" "oresat-mag-card-sch-sensors.kicad_sch"
-			(at 226.06 198.7046 0)
+			(at 226.06 209.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +6326,7 @@
 			)
 		)
 		(pin "MAG_SCL" bidirectional
-			(at 226.06 195.58 180)
+			(at 226.06 198.12 180)
 			(uuid "4f6d5a74-556f-4cd9-b8ce-b8fc78917959")
 			(effects
 				(font
@@ -7396,7 +6687,7 @@
 				(justify right)
 			)
 		)
-		(pin "P1_9{slash}UART_RX" input
+		(pin "CARD_UART_RX" input
 			(at 226.06 373.38 180)
 			(uuid "e80b4474-e2dd-42f8-b904-c4e18bcb9210")
 			(effects
@@ -7406,7 +6697,7 @@
 				(justify left)
 			)
 		)
-		(pin "P1_8{slash}UART_TX" output
+		(pin "CARD_UART_TX" output
 			(at 226.06 370.84 180)
 			(uuid "37184e00-3c96-47b8-95fe-95d53a2f687a")
 			(effects

@@ -4550,19 +4550,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 176.53 169.418 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "3eca7311-542b-4023-a756-6c7fa1135963")
-	)
 	(text "Each magnetorquer operate individually of each other\nPWM specification does not really matter here."
 		(exclude_from_sim no)
 		(at 331.978 153.67 0)
@@ -4595,7 +4582,7 @@
 	)
 	(text "All resistors 0603 +/- 1% and AEQ unless marked"
 		(exclude_from_sim no)
-		(at 170.18 335.28 0)
+		(at 280.67 401.828 0)
 		(effects
 			(font
 				(size 1.778 1.27)
@@ -4604,22 +4591,9 @@
 		)
 		(uuid "7be49d8f-8b1c-49f5-bcf0-aeefb7162cf9")
 	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 189.738 265.684 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "8644adb3-857d-48bf-ad9f-18111ad9bacd")
-	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 356.108 265.684 0)
+		(at 391.668 288.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4650,11 +4624,12 @@
 	)
 	(text "Table 225 page 428 of MCXN Reference Manual. \nISPMODE_N (P0_6 pin) determines boot mode\nHigh = Flash Memory Boot\nLow = ISP Boot\n"
 		(exclude_from_sim no)
-		(at 358.394 258.572 0)
+		(at 379.476 258.572 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "a54d0074-c82f-4b74-85c6-f8380b70bd84")
 	)
@@ -4671,16 +4646,6 @@
 		)
 		(uuid "ab2fc1d9-dbf3-44c2-81c5-4c3edbee2702")
 	)
-	(text "Generic GPIO"
-		(exclude_from_sim no)
-		(at 170.434 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ac1f0c42-5e39-47aa-9692-e879c1acd8b3")
-	)
 	(text "ADC"
 		(exclude_from_sim no)
 		(at 196.088 197.866 0)
@@ -4693,7 +4658,7 @@
 	)
 	(text "All caps are ceramic 10% X5R >= 16V Vwv and AEQ unless marked"
 		(exclude_from_sim no)
-		(at 170.18 337.82 0)
+		(at 280.67 404.368 0)
 		(effects
 			(font
 				(size 1.778 1.27)
@@ -4724,7 +4689,7 @@
 	)
 	(text_box "NXP is weird, digital communication may be labeled under FlexCOMM\nLook carfully for SPI UART and I2C lines. May have to dig a little.\nLooking at the linked excel file will help alot.\n"
 		(exclude_from_sim no)
-		(at 391.16 251.46 0)
+		(at 369.57 234.95 0)
 		(size 73.66 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4813,6 +4778,12 @@
 		(uuid "1bed24e3-620f-4459-a08c-a765c018beea")
 	)
 	(junction
+		(at 367.03 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cc6f82d-dbf5-4b82-bbb5-ba09b02f36d7")
+	)
+	(junction
 		(at 433.07 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4823,6 +4794,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b68751b-7e29-4538-81fd-399f92972568")
+	)
+	(junction
+		(at 361.95 290.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3046742d-9589-4f34-b06c-98a0f0565479")
 	)
 	(junction
 		(at 429.26 139.7)
@@ -4871,6 +4848,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8527e41f-55a5-4f2a-a7b7-43dca194b616")
+	)
+	(junction
+		(at 370.84 293.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "883b33bf-97ad-40c4-9b89-6736cda19a37")
 	)
 	(junction
 		(at 429.26 144.78)
@@ -5264,7 +5247,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 267.97) (xy 349.25 267.97)
+			(xy 349.25 290.83) (xy 361.95 290.83)
 		)
 		(stroke
 			(width 0)
@@ -5304,6 +5287,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 270.51) (xy 311.15 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef0b245-36f8-47a0-bc28-047bc166da40")
+	)
+	(wire
+		(pts
 			(xy 144.78 182.88) (xy 165.1 182.88)
 		)
 		(stroke
@@ -5311,6 +5304,26 @@
 			(type default)
 		)
 		(uuid "0f7c42aa-bafd-40d6-b98f-c64f6cb18e93")
+	)
+	(wire
+		(pts
+			(xy 370.84 293.37) (xy 384.81 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0feb91bf-5d4c-4d06-95f7-2f9f1a3698a1")
+	)
+	(wire
+		(pts
+			(xy 349.25 290.83) (xy 349.25 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108bfd53-4a40-4d81-9380-7dd233d54f96")
 	)
 	(wire
 		(pts
@@ -5331,6 +5344,16 @@
 			(type default)
 		)
 		(uuid "12abc40b-a8dd-4532-82f7-a67cf89a43fe")
+	)
+	(wire
+		(pts
+			(xy 370.84 283.21) (xy 370.84 293.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132a5922-4b88-44fd-b74f-843fda65fb2b")
 	)
 	(wire
 		(pts
@@ -5431,6 +5454,16 @@
 			(type default)
 		)
 		(uuid "23ec8bca-9c68-4332-abca-3c19b8cec3ed")
+	)
+	(wire
+		(pts
+			(xy 367.03 271.78) (xy 370.84 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2558b87c-cf3d-4a23-8476-babb5ddfbee5")
 	)
 	(wire
 		(pts
@@ -5544,7 +5577,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 265.43) (xy 331.47 265.43)
+			(xy 334.01 257.81) (xy 361.95 257.81)
 		)
 		(stroke
 			(width 0)
@@ -5614,6 +5647,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 271.78) (xy 361.95 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9e3c0b-3c04-4699-9b49-697fad8fb7c4")
+	)
+	(wire
+		(pts
 			(xy 144.78 187.96) (xy 165.1 187.96)
 		)
 		(stroke
@@ -5644,7 +5687,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 270.51) (xy 349.25 270.51)
+			(xy 347.98 293.37) (xy 370.84 293.37)
 		)
 		(stroke
 			(width 0)
@@ -5751,6 +5794,16 @@
 			(type default)
 		)
 		(uuid "524bc00f-bf85-4e73-85ef-71b38b756a78")
+	)
+	(wire
+		(pts
+			(xy 347.98 293.37) (xy 347.98 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5397740b-20ac-459d-847c-3c25aea25110")
 	)
 	(wire
 		(pts
@@ -6054,6 +6107,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 267.97) (xy 311.15 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a82a9ff-b5d0-4961-b7d7-3704938e13c7")
+	)
+	(wire
+		(pts
 			(xy 156.21 288.29) (xy 156.21 284.48)
 		)
 		(stroke
@@ -6141,6 +6204,16 @@
 			(type default)
 		)
 		(uuid "98ccbe06-0dc8-4f4d-a8a8-ed9d21a05695")
+	)
+	(wire
+		(pts
+			(xy 370.84 271.78) (xy 370.84 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99aa8a48-cdce-419e-9715-7354540f0424")
 	)
 	(wire
 		(pts
@@ -6274,6 +6347,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 283.21) (xy 361.95 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b34edef1-2a72-4eeb-a8f1-f91bdfcc070e")
+	)
+	(wire
+		(pts
 			(xy 448.31 186.69) (xy 448.31 187.96)
 		)
 		(stroke
@@ -6301,6 +6384,16 @@
 			(type default)
 		)
 		(uuid "b593cdd3-d68f-4876-97ec-b7c1cc9a0ac9")
+	)
+	(wire
+		(pts
+			(xy 334.01 265.43) (xy 311.15 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5dc2758-d204-4930-8e78-9ee8ebd6444b")
 	)
 	(wire
 		(pts
@@ -6414,6 +6507,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 290.83) (xy 384.81 290.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd16ff32-ac5b-4d07-923a-f8f5376b6990")
+	)
+	(wire
+		(pts
 			(xy 455.93 184.15) (xy 455.93 182.88)
 		)
 		(stroke
@@ -6421,6 +6524,16 @@
 			(type default)
 		)
 		(uuid "cda2c759-eff2-4f6c-becd-cfd658a6cced")
+	)
+	(wire
+		(pts
+			(xy 334.01 257.81) (xy 334.01 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf04d1ef-fde6-409d-8f70-aa75c004f630")
 	)
 	(wire
 		(pts
@@ -6541,6 +6654,16 @@
 			(type default)
 		)
 		(uuid "e89a2321-2526-46e8-8ba3-24e03e042a2b")
+	)
+	(wire
+		(pts
+			(xy 361.95 271.78) (xy 367.03 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3eeada-bd6d-4245-b988-6dd2175bc178")
 	)
 	(wire
 		(pts
@@ -6804,7 +6927,7 @@
 		)
 		(uuid "4d863cc5-7d0e-4da7-a75d-645deb8b25d1")
 	)
-	(hierarchical_label "P1_9{slash}UART_RX"
+	(hierarchical_label "CARD_UART_RX"
 		(shape input)
 		(at 170.18 266.7 0)
 		(effects
@@ -6850,7 +6973,7 @@
 	)
 	(hierarchical_label "MAG_SDA_uC"
 		(shape bidirectional)
-		(at 349.25 267.97 0)
+		(at 384.81 290.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6861,7 +6984,7 @@
 	)
 	(hierarchical_label "BOOT_CONFIG"
 		(shape input)
-		(at 331.47 265.43 0)
+		(at 361.95 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6927,7 +7050,7 @@
 	)
 	(hierarchical_label "MAG_SCL_uC"
 		(shape bidirectional)
-		(at 349.25 270.51 0)
+		(at 384.81 293.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6969,7 +7092,7 @@
 		)
 		(uuid "eebce892-6c0b-4175-908d-5b7d98835cec")
 	)
-	(hierarchical_label "P1_8{slash}UART_TX"
+	(hierarchical_label "CARD_UART_TX"
 		(shape output)
 		(at 170.18 264.16 0)
 		(effects
@@ -8360,12 +8483,15 @@
 		)
 		(pin "76"
 			(uuid "8d5c5987-50bb-46b2-a629-c3b4d413b07d")
+			(alternate "TMS/SWDIO ")
 		)
 		(pin "77"
 			(uuid "60ffd077-2e80-47f8-8418-6991181b3840")
+			(alternate "TCLK/SWCLK")
 		)
 		(pin "78"
 			(uuid "549265e4-fb41-449c-a8ea-36d07fd5c7ce")
+			(alternate "TDO/SWO ")
 		)
 		(pin "79"
 			(uuid "5ef1370b-969d-47ff-8ca5-6441d9addb3b")
@@ -8378,6 +8504,7 @@
 		)
 		(pin "82"
 			(uuid "1983814b-2198-4ef0-aac9-c1798a1f86ed")
+			(alternate "ISPMODE_N")
 		)
 		(pin "55"
 			(uuid "1b593569-963c-43e0-a2a4-84b88bdcb523")
@@ -8393,12 +8520,14 @@
 		)
 		(pin "84"
 			(uuid "a3191991-0b90-49e9-8b8b-443457d22976")
+			(alternate "I2C_SDA ")
 		)
 		(pin "47"
 			(uuid "6d5bd154-73c5-48aa-a227-a7e4def83248")
 		)
 		(pin "85"
 			(uuid "981ec068-a0dc-492e-82fd-d91d0eb2d233")
+			(alternate "I2C_SCL ")
 		)
 		(pin "91"
 			(uuid "ec2f8a0d-f4d5-4078-83ce-5e3d0f63e693")
@@ -9180,6 +9309,84 @@
 			(project "oresat-adcs-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/e889bc11-06d8-4b5a-8dd5-30963e8b2dc1"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 361.95 280.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46108848-5abb-4087-a444-38b7544fbd67")
+		(property "Reference" "R44"
+			(at 359.41 281.9401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 359.41 279.4001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 361.95 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 361.95 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36476ad0-67d6-4d35-97fa-c96ba2a41b6d")
+		)
+		(pin "2"
+			(uuid "7a862e70-027d-4ec3-9f0d-0cea685098d8")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/e889bc11-06d8-4b5a-8dd5-30963e8b2dc1"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -11397,6 +11604,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-power:3.3V")
+		(at 367.03 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f55275d-502a-4196-8b84-451933ac4fb8")
+		(property "Reference" "#3V09"
+			(at 367.03 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 367.03 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 367.03 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 367.03 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2975e36-e0aa-40c1-854b-b05eef05f62f")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/e889bc11-06d8-4b5a-8dd5-30963e8b2dc1"
+					(reference "#3V09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 462.28 170.18 270)
 		(mirror x)
@@ -11959,6 +12232,84 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/e889bc11-06d8-4b5a-8dd5-30963e8b2dc1"
 					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 370.84 280.67 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90d194c4-90f7-403b-ae4a-99abb01fa5f9")
+		(property "Reference" "R75"
+			(at 368.3 281.9401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 368.3 279.4001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 370.84 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 370.84 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 370.84 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 370.84 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb9fbe5b-1cbe-4ebd-9d81-6440ff4f07c2")
+		)
+		(pin "2"
+			(uuid "b22a1adf-9417-45df-a79f-6606646e6bce")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/e889bc11-06d8-4b5a-8dd5-30963e8b2dc1"
+					(reference "R75")
 					(unit 1)
 				)
 			)

@@ -4130,17 +4130,6 @@
 		)
 		(uuid "23dce5fd-c38b-430c-a399-f8cb088b1a8d")
 	)
-	(text "Allows ~ 2.0 A"
-		(exclude_from_sim no)
-		(at 350.52 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ad6139e-21b3-4d1b-9f64-0579851744f2")
-	)
 	(text "OreSat Power Domain (OPD)\nPower Supply (3.3V)"
 		(exclude_from_sim no)
 		(at 104.14 116.84 0)
@@ -4196,32 +4185,6 @@
 		)
 		(uuid "8f403a3e-69cf-4320-99d1-a1be9f0d3472")
 	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 215.138 276.098 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "932f08d6-a89b-411c-8bac-815253df5e14")
-	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 208.534 215.138 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "979fb736-c81a-4bbc-8175-5c82cbc3c2d0")
-	)
 	(text "To MCXN digitally configued boot pin\n"
 		(exclude_from_sim no)
 		(at 202.438 271.018 0)
@@ -4243,6 +4206,19 @@
 			(justify left bottom)
 		)
 		(uuid "a4895e1a-ac2a-4eab-bb75-002f4aa0aab5")
+	)
+	(text "FIXME - ?A"
+		(exclude_from_sim no)
+		(at 403.86 155.956 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "d89fca2e-e87c-4a33-afa6-7397fd6ad7be")
 	)
 	(text "OreSat Power Domain (OPD) Controller"
 		(exclude_from_sim no)
@@ -4276,19 +4252,6 @@
 			(justify left bottom)
 		)
 		(uuid "f5b00045-b817-4edc-9066-f4ed03525bd4")
-	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 246.126 231.394 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "fa0a15a4-5dc3-4c4a-82d2-8e60c6a779cc")
 	)
 	(junction
 		(at 379.73 149.86)
@@ -4501,12 +4464,6 @@
 		(uuid "5ca1ce02-de4b-4b00-8cbe-b3e8845516fd")
 	)
 	(junction
-		(at 186.69 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d8b0d49-5adb-452b-94b7-76a6ea35e127")
-	)
-	(junction
 		(at 156.21 312.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4517,6 +4474,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c8a6199-c6d3-439e-90c2-c73e387f5170")
+	)
+	(junction
+		(at 194.31 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7047e79f-6da6-4bdf-8ee0-bf0f6af580db")
 	)
 	(junction
 		(at 440.69 119.38)
@@ -4855,6 +4818,16 @@
 			(type default)
 		)
 		(uuid "039281dd-040f-4bcb-8d18-8980c5953fb8")
+	)
+	(wire
+		(pts
+			(xy 194.31 215.9) (xy 215.9 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04e67f4a-2c4b-4166-b072-a846d09ae5dc")
 	)
 	(wire
 		(pts
@@ -5225,16 +5198,6 @@
 			(type default)
 		)
 		(uuid "21a7e865-c24c-47c9-95c0-c2ec9bcaeafd")
-	)
-	(wire
-		(pts
-			(xy 186.69 215.9) (xy 215.9 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23af9bf4-7502-482e-a26a-d6483773ea3d")
 	)
 	(wire
 		(pts
@@ -7658,7 +7621,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 215.9) (xy 186.69 215.9)
+			(xy 181.61 215.9) (xy 194.31 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7817,7 +7780,7 @@
 		(uuid "2c3c7953-603d-4b95-b24a-60ee04407d91")
 	)
 	(label "CB-RESET"
-		(at 185.42 208.28 0)
+		(at 182.88 208.28 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -7825,6 +7788,26 @@
 			(justify left bottom)
 		)
 		(uuid "2fe78e00-e5a1-4316-afef-41db388c5a0e")
+	)
+	(label "~{FAULT}"
+		(at 182.88 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "340c00be-97c4-44fe-95f0-b89fa26a1608")
+	)
+	(label "BOOT_CONFIG"
+		(at 182.88 210.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36303972-47bf-4c08-8091-542093d30c65")
 	)
 	(label "AD1"
 		(at 140.97 200.66 0)
@@ -7845,6 +7828,16 @@
 			(justify left bottom)
 		)
 		(uuid "5747d05f-64aa-4392-9825-fe91b7b130ae")
+	)
+	(label "UART_EN"
+		(at 182.88 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58016760-c0d2-465f-bbd6-0ab0fb84548b")
 	)
 	(label "PEN-SCL-FILT"
 		(at 110.49 208.28 0)
@@ -7897,7 +7890,7 @@
 		(uuid "708c28ef-4921-4cc6-86b1-c48e97d4c8b9")
 	)
 	(label "ON/~{OFF}"
-		(at 185.42 205.74 0)
+		(at 182.88 205.74 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -16369,7 +16362,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 186.69 215.9 90)
+		(at 194.31 215.9 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -16378,7 +16371,7 @@
 		(dnp no)
 		(uuid "d7614e8d-863d-4e60-8fd6-79edca88f148")
 		(property "Reference" "TP5"
-			(at 186.6899 218.44 0)
+			(at 196.088 219.202 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -16387,7 +16380,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 179.07 215.9 0)
+			(at 186.69 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16396,7 +16389,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 176.53 215.9 0)
+			(at 184.15 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16405,7 +16398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 215.9 0)
+			(at 194.31 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16414,7 +16407,7 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 186.69 215.9 0)
+			(at 194.31 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
