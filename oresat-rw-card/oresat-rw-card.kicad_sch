@@ -6389,7 +6389,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-mag-card-sch-power.kicad_sch"
+		(property "Sheetfile" "oresat-rw-card-sch-q1.kicad_sch"
 			(at 198.12 83.1346 0)
 			(effects
 				(font
@@ -6489,7 +6489,7 @@
 			)
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(page "2")
 				)
@@ -6520,7 +6520,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-mag-card-sch-sensors.kicad_sch"
+		(property "Sheetfile" "oresat-rw-card-sch-q3.kicad_sch"
 			(at 203.454 187.198 0)
 			(effects
 				(font
@@ -6620,7 +6620,7 @@
 			)
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(page "4")
 				)
@@ -6652,7 +6652,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-mag-card-sch-microcontroller.kicad_sch"
+		(property "Sheetfile" "oresat-rw-card-sch-q2.kicad_sch"
 			(at 198.12 142.8246 0)
 			(effects
 				(font
@@ -6742,7 +6742,7 @@
 			)
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(page "3")
 				)
@@ -6773,7 +6773,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-mag-card-sch-magnetorquers.kicad_sch"
+		(property "Sheetfile" "oresat-rw-card-sch-q4.kicad_sch"
 			(at 196.85 260.604 0)
 			(effects
 				(font
@@ -6973,7 +6973,7 @@
 			)
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(page "5")
 				)
