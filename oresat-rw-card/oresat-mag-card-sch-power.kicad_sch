@@ -3511,17 +3511,6 @@
 		)
 		(uuid "8f403a3e-69cf-4320-99d1-a1be9f0d3472")
 	)
-	(text "To MCXN digitally configued boot pin\n"
-		(exclude_from_sim no)
-		(at 202.438 271.018 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "98dbeacd-eda1-4446-87dd-ddc62165f2c4")
-	)
 	(text "Address selection for Card\n(See MAX7310 datasheet)"
 		(exclude_from_sim no)
 		(at 105.41 146.05 0)
@@ -4064,7 +4053,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 215.9) (xy 215.9 215.9)
+			(xy 194.31 215.9) (xy 220.98 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4234,16 +4223,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 210.82) (xy 200.66 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "134bfada-f0b0-4c8e-9e9c-3cd2bf3a1c1f")
-	)
-	(wire
-		(pts
 			(xy 436.88 119.38) (xy 436.88 121.92)
 		)
 		(stroke
@@ -4394,16 +4373,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 226.06) (xy 220.98 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2845bc83-f0e2-4aa5-ba9a-726636d44f17")
-	)
-	(wire
-		(pts
 			(xy 128.27 165.1) (xy 128.27 168.91)
 		)
 		(stroke
@@ -4414,7 +4383,7 @@
 	)
 	(wire
 		(pts
-			(xy 471.17 114.3) (xy 471.17 115.57)
+			(xy 471.17 110.49) (xy 471.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4754,7 +4723,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 215.9) (xy 215.9 226.06)
+			(xy 220.98 215.9) (xy 220.98 226.06)
 		)
 		(stroke
 			(width 0)
@@ -4794,7 +4763,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 238.76) (xy 220.98 243.84)
+			(xy 220.98 233.68) (xy 220.98 236.22)
 		)
 		(stroke
 			(width 0)
@@ -5194,7 +5163,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 210.82) (xy 200.66 210.82)
+			(xy 181.61 210.82) (xy 199.39 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5644,7 +5613,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 226.06) (xy 220.98 233.68)
+			(xy 220.98 226.06) (xy 220.98 228.6)
 		)
 		(stroke
 			(width 0)
@@ -6001,16 +5970,6 @@
 			(type default)
 		)
 		(uuid "cbfd95b7-6741-4d38-b633-6134df1b72ea")
-	)
-	(wire
-		(pts
-			(xy 200.66 273.05) (xy 212.09 273.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc7bfa1c-21d1-4e4e-84d7-c0f60830995e")
 	)
 	(wire
 		(pts
@@ -6823,8 +6782,8 @@
 			)
 		)
 	)
-	(hierarchical_label "SW_COM1"
-		(shape input)
+	(hierarchical_label "RW-UART-TX-Q1"
+		(shape output)
 		(at 252.73 233.68 180)
 		(effects
 			(font
@@ -6878,8 +6837,19 @@
 		)
 		(uuid "a0002c45-37c5-4bd1-89ed-bb50a6b21778")
 	)
-	(hierarchical_label "SW_COM2"
+	(hierarchical_label "VBUSP-Q1"
 		(shape output)
+		(at 471.17 110.49 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5e62206-cc83-4599-a046-9e09f5549945")
+	)
+	(hierarchical_label "RW-UART-RX-Q1"
+		(shape input)
 		(at 252.73 236.22 180)
 		(effects
 			(font
@@ -6900,9 +6870,9 @@
 		)
 		(uuid "b99b2290-b829-46c0-90a3-d72b5888cb89")
 	)
-	(hierarchical_label "BOOT_CONFIG"
+	(hierarchical_label "BOOTCFG-Q1"
 		(shape output)
-		(at 212.09 273.05 0)
+		(at 199.39 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9052,7 +9022,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 220.98 243.84 0)
+		(at 220.98 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9061,7 +9031,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a090e85-686e-4f48-8939-af9378814787")
 		(property "Reference" "#GND09"
-			(at 220.98 250.19 0)
+			(at 220.98 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 248.92 0)
+			(at 220.98 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 243.84 0)
+			(at 220.98 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +9057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 243.84 0)
+			(at 220.98 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 243.84 0)
+			(at 220.98 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13485,72 +13455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 471.17 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0467a55-e7aa-4d18-a532-9df56cf567ae")
-		(property "Reference" "#VBUSP06"
-			(at 471.17 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUSP"
-			(at 471.17 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 471.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 471.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 471.17 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71e1d044-3d42-4c85-bc32-79b24b822fee")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#VBUSP06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 367.03 149.86 0)
 		(mirror y)
@@ -13843,7 +13747,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 220.98 236.22 0)
+		(at 220.98 231.14 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13852,7 +13756,7 @@
 		(dnp no)
 		(uuid "daba2ac3-69c8-4671-99e5-87f319b4aecf")
 		(property "Reference" "R23"
-			(at 221.742 240.792 0)
+			(at 221.742 235.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +13765,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 221.742 238.76 0)
+			(at 221.742 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,7 +13774,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 220.98 236.22 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13879,7 +13783,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 236.22 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13888,7 +13792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 236.22 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13897,7 +13801,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 220.98 236.22 0)
+			(at 220.98 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
