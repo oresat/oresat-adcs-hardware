@@ -2604,6 +2604,20 @@
 		)
 		(uuid "231d6e0e-886a-42d8-aff0-e7cf84b82b90")
 	)
+	(text "CLEANUP - MAKE Q2 - Q3 just like Q1."
+		(exclude_from_sim no)
+		(at 189.738 38.354 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "253d8a79-237a-451d-a938-c1b477a5c9a6")
+	)
 	(text "DOUBLECHECK"
 		(exclude_from_sim no)
 		(at 92.202 120.65 0)
@@ -6498,7 +6512,7 @@
 	)
 	(sheet
 		(at 198.12 156.21)
-		(size 63.5 29.21)
+		(size 46.99 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6530,7 +6544,7 @@
 			)
 		)
 		(pin "MAG_~{EN}" input
-			(at 261.62 168.91 0)
+			(at 245.11 168.91 0)
 			(uuid "04a64b90-bf26-417e-80e8-5ec3c43cd314")
 			(effects
 				(font
@@ -6540,7 +6554,7 @@
 			)
 		)
 		(pin "MAG_~{FAULT}" input
-			(at 261.62 171.45 0)
+			(at 245.11 171.45 0)
 			(uuid "44999662-0767-4ef5-8784-f757dede3de0")
 			(effects
 				(font
@@ -6570,7 +6584,7 @@
 			)
 		)
 		(pin "MAG_READY" output
-			(at 261.62 181.61 0)
+			(at 245.11 181.61 0)
 			(uuid "e2a37052-80f1-48aa-a622-124b74940ee6")
 			(effects
 				(font
@@ -6580,7 +6594,7 @@
 			)
 		)
 		(pin "MAG_SDA_uC" bidirectional
-			(at 261.62 179.07 0)
+			(at 245.11 179.07 0)
 			(uuid "92e6b956-a01a-4e52-ad2a-1d43e4c83fe7")
 			(effects
 				(font
@@ -6590,7 +6604,7 @@
 			)
 		)
 		(pin "MAG_SCL_uC" bidirectional
-			(at 261.62 176.53 0)
+			(at 245.11 176.53 0)
 			(uuid "9f1126ad-8856-4890-9284-62190c5f6e7a")
 			(effects
 				(font
@@ -6600,7 +6614,7 @@
 			)
 		)
 		(pin "IMU_INT2" output
-			(at 261.62 158.75 0)
+			(at 245.11 158.75 0)
 			(uuid "c457c7c2-fff0-43c4-b7a1-2c06a6d64462")
 			(effects
 				(font
@@ -6610,7 +6624,7 @@
 			)
 		)
 		(pin "IMU_INT1" output
-			(at 261.62 161.29 0)
+			(at 245.11 161.29 0)
 			(uuid "f34f6b9d-db40-4d18-9f2b-9b186a34c594")
 			(effects
 				(font

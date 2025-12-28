@@ -3467,6 +3467,20 @@
 		)
 		(uuid "613b5def-4815-4de2-a7eb-8dfbb6e4a576")
 	)
+	(text "CLEANUP - CHANGE:\n\nall VPD to VPD-Qn\nVBUSP to VBUSP-Qn\nBOOT_CONFIG to BOOTCFG-Qn\nSW-COM1 to RW-UART-TX-Qn\nSW-COM2 to RW-UART-RX-Qn\nFit in sheet boundaries"
+		(exclude_from_sim no)
+		(at 128.524 52.07 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "8158e87f-7cbf-4c7b-87e1-90cd7d3ac36b")
+	)
 	(text "To MCXN digitally configued boot pin\n"
 		(exclude_from_sim no)
 		(at 216.408 258.318 0)

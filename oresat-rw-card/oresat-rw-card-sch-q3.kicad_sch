@@ -3511,6 +3511,20 @@
 		)
 		(uuid "7b0ca92f-d3a4-4f4e-ab0a-7137e2ad6caf")
 	)
+	(text "CLEANUP - CHANGE:\n\nall VPD to VPD-Qn\nVBUSP to VBUSP-Qn\nBOOT_CONFIG to BOOTCFG-Qn\nSW-COM1 to RW-UART-TX-Qn\nSW-COM2 to RW-UART-RX-Qn\nFit in sheet boundaries"
+		(exclude_from_sim no)
+		(at 118.618 45.212 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "83536238-e163-49ec-8b39-53d69ba138ab")
+	)
 	(text "FIXME - ?A"
 		(exclude_from_sim no)
 		(at 402.59 140.716 0)
