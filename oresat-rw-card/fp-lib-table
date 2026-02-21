@@ -10,4 +10,5 @@
   (lib (name "oresat-misc")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-misc.pretty")(options "")(descr ""))
   (lib (name "oresat-passives")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-passives.pretty")(options "")(descr ""))
   (lib (name "oresat-pcbs")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-pcbs.pretty")(options "")(descr ""))
+  (lib (name "0555600307")(type "KiCad")(uri "/home/andrew/psas/oresat/oresat-rw-board-rev8/power-stage-rev8/0555600307.pretty")(options "")(descr ""))
 )
