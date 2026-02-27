@@ -6730,7 +6730,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-Molex-555600307"
+		(property "Footprint" "oresat-connectors:J-MOLEX-555600307"
 			(at 278.13 106.68 0)
 			(effects
 				(font
