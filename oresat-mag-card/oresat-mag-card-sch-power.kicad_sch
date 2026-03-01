@@ -634,179 +634,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "GND_1"
 			(power)
 			(pin_numbers
@@ -5301,16 +5128,6 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 129.54) (xy 434.34 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0f6ffd-b798-48f5-9fe9-f18ca5d77994")
-	)
-	(wire
-		(pts
 			(xy 96.52 354.33) (xy 111.76 354.33)
 		)
 		(stroke
@@ -5861,6 +5678,16 @@
 	)
 	(wire
 		(pts
+			(xy 433.07 129.54) (xy 436.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0b316f-de9b-4038-83f3-3b518aa02f76")
+	)
+	(wire
+		(pts
 			(xy 392.43 320.04) (xy 392.43 335.28)
 		)
 		(stroke
@@ -5911,7 +5738,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 129.54) (xy 424.18 129.54)
+			(xy 424.18 129.54) (xy 427.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8088,7 +7915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "035b8cde-f9e2-4bf6-9f58-32911453ce9f")
-		(property "Reference" "C68"
+		(property "Reference" "C10"
 			(at 410.21 123.1962 0)
 			(effects
 				(font
@@ -8151,7 +7978,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "C68")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8306,7 +8133,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09e3d25a-b9a7-47f0-8278-b079d73907f1")
-		(property "Reference" "#GND014"
+		(property "Reference" "#GND018"
 			(at 298.45 227.33 0)
 			(effects
 				(font
@@ -8356,7 +8183,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND014")
+					(reference "#GND018")
 					(unit 1)
 				)
 			)
@@ -8372,7 +8199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c485a25-a416-4d04-906c-96d77819d3a9")
-		(property "Reference" "TP17"
+		(property "Reference" "TP19"
 			(at 473.71 119.3801 90)
 			(effects
 				(font
@@ -8423,7 +8250,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP17")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -8596,7 +8423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14da882d-4a99-45bd-bc43-d223294cfd52")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 473.71 138.7474 90)
 			(effects
 				(font
@@ -8614,7 +8441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-acs-card:LED-0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 471.17 138.43 0)
 			(effects
 				(font
@@ -8659,7 +8486,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8753,7 +8580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a7871cf-dd42-4240-b09c-fd8451a84f58")
-		(property "Reference" "Q9"
+		(property "Reference" "Q5"
 			(at 442.214 185.928 0)
 			(effects
 				(font
@@ -8850,7 +8677,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "Q9")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -8933,7 +8760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d498a28-48f3-46d3-899f-8030da79ff5c")
-		(property "Reference" "#GND013"
+		(property "Reference" "#GND010"
 			(at 179.07 374.65 0)
 			(effects
 				(font
@@ -8983,7 +8810,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND013")
+					(reference "#GND010")
 					(unit 1)
 				)
 			)
@@ -8999,7 +8826,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e1a602c-b2ec-4f92-ba26-416bd79d9bbb")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 253.238 143.256 0)
 			(effects
 				(font
@@ -9062,7 +8889,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9078,7 +8905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22ab4820-7381-4d1d-a1ce-47db5f736d45")
-		(property "Reference" "R39"
+		(property "Reference" "R32"
 			(at 354.076 313.436 0)
 			(effects
 				(font
@@ -9141,7 +8968,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R39")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -9157,7 +8984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23f70f17-389a-4c89-9666-dc2fd3473233")
-		(property "Reference" "TP16"
+		(property "Reference" "TP12"
 			(at 360.172 316.992 0)
 			(effects
 				(font
@@ -9208,14 +9035,14 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP16")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
+		(lib_id "Device:R_Small_US")
 		(at 430.53 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9223,7 +9050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c5e4031-e1a4-45f0-8102-fbe51e106047")
-		(property "Reference" "R50"
+		(property "Reference" "R41"
 			(at 430.53 132.08 90)
 			(effects
 				(font
@@ -9239,16 +9066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 430.276 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 430.53 129.54 0)
 			(effects
 				(font
@@ -9257,7 +9075,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Datasheet" "~"
+			(at 430.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
 			(at 430.53 129.54 0)
 			(effects
 				(font
@@ -9275,7 +9102,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R50")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -9291,7 +9118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e95f589-78fd-47e5-857a-54d903bcba3c")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 467.106 309.626 0)
 			(effects
 				(font
@@ -9354,7 +9181,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -9501,7 +9328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "318eb449-f2fa-45e0-929b-c637d4ab0082")
-		(property "Reference" "R37"
+		(property "Reference" "R39"
 			(at 402.844 125.73 0)
 			(effects
 				(font
@@ -9564,7 +9391,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R37")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -9724,7 +9551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "363f9702-f467-4249-af6a-8333a65f01da")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 250.952 111.506 0)
 			(effects
 				(font
@@ -9787,7 +9614,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -9803,7 +9630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3887fbf5-1983-4e68-b295-843d799a0b36")
-		(property "Reference" "#GND055"
+		(property "Reference" "#GND09"
 			(at 179.07 330.2 0)
 			(effects
 				(font
@@ -9853,7 +9680,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND055")
+					(reference "#GND09")
 					(unit 1)
 				)
 			)
@@ -9949,7 +9776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bb43f8b-408b-4338-ae27-c42bd430adc1")
-		(property "Reference" "#GND04"
+		(property "Reference" "#GND03"
 			(at 113.03 181.61 0)
 			(effects
 				(font
@@ -9999,7 +9826,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND04")
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -10015,7 +9842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c1249d6-1998-4239-907b-56c6cfe977da")
-		(property "Reference" "#GND017"
+		(property "Reference" "#GND013"
 			(at 247.65 158.75 0)
 			(effects
 				(font
@@ -10065,7 +9892,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND017")
+					(reference "#GND013")
 					(unit 1)
 				)
 			)
@@ -10516,7 +10343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49324ee7-a46f-4ed5-88d7-86f46775855e")
-		(property "Reference" "#GND05"
+		(property "Reference" "#GND04"
 			(at 128.27 181.61 0)
 			(effects
 				(font
@@ -10566,7 +10393,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND05")
+					(reference "#GND04")
 					(unit 1)
 				)
 			)
@@ -10583,7 +10410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a090e85-686e-4f48-8939-af9378814787")
-		(property "Reference" "#GND09"
+		(property "Reference" "#GND012"
 			(at 220.98 250.19 0)
 			(effects
 				(font
@@ -10633,7 +10460,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND09")
+					(reference "#GND012")
 					(unit 1)
 				)
 			)
@@ -10812,7 +10639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50b52dd0-94fa-420d-b775-4fe547d792b4")
-		(property "Reference" "TP18"
+		(property "Reference" "TP16"
 			(at 397.51 314.9601 90)
 			(effects
 				(font
@@ -10863,7 +10690,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP18")
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -10879,7 +10706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50c0b193-6bee-4f79-9623-a8952a8d74d8")
-		(property "Reference" "#GND026"
+		(property "Reference" "#GND020"
 			(at 334.01 325.12 0)
 			(effects
 				(font
@@ -10929,7 +10756,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND026")
+					(reference "#GND020")
 					(unit 1)
 				)
 			)
@@ -10944,7 +10771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54e00bb2-6537-4bce-bc8f-5af87aeee2fc")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 274.32 241.3 0)
 			(effects
 				(font
@@ -11024,7 +10851,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -11197,7 +11024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a246e45-14ae-46e9-b027-2450f6d3c4bd")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG05"
 			(at 473.075 115.57 0)
 			(effects
 				(font
@@ -11248,7 +11075,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#FLG03")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -11263,7 +11090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d56afce-6607-4e80-b138-b92d21eddc32")
-		(property "Reference" "R49"
+		(property "Reference" "R40"
 			(at 422.148 138.43 0)
 			(effects
 				(font
@@ -11326,7 +11153,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R49")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -11420,7 +11247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6095a85d-392b-4324-8b7b-6b76d1417fd0")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 196.85 213.3599 0)
 			(effects
 				(font
@@ -11471,7 +11298,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -11567,7 +11394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "634ab48b-00d2-4475-81b9-5c3d19a37b57")
-		(property "Reference" "#GND07"
+		(property "Reference" "#GND011"
 			(at 195.58 201.93 0)
 			(effects
 				(font
@@ -11617,7 +11444,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND07")
+					(reference "#GND011")
 					(unit 1)
 				)
 			)
@@ -11633,7 +11460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64126890-8445-43ca-a245-d681b8b0849e")
-		(property "Reference" "TP13"
+		(property "Reference" "TP14"
 			(at 372.11 160.0199 0)
 			(effects
 				(font
@@ -11684,7 +11511,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP13")
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -11778,7 +11605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68160e91-d420-446c-8710-7262530e5343")
-		(property "Reference" "R34"
+		(property "Reference" "R36"
 			(at 376.174 134.112 90)
 			(effects
 				(font
@@ -11841,7 +11668,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -11856,7 +11683,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "68c9f7b0-3a4f-4ea2-97a6-0f0cda9006eb")
-		(property "Reference" "R36"
+		(property "Reference" "R38"
 			(at 394.208 135.89 0)
 			(effects
 				(font
@@ -11919,7 +11746,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -12100,7 +11927,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f903696-aac6-487b-afb9-9d88a5747a49")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 245.11 160.528 90)
 			(effects
 				(font
@@ -12163,7 +11990,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12180,7 +12007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72c47275-c035-4c8c-92af-cde8e5d35f6d")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 467.36 320.3574 90)
 			(effects
 				(font
@@ -12198,7 +12025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-acs-card:LED-0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 464.82 320.04 0)
 			(effects
 				(font
@@ -12243,7 +12070,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -12259,7 +12086,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73794d17-2bd8-49d0-af90-3728f07603a5")
-		(property "Reference" "R38"
+		(property "Reference" "R42"
 			(at 450.85 166.37 0)
 			(effects
 				(font
@@ -12322,7 +12149,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R38")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -12549,7 +12376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e978296-e8bd-45b0-91d5-d93bbe009665")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 295.91 214.6362 0)
 			(effects
 				(font
@@ -12612,7 +12439,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -12627,7 +12454,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "7ec2ba02-3e1d-43fd-a115-bde0d91fbaf8")
-		(property "Reference" "R40"
+		(property "Reference" "R33"
 			(at 349.504 328.676 0)
 			(effects
 				(font
@@ -12690,7 +12517,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R40")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -12706,7 +12533,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "801af658-6fcb-4071-8823-bbb666f36ca6")
-		(property "Reference" "R41"
+		(property "Reference" "R44"
 			(at 471.932 131.572 0)
 			(effects
 				(font
@@ -12769,7 +12596,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R41")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -13140,7 +12967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89b6d4aa-bbef-4cfe-9f30-d4e244cdce47")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 114.3 128.905 0)
 			(effects
 				(font
@@ -13190,7 +13017,7 @@
 		(instances
 			(project "oresat-adcs-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -13206,7 +13033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a7bee0c-3ade-4eb9-aaed-3bddefc87aaa")
-		(property "Reference" "TP14"
+		(property "Reference" "TP15"
 			(at 382.778 148.082 0)
 			(effects
 				(font
@@ -13257,7 +13084,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP14")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -13419,7 +13246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f142a9d-a9f3-4cfe-9600-360ce2562aa7")
-		(property "Reference" "TP19"
+		(property "Reference" "TP17"
 			(at 440.69 302.2601 90)
 			(effects
 				(font
@@ -13470,7 +13297,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP19")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -13486,7 +13313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f3cec49-1bc4-4dce-9f03-d888fd257c9d")
-		(property "Reference" "#GND028"
+		(property "Reference" "#GND023"
 			(at 351.79 341.63 0)
 			(effects
 				(font
@@ -13536,7 +13363,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND028")
+					(reference "#GND023")
 					(unit 1)
 				)
 			)
@@ -13618,7 +13445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "901ace6d-04f2-47f0-9a4c-6fd8c63ce15c")
-		(property "Reference" "#GND011"
+		(property "Reference" "#GND06"
 			(at 156.21 328.93 0)
 			(effects
 				(font
@@ -13668,7 +13495,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND011")
+					(reference "#GND06")
 					(unit 1)
 				)
 			)
@@ -13909,7 +13736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99da6954-675b-425c-b5ab-e4fd26a48956")
-		(property "Reference" "#GND024"
+		(property "Reference" "#GND031"
 			(at 471.17 151.13 0)
 			(effects
 				(font
@@ -13959,7 +13786,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND024")
+					(reference "#GND031")
 					(unit 1)
 				)
 			)
@@ -14052,7 +13879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9faf1aa4-eb41-4fbb-8c2d-00161f7f2251")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 361.188 172.212 0)
 			(effects
 				(font
@@ -14115,7 +13942,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -14210,7 +14037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2bfc474-84f9-4efd-9605-dcb5930c52ce")
-		(property "Reference" "#GND025"
+		(property "Reference" "#GND027"
 			(at 392.43 151.13 0)
 			(effects
 				(font
@@ -14260,7 +14087,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND025")
+					(reference "#GND027")
 					(unit 1)
 				)
 			)
@@ -14276,7 +14103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a520c97c-5804-47c5-9297-17fa3d8d59c3")
-		(property "Reference" "#GND010"
+		(property "Reference" "#GND015"
 			(at 271.78 251.46 0)
 			(effects
 				(font
@@ -14326,7 +14153,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND010")
+					(reference "#GND015")
 					(unit 1)
 				)
 			)
@@ -14342,7 +14169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa84fd01-8a6f-4873-b988-653ecaf84c35")
-		(property "Reference" "#GND012"
+		(property "Reference" "#GND07"
 			(at 156.21 373.38 0)
 			(effects
 				(font
@@ -14392,7 +14219,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND012")
+					(reference "#GND07")
 					(unit 1)
 				)
 			)
@@ -14408,7 +14235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abc785aa-b21d-4b4f-9979-786fa1099a3e")
-		(property "Reference" "#GND022"
+		(property "Reference" "#GND026"
 			(at 379.73 168.91 0)
 			(effects
 				(font
@@ -14458,7 +14285,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND022")
+					(reference "#GND026")
 					(unit 1)
 				)
 			)
@@ -14640,7 +14467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4dad6b0-50e6-4ab4-9160-dfb3a05951dd")
-		(property "Reference" "#GND03"
+		(property "Reference" "#GND025"
 			(at 377.19 342.9 0)
 			(effects
 				(font
@@ -14690,7 +14517,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND03")
+					(reference "#GND025")
 					(unit 1)
 				)
 			)
@@ -14845,7 +14672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b66f29d5-f400-4f07-802c-f466ea2787a4")
-		(property "Reference" "#GND029"
+		(property "Reference" "#GND028"
 			(at 438.15 323.85 0)
 			(effects
 				(font
@@ -14895,7 +14722,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND029")
+					(reference "#GND028")
 					(unit 1)
 				)
 			)
@@ -14911,7 +14738,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6922504-f9b5-4452-8a30-b47eaf4d6dc3")
-		(property "Reference" "#GND027"
+		(property "Reference" "#GND022"
 			(at 341.63 325.12 0)
 			(effects
 				(font
@@ -14961,7 +14788,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND027")
+					(reference "#GND022")
 					(unit 1)
 				)
 			)
@@ -14994,7 +14821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-acs-card:LED-0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 260.35 165.1 0)
 			(effects
 				(font
@@ -15055,7 +14882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b82a42be-de2b-4ffe-ac0b-613f3d8df514")
-		(property "Reference" "TP15"
+		(property "Reference" "TP18"
 			(at 457.2 199.3901 90)
 			(effects
 				(font
@@ -15106,7 +14933,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP15")
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -15201,7 +15028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c040edbe-f057-4ba8-b4fa-9113f8f6a4c2")
-		(property "Reference" "#GND015"
+		(property "Reference" "#GND016"
 			(at 273.05 179.07 0)
 			(effects
 				(font
@@ -15251,7 +15078,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND015")
+					(reference "#GND016")
 					(unit 1)
 				)
 			)
@@ -15268,7 +15095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c360058d-cd80-4251-8e24-a10d3e3f3399")
-		(property "Reference" "#GND06"
+		(property "Reference" "#GND05"
 			(at 143.51 181.61 0)
 			(effects
 				(font
@@ -15318,7 +15145,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND06")
+					(reference "#GND05")
 					(unit 1)
 				)
 			)
@@ -16002,7 +15829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0467a55-e7aa-4d18-a532-9df56cf567ae")
-		(property "Reference" "#VBUSP06"
+		(property "Reference" "#VBUSP03"
 			(at 471.17 118.11 0)
 			(effects
 				(font
@@ -16052,7 +15879,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#VBUSP06")
+					(reference "#VBUSP03")
 					(unit 1)
 				)
 			)
@@ -16067,7 +15894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d131298d-e533-4a59-8e7b-334debc05e80")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 440.69 309.8862 0)
 			(effects
 				(font
@@ -16130,7 +15957,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -16146,7 +15973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d19c05e7-8896-448b-87c1-e1a5130385cc")
-		(property "Reference" "TP12"
+		(property "Reference" "TP13"
 			(at 367.0299 152.4 90)
 			(effects
 				(font
@@ -16197,7 +16024,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP12")
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -16213,7 +16040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d61c91ff-5241-4977-becf-1a94e5be8026")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 293.37 137.1662 0)
 			(effects
 				(font
@@ -16276,7 +16103,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -16291,7 +16118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6b438d7-b625-4029-8c06-1bb72df85871")
-		(property "Reference" "R33"
+		(property "Reference" "R35"
 			(at 369.824 141.732 90)
 			(effects
 				(font
@@ -16354,7 +16181,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R33")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -16370,7 +16197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7614e8d-863d-4e60-8fd6-79edca88f148")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 196.088 219.202 90)
 			(effects
 				(font
@@ -16421,7 +16248,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -16786,7 +16613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e122bfd7-ab0f-4e38-a91f-09e0f7b47e8c")
-		(property "Reference" "#GND021"
+		(property "Reference" "#GND024"
 			(at 361.95 181.61 0)
 			(effects
 				(font
@@ -16836,7 +16663,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND021")
+					(reference "#GND024")
 					(unit 1)
 				)
 			)
@@ -16851,7 +16678,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "e517b8ca-1ec5-440a-ad97-a974e4b50032")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 381.508 153.67 0)
 			(effects
 				(font
@@ -16914,7 +16741,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -17051,7 +16878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e638c4ea-f3cc-4ae1-9168-5941b326ae15")
-		(property "Reference" "R24"
+		(property "Reference" "R27"
 			(at 287.782 223.774 90)
 			(effects
 				(font
@@ -17114,7 +16941,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R24")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -17130,7 +16957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7a7bcdb-8ebd-407f-b63a-db50c86c8ec8")
-		(property "Reference" "#GND023"
+		(property "Reference" "#GND029"
 			(at 449.58 193.04 0)
 			(effects
 				(font
@@ -17180,7 +17007,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND023")
+					(reference "#GND029")
 					(unit 1)
 				)
 			)
@@ -17195,7 +17022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8577be5-6952-47ec-a367-ee39a948a0ae")
-		(property "Reference" "C69"
+		(property "Reference" "C11"
 			(at 439.42 123.1962 0)
 			(effects
 				(font
@@ -17258,7 +17085,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "C69")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -17274,7 +17101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb6bb785-34b0-49d1-b9ea-d8ad013cab58")
-		(property "Reference" "R25"
+		(property "Reference" "R28"
 			(at 288.29 237.744 90)
 			(effects
 				(font
@@ -17337,7 +17164,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "R25")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -17353,7 +17180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecfbb6a5-bf01-4cc5-a9e7-8fa670ef46c2")
-		(property "Reference" "#GND016"
+		(property "Reference" "#GND014"
 			(at 257.81 151.13 0)
 			(effects
 				(font
@@ -17403,7 +17230,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND016")
+					(reference "#GND014")
 					(unit 1)
 				)
 			)
@@ -17860,7 +17687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f55886e5-3056-45f3-ae50-c1fac849a927")
-		(property "Reference" "#GND020"
+		(property "Reference" "#GND021"
 			(at 336.55 176.53 0)
 			(effects
 				(font
@@ -17910,7 +17737,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND020")
+					(reference "#GND021")
 					(unit 1)
 				)
 			)
@@ -17990,7 +17817,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8477f80-5cdd-4625-831a-bdec3c2170ab")
-		(property "Reference" "U18"
+		(property "Reference" "U5"
 			(at 339.09 167.64 0)
 			(effects
 				(font
@@ -18138,7 +17965,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "U18")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -18154,7 +17981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbc259af-567d-41e4-9eca-174194e1a796")
-		(property "Reference" "#GND018"
+		(property "Reference" "#GND017"
 			(at 295.91 151.13 0)
 			(effects
 				(font
@@ -18204,7 +18031,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
-					(reference "#GND018")
+					(reference "#GND017")
 					(unit 1)
 				)
 			)

@@ -61,19 +61,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|182363499|149400001|426ed991-6406-4f4c-9c65-e12d4a6d4259|dc57fc7f-ac0a-4abc-9ee6-49dd5a65998a",
+          "courtyards_overlap|165905000|151645605|426ed991-6406-4f4c-9c65-e12d4a6d4259|dc57fc7f-ac0a-4abc-9ee6-49dd5a65998a",
           ""
         ],
         [
-          "silk_overlap|141230121|148550000|c40393e8-55cc-4591-a7e3-69310312ff5b|7fc2debf-37ae-4e60-9a71-7b6d7c4a5e77",
-          ""
-        ],
-        [
-          "silk_overlap|148227237|148550000|59eaa717-ddaa-430e-9c43-d33d603403c9|c40393e8-55cc-4591-a7e3-69310312ff5b",
-          ""
-        ],
-        [
-          "silk_overlap|155166667|148550000|c40393e8-55cc-4591-a7e3-69310312ff5b|7151d66e-9b8b-4b5f-880f-d46363832681",
+          "lib_footprint_mismatch|151450000|125337500|7abd8618-e13f-45bc-bee1-977f9bdd0826|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -685,6 +677,12 @@
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
         }
       ],
       "filter_string": "C",
@@ -732,7 +730,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "C:/Users/Edward/Desktop/",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
