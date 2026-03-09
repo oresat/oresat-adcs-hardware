@@ -7905,6 +7905,33 @@
 				(hide yes)
 			)
 		)
+		(property "DPN" "WM9218CT-ND"
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0555600307"
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "28"
 			(uuid "12ccc69b-3b4d-4cef-9cf3-b18404fe3046")
 		)
@@ -8922,6 +8949,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "J-SAMTEC-TFM-120-01-L-D-RA"
 			(at 119.38 133.35 0)
 			(effects
 				(font
