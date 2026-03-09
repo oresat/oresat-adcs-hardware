@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Reaction Wheel Card")
-		(date "2026-02-21")
+		(date "2026-03-09")
 		(rev "v1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -8124,15 +8124,6 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
-			(at 372.11 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIS" "DigiKey"
 			(at 372.11 238.76 0)
 			(effects
@@ -8205,15 +8196,6 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
-			(at 368.3 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIS" "DigiKey"
 			(at 368.3 252.73 0)
 			(effects
@@ -8278,15 +8260,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 356.87 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 356.87 223.52 0)
 			(effects
 				(font
@@ -8526,15 +8499,6 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
-			(at 284.48 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIS" "DigiKey"
 			(at 284.48 106.68 0)
 			(effects
@@ -8724,15 +8688,6 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
-			(at 284.48 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIS" "DigiKey"
 			(at 284.48 160.02 0)
 			(effects
@@ -8895,15 +8850,6 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
-			(at 372.11 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIS" "DigiKey"
 			(at 372.11 223.52 0)
 			(effects
@@ -8967,15 +8913,6 @@
 			)
 		)
 		(property "Description" "OreSat backplane connector, 2x20 RA"
-			(at 119.38 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 119.38 133.35 0)
 			(effects
 				(font
@@ -9168,15 +9105,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 356.87 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 356.87 231.14 0)
 			(effects
 				(font
@@ -9426,15 +9354,6 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
-			(at 139.7 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dfb2f88e-3b23-4f65-bcf9-a83bb38f7836")
 		)
@@ -9636,15 +9555,6 @@
 				(hide yes)
 			)
 		)
-		(property "STANDARD" ""
-			(at 356.87 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DIS" "DigiKey"
 			(at 356.87 238.76 0)
 			(effects
@@ -9709,15 +9619,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 372.11 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 372.11 231.14 0)
 			(effects
 				(font
@@ -9817,15 +9718,6 @@
 			)
 		)
 		(property "MPN" "0555600307"
-			(at 284.48 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 284.48 210.82 0)
 			(effects
 				(font
