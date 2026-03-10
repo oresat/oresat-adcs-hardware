@@ -7247,7 +7247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 68.58 111.76 0)
 			(effects
 				(font
@@ -7616,7 +7616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 139.7 215.9 0)
 			(effects
 				(font
@@ -8987,7 +8987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 299.72 156.21 0)
 			(effects
 				(font
@@ -10433,7 +10433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 292.1 153.67 0)
 			(effects
 				(font
@@ -11389,7 +11389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 64.77 162.56 0)
 			(effects
 				(font
@@ -11798,7 +11798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 132.08 213.36 0)
 			(effects
 				(font
@@ -12291,7 +12291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -14083,7 +14083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 64.77 151.13 0)
 			(effects
 				(font
@@ -14228,7 +14228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:c_0603-SMALL"
 			(at 132.08 66.04 0)
 			(effects
 				(font

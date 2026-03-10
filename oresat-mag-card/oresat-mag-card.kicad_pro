@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -66,6 +66,34 @@
         ],
         [
           "lib_footprint_mismatch|151450000|125337500|7abd8618-e13f-45bc-bee1-977f9bdd0826|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|134212500|57675000|9cf7d853-e606-4752-87dc-f2215a89a069|b2f1b26e-b3f4-4acb-8a0e-acdb31867b1f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|134212500|57700000|9cf7d853-e606-4752-87dc-f2215a89a069|e5281434-4c02-40e7-bdbe-6f93cc204c03",
+          ""
+        ],
+        [
+          "silk_edge_clearance|135482500|57675000|9cf7d853-e606-4752-87dc-f2215a89a069|a4ff2e07-b2f6-407a-9238-703eebbfb983",
+          ""
+        ],
+        [
+          "silk_edge_clearance|135482500|57700000|9cf7d853-e606-4752-87dc-f2215a89a069|ee475f4e-e8e1-4b90-8d01-07dd87550b2b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|138276500|57675000|9cf7d853-e606-4752-87dc-f2215a89a069|a582621e-aaf4-43e1-96d7-f0d751fb718c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|138276500|57700000|9cf7d853-e606-4752-87dc-f2215a89a069|90c852b5-1dfc-4944-91d9-8951689ae75f",
+          ""
+        ],
+        [
+          "silk_edge_clearance|162787500|57700000|9cf7d853-e606-4752-87dc-f2215a89a069|32649a4f-9ee9-49fd-9424-f84d1291dfd0",
           ""
         ]
       ],
@@ -112,7 +140,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -685,12 +713,12 @@
           "show": false
         }
       ],
-      "filter_string": "C",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "${QUANTITY}"
+      "sort_asc": true,
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
