@@ -7878,7 +7878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/555600307?display=pdf"
 			(at 284.48 53.34 0)
 			(effects
 				(font
@@ -8102,7 +8102,7 @@
 		(at 372.11 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6e7e407b-0d47-4dbd-9bf1-a34a597b3588")
@@ -8174,7 +8174,7 @@
 		(at 368.3 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "761fe907-e5d9-42db-98c6-e1ff4e3d741c")
@@ -8246,7 +8246,7 @@
 		(at 356.87 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "79e5be35-ba2c-4cca-80e6-59e097b31534")
@@ -8481,7 +8481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/555600307?display=pdf"
 			(at 284.48 106.68 0)
 			(effects
 				(font
@@ -8670,7 +8670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/555600307?display=pdf"
 			(at 284.48 160.02 0)
 			(effects
 				(font
@@ -8828,7 +8828,7 @@
 		(at 372.11 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b275f341-ffeb-405b-9474-34ae25398424")
@@ -8930,7 +8930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tfm.pdf"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/tfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 119.38 72.39 0)
 			(effects
 				(font
@@ -8939,7 +8939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OreSat backplane connector, 2x20 RA"
+		(property "Description" "Connector Header Through Hole, Right Angle 40 position 0.050\" (1.27mm)"
 			(at 119.38 133.35 0)
 			(effects
 				(font
@@ -8957,7 +8957,25 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "J-SAMTEC-TFM-120-01-L-D-RA"
+		(property "MPN" "TFM-120-01-L-D-RA"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM10145-ND"
+			(at 119.38 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec"
 			(at 119.38 133.35 0)
 			(effects
 				(font
@@ -9100,7 +9118,7 @@
 		(at 356.87 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b5937a1d-d2cf-4adf-af37-fd95a3ce4028")
@@ -9542,7 +9560,7 @@
 		(at 356.87 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "daab761a-e185-4cfe-be14-9e0d054f34e6")
@@ -9614,7 +9632,7 @@
 		(at 372.11 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e14f9a61-7e67-4b14-baee-298f4f644b28")
@@ -9717,7 +9735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/555600307?display=pdf"
 			(at 284.48 210.82 0)
 			(effects
 				(font

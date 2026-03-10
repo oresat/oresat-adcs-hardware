@@ -13578,7 +13578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
 			(at 59.69 184.15 0)
 			(effects
 				(font
@@ -13587,7 +13587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual PMOS transistor, 6 pin package"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 59.69 185.42 0)
 			(effects
 				(font
@@ -13625,7 +13625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2240UDM-7"
 			(at 59.69 185.42 0)
 			(effects
 				(font
@@ -16227,7 +16227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
 			(at 59.69 228.6 0)
 			(effects
 				(font
@@ -16236,7 +16236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual PMOS transistor, 6 pin package"
+		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
 			(at 59.69 229.87 0)
 			(effects
 				(font
@@ -16273,7 +16273,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2240UDM"
+		(property "MPN" "DMP2240UDM-7"
 			(at 59.69 229.87 0)
 			(effects
 				(font
