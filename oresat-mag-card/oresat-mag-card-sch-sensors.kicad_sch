@@ -1630,6 +1630,12 @@
 		(uuid "90b8fd2c-fe0b-4670-978b-ae58e9479060")
 	)
 	(junction
+		(at 300.99 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b756077-6477-4001-9ad6-2cab0ef077d6")
+	)
+	(junction
 		(at 231.14 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1658,12 +1664,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9b749c0-e429-4733-9d8b-09eb92fbde50")
-	)
-	(junction
-		(at 300.99 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d97f1a4b-e5db-41c9-b37c-c603b150cb30")
 	)
 	(junction
 		(at 238.76 240.03)
@@ -1835,6 +1835,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 147.32) (xy 304.8 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cd12a8-9431-46b9-bc2e-47c9cbdba738")
+	)
+	(wire
+		(pts
 			(xy 261.62 143.51) (xy 261.62 138.43)
 		)
 		(stroke
@@ -1955,6 +1965,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 147.32) (xy 300.99 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc75153-f784-4b39-a004-8e864e95f7de")
+	)
+	(wire
+		(pts
 			(xy 304.8 147.32) (xy 304.8 153.67)
 		)
 		(stroke
@@ -2032,16 +2052,6 @@
 			(type default)
 		)
 		(uuid "55ff0660-bc8c-4b10-a9f4-12c26f9e7c52")
-	)
-	(wire
-		(pts
-			(xy 295.91 147.32) (xy 300.99 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "584d36d5-9bc3-4177-bdac-af6dd33a2262")
 	)
 	(wire
 		(pts
@@ -2355,6 +2365,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 146.05) (xy 300.99 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba32b4c6-ef2b-43b7-abbf-9b9670e718fc")
+	)
+	(wire
+		(pts
 			(xy 290.83 73.66) (xy 287.02 73.66)
 		)
 		(stroke
@@ -2472,16 +2492,6 @@
 			(type default)
 		)
 		(uuid "d8622e1b-c420-4e8e-bdd6-c07c7bd07a90")
-	)
-	(wire
-		(pts
-			(xy 300.99 147.32) (xy 304.8 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d86cc470-56d6-4908-af4d-9cc6de18cc14")
 	)
 	(wire
 		(pts
@@ -2751,72 +2761,6 @@
 			(justify right)
 		)
 		(uuid "ba18c723-a032-4402-b468-bf9176b6c777")
-	)
-	(symbol
-		(lib_id "oresat-power:3.3V")
-		(at 300.99 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00e24203-c8fc-4404-8713-b7d7888c8bce")
-		(property "Reference" "#3V014"
-			(at 300.99 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 300.99 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 300.99 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b7c7ef7-f8e4-4daf-bdde-d780becaa2ea")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "#3V014")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_name "GND_1")
@@ -4325,6 +4269,72 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 300.99 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9700eb1b-3303-4a46-bb26-e5212942c511")
+		(property "Reference" "#MAG_PWR04"
+			(at 300.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MAG_PWR"
+			(at 300.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 300.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10562bb5-46af-4dc3-8c8b-bd9539982ba8")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
+					(reference "#MAG_PWR04")
 					(unit 1)
 				)
 			)

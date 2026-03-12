@@ -13812,7 +13812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0805-B-NOSILK"
 			(at 438.15 198.12 0)
 			(effects
 				(font

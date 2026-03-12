@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -62,10 +62,6 @@
       "drc_exclusions": [
         [
           "courtyards_overlap|165905000|151645605|426ed991-6406-4f4c-9c65-e12d4a6d4259|dc57fc7f-ac0a-4abc-9ee6-49dd5a65998a",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|151450000|125337500|7abd8618-e13f-45bc-bee1-977f9bdd0826|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
