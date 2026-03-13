@@ -1570,16 +1570,22 @@
 		(uuid "2651fca3-5040-4f3b-854e-52f01a3f94b5")
 	)
 	(junction
+		(at 186.69 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3015e4f6-6f12-44ac-a619-e0f7bde9a755")
+	)
+	(junction
 		(at 246.38 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "352e8c6b-c067-4e2a-8604-eb340760d161")
 	)
 	(junction
-		(at 186.69 166.37)
+		(at 184.15 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "51e94a08-6448-498c-b5c0-320d8a330497")
+		(uuid "4196ca34-b1b3-4676-9566-1315063a278e")
 	)
 	(junction
 		(at 295.91 166.37)
@@ -1604,12 +1610,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7154fd72-8e8f-49de-92f3-39fdd0752cb1")
-	)
-	(junction
-		(at 184.15 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a82545b-5fb7-41c7-b5be-c3d751214615")
 	)
 	(junction
 		(at 281.94 170.18)
@@ -1725,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 68.58) (xy 186.69 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01460059-edd3-4338-914f-7cbb7af1d738")
+	)
+	(wire
+		(pts
 			(xy 287.02 24.13) (xy 294.64 24.13)
 		)
 		(stroke
@@ -1775,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 166.37) (xy 186.69 166.37)
+			(xy 160.02 166.37) (xy 184.15 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1915,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 166.37) (xy 248.92 166.37)
+			(xy 184.15 166.37) (xy 248.92 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2025,16 +2035,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 170.18) (xy 184.15 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52abaae8-cabc-409e-8367-31e09432082f")
-	)
-	(wire
-		(pts
 			(xy 300.99 31.75) (xy 300.99 38.1)
 		)
 		(stroke
@@ -2095,6 +2095,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 170.18) (xy 248.92 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6773abbb-c7b5-4a39-8a3b-e03cafa5b0a5")
+	)
+	(wire
+		(pts
 			(xy 248.92 156.21) (xy 243.84 156.21)
 		)
 		(stroke
@@ -2102,6 +2112,16 @@
 			(type default)
 		)
 		(uuid "67d24b67-4345-49bf-aa47-67063c3c798c")
+	)
+	(wire
+		(pts
+			(xy 184.15 66.04) (xy 184.15 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a73b38-7e5e-4a7b-967a-977da737672f")
 	)
 	(wire
 		(pts
@@ -2235,16 +2255,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 170.18) (xy 184.15 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fb4d87e-abe9-45a7-96eb-daee3c26a6d6")
-	)
-	(wire
-		(pts
 			(xy 243.84 143.51) (xy 243.84 147.32)
 		)
 		(stroke
@@ -2335,16 +2345,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 166.37) (xy 186.69 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab630171-8947-47ce-9681-d6b509cbb3eb")
-	)
-	(wire
-		(pts
 			(xy 284.48 156.21) (xy 274.32 156.21)
 		)
 		(stroke
@@ -2425,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 170.18) (xy 248.92 170.18)
+			(xy 160.02 170.18) (xy 186.69 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2624,14 +2624,14 @@
 		(uuid "ff7c55ca-34e9-49af-b082-5dc2c64f4d38")
 	)
 	(label "MAG_SCL_uC"
-		(at 179.07 170.18 180)
+		(at 172.72 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "8258bd76-55ca-487a-9fe9-15807c4f0f96")
+		(uuid "1f843318-dff1-4df3-b7c8-942f62632055")
 	)
 	(label "MAG_SDA_uC"
 		(at 223.52 68.58 0)
@@ -2644,14 +2644,14 @@
 		(uuid "91845e8f-cda4-42e1-9023-1095b9069c91")
 	)
 	(label "MAG_SDA_uC"
-		(at 179.07 166.37 180)
+		(at 172.72 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f3b6f1a8-cac1-4f9d-aa64-a70365f5f0d8")
+		(uuid "a95b13ed-9a2b-4c45-a94f-c4fe4f372778")
 	)
 	(label "MAG_SCL_uC"
 		(at 223.52 66.04 0)
@@ -2662,6 +2662,17 @@
 			(justify left bottom)
 		)
 		(uuid "fe7446cb-d8d6-4771-a5cb-8907b425cf49")
+	)
+	(hierarchical_label "MAG_SCL_uC"
+		(shape bidirectional)
+		(at 160.02 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01c6fcfb-1e57-4540-a9c3-7bfc3dcb8900")
 	)
 	(hierarchical_label "IMU_INT2"
 		(shape output)
@@ -2674,16 +2685,27 @@
 		)
 		(uuid "0cc31548-b520-44fb-aa9c-df01013d07f2")
 	)
+	(hierarchical_label "MAG_SCL"
+		(shape bidirectional)
+		(at 308.61 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28c90bd3-3fee-41fe-b493-cee1390cae3a")
+	)
 	(hierarchical_label "MAG_SDA_uC"
 		(shape bidirectional)
-		(at 160.02 166.37 180)
+		(at 160.02 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "23f6c382-d2f6-4b1a-af76-bd0120429144")
+		(uuid "2f9b0649-b544-43ba-b938-dafff8da8308")
 	)
 	(hierarchical_label "MAG_~{EN}"
 		(shape input)
@@ -2707,6 +2729,17 @@
 		)
 		(uuid "4ebb34a2-c606-479a-8462-70932f10c5d8")
 	)
+	(hierarchical_label "MAG_SDA"
+		(shape input)
+		(at 308.61 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f6e84ca-076b-40ab-966d-7142e6fad86e")
+	)
 	(hierarchical_label "MAG_~{FAULT}"
 		(shape input)
 		(at 227.33 240.03 180)
@@ -2728,39 +2761,6 @@
 			(justify left)
 		)
 		(uuid "60218718-be7d-41f7-a3ef-b3d7ce280716")
-	)
-	(hierarchical_label "MAG_SDA"
-		(shape input)
-		(at 308.61 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92925413-9b46-470c-8a84-306ad4e1e19c")
-	)
-	(hierarchical_label "MAG_SCL"
-		(shape bidirectional)
-		(at 308.61 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a808cfb8-6608-4b79-8131-ef96ccd86efe")
-	)
-	(hierarchical_label "MAG_SCL_uC"
-		(shape bidirectional)
-		(at 160.02 170.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ba18c723-a032-4402-b468-bf9176b6c777")
 	)
 	(symbol
 		(lib_name "GND_1")
