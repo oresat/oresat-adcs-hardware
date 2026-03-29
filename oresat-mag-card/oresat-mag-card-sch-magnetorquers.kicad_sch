@@ -1412,28 +1412,6 @@
 		)
 		(uuid "93642d57-b038-4404-9139-5ee22dfb9394")
 	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 349.758 119.634 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "a3dfc8d4-04c9-4c08-b237-6201f2a39ed9")
-	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 185.674 36.322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "ad1bf8d2-8250-4dd6-80e1-d1fc84da9c6a")
-	)
 	(text "Magnetorquer Spec:\n1.3 Ω\n0.6 A max each"
 		(exclude_from_sim no)
 		(at 25.4 86.36 0)
@@ -1488,17 +1466,6 @@
 			(justify left bottom)
 		)
 		(uuid "c54bf9e7-79d2-4de4-a0eb-c5457dcb054e")
-	)
-	(text "FIXME"
-		(exclude_from_sim no)
-		(at 186.436 183.134 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "fe28abf0-25e4-4fc2-869b-e94937621543")
 	)
 	(junction
 		(at 209.55 214.63)
