@@ -1,0 +1,138 @@
+(footprint "Ohmite_LVK25"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -9.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8c194d4-9b3f-4b3e-bfe1-c3d0cd3419c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Ohmite_LVK25"
+		(at 0 -8.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a07ba45-d563-4545-a7c3-69082c136541")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea6e7613-9537-43a1-b15b-9cf04cff97c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de9f0592-16cf-4dc9-b8b6-0de2247b061c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.3 -1.7)
+		(end 3.3 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ef2cc26c-d78d-4dd4-a508-2814b49199be")
+	)
+	(fp_rect
+		(start -3.5 -1.9)
+		(end 3.5 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eaf61324-ec6d-4fc0-b109-426dbe8c43b9")
+	)
+	(fp_rect
+		(start -3.2 -1.6)
+		(end 3.2 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0436762b-a252-4121-bdfe-9f7705886b8a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a9de6171-08cd-4a17-a899-17756464bded")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2 1.5)
+		(size 3.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5eb35f01-ce8d-4746-9d33-4de30c6959e3")
+	)
+	(pad "2" smd rect
+		(at 2 1.5)
+		(size 3.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6262e6dd-f11e-44f2-9003-b9f46150ead7")
+	)
+	(pad "3" smd rect
+		(at 2 -1.5)
+		(size 3.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "06aba288-066b-48e8-8a12-0d6783f6e346")
+	)
+	(pad "4" smd rect
+		(at -2 -1.5)
+		(size 3.3 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3949792e-638e-4e9e-97a5-da1010f68b89")
+	)
+	(embedded_fonts no)
+	(model "/home/solomon/code/oresat/oresat-rw-board-rev8/3dmodels/LVK25_OHM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)

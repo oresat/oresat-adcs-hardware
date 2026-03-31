@@ -1,0 +1,126 @@
+(footprint "CKG57N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.937 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3cc89ad7-f964-4826-8a7f-77f76367562a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CKG57N"
+		(at 0 -5.715 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e8ace8c3-9b1f-4df5-9502-923c0ee54dee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b46295c2-f693-4a8a-a367-6bdd9272c634")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfa606f5-d032-4bac-aaaf-850f3f58d7eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.1 -2.6)
+		(end 3.1 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1a303f33-ce28-4a07-b86e-37b0c8a04257")
+	)
+	(fp_rect
+		(start -3.3 -2.8)
+		(end 3.3 2.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0b09d6e7-56a1-44cc-95ba-82ddeb722ceb")
+	)
+	(fp_rect
+		(start -3 -2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "56d123c5-0f57-4e3f-a7eb-06433b18caff")
+	)
+	(pad "1" smd roundrect
+		(at -2.3 0)
+		(size 2.5 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.154)
+		(uuid "abe2091c-6559-483f-8c1c-de0fe88ff98e")
+	)
+	(pad "2" smd roundrect
+		(at 2.3 0)
+		(size 2.5 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.154)
+		(uuid "1ff7d526-7789-4e69-8347-5df0bcb90567")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../3dmodels/CKG57N.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "/home/solomon/code/oresat/oresat-rw-board-rev8/3dmodels/CKG57NX7S1C107M500JJ.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
