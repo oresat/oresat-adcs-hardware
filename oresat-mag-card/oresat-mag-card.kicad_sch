@@ -5,9 +5,10 @@
 	(uuid "c58960d9-4cac-4036-ad2e-1aef26946dae")
 	(paper "C")
 	(title_block
-		(title "OreSat ADCS Card")
-		(date "2023-11-21")
-		(rev "v1.3")
+		(title "OreSat Mag Card")
+		(date "2026-04-02")
+		(rev "v1.0")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2782,6 +2783,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "All caps are 0603 ceramic 10% X5R >= 16V Vwv and AEQ unless marked"
+		(exclude_from_sim no)
+		(at 239.522 417.576 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "174b624d-c889-45b7-93cb-77d246fdb088")
+	)
 	(text "Main OreSat Card Connector"
 		(exclude_from_sim no)
 		(at 86.868 272.034 90)
@@ -2865,17 +2877,6 @@
 		)
 		(uuid "aea1070f-aaea-4538-aaf7-6412637ab49c")
 	)
-	(text "All caps are 0402 ceramic 10% X5R Vw>=16V unless marked"
-		(exclude_from_sim no)
-		(at 64.262 419.1 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2e6c033-e328-4b1b-91e3-e3a02f19f656")
-	)
 	(text "OreSat Power Domain signals\n(See power sheet)"
 		(exclude_from_sim no)
 		(at 144.78 220.472 0)
@@ -2887,16 +2888,16 @@
 		)
 		(uuid "c66e898b-6777-4822-8b8b-e4ea52b0bcc8")
 	)
-	(text "All resistors 0402 +/- 1% unless marked"
+	(text "All resistors 0603 +/- 1% and AEQ unless marked"
 		(exclude_from_sim no)
-		(at 64.262 416.56 0)
+		(at 239.522 415.036 0)
 		(effects
 			(font
-				(size 1.778 1.5113)
+				(size 1.778 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "df1ebbce-9654-4c8d-8252-dfe3bdd92ab8")
+		(uuid "e8e8048e-8a45-44f9-9cc8-5fc2100ce6eb")
 	)
 	(junction
 		(at 105.41 251.46)
@@ -4759,7 +4760,7 @@
 			(uuid "1d190dd1-1616-4c20-a609-06d4da6c56d4")
 		)
 		(instances
-			(project ""
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#MAG_PWR01")
 					(unit 1)
@@ -4825,7 +4826,7 @@
 			(uuid "4a184c25-651a-41a0-9624-e859c87ce1c5")
 		)
 		(instances
-			(project ""
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#VBUS01")
 					(unit 1)
@@ -4964,7 +4965,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID6")
 					(unit 1)
@@ -5036,7 +5037,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "PCB1")
 					(unit 1)
@@ -5108,7 +5109,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID1")
 					(unit 1)
@@ -5312,7 +5313,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID4")
 					(unit 1)
@@ -5503,7 +5504,7 @@
 			(uuid "9a1b47db-45ee-4bf0-9e95-377b90310ce4")
 		)
 		(instances
-			(project ""
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J1")
 					(unit 1)
@@ -5575,7 +5576,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID2")
 					(unit 1)
@@ -5782,7 +5783,7 @@
 			(uuid "5486ac09-54b4-4aa5-a081-b9c05290016e")
 		)
 		(instances
-			(project ""
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J3")
 					(unit 1)
@@ -5937,7 +5938,7 @@
 			(uuid "f377a05d-f810-46c8-b41d-c07d330f96e1")
 		)
 		(instances
-			(project ""
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J2")
 					(unit 1)
@@ -6003,7 +6004,7 @@
 			(uuid "65d61209-11b9-4703-8af3-355db47dac60")
 		)
 		(instances
-			(project ""
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#VBUSP01")
 					(unit 1)
@@ -6118,7 +6119,7 @@
 			(uuid "1fae35eb-9671-4e08-92a1-f9098fcf7725")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "C1")
 					(unit 1)
@@ -6190,7 +6191,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID3")
 					(unit 1)
@@ -6262,7 +6263,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID5")
 					(unit 1)
@@ -6354,7 +6355,7 @@
 				(justify left)
 			)
 		)
-		(pin "SW_COM1" input
+		(pin "CARD-UART-TX" input
 			(at 226.06 254 180)
 			(uuid "e8c2f734-1552-4da4-94cb-a9ad28f8b861")
 			(effects
@@ -6364,7 +6365,7 @@
 				(justify left)
 			)
 		)
-		(pin "SW_COM2" output
+		(pin "CARD-UART-RX" output
 			(at 226.06 256.54 180)
 			(uuid "560d1f8e-e98f-4ff0-b62a-bae671be9c6c")
 			(effects

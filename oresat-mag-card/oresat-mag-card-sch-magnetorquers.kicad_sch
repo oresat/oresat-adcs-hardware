@@ -3,12 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4538a706-7a04-492d-9a2e-4e39b4bf5ad1")
-	(paper "B")
+	(paper "C")
 	(title_block
-		(title "Magnetorquers")
-		(date "2023-11-21")
-		(rev "v1.3")
-		(company "Edward Tsoi")
+		(title "OreSat Mag Card")
+		(date "2026-04-02")
+		(rev "v1.0")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1348,7 +1348,7 @@
 	)
 	(text "Y-Axis Magnetorquer Driver"
 		(exclude_from_sim no)
-		(at 139.7 256.54 0)
+		(at 118.11 170.18 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1379,6 +1379,17 @@
 		)
 		(uuid "73dc41fb-5f67-449f-b29b-2df08540cb6d")
 	)
+	(text "All caps are 0603 ceramic 10% X5R >= 16V Vwv and AEQ unless marked"
+		(exclude_from_sim no)
+		(at 113.538 265.684 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84814421-ec6f-4fb7-a2ab-5bffbf8a7f7f")
+	)
 	(text "toff=37u"
 		(exclude_from_sim no)
 		(at 132.08 209.55 0)
@@ -1401,9 +1412,20 @@
 		)
 		(uuid "8a3cd24d-7619-4b63-84ae-014a1628e94d")
 	)
+	(text "All resistors 0603 +/- 1% and AEQ unless marked"
+		(exclude_from_sim no)
+		(at 113.538 263.144 0)
+		(effects
+			(font
+				(size 1.778 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c7d710e-7f25-42ed-aa9e-d046713fe263")
+	)
 	(text "Z-Axis Magnetorquer Driver"
 		(exclude_from_sim no)
-		(at 251.714 181.102 0)
+		(at 246.888 118.11 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1436,7 +1458,7 @@
 	)
 	(text "X-Axis Magnetorquer Driver"
 		(exclude_from_sim no)
-		(at 196.088 28.448 0)
+		(at 94.488 32.004 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -5361,7 +5383,7 @@
 			(uuid "bbe5c00c-19fc-4d57-bdaf-434080a9cd15")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C55")
 					(unit 1)
@@ -5506,7 +5528,7 @@
 			(uuid "5cfc704a-57e4-44dc-879e-07c96783855d")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C50")
 					(unit 1)
@@ -5652,7 +5674,7 @@
 			(uuid "e7e2cb1b-f3f4-46cb-8db6-471c8b250bdd")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C65")
 					(unit 1)
@@ -5798,7 +5820,7 @@
 			(uuid "2dd1bd40-5167-4c97-8ba7-ff8c7f281cee")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C52")
 					(unit 1)
@@ -5944,7 +5966,7 @@
 			(uuid "30769bb1-bb3a-4c9b-9c5d-29a336b685a4")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C40")
 					(unit 1)
@@ -6023,7 +6045,7 @@
 			(uuid "624ed524-f535-43f1-a3f3-1d1d45e05f06")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C66")
 					(unit 1)
@@ -6235,7 +6257,7 @@
 			(uuid "a3b10b2c-2f8c-4603-b504-5f29c044d253")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C41")
 					(unit 1)
@@ -6314,7 +6336,7 @@
 			(uuid "caeefca1-1142-440e-93f8-6a8b8e481d3d")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C48")
 					(unit 1)
@@ -6393,7 +6415,7 @@
 			(uuid "e3eb8823-938f-4ccd-ae8a-acadb9e797e2")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C69")
 					(unit 1)
@@ -6537,7 +6559,7 @@
 			(uuid "ecc02a39-280d-4cf1-a3fd-fea0b4f352c9")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C64")
 					(unit 1)
@@ -6682,7 +6704,7 @@
 			(uuid "41767037-6afe-4d19-b045-f020f078ef7c")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C67")
 					(unit 1)
@@ -6904,7 +6926,7 @@
 			(uuid "5259d978-b387-4967-b81c-f641c98585a8")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "U14")
 					(unit 1)
@@ -7181,7 +7203,7 @@
 			(uuid "0b5a90f6-8e5b-4f3d-b78c-0c1b979cff53")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C57")
 					(unit 1)
@@ -7257,7 +7279,7 @@
 			(uuid "fbfd37a1-d0d1-4e5a-a263-fb8a0454753c")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R60")
 					(unit 1)
@@ -7402,7 +7424,7 @@
 			(uuid "c1ca9dc5-bfc0-4361-98e5-df9413b1ab14")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R73")
 					(unit 1)
@@ -7481,7 +7503,7 @@
 			(uuid "f99ec3da-4811-4798-a4cc-cbf77448a89f")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C38")
 					(unit 1)
@@ -7626,7 +7648,7 @@
 			(uuid "bedda93b-248c-4ea2-9c20-6b7da202762c")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R64")
 					(unit 1)
@@ -8036,7 +8058,7 @@
 			(uuid "4c2b2d12-7212-4c9d-a2e6-463062aa3766")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C53")
 					(unit 1)
@@ -8115,7 +8137,7 @@
 			(uuid "8fc4d502-57c6-417b-9418-b91a3f2ce755")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C44")
 					(unit 1)
@@ -8194,7 +8216,7 @@
 			(uuid "90c35902-b6a8-44eb-aeda-91b0671452d2")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C37")
 					(unit 1)
@@ -8339,7 +8361,7 @@
 			(uuid "9b3e0c14-3822-405b-8558-6e0f7a5df57a")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C43")
 					(unit 1)
@@ -8482,7 +8504,7 @@
 			(uuid "883e0bc4-ac4a-4051-a521-f1f62a98af54")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R70")
 					(unit 1)
@@ -8561,7 +8583,7 @@
 			(uuid "5facf072-f9f3-47d5-9010-a16c6c58a579")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R66")
 					(unit 1)
@@ -8640,7 +8662,7 @@
 			(uuid "ab1e9092-9dd9-4899-81d2-56bc8ed6aede")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C62")
 					(unit 1)
@@ -8851,7 +8873,7 @@
 			(uuid "dd0ddc23-66bb-425f-863c-fa71147a343a")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R74")
 					(unit 1)
@@ -8997,7 +9019,7 @@
 			(uuid "a06ec620-8f4b-42c8-81a3-6d286e639f16")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R72")
 					(unit 1)
@@ -9119,7 +9141,7 @@
 			(uuid "23cad45b-14b4-4b02-a905-903bc2e836e4")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "U16")
 					(unit 1)
@@ -9662,7 +9684,7 @@
 			(uuid "29c0b2b5-4574-404c-a591-6dcf96109362")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C61")
 					(unit 1)
@@ -9740,7 +9762,7 @@
 			(uuid "ece147b6-4b90-4977-ac8d-2433c2dcf362")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C45")
 					(unit 1)
@@ -10153,7 +10175,7 @@
 			(uuid "25079876-d7e4-4eee-9ad1-f286a2c66749")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C51")
 					(unit 1)
@@ -10364,7 +10386,7 @@
 			(uuid "7f0b3331-fe9d-4e9e-82ef-6cb64287f965")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C42")
 					(unit 1)
@@ -10443,7 +10465,7 @@
 			(uuid "a1e627e9-1aeb-48b6-9549-e03f7749307f")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R71")
 					(unit 1)
@@ -10522,7 +10544,7 @@
 			(uuid "9ee074b8-aa87-4cf2-9dd3-dd3ab904e6f2")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C39")
 					(unit 1)
@@ -10612,7 +10634,7 @@
 			(uuid "9ec8291c-78ae-4a74-9b74-363900d8f006")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "U17")
 					(unit 1)
@@ -10691,7 +10713,7 @@
 			(uuid "414c135a-af46-48d0-a947-48e83ce75e50")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R68")
 					(unit 1)
@@ -10767,7 +10789,7 @@
 			(uuid "3b08e38b-7a29-4686-8ec4-1732718af056")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R69")
 					(unit 1)
@@ -10910,7 +10932,7 @@
 			(uuid "5193a06d-7781-401c-864a-782a087ae14a")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R75")
 					(unit 1)
@@ -11056,7 +11078,7 @@
 			(uuid "ec583cc8-ae0f-4831-ba9f-f7f4e4a291ba")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C68")
 					(unit 1)
@@ -11808,7 +11830,7 @@
 			(uuid "b46b687c-eed6-4da8-a2d2-dd4c1fd09be0")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R62")
 					(unit 1)
@@ -11954,7 +11976,7 @@
 			(uuid "5f960da2-0755-467e-a739-bb26e7c6e321")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C59")
 					(unit 1)
@@ -12033,7 +12055,7 @@
 			(uuid "5b0efaee-972d-4738-8e62-88af5be951b8")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C60")
 					(unit 1)
@@ -12155,7 +12177,7 @@
 			(uuid "4670f8d8-dbb5-4459-afe9-cb9fcf0a6973")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "U12")
 					(unit 1)
@@ -12301,7 +12323,7 @@
 			(uuid "97b68918-1391-4df5-881c-bed4c1a049b2")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R63")
 					(unit 1)
@@ -12380,7 +12402,7 @@
 			(uuid "cbfba53c-da67-4611-b8cd-9f02a48ecab8")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C54")
 					(unit 1)
@@ -12525,7 +12547,7 @@
 			(uuid "316c4eb7-eb02-4aee-9908-ad637445fc51")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C56")
 					(unit 1)
@@ -12669,7 +12691,7 @@
 			(uuid "cd8158fc-dda7-440e-a852-47f3bfac6a49")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C63")
 					(unit 1)
@@ -12893,7 +12915,7 @@
 			(uuid "eb6c1499-c69d-4480-baf3-5ddcea01b4f8")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R67")
 					(unit 1)
@@ -13104,7 +13126,7 @@
 			(uuid "02baee7d-f2cc-48e9-879a-436ea1861a9f")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C49")
 					(unit 1)
@@ -13226,7 +13248,7 @@
 			(uuid "6c39f2c6-9965-4b4b-a0b2-5c6f1bc7517c")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "U13")
 					(unit 1)
@@ -13382,7 +13404,7 @@
 			(uuid "34ea3c10-de76-4f46-aec0-0f50959c27e6")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "U15")
 					(unit 1)
@@ -13857,7 +13879,7 @@
 			(uuid "f6ceb5d4-3feb-46e6-889b-1350dd5c936d")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R65")
 					(unit 1)
@@ -13936,7 +13958,7 @@
 			(uuid "f8925cb4-8b88-4625-bb98-cd25d29fd559")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C58")
 					(unit 1)
@@ -14014,7 +14036,7 @@
 			(uuid "92e105a3-dd5b-4fbb-b482-c40b5ea6b01c")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C46")
 					(unit 1)
@@ -14093,7 +14115,7 @@
 			(uuid "1fae3b4a-0c04-4926-8430-908212377086")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R58")
 					(unit 1)
@@ -14238,7 +14260,7 @@
 			(uuid "1c69dee1-ed36-4504-987d-9fd81232ae4b")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "R61")
 					(unit 1)
@@ -14450,7 +14472,7 @@
 			(uuid "f2ae30c1-44e0-4817-b8a0-61e51b5a3d91")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/ea4234c5-c7c7-400f-8e65-99a982be6ec1"
 					(reference "C47")
 					(unit 1)
