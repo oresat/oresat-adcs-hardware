@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Reaction Wheel Card")
-		(date "2026-03-09")
+		(date "2026-04-02")
 		(rev "v1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -2868,9 +2868,9 @@
 		)
 		(uuid "bc196243-dc23-4e0b-9225-85dc87a3aeb3")
 	)
-	(text "All caps are 0402 ceramic 10% X5R Vw>=16V unless marked"
+	(text "All caps are 0603 ceramic 10% X5R Vw>=25V unless marked"
 		(exclude_from_sim no)
-		(at 340.36 261.62 0)
+		(at 113.792 265.176 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -2903,9 +2903,9 @@
 		)
 		(uuid "ce49bdda-0c61-4190-9bb4-bec10a1edd01")
 	)
-	(text "All resistors 0402 +/- 1% unless marked"
+	(text "All resistors 0602 +/- 1% and AEC qualified unless marked"
 		(exclude_from_sim no)
-		(at 340.36 259.08 0)
+		(at 113.792 262.636 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -7835,7 +7835,7 @@
 			(uuid "ca8b1c8c-a637-4723-aca0-d872fc0c662d")
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#GND02")
 					(unit 1)
@@ -8023,7 +8023,7 @@
 			(uuid "991e7786-c211-47fa-8f71-c76860f302fe")
 		)
 		(instances
-			(project ""
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J101")
 					(unit 1)
@@ -8089,7 +8089,7 @@
 			(uuid "4a184c25-651a-41a0-9624-e859c87ce1c5")
 		)
 		(instances
-			(project ""
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#VBUS01")
 					(unit 1)
@@ -8161,7 +8161,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID6")
 					(unit 1)
@@ -8233,7 +8233,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "PCB1")
 					(unit 1)
@@ -8305,7 +8305,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID1")
 					(unit 1)
@@ -8371,7 +8371,7 @@
 			(uuid "0295e074-0605-4da0-9ce4-7ec04c9e2cad")
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#FLG09")
 					(unit 1)
@@ -8626,7 +8626,7 @@
 			(uuid "a7f9e962-df3d-48ec-bb65-e4cd721b1fdb")
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J4")
 					(unit 1)
@@ -8815,7 +8815,7 @@
 			(uuid "6500a9af-de45-4a95-a856-5049be5bcd22")
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J5")
 					(unit 1)
@@ -8887,7 +8887,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID4")
 					(unit 1)
@@ -9105,7 +9105,7 @@
 			(uuid "9a1b47db-45ee-4bf0-9e95-377b90310ce4")
 		)
 		(instances
-			(project ""
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J1")
 					(unit 1)
@@ -9177,7 +9177,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID2")
 					(unit 1)
@@ -9243,7 +9243,7 @@
 			(uuid "2ddaacf9-dd44-458b-8a30-d09b3a4cda15")
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#FLG05")
 					(unit 1)
@@ -9415,7 +9415,7 @@
 			(uuid "1fae35eb-9671-4e08-92a1-f9098fcf7725")
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "C1")
 					(unit 1)
@@ -9547,7 +9547,7 @@
 			(uuid "e763aede-d4e9-4dc6-aafd-b6d7359b78a6")
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "#GND028")
 					(unit 1)
@@ -9619,7 +9619,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID3")
 					(unit 1)
@@ -9691,7 +9691,7 @@
 			)
 		)
 		(instances
-			(project "oresat-adcs-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "FID5")
 					(unit 1)
@@ -9880,7 +9880,7 @@
 			(uuid "3f680384-dde5-43fe-ae66-7e84ca7b2960")
 		)
 		(instances
-			(project "oresat-mag-card"
+			(project "oresat-rw-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "J6")
 					(unit 1)

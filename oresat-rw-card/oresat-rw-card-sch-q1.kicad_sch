@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Reaction Wheel Card")
-		(date "2026-03-09")
+		(date "2026-04-02")
 		(rev "v1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -7135,7 +7135,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "DMP2240UDM"
+		(property "Value" "DMP2240UDM-7"
 			(at 66.548 225.552 90)
 			(effects
 				(font
@@ -7946,7 +7946,7 @@
 		(dnp no)
 		(uuid "1a7871cf-dd42-4240-b09c-fd8451a84f58")
 		(property "Reference" "Q9"
-			(at 362.204 105.918 0)
+			(at 363.728 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7954,8 +7954,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PMV45EN"
-			(at 356.108 108.966 0)
+		(property "Value" "DMN3028LQ-7"
+			(at 352.044 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13345,7 +13345,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "DMP2240UDM"
+		(property "Value" "DMP2240UDM-7"
 			(at 67.056 180.848 90)
 			(effects
 				(font
@@ -15129,7 +15129,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "DMP3050LVT-7"
+		(property "Value" "DMPH2040UVTQ-7"
 			(at 367.03 37.084 90)
 			(effects
 				(font
@@ -15149,7 +15149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH2040UVTQ.pdf"
 			(at 360.68 41.91 90)
 			(effects
 				(font
@@ -15159,7 +15159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-Channel 20 V 4.9A (Ta) 810mW (Ta) Surface Mount SOT-23-3 (TO-236)"
+		(property "Description" "P-Channel 20 V 5.6A (Ta), 11.7A (Tc) 1W (Ta) Surface Mount TSOT-26"
 			(at 360.68 41.91 0)
 			(effects
 				(font
@@ -15178,7 +15178,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "31-DMP2035UQ-7CT-ND"
+		(property "DPN" "31-DMPH2040UVTQ-7CT-ND"
 			(at 360.68 41.91 0)
 			(effects
 				(font
@@ -15188,7 +15188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MFR" "Diodes Incorporated"
 			(at 360.68 41.91 0)
 			(effects
 				(font
@@ -15198,7 +15198,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2035UQ-7"
+		(property "MPN" "DMPH2040UVTQ-7"
 			(at 360.68 41.91 0)
 			(effects
 				(font
@@ -15493,7 +15493,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PMV45EN"
+		(property "Value" "DMN3028LQ-7"
 			(at 196.85 55.118 0)
 			(effects
 				(font
@@ -16160,7 +16160,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "DMP3050LVT-7"
+		(property "Value" "DMPH2040UVTQ-7"
 			(at 212.598 36.322 90)
 			(effects
 				(font
@@ -16180,7 +16180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMPH2040UVTQ.pdf"
 			(at 204.47 41.91 90)
 			(effects
 				(font
@@ -16190,7 +16190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-Channel 20 V 4.9A (Ta) 810mW (Ta) Surface Mount SOT-23-3 (TO-236)"
+		(property "Description" "P-Channel 20 V 5.6A (Ta), 11.7A (Tc) 1W (Ta) Surface Mount TSOT-26"
 			(at 204.47 41.91 0)
 			(effects
 				(font
@@ -16209,7 +16209,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "31-DMP2035UQ-7CT-ND"
+		(property "DPN" "31-DMPH2040UVTQ-7CT-ND"
 			(at 204.47 41.91 0)
 			(effects
 				(font
@@ -16219,7 +16219,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MFR" "Diodes Incorporated"
 			(at 204.47 41.91 0)
 			(effects
 				(font
@@ -16229,7 +16229,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DMP2035UQ-7"
+		(property "MPN" "DMPH2040UVTQ-7"
 			(at 204.47 41.91 0)
 			(effects
 				(font
