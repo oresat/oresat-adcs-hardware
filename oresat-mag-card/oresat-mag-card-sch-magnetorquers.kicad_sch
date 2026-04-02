@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "4538a706-7a04-492d-9a2e-4e39b4bf5ad1")
-	(paper "C")
+	(paper "B")
 	(title_block
 		(title "OreSat Mag Card")
 		(date "2026-04-02")
@@ -1447,7 +1447,7 @@
 	)
 	(text "50x gain amp"
 		(exclude_from_sim no)
-		(at 356.87 187.96 0)
+		(at 356.108 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1514,7 +1514,7 @@
 		(uuid "088b81df-00f6-4c5a-8e45-0f0be76e1298")
 	)
 	(junction
-		(at 339.09 158.75)
+		(at 339.09 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e3ef03-28f7-4cda-8599-f675070b73c8")
@@ -1646,7 +1646,7 @@
 		(uuid "39258b4d-d10c-4fc3-8f6f-cdd709a33c61")
 	)
 	(junction
-		(at 179.07 78.74)
+		(at 179.07 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39e747ef-c5fb-47f8-ac35-c2538aa16a7b")
@@ -1658,7 +1658,7 @@
 		(uuid "3bbfaf38-79da-4b3a-911a-deb773de9b60")
 	)
 	(junction
-		(at 179.07 226.06)
+		(at 179.07 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d6ff438-45e0-43db-99c3-3ba9d4f2683f")
@@ -1712,7 +1712,7 @@
 		(uuid "5d218cbf-46b3-45bb-bd59-405fb7c1811c")
 	)
 	(junction
-		(at 339.09 166.37)
+		(at 339.09 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d90e744-a90d-4a61-a0de-50e179a7ab7b")
@@ -1868,7 +1868,7 @@
 		(uuid "b97de42c-8f3e-4771-97e3-f2c4a32751b9")
 	)
 	(junction
-		(at 179.07 218.44)
+		(at 179.07 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba4a3282-3552-4dbb-a16f-f22356366b8a")
@@ -1940,7 +1940,7 @@
 		(uuid "ecac3a91-5399-49d5-bbe1-ed40ef48b988")
 	)
 	(junction
-		(at 179.07 71.12)
+		(at 179.07 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f03134d3-4302-403c-addb-7e916cbb2dd5")
@@ -2105,7 +2105,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 88.9) (xy 179.07 91.44)
+			(xy 179.07 93.98) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2215,7 +2215,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 158.75) (xy 353.06 168.91)
+			(xy 350.52 167.64) (xy 350.52 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 78.74) (xy 179.07 83.82)
+			(xy 179.07 87.63) (xy 179.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 190.5 86.36)
+			(xy 190.5 87.63) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 228.6) (xy 195.58 228.6)
+			(xy 190.5 228.6) (xy 195.58 228.6)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2595,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 212.09) (xy 179.07 218.44)
+			(xy 179.07 212.09) (xy 179.07 227.33)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 168.91) (xy 355.6 168.91)
+			(xy 350.52 168.91) (xy 355.6 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2865,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 218.44) (xy 193.04 228.6)
+			(xy 190.5 227.33) (xy 190.5 228.6)
 		)
 		(stroke
 			(width 0)
@@ -2905,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 177.8) (xy 339.09 182.88)
+			(xy 339.09 181.61) (xy 339.09 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2935,7 +2935,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 236.22) (xy 179.07 240.03)
+			(xy 179.07 241.3) (xy 179.07 242.57)
 		)
 		(stroke
 			(width 0)
@@ -3065,7 +3065,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 218.44) (xy 193.04 218.44)
+			(xy 179.07 227.33) (xy 190.5 227.33)
 		)
 		(stroke
 			(width 0)
@@ -3105,7 +3105,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 77.47) (xy 179.07 78.74)
+			(xy 179.07 86.36) (xy 179.07 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3145,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 218.44) (xy 179.07 219.71)
+			(xy 179.07 227.33) (xy 179.07 228.6)
 		)
 		(stroke
 			(width 0)
@@ -3345,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 158.75) (xy 353.06 158.75)
+			(xy 339.09 167.64) (xy 350.52 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3465,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 166.37) (xy 339.09 172.72)
+			(xy 339.09 175.26) (xy 339.09 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3545,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 226.06) (xy 190.5 233.68)
+			(xy 190.5 234.95) (xy 190.5 233.68)
 		)
 		(stroke
 			(width 0)
@@ -3605,7 +3605,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 226.06) (xy 190.5 226.06)
+			(xy 179.07 234.95) (xy 190.5 234.95)
 		)
 		(stroke
 			(width 0)
@@ -3845,7 +3845,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 64.77) (xy 179.07 71.12)
+			(xy 179.07 64.77) (xy 179.07 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3895,7 +3895,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 71.12) (xy 193.04 81.28)
+			(xy 190.5 80.01) (xy 190.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4025,7 +4025,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 166.37) (xy 350.52 166.37)
+			(xy 339.09 175.26) (xy 350.52 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4085,7 +4085,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 224.79) (xy 179.07 226.06)
+			(xy 179.07 233.68) (xy 179.07 234.95)
 		)
 		(stroke
 			(width 0)
@@ -4095,7 +4095,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 165.1) (xy 339.09 166.37)
+			(xy 339.09 173.99) (xy 339.09 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4245,7 +4245,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 195.58 81.28)
+			(xy 190.5 81.28) (xy 195.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4295,7 +4295,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 193.04 71.12)
+			(xy 179.07 80.01) (xy 190.5 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4415,7 +4415,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 158.75) (xy 339.09 160.02)
+			(xy 339.09 167.64) (xy 339.09 168.91)
 		)
 		(stroke
 			(width 0)
@@ -4435,7 +4435,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 78.74) (xy 190.5 78.74)
+			(xy 179.07 87.63) (xy 190.5 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4525,7 +4525,7 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 166.37) (xy 350.52 173.99)
+			(xy 350.52 175.26) (xy 350.52 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4635,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 179.07 72.39)
+			(xy 179.07 80.01) (xy 179.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4785,7 +4785,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 226.06) (xy 179.07 231.14)
+			(xy 179.07 234.95) (xy 179.07 236.22)
 		)
 		(stroke
 			(width 0)
@@ -5075,7 +5075,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 152.4) (xy 339.09 158.75)
+			(xy 339.09 152.4) (xy 339.09 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5340,7 +5340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 214.63 71.12 0)
 			(effects
 				(font
@@ -5394,7 +5394,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 179.07 91.44 0)
+		(at 179.07 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5402,7 +5402,7 @@
 		(dnp no)
 		(uuid "0283e7ea-3400-445f-b202-94bc7211ad08")
 		(property "Reference" "#GND077"
-			(at 179.07 97.79 0)
+			(at 179.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5411,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 95.25 0)
+			(at 179.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 91.44 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 91.44 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5437,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 91.44 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +5485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 191.77 201.93 0)
 			(effects
 				(font
@@ -5631,7 +5631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 351.79 142.24 0)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 201.93 201.93 0)
 			(effects
 				(font
@@ -5923,7 +5923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 114.3 193.04 0)
 			(effects
 				(font
@@ -6002,7 +6002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 361.95 142.24 0)
 			(effects
 				(font
@@ -6214,7 +6214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 114.3 205.74 0)
 			(effects
 				(font
@@ -6293,7 +6293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 191.77 54.61 0)
 			(effects
 				(font
@@ -6372,7 +6372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 381 176.53 0)
 			(effects
 				(font
@@ -6516,7 +6516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 351.79 123.19 0)
 			(effects
 				(font
@@ -6661,7 +6661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 364.49 158.75 0)
 			(effects
 				(font
@@ -7160,7 +7160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 220.98 88.9 0)
 			(effects
 				(font
@@ -7236,7 +7236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 68.58 111.76 0)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 339.09 162.56 0)
+		(at 339.09 171.45 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7364,7 +7364,7 @@
 		(dnp no)
 		(uuid "333a7df6-d1a0-42c3-933c-0d0816f49556")
 		(property "Reference" "R73"
-			(at 341.63 163.8301 0)
+			(at 341.63 172.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7373,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 341.63 161.2901 0)
+			(at 341.63 170.1801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,8 +7381,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 339.09 162.56 0)
+		(property "Footprint" "oresat-passives:1206-C"
+			(at 339.09 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 339.09 162.56 0)
+			(at 339.09 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7400,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 339.09 162.56 0)
+			(at 339.09 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7409,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 339.09 162.56 0)
+			(at 339.09 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 114.3 58.42 0)
 			(effects
 				(font
@@ -7605,7 +7605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 139.7 215.9 0)
 			(effects
 				(font
@@ -8015,7 +8015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 204.47 71.12 0)
 			(effects
 				(font
@@ -8094,7 +8094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 132.08 219.71 0)
 			(effects
 				(font
@@ -8173,7 +8173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -8318,7 +8318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 132.08 72.39 0)
 			(effects
 				(font
@@ -8461,7 +8461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 215.9 231.14 0)
 			(effects
 				(font
@@ -8514,7 +8514,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 179.07 86.36 0)
+		(at 179.07 91.44 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8523,7 +8523,7 @@
 		(dnp no)
 		(uuid "56aa72f5-6a12-46e4-9962-026f07c6fb3d")
 		(property "Reference" "R66"
-			(at 181.61 87.63 0)
+			(at 181.61 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +8532,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 181.61 85.09 0)
+			(at 181.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,8 +8540,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 179.07 86.36 0)
+		(property "Footprint" "oresat-passives:1206-C"
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 86.36 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8559,7 +8559,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 86.36 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8568,7 +8568,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 179.07 86.36 0)
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8619,7 +8619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 292.1 160.02 0)
 			(effects
 				(font
@@ -8804,7 +8804,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 339.09 175.26 0)
+		(at 339.09 179.07 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8813,7 +8813,7 @@
 		(dnp no)
 		(uuid "62893e5b-86ca-4f2e-8893-8faf5d5d425c")
 		(property "Reference" "R74"
-			(at 341.63 176.5301 0)
+			(at 341.63 180.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,7 +8822,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 341.63 173.9901 0)
+			(at 341.63 177.8001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8830,8 +8830,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 339.09 175.26 0)
+		(property "Footprint" "oresat-passives:1206-C"
+			(at 339.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8840,7 +8840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 339.09 175.26 0)
+			(at 339.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,7 +8849,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 339.09 175.26 0)
+			(at 339.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +8858,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 339.09 175.26 0)
+			(at 339.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8976,7 +8976,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 299.72 156.21 0)
 			(effects
 				(font
@@ -9641,7 +9641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 274.32 160.02 0)
 			(effects
 				(font
@@ -10132,7 +10132,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 201.93 54.61 0)
 			(effects
 				(font
@@ -10343,7 +10343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 114.3 219.71 0)
 			(effects
 				(font
@@ -10422,7 +10422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 292.1 153.67 0)
 			(effects
 				(font
@@ -10501,7 +10501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 114.3 71.12 0)
 			(effects
 				(font
@@ -10644,7 +10644,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 179.07 233.68 0)
+		(at 179.07 238.76 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10653,7 +10653,7 @@
 		(dnp no)
 		(uuid "941ea5c0-59d2-4896-9b04-0d29566f6748")
 		(property "Reference" "R68"
-			(at 181.61 234.9501 0)
+			(at 181.61 240.0301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10662,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 181.61 232.4101 0)
+			(at 181.61 237.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,8 +10670,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 179.07 233.68 0)
+		(property "Footprint" "oresat-passives:1206-C"
+			(at 179.07 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,7 +10680,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 233.68 0)
+			(at 179.07 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +10689,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 233.68 0)
+			(at 179.07 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +10698,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 179.07 233.68 0)
+			(at 179.07 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +10746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 215.9 83.82 0)
 			(effects
 				(font
@@ -10889,7 +10889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 375.92 171.45 0)
 			(effects
 				(font
@@ -11035,7 +11035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 374.65 158.75 0)
 			(effects
 				(font
@@ -11378,7 +11378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 64.77 162.56 0)
 			(effects
 				(font
@@ -11787,7 +11787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 132.08 213.36 0)
 			(effects
 				(font
@@ -11933,7 +11933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 274.32 133.35 0)
 			(effects
 				(font
@@ -12012,7 +12012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 274.32 146.05 0)
 			(effects
 				(font
@@ -12280,7 +12280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -12359,7 +12359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 204.47 218.44 0)
 			(effects
 				(font
@@ -12504,7 +12504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 214.63 218.44 0)
 			(effects
 				(font
@@ -12793,7 +12793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 60.96 121.92 0)
 			(effects
 				(font
@@ -12846,7 +12846,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 179.07 222.25 0)
+		(at 179.07 231.14 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12855,7 +12855,7 @@
 		(dnp no)
 		(uuid "d60d34a8-9574-4625-b581-7acfaa0ec004")
 		(property "Reference" "R67"
-			(at 181.61 223.5201 0)
+			(at 181.61 232.4101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +12864,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 181.61 220.9801 0)
+			(at 181.61 229.8701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,8 +12872,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 179.07 222.25 0)
+		(property "Footprint" "oresat-passives:1206-C"
+			(at 179.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,7 +12882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 222.25 0)
+			(at 179.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,7 +12891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 222.25 0)
+			(at 179.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12900,7 +12900,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 179.07 222.25 0)
+			(at 179.07 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13083,7 +13083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 191.77 182.88 0)
 			(effects
 				(font
@@ -13679,7 +13679,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 179.07 240.03 0)
+		(at 179.07 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13687,7 +13687,7 @@
 		(dnp no)
 		(uuid "f19b8d93-574d-41aa-90f3-1ad3200cb20e")
 		(property "Reference" "#GND078"
-			(at 179.07 246.38 0)
+			(at 179.07 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +13696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 243.84 0)
+			(at 179.07 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13704,7 +13704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 240.03 0)
+			(at 179.07 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13713,7 +13713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 240.03 0)
+			(at 179.07 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13722,7 +13722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 240.03 0)
+			(at 179.07 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13810,7 +13810,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 179.07 74.93 0)
+		(at 179.07 83.82 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13819,7 +13819,7 @@
 		(dnp no)
 		(uuid "f31a6451-3b35-47f1-9692-e810de569651")
 		(property "Reference" "R65"
-			(at 181.61 76.2 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13828,7 +13828,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 181.61 73.66 0)
+			(at 181.61 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13836,8 +13836,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 179.07 74.93 0)
+		(property "Footprint" "oresat-passives:1206-C"
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13846,7 +13846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 74.93 0)
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13855,7 +13855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 74.93 0)
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13864,7 +13864,7 @@
 			)
 		)
 		(property "DIST" ""
-			(at 179.07 74.93 0)
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13915,7 +13915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 220.98 236.22 0)
 			(effects
 				(font
@@ -14072,7 +14072,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 64.77 151.13 0)
 			(effects
 				(font
@@ -14217,7 +14217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -14429,7 +14429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-passives:c_0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 191.77 35.56 0)
 			(effects
 				(font
