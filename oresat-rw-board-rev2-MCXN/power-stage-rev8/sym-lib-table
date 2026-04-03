@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "rev-8-symbols")(type "KiCad")(uri "C:/Users/Chris/Desktop/Reaction Wheel/PCB/oresat-rw-board-rev2.2-MCXN/rev-8-symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "rev-8-symbols")(type "KiCad")(uri "${KIPRJMOD}/rev-8-symbols.kicad_sym")(options "")(descr ""))
 )
