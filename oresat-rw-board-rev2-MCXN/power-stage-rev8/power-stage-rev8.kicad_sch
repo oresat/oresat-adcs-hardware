@@ -45223,25 +45223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 137.16 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 137.16 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 137.16 194.31 0)
 			(effects
 				(font
@@ -45307,7 +45289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 328.93 140.97 0)
 			(effects
 				(font
@@ -45316,7 +45298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "YAG5814TR-ND"
 			(at 328.93 140.97 0)
 			(effects
 				(font
@@ -45325,7 +45307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG5814TR-ND"
+		(property "DST" "Digikey"
 			(at 328.93 140.97 0)
 			(effects
 				(font
@@ -45334,7 +45316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "MFR" "Yageo"
 			(at 328.93 140.97 0)
 			(effects
 				(font
@@ -45343,7 +45325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "SR0402FR-7T100RL"
+		(property "MPN" "SR0402FR-7T100RL"
 			(at 328.93 140.97 0)
 			(effects
 				(font
@@ -45546,7 +45528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.0V 50-ppm/°C Max, 50-μA, CMOS Voltage Reference, SOT-23-3"
+		(property "Description" ""
 			(at 464.82 36.83 0)
 			(effects
 				(font
@@ -45555,7 +45537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "TI"
+		(property "DPN" "296-26323-1-ND"
 			(at 464.82 36.83 0)
 			(effects
 				(font
@@ -45564,7 +45546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 464.82 36.83 0)
 			(effects
 				(font
@@ -45573,7 +45555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "REF3030AIDBZR"
+		(property "MFR" "TI"
 			(at 464.82 36.83 0)
 			(effects
 				(font
@@ -45582,7 +45564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "296-26323-1-ND"
+		(property "MPN" "REF3030AIDBZR"
 			(at 464.82 36.83 0)
 			(effects
 				(font
@@ -45655,7 +45637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 147.32 162.56 0)
 			(effects
 				(font
@@ -45664,7 +45646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-12286-1-ND"
 			(at 147.32 162.56 0)
 			(effects
 				(font
@@ -45673,7 +45655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12286-1-ND"
+		(property "DST" "Digikey"
 			(at 147.32 162.56 0)
 			(effects
 				(font
@@ -45682,7 +45664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 147.32 162.56 0)
 			(effects
 				(font
@@ -45691,7 +45673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C81C106ME13D"
+		(property "MPN" "GRT188C81C106ME13D"
 			(at 147.32 162.56 0)
 			(effects
 				(font
@@ -45836,7 +45818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 463.55 95.25 0)
 			(effects
 				(font
@@ -45845,7 +45827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 463.55 95.25 0)
 			(effects
 				(font
@@ -45854,7 +45836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 463.55 95.25 0)
 			(effects
 				(font
@@ -45863,7 +45845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 463.55 95.25 0)
 			(effects
 				(font
@@ -45998,7 +45980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -46007,7 +45989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12286-1-ND"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -46016,7 +45998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -46025,7 +46007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12286-1-ND"
+		(property "MFR" "Murata"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -46034,7 +46016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C81C106ME13D"
+		(property "MPN" "GRT188C81C106ME13D"
 			(at 91.44 26.67 0)
 			(effects
 				(font
@@ -46171,25 +46153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 38.1 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 38.1 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 38.1 19.05 0)
 			(effects
 				(font
@@ -46255,7 +46219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 312.42 238.76 0)
 			(effects
 				(font
@@ -46264,7 +46228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "13-RP0402BRD073K3LCT-ND"
 			(at 312.42 238.76 0)
 			(effects
 				(font
@@ -46273,7 +46237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 312.42 238.76 0)
 			(effects
 				(font
@@ -46282,7 +46246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RP0402BRD073K3L"
+		(property "MFR" "Yageo"
 			(at 312.42 238.76 0)
 			(effects
 				(font
@@ -46291,7 +46255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-RP0402BRD073K3LCT-ND"
+		(property "MPN" "RP0402BRD073K3L"
 			(at 312.42 238.76 0)
 			(effects
 				(font
@@ -46370,7 +46334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG5860CT-ND"
 			(at 433.07 203.2 0)
 			(effects
 				(font
@@ -46379,7 +46343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 433.07 203.2 0)
 			(effects
 				(font
@@ -46388,7 +46352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "SR0805FR-7T12RL"
+		(property "MFR" "Yageo"
 			(at 433.07 203.2 0)
 			(effects
 				(font
@@ -46397,7 +46361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG5860CT-ND"
+		(property "MPN" "SR0805FR-7T12RL"
 			(at 433.07 203.2 0)
 			(effects
 				(font
@@ -46598,7 +46562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 354.33 222.25 0)
 			(effects
 				(font
@@ -46607,7 +46571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG3483CT-ND"
 			(at 354.33 222.25 0)
 			(effects
 				(font
@@ -46616,7 +46580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 354.33 222.25 0)
 			(effects
 				(font
@@ -46625,7 +46589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-073K3L"
+		(property "MFR" "Yageo"
 			(at 354.33 222.25 0)
 			(effects
 				(font
@@ -46634,7 +46598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG3483CT-ND"
+		(property "MPN" "AC0402FR-073K3L"
 			(at 354.33 222.25 0)
 			(effects
 				(font
@@ -46777,7 +46741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "TI"
+		(property "DPN" "296-TPSM82901SISRCT-ND"
 			(at 147.32 20.32 0)
 			(effects
 				(font
@@ -46786,7 +46750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 147.32 20.32 0)
 			(effects
 				(font
@@ -46795,7 +46759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "TPSM82901SISR"
+		(property "MFR" "TI"
 			(at 147.32 20.32 0)
 			(effects
 				(font
@@ -46804,7 +46768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "296-TPSM82901SISRCT-ND"
+		(property "MPN" "TPSM82901SISR"
 			(at 147.32 20.32 0)
 			(effects
 				(font
@@ -46973,7 +46937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
+		(property "Description" ""
 			(at 166.878 276.86 0)
 			(effects
 				(font
@@ -47032,7 +46996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "NXP"
+		(property "DPN" "568-MCXN947VDFT-ND"
 			(at 1.27 294.64 0)
 			(effects
 				(font
@@ -47041,7 +47005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 1.27 294.64 0)
 			(effects
 				(font
@@ -47050,7 +47014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "568-MCXN947VDFT-ND"
+		(property "MFR" "NXP"
 			(at 1.27 294.64 0)
 			(effects
 				(font
@@ -47059,7 +47023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "MCXN947VDFT"
+		(property "MPN" "MCXN947VDFT"
 			(at 1.27 294.64 0)
 			(effects
 				(font
@@ -47675,7 +47639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 344.17 246.38 0)
 			(effects
 				(font
@@ -47684,7 +47648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 344.17 246.38 0)
 			(effects
 				(font
@@ -47693,7 +47657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 344.17 246.38 0)
 			(effects
 				(font
@@ -47702,7 +47666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 344.17 246.38 0)
 			(effects
 				(font
@@ -47711,7 +47675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 344.17 246.38 0)
 			(effects
 				(font
@@ -47855,7 +47819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "MPS"
+		(property "DPN" "1589-MA732GQ-ZCT-ND"
 			(at 50.8 234.95 0)
 			(effects
 				(font
@@ -47864,7 +47828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 50.8 234.95 0)
 			(effects
 				(font
@@ -47873,7 +47837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "MA732GQ-Z"
+		(property "MFR" "MPS"
 			(at 50.8 234.95 0)
 			(effects
 				(font
@@ -47882,7 +47846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "1589-MA732GQ-ZCT-ND"
+		(property "MPN" "MA732GQ-Z"
 			(at 50.8 234.95 0)
 			(effects
 				(font
@@ -48004,7 +47968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-13269-1-ND"
 			(at 427.99 180.34 90)
 			(effects
 				(font
@@ -48013,7 +47977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 427.99 180.34 90)
 			(effects
 				(font
@@ -48022,7 +47986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "BLM31SN500SN1L"
+		(property "MFR" "Murata"
 			(at 427.99 180.34 90)
 			(effects
 				(font
@@ -48031,7 +47995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-13269-1-ND"
+		(property "MPN" "BLM31SN500SN1L"
 			(at 427.99 180.34 90)
 			(effects
 				(font
@@ -48306,7 +48270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT188C80J226ME13DCT-ND"
 			(at 410.21 29.21 0)
 			(effects
 				(font
@@ -48315,7 +48279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 410.21 29.21 0)
 			(effects
 				(font
@@ -48324,7 +48288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C80J226ME13D"
+		(property "MFR" "Murata"
 			(at 410.21 29.21 0)
 			(effects
 				(font
@@ -48333,7 +48297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT188C80J226ME13DCT-ND"
+		(property "MPN" "GRT188C80J226ME13D"
 			(at 410.21 29.21 0)
 			(effects
 				(font
@@ -48412,7 +48376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 472.44 74.93 0)
 			(effects
 				(font
@@ -48421,7 +48385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 472.44 74.93 0)
 			(effects
 				(font
@@ -48430,7 +48394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 472.44 74.93 0)
 			(effects
 				(font
@@ -48439,7 +48403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 472.44 74.93 0)
 			(effects
 				(font
@@ -48518,7 +48482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -48527,7 +48491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -48536,7 +48500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -48545,7 +48509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -48614,7 +48578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 171.45 25.4 0)
 			(effects
 				(font
@@ -48623,7 +48587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 171.45 25.4 0)
 			(effects
 				(font
@@ -48632,7 +48596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 171.45 25.4 0)
 			(effects
 				(font
@@ -48641,7 +48605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 171.45 25.4 0)
 			(effects
 				(font
@@ -48650,7 +48614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 171.45 25.4 0)
 			(effects
 				(font
@@ -48728,7 +48692,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 132.08 83.82 0)
 			(effects
 				(font
@@ -48737,7 +48701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "DST" "Digikey"
 			(at 132.08 83.82 0)
 			(effects
 				(font
@@ -48746,7 +48710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 132.08 83.82 0)
 			(effects
 				(font
@@ -48755,7 +48719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 132.08 83.82 0)
 			(effects
 				(font
@@ -48895,7 +48859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
+		(property "Description" ""
 			(at 268.478 123.19 0)
 			(effects
 				(font
@@ -48954,7 +48918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "NXP"
+		(property "DPN" "568-MCXN947VDFT-ND"
 			(at 102.87 140.97 0)
 			(effects
 				(font
@@ -48963,7 +48927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 102.87 140.97 0)
 			(effects
 				(font
@@ -48972,7 +48936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "568-MCXN947VDFT-ND"
+		(property "MFR" "NXP"
 			(at 102.87 140.97 0)
 			(effects
 				(font
@@ -48981,7 +48945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "MCXN947VDFT"
+		(property "MPN" "MCXN947VDFT"
 			(at 102.87 140.97 0)
 			(effects
 				(font
@@ -49605,7 +49569,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 119.38 83.82 0)
 			(effects
 				(font
@@ -49614,7 +49578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "DST" "Digikey"
 			(at 119.38 83.82 0)
 			(effects
 				(font
@@ -49623,7 +49587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 119.38 83.82 0)
 			(effects
 				(font
@@ -49632,7 +49596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 119.38 83.82 0)
 			(effects
 				(font
@@ -49778,7 +49742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 490.22 95.25 0)
 			(effects
 				(font
@@ -49787,7 +49751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 490.22 95.25 0)
 			(effects
 				(font
@@ -49796,7 +49760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 490.22 95.25 0)
 			(effects
 				(font
@@ -49805,7 +49769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 490.22 95.25 0)
 			(effects
 				(font
@@ -49882,7 +49846,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 118.11 120.65 0)
 			(effects
 				(font
@@ -49891,7 +49855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "DST" "Digikey"
 			(at 118.11 120.65 0)
 			(effects
 				(font
@@ -49900,7 +49864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 118.11 120.65 0)
 			(effects
 				(font
@@ -49909,7 +49873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 118.11 120.65 0)
 			(effects
 				(font
@@ -49984,7 +49948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
+		(property "Description" ""
 			(at 283.718 81.28 0)
 			(effects
 				(font
@@ -50043,7 +50007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "NXP"
+		(property "DPN" "568-MCXN947VDFT-ND"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -50052,7 +50016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -50061,7 +50025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "568-MCXN947VDFT-ND"
+		(property "MFR" "NXP"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -50070,7 +50034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "MCXN947VDFT"
+		(property "MPN" "MCXN947VDFT"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -50752,7 +50716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
+		(property "Description" ""
 			(at 15.24 180.34 0)
 			(effects
 				(font
@@ -50811,7 +50775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "NXP"
+		(property "DPN" "568-MCXN947VDFT-ND"
 			(at 15.24 180.34 0)
 			(effects
 				(font
@@ -50820,7 +50784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 15.24 180.34 0)
 			(effects
 				(font
@@ -50829,7 +50793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "568-MCXN947VDFT-ND"
+		(property "MFR" "NXP"
 			(at 15.24 180.34 0)
 			(effects
 				(font
@@ -50838,7 +50802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "MCXN947VDFT"
+		(property "MPN" "MCXN947VDFT"
 			(at 15.24 180.34 0)
 			(effects
 				(font
@@ -51528,7 +51492,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -51537,7 +51501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "DST" "Digikey"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -51546,7 +51510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -51555,7 +51519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 125.73 80.01 0)
 			(effects
 				(font
@@ -51634,7 +51598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 481.33 95.25 0)
 			(effects
 				(font
@@ -51643,7 +51607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 481.33 95.25 0)
 			(effects
 				(font
@@ -51652,7 +51616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 481.33 95.25 0)
 			(effects
 				(font
@@ -51661,7 +51625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 481.33 95.25 0)
 			(effects
 				(font
@@ -51732,7 +51696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, silent mode, shutdown mode, SOT-23-8/SOIC-8"
+		(property "Description" ""
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -51741,7 +51705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "TI"
+		(property "DPN" "296-46215-1-ND"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -51750,7 +51714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -51759,7 +51723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "TCAN330DCNR"
+		(property "MFR" "TI"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -51768,7 +51732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "296-46215-1-ND"
+		(property "MPN" "TCAN330DCNR"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -51863,7 +51827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Molex"
+		(property "DPN" "WM9218CT-ND"
 			(at 43.18 62.23 0)
 			(effects
 				(font
@@ -51872,7 +51836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 43.18 62.23 0)
 			(effects
 				(font
@@ -51881,7 +51845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "0555600307"
+		(property "MFR" "Molex"
 			(at 43.18 62.23 0)
 			(effects
 				(font
@@ -51890,7 +51854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "WM9218CT-ND"
+		(property "MPN" "0555600307"
 			(at 43.18 62.23 0)
 			(effects
 				(font
@@ -52051,7 +52015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-13269-1-ND"
 			(at 427.99 193.04 90)
 			(effects
 				(font
@@ -52060,7 +52024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 427.99 193.04 90)
 			(effects
 				(font
@@ -52069,7 +52033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "BLM31SN500SN1L"
+		(property "MFR" "Murata"
 			(at 427.99 193.04 90)
 			(effects
 				(font
@@ -52078,7 +52042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-13269-1-ND"
+		(property "MPN" "BLM31SN500SN1L"
 			(at 427.99 193.04 90)
 			(effects
 				(font
@@ -52157,7 +52121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG5860CT-ND"
 			(at 441.96 203.2 0)
 			(effects
 				(font
@@ -52166,7 +52130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 441.96 203.2 0)
 			(effects
 				(font
@@ -52175,7 +52139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "SR0805FR-7T12RL"
+		(property "MFR" "Yageo"
 			(at 441.96 203.2 0)
 			(effects
 				(font
@@ -52184,7 +52148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG5860CT-ND"
+		(property "MPN" "SR0805FR-7T12RL"
 			(at 441.96 203.2 0)
 			(effects
 				(font
@@ -52330,7 +52294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-4972-1-ND"
 			(at 433.07 196.85 0)
 			(effects
 				(font
@@ -52339,7 +52303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 433.07 196.85 0)
 			(effects
 				(font
@@ -52348,7 +52312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GCM2165C2A332JA16D"
+		(property "MFR" "Murata"
 			(at 433.07 196.85 0)
 			(effects
 				(font
@@ -52357,7 +52321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-4972-1-ND"
+		(property "MPN" "GCM2165C2A332JA16D"
 			(at 433.07 196.85 0)
 			(effects
 				(font
@@ -52492,25 +52456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 72.39 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 72.39 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 72.39 83.82 0)
 			(effects
 				(font
@@ -52574,25 +52520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 213.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 213.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 213.36 74.93 0)
 			(effects
 				(font
@@ -52855,7 +52783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5 µH Shielded Inductor 2.9 A 84mOhm Max 0806 (2016 Metric) Flat Wire"
+		(property "Description" ""
 			(at 149.86 147.32 0)
 			(effects
 				(font
@@ -52864,7 +52792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "118-SRP2012TMA-1R5MTR-ND"
 			(at 149.86 147.32 90)
 			(effects
 				(font
@@ -52873,7 +52801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "118-SRP2012TMA-1R5MTR-ND"
+		(property "DST" "Digikey"
 			(at 149.86 147.32 90)
 			(effects
 				(font
@@ -52882,7 +52810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Bourns Inc."
+		(property "MFR" "Bourns Inc."
 			(at 149.86 147.32 90)
 			(effects
 				(font
@@ -52891,7 +52819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "SRP2012TMA-1R5M"
+		(property "MPN" "SRP2012TMA-1R5M"
 			(at 149.86 147.32 90)
 			(effects
 				(font
@@ -52960,7 +52888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 344.17 222.25 0)
 			(effects
 				(font
@@ -52969,7 +52897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG3483CT-ND"
 			(at 344.17 222.25 0)
 			(effects
 				(font
@@ -52978,7 +52906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 344.17 222.25 0)
 			(effects
 				(font
@@ -52987,7 +52915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-073K3L"
+		(property "MFR" "Yageo"
 			(at 344.17 222.25 0)
 			(effects
 				(font
@@ -52996,7 +52924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG3483CT-ND"
+		(property "MPN" "AC0402FR-073K3L"
 			(at 344.17 222.25 0)
 			(effects
 				(font
@@ -53075,7 +53003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-4972-1-ND"
 			(at 450.85 196.85 0)
 			(effects
 				(font
@@ -53084,7 +53012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 450.85 196.85 0)
 			(effects
 				(font
@@ -53093,7 +53021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GCM2165C2A332JA16D"
+		(property "MFR" "Murata"
 			(at 450.85 196.85 0)
 			(effects
 				(font
@@ -53102,7 +53030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-4972-1-ND"
+		(property "MPN" "GCM2165C2A332JA16D"
 			(at 450.85 196.85 0)
 			(effects
 				(font
@@ -53181,7 +53109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 453.39 24.13 0)
 			(effects
 				(font
@@ -53190,7 +53118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 453.39 24.13 0)
 			(effects
 				(font
@@ -53199,7 +53127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 453.39 24.13 0)
 			(effects
 				(font
@@ -53208,7 +53136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 453.39 24.13 0)
 			(effects
 				(font
@@ -53283,7 +53211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
+		(property "Description" ""
 			(at 185.928 128.27 0)
 			(effects
 				(font
@@ -53342,7 +53270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "NXP"
+		(property "DPN" "568-MCXN947VDFT-ND"
 			(at 20.32 146.05 0)
 			(effects
 				(font
@@ -53351,7 +53279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 20.32 146.05 0)
 			(effects
 				(font
@@ -53360,7 +53288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "568-MCXN947VDFT-ND"
+		(property "MFR" "NXP"
 			(at 20.32 146.05 0)
 			(effects
 				(font
@@ -53369,7 +53297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "MCXN947VDFT"
+		(property "MPN" "MCXN947VDFT"
 			(at 20.32 146.05 0)
 			(effects
 				(font
@@ -54057,7 +53985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-16655-1-ND"
 			(at 321.31 26.67 90)
 			(effects
 				(font
@@ -54066,7 +53994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 321.31 26.67 90)
 			(effects
 				(font
@@ -54075,7 +54003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "BLM15PX601SZ1D"
+		(property "MFR" "Murata"
 			(at 321.31 26.67 90)
 			(effects
 				(font
@@ -54084,7 +54012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-16655-1-ND"
+		(property "MPN" "BLM15PX601SZ1D"
 			(at 321.31 26.67 90)
 			(effects
 				(font
@@ -54220,7 +54148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 354.33 246.38 0)
 			(effects
 				(font
@@ -54229,7 +54157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 354.33 246.38 0)
 			(effects
 				(font
@@ -54238,7 +54166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 354.33 246.38 0)
 			(effects
 				(font
@@ -54247,7 +54175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 354.33 246.38 0)
 			(effects
 				(font
@@ -54256,7 +54184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 354.33 246.38 0)
 			(effects
 				(font
@@ -54333,7 +54261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "13-PE0402FRF470R1LCT-ND"
 			(at 477.52 36.83 90)
 			(effects
 				(font
@@ -54342,7 +54270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 477.52 36.83 90)
 			(effects
 				(font
@@ -54351,7 +54279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "PE0402FRF470R1L"
+		(property "MFR" "Yageo"
 			(at 477.52 36.83 90)
 			(effects
 				(font
@@ -54360,7 +54288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-PE0402FRF470R1LCT-ND"
+		(property "MPN" "PE0402FRF470R1L"
 			(at 477.52 36.83 90)
 			(effects
 				(font
@@ -54439,7 +54367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG5860CT-ND"
 			(at 450.85 203.2 0)
 			(effects
 				(font
@@ -54448,7 +54376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 450.85 203.2 0)
 			(effects
 				(font
@@ -54457,7 +54385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "SR0805FR-7T12RL"
+		(property "MFR" "Yageo"
 			(at 450.85 203.2 0)
 			(effects
 				(font
@@ -54466,7 +54394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG5860CT-ND"
+		(property "MPN" "SR0805FR-7T12RL"
 			(at 450.85 203.2 0)
 			(effects
 				(font
@@ -54545,7 +54473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12238-1-ND"
 			(at 345.44 40.64 0)
 			(effects
 				(font
@@ -54554,7 +54482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 345.44 40.64 0)
 			(effects
 				(font
@@ -54563,7 +54491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A105ME01D"
+		(property "MFR" "Murata"
 			(at 345.44 40.64 0)
 			(effects
 				(font
@@ -54572,7 +54500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12238-1-ND"
+		(property "MPN" "GRT155C81A105ME01D"
 			(at 345.44 40.64 0)
 			(effects
 				(font
@@ -54642,25 +54570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 200.66 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 200.66 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 200.66 22.86 0)
 			(effects
 				(font
@@ -54793,7 +54703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 165.1 34.29 0)
 			(effects
 				(font
@@ -54802,7 +54712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "13-AC0402FR-0776K8LCT-ND"
 			(at 165.1 34.29 0)
 			(effects
 				(font
@@ -54811,7 +54721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 165.1 34.29 0)
 			(effects
 				(font
@@ -54820,7 +54730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-0776K8L"
+		(property "MFR" "Yageo"
 			(at 165.1 34.29 0)
 			(effects
 				(font
@@ -54829,7 +54739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-AC0402FR-0776K8LCT-ND"
+		(property "MPN" "AC0402FR-0776K8L"
 			(at 165.1 34.29 0)
 			(effects
 				(font
@@ -54899,7 +54809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -54908,7 +54818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12286-1-ND"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -54917,7 +54827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -54926,7 +54836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12286-1-ND"
+		(property "MFR" "Murata"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -54935,7 +54845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C81C106ME13D"
+		(property "MPN" "GRT188C81C106ME13D"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -55014,7 +54924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12286-1-ND"
 			(at 340.36 29.21 0)
 			(effects
 				(font
@@ -55023,7 +54933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 340.36 29.21 0)
 			(effects
 				(font
@@ -55032,7 +54942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12286-1-ND"
+		(property "MFR" "Murata"
 			(at 340.36 29.21 0)
 			(effects
 				(font
@@ -55041,7 +54951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C81C106ME13D"
+		(property "MPN" "GRT188C81C106ME13D"
 			(at 340.36 29.21 0)
 			(effects
 				(font
@@ -55187,7 +55097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 490.22 74.93 0)
 			(effects
 				(font
@@ -55196,7 +55106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 490.22 74.93 0)
 			(effects
 				(font
@@ -55205,7 +55115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 490.22 74.93 0)
 			(effects
 				(font
@@ -55214,7 +55124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 490.22 74.93 0)
 			(effects
 				(font
@@ -55282,7 +55192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 14 position 0.039\" (1.00mm)"
+		(property "Description" ""
 			(at 35.56 83.566 0)
 			(effects
 				(font
@@ -55291,7 +55201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "455-SM14B-SHLS-TFCT-ND"
 			(at 35.56 119.38 0)
 			(effects
 				(font
@@ -55300,7 +55210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "455-SM14B-SHLS-TFCT-ND"
+		(property "DST" "Digikey"
 			(at 35.56 119.38 0)
 			(effects
 				(font
@@ -55309,7 +55219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "SM14B-SHLS-TF"
+		(property "MFR" "JST"
 			(at 35.56 119.38 0)
 			(effects
 				(font
@@ -55318,7 +55228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "JST"
+		(property "MPN" "SM14B-SHLS-TF"
 			(at 35.56 119.38 0)
 			(effects
 				(font
@@ -55430,25 +55340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 44.45 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 44.45 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 44.45 19.05 0)
 			(effects
 				(font
@@ -55712,7 +55604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 101.6 26.67 0)
 			(effects
 				(font
@@ -55721,7 +55613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12242-1-ND"
 			(at 101.6 26.67 0)
 			(effects
 				(font
@@ -55730,7 +55622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 101.6 26.67 0)
 			(effects
 				(font
@@ -55739,7 +55631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81C225ME13D"
+		(property "MFR" "Murata"
 			(at 101.6 26.67 0)
 			(effects
 				(font
@@ -55748,7 +55640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12242-1-ND"
+		(property "MPN" "GRT155C81C225ME13D"
 			(at 101.6 26.67 0)
 			(effects
 				(font
@@ -55823,7 +55715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
+		(property "Description" ""
 			(at 283.718 3.81 0)
 			(effects
 				(font
@@ -55882,7 +55774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "NXP"
+		(property "DPN" "568-MCXN947VDFT-ND"
 			(at 118.11 21.59 0)
 			(effects
 				(font
@@ -55891,7 +55783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 118.11 21.59 0)
 			(effects
 				(font
@@ -55900,7 +55792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "568-MCXN947VDFT-ND"
+		(property "MFR" "NXP"
 			(at 118.11 21.59 0)
 			(effects
 				(font
@@ -55909,7 +55801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "MCXN947VDFT"
+		(property "MPN" "MCXN947VDFT"
 			(at 118.11 21.59 0)
 			(effects
 				(font
@@ -56597,24 +56489,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" ""
-			(at 483.87 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
-			(at 483.87 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "27418164-7ee4-4864-81d5-637a05aea241")
 		)
@@ -56940,7 +56814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 312.42 231.14 0)
 			(effects
 				(font
@@ -56949,7 +56823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "13-RP0402BRD075K1LCT-ND"
 			(at 312.42 231.14 0)
 			(effects
 				(font
@@ -56958,7 +56832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 312.42 231.14 0)
 			(effects
 				(font
@@ -56967,7 +56841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "RP0402BRD075K1L"
+		(property "MFR" "Yageo"
 			(at 312.42 231.14 0)
 			(effects
 				(font
@@ -56976,7 +56850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-RP0402BRD075K1LCT-ND"
+		(property "MPN" "RP0402BRD075K1L"
 			(at 312.42 231.14 0)
 			(effects
 				(font
@@ -57111,7 +56985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -57120,7 +56994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "445-12905-2-ND"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -57129,7 +57003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "445-12905-2-ND"
+		(property "DST" "Digikey"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -57138,7 +57012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "TDK Corporation"
+		(property "MFR" "TDK Corporation"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -57147,7 +57021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "CGA5L1X7R1C685M160AC"
+		(property "MPN" "CGA5L1X7R1C685M160AC"
 			(at 139.7 157.48 0)
 			(effects
 				(font
@@ -57216,7 +57090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 156.21 162.56 0)
 			(effects
 				(font
@@ -57225,7 +57099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 156.21 162.56 0)
 			(effects
 				(font
@@ -57234,7 +57108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "DST" "Digikey"
 			(at 156.21 162.56 0)
 			(effects
 				(font
@@ -57243,7 +57117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 156.21 162.56 0)
 			(effects
 				(font
@@ -57252,7 +57126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 156.21 162.56 0)
 			(effects
 				(font
@@ -57319,7 +57193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "24 MHz ±10ppm Crystal 8pF 100 Ohms 4-SMD, No Lead"
+		(property "Description" ""
 			(at 335.28 97.79 0)
 			(effects
 				(font
@@ -57328,7 +57202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "1923-830108212309CT-ND"
 			(at 335.28 97.79 90)
 			(effects
 				(font
@@ -57337,7 +57211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "1923-830108212309CT-ND"
+		(property "DST" "Digikey"
 			(at 335.28 97.79 90)
 			(effects
 				(font
@@ -57346,7 +57220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Wurth"
+		(property "MFR" "Wurth"
 			(at 335.28 97.79 90)
 			(effects
 				(font
@@ -57355,7 +57229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "830108212309"
+		(property "MPN" "830108212309"
 			(at 335.28 97.79 90)
 			(effects
 				(font
@@ -57504,7 +57378,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "13-AC0402DR-0710KLTR-ND"
 			(at 115.57 200.66 0)
 			(effects
 				(font
@@ -57513,7 +57387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-AC0402DR-0710KLTR-ND"
+		(property "DST" "Digikey"
 			(at 115.57 200.66 0)
 			(effects
 				(font
@@ -57522,7 +57396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "MFR" "Yageo"
 			(at 115.57 200.66 0)
 			(effects
 				(font
@@ -57531,7 +57405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402DR-0710KL "
+		(property "MPN" "AC0402DR-0710KL "
 			(at 115.57 200.66 0)
 			(effects
 				(font
@@ -57608,7 +57482,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "13-AC0402DR-0710KLTR-ND"
 			(at 218.44 102.87 0)
 			(effects
 				(font
@@ -57617,7 +57491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-AC0402DR-0710KLTR-ND"
+		(property "DST" "Digikey"
 			(at 218.44 102.87 0)
 			(effects
 				(font
@@ -57626,7 +57500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "MFR" "Yageo"
 			(at 218.44 102.87 0)
 			(effects
 				(font
@@ -57635,7 +57509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402DR-0710KL "
+		(property "MPN" "AC0402DR-0710KL "
 			(at 218.44 102.87 0)
 			(effects
 				(font
@@ -57771,7 +57645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -57780,7 +57654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG3493CT-ND"
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -57789,7 +57663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -57798,7 +57672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-0749K9L"
+		(property "MFR" "Yageo"
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -57807,7 +57681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG3493CT-ND"
+		(property "MPN" "AC0402FR-0749K9L"
 			(at 130.81 38.1 0)
 			(effects
 				(font
@@ -57886,7 +57760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 45.72 214.63 0)
 			(effects
 				(font
@@ -57895,7 +57769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 45.72 214.63 0)
 			(effects
 				(font
@@ -57904,7 +57778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "MFR" "Murata"
 			(at 45.72 214.63 0)
 			(effects
 				(font
@@ -57913,7 +57787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 45.72 214.63 0)
 			(effects
 				(font
@@ -58120,7 +57994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "13-AC0402FR-070RLCT-ND"
 			(at 474.98 120.65 90)
 			(effects
 				(font
@@ -58129,7 +58003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 474.98 120.65 90)
 			(effects
 				(font
@@ -58138,7 +58012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-070RL"
+		(property "MFR" "Yageo"
 			(at 474.98 120.65 90)
 			(effects
 				(font
@@ -58147,7 +58021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-AC0402FR-070RLCT-ND"
+		(property "MPN" "AC0402FR-070RL"
 			(at 474.98 120.65 90)
 			(effects
 				(font
@@ -58284,7 +58158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -58293,7 +58167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12286-1-ND"
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -58302,7 +58176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -58311,7 +58185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12286-1-ND"
+		(property "MFR" "Murata"
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -58320,7 +58194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C81C106ME13D"
+		(property "MPN" "GRT188C81C106ME13D"
 			(at 189.23 25.4 0)
 			(effects
 				(font
@@ -58391,7 +58265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -58400,7 +58274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-4762-1-ND"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -58409,7 +58283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -58418,7 +58292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GCM155R71H103KA55D"
+		(property "MFR" "Murata"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -58427,7 +58301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-4762-1-ND"
+		(property "MPN" "GCM155R71H103KA55D"
 			(at 119.38 38.1 0)
 			(effects
 				(font
@@ -58506,7 +58380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12238-1-ND"
 			(at 353.06 45.72 0)
 			(effects
 				(font
@@ -58515,7 +58389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 353.06 45.72 0)
 			(effects
 				(font
@@ -58524,7 +58398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A105ME01D"
+		(property "MFR" "Murata"
 			(at 353.06 45.72 0)
 			(effects
 				(font
@@ -58533,7 +58407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12238-1-ND"
+		(property "MPN" "GRT155C81A105ME01D"
 			(at 353.06 45.72 0)
 			(effects
 				(font
@@ -58676,7 +58550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT188C80J226ME13DCT-ND"
 			(at 401.32 29.21 0)
 			(effects
 				(font
@@ -58685,7 +58559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 401.32 29.21 0)
 			(effects
 				(font
@@ -58694,7 +58568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C80J226ME13D"
+		(property "MFR" "Murata"
 			(at 401.32 29.21 0)
 			(effects
 				(font
@@ -58703,7 +58577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT188C80J226ME13DCT-ND"
+		(property "MPN" "GRT188C80J226ME13D"
 			(at 401.32 29.21 0)
 			(effects
 				(font
@@ -58848,7 +58722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 485.14 39.37 0)
 			(effects
 				(font
@@ -58857,7 +58731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 485.14 39.37 0)
 			(effects
 				(font
@@ -58866,7 +58740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 485.14 39.37 0)
 			(effects
 				(font
@@ -58875,7 +58749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 485.14 39.37 0)
 			(effects
 				(font
@@ -58953,7 +58827,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -58962,7 +58836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "DST" "Digikey"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -58971,7 +58845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -58980,7 +58854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 138.43 80.01 0)
 			(effects
 				(font
@@ -59050,7 +58924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 107.95 152.4 0)
 			(effects
 				(font
@@ -59059,7 +58933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "YAG5814TR-ND"
 			(at 107.95 152.4 0)
 			(effects
 				(font
@@ -59068,7 +58942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG5814TR-ND"
+		(property "DST" "Digikey"
 			(at 107.95 152.4 0)
 			(effects
 				(font
@@ -59077,7 +58951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "MFR" "Yageo"
 			(at 107.95 152.4 0)
 			(effects
 				(font
@@ -59086,7 +58960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "SR0402FR-7T100RL"
+		(property "MPN" "SR0402FR-7T100RL"
 			(at 107.95 152.4 0)
 			(effects
 				(font
@@ -59156,7 +59030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 364.49 246.38 0)
 			(effects
 				(font
@@ -59165,7 +59039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 364.49 246.38 0)
 			(effects
 				(font
@@ -59174,7 +59048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 364.49 246.38 0)
 			(effects
 				(font
@@ -59183,7 +59057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 364.49 246.38 0)
 			(effects
 				(font
@@ -59192,7 +59066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 364.49 246.38 0)
 			(effects
 				(font
@@ -59335,7 +59209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG6003CT-ND"
 			(at 309.88 26.67 90)
 			(effects
 				(font
@@ -59344,7 +59218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 309.88 26.67 90)
 			(effects
 				(font
@@ -59353,7 +59227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "PE0402FRF7W0R47L"
+		(property "MFR" "Yageo"
 			(at 309.88 26.67 90)
 			(effects
 				(font
@@ -59362,7 +59236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG6003CT-ND"
+		(property "MPN" "PE0402FRF7W0R47L"
 			(at 309.88 26.67 90)
 			(effects
 				(font
@@ -59638,24 +59512,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" ""
-			(at 62.23 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
-			(at 62.23 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "283355fe-d0b1-4495-8409-23ad9c051092")
 		)
@@ -59724,7 +59580,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -59733,7 +59589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "DST" "Digikey"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -59742,7 +59598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -59751,7 +59607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 110.49 120.65 0)
 			(effects
 				(font
@@ -59821,25 +59677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 144.78 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 144.78 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 144.78 189.23 0)
 			(effects
 				(font
@@ -60046,7 +59884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12286-1-ND"
 			(at 331.47 29.21 0)
 			(effects
 				(font
@@ -60055,7 +59893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 331.47 29.21 0)
 			(effects
 				(font
@@ -60064,7 +59902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12286-1-ND"
+		(property "MFR" "Murata"
 			(at 331.47 29.21 0)
 			(effects
 				(font
@@ -60073,7 +59911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C81C106ME13D"
+		(property "MPN" "GRT188C81C106ME13D"
 			(at 331.47 29.21 0)
 			(effects
 				(font
@@ -60208,7 +60046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -60217,7 +60055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12242-1-ND"
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -60226,7 +60064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -60235,7 +60073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81C225ME13D"
+		(property "MFR" "Murata"
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -60244,7 +60082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12242-1-ND"
+		(property "MPN" "GRT155C81C225ME13D"
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -60323,7 +60161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 481.33 74.93 0)
 			(effects
 				(font
@@ -60332,7 +60170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 481.33 74.93 0)
 			(effects
 				(font
@@ -60341,7 +60179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 481.33 74.93 0)
 			(effects
 				(font
@@ -60350,7 +60188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 481.33 74.93 0)
 			(effects
 				(font
@@ -60419,7 +60257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 34.29 170.18 0)
 			(effects
 				(font
@@ -60428,7 +60266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 34.29 170.18 0)
 			(effects
 				(font
@@ -60437,7 +60275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 34.29 170.18 0)
 			(effects
 				(font
@@ -60446,7 +60284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "MFR" "Murata"
 			(at 34.29 170.18 0)
 			(effects
 				(font
@@ -60455,7 +60293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 34.29 170.18 0)
 			(effects
 				(font
@@ -60534,7 +60372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 463.55 74.93 0)
 			(effects
 				(font
@@ -60543,7 +60381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 463.55 74.93 0)
 			(effects
 				(font
@@ -60552,7 +60390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 463.55 74.93 0)
 			(effects
 				(font
@@ -60561,7 +60399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 463.55 74.93 0)
 			(effects
 				(font
@@ -60639,7 +60477,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 144.78 83.82 0)
 			(effects
 				(font
@@ -60648,7 +60486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "DST" "Digikey"
 			(at 144.78 83.82 0)
 			(effects
 				(font
@@ -60657,7 +60495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 144.78 83.82 0)
 			(effects
 				(font
@@ -60666,7 +60504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 144.78 83.82 0)
 			(effects
 				(font
@@ -60743,7 +60581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-13269-1-ND"
 			(at 427.99 186.69 90)
 			(effects
 				(font
@@ -60752,7 +60590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 427.99 186.69 90)
 			(effects
 				(font
@@ -60761,7 +60599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "BLM31SN500SN1L"
+		(property "MFR" "Murata"
 			(at 427.99 186.69 90)
 			(effects
 				(font
@@ -60770,7 +60608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-13269-1-ND"
+		(property "MPN" "BLM31SN500SN1L"
 			(at 427.99 186.69 90)
 			(effects
 				(font
@@ -60839,7 +60677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -60848,7 +60686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -60857,7 +60695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -60866,7 +60704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "MFR" "Murata"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -60875,7 +60713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 132.08 130.81 0)
 			(effects
 				(font
@@ -61010,7 +60848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature dependent resistor, negative temperature coefficient, US symbol"
+		(property "Description" ""
 			(at 464.82 138.43 0)
 			(effects
 				(font
@@ -61019,7 +60857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-NCU15XH103F6SRCCT-ND"
 			(at 464.82 138.43 0)
 			(effects
 				(font
@@ -61028,7 +60866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 464.82 138.43 0)
 			(effects
 				(font
@@ -61037,7 +60875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "NCU15XH103F6SRC"
+		(property "MFR" "Murata"
 			(at 464.82 138.43 0)
 			(effects
 				(font
@@ -61046,7 +60884,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-NCU15XH103F6SRCCT-ND"
+		(property "MPN" "NCU15XH103F6SRC"
 			(at 464.82 138.43 0)
 			(effects
 				(font
@@ -61311,7 +61149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 180.34 25.4 0)
 			(effects
 				(font
@@ -61320,7 +61158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 180.34 25.4 0)
 			(effects
 				(font
@@ -61329,7 +61167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 180.34 25.4 0)
 			(effects
 				(font
@@ -61338,7 +61176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 180.34 25.4 0)
 			(effects
 				(font
@@ -61347,7 +61185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 180.34 25.4 0)
 			(effects
 				(font
@@ -61416,7 +61254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 364.49 222.25 0)
 			(effects
 				(font
@@ -61425,7 +61263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG3483CT-ND"
 			(at 364.49 222.25 0)
 			(effects
 				(font
@@ -61434,7 +61272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 364.49 222.25 0)
 			(effects
 				(font
@@ -61443,7 +61281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-073K3L"
+		(property "MFR" "Yageo"
 			(at 364.49 222.25 0)
 			(effects
 				(font
@@ -61452,7 +61290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG3483CT-ND"
+		(property "MPN" "AC0402FR-073K3L"
 			(at 364.49 222.25 0)
 			(effects
 				(font
@@ -61651,7 +61489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 374.65 246.38 0)
 			(effects
 				(font
@@ -61660,7 +61498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 374.65 246.38 0)
 			(effects
 				(font
@@ -61669,7 +61507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 374.65 246.38 0)
 			(effects
 				(font
@@ -61678,7 +61516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 374.65 246.38 0)
 			(effects
 				(font
@@ -61687,7 +61525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 374.65 246.38 0)
 			(effects
 				(font
@@ -61895,7 +61733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "13-AC0402FR-070RLCT-ND"
 			(at 467.36 26.67 90)
 			(effects
 				(font
@@ -61904,7 +61742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 467.36 26.67 90)
 			(effects
 				(font
@@ -61913,7 +61751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-AC0402FR-070RLCT-ND"
+		(property "MFR" "Yageo"
 			(at 467.36 26.67 90)
 			(effects
 				(font
@@ -61922,7 +61760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-070RL"
+		(property "MPN" "AC0402FR-070RL"
 			(at 467.36 26.67 90)
 			(effects
 				(font
@@ -61991,7 +61829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" ""
 			(at 374.65 222.25 0)
 			(effects
 				(font
@@ -62000,7 +61838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "YAG3483CT-ND"
 			(at 374.65 222.25 0)
 			(effects
 				(font
@@ -62009,7 +61847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 374.65 222.25 0)
 			(effects
 				(font
@@ -62018,7 +61856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-073K3L"
+		(property "MFR" "Yageo"
 			(at 374.65 222.25 0)
 			(effects
 				(font
@@ -62027,7 +61865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "YAG3483CT-ND"
+		(property "MPN" "AC0402FR-073K3L"
 			(at 374.65 222.25 0)
 			(effects
 				(font
@@ -62095,7 +61933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 482.6 120.65 0)
 			(effects
 				(font
@@ -62104,7 +61942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Yageo"
+		(property "DPN" "13-AC0402FR-070RLCT-ND"
 			(at 482.6 120.65 90)
 			(effects
 				(font
@@ -62113,7 +61951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 482.6 120.65 90)
 			(effects
 				(font
@@ -62122,7 +61960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "AC0402FR-070RL"
+		(property "MFR" "Yageo"
 			(at 482.6 120.65 90)
 			(effects
 				(font
@@ -62131,7 +61969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "13-AC0402FR-070RLCT-ND"
+		(property "MPN" "AC0402FR-070RL"
 			(at 482.6 120.65 90)
 			(effects
 				(font
@@ -62210,7 +62048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12238-1-ND"
 			(at 397.51 41.91 0)
 			(effects
 				(font
@@ -62219,7 +62057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 397.51 41.91 0)
 			(effects
 				(font
@@ -62228,7 +62066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A105ME01D"
+		(property "MFR" "Murata"
 			(at 397.51 41.91 0)
 			(effects
 				(font
@@ -62237,7 +62075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12238-1-ND"
+		(property "MPN" "GRT155C81A105ME01D"
 			(at 397.51 41.91 0)
 			(effects
 				(font
@@ -62306,7 +62144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 328.93 148.59 0)
 			(effects
 				(font
@@ -62324,7 +62162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "732-12017-2-ND"
 			(at 328.93 148.59 90)
 			(effects
 				(font
@@ -62333,7 +62171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "732-12017-2-ND"
+		(property "DST" "Digikey"
 			(at 328.93 148.59 90)
 			(effects
 				(font
@@ -62342,7 +62180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Wurth"
+		(property "MFR" "Wurth"
 			(at 328.93 148.59 90)
 			(effects
 				(font
@@ -62351,7 +62189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "150060VS55040"
+		(property "MPN" "150060VS55040"
 			(at 328.93 148.59 90)
 			(effects
 				(font
@@ -62420,7 +62258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -62429,7 +62267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12238-1-ND"
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -62438,7 +62276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -62447,7 +62285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A105ME01D"
+		(property "MFR" "Murata"
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -62456,7 +62294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12238-1-ND"
+		(property "MPN" "GRT155C81A105ME01D"
 			(at 121.92 130.81 0)
 			(effects
 				(font
@@ -62530,7 +62368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Microcontrollers - MCU MCXN10, 184VFBGA"
+		(property "Description" ""
 			(at 268.478 15.24 0)
 			(effects
 				(font
@@ -62589,7 +62427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "568-MCXN947VDFT-ND"
 			(at 102.87 33.02 0)
 			(effects
 				(font
@@ -62598,7 +62436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "568-MCXN947VDFT-ND"
+		(property "DST" "Digikey"
 			(at 102.87 33.02 0)
 			(effects
 				(font
@@ -62607,7 +62445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "NXP"
+		(property "MFR" "NXP"
 			(at 102.87 33.02 0)
 			(effects
 				(font
@@ -62616,7 +62454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "MCXN947VDFT"
+		(property "MPN" "MCXN947VDFT"
 			(at 102.87 33.02 0)
 			(effects
 				(font
@@ -63231,7 +63069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" ""
 			(at 321.31 104.14 0)
 			(effects
 				(font
@@ -63240,7 +63078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
 			(at 321.31 104.14 0)
 			(effects
 				(font
@@ -63249,7 +63087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRM1885C1H4R7WA01DCT-ND"
+		(property "DST" "Digikey"
 			(at 321.31 104.14 0)
 			(effects
 				(font
@@ -63258,7 +63096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 321.31 104.14 0)
 			(effects
 				(font
@@ -63267,7 +63105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRM1885C1H4R7WA01D"
+		(property "MPN" "GRM1885C1H4R7WA01D"
 			(at 321.31 104.14 0)
 			(effects
 				(font
@@ -63401,7 +63239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 473.71 133.35 0)
 			(effects
 				(font
@@ -63410,7 +63248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-16655-1-ND"
 			(at 473.71 133.35 90)
 			(effects
 				(font
@@ -63419,7 +63257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 473.71 133.35 90)
 			(effects
 				(font
@@ -63428,7 +63266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "BLM15PX601SZ1D"
+		(property "MFR" "Murata"
 			(at 473.71 133.35 90)
 			(effects
 				(font
@@ -63437,7 +63275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-16655-1-ND"
+		(property "MPN" "BLM15PX601SZ1D"
 			(at 473.71 133.35 90)
 			(effects
 				(font
@@ -63507,7 +63345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 269.24 33.02 0)
 			(effects
 				(font
@@ -63516,7 +63354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT188C80J226ME13DCT-ND"
 			(at 269.24 33.02 0)
 			(effects
 				(font
@@ -63525,7 +63363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 269.24 33.02 0)
 			(effects
 				(font
@@ -63534,7 +63372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C80J226ME13D"
+		(property "MFR" "Murata"
 			(at 269.24 33.02 0)
 			(effects
 				(font
@@ -63543,7 +63381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT188C80J226ME13DCT-ND"
+		(property "MPN" "GRT188C80J226ME13D"
 			(at 269.24 33.02 0)
 			(effects
 				(font
@@ -63687,7 +63525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 67.31 49.53 0)
 			(effects
 				(font
@@ -63696,7 +63534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 67.31 49.53 0)
 			(effects
 				(font
@@ -63705,7 +63543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 67.31 49.53 0)
 			(effects
 				(font
@@ -63714,7 +63552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 67.31 49.53 0)
 			(effects
 				(font
@@ -63784,7 +63622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -63793,7 +63631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155R71E104KE01JCT-ND"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -63802,7 +63640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -63811,7 +63649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155R71E104KE01JCT-ND"
+		(property "MFR" "Murata"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -63820,7 +63658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155R71E104KE01J"
+		(property "MPN" "GRT155R71E104KE01J"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -63897,7 +63735,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 134.62 142.24 0)
 			(effects
 				(font
@@ -63906,7 +63744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "DST" "Digikey"
 			(at 134.62 142.24 0)
 			(effects
 				(font
@@ -63915,7 +63753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 134.62 142.24 0)
 			(effects
 				(font
@@ -63924,7 +63762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 134.62 142.24 0)
 			(effects
 				(font
@@ -64058,7 +63896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 107.95 160.02 0)
 			(effects
 				(font
@@ -64076,7 +63914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "732-12017-2-ND"
 			(at 107.95 160.02 90)
 			(effects
 				(font
@@ -64085,7 +63923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "732-12017-2-ND"
+		(property "DST" "Digikey"
 			(at 107.95 160.02 90)
 			(effects
 				(font
@@ -64094,7 +63932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Wurth"
+		(property "MFR" "Wurth"
 			(at 107.95 160.02 90)
 			(effects
 				(font
@@ -64103,7 +63941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "150060VS55040"
+		(property "MPN" "150060VS55040"
 			(at 107.95 160.02 90)
 			(effects
 				(font
@@ -64244,7 +64082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "AD"
+		(property "DPN" "505-ADP7156ACPZ-3.3-R7CT-ND"
 			(at 365.76 29.21 0)
 			(effects
 				(font
@@ -64253,7 +64091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 365.76 29.21 0)
 			(effects
 				(font
@@ -64262,7 +64100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "ADP7156ACPZ-3.3-R7"
+		(property "MFR" "AD"
 			(at 365.76 29.21 0)
 			(effects
 				(font
@@ -64271,7 +64109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "505-ADP7156ACPZ-3.3-R7CT-ND"
+		(property "MPN" "ADP7156ACPZ-3.3-R7"
 			(at 365.76 29.21 0)
 			(effects
 				(font
@@ -64433,7 +64271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" ""
 			(at 330.2 104.14 0)
 			(effects
 				(font
@@ -64442,7 +64280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-GRM1885C1H4R7WA01DCT-ND"
 			(at 330.2 104.14 0)
 			(effects
 				(font
@@ -64451,7 +64289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRM1885C1H4R7WA01DCT-ND"
+		(property "DST" "Digikey"
 			(at 330.2 104.14 0)
 			(effects
 				(font
@@ -64460,7 +64298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 330.2 104.14 0)
 			(effects
 				(font
@@ -64469,7 +64307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRM1885C1H4R7WA01D"
+		(property "MPN" "GRM1885C1H4R7WA01D"
 			(at 330.2 104.14 0)
 			(effects
 				(font
@@ -64539,7 +64377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -64548,7 +64386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -64557,7 +64395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -64566,7 +64404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -64575,7 +64413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 219.71 31.75 0)
 			(effects
 				(font
@@ -64776,7 +64614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 280.67 31.75 0)
 			(effects
 				(font
@@ -64785,7 +64623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-GRT155C81A475ME13JCT-ND"
 			(at 280.67 31.75 0)
 			(effects
 				(font
@@ -64794,7 +64632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 280.67 31.75 0)
 			(effects
 				(font
@@ -64803,7 +64641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A475ME13J"
+		(property "MFR" "Murata"
 			(at 280.67 31.75 0)
 			(effects
 				(font
@@ -64812,7 +64650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-GRT155C81A475ME13JCT-ND"
+		(property "MPN" "GRT155C81A475ME13J"
 			(at 280.67 31.75 0)
 			(effects
 				(font
@@ -64948,25 +64786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 125.73 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 125.73 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 125.73 204.47 0)
 			(effects
 				(font
@@ -65040,7 +64860,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-12238-1-ND"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -65049,7 +64869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12238-1-ND"
+		(property "DST" "Digikey"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -65058,7 +64878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -65067,7 +64887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT155C81A105ME01D"
+		(property "MPN" "GRT155C81A105ME01D"
 			(at 151.13 80.01 0)
 			(effects
 				(font
@@ -65279,7 +65099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-12494-1-ND"
 			(at 472.44 95.25 0)
 			(effects
 				(font
@@ -65288,7 +65108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 472.44 95.25 0)
 			(effects
 				(font
@@ -65297,7 +65117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12494-1-ND"
+		(property "MFR" "Murata"
 			(at 472.44 95.25 0)
 			(effects
 				(font
@@ -65306,7 +65126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT32EC81C476KE13L"
+		(property "MPN" "GRT32EC81C476KE13L"
 			(at 472.44 95.25 0)
 			(effects
 				(font
@@ -65384,7 +65204,7 @@
 				)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DPN" "490-12286-1-ND"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -65393,7 +65213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-12286-1-ND"
+		(property "DST" "Digikey"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -65402,7 +65222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "MFR" "Murata"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -65411,7 +65231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GRT188C81C106ME13D"
+		(property "MPN" "GRT188C81C106ME13D"
 			(at 114.3 80.01 0)
 			(effects
 				(font
@@ -65546,25 +65366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 140.97 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfg" ""
-			(at 140.97 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist" ""
+		(property "Description" ""
 			(at 140.97 191.77 0)
 			(effects
 				(font
@@ -65640,7 +65442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "Murata"
+		(property "DPN" "490-4972-1-ND"
 			(at 441.96 196.85 0)
 			(effects
 				(font
@@ -65649,7 +65451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 441.96 196.85 0)
 			(effects
 				(font
@@ -65658,7 +65460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "GCM2165C2A332JA16D"
+		(property "MFR" "Murata"
 			(at 441.96 196.85 0)
 			(effects
 				(font
@@ -65667,7 +65469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "490-4972-1-ND"
+		(property "MPN" "GCM2165C2A332JA16D"
 			(at 441.96 196.85 0)
 			(effects
 				(font
@@ -65810,7 +65612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg" "TI"
+		(property "DPN" "296-TPSM828214SILRCT-ND"
 			(at 250.19 26.67 0)
 			(effects
 				(font
@@ -65819,7 +65621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist" "Digikey"
+		(property "DST" "Digikey"
 			(at 250.19 26.67 0)
 			(effects
 				(font
@@ -65828,7 +65630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg P/N" "TPSM828214SILR"
+		(property "MFR" "TI"
 			(at 250.19 26.67 0)
 			(effects
 				(font
@@ -65837,7 +65639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist P/N" "296-TPSM828214SILRCT-ND"
+		(property "MPN" "TPSM828214SILR"
 			(at 250.19 26.67 0)
 			(effects
 				(font
