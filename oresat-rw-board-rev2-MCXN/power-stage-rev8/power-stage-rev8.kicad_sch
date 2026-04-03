@@ -3035,128 +3035,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCXN-rev-3-symbols:+3V3A"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3A"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3A_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3A_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3V3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCXN947VDFT_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -26513,140 +26391,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rev-7-symbols:PGND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PGND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PGND_0_1"
-				(polyline
-					(pts
-						(xy -0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.127 -2.54) (xy 0.127 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PGND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "rev-8-symbols:+3V3A"
 			(power)
 			(pin_names
@@ -46744,7 +46488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rev-7-symbols:PGND")
+		(lib_id "rev-8-symbols:PGND")
 		(at 472.44 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -46788,7 +46532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 472.44 77.47 0)
 			(effects
 				(font
@@ -49085,6 +48829,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -53003,7 +52748,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rev-7-symbols:PGND")
+		(lib_id "rev-8-symbols:PGND")
 		(at 31.75 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -53046,7 +52791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 31.75 54.61 0)
 			(effects
 				(font
@@ -55856,7 +55601,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rev-7-symbols:PGND")
+		(lib_id "rev-8-symbols:PGND")
 		(at 441.96 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -55900,7 +55645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 441.96 208.28 0)
 			(effects
 				(font
@@ -56735,7 +56480,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCXN-rev-3-symbols:+3V3A")
+		(lib_id "rev-8-symbols:+3V3A")
 		(at 114.3 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -57915,7 +57660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rev-7-symbols:PGND")
+		(lib_id "rev-8-symbols:PGND")
 		(at 57.15 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -57958,7 +57703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 57.15 54.61 0)
 			(effects
 				(font
@@ -59472,7 +59217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rev-7-symbols:PGND")
+		(lib_id "rev-8-symbols:PGND")
 		(at 472.44 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -59516,7 +59261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 472.44 97.79 0)
 			(effects
 				(font
@@ -61326,7 +61071,7 @@
 		)
 	)
 	(symbol
-		(lib_id "rev-7-symbols:PGND")
+		(lib_id "rev-8-symbols:PGND")
 		(at 55.88 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -61370,7 +61115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 20.32 0)
 			(effects
 				(font
