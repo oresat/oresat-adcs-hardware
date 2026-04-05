@@ -9,6 +9,4 @@
   (lib (name "oresat-pcbs")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-pcbs.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-power")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-power.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-transistors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-transistors.kicad_sym")(options "")(descr ""))
-  (lib (name "mag-card")(type "KiCad")(uri "${KIPRJMOD}/mag-card.kicad_sym")(options "")(descr ""))
-  (lib (name "530481210")(type "KiCad")(uri "C:/Users/Edward/Desktop/test/530481210.kicad_sym")(options "")(descr ""))
 )

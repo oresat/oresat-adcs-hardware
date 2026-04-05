@@ -1503,6 +1503,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PNI RM3100 Magnetometers are located on End Caps:\n\n\"PZ1\": +Z End Cap, +X-Y corner, Address 00\n\"PZ2\": +Z End Cap, -X+Y corner, Address 01\n\"MZ1\": -Z End Cap, +X-Y corner, Address 10\n\"MZ2\": -Z End Cap, -X+Y corner, Address 11"
+		(exclude_from_sim no)
+		(at 289.052 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "129cadce-4da7-49c0-a36f-841fd9cbc263")
+	)
 	(text "To Backplane"
 		(exclude_from_sim no)
 		(at 267.97 146.05 0)
@@ -2929,7 +2940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 245.11 204.47 0)
 			(effects
 				(font
@@ -2938,7 +2949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 245.11 204.47 0)
 			(effects
 				(font
@@ -2947,7 +2958,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 245.11 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
+			(at 245.11 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 245.11 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 245.11 204.47 0)
 			(effects
 				(font
@@ -3073,7 +3111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -3082,7 +3120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -3091,7 +3129,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 264.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -3296,7 +3361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 254 44.45 0)
 			(effects
 				(font
@@ -3305,7 +3370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 254 44.45 0)
 			(effects
 				(font
@@ -3314,7 +3379,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 254 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 254 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 254 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 254 44.45 0)
 			(effects
 				(font
@@ -3440,7 +3532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://invensense.tdk.com/download-pdf/icm-42688-p-datasheet/"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -3449,7 +3541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor Output"
 			(at 220.98 69.85 0)
 			(effects
 				(font
@@ -3495,6 +3587,42 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DIST" "DigiKey"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1428-ICM-42688-PCT-ND"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "TDK InvenSense"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ICM-42688-P"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3586,7 +3714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 269.24 66.04 0)
 			(effects
 				(font
@@ -3595,7 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 269.24 66.04 0)
 			(effects
 				(font
@@ -3604,7 +3732,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-12983-1-ND"
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 269.24 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C103J5RACAUTO"
 			(at 269.24 66.04 0)
 			(effects
 				(font
@@ -3863,7 +4018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 203.2 132.08 0)
 			(effects
 				(font
@@ -3872,7 +4027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 203.2 132.08 0)
 			(effects
 				(font
@@ -3881,7 +4036,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 203.2 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
 			(at 203.2 132.08 0)
 			(effects
 				(font
@@ -3941,7 +4123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 177.8 62.23 0)
 			(effects
 				(font
@@ -3950,7 +4132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 177.8 62.23 0)
 			(effects
 				(font
@@ -3959,7 +4141,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 177.8 62.23 0)
 			(effects
 				(font
@@ -4019,7 +4228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 189.23 204.47 0)
 			(effects
 				(font
@@ -4028,7 +4237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 189.23 204.47 0)
 			(effects
 				(font
@@ -4037,7 +4246,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 189.23 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 189.23 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 189.23 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 189.23 204.47 0)
 			(effects
 				(font
@@ -4230,7 +4466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 255.27 138.43 0)
 			(effects
 				(font
@@ -4239,7 +4475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 255.27 138.43 0)
 			(effects
 				(font
@@ -4248,7 +4484,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 255.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 255.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 255.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 255.27 138.43 0)
 			(effects
 				(font
@@ -4374,7 +4637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 196.85 204.47 0)
 			(effects
 				(font
@@ -4383,7 +4646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 196.85 204.47 0)
 			(effects
 				(font
@@ -4392,7 +4655,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 196.85 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 196.85 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 196.85 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 196.85 204.47 0)
 			(effects
 				(font
@@ -4526,7 +4816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power Switch ICs - Power Distribution Current-Limited, High-Side P-Channel Switches with Thermal Shutdown"
 			(at 222.25 205.74 0)
 			(effects
 				(font
@@ -4535,7 +4825,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 222.25 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "MAX892LEUA+-ND"
+			(at 222.25 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Analog Devices"
+			(at 222.25 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAX892LEUA+T"
 			(at 222.25 205.74 0)
 			(effects
 				(font
@@ -4613,7 +4930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 243.84 130.81 0)
 			(effects
 				(font
@@ -4622,7 +4939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 243.84 130.81 0)
 			(effects
 				(font
@@ -4631,7 +4948,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT4K70CT-ND"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 243.84 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT4K70"
 			(at 243.84 130.81 0)
 			(effects
 				(font
@@ -4758,7 +5102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 195.58 143.51 0)
 			(effects
 				(font
@@ -4767,7 +5111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 195.58 143.51 0)
 			(effects
 				(font
@@ -4776,7 +5120,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 195.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
+			(at 195.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 195.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 195.58 143.51 0)
 			(effects
 				(font
@@ -5235,7 +5606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 204.47 204.47 0)
 			(effects
 				(font
@@ -5244,7 +5615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 204.47 204.47 0)
 			(effects
 				(font
@@ -5253,7 +5624,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 204.47 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
+			(at 204.47 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 204.47 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 204.47 204.47 0)
 			(effects
 				(font
@@ -5389,7 +5787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hot Swappable 2-Wire Bus Buffer"
+		(property "Description" "Buffer, Accelerator 2 Channel 400kHz 8-MSOP"
 			(at 220.98 146.05 0)
 			(effects
 				(font
@@ -5398,7 +5796,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "LTC4300A-1IMS8#TRPBFCT-ND"
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Analog Devices"
+			(at 220.98 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTC4300A-1IMS8#TRPBF"
 			(at 220.98 146.05 0)
 			(effects
 				(font
@@ -5543,7 +5968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188C71E225KE13-01.pdf"
 			(at 260.35 44.45 0)
 			(effects
 				(font
@@ -5552,7 +5977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7S 0603 (1608 Metric)"
 			(at 260.35 44.45 0)
 			(effects
 				(font
@@ -5561,7 +5986,34 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
+			(at 260.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-GRT188C71E225KE13DCT-ND"
+			(at 260.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 260.35 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT188C71E225KE13D"
 			(at 260.35 44.45 0)
 			(effects
 				(font
