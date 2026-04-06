@@ -9354,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 139.7 149.86 0)
 			(effects
 				(font
@@ -9363,7 +9363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 139.7 149.86 0)
 			(effects
 				(font
@@ -9381,7 +9381,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3485-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 139.7 149.86 0)
 			(effects
 				(font
@@ -9390,7 +9390,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 139.7 149.86 0)
 			(effects
 				(font
@@ -9399,7 +9399,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK316AB7106KLHT"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 139.7 149.86 0)
 			(effects
 				(font

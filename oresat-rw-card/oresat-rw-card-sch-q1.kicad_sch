@@ -15271,7 +15271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-CSS_CSSH.PDF"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-CSNL.pdf"
 			(at 273.05 39.37 0)
 			(effects
 				(font
@@ -15280,7 +15280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "15 mOhms ±1% 0.5W, 1/2W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Current Sense Metal Element"
+		(property "Description" "15 mOhms ±1% 1W Chip Resistor 1206 (3216 Metric) Current Sense, Moisture Resistant Metal Element"
 			(at 273.05 39.37 0)
 			(effects
 				(font
@@ -15298,7 +15298,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "738-CSS0805FT15L0CT-ND"
+		(property "DPN" "CSNL1206FT15L0CT-ND"
 			(at 273.05 39.37 90)
 			(effects
 				(font
@@ -15316,7 +15316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CSS0805FT15L0"
+		(property "MPN" "CSNL1206FT15L0"
 			(at 273.05 39.37 90)
 			(effects
 				(font
