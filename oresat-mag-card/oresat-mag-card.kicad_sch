@@ -6,12 +6,12 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Mag Card")
-		(date "2026-04-02")
+		(date "2026-04-07")
 		(rev "v1.0")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -27,12 +27,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x03_MountingPin"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -53,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -71,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -80,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x03_MountingPin_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 1.27 -3.81)
@@ -123,6 +124,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.572) (xy 1.016 -4.572)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -4.191 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -172,6 +193,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2742,17 +2781,19 @@
 	)
 	(text "X"
 		(exclude_from_sim no)
-		(at 398.018 219.964 0)
+		(at 382.016 167.894 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "489f347d-5454-4c1e-9bcc-a4b89735b434")
 	)
-	(text "The MT terminals, Molex 2121340003, mate to the MTs with \nMolex Pico-EZmate HC Receptacle housing 2121320003\nand receptacle terminal 2040175021.\n"
+	(text "The magnetorquers have:\nMolex 2121320003 Pico-EZmate Plus \nReceptacle Housing (3 circuit)\nwith Receptacle Terminal 2040175021.\n"
 		(exclude_from_sim no)
-		(at 388.62 228.346 0)
+		(at 381.762 240.792 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2783,10 +2824,12 @@
 	)
 	(text "Z"
 		(exclude_from_sim no)
-		(at 398.272 199.644 0)
+		(at 382.27 216.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "6b10350a-4fce-41be-8057-af746a5b89fe")
@@ -2804,10 +2847,12 @@
 	)
 	(text "Y"
 		(exclude_from_sim no)
-		(at 398.272 209.55 0)
+		(at 382.27 192.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
 		(uuid "aea1070f-aaea-4538-aaf7-6412637ab49c")
@@ -2961,7 +3006,7 @@
 		(uuid "16c793f0-9195-46c1-9fea-604ce3931445")
 	)
 	(no_connect
-		(at 386.08 198.12)
+		(at 377.19 220.98)
 		(uuid "24e07198-5865-408b-a65e-faaab584802d")
 	)
 	(no_connect
@@ -2993,11 +3038,11 @@
 		(uuid "89ec2edd-2152-4f33-86c1-7b284b97c327")
 	)
 	(no_connect
-		(at 386.08 208.28)
+		(at 377.19 196.85)
 		(uuid "9a76ea6d-dcfd-4254-a8fd-c8fd611bf8a5")
 	)
 	(no_connect
-		(at 386.08 218.44)
+		(at 377.19 172.72)
 		(uuid "aa6cc496-3c75-425c-ae4e-e3b3925e7384")
 	)
 	(no_connect
@@ -3336,16 +3381,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 195.58) (xy 386.08 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f870df8-c78b-40ca-9d49-e5a76e9168ee")
-	)
-	(wire
-		(pts
 			(xy 53.34 142.24) (xy 116.84 142.24)
 		)
 		(stroke
@@ -3376,6 +3411,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 229.87) (xy 382.27 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36cbf437-e475-474a-ad58-b8a22e8b2e59")
+	)
+	(wire
+		(pts
 			(xy 115.57 215.9) (xy 176.53 215.9)
 		)
 		(stroke
@@ -3383,6 +3428,16 @@
 			(type default)
 		)
 		(uuid "39a0c510-63ed-4a80-94d1-298bdf1d5f17")
+	)
+	(wire
+		(pts
+			(xy 356.87 223.52) (xy 377.19 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afde3c9-cc03-4cee-aea8-bf46e2b9375f")
 	)
 	(wire
 		(pts
@@ -3586,16 +3641,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 200.66) (xy 386.08 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0d2558-0f3d-4448-860e-a1251f9c9c34")
-	)
-	(wire
-		(pts
 			(xy 54.61 88.9) (xy 99.06 88.9)
 		)
 		(stroke
@@ -3646,6 +3691,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 218.44) (xy 377.19 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2b85b5-59c0-4907-a58a-78db6b5a5809")
+	)
+	(wire
+		(pts
 			(xy 55.88 116.84) (xy 60.96 116.84)
 		)
 		(stroke
@@ -3693,6 +3748,16 @@
 			(type default)
 		)
 		(uuid "88eab7ab-27e8-451b-a98d-65aaea9fa931")
+	)
+	(wire
+		(pts
+			(xy 382.27 205.74) (xy 382.27 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89654129-07a5-48f1-8d28-58ac6d336ccf")
 	)
 	(wire
 		(pts
@@ -3836,6 +3901,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 181.61) (xy 382.27 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48245e7-35e5-4b40-bea4-a2e4b84bf456")
+	)
+	(wire
+		(pts
 			(xy 115.57 210.82) (xy 128.27 210.82)
 		)
 		(stroke
@@ -3966,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 205.74) (xy 386.08 205.74)
+			(xy 356.87 194.31) (xy 377.19 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4096,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 210.82) (xy 386.08 210.82)
+			(xy 356.87 199.39) (xy 377.19 199.39)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 220.98) (xy 386.08 220.98)
+			(xy 356.87 175.26) (xy 377.19 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4226,7 +4301,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 215.9) (xy 386.08 215.9)
+			(xy 356.87 170.18) (xy 377.19 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4325,7 +4400,7 @@
 		(uuid "20c30768-6d34-42aa-9d5d-a409095dfa9e")
 	)
 	(label "MT_X_OUT_B"
-		(at 382.27 220.98 180)
+		(at 377.19 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4335,7 +4410,7 @@
 		(uuid "2371a474-35b3-4907-8c51-ec78e466e6d0")
 	)
 	(label "MT_Z_OUT_A"
-		(at 382.27 195.58 180)
+		(at 375.92 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4355,7 +4430,7 @@
 		(uuid "4ed087d9-32cf-4572-9144-7f0e95a3522f")
 	)
 	(label "MT_Y_OUT_B"
-		(at 382.27 210.82 180)
+		(at 375.92 194.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4375,7 +4450,7 @@
 		(uuid "6b170703-6409-4c0c-ade1-a837b0f4ff87")
 	)
 	(label "MT_Y_OUT_A"
-		(at 382.27 205.74 180)
+		(at 375.92 199.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4445,7 +4520,7 @@
 		(uuid "bbd30303-0a2f-45c2-acb7-b456d232db26")
 	)
 	(label "MT_X_OUT_A"
-		(at 382.27 215.9 180)
+		(at 377.19 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4485,7 +4560,7 @@
 		(uuid "e2f866d7-0402-4528-8372-680d272e5ac7")
 	)
 	(label "MT_Z_OUT_B"
-		(at 382.27 200.66 180)
+		(at 375.92 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4561,9 +4636,74 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 391.16 218.44 0)
-		(mirror x)
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 382.27 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e196a72-2385-4dff-8d77-d01a6d6e885b")
+		(property "Reference" "#GND081"
+			(at 382.27 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 382.27 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 382.27 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0f27006-8637-4cbd-86fb-3f7b0e4708df")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#GND081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 382.27 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4571,7 +4711,7 @@
 		(dnp no)
 		(uuid "27ef7c25-aa9a-4070-9212-49e9c9a98d3f")
 		(property "Reference" "J5"
-			(at 393.7 219.7101 0)
+			(at 384.81 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4720,7 @@
 			)
 		)
 		(property "Value" "2121340003"
-			(at 393.7 217.1701 0)
+			(at 384.81 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4729,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-MOLEX-2121340000-SD_03_MOL"
-			(at 391.16 218.44 0)
+			(at 382.27 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 391.16 218.44 0)
+			(at 382.27 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,8 +4746,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 391.16 218.44 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 382.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "900-2121340003CT-ND"
+			(at 382.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 382.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2121340003"
+			(at 382.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 382.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 382.27 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,6 +4808,9 @@
 		)
 		(pin "1"
 			(uuid "10c76265-1c87-4909-90c1-779f96aa29f4")
+		)
+		(pin "MP"
+			(uuid "d30bdff8-31a8-4c07-af0f-3029f1f1d1a8")
 		)
 		(instances
 			(project "oresat-mag-card"
@@ -4885,6 +5073,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 120.65 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17254d93-693c-4ace-88b8-6a322f93e94c")
 		)
@@ -4892,6 +5089,72 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 382.27 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "692cc99f-b993-4b24-b851-9f605cd77378")
+		(property "Reference" "#GND099"
+			(at 382.27 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 382.27 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 382.27 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ed4ef50-1356-4513-b151-f7841af04014")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#GND099")
 					(unit 1)
 				)
 			)
@@ -5023,15 +5286,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "N/A"
-			(at 52.07 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "N/A"
 			(at 52.07 245.11 0)
 			(effects
@@ -5051,6 +5305,24 @@
 			)
 		)
 		(property "MPN" "N/A"
+			(at 52.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "N/A"
+			(at 52.07 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 52.07 245.11 0)
 			(effects
 				(font
@@ -5208,9 +5480,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 391.16 208.28 0)
-		(mirror x)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 382.27 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5218,7 +5489,7 @@
 		(dnp no)
 		(uuid "8d07f94b-f144-4bcd-b3ba-ff81bad32c31")
 		(property "Reference" "J4"
-			(at 393.7 209.5501 0)
+			(at 384.81 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5498,7 @@
 			)
 		)
 		(property "Value" "2121340003"
-			(at 393.7 207.0101 0)
+			(at 384.81 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5507,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-MOLEX-2121340000-SD_03_MOL"
-			(at 391.16 208.28 0)
+			(at 382.27 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5245,7 +5516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 391.16 208.28 0)
+			(at 382.27 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,8 +5524,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 391.16 208.28 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 382.27 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "900-2121340003CT-ND"
+			(at 382.27 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 382.27 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2121340003"
+			(at 382.27 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 382.27 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 382.27 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,13 +5579,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "92ca259c-e912-4722-91a9-969a72688f5d")
+			(uuid "92ca259c-e912-4722-91a9-969a72688f5e")
 		)
 		(pin "2"
-			(uuid "174dba80-12a4-443c-ad91-b07bc445719c")
+			(uuid "174dba80-12a4-443c-ad91-b07bc445719d")
 		)
 		(pin "1"
-			(uuid "10c76265-1c87-4909-90c1-779f96aa29f4")
+			(uuid "10c76265-1c87-4909-90c1-779f96aa29f5")
+		)
+		(pin "MP"
+			(uuid "7ab8ad70-c363-42f7-9e64-e1bc844f6a39")
 		)
 		(instances
 			(project "oresat-mag-card"
@@ -5471,15 +5790,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 48.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "SAM10145-ND"
 			(at 48.26 96.52 0)
 			(effects
@@ -5499,6 +5809,24 @@
 			)
 		)
 		(property "MPN" "TFM-120-01-L-D-RA"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 48.26 96.52 0)
 			(effects
 				(font
@@ -5775,6 +6103,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 382.27 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2522d54-8111-4a36-b4de-0b03f3265174")
+		(property "Reference" "#GND082"
+			(at 382.27 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 382.27 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 382.27 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9109607-808f-4907-a971-98eda13fa43b")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
+					(reference "#GND082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-connectors:ORESAT-DEBUG-CONNECTOR-3")
 		(at 105.41 217.17 0)
 		(unit 1)
@@ -5863,7 +6257,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
+		(property "DIST" ""
 			(at 105.41 217.17 0)
 			(effects
 				(font
@@ -6086,7 +6480,7 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
+		(property "DIST" ""
 			(at 68.58 113.03 0)
 			(effects
 				(font
@@ -6255,9 +6649,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 391.16 198.12 0)
-		(mirror x)
+		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
+		(at 382.27 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6265,7 +6658,7 @@
 		(dnp no)
 		(uuid "f3f13c3e-da0d-496c-8fea-b4b003876a61")
 		(property "Reference" "J3"
-			(at 393.7 199.3901 0)
+			(at 1158.24 638.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,7 +6667,7 @@
 			)
 		)
 		(property "Value" "2121340003"
-			(at 393.7 196.8501 0)
+			(at 1158.24 641.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6676,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-MOLEX-2121340000-SD_03_MOL"
-			(at 391.16 198.12 0)
+			(at 1155.7 640.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,8 +6684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 391.16 198.12 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2121340003?display=pdf"
+			(at 1155.7 640.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6300,8 +6693,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 391.16 198.12 0)
+		(property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.039\" (1.00mm)"
+			(at 1155.7 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "900-2121340003CT-ND"
+			(at 1155.7 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Molex"
+			(at 1155.7 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2121340003"
+			(at 1155.7 640.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 382.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 382.27 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,13 +6748,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "92ca259c-e912-4722-91a9-969a72688f5d")
+			(uuid "92ca259c-e912-4722-91a9-969a72688f5f")
 		)
 		(pin "2"
-			(uuid "174dba80-12a4-443c-ad91-b07bc445719c")
+			(uuid "174dba80-12a4-443c-ad91-b07bc445719e")
 		)
 		(pin "1"
-			(uuid "10c76265-1c87-4909-90c1-779f96aa29f4")
+			(uuid "10c76265-1c87-4909-90c1-779f96aa29f6")
+		)
+		(pin "MP"
+			(uuid "9bd5c271-3c8f-44fc-966d-9100788e13e5")
 		)
 		(instances
 			(project "oresat-mag-card"
@@ -6946,7 +7387,7 @@
 			)
 		)
 		(pin "MT_Y_OUT_B" output
-			(at 356.87 210.82 0)
+			(at 356.87 194.31 0)
 			(uuid "b456e748-6ce0-40f9-84c1-d386c035abf5")
 			(effects
 				(font
@@ -6956,7 +7397,7 @@
 			)
 		)
 		(pin "MT_Y_OUT_A" output
-			(at 356.87 205.74 0)
+			(at 356.87 199.39 0)
 			(uuid "9e1635e1-9d4e-4896-8bcf-7deec5910596")
 			(effects
 				(font
@@ -6966,7 +7407,7 @@
 			)
 		)
 		(pin "MT_Z_OUT_B" output
-			(at 356.87 200.66 0)
+			(at 356.87 218.44 0)
 			(uuid "11aea1f5-a082-470d-a704-93320862fd87")
 			(effects
 				(font
@@ -6976,7 +7417,7 @@
 			)
 		)
 		(pin "MT_Z_OUT_A" output
-			(at 356.87 195.58 0)
+			(at 356.87 223.52 0)
 			(uuid "831396cb-c47d-417f-9ca6-2c750f365fa6")
 			(effects
 				(font
@@ -6986,7 +7427,7 @@
 			)
 		)
 		(pin "MT_X_OUT_A" output
-			(at 356.87 215.9 0)
+			(at 356.87 175.26 0)
 			(uuid "e410abb3-6c34-47f5-aa1d-9182d7f144ed")
 			(effects
 				(font
@@ -6996,7 +7437,7 @@
 			)
 		)
 		(pin "MT_X_OUT_B" output
-			(at 356.87 220.98 0)
+			(at 356.87 170.18 0)
 			(uuid "e0dc37a7-8864-41cc-84d1-67a6a0fe2c09")
 			(effects
 				(font

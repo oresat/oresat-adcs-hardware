@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Mag Card")
-		(date "2026-04-02")
+		(date "2026-04-07")
 		(rev "v1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -4933,6 +4933,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 77.47 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2482e8a8-2642-438b-8a20-95c578f5f802")
 		)
@@ -5000,6 +5009,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 73.66 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14065955-121f-4bde-8054-c6a0b9032f7d")
 		)
@@ -5059,6 +5077,15 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 220.98 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 220.98 231.14 0)
 			(effects
 				(font
@@ -5134,15 +5161,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 114.3 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12983-1-ND"
 			(at 114.3 193.04 0)
 			(effects
@@ -5162,6 +5180,24 @@
 			)
 		)
 		(property "MPN" "C0603C103J5RACAUTO"
+			(at 114.3 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 114.3 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 114.3 193.04 0)
 			(effects
 				(font
@@ -5306,15 +5342,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 114.3 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12989-1-ND"
 			(at 114.3 205.74 0)
 			(effects
@@ -5334,6 +5361,24 @@
 			)
 		)
 		(property "MPN" "C0603C102J5RACAUTO"
+			(at 114.3 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 114.3 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 114.3 205.74 0)
 			(effects
 				(font
@@ -5412,15 +5457,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 381 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-6856-1-ND"
 			(at 381 176.53 0)
 			(effects
@@ -5440,6 +5476,24 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
+			(at 381 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 381 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 381 176.53 0)
 			(effects
 				(font
@@ -5583,15 +5637,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 351.79 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "490-GRT188C71E225KE13DCT-ND"
 			(at 351.79 123.19 0)
 			(effects
@@ -5611,6 +5656,24 @@
 			)
 		)
 		(property "MPN" "GRT188C71E225KE13D"
+			(at 351.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 351.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 351.79 123.19 0)
 			(effects
 				(font
@@ -5752,15 +5815,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 365.76 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 365.76 162.56 0)
 			(effects
@@ -5781,6 +5835,24 @@
 		)
 		(property "MPN" ""
 			(at 365.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 365.76 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 365.76 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,15 +6061,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 203.2 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "296-INA185A2QDCKRQ1CT-ND"
 			(at 203.2 83.82 0)
 			(effects
@@ -6017,6 +6080,24 @@
 			)
 		)
 		(property "MPN" "INA185A2QDCKRQ1"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 203.2 83.82 0)
 			(effects
 				(font
@@ -6305,15 +6386,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 220.98 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-6856-1-ND"
 			(at 220.98 88.9 0)
 			(effects
@@ -6333,6 +6405,24 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
+			(at 220.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 220.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 220.98 88.9 0)
 			(effects
 				(font
@@ -6487,15 +6577,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 339.09 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "CSR1206FK30L0CT-ND"
 			(at 339.09 171.45 0)
 			(effects
@@ -6515,6 +6596,24 @@
 			)
 		)
 		(property "MPN" "CSR1206FK30L0"
+			(at 339.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 339.09 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 339.09 171.45 0)
 			(effects
 				(font
@@ -6593,15 +6692,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12989-1-ND"
 			(at 114.3 58.42 0)
 			(effects
@@ -6621,6 +6711,24 @@
 			)
 		)
 		(property "MPN" "C0603C102J5RACAUTO"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 114.3 58.42 0)
 			(effects
 				(font
@@ -6765,15 +6873,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 139.7 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT47K0CT-ND"
 			(at 139.7 215.9 0)
 			(effects
@@ -6793,6 +6892,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT47K0"
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 139.7 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 139.7 215.9 0)
 			(effects
 				(font
@@ -7132,15 +7249,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 207.01 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 207.01 73.66 0)
 			(effects
@@ -7161,6 +7269,24 @@
 		)
 		(property "MPN" ""
 			(at 207.01 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 207.01 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 207.01 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7317,15 +7443,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 114.3 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12983-1-ND"
 			(at 114.3 45.72 0)
 			(effects
@@ -7345,6 +7462,24 @@
 			)
 		)
 		(property "MPN" "C0603C103J5RACAUTO"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 114.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -7564,15 +7699,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 215.9 231.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 215.9 231.14 90)
 			(effects
@@ -7592,6 +7718,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 215.9 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 215.9 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 215.9 231.14 90)
 			(effects
 				(font
@@ -7670,15 +7814,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 179.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "CSR1206FK30L0CT-ND"
 			(at 179.07 91.44 0)
 			(effects
@@ -7698,6 +7833,24 @@
 			)
 		)
 		(property "MPN" "CSR1206FK30L0"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 179.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 179.07 91.44 0)
 			(effects
 				(font
@@ -7987,15 +8140,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 339.09 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "CSR1206FK30L0CT-ND"
 			(at 339.09 179.07 0)
 			(effects
@@ -8015,6 +8159,24 @@
 			)
 		)
 		(property "MPN" "CSR1206FK30L0"
+			(at 339.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 339.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 339.09 179.07 0)
 			(effects
 				(font
@@ -8093,6 +8255,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 220.98 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6974f53b-58ca-45e7-bc2e-df0fcd786e9f")
 		)
@@ -8160,15 +8331,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 299.72 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT47K0CT-ND"
 			(at 299.72 156.21 0)
 			(effects
@@ -8188,6 +8350,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT47K0"
+			(at 299.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 299.72 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 299.72 156.21 0)
 			(effects
 				(font
@@ -8264,15 +8444,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 321.31 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "497-17035-1-ND"
 			(at 321.31 133.35 0)
 			(effects
@@ -8292,6 +8463,24 @@
 			)
 		)
 		(property "MPN" "STSPIN250"
+			(at 321.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 321.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 321.31 133.35 0)
 			(effects
 				(font
@@ -8407,6 +8596,15 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 302.26 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 302.26 138.43 0)
 			(effects
 				(font
@@ -8812,6 +9010,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 185.42 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa360026-82d0-4f43-b805-297a7ce6ad59")
 		)
@@ -8879,15 +9086,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 274.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12983-1-ND"
 			(at 274.32 160.02 0)
 			(effects
@@ -8907,6 +9105,24 @@
 			)
 		)
 		(property "MPN" "C0603C103J5RACAUTO"
+			(at 274.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 274.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 274.32 160.02 0)
 			(effects
 				(font
@@ -8976,6 +9192,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 182.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 182.88 35.56 0)
 			(effects
 				(font
@@ -9063,6 +9288,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 137.16 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6914a91-cc9e-43e4-ac51-8f5fdbbbfd5b")
 		)
@@ -9122,6 +9356,15 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 140.97 198.12 0)
 			(effects
 				(font
@@ -9197,6 +9440,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 381 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6c9a2bf-8d8e-4723-b7ac-a1d292fceaef")
 		)
@@ -9257,6 +9509,15 @@
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 191.77 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 191.77 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,15 +9724,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 114.3 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12983-1-ND"
 			(at 114.3 219.71 0)
 			(effects
@@ -9491,6 +9743,24 @@
 			)
 		)
 		(property "MPN" "C0603C103J5RACAUTO"
+			(at 114.3 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 114.3 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 114.3 219.71 0)
 			(effects
 				(font
@@ -9569,15 +9839,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 292.1 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 292.1 153.67 0)
 			(effects
@@ -9597,6 +9858,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT1K00"
+			(at 292.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 292.1 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 292.1 153.67 0)
 			(effects
 				(font
@@ -9675,15 +9954,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 114.3 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12983-1-ND"
 			(at 114.3 71.12 0)
 			(effects
@@ -9703,6 +9973,24 @@
 			)
 		)
 		(property "MPN" "C0603C103J5RACAUTO"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 114.3 71.12 0)
 			(effects
 				(font
@@ -9780,15 +10068,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 363.22 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "296-INA185A2QDCKRQ1CT-ND"
 			(at 363.22 171.45 0)
 			(effects
@@ -9808,6 +10087,24 @@
 			)
 		)
 		(property "MPN" "INA185A2QDCKRQ1"
+			(at 363.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 363.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 363.22 171.45 0)
 			(effects
 				(font
@@ -9898,15 +10195,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 179.07 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "CSR1206FK30L0CT-ND"
 			(at 179.07 238.76 0)
 			(effects
@@ -9926,6 +10214,24 @@
 			)
 		)
 		(property "MPN" "CSR1206FK30L0"
+			(at 179.07 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 179.07 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 179.07 238.76 0)
 			(effects
 				(font
@@ -10001,15 +10307,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 215.9 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 215.9 83.82 90)
 			(effects
@@ -10029,6 +10326,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 215.9 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 215.9 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 215.9 83.82 90)
 			(effects
 				(font
@@ -10107,6 +10422,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "118d442b-4946-463a-bc20-a407437d95dd")
 		)
@@ -10171,15 +10495,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 375.92 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 375.92 171.45 90)
 			(effects
@@ -10199,6 +10514,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 375.92 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 375.92 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 375.92 171.45 90)
 			(effects
 				(font
@@ -10270,6 +10603,15 @@
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 193.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 193.04 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,15 +10950,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 64.77 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 64.77 162.56 0)
 			(effects
@@ -10636,6 +10969,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT1K00"
+			(at 64.77 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 64.77 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 64.77 162.56 0)
 			(effects
 				(font
@@ -11044,15 +11395,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 132.08 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 132.08 213.36 0)
 			(effects
@@ -11072,6 +11414,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT1K00"
+			(at 132.08 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 132.08 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 132.08 213.36 0)
 			(effects
 				(font
@@ -11150,6 +11510,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 142.24 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a73767c-706e-49be-a59c-e81a7ed74834")
 		)
@@ -11217,15 +11586,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 274.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12983-1-ND"
 			(at 274.32 133.35 0)
 			(effects
@@ -11245,6 +11605,24 @@
 			)
 		)
 		(property "MPN" "C0603C103J5RACAUTO"
+			(at 274.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 274.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 274.32 133.35 0)
 			(effects
 				(font
@@ -11323,15 +11701,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 274.32 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-12989-1-ND"
 			(at 274.32 146.05 0)
 			(effects
@@ -11351,6 +11720,24 @@
 			)
 		)
 		(property "MPN" "C0603C102J5RACAUTO"
+			(at 274.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 274.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 274.32 146.05 0)
 			(effects
 				(font
@@ -11427,15 +11814,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 161.29 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "497-17035-1-ND"
 			(at 161.29 45.72 0)
 			(effects
@@ -11455,6 +11833,24 @@
 			)
 		)
 		(property "MPN" "STSPIN250"
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 161.29 45.72 0)
 			(effects
 				(font
@@ -11578,6 +11974,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00459edb-2c20-4d82-acaf-9820cae80064")
 		)
@@ -11645,15 +12050,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 139.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT47K0CT-ND"
 			(at 139.7 68.58 0)
 			(effects
@@ -11673,6 +12069,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT47K0"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 139.7 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -11748,15 +12162,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 207.01 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" ""
 			(at 207.01 220.98 0)
 			(effects
@@ -11777,6 +12182,24 @@
 		)
 		(property "MPN" ""
 			(at 207.01 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 207.01 220.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 207.01 220.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11985,6 +12408,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIS" "DigiKey"
+			(at 342.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "DIST" ""
 			(at 342.9 123.19 0)
 			(effects
@@ -12130,15 +12562,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 60.96 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 60.96 121.92 0)
 			(effects
@@ -12158,6 +12581,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
+			(at 60.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 60.96 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 60.96 121.92 0)
 			(effects
 				(font
@@ -12236,15 +12677,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 179.07 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "CSR1206FK30L0CT-ND"
 			(at 179.07 231.14 0)
 			(effects
@@ -12264,6 +12696,24 @@
 			)
 		)
 		(property "MPN" "CSR1206FK30L0"
+			(at 179.07 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 179.07 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 179.07 231.14 0)
 			(effects
 				(font
@@ -12408,6 +12858,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 350.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1361847-9f6a-432c-a83c-a9359b880f44")
 		)
@@ -12474,15 +12933,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 191.77 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "490-GRT188C71E225KE13DCT-ND"
 			(at 191.77 182.88 0)
 			(effects
@@ -12502,6 +12952,24 @@
 			)
 		)
 		(property "MPN" "GRT188C71E225KE13D"
+			(at 191.77 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 191.77 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 191.77 182.88 0)
 			(effects
 				(font
@@ -12578,15 +13046,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 161.29 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "497-17035-1-ND"
 			(at 161.29 193.04 0)
 			(effects
@@ -12606,6 +13065,24 @@
 			)
 		)
 		(property "MPN" "STSPIN250"
+			(at 161.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 161.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 161.29 193.04 0)
 			(effects
 				(font
@@ -12794,15 +13271,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 203.2 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "296-INA185A2QDCKRQ1CT-ND"
 			(at 203.2 231.14 0)
 			(effects
@@ -12822,6 +13290,24 @@
 			)
 		)
 		(property "MPN" "INA185A2QDCKRQ1"
+			(at 203.2 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 203.2 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 203.2 231.14 0)
 			(effects
 				(font
@@ -12904,6 +13390,15 @@
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 64.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
+			(at 64.77 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13307,15 +13802,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 179.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "CSR1206FK30L0CT-ND"
 			(at 179.07 83.82 0)
 			(effects
@@ -13335,6 +13821,24 @@
 			)
 		)
 		(property "MPN" "CSR1206FK30L0"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 179.07 83.82 0)
 			(effects
 				(font
@@ -13413,15 +13917,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 220.98 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "399-6856-1-ND"
 			(at 220.98 236.22 0)
 			(effects
@@ -13441,6 +13936,24 @@
 			)
 		)
 		(property "MPN" "C0603C104K5RACAUTO"
+			(at 220.98 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 220.98 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 220.98 236.22 0)
 			(effects
 				(font
@@ -13510,6 +14023,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 182.88 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
 			(at 182.88 182.88 0)
 			(effects
 				(font
@@ -13742,15 +14264,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 132.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "RMCF0603FT2K70CT-ND"
 			(at 132.08 66.04 0)
 			(effects
@@ -13770,6 +14283,24 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT1K00"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 132.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -13848,6 +14379,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIST" ""
+			(at 344.17 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0650bae-ce11-4699-afa7-7c3a2a382c9c")
 		)
@@ -13907,6 +14447,15 @@
 			)
 		)
 		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 298.45 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 298.45 140.97 0)
 			(effects
 				(font
@@ -13981,15 +14530,6 @@
 				(hide yes)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 191.77 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DPN" "490-GRT188C71E225KE13DCT-ND"
 			(at 191.77 35.56 0)
 			(effects
@@ -14009,6 +14549,24 @@
 			)
 		)
 		(property "MPN" "GRT188C71E225KE13D"
+			(at 191.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 191.77 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIST" ""
 			(at 191.77 35.56 0)
 			(effects
 				(font
