@@ -45538,7 +45538,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "296-26323-1-ND"
+		(property "DPN" "296-18517-1-ND"
 			(at 464.82 36.83 0)
 			(effects
 				(font
@@ -45565,7 +45565,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "REF3030AIDBZR"
+		(property "MPN" "REF3030AIDBZT"
 			(at 464.82 36.83 0)
 			(effects
 				(font
