@@ -5,8 +5,9 @@
 	(uuid "dc35c2fc-4c63-4639-912e-b812884604c8")
 	(paper "User" 511.82 273.05)
 	(title_block
-		(title "MCXN Reaction Wheel Control Board")
-		(rev "2")
+		(title "MCXN Reaction Wheel Board")
+		(date "2026-04-07")
+		(rev "2.0")
 		(company "Portland State Aerospace Society")
 		(comment 1 "Chris Kane-Pardy")
 	)
@@ -45583,7 +45584,7 @@
 			(uuid "ec283172-8e8b-4851-a3aa-ba287c127a5e")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "U6")
 					(unit 1)
@@ -46443,7 +46444,7 @@
 			(uuid "5e1e36bd-7995-4826-83ce-c7206acd048a")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "#PWR069")
 					(unit 1)
@@ -46811,7 +46812,7 @@
 			(uuid "5399e636-5e93-4efe-8355-3183e8adc9b1")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "U3")
 					(unit 1)
@@ -47585,7 +47586,7 @@
 			(uuid "53caac12-046f-42db-85fe-17b0497d2b0d")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "IC1")
 					(unit 2)
@@ -48077,7 +48078,7 @@
 			(uuid "e82aeee6-9c6e-4591-be63-827c1dd5811d")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "#PWR061")
 					(unit 1)
@@ -48142,7 +48143,7 @@
 			(uuid "532cc40b-f14c-46a6-8bac-549f997675e2")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "#PWR041")
 					(unit 1)
@@ -49507,7 +49508,7 @@
 			(uuid "53caac12-046f-42db-85fe-17b0497d2b0e")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "IC1")
 					(unit 5)
@@ -50596,7 +50597,7 @@
 			(uuid "53caac12-046f-42db-85fe-17b0497d2b0f")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "IC1")
 					(unit 4)
@@ -51364,7 +51365,7 @@
 			(uuid "fdf1abdd-c1c2-48cd-9b58-715063cac4b9")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "IC1")
 					(unit 1)
@@ -51766,7 +51767,7 @@
 			(uuid "c3bf8e46-2c5a-480f-8288-abc7f8753245")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "U1")
 					(unit 1)
@@ -52466,7 +52467,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "H1")
 					(unit 1)
@@ -52600,7 +52601,7 @@
 			(uuid "1fc624b5-2027-4753-a6c8-a75427fff273")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "#PWR033")
 					(unit 1)
@@ -53859,7 +53860,7 @@
 			(uuid "53caac12-046f-42db-85fe-17b0497d2b10")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "IC1")
 					(unit 6)
@@ -55286,7 +55287,7 @@
 			(uuid "fde9dd01-b0e6-4c52-a3fa-06ca820af8f5")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "J1")
 					(unit 1)
@@ -56363,7 +56364,7 @@
 			(uuid "53caac12-046f-42db-85fe-17b0497d2b11")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "IC1")
 					(unit 3)
@@ -56695,7 +56696,7 @@
 			(uuid "5aae002a-60b2-4ca3-af65-43294f2fa533")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "#PWR06")
 					(unit 1)
@@ -57697,7 +57698,7 @@
 			(uuid "da45d21c-0935-448b-9854-1f01c6efb2c4")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "R3")
 					(unit 1)
@@ -58317,7 +58318,7 @@
 			(uuid "20d9abd2-545f-4944-b8f7-5dcf331d54de")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "C11")
 					(unit 1)
@@ -60098,7 +60099,7 @@
 			(uuid "ae405c10-7368-4ce8-a5f9-19831ad8a180")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "C8")
 					(unit 1)
@@ -60309,7 +60310,7 @@
 			(uuid "80d59a0d-ae73-47a0-8629-84bc4108bb16")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "C1")
 					(unit 1)
@@ -61096,7 +61097,7 @@
 			(uuid "46aff69c-e538-4299-a71c-1a3678bf33d6")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "#PWR09")
 					(unit 1)
@@ -63016,7 +63017,7 @@
 			(uuid "581b780d-cbb0-492f-93af-bf0d68110f2e")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "IC1")
 					(unit 7)
@@ -65679,7 +65680,7 @@
 			(uuid "288aef15-057b-4c03-ae20-d665cf5a9973")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8"
 					(reference "U4")
 					(unit 1)

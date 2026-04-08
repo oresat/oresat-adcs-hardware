@@ -96,17 +96,6 @@
 		(layer "F.SilkS")
 		(uuid "9730a996-be71-483b-be04-83a0e2948818")
 	)
-	(fp_rect
-		(start -4 20.5)
-		(end 4 23.5)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "B.SilkS")
-		(uuid "d43fdbb6-500b-4889-acb5-1a2f4d47f2b7")
-	)
 	(fp_circle
 		(center -10.284602 -10.071556)
 		(end -9.084602 -10.071556)
@@ -355,20 +344,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(fp_text user "Debug"
-		(at 2.23 22.51 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "9866001b-8d2b-4c81-ae31-13a676f3a550")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(fp_text user "Magnet"

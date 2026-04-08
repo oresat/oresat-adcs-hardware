@@ -1,8 +1,3 @@
--Here is the custom README.md template fully tailored to your MCXN-Reaction-Wheel-Board-V2.
-
-Just save this text as README.md in your KiCad project folder. The Makefile will take care of replacing PROJECT-NAME and TIME-STAMP during the build process.
-Markdown
-
 ---
 title: "**MCXN-Reaction-Wheel-Board-V2**"
 subtitle: |

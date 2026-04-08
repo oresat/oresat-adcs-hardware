@@ -3,7 +3,12 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "12d21d7b-d023-449a-8e37-5d5c9be96098")
-	(paper "A4")
+	(paper "User" 511.82 273.05)
+	(title_block
+		(title "MCXN Reaction Wheel Board")
+		(rev "2.0")
+		(company "Portland State Aerospace Society")
+	)
 	(lib_symbols
 		(symbol "+5V_2"
 			(power)
@@ -5143,7 +5148,7 @@
 			(uuid "f0730a10-84c6-45b2-b1f1-d0406d8a7d66")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8/23feb728-8cf1-4b38-ae33-2d645c095c32"
 					(reference "TP12")
 					(unit 1)
@@ -7082,7 +7087,7 @@
 			(uuid "f7fc239b-c491-4c88-a516-adb35eda5ba8")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8/23feb728-8cf1-4b38-ae33-2d645c095c32"
 					(reference "TH2")
 					(unit 1)
@@ -7384,7 +7389,7 @@
 			(uuid "311a2fbd-cee0-4685-9462-0353f280f5b8")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8/23feb728-8cf1-4b38-ae33-2d645c095c32"
 					(reference "#PWR086")
 					(unit 1)
@@ -9074,7 +9079,7 @@
 			(uuid "fa23c805-6ebb-4273-8aa7-3efab07a3b3c")
 		)
 		(instances
-			(project ""
+			(project "power-stage-rev8"
 				(path "/dc35c2fc-4c63-4639-912e-b812884604c8/23feb728-8cf1-4b38-ae33-2d645c095c32"
 					(reference "FB7")
 					(unit 1)
