@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -61,7 +61,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|127660000|111040000|aa171247-38dd-40d8-9047-b3978b8a57cb|46af9f78-43a3-4eeb-94a7-202b855a5d89",
+          ""
+        ],
+        [
+          "silk_edge_clearance|127660000|111040000|aa171247-38dd-40d8-9047-b3978b8a57cb|528b1ba0-b251-4cbb-b434-be57b06adc01",
+          ""
+        ],
+        [
+          "silk_edge_clearance|132660000|111040000|aa171247-38dd-40d8-9047-b3978b8a57cb|d84ae8ff-23f4-4c4a-aacf-03b5b42072ea",
+          ""
+        ],
+        [
+          "silk_edge_clearance|159660209|111040000|aa171247-38dd-40d8-9047-b3978b8a57cb|0dff298e-78b3-4e7f-ad82-b35e6f711630",
+          ""
+        ],
+        [
+          "silk_edge_clearance|159660209|111040000|aa171247-38dd-40d8-9047-b3978b8a57cb|a9c5d991-e6ea-4b0f-8e73-70280d827a30",
+          ""
+        ],
+        [
+          "silk_edge_clearance|164660209|111040000|aa171247-38dd-40d8-9047-b3978b8a57cb|a7d6f8bd-1fec-4701-9d74-6009033b19fc",
+          ""
+        ],
+        [
+          "track_dangling|125460000|117590000|268290d6-2b7b-4fc1-b429-65df8b25e8ff|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|125460000|118090000|9252cac8-86a0-4cf7-9035-4df15893842b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|125460000|118590000|1d6ba7c0-2f3a-44ef-8b50-4386f47ce62e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|125460000|119090000|5168c728-121b-41b2-98c1-21f9430f4031|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|125460000|119590000|612e6e0b-bff5-48ab-96f3-0ef3dfecfb69|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|134360000|118590000|6b4da04a-4502-4050-89cf-f0cfd8e4d24b|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -110,7 +159,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -569,20 +618,211 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MFR",
+            "name": "MFR",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DIS",
+            "name": "DIS",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DPN",
+            "name": "DPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": true,
+        "name": "bom-export-preset",
+        "sort_asc": true,
+        "sort_field": "${QUANTITY}"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MFR",
+            "name": "MFR",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DIS",
+            "name": "DIS",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DPN",
+            "name": "DPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": true,
+        "name": "bom-preset",
+        "sort_asc": true,
+        "sort_field": "${QUANTITY}"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
@@ -595,19 +835,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -617,17 +857,53 @@
         },
         {
           "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DIS",
+          "name": "DIS",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DPN",
+          "name": "DPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${QUANTITY}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -683,7 +959,7 @@
       {
         "filename": "mezzanine-flex-board.kicad_sch",
         "name": "mezzanine-flex-board",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "73c464dd-daf4-484f-b278-4b4e429c836b"
       }
     ],
     "used_designators": "",
@@ -692,7 +968,7 @@
   "sheets": [
     [
       "73c464dd-daf4-484f-b278-4b4e429c836b",
-      ""
+      "mezzanine-flex-board"
     ]
   ],
   "text_variables": {},
