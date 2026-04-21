@@ -260,7 +260,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "2.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1013,7 +1013,7 @@
       {
         "filename": "power-stage-rev8.kicad_sch",
         "name": "power-stage-rev8",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "dc35c2fc-4c63-4639-912e-b812884604c8"
       }
     ],
     "used_designators": "",
@@ -1022,7 +1022,7 @@
   "sheets": [
     [
       "dc35c2fc-4c63-4639-912e-b812884604c8",
-      "Root"
+      "power-stage-rev8"
     ],
     [
       "23feb728-8cf1-4b38-ae33-2d645c095c32",
