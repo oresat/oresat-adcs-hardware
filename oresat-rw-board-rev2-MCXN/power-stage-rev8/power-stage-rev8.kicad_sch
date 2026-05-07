@@ -35354,7 +35354,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 241.3) (xy 312.42 246.38)
+			(xy 312.42 241.3) (xy 312.42 242.57)
 		)
 		(stroke
 			(width 0)
@@ -38881,6 +38881,16 @@
 			(type default)
 		)
 		(uuid "f7d8cd3a-5f1a-4ac2-a4dc-e8f755e0ba3e")
+	)
+	(wire
+		(pts
+			(xy 312.42 227.33) (xy 312.42 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81c70db-189f-4a8b-96eb-23f90dc06c10")
 	)
 	(wire
 		(pts
@@ -47017,7 +47027,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3k/0.1%"
+		(property "Value" "2.7k/0.1%"
 			(at 313.69 240.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -47094,7 +47104,7 @@
 				)
 			)
 		)
-		(property "MPN" "RP0402BRD073K3L"
+		(property "MPN" "RP0402BRD072K7L"
 			(at 312.42 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -48700,7 +48710,7 @@
 	)
 	(symbol
 		(lib_id "rev-8-symbols:AGND")
-		(at 312.42 246.38 0)
+		(at 312.42 242.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -48710,7 +48720,7 @@
 		(dnp no)
 		(uuid "13e15e20-62dc-4536-81e1-9a949780b1d4")
 		(property "Reference" "#PWR045"
-			(at 312.42 252.73 0)
+			(at 312.42 248.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48721,7 +48731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 312.4078 250.3898 0)
+			(at 312.4078 246.5798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -48731,7 +48741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 312.42 246.38 0)
+			(at 312.42 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48742,7 +48752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 246.38 0)
+			(at 312.42 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48753,7 +48763,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 312.42 246.38 0)
+			(at 312.42 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58940,7 +58950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k/0.1%"
+		(property "Value" "6.2k/0.1%"
 			(at 313.69 232.156 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -58962,7 +58972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AT_51_ROHS_L.pdf"
 			(at 312.42 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -58984,7 +58994,7 @@
 				)
 			)
 		)
-		(property "DPN" "13-RP0402BRD075K1LCT-ND"
+		(property "DPN" "13-AT0402BRD076K2LCT-ND"
 			(at 312.42 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -59017,7 +59027,7 @@
 				)
 			)
 		)
-		(property "MPN" "RP0402BRD075K1L"
+		(property "MPN" "AT0402BRD076K2L"
 			(at 312.42 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -67153,7 +67163,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 312.42 228.6 0)
+		(at 312.42 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -67163,7 +67173,7 @@
 		(dnp no)
 		(uuid "dcdeb669-983a-4b9c-9879-e0f6ea8e9774")
 		(property "Reference" "#PWR044"
-			(at 312.42 232.41 0)
+			(at 312.42 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67174,7 +67184,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 312.42 224.79 0)
+			(at 312.42 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -67184,7 +67194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 312.42 228.6 0)
+			(at 312.42 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67195,7 +67205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 228.6 0)
+			(at 312.42 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67206,7 +67216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 312.42 228.6 0)
+			(at 312.42 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

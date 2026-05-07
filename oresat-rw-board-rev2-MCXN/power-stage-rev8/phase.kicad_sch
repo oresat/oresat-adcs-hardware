@@ -6300,7 +6300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k/0.1%"
+		(property "Value" "6.2k/0.1%"
 			(at 114.3 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6322,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RP_51_ROHS_L"
+		(property "Datasheet" "https://yageogroup.com/content/Resource%20Library/Datasheet/PYU-AT_51_ROHS_L.pdf"
 			(at 111.76 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6344,7 +6344,7 @@
 				)
 			)
 		)
-		(property "DPN" "13-RP0402BRD075K1LCT-ND"
+		(property "DPN" "13-AT0402BRD076K2LCT-ND"
 			(at 111.76 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "MPN" "RP0402BRD075K1L"
+		(property "MPN" "AT0402BRD076K2L"
 			(at 111.76 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9130,7 +9130,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3k/0.1%"
+		(property "Value" "2.7k/0.1%"
 			(at 114.3 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9207,7 +9207,7 @@
 				)
 			)
 		)
-		(property "MPN" "RP0402BRD073K3L"
+		(property "MPN" "RP0402BRD072K7L"
 			(at 111.76 140.97 0)
 			(hide yes)
 			(show_name no)
