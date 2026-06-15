@@ -6455,7 +6455,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA185"
+		(property "Value" "INA185A2"
 			(at 191.77 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11365,7 +11365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA185"
+		(property "Value" "INA185A2"
 			(at 351.79 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15185,7 +15185,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA185"
+		(property "Value" "INA185A2"
 			(at 191.77 238.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
