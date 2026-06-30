@@ -49,6 +49,8 @@ the OreSat RW Card, which handles the OreSat Power Domain for each RW. For more 
 ![Render of the top of the 3D model](./build/documentation/PROJECT-NAME-render-top.jpg){width=50%}
 ![Render of the bottom of the 3D model](./build/documentation/PROJECT-NAME-render-bot.jpg){width=50%}
 
+Note that renders do not show stiffeners.
+
 \newpage
 
 # Printed Circuit Board (PCB) Fabrication Information
@@ -56,9 +58,8 @@ the OreSat RW Card, which handles the OreSat Power Domain for each RW. For more 
 ## Board Info
 
 - 2 layer board
-- Bounding box is 41.0 x 10.2 mm
-- Board thickness uses 50um dielectric thickness
-- There are two PI (Polyimide) stiffeners on the TOP surface of the assembly
+- Bounding box is 39.5 x 10.2 mm
+- Flexible PCB with two polimide stiffeners (see below)
 
 ## Board Requirements
 
@@ -90,19 +91,26 @@ the OreSat RW Card, which handles the OreSat Power Domain for each RW. For more 
 ## Materials
 
 - No controlled impedance.
-- Outer layers must be 1 oz Copper.
-- Polyimide flexible circuit material
-- Board Surface treatment should be ENIG, althogh immersion Silver is acceptable.
+- 0.33 to 0.5 oz Copper.
+- Polyimide flexible circuit material, 25 um thick dielectric
+- Coverlay (soldermask equivalent) is 12.5 um Polyimide
+- There are two 0.25 mm thick Polyimide stiffeners on the TOP surface, one on each end.
+   - These can be FR4 stiffeners if easier / cheaper. 
+- Board Surface treatment should be ENIG.
 - White silkscreen on top and bottom surface
-- Any soldermask on top and bottom, no requirements for color.
 
 ## Suggested Stack Up
 
-| Layer         | Thickness            | Notes                                        |
-|---------------|----------------------|----------------------------------------------|
-| Top Copper    | 0.043 mm /  1.69 mil |  Layer 1 foil, 1 oz Cu after plating         |
-| PI Core       | 0.050 mm /  1.96 mil |  Polyimide flex material                     |
-| Bottom Copper | 0.043 mm /  1.69 mil |  Layer 2 foil, 1 oz copper after plating     |
+| Layer           | Thickness            | Notes                                  |
+|-----------------|----------------------|----------------------------------------|
+| Top Stiffener   | 0.25 mm  / 9.84 mils | Stiffener on top surface of board only |
+| Top Coverlay    | 12.5 um /  0.49 mils | Coverlay / Solder mask                 |
+| Top Copper      | 18.0 um /  0.71 mils | Layer 1 foil, 0.5 oz Cu after plating  |
+| Polyimide Core  | 25.0 um /  0.98 mils | Polyimide flex material                |
+| Bottom Copper   | 18.0 um /  0.71 mils | Layer 2 foil, 0.5 oz Cu after plating  |
+| Bottom Coverlay | 12.5 um /  0.49 mils | Coverlay / Solder mask                 |
+
+Total thickness: 86 um (without stiffener)
 
 ## Array / Panel Information
 
@@ -127,7 +135,7 @@ the OreSat RW Card, which handles the OreSat Power Domain for each RW. For more 
 | PROJECT-NAME-B_Cu.gbr            | RS274X file for the bottom copper layer       |
 | PROJECT-NAME-B_Mask.gbr          | RS274X file for the bottom soldermask         |
 | PROJECT-NAME-B_Silkscreen.gbr    | RS274X file for the bottom silkscreen         |
-| PROJECT-NAME-User_Stiffeners.gbr | RS274X file for PI stiffener         | 
+| PROJECT-NAME-User_Stiffeners.gbr | RS274X file for PI stiffener                  | 
 | PROJECT-NAME-PTH.drl             | Excellon file for plated through holes        | 
 
 \newpage
@@ -136,7 +144,7 @@ the OreSat RW Card, which handles the OreSat Power Domain for each RW. For more 
 
 ## Assembly Info
 
-- There are SMT components on the bottom side of the board.
+- There are SMT components only on the bottom side of the board.
 
 ## Assembly Requirements
 
@@ -146,7 +154,6 @@ the OreSat RW Card, which handles the OreSat Power Domain for each RW. For more 
 - Aqueous flux and wash strongly preferred.
    - Clean to NASA Standard "Visibly Clean (VC)": No particles or residues are visible to the naked eye.
 - No conformal coating.
-- Ship in antistatic protective bag
 
 ## Component Specific Assembly Information
 

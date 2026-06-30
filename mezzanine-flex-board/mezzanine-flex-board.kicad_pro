@@ -51,7 +51,23 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -84,30 +100,6 @@
         ],
         [
           "silk_edge_clearance|164660209|111040000|aa171247-38dd-40d8-9047-b3978b8a57cb|a7d6f8bd-1fec-4701-9d74-6009033b19fc",
-          ""
-        ],
-        [
-          "track_dangling|125460000|117590000|268290d6-2b7b-4fc1-b429-65df8b25e8ff|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "track_dangling|125460000|118090000|9252cac8-86a0-4cf7-9035-4df15893842b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "track_dangling|125460000|118590000|1d6ba7c0-2f3a-44ef-8b50-4386f47ce62e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "track_dangling|125460000|119090000|5168c728-121b-41b2-98c1-21f9430f4031|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "track_dangling|125460000|119590000|612e6e0b-bff5-48ab-96f3-0ef3dfecfb69|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "track_dangling|134360000|118590000|6b4da04a-4502-4050-89cf-f0cfd8e4d24b|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
