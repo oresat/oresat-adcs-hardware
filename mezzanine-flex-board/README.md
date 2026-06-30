@@ -60,6 +60,7 @@ Note that renders do not show stiffeners.
 - 2 layer board
 - Bounding box is 39.5 x 10.2 mm
 - Flexible PCB with two polimide stiffeners (see below)
+- Note that these boards were originally run and tested using JLCPCB's flexible PCB service.
 
 ## Board Requirements
 
@@ -91,6 +92,7 @@ Note that renders do not show stiffeners.
 ## Materials
 
 - No controlled impedance.
+- Note that these boards were originally run and tested using JLCPCB's flexible PCB service, and so numbers here are arbitrarily from that service. Other thicknesses can be used, contact us to discuss.
 - 0.33 to 0.5 oz Copper.
 - Polyimide flexible circuit material, 25 um thick dielectric
 - Coverlay (soldermask equivalent) is 12.5 um Polyimide
