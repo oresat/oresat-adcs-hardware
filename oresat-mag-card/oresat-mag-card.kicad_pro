@@ -304,7 +304,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1.0"
+      "sch_revision": "v1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -335,6 +335,10 @@
       ],
       [
         "multiple_net_names|3644900|3048000|71e1d044-3d42-4c85-bc32-79b24b822fee|8c436d2f-c9eb-4bff-ad80-5d90c4956ab1|/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322|/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322|/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322",
+        ""
+      ],
+      [
+        "pin_to_pin|1955800|774700|1d364cf2-9f9a-479b-b467-4e7f6e27a7a6|0295e074-0605-4da0-9ce4-7ec04c9e2cad|/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905|/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905|/c58960d9-4cac-4036-ad2e-1aef26946dae",
         ""
       ],
       [
@@ -1038,7 +1042,7 @@
         "uuid": "c58960d9-4cac-4036-ad2e-1aef26946dae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#3V14,#GND107-109",
     "variants": []
   },
   "sheets": [

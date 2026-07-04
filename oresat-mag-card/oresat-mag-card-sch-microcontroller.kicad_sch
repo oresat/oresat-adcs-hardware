@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Mag Card")
-		(date "2026-04-07")
-		(rev "v1.0")
+		(date "2026-07-03")
+		(rev "v1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -4602,6 +4602,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 238.76 195.58)
+		(end 259.08 203.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "70004267-046b-43e7-b2af-32c29b3dcc74")
+	)
+	(text "Hardware version number\n(use pullups)"
+		(exclude_from_sim no)
+		(at 254.254 208.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "245202da-5db1-48a7-a73b-c2ee802b77cb")
+	)
 	(text "Each magnetorquer operate individually of each other\nPWM specification does not really matter here."
 		(exclude_from_sim no)
 		(at 273.558 69.85 0)
@@ -4728,6 +4750,16 @@
 		)
 		(uuid "e572f247-7f42-44f4-938e-b192bba0ec90")
 	)
+	(text "Rev: 001"
+		(exclude_from_sim no)
+		(at 255.27 204.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "efa7ac68-5f68-46fe-86c9-e2b322a45a3b")
+	)
 	(text_box "NXP is weird, digital communication may be labeled under FlexCOMM\nLook carfully for SPI UART and I2C lines. May have to dig a little.\nLooking at the linked excel file will help alot.\n"
 		(exclude_from_sim no)
 		(at 311.15 151.13 0)
@@ -4759,6 +4791,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0705eae8-8877-450a-8898-493e1e7c992a")
+	)
+	(junction
+		(at 255.27 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d3dbfdd-49b5-42b7-a0f6-d85b5a174bcf")
 	)
 	(junction
 		(at 288.29 186.69)
@@ -5071,10 +5109,6 @@
 		(uuid "7c3827b2-5610-408c-b4fd-2c1cb0e1b70a")
 	)
 	(no_connect
-		(at 252.73 201.93)
-		(uuid "817b11d9-943a-4879-a33c-43d57b978b64")
-	)
-	(no_connect
 		(at 86.36 88.9)
 		(uuid "8393edd1-9ae2-4e47-83ec-fad39e60ecd4")
 	)
@@ -5151,10 +5185,6 @@
 		(uuid "e844711e-bec2-46a7-899c-4c286e532814")
 	)
 	(no_connect
-		(at 252.73 199.39)
-		(uuid "e8e5391f-b9b3-4a98-ae3a-711284a3c214")
-	)
-	(no_connect
 		(at 86.36 160.02)
 		(uuid "f32bcfae-7dbd-4ab6-a472-7707c58fad9a")
 	)
@@ -5171,6 +5201,16 @@
 			(type default)
 		)
 		(uuid "00207159-ee0f-4194-b2f1-ce552a0ae0d2")
+	)
+	(wire
+		(pts
+			(xy 255.27 199.39) (xy 264.16 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b09df7-ea65-4cbf-9ba9-34dd20e318e5")
 	)
 	(wire
 		(pts
@@ -5481,6 +5521,16 @@
 			(type default)
 		)
 		(uuid "23ec8bca-9c68-4332-abca-3c19b8cec3ed")
+	)
+	(wire
+		(pts
+			(xy 252.73 199.39) (xy 255.27 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2495e417-57ab-4578-9d1e-fa145ef56fbe")
 	)
 	(wire
 		(pts
@@ -6224,6 +6274,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 201.93) (xy 255.27 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ebdf7e-ce34-4e32-af7e-05f03a0378ef")
+	)
+	(wire
+		(pts
 			(xy 290.83 186.69) (xy 290.83 187.96)
 		)
 		(stroke
@@ -6501,6 +6561,16 @@
 			(type default)
 		)
 		(uuid "c51b1299-311c-43a1-ba8f-1e78c65a061f")
+	)
+	(wire
+		(pts
+			(xy 255.27 201.93) (xy 255.27 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e08a28-0698-4071-8ac5-a74cf6da4044")
 	)
 	(wire
 		(pts
@@ -8321,23 +8391,23 @@
 		(dnp no)
 		(uuid "2e50831d-1e0b-4886-aa90-6466c09a3a6e")
 		(property "Reference" "R45"
-			(at 115.316 198.628 90)
+			(at 118.364 196.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 115.316 194.818 90)
+			(at 118.364 198.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.27)
+					(size 1.27 1.27)
 				)
 				(justify right top)
 			)
@@ -9796,7 +9866,7 @@
 		(dnp no)
 		(uuid "46108848-5abb-4087-a444-38b7544fbd67")
 		(property "Reference" "R46"
-			(at 283.718 189.4839 0)
+			(at 284.226 189.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9807,7 +9877,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 283.972 191.516 0)
+			(at 284.48 191.516 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12170,6 +12240,84 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/e889bc11-06d8-4b5a-8dd5-30963e8b2dc1"
 					(reference "#3V09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 264.16 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7eadfd9b-3515-4789-a6a0-4576b53c2cb7")
+		(property "Reference" "#GND0109"
+			(at 264.16 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a634572a-f875-4445-85f3-3a313e9b8514")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/e889bc11-06d8-4b5a-8dd5-30963e8b2dc1"
+					(reference "#GND0109")
 					(unit 1)
 				)
 			)

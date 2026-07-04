@@ -6,8 +6,8 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Mag Card")
-		(date "2026-04-07")
-		(rev "v1.0")
+		(date "2026-07-03")
+		(rev "v1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols

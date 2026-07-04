@@ -6,12 +6,12 @@
 	(paper "B")
 	(title_block
 		(title "OreSat Mag Card")
-		(date "2026-04-07")
-		(rev "v1.0")
+		(date "2026-07-03")
+		(rev "v1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic_MountingPin:Conn_01x03_MountingPin"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -22,7 +22,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,15 +31,14 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_MountingPin"
-				(at 1.27 -5.08 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -64,7 +63,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connectable mounting pin connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,7 +85,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -97,9 +96,9 @@
 					)
 				)
 			)
-			(symbol "Conn_01x03_MountingPin_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 1.27)
 					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
@@ -107,17 +106,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -142,28 +130,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.016 -4.572) (xy 1.016 -4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "Mounting"
-					(at 0 -4.191 0)
-					(effects
-						(font
-							(size 0.381 0.381)
-						)
-					)
-				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -181,7 +149,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -191,42 +159,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 3.048)
-					(name "MountPin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2923,6 +2855,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 355.6 202.184)
+		(end 388.62 217.424)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1c483976-6470-4f5a-b3fb-585d09f9219f")
+	)
 	(text "All caps are 0603 ceramic 10% X5R >= 16V Vwv and AEQ unless marked"
 		(exclude_from_sim no)
 		(at 113.538 264.922 0)
@@ -2957,7 +2901,7 @@
 	)
 	(text "X"
 		(exclude_from_sim no)
-		(at 382.016 167.894 0)
+		(at 335.28 182.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2967,15 +2911,27 @@
 		)
 		(uuid "489f347d-5454-4c1e-9bcc-a4b89735b434")
 	)
-	(text "The magnetorquers have:\nMolex 2121320003 Pico-EZmate Plus \nReceptacle Housing (3 circuit)\nwith Receptacle Terminal 2040175021.\n"
+	(text "Use JST PAP-02V-S housing \nwith SPHD-002T-P0.5 contacts"
 		(exclude_from_sim no)
-		(at 381.762 240.792 0)
+		(at 372.11 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "5af37832-663a-4e2f-a473-a4eb0311ef89")
+		(uuid "4c2c9eeb-cb3e-4283-81f9-fbaa788974ec")
+	)
+	(text "MAGNETORQUER CONNECTORS"
+		(exclude_from_sim no)
+		(at 371.602 207.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5278c56a-0b54-448b-9c5f-0784fa87c3a8")
 	)
 	(text "DOUBLECHECK"
 		(exclude_from_sim no)
@@ -3000,7 +2956,7 @@
 	)
 	(text "Z"
 		(exclude_from_sim no)
-		(at 382.27 216.154 0)
+		(at 335.534 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3033,7 +2989,7 @@
 	)
 	(text "Y"
 		(exclude_from_sim no)
-		(at 382.27 192.024 0)
+		(at 335.28 207.264 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3192,10 +3148,6 @@
 		(uuid "16c793f0-9195-46c1-9fea-604ce3931445")
 	)
 	(no_connect
-		(at 377.19 220.98)
-		(uuid "24e07198-5865-408b-a65e-faaab584802d")
-	)
-	(no_connect
 		(at 53.34 144.78)
 		(uuid "4d84f94c-a1a5-46a5-a32a-9cd1d5b2fdda")
 	)
@@ -3222,14 +3174,6 @@
 	(no_connect
 		(at 53.34 127)
 		(uuid "89ec2edd-2152-4f33-86c1-7b284b97c327")
-	)
-	(no_connect
-		(at 377.19 196.85)
-		(uuid "9a76ea6d-dcfd-4254-a8fd-c8fd611bf8a5")
-	)
-	(no_connect
-		(at 377.19 172.72)
-		(uuid "aa6cc496-3c75-425c-ae4e-e3b3925e7384")
 	)
 	(no_connect
 		(at 53.34 68.58)
@@ -3267,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 146.05) (xy 273.05 146.05)
+			(xy 222.25 146.05) (xy 237.49 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3347,7 +3291,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 203.2) (xy 295.91 203.2)
+			(xy 222.25 203.2) (xy 271.78 203.2)
 		)
 		(stroke
 			(width 0)
@@ -3357,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 38.1) (xy 284.48 38.1)
+			(xy 222.25 38.1) (xy 248.92 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3387,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 223.52) (xy 295.91 223.52)
+			(xy 222.25 223.52) (xy 271.78 223.52)
 		)
 		(stroke
 			(width 0)
@@ -3447,7 +3391,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 40.64) (xy 281.94 157.48)
+			(xy 246.38 40.64) (xy 246.38 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3547,7 +3491,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 114.3) (xy 247.65 137.16)
+			(xy 231.14 114.3) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3557,7 +3501,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 45.72) (xy 278.13 45.72)
+			(xy 222.25 45.72) (xy 242.57 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3577,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 163.83) (xy 287.02 30.48)
+			(xy 251.46 163.83) (xy 251.46 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3597,16 +3541,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 229.87) (xy 382.27 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36cbf437-e475-474a-ad58-b8a22e8b2e59")
-	)
-	(wire
-		(pts
 			(xy 115.57 215.9) (xy 176.53 215.9)
 		)
 		(stroke
@@ -3617,7 +3551,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 223.52) (xy 377.19 223.52)
+			(xy 309.88 236.22) (xy 330.2 236.22)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 30.48) (xy 240.03 30.48)
+			(xy 251.46 30.48) (xy 222.25 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3647,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 160.02) (xy 284.48 160.02)
+			(xy 222.25 160.02) (xy 248.92 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3687,7 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 163.83) (xy 287.02 163.83)
+			(xy 222.25 163.83) (xy 251.46 163.83)
 		)
 		(stroke
 			(width 0)
@@ -3697,7 +3631,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 190.5) (xy 295.91 190.5)
+			(xy 222.25 190.5) (xy 271.78 190.5)
 		)
 		(stroke
 			(width 0)
@@ -3717,7 +3651,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 157.48) (xy 281.94 157.48)
+			(xy 222.25 157.48) (xy 246.38 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3747,7 +3681,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 38.1) (xy 284.48 160.02)
+			(xy 248.92 38.1) (xy 248.92 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3767,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 207.01) (xy 295.91 207.01)
+			(xy 222.25 207.01) (xy 271.78 207.01)
 		)
 		(stroke
 			(width 0)
@@ -3777,7 +3711,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 200.66) (xy 295.91 200.66)
+			(xy 222.25 200.66) (xy 271.78 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3787,7 +3721,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 226.06) (xy 295.91 226.06)
+			(xy 222.25 226.06) (xy 271.78 226.06)
 		)
 		(stroke
 			(width 0)
@@ -3847,7 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 114.3) (xy 247.65 114.3)
+			(xy 222.25 114.3) (xy 231.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3877,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 218.44) (xy 377.19 218.44)
+			(xy 309.88 233.68) (xy 330.2 233.68)
 		)
 		(stroke
 			(width 0)
@@ -3897,7 +3831,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 187.96) (xy 295.91 187.96)
+			(xy 222.25 187.96) (xy 271.78 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3907,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 151.13) (xy 278.13 151.13)
+			(xy 222.25 151.13) (xy 242.57 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3934,16 +3868,6 @@
 			(type default)
 		)
 		(uuid "88eab7ab-27e8-451b-a98d-65aaea9fa931")
-	)
-	(wire
-		(pts
-			(xy 382.27 205.74) (xy 382.27 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89654129-07a5-48f1-8d28-58ac6d336ccf")
 	)
 	(wire
 		(pts
@@ -3977,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 48.26) (xy 275.59 48.26)
+			(xy 222.25 48.26) (xy 240.03 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4007,7 +3931,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 50.8) (xy 273.05 146.05)
+			(xy 237.49 50.8) (xy 237.49 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4037,7 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 220.98) (xy 295.91 220.98)
+			(xy 222.25 220.98) (xy 271.78 220.98)
 		)
 		(stroke
 			(width 0)
@@ -4077,23 +4001,13 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 151.13) (xy 278.13 45.72)
+			(xy 242.57 151.13) (xy 242.57 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a170fe1f-53cd-4df5-b3f2-8c4334d39c59")
-	)
-	(wire
-		(pts
-			(xy 382.27 181.61) (xy 382.27 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a48245e7-35e5-4b40-bea4-a2e4b84bf456")
 	)
 	(wire
 		(pts
@@ -4137,7 +4051,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 166.37) (xy 289.56 166.37)
+			(xy 222.25 166.37) (xy 254 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4147,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 50.8) (xy 273.05 50.8)
+			(xy 222.25 50.8) (xy 237.49 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4157,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 228.6) (xy 295.91 228.6)
+			(xy 222.25 228.6) (xy 271.78 228.6)
 		)
 		(stroke
 			(width 0)
@@ -4177,7 +4091,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 209.55) (xy 295.91 209.55)
+			(xy 222.25 209.55) (xy 271.78 209.55)
 		)
 		(stroke
 			(width 0)
@@ -4227,7 +4141,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 194.31) (xy 377.19 194.31)
+			(xy 309.88 209.55) (xy 330.2 209.55)
 		)
 		(stroke
 			(width 0)
@@ -4247,7 +4161,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 27.94) (xy 289.56 27.94)
+			(xy 222.25 27.94) (xy 254 27.94)
 		)
 		(stroke
 			(width 0)
@@ -4257,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 193.04) (xy 295.91 193.04)
+			(xy 222.25 193.04) (xy 271.78 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4307,7 +4221,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 148.59) (xy 275.59 148.59)
+			(xy 222.25 148.59) (xy 240.03 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4347,7 +4261,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 137.16) (xy 247.65 137.16)
+			(xy 222.25 137.16) (xy 231.14 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4357,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 199.39) (xy 377.19 199.39)
+			(xy 309.88 212.09) (xy 330.2 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4367,7 +4281,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 215.9) (xy 295.91 215.9)
+			(xy 222.25 215.9) (xy 271.78 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4417,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 40.64) (xy 281.94 40.64)
+			(xy 222.25 40.64) (xy 246.38 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4437,7 +4351,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 175.26) (xy 377.19 175.26)
+			(xy 309.88 187.96) (xy 330.2 187.96)
 		)
 		(stroke
 			(width 0)
@@ -4457,7 +4371,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 213.36) (xy 295.91 213.36)
+			(xy 222.25 213.36) (xy 271.78 213.36)
 		)
 		(stroke
 			(width 0)
@@ -4487,7 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 170.18) (xy 377.19 170.18)
+			(xy 309.88 185.42) (xy 330.2 185.42)
 		)
 		(stroke
 			(width 0)
@@ -4497,7 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 27.94) (xy 289.56 166.37)
+			(xy 254 27.94) (xy 254 166.37)
 		)
 		(stroke
 			(width 0)
@@ -4537,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 48.26) (xy 275.59 148.59)
+			(xy 240.03 48.26) (xy 240.03 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4586,7 +4500,7 @@
 		(uuid "20c30768-6d34-42aa-9d5d-a409095dfa9e")
 	)
 	(label "MT_X_OUT_B"
-		(at 377.19 170.18 180)
+		(at 330.2 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4596,7 +4510,7 @@
 		(uuid "2371a474-35b3-4907-8c51-ec78e466e6d0")
 	)
 	(label "MT_Z_OUT_A"
-		(at 375.92 223.52 180)
+		(at 328.93 236.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4616,7 +4530,7 @@
 		(uuid "4ed087d9-32cf-4572-9144-7f0e95a3522f")
 	)
 	(label "MT_Y_OUT_B"
-		(at 375.92 194.31 180)
+		(at 328.93 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4636,7 +4550,7 @@
 		(uuid "6b170703-6409-4c0c-ade1-a837b0f4ff87")
 	)
 	(label "MT_Y_OUT_A"
-		(at 375.92 199.39 180)
+		(at 328.93 212.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4706,7 +4620,7 @@
 		(uuid "bbd30303-0a2f-45c2-acb7-b456d232db26")
 	)
 	(label "MT_X_OUT_A"
-		(at 377.19 175.26 180)
+		(at 330.2 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4746,7 +4660,7 @@
 		(uuid "e2f866d7-0402-4528-8372-680d272e5ac7")
 	)
 	(label "MT_Z_OUT_B"
-		(at 375.92 218.44 180)
+		(at 328.93 233.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4834,86 +4748,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 382.27 229.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e196a72-2385-4dff-8d77-d01a6d6e885b")
-		(property "Reference" "#GND081"
-			(at 382.27 236.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 382.27 233.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0f27006-8637-4cbd-86fb-3f7b0e4708df")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#GND081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 382.27 172.72 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 335.28 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4923,7 +4759,17 @@
 		(dnp no)
 		(uuid "27ef7c25-aa9a-4070-9212-49e9c9a98d3f")
 		(property "Reference" "J5"
-			(at 384.81 171.4499 0)
+			(at 338.074 185.674 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S02B-PASK-2"
+			(at 337.058 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4933,19 +4779,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2121340003"
-			(at 384.81 173.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-2121340000-SD_03_MOL"
-			(at 382.27 172.72 0)
+		(property "Footprint" "oresat-connectors:JST-S02BPASK2LFSN"
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4955,8 +4790,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2121340003?display=pdf"
-			(at 382.27 172.72 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4966,8 +4801,8 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.039\" (1.00mm)"
-			(at 382.27 172.72 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,8 +4812,8 @@
 				)
 			)
 		)
-		(property "DPN" "900-2121340003CT-ND"
-			(at 382.27 172.72 0)
+		(property "DPN" "455-S02B-PASK-2-ND"
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4988,8 +4823,8 @@
 				)
 			)
 		)
-		(property "MFR" "Molex"
-			(at 382.27 172.72 0)
+		(property "MFR" "JST"
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4999,8 +4834,8 @@
 				)
 			)
 		)
-		(property "MPN" "2121340003"
-			(at 382.27 172.72 0)
+		(property "MPN" "S02B-PASK-2"
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5011,7 +4846,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 382.27 172.72 0)
+			(at 335.28 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5020,29 +4855,12 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "DIST" "DigiKey"
-			(at 382.27 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "92ca259c-e912-4722-91a9-969a72688f5d")
 		)
 		(pin "2"
 			(uuid "174dba80-12a4-443c-ad91-b07bc445719c")
 		)
 		(pin "1"
 			(uuid "10c76265-1c87-4909-90c1-779f96aa29f4")
-		)
-		(pin "MP"
-			(uuid "d30bdff8-31a8-4c07-af0f-3029f1f1d1a8")
 		)
 		(instances
 			(project "oresat-mag-card"
@@ -5377,84 +5195,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 382.27 205.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "692cc99f-b993-4b24-b851-9f605cd77378")
-		(property "Reference" "#GND099"
-			(at 382.27 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 382.27 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ed4ef50-1356-4513-b151-f7841af04014")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#GND099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-pcbs:ORESAT-CARD-V1.3-0RF")
 		(at 52.07 245.11 0)
 		(unit 1)
@@ -5750,8 +5490,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 382.27 196.85 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 335.28 209.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5761,7 +5501,17 @@
 		(dnp no)
 		(uuid "8d07f94b-f144-4bcd-b3ba-ff81bad32c31")
 		(property "Reference" "J4"
-			(at 384.81 195.5799 0)
+			(at 338.074 209.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S02B-PASK-2"
+			(at 336.804 211.836 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5771,19 +5521,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2121340003"
-			(at 384.81 198.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-2121340000-SD_03_MOL"
-			(at 382.27 196.85 0)
+		(property "Footprint" "oresat-connectors:JST-S02BPASK2LFSN"
+			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,8 +5532,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2121340003?display=pdf"
-			(at 382.27 196.85 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
+			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,8 +5543,8 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.039\" (1.00mm)"
-			(at 382.27 196.85 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,8 +5554,8 @@
 				)
 			)
 		)
-		(property "DPN" "900-2121340003CT-ND"
-			(at 382.27 196.85 0)
+		(property "DPN" "455-S02B-PASK-2-ND"
+			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,8 +5565,8 @@
 				)
 			)
 		)
-		(property "MFR" "Molex"
-			(at 382.27 196.85 0)
+		(property "MFR" "JST"
+			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5837,8 +5576,8 @@
 				)
 			)
 		)
-		(property "MPN" "2121340003"
-			(at 382.27 196.85 0)
+		(property "MPN" "S02B-PASK-2"
+			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5849,7 +5588,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 382.27 196.85 0)
+			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,8 +5598,8 @@
 				)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 382.27 196.85 0)
+		(property "DIST" ""
+			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5869,18 +5608,12 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "92ca259c-e912-4722-91a9-969a72688f5e")
 		)
 		(pin "2"
 			(uuid "174dba80-12a4-443c-ad91-b07bc445719d")
 		)
 		(pin "1"
 			(uuid "10c76265-1c87-4909-90c1-779f96aa29f5")
-		)
-		(pin "MP"
-			(uuid "7ab8ad70-c363-42f7-9e64-e1bc844f6a39")
 		)
 		(instances
 			(project "oresat-mag-card"
@@ -6383,84 +6116,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 382.27 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2522d54-8111-4a36-b4de-0b03f3265174")
-		(property "Reference" "#GND082"
-			(at 382.27 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 382.27 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.27 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9109607-808f-4907-a971-98eda13fa43b")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
-					(reference "#GND082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-connectors:ORESAT-DEBUG-CONNECTOR-3")
 		(at 105.41 217.17 0)
 		(unit 1)
@@ -6939,8 +6594,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
-		(at 382.27 220.98 0)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 335.28 233.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6950,7 +6605,17 @@
 		(dnp no)
 		(uuid "f3f13c3e-da0d-496c-8fea-b4b003876a61")
 		(property "Reference" "J3"
-			(at 1158.24 638.8099 0)
+			(at 338.074 233.934 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S02B-PASK-2"
+			(at 337.058 235.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6960,19 +6625,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2121340003"
-			(at 1158.24 641.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-2121340000-SD_03_MOL"
-			(at 1155.7 640.08 0)
+		(property "Footprint" "oresat-connectors:JST-S02BPASK2LFSN"
+			(at 335.28 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6982,8 +6636,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2121340003?display=pdf"
-			(at 1155.7 640.08 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"
+			(at 335.28 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6993,8 +6647,8 @@
 				)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.039\" (1.00mm)"
-			(at 1155.7 640.08 0)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 335.28 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,8 +6658,8 @@
 				)
 			)
 		)
-		(property "DPN" "900-2121340003CT-ND"
-			(at 1155.7 640.08 0)
+		(property "DPN" "455-S02B-PASK-2-ND"
+			(at 1108.71 652.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,8 +6669,8 @@
 				)
 			)
 		)
-		(property "MFR" "Molex"
-			(at 1155.7 640.08 0)
+		(property "MFR" "JST"
+			(at 1108.71 652.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7026,8 +6680,8 @@
 				)
 			)
 		)
-		(property "MPN" "2121340003"
-			(at 1155.7 640.08 0)
+		(property "MPN" "S02B-PASK-2"
+			(at 1108.71 652.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7038,7 +6692,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 382.27 220.98 0)
+			(at 335.28 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,8 +6702,8 @@
 				)
 			)
 		)
-		(property "DIST" "DigiKey"
-			(at 382.27 220.98 0)
+		(property "DIST" ""
+			(at 335.28 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7058,18 +6712,12 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "3"
-			(uuid "92ca259c-e912-4722-91a9-969a72688f5f")
 		)
 		(pin "2"
 			(uuid "174dba80-12a4-443c-ad91-b07bc445719e")
 		)
 		(pin "1"
 			(uuid "10c76265-1c87-4909-90c1-779f96aa29f6")
-		)
-		(pin "MP"
-			(uuid "9bd5c271-3c8f-44fc-966d-9100788e13e5")
 		)
 		(instances
 			(project "oresat-mag-card"
@@ -7082,7 +6730,7 @@
 	)
 	(sheet
 		(at 176.53 72.39)
-		(size 63.5 45.72)
+		(size 45.72 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7189,7 +6837,7 @@
 			)
 		)
 		(pin "BOOT_CONFIG" output
-			(at 240.03 114.3 0)
+			(at 222.25 114.3 0)
 			(uuid "7039ac2c-d584-4f9a-8157-56c8597b3018")
 			(effects
 				(font
@@ -7208,7 +6856,7 @@
 	)
 	(sheet
 		(at 176.53 20.32)
-		(size 63.5 44.45)
+		(size 45.72 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7244,7 +6892,7 @@
 			)
 		)
 		(pin "MAG_~{EN}" input
-			(at 240.03 38.1 0)
+			(at 222.25 38.1 0)
 			(uuid "04a64b90-bf26-417e-80e8-5ec3c43cd314")
 			(effects
 				(font
@@ -7254,7 +6902,7 @@
 			)
 		)
 		(pin "MAG_~{FAULT}" input
-			(at 240.03 40.64 0)
+			(at 222.25 40.64 0)
 			(uuid "44999662-0767-4ef5-8784-f757dede3de0")
 			(effects
 				(font
@@ -7284,7 +6932,7 @@
 			)
 		)
 		(pin "MAG_READY" output
-			(at 240.03 50.8 0)
+			(at 222.25 50.8 0)
 			(uuid "e2a37052-80f1-48aa-a622-124b74940ee6")
 			(effects
 				(font
@@ -7294,7 +6942,7 @@
 			)
 		)
 		(pin "MAG_SDA_uC" bidirectional
-			(at 240.03 48.26 0)
+			(at 222.25 48.26 0)
 			(uuid "92e6b956-a01a-4e52-ad2a-1d43e4c83fe7")
 			(effects
 				(font
@@ -7304,7 +6952,7 @@
 			)
 		)
 		(pin "MAG_SCL_uC" bidirectional
-			(at 240.03 45.72 0)
+			(at 222.25 45.72 0)
 			(uuid "9f1126ad-8856-4890-9284-62190c5f6e7a")
 			(effects
 				(font
@@ -7314,7 +6962,7 @@
 			)
 		)
 		(pin "IMU_INT2" output
-			(at 240.03 27.94 0)
+			(at 222.25 27.94 0)
 			(uuid "c457c7c2-fff0-43c4-b7a1-2c06a6d64462")
 			(effects
 				(font
@@ -7324,7 +6972,7 @@
 			)
 		)
 		(pin "IMU_INT1" output
-			(at 240.03 30.48 0)
+			(at 222.25 30.48 0)
 			(uuid "f34f6b9d-db40-4d18-9f2b-9b186a34c594")
 			(effects
 				(font
@@ -7343,7 +6991,7 @@
 	)
 	(sheet
 		(at 176.53 133.35)
-		(size 63.5 99.06)
+		(size 45.72 99.06)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7410,7 +7058,7 @@
 			)
 		)
 		(pin "MT_EN" input
-			(at 240.03 228.6 0)
+			(at 222.25 228.6 0)
 			(uuid "90d2cf2f-292b-449a-8d42-e91bb5ff05d7")
 			(effects
 				(font
@@ -7420,7 +7068,7 @@
 			)
 		)
 		(pin "MT_STBY{slash}RST" input
-			(at 240.03 226.06 0)
+			(at 222.25 226.06 0)
 			(uuid "d1aeff5a-603b-4236-809c-781de45de45c")
 			(effects
 				(font
@@ -7430,7 +7078,7 @@
 			)
 		)
 		(pin "MT_ILIM" output
-			(at 240.03 220.98 0)
+			(at 222.25 220.98 0)
 			(uuid "6bcc1063-a136-44c3-8b25-d8356338c7cd")
 			(effects
 				(font
@@ -7440,7 +7088,7 @@
 			)
 		)
 		(pin "MAG_~{EN}" input
-			(at 240.03 160.02 0)
+			(at 222.25 160.02 0)
 			(uuid "35f16ec3-be65-48c1-a395-5cfaa7009f03")
 			(effects
 				(font
@@ -7450,7 +7098,7 @@
 			)
 		)
 		(pin "MAG_~{FAULT}" input
-			(at 240.03 157.48 0)
+			(at 222.25 157.48 0)
 			(uuid "50d83588-e97c-4736-b4be-1dd08b90740d")
 			(effects
 				(font
@@ -7480,7 +7128,7 @@
 			)
 		)
 		(pin "MAG_READY" output
-			(at 240.03 146.05 0)
+			(at 222.25 146.05 0)
 			(uuid "c41db477-debe-4f37-80e7-c01ed8d6ab7e")
 			(effects
 				(font
@@ -7490,7 +7138,7 @@
 			)
 		)
 		(pin "MT_Z_ISENSE" input
-			(at 240.03 193.04 0)
+			(at 222.25 193.04 0)
 			(uuid "f23b4d0b-38e4-41b8-9fbe-0728b40428e1")
 			(effects
 				(font
@@ -7500,7 +7148,7 @@
 			)
 		)
 		(pin "MT_Y_ISENSE" input
-			(at 240.03 190.5 0)
+			(at 222.25 190.5 0)
 			(uuid "6538c2f2-c96d-48c8-8db0-ef40da757986")
 			(effects
 				(font
@@ -7510,7 +7158,7 @@
 			)
 		)
 		(pin "MT_X_ISENSE" input
-			(at 240.03 187.96 0)
+			(at 222.25 187.96 0)
 			(uuid "1a767212-10ba-490b-9cc0-1b9ffb1c99ee")
 			(effects
 				(font
@@ -7520,7 +7168,7 @@
 			)
 		)
 		(pin "MT_Y_PWM" output
-			(at 240.03 209.55 0)
+			(at 222.25 209.55 0)
 			(uuid "7f93de77-393f-4aea-86d5-e2461175e0cd")
 			(effects
 				(font
@@ -7530,7 +7178,7 @@
 			)
 		)
 		(pin "MT_Z_PWM" output
-			(at 240.03 203.2 0)
+			(at 222.25 203.2 0)
 			(uuid "615f6e6c-0a14-4ac8-92f9-342ff343c573")
 			(effects
 				(font
@@ -7540,7 +7188,7 @@
 			)
 		)
 		(pin "MT_X_PWM" output
-			(at 240.03 215.9 0)
+			(at 222.25 215.9 0)
 			(uuid "33c18486-91d2-46cc-92e1-f00ccab89e9f")
 			(effects
 				(font
@@ -7560,7 +7208,7 @@
 			)
 		)
 		(pin "MT_EN{slash}~{FAULT}" output
-			(at 240.03 223.52 0)
+			(at 222.25 223.52 0)
 			(uuid "06038d2b-9c3a-4e83-abd4-cf73ac414191")
 			(effects
 				(font
@@ -7570,7 +7218,7 @@
 			)
 		)
 		(pin "MT_Z_PHASE" output
-			(at 240.03 200.66 0)
+			(at 222.25 200.66 0)
 			(uuid "fcad1ed1-1b3c-4439-8a39-6fd91932881d")
 			(effects
 				(font
@@ -7580,7 +7228,7 @@
 			)
 		)
 		(pin "MT_Y_PHASE" output
-			(at 240.03 207.01 0)
+			(at 222.25 207.01 0)
 			(uuid "c29a605f-09a8-492d-bffd-abb43c2757fe")
 			(effects
 				(font
@@ -7590,7 +7238,7 @@
 			)
 		)
 		(pin "MT_X_PHASE" output
-			(at 240.03 213.36 0)
+			(at 222.25 213.36 0)
 			(uuid "65b63380-cace-4c82-9c1a-554a20753161")
 			(effects
 				(font
@@ -7600,7 +7248,7 @@
 			)
 		)
 		(pin "MAG_SDA_uC" bidirectional
-			(at 240.03 148.59 0)
+			(at 222.25 148.59 0)
 			(uuid "b62c2a6e-df8d-42d5-ae3c-7630a3b244e4")
 			(effects
 				(font
@@ -7610,7 +7258,7 @@
 			)
 		)
 		(pin "MAG_SCL_uC" bidirectional
-			(at 240.03 151.13 0)
+			(at 222.25 151.13 0)
 			(uuid "3f941018-d1e9-4875-b54e-0e8d6583d3d6")
 			(effects
 				(font
@@ -7620,7 +7268,7 @@
 			)
 		)
 		(pin "IMU_INT1" input
-			(at 240.03 163.83 0)
+			(at 222.25 163.83 0)
 			(uuid "886ce069-24e5-496a-ba30-56aff3b7fa1a")
 			(effects
 				(font
@@ -7630,7 +7278,7 @@
 			)
 		)
 		(pin "IMU_INT2" input
-			(at 240.03 166.37 0)
+			(at 222.25 166.37 0)
 			(uuid "5f559a72-aac9-4f9d-b5d1-2a859d9ceff5")
 			(effects
 				(font
@@ -7660,7 +7308,7 @@
 			)
 		)
 		(pin "BOOT_CONFIG" input
-			(at 240.03 137.16 0)
+			(at 222.25 137.16 0)
 			(uuid "fe4e57db-a2e5-4925-8c73-72f14f9609f9")
 			(effects
 				(font
@@ -7678,8 +7326,8 @@
 		)
 	)
 	(sheet
-		(at 295.91 166.37)
-		(size 60.96 63.5)
+		(at 271.78 175.26)
+		(size 38.1 67.31)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7693,7 +7341,7 @@
 		)
 		(uuid "ea4234c5-c7c7-400f-8e65-99a982be6ec1")
 		(property "Sheetname" "Magnetorquers"
-			(at 295.91 165.6584 0)
+			(at 271.78 174.5484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7704,7 +7352,7 @@
 			)
 		)
 		(property "Sheetfile" "oresat-mag-card-sch-magnetorquers.kicad_sch"
-			(at 295.91 231.394 0)
+			(at 265.176 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7715,7 +7363,7 @@
 			)
 		)
 		(pin "MT_Y_OUT_B" output
-			(at 356.87 194.31 0)
+			(at 309.88 209.55 0)
 			(uuid "b456e748-6ce0-40f9-84c1-d386c035abf5")
 			(effects
 				(font
@@ -7725,7 +7373,7 @@
 			)
 		)
 		(pin "MT_Y_OUT_A" output
-			(at 356.87 199.39 0)
+			(at 309.88 212.09 0)
 			(uuid "9e1635e1-9d4e-4896-8bcf-7deec5910596")
 			(effects
 				(font
@@ -7735,7 +7383,7 @@
 			)
 		)
 		(pin "MT_Z_OUT_B" output
-			(at 356.87 218.44 0)
+			(at 309.88 233.68 0)
 			(uuid "11aea1f5-a082-470d-a704-93320862fd87")
 			(effects
 				(font
@@ -7745,7 +7393,7 @@
 			)
 		)
 		(pin "MT_Z_OUT_A" output
-			(at 356.87 223.52 0)
+			(at 309.88 236.22 0)
 			(uuid "831396cb-c47d-417f-9ca6-2c750f365fa6")
 			(effects
 				(font
@@ -7755,7 +7403,7 @@
 			)
 		)
 		(pin "MT_X_OUT_A" output
-			(at 356.87 175.26 0)
+			(at 309.88 187.96 0)
 			(uuid "e410abb3-6c34-47f5-aa1d-9182d7f144ed")
 			(effects
 				(font
@@ -7765,7 +7413,7 @@
 			)
 		)
 		(pin "MT_X_OUT_B" output
-			(at 356.87 170.18 0)
+			(at 309.88 185.42 0)
 			(uuid "e0dc37a7-8864-41cc-84d1-67a6a0fe2c09")
 			(effects
 				(font
@@ -7775,7 +7423,7 @@
 			)
 		)
 		(pin "MT_X_ISENSE" output
-			(at 295.91 187.96 180)
+			(at 271.78 187.96 180)
 			(uuid "afc69374-a07d-47e6-9429-357dbcd47063")
 			(effects
 				(font
@@ -7785,7 +7433,7 @@
 			)
 		)
 		(pin "MT_Y_ISENSE" output
-			(at 295.91 190.5 180)
+			(at 271.78 190.5 180)
 			(uuid "850d951d-0dd7-4160-bdb5-7da49f9744bd")
 			(effects
 				(font
@@ -7795,7 +7443,7 @@
 			)
 		)
 		(pin "MT_Z_ISENSE" output
-			(at 295.91 193.04 180)
+			(at 271.78 193.04 180)
 			(uuid "ad7abdb2-dd3f-445d-80b6-50e81d035a6a")
 			(effects
 				(font
@@ -7805,7 +7453,7 @@
 			)
 		)
 		(pin "MT_Z_PHASE" input
-			(at 295.91 200.66 180)
+			(at 271.78 200.66 180)
 			(uuid "b5debdd0-ca55-432a-971d-4d8e3b2bf25f")
 			(effects
 				(font
@@ -7815,7 +7463,7 @@
 			)
 		)
 		(pin "MT_Z_PWM" input
-			(at 295.91 203.2 180)
+			(at 271.78 203.2 180)
 			(uuid "ae579107-83a8-44d5-8cd2-fd54111851d9")
 			(effects
 				(font
@@ -7825,7 +7473,7 @@
 			)
 		)
 		(pin "MT_Y_PHASE" input
-			(at 295.91 207.01 180)
+			(at 271.78 207.01 180)
 			(uuid "9bb37b97-6918-4690-9004-6af1d007b4d5")
 			(effects
 				(font
@@ -7835,7 +7483,7 @@
 			)
 		)
 		(pin "MT_Y_PWM" input
-			(at 295.91 209.55 180)
+			(at 271.78 209.55 180)
 			(uuid "25ffa042-52b7-4686-b948-52815bcbb404")
 			(effects
 				(font
@@ -7845,7 +7493,7 @@
 			)
 		)
 		(pin "MT_X_PHASE" input
-			(at 295.91 213.36 180)
+			(at 271.78 213.36 180)
 			(uuid "b7a25e7b-3055-46f5-ab65-00bfd9c29860")
 			(effects
 				(font
@@ -7855,7 +7503,7 @@
 			)
 		)
 		(pin "MT_X_PWM" input
-			(at 295.91 215.9 180)
+			(at 271.78 215.9 180)
 			(uuid "214c143d-491c-46ad-b888-e68c9096f9ae")
 			(effects
 				(font
@@ -7865,7 +7513,7 @@
 			)
 		)
 		(pin "MT_STBY{slash}RST" input
-			(at 295.91 226.06 180)
+			(at 271.78 226.06 180)
 			(uuid "ace4489e-590d-4a00-a908-c4e879e14d5e")
 			(effects
 				(font
@@ -7875,7 +7523,7 @@
 			)
 		)
 		(pin "MT_ILIM" input
-			(at 295.91 220.98 180)
+			(at 271.78 220.98 180)
 			(uuid "23223844-2cff-4f02-9c58-f73285cd80eb")
 			(effects
 				(font
@@ -7885,7 +7533,7 @@
 			)
 		)
 		(pin "MT_EN" input
-			(at 295.91 228.6 180)
+			(at 271.78 228.6 180)
 			(uuid "956305a9-80a0-4a79-8595-9736f40a4f6a")
 			(effects
 				(font
@@ -7895,7 +7543,7 @@
 			)
 		)
 		(pin "MT_EN{slash}~{FAULT}" input
-			(at 295.91 223.52 180)
+			(at 271.78 223.52 180)
 			(uuid "18b25be9-64b1-4454-9ad7-b1b03dbad56f")
 			(effects
 				(font
