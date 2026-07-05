@@ -1393,8 +1393,8 @@
 		)
 	)
 	(rectangle
-		(start 215.9 44.45)
-		(end 252.73 55.88)
+		(start 215.138 41.402)
+		(end 251.968 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -1402,11 +1402,11 @@
 		(fill
 			(type none)
 		)
-		(uuid "27718512-27e8-4510-acae-dae1a34075bf")
+		(uuid "4d4eb9f9-b042-4d26-8f65-73600864dca7")
 	)
 	(rectangle
-		(start 213.868 191.262)
-		(end 250.698 202.692)
+		(start 213.868 188.722)
+		(end 250.698 207.01)
 		(stroke
 			(width 0)
 			(type default)
@@ -1417,8 +1417,8 @@
 		(uuid "b63efc2f-d1d4-4e6f-969c-0ffed2b66ed8")
 	)
 	(rectangle
-		(start 326.39 130.81)
-		(end 363.22 142.24)
+		(start 326.39 127)
+		(end 363.22 144.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -1537,9 +1537,9 @@
 		)
 		(uuid "612a247f-f086-471d-a23c-a40cce89e98f")
 	)
-	(text "X/Y \"Rod\" Magnetorquer\n\n30 AWG with Kapton insulation\nNumber of wire turns: 1700 +/- 2%\nTotal resistance: 151 ohm +/- 10%\n"
+	(text "X/Y \"Rod\" Magnetorquer\n\n30 AWG with Kapton insulation\nNumber of wire turns: 1700 +/- 2%\nTotal resistance: 151 ohm +/- 10%\n\nImax at Vbus = 8.2 V is 54 mA\nPmax = 0.45 W\n"
 		(exclude_from_sim no)
-		(at 232.41 196.85 0)
+		(at 232.41 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1591,7 +1591,7 @@
 		)
 		(uuid "8515e876-ed39-4ffa-9f16-78fd158e5feb")
 	)
-	(text "Z \"Ring\" Magnetorquer\n\n30 AWG with Kapton insulation\nNumber of wire turns: 500 +/- 1%\nTotal resistance: 60 ohm +/- 10%\n"
+	(text "Z \"Ring\" Magnetorquer\n\n30 AWG with Kapton insulation\nNumber of wire turns: 500 +/- 1%\nTotal resistance: 60 ohm +/- 10%\n\nImax at Vbus = 8.2 V is 164 mA\nPmax = 1.35 W"
 		(exclude_from_sim no)
 		(at 344.932 136.398 0)
 		(effects
@@ -1655,6 +1655,16 @@
 			)
 		)
 		(uuid "9f8ee8dc-341d-4ca0-b127-6ae789ac2542")
+	)
+	(text "X/Y \"Rod\" Magnetorquer\n\n30 AWG with Kapton insulation\nNumber of wire turns: 1700 +/- 2%\nTotal resistance: 151 ohm +/- 10%\n\nImax at Vbus = 8.2 V is 54 mA\nPmax = 0.45 W\n"
+		(exclude_from_sim no)
+		(at 233.68 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b26014d6-d7f0-4878-af99-031680600820")
 	)
 	(text "50x gain amp"
 		(exclude_from_sim no)
@@ -1721,16 +1731,6 @@
 			(justify left bottom)
 		)
 		(uuid "c54bf9e7-79d2-4de4-a0eb-c5457dcb054e")
-	)
-	(text "X/Y \"Rod\" Magnetorquer\n\n30 AWG with Kapton insulation\nNumber of wire turns: 1700 +/- 2%\nTotal resistance: 151 ohm +/- 10%\n"
-		(exclude_from_sim no)
-		(at 234.442 50.038 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ca312c70-7162-49ce-9c31-10b0e4f0efe6")
 	)
 	(text "0805"
 		(exclude_from_sim no)

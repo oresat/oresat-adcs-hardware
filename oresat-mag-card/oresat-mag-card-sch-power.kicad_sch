@@ -4341,16 +4341,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Sets current limit to 2A\n"
+	(text "Sets current limit to 985 mA\n(Link to Calculations)\n"
 		(exclude_from_sim no)
-		(at 295.402 49.276 0)
+		(at 304.292 49.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
+			(href "https://docs.google.com/spreadsheets/d/1PE7U5m56bN0CZ0h20G8QKrn_dD4fJunBUuOQCO6Czg8/edit?usp=sharing")
 		)
 		(uuid "0ed5b7c7-a1ea-448c-8a32-6ff99594e622")
 	)
@@ -4415,10 +4416,10 @@
 	)
 	(text "1206"
 		(exclude_from_sim no)
-		(at 271.78 45.72 0)
+		(at 272.796 40.386 0)
 		(effects
 			(font
-				(size 1.778 1.5113)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
@@ -4528,6 +4529,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06dda285-c680-42c4-8e78-01fec3b11192")
+	)
+	(junction
+		(at 224.79 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08deb7a3-e941-4fd7-aefa-aefcc0874989")
 	)
 	(junction
 		(at 368.3 180.34)
@@ -4660,6 +4667,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4881f9ed-b141-4a5c-b5e6-8a7c4f49d1ee")
+	)
+	(junction
+		(at 229.87 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d42dd6e-0f0c-46a4-b6b1-3dd04e21b0ce")
 	)
 	(junction
 		(at 323.85 67.31)
@@ -4900,6 +4913,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d682aa65-e29a-46ce-8d4f-dd4934c5442a")
+	)
+	(junction
+		(at 219.71 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d810cc77-afbf-4419-8381-4e325619b5a7")
 	)
 	(junction
 		(at 119.38 208.28)
@@ -5363,6 +5382,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 195.58) (xy 214.63 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "204970f2-930e-4865-bd96-67b88501e8b4")
+	)
+	(wire
+		(pts
 			(xy 316.23 187.96) (xy 306.07 187.96)
 		)
 		(stroke
@@ -5640,6 +5669,16 @@
 			(type default)
 		)
 		(uuid "38dc1222-8876-4a43-aeac-9a57750b2e26")
+	)
+	(wire
+		(pts
+			(xy 234.95 195.58) (xy 234.95 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fa6bc1-e3c7-48bf-acb9-b7d1900adef3")
 	)
 	(wire
 		(pts
@@ -6503,6 +6542,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 198.12) (xy 224.79 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b361fe0-bc3f-4f2b-83a3-b7df4720a4a4")
+	)
+	(wire
+		(pts
 			(xy 288.29 54.61) (xy 316.23 54.61)
 		)
 		(stroke
@@ -6653,6 +6702,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 198.12) (xy 229.87 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a19946b-af52-4534-baa2-70af0c6dd2b2")
+	)
+	(wire
+		(pts
 			(xy 388.62 38.1) (xy 388.62 41.91)
 		)
 		(stroke
@@ -6750,6 +6809,16 @@
 			(type default)
 		)
 		(uuid "8f9bdfa9-bfcb-4b59-af15-61740c60dcff")
+	)
+	(wire
+		(pts
+			(xy 214.63 198.12) (xy 219.71 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916435df-02a5-41e3-8ce5-4909d49dd773")
 	)
 	(wire
 		(pts
@@ -6973,6 +7042,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 198.12) (xy 224.79 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a3ea89-f1e8-4917-b4f6-9c8a0eb7aed4")
+	)
+	(wire
+		(pts
 			(xy 328.93 198.12) (xy 326.39 198.12)
 		)
 		(stroke
@@ -7000,6 +7079,16 @@
 			(type default)
 		)
 		(uuid "ac1409f3-bab6-4dd3-8c91-a7bea8c84a1d")
+	)
+	(wire
+		(pts
+			(xy 224.79 195.58) (xy 224.79 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7cbb0e-4f6a-4f12-a2c5-6b8ace011ab1")
 	)
 	(wire
 		(pts
@@ -7060,6 +7149,16 @@
 			(type default)
 		)
 		(uuid "b2333f9a-b72e-4e9a-bc2d-75332f0a14dd")
+	)
+	(wire
+		(pts
+			(xy 229.87 195.58) (xy 229.87 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37a1186-448d-4c11-a77e-22aa215270d0")
 	)
 	(wire
 		(pts
@@ -7150,6 +7249,16 @@
 			(type default)
 		)
 		(uuid "bdc75c17-1890-47ca-ad6f-171e5faa66f1")
+	)
+	(wire
+		(pts
+			(xy 219.71 195.58) (xy 219.71 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd6a791-fc2a-435b-8063-1adc54135183")
 	)
 	(wire
 		(pts
@@ -7440,6 +7549,16 @@
 			(type default)
 		)
 		(uuid "d9e6cf50-c758-4b22-a1c4-52ebdf9f7db5")
+	)
+	(wire
+		(pts
+			(xy 224.79 198.12) (xy 219.71 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da611899-5e05-4577-9b17-581374e02f83")
 	)
 	(wire
 		(pts
@@ -8442,6 +8561,84 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
+		(at 224.79 199.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09d021f9-3253-41b6-87f4-14c09444a002")
+		(property "Reference" "#GND081"
+			(at 224.79 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "099fdd31-f23d-483d-84b3-b26ff2ac009f")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "#GND081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
 		(at 234.95 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -9137,6 +9334,94 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 214.63 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a5221a0-8324-45bf-8296-e86360fcf8c9")
+		(property "Reference" "TP6"
+			(at 214.63 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 214.63 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 214.63 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 214.63 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" ""
+			(at 214.63 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "361965bf-88a0-45d9-9d79-1970f821cf53")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10166,6 +10451,94 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 219.71 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f23b9b7-2ef1-4208-9a6a-6c1f83b7af1e")
+		(property "Reference" "TP7"
+			(at 219.71 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 219.71 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 219.71 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 219.71 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" ""
+			(at 219.71 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9c69c3e-5528-4403-8f66-6498adceaf92")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 245.11 74.93 0)
@@ -10808,6 +11181,94 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 224.79 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "38cfdd94-78e4-41cb-a57e-cc7b16464c20")
+		(property "Reference" "TP8"
+			(at 224.79 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 224.79 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 224.79 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 224.79 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" ""
+			(at 224.79 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd7930f0-8b7a-4c86-bd00-f1de6d15ec29")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 62.23 92.71 0)
 		(mirror x)
@@ -11416,7 +11877,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "100"
 			(at 43.688 46.228 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11449,7 +11910,7 @@
 				)
 			)
 		)
-		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 45.72 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11460,7 +11921,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT10R0CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 45.72 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -11482,7 +11943,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT10R0"
+		(property "MPN" "RMCF0603FT100R"
 			(at 45.72 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -13723,7 +14184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "100"
 			(at 316.738 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13756,7 +14217,7 @@
 				)
 			)
 		)
-		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 318.77 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -13767,7 +14228,7 @@
 				)
 			)
 		)
-		(property "DPN" "RMCF0603FT4K70CT-ND"
+		(property "DPN" "RMCF0603FT100RCT-ND"
 			(at 318.77 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -13789,7 +14250,7 @@
 				)
 			)
 		)
-		(property "MPN" "RMCF0603FT4K70"
+		(property "MPN" "RMCF0603FT100R"
 			(at 318.77 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -13846,7 +14307,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "68c9f7b0-3a4f-4ea2-97a6-0f0cda9006eb")
 		(property "Reference" "R38"
 			(at 332.994 58.674 0)
@@ -14727,6 +15188,94 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
 					(reference "#VPD02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 229.87 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a619a67-dbce-4ae1-8b97-717523be9bcc")
+		(property "Reference" "TP9"
+			(at 229.87 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 229.87 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 229.87 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 229.87 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" ""
+			(at 229.87 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d688f87-84f8-4bce-98dd-6401c6ebef86")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -20349,7 +20898,7 @@
 		(dnp no)
 		(uuid "df48c6c7-bc14-462a-958f-55ac4f7397b6")
 		(property "Reference" "R31"
-			(at 277.876 39.878 90)
+			(at 277.368 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20360,7 +20909,7 @@
 			)
 		)
 		(property "Value" "30m"
-			(at 278.13 38.1 90)
+			(at 277.622 37.338 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22215,6 +22764,94 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
 					(reference "#VPD03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-0.75mm-th")
+		(at 234.95 195.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f82240f6-3a39-405d-9be6-a5365c48ebfa")
+		(property "Reference" "TP10"
+			(at 234.95 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 234.95 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
+			(at 234.95 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
+			(at 234.95 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" ""
+			(at 234.95 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b678f013-0d2c-4435-85a2-64592ff81da4")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/2e7c06c0-a412-4c3a-b490-9aec08573322"
+					(reference "TP10")
 					(unit 1)
 				)
 			)

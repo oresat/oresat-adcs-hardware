@@ -80,10 +80,8 @@ The OreSat Mag Card handles three things for the open source [OreSat CubeSat sys
   - PTH minimum annulus: 0.102 mm (4 mil) radius
 - Outline/Routing
   - Requires a 1.0 mm or smaller diameter routing bit
-- Slots
-  - There are no slots.
-- Cutouts
-  - There are one cutouts
+- Slots/Cutouts
+  - There is one cutout.
 - There are 3 fiducials on the top layer.
 - Panel tabs ("mouse bites")
    - Card edges must be smooth; no mouse bites or other intrusions into the card outline.
