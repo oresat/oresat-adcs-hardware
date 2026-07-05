@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "OreSat Mag Card")
-		(date "2026-06-28")
+		(date "2026-07-05")
 		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
@@ -106725,8 +106725,6 @@
 		(fill
 			(thermal_gap 0.127)
 			(thermal_bridge_width 0.5)
-			(smoothing fillet)
-			(radius 0.2)
 			(island_removal_mode 0)
 		)
 		(polygon
