@@ -1099,7 +1099,7 @@
         "uuid": "c58960d9-4cac-4036-ad2e-1aef26946dae"
       }
     ],
-    "used_designators": "TP6-10,#3V14,#GND81,#GND107-109",
+    "used_designators": "#VBUSP7,R77-78,TP6-10,#3V14,#GND81-82,#GND107-109",
     "variants": []
   },
   "sheets": [

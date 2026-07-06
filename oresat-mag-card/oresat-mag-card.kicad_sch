@@ -4856,6 +4856,17 @@
 				)
 			)
 		)
+		(property "DIST" "DigiKey"
+			(at 335.28 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "174dba80-12a4-443c-ad91-b07bc445719c")
 		)
@@ -5598,7 +5609,7 @@
 				)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
 			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -6702,7 +6713,7 @@
 				)
 			)
 		)
-		(property "DIST" ""
+		(property "DIST" "DigiKey"
 			(at 335.28 233.68 0)
 			(hide yes)
 			(show_name no)

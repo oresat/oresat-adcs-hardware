@@ -6476,8 +6476,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA185A2"
-			(at 191.77 91.4399 0)
+		(property "Value" "INA185A2Q"
+			(at 188.722 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6487,7 +6487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 204.47 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6498,7 +6498,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina185"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina185-q1.pdf?ts=1710233838265&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA185-Q1"
 			(at 207.01 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6509,7 +6509,7 @@
 				)
 			)
 		)
-		(property "Description" "Current Sense Amplifier 1 Circuit Rail-to-Rail SOT-563"
+		(property "Description" "Current Sense Amplifier 1 Circuit Single Ended, Rail-to-Rail SC-70-6"
 			(at 203.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6520,7 +6520,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-INA185A2IDRLRCT-ND"
+		(property "DPN" "296-INA185A2QDCKRQ1CT-ND"
 			(at 203.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -6542,7 +6542,7 @@
 				)
 			)
 		)
-		(property "MPN" "INA185A2IDRLR"
+		(property "MPN" "INA185A2QDCKRQ1"
 			(at 203.2 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11385,8 +11385,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA185A2"
-			(at 293.37 179.0699 0)
+		(property "Value" "INA185A2Q"
+			(at 290.322 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11396,7 +11396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 306.07 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11407,7 +11407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina185"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina185-q1.pdf?ts=1710233838265&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA185-Q1"
 			(at 308.61 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -11418,7 +11418,7 @@
 				)
 			)
 		)
-		(property "Description" "Current Sense Amplifier 1 Circuit Rail-to-Rail SOT-563"
+		(property "Description" "Current Sense Amplifier 1 Circuit Single Ended, Rail-to-Rail SC-70-6"
 			(at 304.8 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11429,7 +11429,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-INA185A2IDRLRCT-ND"
+		(property "DPN" "296-INA185A2QDCKRQ1CT-ND"
 			(at 304.8 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11451,7 +11451,7 @@
 				)
 			)
 		)
-		(property "MPN" "INA185A2IDRLR"
+		(property "MPN" "INA185A2QDCKRQ1"
 			(at 304.8 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -15204,8 +15204,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA185A2"
-			(at 191.77 238.7599 0)
+		(property "Value" "INA185A2Q"
+			(at 187.96 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15215,7 +15215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 204.47 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -15226,7 +15226,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fina185"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina185-q1.pdf?ts=1710233838265&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA185-Q1"
 			(at 207.01 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15237,7 +15237,7 @@
 				)
 			)
 		)
-		(property "Description" "Current Sense Amplifier 1 Circuit Rail-to-Rail SOT-563"
+		(property "Description" "Current Sense Amplifier 1 Circuit Single Ended, Rail-to-Rail SC-70-6"
 			(at 203.2 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -15248,7 +15248,7 @@
 				)
 			)
 		)
-		(property "DPN" "296-INA185A2IDRLRCT-ND"
+		(property "DPN" "296-INA185A2QDCKRQ1CT-ND"
 			(at 203.2 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -15270,7 +15270,7 @@
 				)
 			)
 		)
-		(property "MPN" "INA185A2IDRLR"
+		(property "MPN" "INA185A2QDCKRQ1"
 			(at 203.2 231.14 0)
 			(hide yes)
 			(show_name no)

@@ -8430,7 +8430,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "DMP2240UDM-7"
+		(property "Value" "DMP2110UVTQ-7"
 			(at 70.358 223.012 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8452,7 +8452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2110UVTQ.pdf"
 			(at 73.66 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -8463,7 +8463,7 @@
 				)
 			)
 		)
-		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 20V 1.8A (Ta) 740mW (Ta) Surface Mount TSOT-26"
 			(at 73.66 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -8485,7 +8485,7 @@
 				)
 			)
 		)
-		(property "DPN" "DMP2240UDMDICT-ND"
+		(property "DPN" "31-DMP2110UVTQ-7CT-ND"
 			(at 73.66 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -8496,7 +8496,7 @@
 				)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MFR" "Diodes Incorporated"
 			(at 73.66 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -8508,7 +8508,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMP2240UDM-7"
+		(property "MPN" "DMP2110UVTQ-7"
 			(at 73.66 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -9449,7 +9449,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "DMN3028LQ-7"
+		(property "Value" "DMN2050LQ-7"
 			(at 352.552 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9471,7 +9471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3028LQ.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN2050LQ.pdf"
 			(at 368.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9482,7 +9482,7 @@
 				)
 			)
 		)
-		(property "Description" "N-Channel 30 V 6.2A (Ta) 860mW (Ta) Surface Mount SOT-23-3 (TO-236)"
+		(property "Description" "N-Channel 20 V 5.9A (Ta) 1.4W Surface Mount SOT-23-3"
 			(at 368.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9505,7 +9505,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "31-DMN3028LQ-7CT-ND"
+		(property "DPN" "31-DMN2050LQ-7CT-ND"
 			(at 368.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9529,7 +9529,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMN3028LQ-7"
+		(property "MPN" "DMN2050LQ-7"
 			(at 368.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -18411,7 +18411,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "DMP2240UDM-7"
+		(property "Value" "DMP2110UVTQ-7"
 			(at 70.866 178.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18433,7 +18433,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31197.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2110UVTQ.pdf"
 			(at 73.66 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18444,7 +18444,7 @@
 				)
 			)
 		)
-		(property "Description" "Mosfet Array 2 P-Channel (Dual) 20V 2A 600mW Surface Mount SOT-26"
+		(property "Description" "Mosfet Array 20V 1.8A (Ta) 740mW (Ta) Surface Mount TSOT-26"
 			(at 73.66 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18467,7 +18467,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "DMP2240UDMDICT-ND"
+		(property "DPN" "31-DMP2110UVTQ-7CT-ND"
 			(at 73.66 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18479,7 +18479,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MFR" "Diodes Inc"
+		(property "MFR" "Diodes Incorporated"
 			(at 73.66 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -18490,7 +18490,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMP2240UDM-7"
+		(property "MPN" "DMP2110UVTQ-7"
 			(at 73.66 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -21383,7 +21383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "DMN3028LQ-7"
+		(property "Value" "DMN2050LQ-7"
 			(at 199.39 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21405,7 +21405,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3028LQ.pdf"
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMN2050LQ.pdf"
 			(at 194.31 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21416,7 +21416,7 @@
 				)
 			)
 		)
-		(property "Description" "N-Channel 30 V 6.2A (Ta) 860mW (Ta) Surface Mount SOT-23-3 (TO-236)"
+		(property "Description" "N-Channel 20 V 5.9A (Ta) 1.4W Surface Mount SOT-23-3"
 			(at 194.31 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21439,7 +21439,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "DPN" "31-DMN3028LQ-7CT-ND"
+		(property "DPN" "31-DMN2050LQ-7CT-ND"
 			(at 194.31 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21463,7 +21463,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "DMN3028LQ-7"
+		(property "MPN" "DMN2050LQ-7"
 			(at 194.31 59.69 0)
 			(hide yes)
 			(show_name no)
