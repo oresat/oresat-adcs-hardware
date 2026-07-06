@@ -1591,7 +1591,7 @@
 		)
 		(uuid "8515e876-ed39-4ffa-9f16-78fd158e5feb")
 	)
-	(text "Z \"Ring\" Magnetorquer\n\n30 AWG with Kapton insulation\nNumber of wire turns: 500 +/- 1%\nTotal resistance: 60 ohm +/- 10%\n\nImax at Vbus = 8.2 V is 164 mA\nPmax = 1.35 W"
+	(text "Z \"Ring\" Magnetorquer\n\n30 AWG with Kapton insulation\nNumber of wire turns: 500 +/- 1%\nTotal resistance: 60 ohm +/- 10%\n\nImax at Vbus = 8.2 V is 137 mA\nPmax = 1.12 W"
 		(exclude_from_sim no)
 		(at 344.932 136.398 0)
 		(effects
