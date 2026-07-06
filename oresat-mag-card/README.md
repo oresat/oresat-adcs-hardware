@@ -74,8 +74,8 @@ The OreSat Mag Card handles three things for the open source [OreSat CubeSat sys
    - Drill Positional Tolerance: 0.051 mm (2.0 mil)
    - Drill Size tolerance: +/- 0.064 mm (2.5 mil)
 - Plated/Un-plated holes
-  - There are two un-plated (NPT) holes
-  - There are many plated through (PTH) holes
+  - There are 8 un-plated (NPT) holes
+  - There are 730 plated through (PTH) holes
   - PTH minimum diameter: 0.254 mm (10 mil)
   - PTH minimum annulus: 0.102 mm (4 mil) radius
 - Outline/Routing
@@ -145,8 +145,8 @@ The OreSat Mag Card handles three things for the open source [OreSat CubeSat sys
 
 ## Assembly Info
 
-- There are components on the top side of the board.
-- This PCBA is mostly surface mount (SMT) with a one through-hole (THT) component.
+- This PCBA is surface mount (SMT) components with 4 through-hole (TH) components.
+- Components are only on the top side of the board.
 
 ## Assembly Requirements
 
