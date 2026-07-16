@@ -1099,7 +1099,7 @@
         "uuid": "c58960d9-4cac-4036-ad2e-1aef26946dae"
       }
     ],
-    "used_designators": "#GND60-61,#GND111,C48,C50,U18,#3V21-22",
+    "used_designators": "#GND62",
     "variants": []
   },
   "sheets": [
