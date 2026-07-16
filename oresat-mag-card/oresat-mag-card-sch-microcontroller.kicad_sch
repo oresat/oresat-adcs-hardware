@@ -7930,6 +7930,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 148.59 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "4eb1ce1b-af92-4a53-8cd8-f44d033cf4aa")
 		)
@@ -8162,6 +8173,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 345.44 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a436d78f-37e3-48ea-a11e-8507fff8b97b")
 		)
@@ -8288,6 +8310,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 397.51 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 397.51 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8746,6 +8779,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 353.06 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b4f45977-4ab1-4fe6-9f71-a7ca58a0b312")
 		)
@@ -9043,6 +9087,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 115.57 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c01b0685-6354-4908-88b1-652c32e9422a")
 		)
@@ -9257,6 +9312,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 101.6 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "92cfa2e4-8230-45bb-b19d-6af420e4f8de")
 		)
@@ -9386,6 +9452,17 @@
 			)
 		)
 		(property "DIST" "Mouser"
+			(at 236.22 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9834,6 +9911,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 375.92 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f1f97c8b-320f-4fec-ac56-0a031f5fb456")
 		)
@@ -9960,6 +10048,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 377.19 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 377.19 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -10106,6 +10205,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 322.58 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af144d5a-fd70-42f8-9062-579becc25a56")
 		)
@@ -10232,6 +10342,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 330.2 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 330.2 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -10378,6 +10499,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 368.3 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad5d6d5d-ec91-41fc-9fc5-366e3e7b46cb")
 		)
@@ -10504,6 +10636,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 285.75 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 285.75 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10743,6 +10886,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 115.57 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "711d3a06-b3cf-48da-93fe-e4d864f51c5b")
 		)
@@ -10871,6 +11025,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 311.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 311.15 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11010,6 +11175,17 @@
 			)
 		)
 		(property "DIST" "Mouser"
+			(at 344.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 344.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11453,6 +11629,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 314.96 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "50674956-5322-441f-9dd9-59d5675b8f45")
 		)
@@ -11657,6 +11844,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 129.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 129.54 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11959,6 +12157,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 337.82 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "04f800f0-af18-48aa-b28b-8a04ae40dbeb")
 		)
@@ -12242,6 +12451,17 @@
 			)
 		)
 		(property "DIST" "Mouser"
+			(at 236.22 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -12687,6 +12907,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 311.15 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "248d6bb9-ba49-4ef0-a80b-7c91a3b20a98")
 		)
@@ -12811,6 +13042,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 95.25 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 95.25 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -13110,6 +13352,17 @@
 			)
 		)
 		(property "DIST" "Mouser"
+			(at 236.22 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 236.22 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13634,6 +13887,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 403.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ef9c50f-3fed-4491-a10c-b06f69f4abe8")
 		)
@@ -13841,6 +14105,17 @@
 			)
 		)
 		(property "DIST" "Mouser"
+			(at 237.49 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 237.49 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -14363,6 +14638,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 290.83 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb9fbe5b-1cbe-4ebd-9d81-6440ff4f07c2")
 		)
@@ -14657,6 +14943,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 288.29 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f8eadd4-4237-4da5-88b1-887ec1d34036")
 		)
@@ -14789,6 +15086,17 @@
 		)
 		(property "DIST" "DigiKey"
 			(at 129.54 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15090,6 +15398,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 374.65 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c58a7928-e9c1-4c2f-970c-388ac37267d8")
 		)
@@ -15294,6 +15613,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 389.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 389.89 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -15675,6 +16005,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 88.9 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eae69d4a-3849-46ea-81fc-577ed35a75fb")
 		)
@@ -15804,6 +16145,17 @@
 			)
 		)
 		(property "DIST" "Mouser"
+			(at 69.85 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 69.85 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16323,6 +16675,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 379.73 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 379.73 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16859,6 +17222,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 367.03 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cae02ec3-63b2-48ca-9523-beafa6b30583")
 		)
@@ -16985,6 +17359,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 163.83 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 163.83 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -17199,6 +17584,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 375.92 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 375.92 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -17492,6 +17888,17 @@
 			)
 		)
 		(property "DIST" "Mouser"
+			(at 69.85 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 69.85 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -17897,6 +18304,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 316.23 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f176481-6403-45bf-aeb0-3c206ac4eff2")
 		)
@@ -18098,6 +18516,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 360.68 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 360.68 252.73 0)
 			(hide yes)
 			(show_name no)

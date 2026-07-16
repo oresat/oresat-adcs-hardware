@@ -715,7 +715,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../oresat-rw-card/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "oresat-acs-card.step",
@@ -1099,7 +1099,7 @@
         "uuid": "c58960d9-4cac-4036-ad2e-1aef26946dae"
       }
     ],
-    "used_designators": "#GND99,#GND110",
+    "used_designators": "#GND60-61,#GND111,C48,C50,U18,#3V21-22",
     "variants": []
   },
   "sheets": [

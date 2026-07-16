@@ -4867,6 +4867,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 335.28 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "174dba80-12a4-443c-ad91-b07bc445719c")
 		)
@@ -5193,6 +5204,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 120.65 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17254d93-693c-4ace-88b8-6a322f93e94c")
 		)
@@ -5326,6 +5348,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 52.07 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae"
@@ -5403,6 +5436,17 @@
 			)
 		)
 		(property "DIST" ""
+			(at 40.64 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 40.64 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -5610,6 +5654,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 335.28 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 335.28 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -5833,6 +5888,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 48.26 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "19"
 			(uuid "0ebbbaea-4623-4361-b97a-b096a5c65bea")
 		)
@@ -6029,6 +6095,17 @@
 			)
 		)
 		(property "DIST" ""
+			(at 40.64 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 40.64 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -6236,6 +6313,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 105.41 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 105.41 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -6503,6 +6591,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 68.58 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dfb2f88e-3b23-4f65-bcf9-a83bb38f7836")
 		)
@@ -6585,6 +6684,17 @@
 			)
 		)
 		(property "DIST" ""
+			(at 40.64 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 40.64 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -6714,6 +6824,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 335.28 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 335.28 233.68 0)
 			(hide yes)
 			(show_name no)

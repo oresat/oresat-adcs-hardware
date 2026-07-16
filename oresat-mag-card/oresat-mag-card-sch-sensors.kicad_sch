@@ -764,386 +764,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-ics:ICM-42688-P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -20.32 16.002 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ICM-42688-P"
-				(at -20.32 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "oresat-ics:PQFN50P300X250X97-14N"
-				(at 0.508 20.066 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PARTREV" "1.2"
-				(at 0 28.448 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 26.162 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.97mm"
-				(at 0 24.13 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "TDK InvenSense"
-				(at -0.254 22.352 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "ICM-42688-P_0_0"
-				(rectangle
-					(start -20.32 15.24)
-					(end 20.32 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -7.62 0)
-					(length 5.08)
-					(name "AP_SDO/AP_AD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "RESV_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "RESV_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -25.4 7.62 0)
-					(length 5.08)
-					(name "INT1/INT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 10.16 180)
-					(length 5.08)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -15.24 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -10.16 180)
-					(length 5.08)
-					(name "RESV_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 12.7 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 5.08 0)
-					(length 5.08)
-					(name "INT2/FSYNC/CLKIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "RESV_10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "RESV_11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 0 0)
-					(length 5.08)
-					(name "AP_CS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -25.4 -2.54 0)
-					(length 5.08)
-					(name "AP_SCL/AP_SCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -5.08 0)
-					(length 5.08)
-					(name "AP_SDA/AP_SDIO/AP_SDI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-ics:LTC4300A-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1996,7 +1616,7 @@
 	)
 	(text "IMU (3 ACC + 3 GYRO)"
 		(exclude_from_sim no)
-		(at 220.726 45.212 0)
+		(at 220.98 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2061,40 +1681,10 @@
 		(uuid "035ac737-d202-4953-9395-ccd1d26fce11")
 	)
 	(junction
-		(at 356.87 87.63)
+		(at 276.86 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "05bae9a6-fbb9-4c89-b813-d3b8f747ea34")
-	)
-	(junction
-		(at 257.81 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09b604b6-5e75-40ed-9ed8-eb395c2fd532")
-	)
-	(junction
-		(at 370.84 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10430b15-af14-4bf2-9c2c-542f9f724c62")
-	)
-	(junction
-		(at 250.19 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10eb1002-3355-4201-96d3-88f233555f2a")
-	)
-	(junction
-		(at 269.24 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "296a9240-6d0c-43a8-a016-3f72021c9720")
-	)
-	(junction
-		(at 146.05 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3015e4f6-6f12-44ac-a619-e0f7bde9a755")
+		(uuid "22a07c87-af7a-43ed-b90b-9e73aeec80bb")
 	)
 	(junction
 		(at 204.47 198.12)
@@ -2103,10 +1693,10 @@
 		(uuid "352e8c6b-c067-4e2a-8604-eb340760d161")
 	)
 	(junction
-		(at 143.51 148.59)
+		(at 262.89 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4196ca34-b1b3-4676-9566-1315063a278e")
+		(uuid "3c020540-5ea3-4afa-a4b2-d99261b65946")
 	)
 	(junction
 		(at 255.27 148.59)
@@ -2115,28 +1705,22 @@
 		(uuid "5ff130df-f714-4356-a605-877de8bc34ec")
 	)
 	(junction
-		(at 250.19 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64de15b3-3b18-415b-b542-3ac4c7504b21")
-	)
-	(junction
 		(at 196.85 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68beaf17-d9f5-4354-9cb0-81ea632fb1bc")
 	)
 	(junction
-		(at 250.19 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7154fd72-8e8f-49de-92f3-39fdd0752cb1")
-	)
-	(junction
 		(at 241.3 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fa7d1de-394c-48ba-8384-2bb4d36430b7")
+	)
+	(junction
+		(at 276.86 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce81b84-eee7-485d-ba02-0fd9a7f09605")
 	)
 	(junction
 		(at 204.47 138.43)
@@ -2169,10 +1753,28 @@
 		(uuid "9faa7422-544b-4cb6-901e-4d852ff2a809")
 	)
 	(junction
+		(at 149.86 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a37a15de-0fed-4e18-a1d4-2dbda577d63e")
+	)
+	(junction
 		(at 264.16 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a54a380b-88d6-4575-8c6f-a4391b36b106")
+	)
+	(junction
+		(at 147.32 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6f72997-f460-469a-88a9-6bc84236606a")
+	)
+	(junction
+		(at 251.46 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c21b9dfe-3b7c-42fd-a8e1-3434d3135432")
 	)
 	(junction
 		(at 196.85 210.82)
@@ -2181,44 +1783,20 @@
 		(uuid "dcce3ec0-b85c-47ba-a1cb-aaa5b482d445")
 	)
 	(junction
+		(at 254 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd63f670-538d-4e81-b179-9a305d9ff8ac")
+	)
+	(junction
 		(at 247.65 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e73ad2de-0124-472b-90ff-b3bdc1951732")
 	)
-	(junction
-		(at 254 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb31d5a3-762a-44f4-8a78-e9b5f0d05826")
-	)
-	(junction
-		(at 260.35 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fad9e82d-58bc-41e8-bc3a-b5658f771cf6")
-	)
-	(no_connect
-		(at 246.38 69.85)
-		(uuid "7e6674a4-ffa9-4ba2-a3fb-19a75498efc9")
-	)
-	(no_connect
-		(at 246.38 72.39)
-		(uuid "cfe2e285-3359-4021-8595-5c57ead27f33")
-	)
 	(wire
 		(pts
-			(xy 250.19 85.09) (xy 250.19 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00779f5d-351a-4125-b3ee-5d68184ff2a6")
-	)
-	(wire
-		(pts
-			(xy 146.05 74.93) (xy 146.05 152.4)
+			(xy 149.86 81.28) (xy 149.86 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2228,13 +1806,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 39.37) (xy 254 39.37)
+			(xy 254 78.74) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "044a7546-cb74-4887-9db2-75a011eb0c22")
+		(uuid "0260e8ce-ac30-4539-97fb-d825e0c56251")
 	)
 	(wire
 		(pts
@@ -2248,7 +1826,17 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 92.71) (xy 370.84 92.71)
+			(xy 194.31 71.12) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05234e34-baad-47df-993c-b2510a939ae2")
+	)
+	(wire
+		(pts
+			(xy 247.65 91.44) (xy 255.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2268,6 +1856,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 53.34) (xy 276.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "057df01e-e578-4293-bd86-671c58a730d6")
+	)
+	(wire
+		(pts
+			(xy 181.61 76.2) (xy 181.61 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cada69-e93c-4644-b461-88447e9de485")
+	)
+	(wire
+		(pts
 			(xy 204.47 137.16) (xy 204.47 138.43)
 		)
 		(stroke
@@ -2278,33 +1886,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 74.93) (xy 250.19 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8aa4d9-47a9-457a-858b-9ea44b79deb4")
-	)
-	(wire
-		(pts
-			(xy 119.38 148.59) (xy 143.51 148.59)
+			(xy 119.38 148.59) (xy 147.32 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "10167e7e-54cc-4f4a-8c7e-ff73f769653a")
-	)
-	(wire
-		(pts
-			(xy 254 48.26) (xy 254 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14653c12-ab6d-4583-bf5b-70ae8a050b17")
 	)
 	(wire
 		(pts
@@ -2315,16 +1903,6 @@
 			(type default)
 		)
 		(uuid "14c5ffb8-9e94-431d-9381-0b16ee186032")
-	)
-	(wire
-		(pts
-			(xy 177.8 69.85) (xy 177.8 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1514af96-0e7c-4206-b1d1-7fb4e9f5b17c")
 	)
 	(wire
 		(pts
@@ -2348,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 85.09) (xy 370.84 92.71)
+			(xy 276.86 73.66) (xy 276.86 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2378,16 +1956,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 59.69) (xy 269.24 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d152590-1678-484c-8f28-c1a82b33033d")
-	)
-	(wire
-		(pts
 			(xy 264.16 152.4) (xy 267.97 152.4)
 		)
 		(stroke
@@ -2398,13 +1966,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 39.37) (xy 254 41.91)
+			(xy 147.32 148.59) (xy 208.28 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "24ac6832-3cfc-4681-b203-84df59f62be0")
+		(uuid "237482a4-2b9c-4185-a258-a29d8bd3262a")
 	)
 	(wire
 		(pts
@@ -2428,16 +1996,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 148.59) (xy 208.28 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a409d64-32cf-4dd1-ba12-f9580b5a3ae2")
-	)
-	(wire
-		(pts
 			(xy 189.23 198.12) (xy 189.23 201.93)
 		)
 		(stroke
@@ -2448,13 +2006,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 77.47) (xy 194.31 78.74)
+			(xy 247.65 76.2) (xy 251.46 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "377ad722-655e-4459-9872-e3b2cb33693a")
+		(uuid "3880690f-08b7-4f0e-b5c6-b09be3be3fab")
 	)
 	(wire
 		(pts
@@ -2468,17 +2026,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 74.93) (xy 250.19 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3abe848d-f596-442a-9268-d0c580e94df8")
-	)
-	(wire
-		(pts
-			(xy 341.63 67.31) (xy 370.84 67.31)
+			(xy 247.65 66.04) (xy 251.46 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2505,16 +2053,6 @@
 			(type default)
 		)
 		(uuid "3dc765b1-725d-4a62-a3b9-dac6ddc856a1")
-	)
-	(wire
-		(pts
-			(xy 246.38 85.09) (xy 250.19 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fe37e4b-7047-4b4b-b28b-c1ff2666620d")
 	)
 	(wire
 		(pts
@@ -2558,7 +2096,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 64.77) (xy 356.87 74.93)
+			(xy 262.89 63.5) (xy 262.89 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2568,23 +2106,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 77.47) (xy 194.31 77.47)
+			(xy 248.92 81.28) (xy 248.92 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f8fdb5c-aae3-4685-a417-e84453e76605")
-	)
-	(wire
-		(pts
-			(xy 260.35 46.99) (xy 260.35 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "552f0630-c483-45c6-a1d0-8a12a39e515b")
+		(uuid "4d95676a-467d-4374-a29e-f6cb972003d4")
 	)
 	(wire
 		(pts
@@ -2598,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 76.2) (xy 181.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5665668b-b213-49ec-8cdd-77d5bc355317")
+	)
+	(wire
+		(pts
 			(xy 264.16 140.97) (xy 264.16 152.4)
 		)
 		(stroke
@@ -2608,13 +2146,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 74.93) (xy 195.58 74.93)
+			(xy 147.32 78.74) (xy 196.85 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e69b3ae-79be-4b21-ae08-e2aefcee63bf")
+		(uuid "5c246cf6-a3ea-4b23-b8a2-5727cbcb16db")
 	)
 	(wire
 		(pts
@@ -2628,17 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 59.69) (xy 269.24 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d58971-f2fd-4db5-aba7-dc27117e06b2")
-	)
-	(wire
-		(pts
-			(xy 341.63 64.77) (xy 356.87 64.77)
+			(xy 247.65 63.5) (xy 262.89 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2648,17 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 152.4) (xy 208.28 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6773abbb-c7b5-4a39-8a3b-e03cafa5b0a5")
-	)
-	(wire
-		(pts
-			(xy 143.51 72.39) (xy 143.51 148.59)
+			(xy 147.32 78.74) (xy 147.32 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2688,13 +2206,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 58.42) (xy 269.24 59.69)
+			(xy 194.31 68.58) (xy 196.85 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70948cc7-ed33-432c-af46-31f90eb676cb")
+		(uuid "7010a24f-d5c7-4afd-bbfd-23dd65581e05")
 	)
 	(wire
 		(pts
@@ -2715,6 +2233,16 @@
 			(type default)
 		)
 		(uuid "710cd30c-f574-4d28-a895-4963401acf15")
+	)
+	(wire
+		(pts
+			(xy 247.65 83.82) (xy 248.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71db3ae0-07c7-4573-9c7a-e6a1519f3925")
 	)
 	(wire
 		(pts
@@ -2748,16 +2276,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 66.04) (xy 269.24 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7685cedc-b3bd-48e2-b68c-109d8ce47031")
-	)
-	(wire
-		(pts
 			(xy 204.47 138.43) (xy 208.28 138.43)
 		)
 		(stroke
@@ -2775,26 +2293,6 @@
 			(type default)
 		)
 		(uuid "78ebbecf-d1a6-45a7-b614-fd11b4df068d")
-	)
-	(wire
-		(pts
-			(xy 195.58 69.85) (xy 177.8 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79a311e3-edd4-4450-a8a7-802c6aeb156d")
-	)
-	(wire
-		(pts
-			(xy 143.51 72.39) (xy 195.58 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c1ea7b3-bd33-43a3-bec0-896153b59268")
 	)
 	(wire
 		(pts
@@ -2818,13 +2316,43 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 48.26) (xy 260.35 48.26)
+			(xy 251.46 66.04) (xy 251.46 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fd6f3eb-db69-4123-8a27-af4e21aec392")
+		(uuid "86ae2079-dead-4bd4-a66b-a50c3fc39f2b")
+	)
+	(wire
+		(pts
+			(xy 276.86 55.88) (xy 276.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89edd190-fbc8-46ea-a86f-997aaf26061f")
+	)
+	(wire
+		(pts
+			(xy 149.86 152.4) (xy 208.28 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89eea771-4110-4bc1-a8db-1a7e718073aa")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 276.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c102df5-a292-411c-a127-f584d4ad3288")
 	)
 	(wire
 		(pts
@@ -2848,16 +2376,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 62.23) (xy 191.77 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4ff998f-0f43-4389-a8d7-b2e546ce8da4")
-	)
-	(wire
-		(pts
 			(xy 196.85 207.01) (xy 196.85 210.82)
 		)
 		(stroke
@@ -2868,23 +2386,13 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 80.01) (xy 356.87 87.63)
+			(xy 262.89 73.66) (xy 262.89 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa8e9515-296d-4283-ba6d-d390b2545eca")
-	)
-	(wire
-		(pts
-			(xy 257.81 49.53) (xy 257.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ae2146-024c-4f5e-b1fa-bf3337e17ead")
 	)
 	(wire
 		(pts
@@ -2898,33 +2406,13 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 67.31) (xy 370.84 80.01)
+			(xy 276.86 66.04) (xy 276.86 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b4eddadb-8dad-4af9-822b-9a7def7424ae")
-	)
-	(wire
-		(pts
-			(xy 254 48.26) (xy 257.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6fdb107-fe88-4886-8b7f-252a5cb5444a")
-	)
-	(wire
-		(pts
-			(xy 370.84 92.71) (xy 370.84 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b71242ed-1e01-4e25-a4e5-f90da79528c4")
 	)
 	(wire
 		(pts
@@ -2938,16 +2426,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 80.01) (xy 246.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc784ef6-7191-45dc-8f49-29710b4b3c3a")
-	)
-	(wire
-		(pts
 			(xy 241.3 152.4) (xy 264.16 152.4)
 		)
 		(stroke
@@ -2958,17 +2436,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 38.1) (xy 260.35 39.37)
+			(xy 251.46 66.04) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c19af74e-ec1c-4daa-a662-37206d52d31f")
+		(uuid "bed98369-0958-4beb-89e8-faefccaa14f1")
 	)
 	(wire
 		(pts
-			(xy 119.38 152.4) (xy 146.05 152.4)
+			(xy 119.38 152.4) (xy 149.86 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2988,33 +2466,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 77.47) (xy 250.19 77.47)
+			(xy 247.65 78.74) (xy 254 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0fa2a3f-2a4d-4bec-bf39-64c418f0ef9e")
-	)
-	(wire
-		(pts
-			(xy 250.19 77.47) (xy 250.19 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d18ea59a-3eb8-410d-8c1b-dd054e8d64c7")
-	)
-	(wire
-		(pts
-			(xy 191.77 64.77) (xy 195.58 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d360322d-d8d2-4044-b162-1a2c10ffbc2a")
+		(uuid "d177a370-b93d-47f5-a3b6-76b5820296a0")
 	)
 	(wire
 		(pts
@@ -3038,23 +2496,23 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 85.09) (xy 250.19 80.01)
+			(xy 262.89 53.34) (xy 262.89 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d97a5047-0cc2-4fdb-8a5b-09fb74aa82aa")
+		(uuid "dc45e5d0-a3fa-413c-86c6-d5414a38b675")
 	)
 	(wire
 		(pts
-			(xy 177.8 59.69) (xy 177.8 58.42)
+			(xy 196.85 83.82) (xy 196.85 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dca83c54-3032-44e3-8a1c-9d17955a0165")
+		(uuid "e2f4f8ca-1f72-42e3-a6ba-44511242e892")
 	)
 	(wire
 		(pts
@@ -3068,13 +2526,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 39.37) (xy 260.35 41.91)
+			(xy 247.65 81.28) (xy 248.92 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e84fc536-60f0-4672-bd99-352eeed33c7a")
+		(uuid "e60bfd27-f161-47d0-855f-b5ef7720bc83")
 	)
 	(wire
 		(pts
@@ -3108,7 +2566,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 87.63) (xy 356.87 87.63)
+			(xy 247.65 86.36) (xy 255.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3118,23 +2576,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 39.37) (xy 260.35 39.37)
+			(xy 149.86 81.28) (xy 196.85 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb2bedf3-4535-49a7-a673-8b7bdafbf056")
-	)
-	(wire
-		(pts
-			(xy 246.38 57.15) (xy 246.38 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe1cdfa5-329d-45ab-a63c-f1590c7a3f92")
+		(uuid "fb086bc2-abf3-4635-874f-4c4f4848b247")
 	)
 	(wire
 		(pts
@@ -3156,6 +2604,16 @@
 		)
 		(uuid "ff7c55ca-34e9-49af-b082-5dc2c64f4d38")
 	)
+	(wire
+		(pts
+			(xy 254 66.04) (xy 276.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc87f4d-f1ca-4c7a-828f-e83857b19d2b")
+	)
 	(label "MAG_SCL_uC"
 		(at 132.08 148.59 180)
 		(effects
@@ -3166,15 +2624,15 @@
 		)
 		(uuid "1f843318-dff1-4df3-b7c8-942f62632055")
 	)
-	(label "MAG_SDA_uC"
-		(at 182.88 74.93 0)
+	(label "MAG_SCL_uC"
+		(at 181.61 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "91845e8f-cda4-42e1-9023-1095b9069c91")
+		(uuid "339a339f-e84a-4680-a56c-709d575ab1c8")
 	)
 	(label "MAG_SDA_uC"
 		(at 132.08 152.4 180)
@@ -3186,15 +2644,15 @@
 		)
 		(uuid "a95b13ed-9a2b-4c45-a94f-c4fe4f372778")
 	)
-	(label "MAG_SCL_uC"
-		(at 182.88 72.39 0)
+	(label "MAG_SDA_uC"
+		(at 181.61 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fe7446cb-d8d6-4771-a5cb-8907b425cf49")
+		(uuid "dc662bcc-eeb1-45d7-a7ad-54dfac54bb5e")
 	)
 	(hierarchical_label "MAG_SCL_uC"
 		(shape bidirectional)
@@ -3209,7 +2667,7 @@
 	)
 	(hierarchical_label "IMU_INT2"
 		(shape output)
-		(at 191.77 64.77 180)
+		(at 194.31 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3286,7 +2744,7 @@
 	)
 	(hierarchical_label "IMU_INT1"
 		(shape output)
-		(at 191.77 62.23 180)
+		(at 194.31 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3298,7 +2756,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 370.84 97.79 0)
+		(at 276.86 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3308,7 +2766,7 @@
 		(dnp no)
 		(uuid "0ffa8bb9-9aed-4ac7-a7f4-7c071171d1a2")
 		(property "Reference" "#GND099"
-			(at 370.84 104.14 0)
+			(at 276.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,7 +2777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 370.84 101.6 0)
+			(at 276.86 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3329,7 +2787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 97.79 0)
+			(at 276.86 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3340,7 +2798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 97.79 0)
+			(at 276.86 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3351,7 +2809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 97.79 0)
+			(at 276.86 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,8 +2910,9 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-power:3.3V")
-		(at 269.24 58.42 0)
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 255.27 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3461,10 +2920,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bdbdfdd-c0b6-4e3c-80c1-332e2eb558e1")
-		(property "Reference" "#3V016"
-			(at 269.24 62.23 0)
+		(uuid "1fa1a30b-6c83-4bac-b2da-12e2f16d4e66")
+		(property "Reference" "#GND061"
+			(at 255.27 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,8 +2932,8 @@
 				)
 			)
 		)
-		(property "Value" "3.3V"
-			(at 269.24 53.34 0)
+		(property "Value" "GND"
+			(at 255.27 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3485,7 +2943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 58.42 0)
+			(at 255.27 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +2954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 58.42 0)
+			(at 255.27 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,8 +2964,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 269.24 58.42 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,12 +2976,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e7534a18-854f-43db-aabc-b3cd2a5e4d9a")
+			(uuid "28779ee5-a154-4172-9fc7-bc3e3899bcba")
 		)
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "#3V016")
+					(reference "#GND061")
 					(unit 1)
 				)
 			)
@@ -3651,6 +3109,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 245.11 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44aa3f7d-49e4-43f3-acd1-afc0d41a41a3")
 		)
@@ -3661,84 +3130,6 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 269.24 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28f9d6ed-ce0c-4673-80ca-128ce818ff29")
-		(property "Reference" "#GND062"
-			(at 269.24 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c96c2c8-ca84-41e3-b6f2-6eb4c91ab321")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "#GND062")
 					(unit 1)
 				)
 			)
@@ -3855,6 +3246,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 264.16 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 264.16 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3991,6 +3393,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 236.22 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac83a63e-a412-44cd-87dd-b69bf050219c")
 		)
@@ -4084,541 +3497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 254 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37c61ee7-b8ef-47f6-8d30-73f16ee6197d")
-		(property "Reference" "C34"
-			(at 247.142 42.926 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 247.396 45.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "399-6856-1-ND"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "KEMET"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C0603C104K5RACAUTO"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 254 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ec45739-27c6-4a0f-947d-ac94c8e14b0c")
-		)
-		(pin "2"
-			(uuid "ee2e0585-e55d-4565-97fb-5347b47b4067")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-power:3.3V")
-		(at 177.8 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38053833-e078-491b-b14e-4a2d90a13e18")
-		(property "Reference" "#3V011"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 177.8 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 177.8 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6d40e0f-14b6-4b0d-9e88-defac18da740")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "#3V011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-ics:ICM-42688-P")
-		(at 220.98 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f358a9b-154e-4a9c-9580-9c02d9098083")
-		(property "Reference" "U9"
-			(at 220.98 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ICM-42688-P"
-			(at 220.98 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-ics:PQFN50P300X250X97-14N"
-			(at 221.488 49.784 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "http://invensense.tdk.com/download-pdf/icm-42688-p-datasheet/"
-			(at 220.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor Output"
-			(at 220.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 220.98 43.688 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "DPN" "1428-ICM-42688-PCT-ND"
-			(at 220.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "TDK InvenSense"
-			(at 220.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ICM-42688-P"
-			(at 220.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 220.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 220.98 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "a9d84019-db49-453f-8d6e-30557432ab60")
-		)
-		(pin "10"
-			(uuid "82a7c3fe-1884-4a06-a68f-4dfc5d831b04")
-		)
-		(pin "11"
-			(uuid "6dab8780-e370-442d-8a98-5ce08fb66198")
-		)
-		(pin "3"
-			(uuid "a98b6887-112f-46fb-852e-5fa786833400")
-		)
-		(pin "13"
-			(uuid "f1d69fa0-6a07-43cf-9d6c-0c911cafac47")
-		)
-		(pin "12"
-			(uuid "5e490780-25a7-4fcd-b67e-fbd94cd7c413")
-		)
-		(pin "14"
-			(uuid "1990f8fc-087e-4794-a8f5-abb84d6d9bb2")
-		)
-		(pin "1"
-			(uuid "1d364cf2-9f9a-479b-b467-4e7f6e27a7a6")
-		)
-		(pin "5"
-			(uuid "e95ee8e6-a696-4084-9886-c7488a737aeb")
-		)
-		(pin "2"
-			(uuid "dba12120-d726-4ec9-be71-53b181bdb303")
-		)
-		(pin "6"
-			(uuid "cd4b682b-bc85-45cc-80e5-3ae3b120ac8b")
-		)
-		(pin "7"
-			(uuid "ba863f0d-d97a-43ae-af2d-5aa7d9d704bb")
-		)
-		(pin "9"
-			(uuid "bbe707da-1819-4f63-b044-b48092cfbdb1")
-		)
-		(pin "8"
-			(uuid "ecc74244-4d56-45f8-a739-95b122eb08ef")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 269.24 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "402bd765-b0b7-4034-9473-8fdc9b4b3a29")
-		(property "Reference" "C36"
-			(at 271.78 62.2362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 271.78 64.7762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "399-12983-1-ND"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "KEMET"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "C0603C103J5RACAUTO"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 269.24 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65fcb001-0c29-4bae-a9ce-ff9e68c9e9ab")
-		)
-		(pin "2"
-			(uuid "383383d2-49df-47d8-8d40-5df829fd202c")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 241.3 152.4 0)
 		(mirror y)
@@ -4696,6 +3574,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 241.3 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc1252c7-ebb9-40d8-be08-a843a4c94732")
 		)
@@ -4703,162 +3592,6 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-power:3.3V")
-		(at 260.35 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "533ee188-da36-4aa9-968c-19a978b2876e")
-		(property "Reference" "#3V015"
-			(at 260.35 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 260.35 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 260.35 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 260.35 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05505321-b88a-43f8-9245-9ab18a3c09a8")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "#3V015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 250.19 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "557e8f5c-2660-4542-a4e8-0b9f6d4b8cac")
-		(property "Reference" "#GND060"
-			(at 250.19 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 250.19 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa4d9959-2913-4fb1-97c0-3375b223cc07")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "#GND060")
 					(unit 1)
 				)
 			)
@@ -4985,6 +3718,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 204.47 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb1fc925-4c3e-4318-82f6-05b3a689f916")
 		)
@@ -4995,142 +3739,6 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 177.8 62.23 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6403cc6e-c9ed-46e5-8d4c-f67a3fa28754")
-		(property "Reference" "R49"
-			(at 176.022 61.214 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 176.022 63.246 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "RMCF0603FT4K70CT-ND"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Stackpole Electronics"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RMCF0603FT4K70"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 177.8 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a4a0b5c-e173-40bb-aff2-29bc93c28308")
-		)
-		(pin "2"
-			(uuid "ba0ed9bc-99af-471b-ac33-5c0cd0779333")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5257,6 +3865,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 189.23 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5356ce4-894b-4e92-a764-8bb0c3396cc6")
 		)
@@ -5273,86 +3892,8 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 194.31 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7ed92d47-eb22-41d5-8bc1-129671d0273e")
-		(property "Reference" "#GND0107"
-			(at 194.31 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "272c23e0-e812-4b6c-9978-d939d5628ad9")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "#GND0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 356.87 77.47 0)
+		(at 262.89 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5362,8 +3903,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8082fdbc-9ef0-4505-8559-f75c17be89d5")
-		(property "Reference" "C?"
-			(at 359.41 76.2062 0)
+		(property "Reference" "C48"
+			(at 265.43 69.8562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5373,8 +3914,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 359.41 78.7462 0)
+		(property "Value" "100n"
+			(at 265.43 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5385,7 +3926,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 356.87 77.47 0)
+			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +3937,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
-			(at 356.87 77.47 0)
+			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +3948,7 @@
 			)
 		)
 		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 356.87 77.47 0)
+			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +3959,7 @@
 			)
 		)
 		(property "DPN" "399-12983-1-ND"
-			(at 356.87 77.47 0)
+			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5429,7 +3970,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 356.87 77.47 0)
+			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5440,7 +3981,7 @@
 			)
 		)
 		(property "MPN" "C0603C103J5RACAUTO"
-			(at 356.87 77.47 0)
+			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5451,7 +3992,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 356.87 77.47 0)
+			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5462,7 +4003,18 @@
 			)
 		)
 		(property "DIST" "DigiKey"
-			(at 356.87 77.47 0)
+			(at 262.89 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5481,7 +4033,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "C?")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -5489,7 +4041,7 @@
 	)
 	(symbol
 		(lib_id "oresat-ics:BMI270")
-		(at 314.96 59.69 0)
+		(at 220.98 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5497,10 +4049,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81a6b368-885d-41ab-a241-3e3eb037e630")
-		(property "Reference" "U?"
-			(at 316.23 59.69 0)
+		(property "Reference" "U18"
+			(at 220.98 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5509,8 +4060,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 314.96 59.69 0)
+		(property "Value" "BMI270"
+			(at 220.98 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5519,8 +4070,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 314.96 59.69 0)
+		(property "Footprint" "oresat-ics:PQFN50P300X250X97-14N"
+			(at 220.98 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5530,8 +4081,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 314.96 59.69 0)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi270-ds000.pdf"
+			(at 220.98 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5541,8 +4092,63 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 314.96 59.69 0)
+		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output"
+			(at 220.98 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 220.98 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIST" "DigiKey"
+			(at 220.98 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DPN" "828-1091-1-ND"
+			(at 220.98 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR" "Bosch Sensortec"
+			(at 220.98 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BMI270"
+			(at 220.98 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5597,7 +4203,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "U?")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -5837,6 +4443,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 247.65 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "78efed41-e771-4685-9ed7-969ca0150768")
 		)
@@ -5970,6 +4587,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 255.27 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb48d13b-381f-47b2-b850-2343721aba77")
 		)
@@ -5980,6 +4608,84 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 196.85 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9684d710-13f2-4bab-a976-219bdeca386d")
+		(property "Reference" "#GND0111"
+			(at 196.85 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "938cd30f-e3aa-4418-8fdb-9bc9c24addd2")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
+					(reference "#GND0111")
 					(unit 1)
 				)
 			)
@@ -6064,7 +4770,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 370.84 82.55 0)
+		(at 276.86 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6074,8 +4780,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a562a097-f321-4779-af40-a58bad692849")
-		(property "Reference" "C?"
-			(at 373.38 81.2862 0)
+		(property "Reference" "C50"
+			(at 279.4 69.8562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6085,8 +4791,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 373.38 83.8262 0)
+		(property "Value" "100n"
+			(at 279.4 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6097,7 +4803,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 370.84 82.55 0)
+			(at 276.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6108,7 +4814,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
-			(at 370.84 82.55 0)
+			(at 276.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6119,7 +4825,7 @@
 			)
 		)
 		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 370.84 82.55 0)
+			(at 276.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6130,7 +4836,7 @@
 			)
 		)
 		(property "DPN" "399-12983-1-ND"
-			(at 370.84 82.55 0)
+			(at 276.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6141,7 +4847,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 370.84 82.55 0)
+			(at 276.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6152,7 +4858,7 @@
 			)
 		)
 		(property "MPN" "C0603C103J5RACAUTO"
-			(at 370.84 82.55 0)
+			(at 276.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6163,7 +4869,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 370.84 82.55 0)
+			(at 276.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6174,7 +4880,18 @@
 			)
 		)
 		(property "DIST" "DigiKey"
-			(at 370.84 82.55 0)
+			(at 276.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 276.86 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +4910,7 @@
 		(instances
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "C?")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -6202,7 +4919,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 356.87 87.63 0)
+		(at 262.89 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6212,7 +4929,7 @@
 		(dnp no)
 		(uuid "a6406309-2f2e-430c-b455-bec4568adc9a")
 		(property "Reference" "#GND0110"
-			(at 356.87 93.98 0)
+			(at 262.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6223,7 +4940,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 356.87 91.44 0)
+			(at 262.89 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6233,7 +4950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 356.87 87.63 0)
+			(at 262.89 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6244,7 +4961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 356.87 87.63 0)
+			(at 262.89 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6255,7 +4972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 356.87 87.63 0)
+			(at 262.89 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6398,6 +5115,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 196.85 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "852308e9-0c08-4a32-9eb5-55bff1728b27")
 		)
@@ -6491,6 +5219,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 245.11 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6578cb58-475d-4fae-a17c-b3d341f997c9")
 		)
@@ -6498,6 +5237,84 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 255.27 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3bf3390-f04f-47ea-aacd-5913cb9a02be")
+		(property "Reference" "#GND060"
+			(at 255.27 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b186d52-7f29-4af5-9f51-96450522f52a")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
+					(reference "#GND060")
 					(unit 1)
 				)
 			)
@@ -6612,6 +5429,17 @@
 			)
 		)
 		(property "DIST" "DigiKey"
+			(at 222.25 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 222.25 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -6776,6 +5604,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 234.95 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "27e97d9b-fc41-4021-ab97-9be8fa2f3885")
 		)
@@ -6786,6 +5625,84 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:3.3V")
+		(at 276.86 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b934a229-d290-42a0-8772-1c4b6afcc532")
+		(property "Reference" "#3V022"
+			(at 276.86 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 276.86 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 276.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbe7c7b2-2bd8-421e-af22-d10e8c389a21")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
+					(reference "#3V022")
 					(unit 1)
 				)
 			)
@@ -6989,6 +5906,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 215.9 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb6c803c-d806-4ebc-a86a-52ac9aa9b928")
 		)
@@ -6999,6 +5927,84 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:3.3V")
+		(at 262.89 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be699aa0-5c90-49dd-8be3-0b5dfc2f9ad1")
+		(property "Reference" "#3V021"
+			(at 262.89 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 262.89 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 262.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93a27726-945a-4a82-acc0-1b464211354c")
+		)
+		(instances
+			(project "oresat-mag-card"
+				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
+					(reference "#3V021")
 					(unit 1)
 				)
 			)
@@ -7237,6 +6243,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 189.23 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14e7ec77-c9a6-46f9-9cb8-b61cf1563625")
 		)
@@ -7395,6 +6412,17 @@
 			)
 		)
 		(property "DIST" ""
+			(at 196.85 210.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
 			(at 196.85 210.82 90)
 			(hide yes)
 			(show_name no)
@@ -7617,6 +6645,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 204.47 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73f29b88-cd65-4e6e-984b-84473990040b")
 		)
@@ -7627,84 +6666,6 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 257.81 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f26885d6-545b-40af-ba38-1fbc2f0a0800")
-		(property "Reference" "#GND061"
-			(at 257.81 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a1dc937-246e-4600-9e99-59be0e832702")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "#GND061")
 					(unit 1)
 				)
 			)
@@ -7910,6 +6871,17 @@
 				)
 			)
 		)
+		(property "STANDARD" ""
+			(at 220.98 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "79e38f5a-6a33-4012-828f-d9b8f1da3ba5")
 		)
@@ -8016,143 +6988,6 @@
 			(project "oresat-mag-card"
 				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
 					(reference "#3V012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 260.35 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc46edf5-6ae1-4bed-a8bc-e212b1713c8d")
-		(property "Reference" "C35"
-			(at 262.89 43.1862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 262.89 45.7262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 260.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188C71E225KE13-01.pdf"
-			(at 260.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2.2 µF ±10% 25V Ceramic Capacitor X7S 0603 (1608 Metric)"
-			(at 260.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DPN" "490-GRT188C71E225KE13DCT-ND"
-			(at 260.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 260.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GRT188C71E225KE13D"
-			(at 260.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 260.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIST" "DigiKey"
-			(at 260.35 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aaaaac93-e56e-4d9d-8cb8-a88b8d29d353")
-		)
-		(pin "2"
-			(uuid "bde943d0-1ee1-4c39-87bf-875a7890573e")
-		)
-		(instances
-			(project "oresat-mag-card"
-				(path "/c58960d9-4cac-4036-ad2e-1aef26946dae/a4e22a47-8081-427b-a284-fdb057c6b905"
-					(reference "C35")
 					(unit 1)
 				)
 			)
