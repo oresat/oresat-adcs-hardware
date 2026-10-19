@@ -4057,6 +4057,12 @@
 		(uuid "275d0293-08ee-42c2-a359-f8e653229a6b")
 	)
 	(junction
+		(at 347.98 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30c640db-6651-4919-9b8e-cced8eb45090")
+	)
+	(junction
 		(at 190.5 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4067,6 +4073,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45c245f8-6102-46f0-b85e-731499a0f3a2")
+	)
+	(junction
+		(at 340.36 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "495983e1-6a2f-4d3e-9bc7-90d488ea014f")
 	)
 	(junction
 		(at 392.43 39.37)
@@ -4105,22 +4117,16 @@
 		(uuid "64107222-b31c-4ce9-a7e0-e8a1ec13edcb")
 	)
 	(junction
+		(at 347.98 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "656c14a9-aedd-4a14-8e10-d9c5bab90b57")
+	)
+	(junction
 		(at 316.23 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68ee1e64-4803-4e09-b6fa-e2234bcca263")
-	)
-	(junction
-		(at 373.38 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69a09aea-885f-47c1-a849-9b83305bb12d")
-	)
-	(junction
-		(at 349.25 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69a1b284-df8d-4ce6-a962-a74915c08825")
 	)
 	(junction
 		(at 267.97 39.37)
@@ -4205,12 +4211,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a75af59-c726-4b10-b08a-f805f66daa8c")
-	)
-	(junction
-		(at 349.25 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fa9c293-dd06-45ad-b61c-d2f9159c73f7")
 	)
 	(junction
 		(at 49.53 85.09)
@@ -4387,12 +4387,6 @@
 		(uuid "f6e5e530-6f19-4ded-8648-1b411d859151")
 	)
 	(junction
-		(at 341.63 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7e12f39-c2a0-4988-8529-47b1c7978c68")
-	)
-	(junction
 		(at 321.31 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4454,13 +4448,13 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 39.37) (xy 377.19 39.37)
+			(xy 347.98 39.37) (xy 355.6 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06b2261f-67d9-4717-80b7-1df5760dece7")
+		(uuid "05da7d7b-e826-4a2c-9491-6a1c05f845db")
 	)
 	(wire
 		(pts
@@ -4644,7 +4638,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 46.99) (xy 373.38 49.53)
+			(xy 377.19 46.99) (xy 377.19 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4844,7 +4838,17 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 39.37) (xy 349.25 41.91)
+			(xy 347.98 49.53) (xy 360.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29485335-a98e-4849-9e66-7e500f5d04af")
+	)
+	(wire
+		(pts
+			(xy 347.98 39.37) (xy 347.98 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4984,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 46.99) (xy 341.63 49.53)
+			(xy 340.36 46.99) (xy 340.36 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5294,7 +5298,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 39.37) (xy 373.38 41.91)
+			(xy 377.19 39.37) (xy 377.19 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5311,16 +5315,6 @@
 			(type default)
 		)
 		(uuid "5f097883-4719-4728-9a62-e9bb7bb29ebb")
-	)
-	(wire
-		(pts
-			(xy 349.25 39.37) (xy 355.6 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "600f47c6-405b-4b17-9431-6c8206af0df4")
 	)
 	(wire
 		(pts
@@ -5394,7 +5388,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 39.37) (xy 341.63 41.91)
+			(xy 340.36 39.37) (xy 340.36 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5754,6 +5748,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 39.37) (xy 347.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96561062-347c-402f-a976-48f25d4159d3")
+	)
+	(wire
+		(pts
 			(xy 200.66 68.58) (xy 200.66 71.12)
 		)
 		(stroke
@@ -5804,7 +5808,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 49.53) (xy 370.84 49.53)
+			(xy 377.19 49.53) (xy 370.84 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6074,16 +6078,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 49.53) (xy 360.68 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6e8220d-fba1-4516-bbcb-7f2388a09b26")
-	)
-	(wire
-		(pts
 			(xy 303.53 69.85) (xy 316.23 69.85)
 		)
 		(stroke
@@ -6221,16 +6215,6 @@
 			(type default)
 		)
 		(uuid "cd2204a8-f1e0-457c-a57e-aee181191586")
-	)
-	(wire
-		(pts
-			(xy 341.63 39.37) (xy 349.25 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd2cb7e4-7b90-4c58-b6f8-20bc7dc40031")
 	)
 	(wire
 		(pts
@@ -6554,7 +6538,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 49.53) (xy 349.25 49.53)
+			(xy 340.36 49.53) (xy 347.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6714,7 +6698,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 46.99) (xy 349.25 49.53)
+			(xy 347.98 46.99) (xy 347.98 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6764,7 +6748,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 39.37) (xy 373.38 39.37)
+			(xy 365.76 39.37) (xy 377.19 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6884,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 39.37) (xy 341.63 39.37)
+			(xy 278.13 39.37) (xy 340.36 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11358,7 +11342,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 373.38 44.45 0)
+		(at 377.19 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11368,7 +11352,7 @@
 		(dnp no)
 		(uuid "4f7b6a15-dd6e-4db7-b3b9-d936ab024563")
 		(property "Reference" "C42"
-			(at 375.92 43.1862 0)
+			(at 379.73 43.1862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11379,7 +11363,7 @@
 			)
 		)
 		(property "Value" "470n"
-			(at 375.92 45.7262 0)
+			(at 379.73 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11390,7 +11374,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 373.38 44.45 0)
+			(at 377.19 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11401,7 +11385,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
-			(at 373.38 44.45 0)
+			(at 377.19 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11412,7 +11396,7 @@
 			)
 		)
 		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 373.38 44.45 0)
+			(at 377.19 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11423,7 +11407,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 373.38 44.45 0)
+			(at 377.19 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11434,7 +11418,7 @@
 			)
 		)
 		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
-			(at 373.38 44.45 0)
+			(at 377.19 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11445,7 +11429,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 373.38 44.45 0)
+			(at 377.19 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11456,7 +11440,7 @@
 			)
 		)
 		(property "MPN" "C0603C474K3RACAUTO"
-			(at 373.38 44.45 0)
+			(at 377.19 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15798,7 +15782,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 349.25 44.45 0)
+		(at 347.98 44.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15809,7 +15793,7 @@
 		(dnp no)
 		(uuid "c35d4687-dd0b-4e46-a8e7-a215429b1372")
 		(property "Reference" "C41"
-			(at 346.71 43.1862 0)
+			(at 345.44 43.1862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15819,8 +15803,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
-			(at 346.71 45.7262 0)
+		(property "Value" "4.7u"
+			(at 345.44 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15831,7 +15815,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 349.25 44.45 0)
+			(at 347.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15841,8 +15825,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
-			(at 349.25 44.45 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/Chip_Multilayer_CAT2021_MLCC.pdf?_gl=1*1lupy3b*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw_9bWBhBGEiwAomyTIjXlafrUNihVn37SVSgYXhrKNdU4GOdmL5ksIp9KhFr42yWskDyoKhoCjeYQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlgd0of51GZaSdxwY16qCV5lu"
+			(at 347.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15852,8 +15836,8 @@
 				)
 			)
 		)
-		(property "Description" "10000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 349.25 44.45 0)
+		(property "Description" "4.7 µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 347.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15864,7 +15848,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 349.25 44.45 0)
+			(at 347.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15874,8 +15858,8 @@
 				)
 			)
 		)
-		(property "DPN" "399-12983-1-ND"
-			(at 349.25 44.45 0)
+		(property "DPN" "490-7203-1-ND"
+			(at 347.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15885,8 +15869,8 @@
 				)
 			)
 		)
-		(property "MFR" "KEMET"
-			(at 349.25 44.45 0)
+		(property "MFR" "Murata Electronics"
+			(at 347.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15896,8 +15880,8 @@
 				)
 			)
 		)
-		(property "MPN" "C0603C103J5RACAUTO"
-			(at 349.25 44.45 0)
+		(property "MPN" "GRM188R61E475KE11D"
+			(at 347.98 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17864,7 +17848,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 341.63 44.45 180)
+		(at 340.36 44.45 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17874,7 +17858,7 @@
 		(dnp no)
 		(uuid "e4ab0ca4-3a34-43ce-b5db-28117c299bc9")
 		(property "Reference" "R171"
-			(at 339.344 45.72 0)
+			(at 338.074 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17885,7 +17869,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 339.344 43.688 0)
+			(at 338.074 43.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17896,7 +17880,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 341.63 44.45 0)
+			(at 340.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17907,7 +17891,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 341.63 44.45 0)
+			(at 340.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17918,7 +17902,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 341.63 44.45 0)
+			(at 340.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17929,7 +17913,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 341.63 44.45 0)
+			(at 340.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17940,7 +17924,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 341.63 44.45 0)
+			(at 340.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17951,7 +17935,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 341.63 44.45 0)
+			(at 340.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17962,7 +17946,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 341.63 44.45 0)
+			(at 340.36 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
