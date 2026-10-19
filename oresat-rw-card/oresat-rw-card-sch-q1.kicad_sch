@@ -18738,7 +18738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18749,7 +18749,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
+		(property "Description" "0.47 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18771,7 +18771,7 @@
 				)
 			)
 		)
-		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
+		(property "DPN" "399-C0603C474K3RACAUTOCT-ND"
 			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18782,7 +18782,7 @@
 				)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "KEMET"
 			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -18793,7 +18793,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRT188R71E105KE13D"
+		(property "MPN" "C0603C474K3RACAUTO"
 			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
