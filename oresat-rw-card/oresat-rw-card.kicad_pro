@@ -51,7 +51,23 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.2,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -88,38 +104,6 @@
         ],
         [
           "silk_edge_clearance|164287500|55200000|3b14c11f-c106-4407-9e48-9c67991a655f|32649a4f-9ee9-49fd-9424-f84d1291dfd0",
-          ""
-        ],
-        [
-          "silk_over_copper|122105154|87316559|42b402b5-b92e-4eec-996e-872e713c81c2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|122334504|88081605|a238f25e-1422-455f-8bf2-129865fb45b0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|136222771|128691558|84dd9eb0-f206-476e-b816-049ceae16b66|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|136927709|128681992|b2bf912b-c254-4142-8ef0-5e876567fb5b|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|162914403|73038496|519990e9-390a-45ce-9f0d-03cc6d889d27|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|163505368|73027081|bbd3568d-2a92-4abf-9c81-6b9c58ea6b8f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|177737734|114515553|9f75ce55-1d1e-4464-a464-4e9637cd05f7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|177864892|113942791|252e2097-2e0a-4b91-886e-eff4cbba8894|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -336,7 +320,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1037,16 +1021,16 @@
       {
         "filename": "oresat-rw-card.kicad_sch",
         "name": "oresat-rw-card",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "c58960d9-4cac-4036-ad2e-1aef26946dae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R76,R164-165,R175,C32,C39-40,C43",
     "variants": []
   },
   "sheets": [
     [
       "c58960d9-4cac-4036-ad2e-1aef26946dae",
-      "Root"
+      "oresat-rw-card"
     ],
     [
       "2e7c06c0-a412-4c3a-b490-9aec08573322",
